@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "Based on the image, here is the assessment of the page's content:\n\n**Percentage Filled:** Approximately **30–35%** (or roughly **one-third**) of the page contains text. The content is concentrated in the upper portion, leaving the bottom 60–65% completely blank.\n\n**Assessment:** The page is **mostly empty**.\n\nWhile the top section is densely packed with structured revision notes (two detailed question outlines with introductions, body points, and conclusions), there is a significant amount of unused white space below the second question. This is typical for the final page of a booklet where the content simply ends mid-page, but visually, it cannot be considered \"full\" or \"well-balanced\" in terms of layout.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1788877547,
+  "id": "20260908222454037f226656c74279",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260908222454037f226656c74279",
+  "usage": {
+    "completion_tokens": 152,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 804,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 956
+  }
+}

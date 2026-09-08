@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Civics Ch 7 — Elections — Revision Notes</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+@page { size: 794px 1123px; margin: 0; }
+:root{
+  --bg:#f5faf6; --card:#ecf4ee; --stripe:#f3f8f4;
+  --thead:#4e7a5f; --border:#d4e4d8; --accent:#2d6b4a; --deep:#1a4a30;
+  --text:#1f2a22; --muted:#7c8a7f;
+}
+html,body{margin:0;padding:0;width:794px;background:var(--bg);color:var(--text);
+  font-family:'Inter','Noto Sans SC','Noto Color Emoji',sans-serif;font-size:15px;line-height:1.55;}
+body{line-break:strict;word-break:normal;overflow-wrap:break-word;}
+@media screen{
+  html{height:auto;display:flex;justify-content:center;background:#e4ede6;}
+  body{margin:20px auto;box-shadow:0 0 40px rgba(0,0,0,.12);}
+}
+p,td,li{overflow-wrap:break-word;}
+
+.cover{width:794px;height:1123px;box-sizing:border-box;position:relative;background:var(--bg);
+  break-after:page;overflow:hidden;}
+.cover .vline{position:absolute;left:92px;top:110px;bottom:110px;width:6px;background:var(--accent);}
+.cover .c-content{position:absolute;left:146px;right:76px;top:0;bottom:0;}
+.cover .kicker{position:absolute;top:140px;font-size:13px;font-weight:600;letter-spacing:4px;
+  color:var(--accent);text-transform:uppercase;}
+.cover .title{position:absolute;top:205px;font-size:58px;font-weight:900;line-height:1.15;
+  color:var(--deep);max-width:560px;}
+.cover .sub{position:absolute;top:340px;font-size:17px;font-weight:500;color:var(--accent);}
+.cover .summary{position:absolute;top:400px;font-size:15.5px;line-height:1.65;color:var(--text);
+  max-width:470px;opacity:.92;}
+.cover .chips{position:absolute;top:635px;display:flex;flex-wrap:wrap;gap:10px;max-width:520px;}
+.cover .chip{border:1.5px solid var(--border);border-radius:6px;padding:7px 13px;font-size:12.5px;
+  font-weight:600;color:var(--deep);background:var(--card);}
+.cover .meta{position:absolute;bottom:160px;font-size:14px;color:var(--muted);line-height:1.7;}
+.cover .meta b{color:var(--text);font-weight:700;}
+.cover .foot{position:absolute;bottom:105px;font-size:12px;letter-spacing:2.5px;color:var(--muted);
+  text-transform:uppercase;font-weight:500;}
+.cover .geo{position:absolute;top:88px;right:76px;opacity:.9;}
+</style>
+<style>
+.main-content{padding:48px 58px 44px 58px;}
+.sec{margin-top:24px;}
+.sec:first-child{margin-top:0;}
+.sec-h{display:flex;align-items:center;gap:12px;break-after:avoid;break-inside:avoid;
+  margin-bottom:13px;padding-bottom:8px;border-bottom:2px solid var(--border);}
+.sec-h .num{background:var(--thead);color:#fff;font-weight:800;font-size:13px;border-radius:5px;
+  padding:4px 10px;letter-spacing:.5px;flex-shrink:0;}
+.sec-h .t{font-size:21px;font-weight:800;color:var(--deep);line-height:1.25;}
+.sub-h{font-size:16px;font-weight:700;color:var(--accent);margin:16px 0 7px 0;
+  break-after:avoid;break-inside:avoid;}
+.sub-h .tag{font-weight:800;margin-right:6px;}
+
+ul.b{margin:6px 0 10px 0;padding-left:0;list-style:none;}
+ul.b>li{position:relative;padding-left:20px;margin-bottom:4.5px;break-inside:avoid;
+  text-align:left;}
+ul.b>li::before{content:'';position:absolute;left:4px;top:8.5px;width:7px;height:7px;
+  border-radius:2px;background:var(--accent);}
+ul.b ul{margin:4px 0 2px 0;padding-left:0;list-style:none;}
+ul.b ul>li{position:relative;padding-left:16px;margin-bottom:3px;font-size:14px;color:#37473a;}
+ul.b ul>li::before{content:'–';position:absolute;left:2px;color:var(--accent);font-weight:700;}
+
+.bdg{display:inline-block;font-size:11.5px;font-weight:700;border-radius:4px;padding:1.5px 7px;
+  vertical-align:1px;letter-spacing:.3px;white-space:nowrap;}
+.bdg.must{background:#fdeceb;color:#8f2b1a;border:1px solid #eec7bd;}
+.bdg.imp{background:#fdf3e7;color:#8a5a17;border:1px solid #ecd8b6;}
+.bdg.exam{background:#eaf1fa;color:#28518f;border:1px solid #c9d8ec;}
+.bdg.conf{background:#f3eefc;color:#5b3d99;border:1px solid #d8ccf0;}
+.bdg.und{background:#e9f5ee;color:#23663f;border:1px solid #c6e2d1;}
+
+table.tt{width:100%;border-collapse:collapse;font-size:13.5px;margin:8px 0 12px 0;}
+table.tt thead{display:table-header-group;}
+table.tt tr{break-inside:avoid;}
+table.tt th{background:var(--thead);color:#fff;font-weight:700;text-align:left;
+  padding:7px 10px;font-size:13px;}
+table.tt td{border:1px solid var(--border);padding:6.5px 10px;vertical-align:top;background:#fff;}
+table.tt tr:nth-child(even) td{background:var(--stripe);}
+table.tt td b{color:var(--deep);}
+
+.concept{border:1.5px solid var(--border);border-left:4px solid var(--accent);border-radius:6px;
+  background:#fff;padding:11px 14px 9px 14px;margin-bottom:10px;break-inside:avoid;}
+.concept .ct{font-size:15px;font-weight:800;color:var(--deep);margin-bottom:4px;}
+.concept .row{display:flex;gap:8px;margin-bottom:3.5px;font-size:13.8px;}
+.concept .row .k{flex-shrink:0;font-weight:700;color:var(--accent);min-width:96px;}
+.concept .row .v{color:#333f37;}
+
+.chain{border:1.5px solid var(--border);border-radius:6px;background:#fff;margin-bottom:11px;
+  break-inside:avoid;overflow:hidden;}
+.chain .ch-t{background:var(--card);font-weight:800;color:var(--deep);font-size:14.5px;
+  padding:8px 14px;border-bottom:1px solid var(--border);}
+.chain .step{display:flex;gap:10px;padding:6px 14px;border-bottom:1px dashed var(--border);
+  font-size:13.8px;}
+.chain .step:last-child{border-bottom:none;}
+.chain .step .k{flex-shrink:0;font-weight:800;color:var(--accent);width:132px;font-size:12.3px;}
+.chain .step .v{color:#333f37;}
+
+.hing{background:var(--card);border:1.5px dashed var(--accent);border-radius:6px;
+  padding:10px 14px;margin:10px 0;break-inside:avoid;}
+.hing .ht{font-size:13px;font-weight:800;color:var(--accent);margin-bottom:4px;letter-spacing:.5px;}
+.hing .hb{font-size:14px;color:#37473a;line-height:1.55;}
+
+.must-box{background:#fdeceb;border:2px solid var(--accent);border-radius:8px;
+  padding:13px 16px;margin:12px 0;break-inside:avoid;}
+.must-box .mt{font-size:15px;font-weight:900;color:#8f2b1a;margin-bottom:7px;}
+.must-box ul.b>li{margin-bottom:5px;}
+.must-box ul.b>li::before{background:#c0392b;}
+
+.rapid{border:2px solid var(--thead);border-radius:8px;background:#fff;margin:12px 0;
+  padding:14px 16px;break-inside:avoid;}
+.rapid .rt{font-size:16px;font-weight:900;color:var(--deep);margin-bottom:9px;
+  border-bottom:2px solid var(--border);padding-bottom:7px;}
+.rgrid{display:flex;flex-wrap:wrap;gap:10px;}
+.rcol{flex:1 1 46%;min-width:300px;}
+.rcol .rh{font-size:13px;font-weight:800;color:var(--accent);text-transform:uppercase;
+  letter-spacing:.5px;margin:7px 0 4px 0;}
+.rcol ul{margin:0;padding-left:18px;font-size:13.2px;}
+.rcol li{margin-bottom:2.5px;break-inside:avoid;}
+
+.mnem{display:flex;gap:10px;align-items:flex-start;background:var(--stripe);border:1px solid var(--border);
+  border-radius:6px;padding:8px 13px;margin-bottom:7px;break-inside:avoid;}
+.mnem .mk{flex-shrink:0;font-size:16px;}
+.mnem .mtt{font-size:13.6px;}
+.mnem .mtt b{color:var(--deep);}
+
+.ans{background:#fff;border:1.5px solid var(--border);border-radius:8px;padding:12px 15px;
+  margin:12px 0;break-inside:avoid;}
+.ans .at{font-weight:900;font-size:15px;color:var(--deep);margin-bottom:6px;}
+.ans .astep{display:flex;gap:9px;margin-bottom:5px;font-size:13.8px;}
+.ans .astep .k{flex-shrink:0;font-weight:800;color:var(--accent);width:110px;}
+.note{font-size:13px;color:var(--muted);margin:6px 0;font-style:italic;}
+.kf{background:var(--card);border-radius:6px;padding:1px 6px;font-weight:700;color:var(--deep);}
+</style>
+</head>
+<body>
+
+<!-- ============ COVER ============ -->
+<div class="cover">
+  <div class="vline"></div>
+  <svg class="geo" width="130" height="130" viewBox="0 0 130 130" fill="none">
+    <circle cx="55" cy="55" r="42" stroke="#2d6b4a" stroke-width="0.8" opacity="0.18"/>
+    <circle cx="67" cy="62" r="42" stroke="#2d6b4a" stroke-width="0.8" opacity="0.3"/>
+    <circle cx="80" cy="70" r="42" stroke="#2d6b4a" stroke-width="0.8" opacity="0.42"/>
+    <circle cx="112" cy="30" r="7" fill="#2d6b4a" opacity="0.5"/>
+    <circle cx="103" cy="48" r="3" fill="#2d6b4a" opacity="0.3"/>
+  </svg>
+  <div class="c-content">
+    <div class="kicker">Class 9 SST &bull; Civics &bull; Chapter 7</div>
+    <div class="title">Elections</div>
+    <div class="sub">Premium Last-Minute Revision Booklet</div>
+    <div class="summary">
+      Exam-focused short notes covering the full chapter — why elections matter, FPTP vs
+      proportional representation, election laws (RPA 1950 &amp; 1951), delimitation, the
+      Election Commission's powers &amp; digital initiatives, political parties and
+      recognition criteria, the Anti-Defection Law, coalitions, and challenges to free &amp;
+      fair elections — with Hinglish explanations and a 5-minute rapid revision.
+    </div>
+    <div class="chips">
+      <span class="chip">🗳️ 1 Civics Chapter</span>
+      <span class="chip">⚖️ FPTP vs PR</span>
+      <span class="chip">⚡ 5-Minute Revision</span>
+      <span class="chip">💡 Hinglish Explanations</span>
+      <span class="chip">🎯 Exam-Oriented</span>
+    </div>
+    <div class="meta">
+      <b>Source:</b> Understanding Society: India and Beyond &bull; Grade 9 – Part 1<br>
+      <b>Use:</b> Quick revision before school tests &amp; exams
+    </div>
+    <div class="foot">Short Notes &bull; Rapid Revision Series</div>
+  </div>
+</div>
+
+<div class="main-content">
+
+<!-- ============ 1. OVERVIEW ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">1</span><span class="t">Chapter at a Glance</span></div>
+  <ul class="b">
+    <li><b>One-line overview:</b> How India runs the world's largest democratic exercise — the electoral systems that convert votes into seats, the laws and institutions (ECI, Delimitation Commission) that keep elections free &amp; fair, and the role of political parties.</li>
+    <li>Big Questions: (1) Why are elections essential to democracy? (2) How do electoral systems shape representation &amp; fairness? (3) What role do institutions &amp; laws play in free &amp; fair elections? (4) What challenges do elections face?</li>
+    <li><b>Election</b> = a process through which we <b>exercise the right to vote</b> and fulfil our responsibility as citizens. <b>Regular, periodic elections lie at the core of democracy.</b> <span class="bdg must">🔥 MUST REMEMBER</span></li>
+    <li>Elections matter because they deliver: <b>Accountability, Representation, Legitimacy, Equality</b> — elected representatives are accountable to the people; our <b>vote is the principal means</b> of exercising this right.</li>
+  </ul>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — Elections ka importance</div>
+  <div class="hb">Elections = <b>democracy ki soul</b>. Isse 4 cheezein milti hain: <b>Accountability</b> (behave karo warna 5 saal baad nikal denge), <b>Representation</b> (tumhari awaaz ek representative), <b>Legitimacy</b> (janta ki mandate se hi sarkar banti hai), <b>Equality</b> (sabki vote barabar — PM ki bhi, kiraye-daar ki bhi). Bina elections ke, sarkar ko koi jawab-dehi nahi hoti.</div></div>
+</div>
+
+<!-- ============ 2. KEY TERMS ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">2</span><span class="t">Key Terms &amp; Definitions</span></div>
+  <table class="tt">
+    <thead><tr><th style="width:30%">Term</th><th>Meaning (exam-ready)</th></tr></thead>
+    <tbody>
+      <tr><td><b>Direct elections</b></td><td>Citizens <b>vote directly</b> to choose their representatives (Lok Sabha, Vidhan Sabha, local bodies)</td></tr>
+      <tr><td><b>Indirect elections</b></td><td>Citizens vote for representatives who then <b>choose/elect the leaders</b> (President, Vice President, Rajya Sabha)</td></tr>
+      <tr><td><b>Psephology</b></td><td><b>Scientific study of elections</b> — from Greek <i>psēphos</i> = "pebble" (ancient Greeks voted with pebbles) <span class="bdg exam">📌 EXAM POINT</span></td></tr>
+      <tr><td><b>Constituency</b></td><td>A territorial area whose voters elect one representative</td></tr>
+      <tr><td><b>Electoral system</b></td><td>Method of <b>converting votes cast into seats</b> in the legislature</td></tr>
+      <tr><td><b>FPTP</b></td><td><b>First-Past-The-Post (plurality system)</b> — candidate with the MOST votes wins, even if less than 50%</td></tr>
+      <tr><td><b>Majority system</b></td><td>Two-round system — winner needs <b>&gt;50%</b>; else top two compete in a second round</td></tr>
+      <tr><td><b>Proportional Representation (PR)</b></td><td>Seats allotted in <b>proportion to total votes</b> received by each party</td></tr>
+      <tr><td><b>Single Transferable Vote (STV)</b></td><td>PR method: voters mark <b>preferences</b>; votes of eliminated candidates are <b>transferred</b> until enough candidates reach the <b>quota</b></td></tr>
+      <tr><td><b>Quota</b></td><td>Minimum votes needed to win = <b>total valid votes ÷ seats to be filled</b></td></tr>
+      <tr><td><b>Vidhan Parishad</b></td><td>Legislative Council — the <b>Upper House</b> in bicameral states</td></tr>
+      <tr><td><b>Delimitation</b></td><td>Process of determining the number of seats &amp; fixing territorial boundaries of constituencies — keeps the <b>seats-to-population ratio nearly equal</b></td></tr>
+      <tr><td><b>Electoral roll</b></td><td>Voters' list for each constituency, organised <b>polling-station-wise</b>; only those on the roll can vote</td></tr>
+      <tr><td><b>SIR</b></td><td><b>Special Intensive Revision</b> — updating, verifying &amp; correcting electoral rolls (add eligible voters, delete dead/shifted/duplicate/untraceable)</td></tr>
+      <tr><td><b>Defection</b></td><td><b>Abandoning/switching</b> from the party on whose ticket a member was elected — "political opportunism" (or conscience, depending on view)</td></tr>
+      <tr><td><b>Whip</b></td><td>Party's voting instruction in the legislature — voting against it can disqualify a member</td></tr>
+      <tr><td><b>RUPP</b></td><td><b>Registered Unrecognised Political Parties</b> — parties without enough votes/seats, or never contested since registration</td></tr>
+      <tr><td><b>Coalition government</b></td><td>Government formed by an <b>alliance</b> of parties (first at national level: Janata Party, 1977)</td></tr>
+      <tr><td><b>VVPAT</b></td><td>Voter Verifiable Paper Audit Trail — printed slip lets voters <b>verify</b> their vote</td></tr>
+      <tr><td><b>ETPBS</b></td><td>Electronically Transmitted Postal Ballot System — lets <b>service voters</b> cast postal ballots electronically from outside their constituency</td></tr>
+      <tr><td><b>MCC</b></td><td>Model Code of Conduct — rules for campaigns; violations reportable via cVIGIL</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ============ 3. ELECTORAL SYSTEMS ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">3</span><span class="t">The Electoral System — FPTP vs PR <span class="bdg must">🔥 MUST REMEMBER (whole section)</span></span></div>
+  <ul class="b">
+    <li>First step of conducting elections = deciding how <b>votes convert into seats</b>. The framers of the Constitution chose the <b>plurality (FPTP)</b> system.</li>
+    <li><b>FPTP is used for:</b> <b>Lok Sabha + Vidhan Sabha</b> elections. <b>Proportional Representation is used for:</b> <b>Rajya Sabha, President, Vice President</b> (and Vidhan Parishad — via STV). <span class="bdg exam">📌 EXAM POINT</span></li>
+  </ul>
+  <table class="tt">
+    <thead><tr><th style="width:21%">Feature</th><th style="width:30%">First Past The Post (FPTP)</th><th style="width:24%">Majority System (2 rounds)</th><th>Proportional Representation (PR)</th></tr></thead>
+    <tbody>
+      <tr><td><b>How voting works</b></td><td>Each voter votes for one candidate in their constituency; candidate with the <b>most votes wins even if &lt;50%</b></td><td>Candidate needs <b>&gt;50%</b>; if not, the <b>top two compete in a second round</b></td><td>Voters vote for a <b>party, not a person</b>; seats allotted in <b>proportion to total votes</b></td></tr>
+      <tr><td><b>Textbook example</b></td><td>Haritbhumi: A 40%, B 35%, C 25% → <b>Party A forms the government</b> (with only 40%!) <span class="bdg exam">📌 EXAM POINT</span></td><td>Ratnadeep: no one crossed 50% in Round 1 → Round 2: <b>Y wins with 55%</b></td><td>Swarnalok (100 seats): M 40%, N 35%, O 15%, P 10% → seats <b>M:40, N:35, O:15, P:10</b> — power shared proportionately</td></tr>
+      <tr><td><b>Who forms govt</b></td><td>Party with most seats (may be &lt;50% of votes)</td><td>Round-2 winner (majority)</td><td>Coalitions — shares power by vote share</td></tr>
+    </tbody>
+  </table>
+  <div class="sub-h"><span class="tag">3.1</span>Single Transferable Vote (STV) — counting &amp; transfer <span class="bdg exam">📌 EXAM POINT</span></div>
+  <div class="chain">
+    <div class="ch-t">STV — how it works</div>
+    <div class="step"><div class="k">QUOTA</div><div class="v">Quota = <b>Total valid votes ÷ Seats to be filled</b> = minimum votes to win</div></div>
+    <div class="step"><div class="k">STEP 1</div><div class="v">Voters <b>mark preferences</b> (1st, 2nd, 3rd…)</div></div>
+    <div class="step"><div class="k">STEP 2</div><div class="v"><b>First-preference votes counted</b> for all candidates; those reaching the <b>quota are declared elected</b></div></div>
+    <div class="step"><div class="k">STEP 3</div><div class="v">Candidate with the <b>lowest votes is eliminated</b>; their votes are <b>transferred</b> to the candidates marked as <b>second preference</b> on those ballot papers</div></div>
+    <div class="step"><div class="k">STEP 4</div><div class="v">Process continues until the <b>required number of candidates are elected</b></div></div>
+  </div>
+  <ul class="b">
+    <li><b>Vidhan Parishad elections</b> also use <b>PR by means of STV</b>.</li>
+  </ul>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — FPTP vs PR</div>
+  <div class="hb"><b>FPTP</b> = "race ka winner" — jo candidate sabse zyada votes laaye, woh jeet gaya, chahe uski 30% hi kyun na ho (Haritbhumi: A ko 40% mila, B 35%, C 25% — A jeet gaya!). <b>Majority</b> = "50% + dikhaao" — nahi dikha to top-2 dobara race. <b>PR</b> = "proportion mein seats" — party ko jitne % votes, utni % seats (jaise Swarnalok mein 40% votes = 40 seats). Isliye FPTP mein winner ho sakte hain "minority-vote wala", PR mein power share hoti hai. STV = PR + preference transfer (eliminated candidate ke votes doosre ko jaate hain).</div></div>
+
+  <div class="sub-h"><span class="tag">3.2</span>Bicameral States — 6 states have a Vidhan Parishad <span class="bdg exam">📌 EXAM POINT</span></div>
+  <ul class="b">
+    <li><b>Six bicameral states:</b> <b>Andhra Pradesh, Bihar, Karnataka, Maharashtra, Telangana, Uttar Pradesh</b>.</li>
+    <li><b>Vidhan Sabha</b> = Lower House (directly elected; makes laws for the State/UTs; FPTP). <b>Vidhan Parishad</b> = Upper House.</li>
+    <li><b>Vidhan Parishad's members:</b> elected by <b>members of the Vidhan Sabha &amp; local bodies</b>, and also by <b>graduates and teachers</b> of the state; <b>Governor nominates some members</b> for fields like art, science, social service, literature, co-operatives.</li>
+  </ul>
+</div>
+
+<!-- ============ 4. LAWS ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">4</span><span class="t">The Laws Governing Elections <span class="bdg must">🔥 MUST REMEMBER</span></span></div>
+  <table class="tt">
+    <thead><tr><th style="width:34%">Law</th><th>What it covers</th></tr></thead>
+    <tbody>
+      <tr><td><b>Representation of the People Act, 1950</b></td><td><b>"Rolls &amp; boundaries"</b> — allocation of seats, <b>delimitation of constituencies</b>, preparation &amp; revision of <b>electoral rolls</b>; ensures every citizen <b>18+</b> has the right to vote without discrimination</td></tr>
+      <tr><td><b>Representation of the People Act, 1951</b></td><td><b>"Conduct &amp; disputes"</b> — all other aspects of conducting elections: <b>nomination of candidates, campaigns, voting procedures, post-election disputes</b>; lists <b>electoral offences &amp; corrupt practices</b></td></tr>
+      <tr><td><b>Presidential &amp; Vice-Presidential Act, 1952</b></td><td>Rules for Presidential &amp; Vice-Presidential elections</td></tr>
+    </tbody>
+  </table>
+  <div class="note">Trick: <b>1950 = foundation (rolls + delimitation); 1951 = fighting (conduct + disputes)</b>.</div>
+  <div class="sub-h"><span class="tag">4.1</span>Corrupt practices (RPA 1951) <span class="bdg exam">📌 EXAM POINT</span></div>
+  <ul class="b">
+    <li><b>Bribery:</b> any gift, offer or promise by a candidate (or with their consent) to make a person <b>contest, withdraw, vote or refrain from voting</b>.</li>
+    <li><b>Communal appeal:</b> appealing to vote or refrain from voting on the basis of <b>religion, caste, race, community, or language</b>.</li>
+    <li><b>Misuse of government personnel:</b> candidates (or anyone on their behalf) cannot take assistance from government-related personnel — <b>gazetted officers, judges &amp; magistrates, armed forces, police, excise officers</b>.</li>
+  </ul>
+</div>
+
+<!-- ============ 5. DELIMITATION ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">5</span><span class="t">Delimitation Commission</span></div>
+  <ul class="b">
+    <li>Constituency boundaries are <b>NOT permanently fixed</b> — they change with shifts in population density.</li>
+    <li><b>Why it matters:</b> without delimitation, one MP might represent 5 lakh people while another represents 25 lakh — defeating <b>equal representation</b>.</li>
+    <li><b>Delimitation</b> = determining the number of seats &amp; fixing territorial boundaries in each state for <b>Lok Sabha &amp; Vidhan Sabha</b> elections; aim: seats-to-population ratio as close to equal as possible.</li>
+    <li><b>Article 82</b> of the Constitution mandates the Delimitation Commission. <b>Four commissions so far: 1952, 1963, 1973, 2002</b> (long gap 1973→2002). <span class="bdg must">🔥 MUST REMEMBER</span></li>
+  </ul>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — Delimitation</div>
+  <div class="hb">Simple idea: <b>ek MLA/MP kitne logon ko represent kare?</b> Agar ek constituency mein 5 lakh log aur doosri mein 25 lakh — toh unfair hai! Delimitation = boundaries ko adjust karna taaki har constituency mein <b>barabar population</b> rahe. Jaise classes ko sections mein divide karna taaki har section mein barabar students hon. 1952, 1963, 1973, 2002 — 4 baar hua hai.</div></div>
+</div>
+<!-- ============ 6. ECI ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">6</span><span class="t">Election Commission of India (ECI) <span class="bdg must">🔥 MUST REMEMBER (whole section)</span></span></div>
+  <ul class="b">
+    <li>Constitution vests in the ECI the <b>superintendence, direction, and control</b> of the entire process for the conduct of elections. <span class="bdg exam">📌 EXAM POINT (phrase)</span></li>
+    <li>ECI = <b>autonomous, permanent, constitutional body</b>; established <b>25 January 1950</b> — that's why <b>25 January = National Voters' Day</b>! Conducts elections to the <b>Lok Sabha, Rajya Sabha, Vidhan Sabha, Vidhan Parishad, President &amp; Vice President</b>.</li>
+    <li><b>Articles 324–329</b> provide for the ECI's establishment, powers &amp; duties. <span class="bdg exam">📌 EXAM POINT</span></li>
+    <li><b>State level:</b> <b>Chief Electoral Officer (CEO)</b> — appointed by the ECI from civil servants in consultation with the state government; state officers (District Magistrates, Sub-Divisional Magistrates, Tahsildars) serve as <b>District Election Officers, Returning Officers, Electoral Registration Officers</b>.</li>
+  </ul>
+  <div class="sub-h"><span class="tag">6.1</span>Functions of the ECI</div>
+  <div class="concept">
+    <div class="ct">① Creates &amp; maintains the electoral roll</div>
+    <div class="row"><div class="k">How</div><div class="v">Official <b>enumerators</b> visit every household to collect data on eligible electors → rolls prepared for each constituency, <b>organised polling-station-wise</b>; only those on the roll can vote</div></div>
+    <div class="row"><div class="k">SIR</div><div class="v"><b>Special Intensive Revision</b> = updating, verifying &amp; correcting rolls — adds <b>young voters who just turned 18</b>, deletes names of voters who <b>died, shifted residence, are duplicate enrolments or permanently untraceable</b></div></div>
+    <div class="row"><div class="k">Fairness</div><div class="v">Time given to raise <b>claims &amp; objections</b>; settled before the final roll is published</div></div>
+  </div>
+  <div class="concept">
+    <div class="ct">② Decides the schedule and dates</div>
+    <div class="row"><div class="k">When</div><div class="v">When the constitutionally mandated 5-year term ends, OR the legislature is <b>dissolved before completion</b></div></div>
+    <div class="row"><div class="k">Factors</div><div class="v"><b>Weather, agricultural cycle, school/university exams, festivals</b> (huge &amp; diverse country!)</div></div>
+  </div>
+  <div class="concept">
+    <div class="ct">③ Registers political parties &amp; allocates symbols</div>
+    <div class="row"><div class="k">Registration</div><div class="v">Only parties <b>registered with the ECI</b> can contest; <b>independent candidates</b> (not affiliated to any party) can also contest</div></div>
+    <div class="row"><div class="k">Inner-party democracy</div><div class="v">ECI insists parties hold <b>organisational elections periodically</b></div></div>
+    <div class="row"><div class="k">Classification</div><div class="v"><b>National parties, state/regional parties, registered-unrecognised parties (RUPP)</b>; national &amp; state parties get <b>election symbols</b>; ECI acts as a <b>quasi-judicial body</b> in disputes over party recognition &amp; symbol allotment</div></div>
+  </div>
+  <div class="concept">
+    <div class="ct">④ Ensures free, fair &amp; inclusive elections</div>
+    <div class="row"><div class="k">Why</div><div class="v">If fairness fails, public confidence weakens — elections may be "held" but their <b>democratic value is reduced</b></div></div>
+    <div class="row"><div class="k">Inclusion</div><div class="v">Focus on <b>PwDs, senior citizens, transgender persons, PVTGs</b>; <b>voting from home</b> for senior citizens <b>above 85</b> &amp; PwDs with <b>40% benchmark disability</b> — extended across India for the first time in the <b>2024 General Elections</b>; <b>EVMs with Braille</b></div></div>
+  </div>
+
+  <div class="sub-h"><span class="tag">6.2</span>ECI's Digital Ecosystem <span class="bdg exam">📌 EXAM POINT (any 3–4 apps)</span></div>
+  <table class="tt">
+    <thead><tr><th style="width:26%">App / System</th><th>Purpose</th></tr></thead>
+    <tbody>
+      <tr><td><b> Suvidha</b></td><td>App for <b>contesting candidates &amp; parties</b> — nomination forms, permissions (meetings, rallies, vehicles, loudspeakers), real-time permission status</td></tr>
+      <tr><td><b>Voter Helpline App</b></td><td>Multipurpose voter services — <b>registration, transposition, verification</b>, election news &amp; updates</td></tr>
+      <tr><td><b>ENCORE</b></td><td>Seamless <b>form processing &amp; database handling</b> — efficient form-processing, simplified dashboards, role-based access, maintenance of e-rolls</td></tr>
+      <tr><td><b>Saksham App</b></td><td>Customised services for <b>PwDs</b> — registration, finding polling stations</td></tr>
+      <tr><td><b>cVIGIL App</b></td><td>Voters <b>report Model Code of Conduct violations</b> in minutes — <b>flying squads</b> navigate to the spot via auto-location for prompt action</td></tr>
+      <tr><td><b>Sugam</b></td><td>Web-based <b>vehicle management</b> — vehicles requisitioned from other departments for election work</td></tr>
+      <tr><td><b>ETPBS</b></td><td><b>Service voters</b> receive &amp; cast postal ballots <b>electronically</b> from anywhere outside their constituency</td></tr>
+    </tbody>
+  </table>
+  <ul class="b">
+    <li><b>IEVP (International Election Visitors' Programme)</b> — ECI's flagship international cooperation programme; ECI has signed <b>MoUs with 28 Election Management Bodies</b> + 3 international organisations: <b>IFES, International IDEA, and the United Nations</b>. <span class="bdg imp">⭐ IMPORTANT</span></li>
+    <li><b>National Voters' Day (25 January)</b> pledge — vote <b>fearlessly, without being influenced by religion, race, caste, community, language or any inducement</b>.</li>
+  </ul>
+</div>
+
+<!-- ============ 7. POLITICAL PARTIES ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">7</span><span class="t">Political Parties</span></div>
+  <ul class="b">
+    <li>Voters learn about candidates, policies, vision &amp; positions on issues <b>primarily through political parties</b>; parties set the election agenda (manifestos, rallies, debates via media).</li>
+    <li><b>Functions of political parties:</b> organise public opinion; campaign on specific issues; <b>offer voters meaningful choices</b>; enable informed decisions; provide <b>governance, accountability, representation, and public engagement</b> — essential to a democratic system, working at the grassroots. <span class="bdg exam">📌 EXAM POINT</span></li>
+    <li>India has a <b>multi-party system</b> — many parties exist &amp; compete; reflects diversity of languages, cultures, religions, regions.</li>
+  </ul>
+  <div class="sub-h"><span class="tag">7.1</span>Defection &amp; the Anti-Defection Law <span class="bdg must">🔥 MUST REMEMBER</span></div>
+  <ul class="b">
+    <li><b>Defection</b> = abandoning or switching from the party under whose banner a candidate was elected — joining another party or acting independently of the party's decisions (e.g., voting in the legislature). Seen as <b>political opportunism</b> (or as upholding conscience/responding to public expectations).</li>
+    <li><b>Anti-Defection Law:</b> passed in <b>1985</b> through the <b>52nd Constitutional Amendment Act</b> — purpose: prevent defection, provide <b>stability to the elected government</b>. <span class="bdg exam">📌 EXAM POINT</span></li>
+    <li>If a member of Parliament or a State Assembly <b>voluntarily gives up party membership or votes against the party's instructions (whip)</b> → can be <b>disqualified from the House</b>; the <b>Speaker or Chairman of the House</b> decides such cases.</li>
+  </ul>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — Defection ("Aaya Ram Gaya Ram")</div>
+  <div class="hb">Candidate party X ki ticket se jeeta, phir chupke se party Y mein chala gaya — yeh <b>defection</b> hai (jaise "Aaya Ram, Gaya Ram"). Isse governments gir jaati thi, isliye <b>1985 mein 52nd Amendment</b> laaya gaya: agar member apni party chhoda ya <b>whip</b> (party ka voting order) ke against vote kiya → usko House se <b>disqualify</b> kar sakte hain. Speaker/Chairman faisla karta hai. Goal = stability.</div></div>
+
+  <div class="sub-h"><span class="tag">7.2</span>Recognition criteria — National vs State party <span class="bdg exam">📌 EXAM POINT</span></div>
+  <table class="tt">
+    <thead><tr><th style="width:50%">National Party (any ONE condition)</th><th>State Party (any ONE condition)</th></tr></thead>
+    <tbody>
+      <tr><td>① <b>6% of valid votes</b> in <b>4 or more states</b> in a General Election (Lok Sabha or Vidhan Sabha) <b>+ wins 4 Lok Sabha seats</b></td><td>① <b>6% of valid votes</b> in a General Election to the state's <b>Legislative Assembly + 2 seats</b> in that Assembly</td></tr>
+      <tr><td>② Wins <b>2% of Lok Sabha seats</b>, with candidates elected from <b>at least 3 states</b></td><td>② <b>6% of valid votes</b> in a General Election to the <b>Lok Sabha from the state + 1 Lok Sabha seat</b></td></tr>
+      <tr><td>③ Recognised as a <b>State Party in at least 4 states</b></td><td>③ <b>3% of seats</b> in the state Legislative Assembly (or at least <b>3 seats</b>, whichever is more)</td></tr>
+      <tr><td rowspan="2">—</td><td>④ <b>1 Lok Sabha seat for every 25 seats</b> (or fraction) allotted to the state</td></tr>
+      <tr><td>⑤ <b>8% of valid votes</b> polled in the state (Lok Sabha or Assembly election)</td></tr>
+    </tbody>
+  </table>
+  <ul class="b">
+    <li><b>RUPP (Registered Unrecognised Political Parties):</b> parties that have not secured enough vote percentage in Legislative Assembly or General Elections, OR have <b>never contested since registration</b>.</li>
+  </ul>
+
+  <div class="sub-h"><span class="tag">7.3</span>Coalitions — the alliance era <span class="bdg imp">⭐ IMPORTANT</span></div>
+  <ul class="b">
+    <li><b>1967:</b> end of the single-party-dominated era; <b>era of alliances began</b>.</li>
+    <li><b>1977:</b> parties formed an alliance as the <b>Janata Party</b> (backdrop: the National Emergency) — formed the <b>first coalition government at the national level</b> — the "Janata Government". <span class="bdg exam">📌 EXAM POINT</span></li>
+    <li>Since the late 1990s: <b>NDA</b> (National Democratic Alliance, led by BJP) &amp; <b>UPA</b> (United Progressive Alliance, led by INC — dissolved 2023, reconstituted as the <b>Indian National Developmental Inclusive Alliance</b>) — the major political alliances.</li>
+  </ul>
+</div>
+
+<!-- ============ 8. CHALLENGES ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">8</span><span class="t">Challenges to Free &amp; Fair Elections</span></div>
+  <ul class="b">
+    <li>Scale of the challenge: <b>96.8 crore voters (2024)</b>, thousands of polling stations, hundreds of parties, diverse regions &amp; socio-economic realities.</li>
+    <li>Key challenges: <b>misinformation, fake news, intimidation</b> (+ money power, per the chapter's discussion).</li>
+    <li><b>ECI's remedies:</b> <b>RPA 1950 &amp; 1951</b>, the <b>Model Code of Conduct (MCC)</b>, <b>VVPAT</b> (Voter Verifiable Paper Audit Trail), voters' awareness campaigns &amp; other measures. <span class="bdg exam">📌 EXAM POINT</span></li>
+    <li>With <b>constant vigilance + active citizen participation</b>, elections become more representative and democracy more robust.</li>
+  </ul>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — Fake news ka kya karna hai?</div>
+  <div class="hb">WhatsApp pe "aaj hi forward karo warna vote cancel ho jayega" — sab <b>fake news</b>! Misinformation public opinion ko manipulate karti hai, intimidation se log dar kar vote nahi karte. ECI ka jawab: MCC (campaign rules), <b>VVPAT</b> (vote verify karne ki receipt — EVM galat to nahi?), awareness campaigns. Aur tumhara jawab: <b>verify karo, aankh band karke forward mat karo!</b></div></div>
+</div>
+
+<!-- ============ 9. CASE STUDY ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">9</span><span class="t">Case Study — Ishani's First Vote <span class="bdg exam">📌 EXAM POINT (source-based Q)</span></span></div>
+  <div class="concept">
+    <div class="ct">Ishani goes to vote (state assembly elections)</div>
+    <div class="row"><div class="k">Story</div><div class="v">Ishani (just turned <b>18</b>) registered online via the <b>ECI's online portal</b>; day before the election — wall writings &amp; campaign posters everywhere; next morning she goes with her mother &amp; <b>disabled elder brother</b>; polling station guarded by police; <b>wheelchair available</b>, volunteers guide them; only <b>3 officials performing all duties</b>; she forgot her Voter ID &amp; Aadhaar — <b>but was still allowed to vote</b>; after voting she <b>saw her VVPAT slip</b>; her <b>89-year-old grandmother cast her vote from home</b>; wondered how <b>police personnel on duty</b> vote</div></div>
+    <div class="row"><div class="k">Takeaways</div><div class="v">① ECI initiatives: online registration, wheelchair access, volunteers, voting from home (85+ &amp; PwDs) ② Other valid documents can replace Voter ID ③ VVPAT lets voters verify their vote ④ <b>Service voters</b> (police/army on duty) use postal ballots — <b>ETPBS</b></div></div>
+    <div class="row"><div class="k">MCC violations</div><div class="v">Wall writings, posters &amp; pamphlets pasted/distributed <b>near election day</b> violate the Model Code of Conduct</div></div>
+  </div>
+  <ul class="b">
+    <li>Elections in India are also called a <b>"festival of democracy"</b> — <b>no voter is to be left behind</b>: even a single voter in a remote area gets a polling station.</li>
+    <li>Debate topic: <b>"One Nation, One Election"</b> — can it improve the efficiency of the electoral process? (advantages vs limitations discussion)</li>
+  </ul>
+</div>
+<!-- ============ 10. MUST REMEMBER ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">10</span><span class="t">🔥 MUST REMEMBER — Top Exam Facts</span></div>
+  <div class="must-box">
+    <div class="mt">🔥 If you remember nothing else, remember these:</div>
+    <ul class="b">
+      <li>Elections = <b>soul of democracy</b>: accountability, representation, legitimacy, equality; the vote = principal means of exercising this right.</li>
+      <li><b>Direct elections:</b> Lok Sabha, Vidhan Sabha, local bodies (every 5 years). <b>Indirect:</b> President, Vice President, Rajya Sabha.</li>
+      <li><b>FPTP → Lok Sabha &amp; Vidhan Sabha; PR (STV) → Rajya Sabha, President, VP, Vidhan Parishad.</b> FPTP: most votes wins even &lt;50% (Haritbhumi: A with 40% forms govt); PR: seats ∝ votes (Swarnalok: 40% → 40/100).</li>
+      <li>STV: quota = valid votes ÷ seats; lowest candidate eliminated → votes <b>transferred</b> to 2nd preference; repeat till enough elected.</li>
+      <li><b>6 bicameral states:</b> Andhra Pradesh, Bihar, Karnataka, Maharashtra, Telangana, UP.</li>
+      <li><b>RPA 1950</b> = seats, delimitation, electoral rolls, 18+ voting right; <b>RPA 1951</b> = nomination, campaigns, voting, disputes, corrupt practices.</li>
+      <li>Delimitation: <b>Article 82</b>; 4 commissions — <b>1952, 1963, 1973, 2002</b>.</li>
+      <li><b>ECI: 25 January 1950</b> (→ National Voters' Day); <b>Articles 324–329</b>; "superintendence, direction &amp; control"; CEO at state level.</li>
+      <li>ECI functions: electoral rolls (+SIR), schedule (weather, agriculture, exams, festivals), party registration &amp; symbols (quasi-judicial), free &amp; fair elections.</li>
+      <li><b>Anti-Defection Law: 1985, 52nd Constitutional Amendment</b> — leaving party or defying whip → disqualification; Speaker/Chairman decides.</li>
+      <li>Coalitions: 1967 alliances begin; <b>1977 Janata Party = first national coalition</b>; NDA (BJP) &amp; UPA (INC; reconstituted 2023 as INDIA alliance).</li>
+      <li>Challenges: misinformation, fake news, intimidation → ECI's remedies: RPA, <b>MCC, VVPAT</b>, awareness campaigns.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============ 11. LAST 5-MINUTE REVISION ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">11</span><span class="t">⚡ Last 5-Minute Revision</span></div>
+  <div class="rapid">
+    <div class="rt">⚡ Read this 5 minutes before the exam</div>
+    <div class="rgrid">
+      <div class="rcol">
+        <div class="rh">🗓️ Dates &amp; numbers</div>
+        <ul>
+          <li>25 January 1950 — ECI established → National Voters' Day</li>
+          <li>RPA 1950 &amp; RPA 1951; Presidential &amp; VP Act 1952</li>
+          <li>Delimitation Commissions: 1952, 1963, 1973, 2002</li>
+          <li>1985 — Anti-Defection Law (52nd Amendment)</li>
+          <li>1967 alliance era; 1977 Janata Party coalition</li>
+          <li>Elections every 5 years; voting age 18+</li>
+          <li>Voting from home: 85+ &amp; PwDs (40% benchmark), 2024 first nationwide</li>
+        </ul>
+        <div class="rh">⚖️ Key differences</div>
+        <ul>
+          <li>Direct (LS, VS, local) vs Indirect (President, VP, RS)</li>
+          <li>FPTP (most votes, can be &lt;50%) vs Majority (&gt;50% or 2 rounds) vs PR (seats ∝ votes)</li>
+          <li>National party vs State party (recognition criteria)</li>
+          <li>Recognised parties vs RUPP</li>
+          <li>RPA 1950 (rolls) vs RPA 1951 (conduct + disputes)</li>
+        </ul>
+      </div>
+      <div class="rcol">
+        <div class="rh">🧠 ECI in one breath</div>
+        <ul>
+          <li>Autonomous, permanent, constitutional; Articles 324–329</li>
+          <li>Superintendence, direction &amp; control of ALL elections</li>
+          <li>Rolls (SIR) + schedule + party registration/symbols + fairness</li>
+          <li>Quasi-judicial in party/symbol disputes</li>
+        </ul>
+        <div class="rh">📱 Apps (name → work)</div>
+        <ul>
+          <li>Suvidha — candidates' permissions &amp; nominations</li>
+          <li>Voter Helpline — registration, verification</li>
+          <li>ENCORE — forms, dashboards, e-rolls</li>
+          <li>Saksham — PwD services; cVIGIL — MCC violations (flying squads)</li>
+          <li>Sugam — vehicles; ETPBS — service voters</li>
+          <li>IEVP: MoUs with 28 EMBs + IFES, IDEA, UN</li>
+        </ul>
+        <div class="rh">⚡ Rapid-fire facts</div>
+        <ul>
+          <li>Psephology = scientific study of elections (psēphos = pebble)</li>
+          <li>Quota = total valid votes ÷ seats to be filled</li>
+          <li>Vidhan Parishad: MLAs + local bodies + graduates &amp; teachers elect; Governor nominates some</li>
+          <li>Corrupt practices: bribery, communal appeals, govt-personnel help</li>
+          <li>Defection = leaving the party whose ticket you won on</li>
+          <li>First national coalition: Janata govt (1977, post-Emergency)</li>
+          <li>No voter left behind — stations even for a single voter</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 12. MEMORY TRICKS ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">12</span><span class="t">🧠 Memory Tricks &amp; Mnemonics</span></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Bicameral 6 states — "ABKMTU: Aaj Bharat Ki Maha-Teleangana-UP":</b> <b>A</b>ndhra, <b>B</b>ihar, <b>K</b>arnataka, <b>M</b>aharashtra, <b>T</b>elangana, <b>U</b>ttar Pradesh</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Delimitation years — "52-63-73-2002 (gap saal badhao: +11, +10, phir 29 saal jump)":</b> 1952, 1963, 1973, 2002</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>RPA acts — "50 = Foundation (rolls), 51 = Fight (conduct &amp; disputes)":</b> 1950 builds the list, 1951 polices the battle</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>ECI apps — "SEVS SCE: Suvidha-Encore-Voterhelpline-Saksham-cVIGIL-Sugam-ETPBS":</b> remember "SEVS SCE" (Sewa-SC!) — ECI ki seva, sab apps!</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>FPTP vs PR — "Race vs Pie":</b> FPTP = race (sabse aage = winner, chahe 30% hi ho); PR = pie (jitna vote, utna hissa — seats proportional)</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>National party criteria — "6-4-4 / 2-3 / 4-states":</b> 6% votes in 4 states + 4 LS seats; OR 2% LS seats from 3 states; OR state party in 4 states</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Corrupt practices — "BCG (Brasht-Corrupt-Ghotala):</b> <b>B</b>ribery, <b>C</b>ommunal appeal, <b>G</b>overnment personnel misuse</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Elections importance — "ARLE (Aa Rahe hai Elections!):</b> <b>A</b>ccountability, <b>R</b>epresentation, <b>L</b>egitimacy, <b>E</b>quality</div></div>
+</div>
+
+<!-- ============ 13. ANSWER WRITING ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">13</span><span class="t">📝 How to Use These Points in an Answer</span></div>
+  <div class="ans">
+    <div class="at">Q. "Explain the First-Past-The-Post system with an example." (3–5 marks)</div>
+    <div class="astep"><div class="k">INTRODUCTION</div><div class="v">The FPTP (plurality) system is the electoral system used for India's Lok Sabha and Vidhan Sabha elections, chosen by the framers of the Constitution.</div></div>
+    <div class="astep"><div class="k">BODY (3–5 points)</div><div class="v">① Each voter votes for one candidate in their constituency ② The candidate with the MOST votes wins — even if the votes are less than 50% of total votes polled ③ Example (from the textbook): in Haritbhumi, Party A (40%), B (35%), C (25%) — Party A wins and forms the government ④ Contrast with the majority system (needs &gt;50%, two rounds) and PR (seats proportional to votes)</div></div>
+    <div class="astep"><div class="k">CONCLUSION</div><div class="v">FPTP is simple and produces clear winners, though a winner may not have majority support — which is why other systems exist.</div></div>
+  </div>
+  <div class="ans">
+    <div class="at">Q. "Describe the functions of the Election Commission of India." (5 marks)</div>
+    <div class="astep"><div class="k">INTRODUCTION</div><div class="v">The ECI (established 25 January 1950; Articles 324–329) is an autonomous, permanent constitutional body with superintendence, direction &amp; control of elections.</div></div>
+    <div class="astep"><div class="k">BODY (3–5 points)</div><div class="v">① Prepares &amp; revises electoral rolls (enumerators, SIR, claims &amp; objections) ② Decides election schedule &amp; dates (weather, agricultural cycle, exams, festivals) ③ Registers political parties, classifies national/state/RUPP, allots symbols; quasi-judicial role in disputes; insists on inner-party democracy ④ Ensures free, fair &amp; inclusive elections — MCC, VVPAT, inclusion of PwDs/senior citizens/transgender persons/PVTGs, digital apps (cVIGIL, ETPBS…) ⑤ State machinery: CEO → DEOs, ROs, EROs</div></div>
+    <div class="astep"><div class="k">CONCLUSION</div><div class="v">Through these functions, the ECI upholds the world's largest democratic exercise — free, fair and inclusive elections.</div></div>
+  </div>
+  <div class="ans">
+    <div class="at">Q. (Case-study based) "Based on Ishani's first voting experience — (a) What initiatives did the ECI take? (b) Which other document might she have carried? (c) Cite MCC violations." (5 marks)</div>
+    <div class="astep"><div class="k">INTRODUCTION</div><div class="v">The case shows ECI's inclusive, citizen-friendly electoral practices in action.</div></div>
+    <div class="astep"><div class="k">BODY (3–5 points)</div><div class="v">① Online voter registration through the ECI portal ② Wheelchair + volunteer assistance for her disabled brother (PwD inclusion — Saksham) ③ Voting from home for the 89-year-old grandmother (85+ &amp; PwDs with 40% benchmark disability) ④ She could vote without Voter ID/Aadhaar — other officially valid documents (e.g. passport, driving licence) are accepted ⑤ VVPAT slip let her verify her vote; MCC violations — wall writings, posters &amp; pamphlets near polling day; police on duty vote as service voters via ETPBS</div></div>
+    <div class="astep"><div class="k">CONCLUSION</div><div class="v">Such measures show "no voter is left behind" and keep elections free, fair &amp; inclusive.</div></div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>

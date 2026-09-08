@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "**Image 1:**\n1. **Emoji icons:** Yes, the calendar icon next to \"Timeline\" renders correctly.\n2. **Tables:** Clean, no overflow.\n3. **Overlapping/Cut-off text:** None.\n4. **Page footer:** Visible (\"Ch 5 • State and Society up to 1000 CE\" and page number \"2\").\n5. **Layout defects:** None.\n\n**Image 2:**\n1. **Emoji icons:** Yes, all icons (map pin, lightbulb, fire, tiger, fish, bow) render correctly.\n2. **Tables:** Clean, no overflow.\n3. **Overlapping/Cut-off text:** None.\n4. **Page footer:** Visible (page number \"5\").\n5. **Layout defects:** None.\n\n**Image 3:**\n1. **Emoji icons:** Yes, all icons (lightbulb, fire, warning triangle) render correctly.\n2. **Tables:** Clean, no overflow.\n3. **Overlapping/Cut-off text:** None.\n4. **Page footer:** Visible (page number \"10\").\n5. **Layout defects:** None.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1788877265,
+  "id": "20260908222039817130a44aab477c",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260908222039817130a44aab477c",
+  "usage": {
+    "completion_tokens": 234,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 2379,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 2613
+  }
+}

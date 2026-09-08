@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>History Ch 5 — State and Society up to 1000 CE — Revision Notes</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+@page { size: 794px 1123px; margin: 0; }
+:root{
+  --bg:#fbf6f3; --card:#f7ede8; --stripe:#fdf8f5;
+  --thead:#8a5a4c; --border:#e5cfc5; --accent:#9c3a26; --deep:#6d2a1c;
+  --text:#2a2320; --muted:#8b7f79;
+}
+html,body{margin:0;padding:0;width:794px;background:var(--bg);color:var(--text);
+  font-family:'Inter','Noto Sans SC','Noto Color Emoji',sans-serif;font-size:15px;line-height:1.55;}
+body{line-break:strict;word-break:normal;overflow-wrap:break-word;}
+@media screen{
+  html{height:auto;display:flex;justify-content:center;background:#efe8e3;}
+  body{margin:20px auto;box-shadow:0 0 40px rgba(0,0,0,.12);}
+}
+p,td,li{overflow-wrap:break-word;}
+
+/* ---------- COVER ---------- */
+.cover{width:794px;height:1123px;box-sizing:border-box;position:relative;background:var(--bg);
+  break-after:page;overflow:hidden;}
+.cover .vline{position:absolute;left:92px;top:110px;bottom:110px;width:6px;background:var(--accent);}
+.cover .c-content{position:absolute;left:146px;right:76px;top:0;bottom:0;}
+.cover .kicker{position:absolute;top:140px;font-size:13px;font-weight:600;letter-spacing:4px;
+  color:var(--accent);text-transform:uppercase;}
+.cover .title{position:absolute;top:185px;font-size:48px;font-weight:900;line-height:1.15;
+  color:var(--deep);max-width:560px;}
+.cover .sub{position:absolute;top:378px;font-size:17px;font-weight:500;color:var(--accent);}
+.cover .summary{position:absolute;top:430px;font-size:15.5px;line-height:1.65;color:var(--text);
+  max-width:470px;opacity:.92;}
+.cover .chips{position:absolute;top:590px;display:flex;flex-wrap:wrap;gap:10px;max-width:520px;}
+.cover .chip{border:1.5px solid var(--border);border-radius:6px;padding:7px 13px;font-size:12.5px;
+  font-weight:600;color:var(--deep);background:var(--card);}
+.cover .meta{position:absolute;bottom:160px;font-size:14px;color:var(--muted);line-height:1.7;}
+.cover .meta b{color:var(--text);font-weight:700;}
+.cover .foot{position:absolute;bottom:105px;font-size:12px;letter-spacing:2.5px;color:var(--muted);
+  text-transform:uppercase;font-weight:500;}
+.cover .geo{position:absolute;top:88px;right:76px;opacity:.9;}
+</style>
+<style>
+/* ---------- MAIN CONTENT ---------- */
+.main-content{padding:48px 58px 44px 58px;}
+.sec{margin-top:22px;}
+.sec:first-child{margin-top:0;}
+.sec-h{display:flex;align-items:center;gap:12px;break-after:avoid;break-inside:avoid;
+  margin-bottom:13px;padding-bottom:8px;border-bottom:2px solid var(--border);}
+.sec-h .num{background:var(--thead);color:#fff;font-weight:800;font-size:13px;border-radius:5px;
+  padding:4px 10px;letter-spacing:.5px;flex-shrink:0;}
+.sec-h .t{font-size:21px;font-weight:800;color:var(--deep);line-height:1.25;}
+.sub-h{font-size:16px;font-weight:700;color:var(--accent);margin:16px 0 7px 0;
+  break-after:avoid;break-inside:avoid;}
+.sub-h .tag{font-weight:800;margin-right:6px;}
+
+ul.b{margin:6px 0 10px 0;padding-left:0;list-style:none;}
+ul.b>li{position:relative;padding-left:20px;margin-bottom:4.5px;break-inside:avoid;
+  text-align:left;}
+ul.b>li::before{content:'';position:absolute;left:4px;top:8.5px;width:7px;height:7px;
+  border-radius:2px;background:var(--accent);}
+ul.b ul{margin:4px 0 2px 0;padding-left:0;list-style:none;}
+ul.b ul>li{position:relative;padding-left:16px;margin-bottom:3px;font-size:14px;color:#453c37;}
+ul.b ul>li::before{content:'–';position:absolute;left:2px;color:var(--accent);font-weight:700;}
+
+/* badges */
+.bdg{display:inline-block;font-size:11.5px;font-weight:700;border-radius:4px;padding:1.5px 7px;
+  vertical-align:1px;letter-spacing:.3px;white-space:nowrap;}
+.bdg.must{background:#fdeceb;color:#8f2b1a;border:1px solid #eec7bd;}
+.bdg.imp{background:#fdf3e7;color:#8a5a17;border:1px solid #ecd8b6;}
+.bdg.exam{background:#eaf1fa;color:#28518f;border:1px solid #c9d8ec;}
+.bdg.conf{background:#f3eefc;color:#5b3d99;border:1px solid #d8ccf0;}
+.bdg.und{background:#e9f5ee;color:#23663f;border:1px solid #c6e2d1;}
+
+/* tables */
+table.tt{width:100%;border-collapse:collapse;font-size:13.5px;margin:8px 0 12px 0;
+  break-inside:auto;}
+table.tt thead{display:table-header-group;}
+table.tt tr{break-inside:avoid;}
+table.tt th{background:var(--thead);color:#fff;font-weight:700;text-align:left;
+  padding:7px 10px;font-size:13px;}
+table.tt td{border:1px solid var(--border);padding:6.5px 10px;vertical-align:top;background:#fff;}
+table.tt tr:nth-child(even) td{background:var(--stripe);}
+table.tt td b{color:var(--deep);}
+
+/* concept cards */
+.concept{border:1.5px solid var(--border);border-left:4px solid var(--accent);border-radius:6px;
+  background:#fff;padding:11px 14px 9px 14px;margin-bottom:10px;break-inside:avoid;}
+.concept .ct{font-size:15px;font-weight:800;color:var(--deep);margin-bottom:4px;}
+.concept .row{display:flex;gap:8px;margin-bottom:3.5px;font-size:13.8px;}
+.concept .row .k{flex-shrink:0;font-weight:700;color:var(--accent);min-width:96px;}
+.concept .row .v{color:#3d362f;}
+
+/* event chain */
+.chain{border:1.5px solid var(--border);border-radius:6px;background:#fff;margin-bottom:11px;
+  break-inside:avoid;overflow:hidden;}
+.chain .ch-t{background:var(--card);font-weight:800;color:var(--deep);font-size:14.5px;
+  padding:8px 14px;border-bottom:1px solid var(--border);}
+.chain .step{display:flex;gap:10px;padding:6px 14px;border-bottom:1px dashed var(--border);
+  font-size:13.8px;}
+.chain .step:last-child{border-bottom:none;}
+.chain .step .k{flex-shrink:0;font-weight:800;color:var(--accent);width:132px;font-size:12.3px;
+  letter-spacing:.3px;}
+.chain .step .v{color:#3d362f;}
+
+/* hinglish box */
+.hing{background:var(--card);border:1.5px dashed var(--accent);border-radius:6px;
+  padding:10px 14px;margin:10px 0;break-inside:avoid;}
+.hing .ht{font-size:13px;font-weight:800;color:var(--accent);margin-bottom:4px;letter-spacing:.5px;}
+.hing .hb{font-size:14px;color:#3f3833;line-height:1.55;}
+
+/* must remember */
+.must-box{background:#fdeceb;border:2px solid var(--accent);border-radius:8px;
+  padding:13px 16px;margin:12px 0;break-inside:avoid;}
+.must-box .mt{font-size:15px;font-weight:900;color:#8f2b1a;margin-bottom:7px;}
+.must-box ul.b>li{margin-bottom:5px;}
+.must-box ul.b>li::before{background:#c0392b;}
+
+/* rapid revision */
+.rapid{border:2px solid var(--thead);border-radius:8px;background:#fff;margin:12px 0;
+  padding:14px 16px;break-inside:avoid;}
+.rapid .rt{font-size:16px;font-weight:900;color:var(--deep);margin-bottom:9px;
+  border-bottom:2px solid var(--border);padding-bottom:7px;}
+.rgrid{display:flex;flex-wrap:wrap;gap:10px;}
+.rcol{flex:1 1 46%;min-width:300px;}
+.rcol .rh{font-size:13px;font-weight:800;color:var(--accent);text-transform:uppercase;
+  letter-spacing:.5px;margin:7px 0 4px 0;}
+.rcol ul{margin:0;padding-left:18px;font-size:13.2px;}
+.rcol li{margin-bottom:2.5px;break-inside:avoid;}
+
+/* timeline */
+.tl{margin:6px 0 12px 0;}
+.tlr{display:flex;gap:12px;margin-bottom:4px;break-inside:avoid;font-size:13.6px;}
+.tlr .yr{flex-shrink:0;width:158px;font-weight:800;color:var(--accent);font-size:12.8px;
+  text-align:right;padding-top:1px;}
+.tlr .ev{flex:1;color:#3d362f;border-left:2px solid var(--border);padding-left:12px;}
+
+/* mnemonic */
+.mnem{display:flex;gap:10px;align-items:flex-start;background:var(--stripe);border:1px solid var(--border);
+  border-radius:6px;padding:6px 12px;margin-bottom:5px;break-inside:avoid;}
+.mnem .mk{flex-shrink:0;font-size:16px;}
+.mnem .mtt{font-size:13.6px;}
+.mnem .mtt b{color:var(--deep);}
+
+/* answer guide */
+.ans{background:#fff;border:1.5px solid var(--border);border-radius:8px;padding:10px 14px;
+  margin:10px 0;break-inside:avoid;}
+.ans .at{font-weight:900;font-size:15px;color:var(--deep);margin-bottom:6px;}
+.ans .astep{display:flex;gap:9px;margin-bottom:4px;font-size:13.6px;}
+.ans .astep .k{flex-shrink:0;font-weight:800;color:var(--accent);width:110px;}
+.note{font-size:13px;color:var(--muted);margin:6px 0;font-style:italic;}
+.kf{background:var(--card);border-radius:6px;padding:1px 6px;font-weight:700;color:var(--deep);}
+</style>
+</head>
+<body>
+
+<!-- ============ COVER ============ -->
+<div class="cover">
+  <div class="vline"></div>
+  <svg class="geo" width="130" height="130" viewBox="0 0 130 130" fill="none">
+    <circle cx="55" cy="55" r="42" stroke="#9c3a26" stroke-width="0.8" opacity="0.18"/>
+    <circle cx="67" cy="62" r="42" stroke="#9c3a26" stroke-width="0.8" opacity="0.3"/>
+    <circle cx="80" cy="70" r="42" stroke="#9c3a26" stroke-width="0.8" opacity="0.42"/>
+    <circle cx="112" cy="30" r="7" fill="#9c3a26" opacity="0.5"/>
+    <circle cx="103" cy="48" r="3" fill="#9c3a26" opacity="0.3"/>
+  </svg>
+  <div class="c-content">
+    <div class="kicker">Class 9 SST &bull; History &bull; Chapter 5</div>
+    <div class="title">State and<br>Society up to<br>1000 CE</div>
+    <div class="sub">Premium Last-Minute Revision Booklet</div>
+    <div class="summary">
+      Highly compressed, exam-focused short notes covering the full chapter — key terms,
+      the Vedic period, janapadas &amp; mahājanapadas, empires and their administration,
+      dharma &amp; ethics, varṇa–jāti, women, Bhakti, education, economy, trade &amp; guilds —
+      with timeline, comparisons, Hinglish explanations and a 5-minute rapid revision.
+    </div>
+    <div class="chips">
+      <span class="chip">📕 1 History Chapter</span>
+      <span class="chip">🗓️ Full Timeline</span>
+      <span class="chip">⚡ 5-Minute Revision</span>
+      <span class="chip">💡 Hinglish Explanations</span>
+      <span class="chip">🎯 Exam-Oriented</span>
+    </div>
+    <div class="meta">
+      <b>Source:</b> Understanding Society: India and Beyond &bull; Grade 9 – Part 1<br>
+      <b>Use:</b> Quick revision before school tests &amp; exams
+    </div>
+    <div class="foot">Short Notes &bull; Rapid Revision Series</div>
+  </div>
+</div>
+
+<div class="main-content">
+
+<!-- ============ 1. OVERVIEW ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">1</span><span class="t">Chapter at a Glance</span></div>
+  <ul class="b">
+    <li><b>One-line overview:</b> How state &amp; society in the Indian subcontinent evolved from <span class="kf">kin-based clans (janas)</span> → <span class="kf">territorial states (janapadas)</span> → <span class="kf">mahājanapadas</span> → <span class="kf">empires (Mauryas, Guptas, Cholas)</span>, while ideas like <span class="kf">dharma</span> and <span class="kf">chakravarti samrāj</span> created unity in values and governance.</li>
+    <li>Big Questions of the chapter: (1) How did society &amp; state organise before 1000 CE? (2) How did states spread across the subcontinent? (3) How did <b>dharma</b> &amp; <b>chakravarti samrāj</b> promote the subcontinent as ONE political entity? (4) How did social, administrative &amp; occupational groups take shape?</li>
+    <li>From the <b>2nd millennium BCE</b> we get <b>literary sources</b> (earliest = <span class="kf">Ṛig Veda</span>) that supplement archaeology — giving insights into social, political, cultural &amp; moral life. <span class="bdg exam">📌 EXAM POINT</span></li>
+    <li><b>Society</b> = system of social relationships among people sharing common territory, culture &amp; belonging; regulated mainly by <b>customs, not formal laws</b>.</li>
+    <li><b>State</b> = organised political system based on <b>rules and laws</b>, with defined rights/duties of rulers &amp; subjects, governance mechanisms &amp; law-enforcing institutions. <span class="bdg conf">⚠️ COMMON CONFUSION</span></li>
+  </ul>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — Society vs State</div>
+  <div class="hb">Society matlab logon ka rishta-system — sab ek jagah rehte hain, common culture aur belonging share karte hain, aur sab kuch <b>customs (riwaaj)</b> se chalta hai. State matlab ek <b>organised sarkar</b> — rules, laws, ruler ke rights/duties, sab likha-hua system. Simple: society = log + customs; state = power + laws.</div></div>
+</div>
+
+<!-- ============ 2. KEY TERMS ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">2</span><span class="t">Key Terms &amp; Meanings</span></div>
+  <table class="tt">
+    <thead><tr><th style="width:26%">Term</th><th>Meaning (exam-ready)</th></tr></thead>
+    <tbody>
+      <tr><td><b>Jana</b></td><td>Clan — group bound by <b>kinship ties</b>; basic unit of early Vedic society</td></tr>
+      <tr><td><b>Kula</b></td><td>Family — smallest social unit; later = household of several members bound by kinship</td></tr>
+      <tr><td><b>Janapada</b></td><td>Literally <b>"where a jana first set its feet"</b> — territorial identity replaced kinship identity (c. 1000–600 BCE)</td></tr>
+      <tr><td><b>Mahājanapada</b></td><td>Bigger political unit than janapada; <b>16</b> existed (c. 600 BCE–300 CE)</td></tr>
+      <tr><td><b>Rājya / Gaṇa-Saṁgha</b></td><td>Monarchical state / <b>republican state</b> (non-monarchical, e.g. Vajji)</td></tr>
+      <tr><td><b>Sabhā</b></td><td>Smaller, elite <b>judicial</b> assembly of Vedic period</td></tr>
+      <tr><td><b>Samiti</b></td><td>Larger assembly — <b>policy &amp; political affairs</b>, broader population</td></tr>
+      <tr><td><b>Vidhata</b></td><td>Popular gathering of the community (jana) — discussed <b>warfare &amp; political matters</b></td></tr>
+      <tr><td><b>Dharma</b></td><td><b>NOT religion</b> — duty, obligation, righteousness, moral conduct; from root <i>dhri</i> ("that which upholds beings")</td></tr>
+      <tr><td><b>Dhamma</b></td><td><b>Pali</b> equivalent of dharma (used in Buddhism, incl. Aśhoka's edicts)</td></tr>
+      <tr><td><b>Ṛita</b></td><td>All-pervading <b>cosmic order</b> — harmony &amp; balance in nature and society (Ṛig Veda)</td></tr>
+      <tr><td><b>Samatva</b></td><td>Principle of <b>sameness</b> — all bodies made of same matter; all consciousness = one supreme consciousness</td></tr>
+      <tr><td><b>Chakravarti samrāj</b></td><td>Ideal of a <b>universal paramount ruler</b> over the whole subcontinent</td></tr>
+      <tr><td><b>Chakravarti-kśhetra</b></td><td>"Domain of a universal paramount ruler" = <b>area between Himavat (Himalayas) and the sea</b> (Arthaśhāstra)</td></tr>
+      <tr><td><b>Aśhvamedha yajña</b></td><td>Horse sacrifice — ritual asserting sovereignty over the subcontinent</td></tr>
+      <tr><td><b>Varṇa</b></td><td>Fourfold social category (brāhmaṇa, kṣhatriya, vaiśhya, śhūdra); earliest ref = <b>Puruṣhasūkta, Book 10, Ṛig Veda</b></td></tr>
+      <tr><td><b>Jāti</b></td><td>Birth-based social groups; <b>varṇas fixed at 4, jātis unlimited</b></td></tr>
+      <tr><td><b>Gotra</b></td><td><b>Patrilineal</b> lineage/clan traced to a common Vedic sage (ṛiṣhi); regulated marriage</td></tr>
+      <tr><td><b>Āśhrama</b></td><td>Four stages of life: brahmacharya, gṛihastha, vānaprastha, saṁnyāsa</td></tr>
+      <tr><td><b>Puruṣhārtha</b></td><td>Four goals of life: dharma, artha, kāma, mokṣha</td></tr>
+      <tr><td><b>Śhreṇī</b></td><td><b>Guild</b> — collective organisation of traders/artisans/merchants of one profession</td></tr>
+      <tr><td><b>Brahmadeya</b></td><td><b>Tax-free land grants to villages</b> by Pallavas</td></tr>
+      <tr><td><b>Agrahāram</b></td><td>Land grants to <b>Brahmin settlements</b> by Chālukyas (Aihole, Badami → learning centres)</td></tr>
+      <tr><td><b>PGW / NBPW</b></td><td>Painted Grey Ware / <b>Northern Black Polished Ware</b> — glossy "deluxe ware" of richer material culture</td></tr>
+      <tr><td><b>Jambudvīpa, Bhāratavarṣha</b></td><td>Pan-Indian terms expressing the subcontinent as one political-geographic entity</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ============ 3. TIMELINE ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">3</span><span class="t">🗓️ Timeline — All Important Dates</span></div>
+  <div class="tl">
+    <div class="tlr"><div class="yr">c. 2000–500 BCE</div><div class="ev"><b>Vedic period</b> — Ṛig Veda composed in Sapta-Sindhu (NW subcontinent); oral for centuries</div></div>
+    <div class="tlr"><div class="yr">c. 1500–300 BCE</div><div class="ev"><b>Upaniṣhads</b> composed</div></div>
+    <div class="tlr"><div class="yr">c. 1000–600 BCE</div><div class="ev">Rise of <b>janapadas</b> — kinship identity → territorial identity</div></div>
+    <div class="tlr"><div class="yr">600–300 BCE</div><div class="ev">Rise of <b>16 mahājanapadas</b>; life of <b>Gautama Buddha &amp; Mahāvīra</b></div></div>
+    <div class="tlr"><div class="yr">321 BCE</div><div class="ev"><b>Chandragupta Maurya</b> founds the <b>Mauryan Empire</b></div></div>
+    <div class="tlr"><div class="yr">272–232 BCE</div><div class="ev"><b>Aśhoka's reign</b> — philosophy of <b>Dhamma</b></div></div>
+    <div class="tlr"><div class="yr">185 BCE</div><div class="ev"><b>Pushyamitra Shunga</b> founds the <b>Shunga empire</b></div></div>
+    <div class="tlr"><div class="yr">300 BCE–300 CE</div><div class="ev"><b>Sangam literature</b> composed; early kingdoms of <b>Tamilakam</b> — Cheras, Cholas, Pandyas</div></div>
+    <div class="tlr"><div class="yr">2nd c BCE–3rd c CE</div><div class="ev"><b>Satavāhana empire</b> in the Deccan (nearly 500 years)</div></div>
+    <div class="tlr"><div class="yr">1st c CE</div><div class="ev"><b>Khāravela's reign</b> (Kalinga); Udayagiri &amp; Khandagiri caves — patronage of art</div></div>
+    <div class="tlr"><div class="yr">c. 106–130 CE</div><div class="ev"><b>Gautamiputra Sātakarṇi</b>'s reign (Satavāhana)</div></div>
+    <div class="tlr"><div class="yr">c. 150 CE</div><div class="ev"><b>Rudradaman I</b> (Western Satrap) — Sanskrit inscription, repairs <b>Sudarshana Lake</b></div></div>
+    <div class="tlr"><div class="yr">c. 275–897 CE</div><div class="ev"><b>Pallavas</b> in the south; c. 300 CE rise of Pallavas</div></div>
+    <div class="tlr"><div class="yr">300–650 CE</div><div class="ev"><b>Kāmarūpa</b> (Assam region)</div></div>
+    <div class="tlr"><div class="yr">320–550 CE</div><div class="ev"><b>Gupta empire</b></div></div>
+    <div class="tlr"><div class="yr">427 CE</div><div class="ev"><b>Nalanda university</b> established</div></div>
+    <div class="tlr"><div class="yr">c. 480 CE</div><div class="ev"><b>Valabhi university</b> established</div></div>
+    <div class="tlr"><div class="yr">c. 500 CE</div><div class="ev"><b>Āryabhaṭa</b> (mathematician–astronomer)</div></div>
+    <div class="tlr"><div class="yr">543–753 CE</div><div class="ev"><b>Chālukyas of Badami</b></div></div>
+    <div class="tlr"><div class="yr">606 CE</div><div class="ev"><b>Harṣhavardhana</b> (Puṣhyabhūti) annexes Kannauj; Maukhārīs 606–647 CE</div></div>
+    <div class="tlr"><div class="yr">629–645 CE</div><div class="ev"><b>Xuan Zang's</b> (Chinese pilgrim) visit to India</div></div>
+    <div class="tlr"><div class="yr">630–668 CE</div><div class="ev"><b>Narasimhavarman's reign</b> — <b>Mahabalipuram</b> rock-cut temples</div></div>
+    <div class="tlr"><div class="yr">712 CE</div><div class="ev"><b>Arab conquest of Sindh</b></div></div>
+    <div class="tlr"><div class="yr">730–1036 CE</div><div class="ev"><b>Gurjara-Pratihāras</b> — capital <b>Kannauj</b>; tri-partite struggle</div></div>
+    <div class="tlr"><div class="yr">c. 750 CE onwards</div><div class="ev"><b>Pālas</b> (east) rise</div></div>
+    <div class="tlr"><div class="yr">753–973 CE</div><div class="ev"><b>Rāṣhṭrakūṭas</b> (Deccan)</div></div>
+    <div class="tlr"><div class="yr">783–820 CE</div><div class="ev"><b>Vikramashila university</b></div></div>
+    <div class="tlr"><div class="yr">9th–11th c CE</div><div class="ev"><b>Imperial (later) Cholas</b> — efficient administration &amp; revenue systems</div></div>
+    <div class="tlr"><div class="yr">10th c CE</div><div class="ev"><b>Uttaramerur inscription</b> of <b>Parantaka I</b> — Kudavolai ballot system</div></div>
+    <div class="tlr"><div class="yr">985–1014 CE</div><div class="ev"><b>Rajaraja I's reign</b>; <b>Brihadeeshwara Temple, Thanjavur</b></div></div>
+    <div class="tlr"><div class="yr">11th c CE</div><div class="ev"><b>Rajendra I</b> adopts title <b>Gangaikonda</b> (conquest along the Ganga)</div></div>
+  </div>
+</div>
+
+<!-- ============ 4. VEDIC PERIOD ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">4</span><span class="t">The Vedic Period — Beginnings</span></div>
+  <ul class="b">
+    <li>Vedas = <b>earliest known corpus of Indian literature</b> (Harappan script still undeciphered); existed <b>orally for centuries</b> before being written down. <span class="bdg must">🔥 MUST REMEMBER</span></li>
+    <li>Composition date of Ṛig Veda <b>debated</b>: estimates from 5th millennium BCE to 2nd millennium BCE; composed in the <b>northwest (Sapta-Sindhu)</b> — Indus + its five tributaries + the Sarasvatī. Both Ṛig Veda and the Sindhu–Sarasvatī civilisation knew <b>copper</b>.</li>
+  </ul>
+  <div class="sub-h"><span class="tag">4.1</span>The Four Vedas</div>
+  <table class="tt">
+    <thead><tr><th style="width:17%">Veda</th><th>Key points</th></tr></thead>
+    <tbody>
+      <tr><td><b>Ṛig Veda</b></td><td>Earliest; ~<b>1,028 hymns (sūktas)</b> — world's oldest surviving poetic compositions; praise of deities + reflections on creation, birth, death</td></tr>
+      <tr><td><b>Yajur Veda</b></td><td>Elaborates the <b>performative aspects of yajñas</b>; includes <b>prose</b> explanations</td></tr>
+      <tr><td><b>Sāma Veda</b></td><td>Hymns arranged for <b>musical recitation</b>; foundation of the <b>seven svaras (notes)</b> of Indian music <span class="bdg exam">📌 EXAM POINT</span></td></tr>
+      <tr><td><b>Atharva Veda</b></td><td>Wide range of hymns — warding off evil, treating physical &amp; mental ailments</td></tr>
+    </tbody>
+  </table>
+  <ul class="b">
+    <li>Each Veda has <b>4 parts</b>: <span class="kf">samhitā</span> (hymns for yajña), <span class="kf">brāhmaṇa</span> (prose explanations of rituals), <span class="kf">āraṇyaka</span> (philosophy of forest-dwelling sages; araṇya = forest), <span class="kf">upaniṣhad</span> (the Self/Ātman &amp; the Universal Being/Brāhman).</li>
+    <li><span class="bdg conf">⚠️ COMMON CONFUSION</span> — <b>Brāhman</b> = concept; <b>Brāhmaṇas</b> = texts; <b>Brāhmaṇas/Brahmins</b> = varṇa category. Three different things, same-sounding words!</li>
+  </ul>
+  <div class="sub-h"><span class="tag">4.2</span>Political Institutions — Jana, Rājā &amp; Assemblies</div>
+  <ul class="b">
+    <li>Early Vedic society = <b>janas (clans)</b> bound by kinship; Ṛig Veda mentions about <b>30 janas</b>; five = <b>pañchajana</b> ("five peoples"): <b>Yadu, Turvaśha, Puru, Anu, Druhyu</b>. <span class="bdg must">🔥 MUST REMEMBER</span></li>
+    <li>Name <b>"Bharata"</b> first appears in the Ṛig Veda — from the <b>Bharata jana</b> ruled by the Bharata family. (India = "India, that is Bharat" — roots in the Ṛig Veda!)</li>
+    <li><b>Rājā</b> = primarily a <b>clan chief</b> — led in warfare, protected members. <b>NOT</b> an absolute king with territory.</li>
+  </ul>
+  <table class="tt">
+    <thead><tr><th style="width:18%">Assembly</th><th style="width:42%">Nature</th><th>Function</th></tr></thead>
+    <tbody>
+      <tr><td><b>Sabhā</b></td><td>Smaller body, select elites</td><td>Primarily <b>judicial</b> function</td></tr>
+      <tr><td><b>Samiti</b></td><td>Larger assembly, broader population</td><td><b>Policy decisions &amp; political affairs</b></td></tr>
+      <tr><td><b>Vidhata</b></td><td>Popular gathering of the jana</td><td>Discussions on <b>warfare &amp; political matters</b></td></tr>
+    </tbody>
+  </table>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — Vedic assemblies</div>
+  <div class="hb">Sohncho ek clan (jana) hai — rājā sirf warfare leader hai, akela badshah nahi. <b>Sabhā</b> = chhoti elite committee (jaise court/judge wala body), <b>Samiti</b> = badi sabha jahan policy decisions hote the, <b>Vidhata</b> = sab logon ki open gathering jahan war aur political baatein hoti thi. Matlab: power sirf rājā ke paas nahi tha — assemblies ke haath mein bhi thi. Isliye historians kehte hain governance mein <b>people's participation</b> ka idea bahut purana hai.</div></div>
+</div>
+<!-- ============ 5. JANAPADAS & MAHAJANAPADAS ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">5</span><span class="t">From Janapadas to Mahājanapadas</span></div>
+  <div class="chain">
+    <div class="ch-t">📌 THE BIG TRANSITION (why states emerged)</div>
+    <div class="step"><div class="k">WHAT HAPPENED?</div><div class="v">Iron implements + fertile <b>Gangetic plains</b> → more settlements, wider grain variety (esp. <b>paddy</b>), <b>PGW</b> pottery; later a glossy "deluxe ware" — <b>NBPW</b> (middle Gangetic region: Prayagraj → eastern Bihar)</div></div>
+    <div class="step"><div class="k">WHY DID IT HAPPEN?</div><div class="v">Iron tools → agricultural surplus → control over <b>land, produce &amp; trade routes</b> became valuable → more complex administrative systems needed</div></div>
+    <div class="step"><div class="k">WHAT HAPPENED NEXT?</div><div class="v">c. 1000–600 BCE: <b>janapadas</b> (territorial identity); c. 600 BCE–300 CE: <b>16 mahājanapadas</b>; 2 forms — <b>rājyas</b> (monarchies) &amp; <b>gaṇas/saṁghas</b> (republics)</div></div>
+    <div class="step"><div class="k">RESULT?</div><div class="v"><b>Magadha</b> (present-day Bihar) became most powerful — strategic location, fertile plains, strong rulers → expansion over neighbours</div></div>
+    <div class="step"><div class="k">WHY IMPORTANT?</div><div class="v">Magadha's rise → foundation of the <b>Mauryan Empire</b> — one of the largest &amp; most powerful empires of early India; Vedic culture's centre also shifted NW → <b>Ganga plains</b></div></div>
+  </div>
+  <ul class="b">
+    <li><b>Janapada</b> = "where a people (jana) first set its feet" — transition from <b>kinship-based identity → territorial identity</b> (sense of belonging to a LAND). <span class="bdg must">🔥 MUST REMEMBER</span></li>
+    <li>The <b>16 mahājanapadas</b>: Kamboja, Gandhāra, Matsya, Kuru, Shūrasena, Pañchāla, Vatsa, Kosala, Kāśhī, Malla, <b>Vajji</b> (republic), <b>Magadha</b> (most powerful), Anga, Chedi, Avanti, Aśhmaka. <span class="bdg exam">📌 EXAM POINT</span></li>
+    <li>In the Deccan, the Mauryan Empire was succeeded by the <b>Satavāhana Empire</b> (2nd c BCE–3rd c CE, ~<b>500 years</b>).</li>
+  </ul>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — Jana → Janapada → Mahājanapada</div>
+  <div class="hb">Pehle identity sirf <b>khoon ke rishtey</b> (kinship) se thi — "hum Yadu clan ke hain". Phir log ek <b>zameen</b> par settle hue — "hum is janapada ke hain" (territory-based identity). Jab rajya bade aur powerful hue → <b>mahājanapada</b> (16 bade states). Jaise pehle "hum Sharma family" → phir "hum Delhi ke" → phir "hum India ke". Aur Vajji jaise kuch states <b>gaṇa/saṁgha</b> the — matlab <b>republic</b>, ek raja nahi, collective shasan!</div></div>
+
+  <div class="sub-h"><span class="tag">5.1</span>Early Kingdoms of Tamilakam (Sangam Age)</div>
+  <table class="tt">
+    <thead><tr><th style="width:20%">Kingdom</th><th style="width:36%">Region</th><th style="width:18%">Emblem</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td><b>Cholas</b></td><td>Lower <b>Kaveri River valley</b></td><td>🐯 <b>Tiger</b></td><td rowspan="4">All 3 = "<b>Vendar of Tamilakam</b>" (three crowned kings), flourishing in fertile <b>rice-growing</b> regions; mentioned in <b>Aśhokan inscriptions</b>; described in <b>Sangam literature</b></td></tr>
+      <tr><td><b>Pandyas</b></td><td>River valleys of <b>Tamraparni &amp; Vaigai</b></td><td>🐟 <b>Fish</b></td></tr>
+      <tr><td><b>Cheras</b></td><td><b>Kerala</b> (called Keralaputras)</td><td>🏹 <b>Bow</b></td></tr>
+      <tr><td><b>Satiyaputras</b></td><td>Northern part of <b>Tamil Nadu</b></td><td>—</td></tr>
+    </tbody>
+  </table>
+  <ul class="b">
+    <li><b>Sangam literature</b> (300 BCE–300 CE) = earliest Tamil literary tradition; describes brave kings, Vedic yajñas, links with epic traditions.</li>
+    <li>Chera ruler <b>Nedunjeral Adan</b>: won the title <b>adhirāja</b> after defeating several crowned kings; extended conquests <b>up to the Himalayas</b>.</li>
+    <li><span class="bdg conf">⚠️ COMMON CONFUSION</span> — These <b>EARLY</b> kingdoms of Tamilakam should NOT be confused with the <b>later imperial Chola/Chera/Pandya</b> kingdoms that emerged many centuries later (imperial Cholas = 9th–11th c CE).</li>
+  </ul>
+</div>
+
+<!-- ============ 6. KING'S DUTIES & IDEALS ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">6</span><span class="t">Duties &amp; Ideals of the King</span></div>
+  <ul class="b">
+    <li>From <b>6th century BCE</b>, rulers used titles — <b>rājā, mahārāja, samrāj</b> — reflecting regional political traditions.</li>
+    <li><b>Kauṭilya's Arthaśhāstra:</b> "Only if a king is himself energetically active, do his officers follow him energetically." <span class="bdg exam">📌 EXAM POINT (quote)</span></li>
+    <li><b>Yajur Veda (coronation oath):</b> king must judge the strong and weak <b>impartially and fairly</b>, protect the country from calamities, do good to the people.</li>
+    <li><b>Śhānti Parva of the Mahābhārata:</b> guidance to rulers on ethical conduct, justice &amp; responsibility towards subjects.</li>
+    <li>King's duties: protect subjects from <b>external threats &amp; internal disorder</b>; administer justice (abduction, robbery, theft, adultery). Severe punishments — even capital — for killing a cow, treachery, consuming intoxicating liquor.</li>
+    <li>Kingship generally <b>hereditary</b>, BUT references exist to kings being <b>elected or even expelled</b> → royal authority was <b>not always absolute</b>. <span class="bdg imp">⭐ IMPORTANT</span></li>
+  </ul>
+  <div class="sub-h"><span class="tag">6.1</span>Pan-Indian Political Awareness (the "one subcontinent" idea)</div>
+  <ul class="b">
+    <li>Early monarchs' awareness extended to the <b>whole subcontinent</b> — expressed through: <span class="kf">Jambudvīpa</span>, <span class="kf">Bhāratavarṣha</span>, <span class="kf">Aśhvamedha</span> &amp; <span class="kf">Rājasūya yajñas</span>, <span class="kf">Prithivi</span>, <span class="kf">chakravarti-kśhetra</span>. <span class="bdg must">🔥 MUST REMEMBER</span></li>
+    <li><b>Aśhoka</b> (in an edict): his "energetic exertions" (<i>pakama</i>; <i>parākrama</i> in Sanskrit) led to significant changes in the <b>spiritual life of Jambudvīpa</b>.</li>
+    <li><b>Arthaśhāstra defines Prithivi</b> = "the area lying between the <b>Himavat (Himalayas) and the sea</b>" = <b>chakravarti-kśhetra</b> (domain of a universal paramount ruler).</li>
+    <li><b>Rajendra I</b> (Chola, 11th c CE) adopted the title <b>Gangaikonda</b> to commemorate conquests along the Ganga — the pan-Indian aspiration repeated across history.</li>
+  </ul>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — Chakravarti samrāj</div>
+  <div class="hb">Chakravarti samrāj = "<b>universal ruler</b>" ka ideal — Himalayas se lekar samundar tak (Himavat to sea) ke pure subcontinent par authority. Kings aśhvamedha yajña karke ya north-south conquest karke (jaise Nedunjeral Adan — Kerala se Himalayas tak, ya Rajendra I — Ganga tak) yahi message dete the: "hum poore Bhāratavarṣha ke rulers hain." Isliye chapter kehta hai: subcontinent ko <b>ek political entity</b> ki tarah dekhne ka idea bahut purana hai.</div></div>
+</div>
+
+<!-- ============ 7. ADMINISTRATION ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">7</span><span class="t">How Were Empires Administered?</span></div>
+  <div class="sub-h"><span class="tag">7.1</span>Kauṭilya's Saptāṁga — 7 Limbs of the State <span class="bdg must">🔥 MUST REMEMBER</span></div>
+  <table class="tt">
+    <thead><tr><th style="width:34%">Constituent</th><th style="width:22%">Sanskrit</th><th>Meaning</th></tr></thead>
+    <tbody>
+      <tr><td><b>1. The king</b></td><td>swāmi</td><td>Sovereign head</td></tr>
+      <tr><td><b>2. The ministers</b></td><td>mantrī/amātya</td><td>Council of ministers &amp; high officials</td></tr>
+      <tr><td><b>3. The territory</b></td><td>janapada</td><td>Territory + population inhabiting it</td></tr>
+      <tr><td><b>4. The forts</b></td><td>durga</td><td>Fortified towns &amp; cities</td></tr>
+      <tr><td><b>5. The treasury</b></td><td>kośha</td><td>Wealth of the kingdom</td></tr>
+      <tr><td><b>6. The army</b></td><td>daṇḍa</td><td>Forces of defence, law &amp; order</td></tr>
+      <tr><td><b>7. The allies</b></td><td>mitra</td><td>Friendly states</td></tr>
+    </tbody>
+  </table>
+  <ul class="b">
+    <li>State = <b>organic whole</b> of these 7; functions only if all are properly integrated. Arthaśhāstra: <b>"one wheel does not move the carriage"</b> — governance needs cooperation &amp; organised machinery.</li>
+    <li><b>Council of ministers (mantri-pariṣhad)</b>: small body of elder statesmen advising the king — treasurer, chief tax collector, chief legal advisor, commander-in-chief. An <b>Aśhokan inscription</b> shows the council took decisions independently during the emperor's absence (in public interest). <span class="bdg exam">📌 EXAM POINT</span></li>
+  </ul>
+  <div class="sub-h"><span class="tag">7.2</span>Provincial &amp; Local Administration</div>
+  <ul class="b">
+    <li>Kingdoms divided: <b>provinces → divisions → districts → groups of villages → villages</b> (village = smallest unit).</li>
+    <li><b>Satavāhanas:</b> empire = <b>āhāras</b> (administrative divisions) each with ministers (<b>amātyas</b>); below them villages led by a headman — <b>grāmika</b>.</li>
+    <li><b>District governors = pradeśhikas</b> (judicial + administrative functions); district officers consulted important residents — <b>bankers, caravan leaders, artisans, scribes</b>. Cities had own governors (revenue + law &amp; order).</li>
+  </ul>
+  <table class="tt">
+    <thead><tr><th style="width:26%">Level</th><th style="width:37%">North India</th><th>South India</th></tr></thead>
+    <tbody>
+      <tr><td><b>Provinces</b></td><td>bhukti</td><td>maṇḍala / maṇḍalam</td></tr>
+      <tr><td><b>Divisions</b></td><td>viṣhaya / bhoga</td><td>koṭṭam / valanāḍu</td></tr>
+      <tr><td><b>Districts</b></td><td>adhiṣhṭhāna / paṭṭana</td><td>nāḍu</td></tr>
+      <tr><td><b>Groups of villages</b></td><td>vithi (modern tahsīl)</td><td>paṭṭalā / kūṛram</td></tr>
+      <tr><td><b>Villages</b></td><td colspan="2" style="text-align:center">lowest administrative unit</td></tr>
+    </tbody>
+  </table>
+  <div class="note">c. 300–800 CE = period of <b>decentralisation of power</b> (for administrative convenience).</div>
+
+  <div class="sub-h"><span class="tag">7.3</span>Empire-by-Empire Administration <span class="bdg exam">📌 EXAM POINT</span></div>
+  <table class="tt">
+    <thead><tr><th style="width:22%">Empire</th><th style="width:20%">Period</th><th>Key features</th></tr></thead>
+    <tbody>
+      <tr><td><b>Guptas</b></td><td>320–550 CE</td><td><b>mantri</b> = head of civil administration; NEW post — <b>sāndhivigrahika</b> (minister of peace &amp; war); <b>kumārāmātyas</b> = local/provincial administrators. <b>Damodarpur copper plates (Kumāragupta I)</b>: district office had <b>5 members</b> — head district officer, chief banker, chief caravan trader, chief artisan, chief of revenue collection</td></tr>
+      <tr><td><b>Pallavas</b></td><td>c. 275–897 CE</td><td>Centralised monarchy + decentralised local governance (provinces, districts, taluks, villages); <b>Brahmadeya</b> villages (tax-free land grants); village assemblies had <b>variyams</b> (committees) for irrigation, gardens, temple management</td></tr>
+      <tr><td><b>Chālukyas of Badami</b></td><td>c. 543–753 CE</td><td>Monarchy + decentralised administration; land grants to Brahmin settlements = <b>agrahārams</b>; Aihole &amp; Badami agrahārams became <b>centres of learning</b></td></tr>
+      <tr><td><b>Gurjara-Pratihāras</b></td><td>8th–10th c CE</td><td>Ruled northern &amp; western India; capital <b>Kannauj</b> (UP) — coveted site; <b>tri-partite struggle</b> for Kannauj between <b>Pratihāras, Pālas, Rāṣhṭrakūṭas</b>; village = smallest, self-reliant unit (infrastructure, welfare, education)</td></tr>
+      <tr><td><b>Imperial Cholas</b></td><td>9th–11th c CE</td><td>Efficient administration &amp; revenue systems; <b>maṇḍalam (province) → valanāḍu (district) → nāḍu (group of villages) → Ur (village)</b>; village assemblies settled disputes, collected revenue, managed land/irrigation/roads/records — <b>independent, self-reliant institutions</b></td></tr>
+    </tbody>
+  </table>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — Village assemblies ki power</div>
+  <div class="hb">Sochna mat ki sab kuch raja chalata tha! Village assemblies khud apne kaam sambhaalte the — <b>tax collection, irrigation, roads, records maintenance, justice</b> — bina sarkar ke haath bheje. Jaise modern times mein local bodies/Panchayati Raj. Chola empire mein village = <b>self-reliant unit</b>. Yahi "decentralisation" hai — power upar se neeche tak baanti gayi thi.</div></div>
+
+  <div class="sub-h"><span class="tag">7.4</span>🔥 Uttaramerur Inscription — Village "Elections" <span class="bdg must">🔥 MUST REMEMBER (case study)</span></div>
+  <ul class="b">
+    <li><b>Uttaramerur inscription of Parantaka I</b> (10th century, Chola period) — in the <b>Vaikuṇṭha Perumal Temple, Uttaramerur (Kanchipuram district, Tamil Nadu)</b>.</li>
+    <li>Describes the <b>Kudavolai ("ballot pot") system</b>: names of eligible candidates written on <b>palm leaves</b> → placed in a large pot → a <b>young child publicly drew the leaves</b> one by one to select representatives for the village assembly &amp; its committees — draw conducted <b>in full view of the community</b> (often at a temple).</li>
+    <li>Elected members divided into specialised committees (<b>variyams</b>): <b>tank committee</b> (irrigation), justice, tax collection.</li>
+    <li>Candidates required <b>"honest earnings"</b> and to be <b>"pure" of mind</b> — ethics in governance! <span class="bdg exam">📌 EXAM POINT</span></li>
+  </ul>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — Kudavolai</div>
+  <div class="hb">1000 saal pehle Tamil villages mein <b>lottery-style voting</b> thi — candidates ke naam palm par, ek matke (kudam) mein, aur ek bachha public ke saamne pattaa nikaalta tha. Jo nikla, wahi assembly member! Fair, transparent, public. Aaj ke ballot box ka "purana version" — isliye exam mein zaroor aata hai!</div></div>
+
+  <div class="sub-h"><span class="tag">7.5</span>Junagadh Rock Inscription (Gujarat) <span class="bdg must">🔥 MUST REMEMBER (case study)</span></div>
+  <ul class="b">
+    <li>One rock near <b>Girnar, Gujarat</b> bears inscriptions of <b>THREE rulers from different periods</b> (~700 years of history):
+      <ul>
+        <li><b>Aśhoka</b> (3rd c BCE, Mauryan) — Major Rock Edicts in <b>Prakrit</b>, message of Dhamma &amp; moral governance</li>
+        <li><b>Rudradaman I</b> (c. 150 CE, Western Satrap) — long <b>Sanskrit</b> inscription; military achievements + repair of <b>Sudarshana Lake</b></li>
+        <li><b>Skandagupta</b> (5th c CE, Gupta) — restoration of the lake after severe damage</li>
+      </ul>
+    </li>
+    <li>Significance: single site preserving <b>Maurya + Western Satrap (Śhaka) + Gupta</b> records → valuable info on administration, public works &amp; political history. <span class="bdg exam">📌 EXAM POINT</span></li>
+  </ul>
+</div>
+
+<!-- ============ 8. ETHICS ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">8</span><span class="t">Ethics — The Foundation of Law &amp; Life</span></div>
+  <ul class="b">
+    <li>Earliest texts (Vedas, epics) discussed reality, right conduct, origin &amp; nature of the universe; <b>Bhagavad Gītā</b> emphasises knowledge, faith, action, virtue &amp; an ethical way of life.</li>
+    <li><b>Samatva</b> (principle of sameness): all bodies = same matter; all consciousness = one supreme consciousness. The <b>Vedas</b> describe this consciousness as <b>satya</b> (real, true) &amp; <b>ṛita</b> (right), "the invisible origin of all things". Mahābhārata's characters from all varṇas uphold samatva; epics critique discrimination — good person/ruler = "one who works for the <b>welfare of all beings</b>".</li>
+    <li><b>Ṛita</b> (Ṛig Veda): all-pervading <b>cosmic order</b> — harmony &amp; balance in nature &amp; human society; regulates natural forces, upholds moral values. <span class="bdg imp">⭐ IMPORTANT</span></li>
+    <li><b>Dharma ≠ religion.</b> Dharma = <b>duty, obligation, righteousness, moral conduct</b> — a way of life where ethics are central &amp; everyone performs duties per their roles. <b>Dhamma</b> = Pali equivalent (Buddhism). <span class="bdg must">🔥 MUST REMEMBER</span></li>
+    <li>'Dharma' from Sanskrit root <b><i>dhri</i></b> — also root of <i>dharati</i> (the earth). <b>Bhishma in the Mahābhārata:</b> dharma "is that which <b>upholds beings</b>; whatever upholds all beings is dharma." ("The dharma of iron is to sink, of wood is to float.")</li>
+    <li>Politics–ethics link across periods: <b>Aśhoka's edicts</b> promoted dhamma (moral conduct, family respect, non-violence, compassion); <b>Uttaramerur</b> required "honest earnings" &amp; purity; <b>Kāmandaka's Nītisāra</b> &amp; <b>Bāṇabhaṭṭa's Kādambarī</b> (celebrated as one of the world's <b>first novels</b>) reflect on kingship &amp; governance. <span class="bdg exam">📌 EXAM POINT</span></li>
+  </ul>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — Dharma vs Religion</div>
+  <div class="hb">Dharma ka matlab "religion" NAHI hai! Dharma = <b>duty + righteousness + moral conduct</b> — apni role ke hisaab se sahi kaam karna (student ka padhna, raja ki praja ki raksha). "Jo cheez sabko sambhalti hai, wahi dharma hai" (Bhishma). Buddhism mein isi ka Pali version "dhamma" kehlata hai — Aśhoka ne yahi dhamma apne edicts mein failaya.</div></div>
+</div>
+
+<!-- ============ 9. SOCIAL STRUCTURE ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">9</span><span class="t">Social Structure — Varṇa, Jāti &amp; Family</span></div>
+  <div class="sub-h"><span class="tag">9.1</span>Varṇa — the fourfold order</div>
+  <table class="tt">
+    <thead><tr><th style="width:19%">Varṇa</th><th>Expected roles</th></tr></thead>
+    <tbody>
+      <tr><td><b>Brāhmaṇas</b></td><td>Study &amp; teach the Vedas; perform/officiate yajñas; give &amp; receive <b>dāna</b> (gifts)</td></tr>
+      <tr><td><b>Rajanya (Kṣhatriyas)</b></td><td>Warfare, protecting people, administering justice; also study scriptures, sponsor yajñas, uphold social order</td></tr>
+      <tr><td><b>Vaiśhyas</b></td><td>Economic activities — agriculture, pastoralism, trade; + scriptural study, rituals, charity</td></tr>
+      <tr><td><b>Śhūdras</b></td><td>Assist the other varṇas; <b>in practice</b> also engaged in agriculture, animal husbandry, trade, arts &amp; crafts</td></tr>
+    </tbody>
+  </table>
+  <ul class="b">
+    <li>Earliest reference to 4 categories = <b>Puruṣhasūkta hymn, Book 10 of the Ṛig Veda</b>. <span class="bdg must">🔥 MUST REMEMBER</span></li>
+    <li>Early Vedic texts do <b>NOT</b> indicate fixed birth-based status — identity shaped by ethnicity, subgroups, region, village affiliation, <b>gotra</b>, language, &amp; especially <b>occupation</b> (flexible &amp; mobile).</li>
+    <li>Evidence — <b>Ṛig Veda 9.112.3</b>: "I am a <b>poet</b>; my father is a <b>physician</b>; my mother is a <b>grinder of corn</b>" — occupational diversity within ONE family! <span class="bdg exam">📌 EXAM POINT (source)</span></li>
+    <li><b>Buddhist Sutta Nipāta:</b> "No brāhmaṇa is such by birth. No outcaste is such by birth, but <b>only by his deeds</b>."</li>
+    <li>Varṇa = a <b>system of values</b>: <b>knowledge (highest) → political power → wealth</b>; a <b>functional</b> division, not just hierarchy.</li>
+  </ul>
+  <div class="sub-h"><span class="tag">9.2</span>Jāti — how it emerged <span class="bdg conf">⚠️ COMMON CONFUSION (varṇa vs jāti)</span></div>
+  <ul class="b">
+    <li><b>Jāti</b> emerged due to: (1) <b>intermarriage among varṇas</b>, (2) migrating communities becoming <b>endogamous</b> (marrying within own group), (3) territorial differences.</li>
+    <li><b>Varṇas = fixed at 4; jātis = NO limit</b> — kept growing with new social groups &amp; occupations.</li>
+  </ul>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — Varṇa vs Jāti</div>
+  <div class="hb">Varṇa = <b>4 broad categories</b> (brāhmaṇa, kṣhatriya, vaiśhya, śhūdra) — bas 4, no more. Jāti = chhote-chhote <b>birth-based groups</b> (jaise lohar, sunar, weaver) — inki sankhya unlimited, aur time ke saath badhti gayi. Jaise: varṇa = class ki 4 broad branches; jāti = un branches ke chhote-chhote sub-groups. Shuru mein occupation flexible thi (poet ka baap physician, maa corn-grinder!), dheere-dheere rigidity badhi.</div></div>
+  <div class="sub-h"><span class="tag">9.3</span>Social Mobility — society was NOT fully rigid <span class="bdg imp">⭐ IMPORTANT</span></div>
+  <ul class="b">
+    <li>Rulers from <b>diverse social backgrounds</b>: <b>Nandas, Mauryas, Shungas, Satavāhanas, Vākāṭakas, Guptas, Puṣhyabhūtis</b>.</li>
+    <li><b>Mandsaur Stone Inscription (473 CE):</b> guild of <b>silk weavers migrated from Lata (Gujarat) to Dashapura (MP)</b> (Gupta period); proficient not just in weaving but also <b>archery, astrology &amp; other occupations</b> — occupational mobility!</li>
+    <li><b>Karitalai copper-plate inscriptions of Mahārāja Jayanātha</b> (late 5th c CE): record <b>brāhmaṇas as land managers</b>.</li>
+    <li><b>Tolkappiyam</b> (Sangam text) refers to a four-fold division: <b>Arasar</b> (kings), <b>Vanigar</b> (traders/merchants), <b>Vellāḷar/Vellalar</b> (farmers), <b>Antanar</b> (brāhmaṇas) — occupation-based, marked by <b>fluidity</b>. <span class="bdg exam">📌 EXAM POINT</span></li>
+    <li><b>Pattinappalai</b> describes a prosperous, trade-oriented society: merchants, salt-makers, fishermen, artisans, agriculturists, warriors interacting actively → society organised more by <b>occupation &amp; economic functions</b> than rigid varṇa.</li>
+  </ul>
+  <div class="sub-h"><span class="tag">9.4</span>Family, Gotra, Āśhrama &amp; Puruṣhārtha</div>
+  <ul class="b">
+    <li>Structure: <b>kula</b> (family, smallest unit) → <b>grāma</b> (village, several families) → <b>viśha</b> (headed by <b>viśhapati</b>) → <b>jana</b> (rājā = chief protector).</li>
+    <li><b>Gotra</b> = patrilineal lineage traced to a common ancestor (a Vedic sage/ṛiṣhi); regulated <b>marriage practices</b> (patrilineal = identity/inheritance through the <b>male line</b>; endogamy = marrying within one's own group).</li>
+    <li><b>Four āśhramas (stages of life):</b> <span class="kf">brahmacharya</span> (studentship) → <span class="kf">gṛihastha</span> (householder) → <span class="kf">vānaprastha</span> (forest life) → <span class="kf">saṁnyāsa</span> (renunciation). Each stage = own dharma → fulfilment + social harmony.</li>
+    <li><b>ṣhoḍaśha-saṁskāras</b> = "<b>sixteen rites of passage</b>" marking life events: birth, initiation into education, completion of studies, engagement, marriage, birth of children, children's marriages, parents' death rites &amp; memorial ceremonies, one's own death.</li>
+    <li><b>Four puruṣhārthas (goals of life):</b> <span class="kf">dharma</span> (righteousness), <span class="kf">artha</span> (material well-being), <span class="kf">kāma</span> (fulfilment of desires), <span class="kf">mokṣha</span> (liberation). Ethics angle: <b>artha is desirable only when guided by dharma</b>. <span class="bdg must">🔥 MUST REMEMBER</span></li>
+  </ul>
+</div>
+<!-- ============ 10. WOMEN ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">10</span><span class="t">Role of Women</span></div>
+  <ul class="b">
+    <li><b>Vedic period:</b> women held a high, respectful position — participated in <b>scholarly learning</b>, performed rituals alongside men, took part in <b>chariot races</b>, attended the <b>sabhā</b>. <span class="bdg must">🔥 MUST REMEMBER</span></li>
+    <li><b>Women sages of the Ṛig Veda</b> (hymns attributed to them): <b>Apālā, Viśhvavārā, Ghoṣhā, Lopāmudrā</b>. Revered goddesses: <b>Uṣhas</b> (dawn), <b>Aditi</b> (mother of the gods).</li>
+    <li><b>Manu-Smṛiti 3.56:</b> "Where women, verily, are honoured, there the gods rejoice; where, however, they are not honoured, there all sacred rites prove fruitless." <span class="bdg exam">📌 EXAM POINT (quote)</span></li>
+    <li>Over time women's position <b>fluctuated/declined</b> with changing social-political conditions — but women kept contributing to household management, agriculture, crafts, religious practices.</li>
+    <li><b>Gupta–Vākāṭaka period</b> (4th–6th c CE): literary works depict highly educated, skilled female characters; <b>Prabhāvatī Gupta</b> (daughter of Chandragupta II) ruled as <b>regent</b> in the Vākāṭaka kingdom &amp; <b>issued land grants in her own name</b>. <span class="bdg imp">⭐ IMPORTANT</span></li>
+    <li><b>Post-Maurya votive inscriptions</b> (inscriptions dedicating a gift/sculpture to a deity) list <b>women as donors</b>.</li>
+    <li><b>Sangam literature:</b> women did agrarian tasks (planting, weeding, husking, winnowing paddy), cattle rearing, spinning, fishing, salt production, garland selling; famous poetesses — <b>Avvaiyar</b> &amp; <b>Vennikuyattiyar</b> (woman potter); women bards &amp; dancers contributed to cultural life.</li>
+    <li><b>Chola period:</b> royal women like <b>Sembiyan Mahādevī</b> supported temple building &amp; religious institutions.</li>
+  </ul>
+</div>
+
+<!-- ============ 11. RELIGION & BHAKTI ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">11</span><span class="t">Religious Life &amp; Emergence of Bhakti</span></div>
+  <ul class="b">
+    <li><b>Vedic pantheon had NO rigid hierarchy</b> — different deities praised as supreme in different hymns; each deity linked to <b>nature</b> (sun, rain, fire, earth, dawn) → worship through prayers &amp; <b>yajñas</b> (offerings to the sacred fire).</li>
+    <li>Continuity today: sun worship during <b>Chhath</b> &amp; <b>Makar Sankranti</b> — reflecting early dependence on nature, which was seen as <b>sacred and powerful</b>, not merely a resource.</li>
+    <li><b>Mid-1st millennium BCE — renunciants:</b> advocated non-attachment, lived as ascetics/wanderers — called <b>parivrājaka</b> (wanderer), <b>bhikṣhu</b> (lives on alms), <b>śhramaṇa</b> (one who strives). <b>Gautama Buddha &amp; Mahāvīra</b> = influential thinkers of this trend; renunciation already present in Vedic tradition (vānaprastha &amp; saṁnyāsa). <span class="bdg exam">📌 EXAM POINT</span></li>
+    <li>Vedic tradition evolved towards worship of <b>Viṣhṇu, Śhiva, Śhakti</b> → foundation of <b>Bhakti</b> — direct connection with gods <b>without elaborate Vedic rituals</b>, accessible to <b>ALL, regardless of class or gender</b>. <span class="bdg must">🔥 MUST REMEMBER</span></li>
+    <li><b>Āḻvārs</b> (12 saint-poets, praised <b>Viṣhṇu</b>) + <b>Nāyanmārs</b> (63 saint-poets, praised <b>Śhiva</b>) — Tamil region, <b>6th century</b> → created the large body of <b>Tamil Bhakti literature</b>, one of the most significant cultural-religious developments of the period.</li>
+  </ul>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — Bhakti kya hai</div>
+  <div class="hb">Pehle pooja = costly <b>yajñas</b> (priests, rituals, offerings). Bhakti ne kaha: <b>seedha dil se bhagwan se connection</b> — na priests ki zaroorat, na bade rituals. Aur sabse badi baat: <b>class/gender koi barrier nahi</b> — rich-poor, man-woman sab bhakti kar sakte hain. Tamil region ke 12 Āḻvārs (Viṣhṇu) + 63 Nāyanmārs (Śhiva) ne isse mass movement bana diya.</div></div>
+</div>
+
+<!-- ============ 12. EDUCATION ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">12</span><span class="t">The Quest for Knowledge — Education</span></div>
+  <ul class="b">
+    <li>Education = <b>integral, holistic part of life</b>; inner values: truth, patience, regularity, humility, control of senses, <b>purity of self (sattvaśhuddhi)</b>, cognition of unity of life &amp; nature, reverence for all beings; living per <b>dharma</b>.</li>
+    <li><b>Gurukula</b> system: teacher–student relationship (<b>guru-śhiṣhya paramparā</b>) regarded as <b>sacred</b>; guru/āchārya leads from "darkness of ignorance to light of knowledge"; student treated as family member, lived disciplined life (self-control, obedience, devotion).</li>
+    <li><b>Subjects:</b> Vedas + grammar, logic, philosophy, ethics, mathematics, science, medicine, astronomy; arts &amp; crafts — music, dance, painting, physical education, <b>archery</b>; yoga &amp; meditation; service to the guru. Education = complete preparation for life, not just a career.</li>
+    <li><b>Universities / centres of learning</b> (before 2nd millennium CE): <b>Takshashila</b> (well-organised urban campus: housing, drainage, waste management), <b>Nalanda (427 CE)</b>, <b>Vikramashila (783–820 CE)</b>, <b>Valabhi (c. 480 CE)</b>, Odantapuri, Mithila, Kanchipuram, Pushpagiri, Somapura, Uddandapura, Sharada Peeth — attracting students from India &amp; abroad. <span class="bdg imp">⭐ IMPORTANT</span></li>
+  </ul>
+</div>
+
+<!-- ============ 13. LITERATURE ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">13</span><span class="t">Literary Heritage of Early India</span></div>
+  <table class="tt">
+    <thead><tr><th style="width:26%">Field</th><th>Classical works</th></tr></thead>
+    <tbody>
+      <tr><td><b>Sanskrit grammar</b></td><td>Pāṇini's <b>Aṣhṭādhyāyī</b>, Piṅgala's <b>Chhandaśhāstra</b>, Patañjali's <b>Mahābhāṣhya</b></td></tr>
+      <tr><td><b>Dharma, law &amp; ethics</b></td><td><b>Manu-Smṛiti</b>, Yājñavalkya Smṛiti, Nārada Smṛiti, Viṣhṇu Smṛiti</td></tr>
+      <tr><td><b>Medicine</b></td><td><b>Charakasaṁhitā</b> &amp; <b>Suśhrutasaṁhitā</b></td></tr>
+      <tr><td><b>Sanskrit poetry (Kāvya)</b></td><td>Kālidāsa's <b>Raghuvaṁśha</b> &amp; <b>Kumārasambhava</b></td></tr>
+      <tr><td><b>Tamil literature</b></td><td>Tiruvalluvar's <b>Tirukkural</b>; Tamil epics <b>Silappadikāram</b> &amp; <b>Maṇimēkalai</b>; vast <b>Sangam corpus</b> — themes: love (<b>akam</b>) &amp; war/public life (<b>puram</b>)</td></tr>
+      <tr><td><b>Lexicon</b></td><td><b>Amarakoṣha</b> — Sanskrit lexicon with a chapter on forests, crops, plants &amp; manure</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ============ 14. ECONOMY ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">14</span><span class="t">Economy — Agriculture, Irrigation, Trade &amp; Guilds</span></div>
+  <div class="sub-h"><span class="tag">14.1</span>Agriculture &amp; Land Revenue</div>
+  <ul class="b">
+    <li><b>Mauryan state</b> closely regulated the economy: village land divided into <b>individual holdings</b> + <b>common pastures</b> for grazing + groves on outskirts; forest clearing encouraged (some forests <b>protected by law</b>).</li>
+    <li>Basic land tax = fixed proportion of produce, generally <b>one-sixth (1/6)</b>. <span class="bdg must">🔥 MUST REMEMBER</span></li>
+    <li>Land classified for revenue assessment (Kauṭilya lists cultivated, wasteland/fallow, high &amp; dry, sown fields, groves).</li>
+    <li>Crops: several <b>rice varieties, pulses, wheat, linseed, mustard, saffron, sugarcane, vegetables, fruits</b>.</li>
+    <li><b>Milindapañho</b> (Buddhist text, attributed to <b>Nāgasena</b>) describes <b>8 stages of agricultural operations</b> (preparing/weeding fields → harvesting &amp; winnowing).</li>
+    <li>Deccan's <b>black soil</b> → increased <b>cotton</b> cultivation. Sangam texts: <b>Chera region</b> rich in jackfruit, pepper, turmeric; crops incl. <b>ragi</b> &amp; sugarcane.</li>
+  </ul>
+  <div class="sub-h"><span class="tag">14.2</span>Irrigation</div>
+  <ul class="b">
+    <li>Reservoirs, canals &amp; dams — great importance; construction recorded in inscriptions.</li>
+    <li><b>Sudarshana Lake (Girnar, Saurāṣhṭra/Kathiawad, Gujarat):</b> dam constructed by <b>Puṣhyagupta</b>, a governor of <b>Chandragupta Maurya</b> → repaired by Rudradaman I → restored by Skandagupta. Shows the state's active role — agriculture was a major <b>source of revenue</b>. <span class="bdg exam">📌 EXAM POINT</span></li>
+    <li><b>Grand Anicut (Kallanai)</b> built by <b>Karikala Chola</b> — canals, lakes, tanks with connecting channels; <b>still in use today</b>, repaired by later rulers for centuries.</li>
+  </ul>
+  <div class="sub-h"><span class="tag">14.3</span>Trade — Routes &amp; Ports <span class="bdg must">🔥 MUST REMEMBER</span></div>
+  <ul class="b">
+    <li>By <b>6th century BCE</b>, two major land routes: <span class="kf">Dakṣiṇāpatha</span> (south) &amp; <span class="kf">Uttarāpatha</span> (north) — later maintained &amp; expanded by dynasties; trans-regional networks moving <b>goods, people &amp; ideas</b>, linking inland regions with coastal ports.</li>
+    <li><b>Arthaśhāstra:</b> trade = major economic activity; <b>Magadha</b> traded <b>textiles, gems, coral, pearls, metals, minerals</b> with northern, central &amp; southern India; <b>salt</b> production strictly state-regulated; state ensured route safety &amp; prevented adulteration (consumer protection!).</li>
+    <li>Major ports: <b>Muziris, Kāveripaṭṭinam (Poompuhar), Arikamedu, Masulipatnam</b>; maritime trade used coastal + Indian Ocean routes; by early centuries CE, <b>trade with Rome</b> expanded (sea + overland via Central Asia); Harappan–Mesopotamian links were the ancient precedent.</li>
+    <li><b>Silappadikāram</b> mentions 2 routes of the Tamil region: <b>Kanchipuram → Poompuhar</b> (Kaveripattinam) &amp; <b>Kanchipuram → Kanyakumari</b>.</li>
+  </ul>
+  <div class="sub-h"><span class="tag">14.4</span>Guilds (Śhreṇīs) <span class="bdg must">🔥 MUST REMEMBER</span></div>
+  <ul class="b">
+    <li>Guilds = associations of people in the same profession/craft/occupation; grew important especially after the rise of <b>mahājanapadas (6th c BCE)</b>; <b>silver punch-marked coins</b> (earliest metallic coins) came into circulation then.</li>
+    <li><b>Jātaka literature mentions 18 types of guilds</b> — well-established, influential institutions. <span class="bdg exam">📌 EXAM POINT</span></li>
+    <li>Functions: <b>regulated quality</b> of goods, often <b>fixed prices</b> (protecting artisans &amp; consumers), supervised members via <b>guild courts</b> (professional discipline), and acted as <b>banks, financiers &amp; trustees</b>.</li>
+    <li><b>Case study — Nashik cave inscription (2nd c CE):</b> of the <b>Śhaka king Nahapāna</b> &amp; his son-in-law <b>Uṣhavadata</b> (son of Dinika): monetary donations were <b>deposited with guilds</b> which paid a <b>fixed rate of interest</b>; interest maintained <b>Buddhist monasteries &amp; caves</b>. Details: <b>3000 kāhāpaṇas</b> invested in weavers' guilds at <b>Govardhana</b> (2000 @ one <i>pratika</i> per hundred monthly; 1000 @ three-quarters of a <i>paḍika</i> per hundred monthly) → guilds = <b>banking &amp; credit institutions</b>. <span class="bdg exam">📌 EXAM POINT (source-based Q)</span></li>
+    <li><b>Sanchi Great Stupa</b> (southern gateway): inscription on the <b>guild of ivory workers from Vidiśhā</b> — carved the stone sculptures → craft guilds did artistic production <b>AND religious patronage</b>.</li>
+    <li>Textiles: silk, cotton, wool, linen; important centres — <b>Mathura, Vārāṇasī, Kāmarūpa</b>; guilds of silk weavers show the organised textile industry.</li>
+  </ul>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — Guild as a bank</div>
+  <div class="hb">Śhreṇī (guild) sirf "workers union" nahi thi — ek <b>full financial institution</b> thi! Log paise deposit karte the (jaise bank), guild fixed interest deti thi, aur woh interest monasteries/caves ke maintenance ka kaam karti tha (Nashik inscription ka example). Quality control + price fixing + court + banking — sab ek hi institution mein. Modern "company + bank + union" ka combo!</div></div>
+</div>
+
+<!-- ============ 15. IMPORTANT PEOPLE ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">15</span><span class="t">Important People — Who → Did → Why</span></div>
+  <table class="tt">
+    <thead><tr><th style="width:22%">Name</th><th style="width:38%">Who / What they did</th><th>Why important</th></tr></thead>
+    <tbody>
+      <tr><td><b>Chandragupta Maurya</b></td><td>Founder of the Mauryan Empire (321 BCE)</td><td>Empire built on Magadha's power; his governor Puṣhyagupta built the Sudarshana Lake dam</td></tr>
+      <tr><td><b>Aśhoka</b></td><td>Mauryan emperor (272–232 BCE); Major Rock Edicts (Prakrit) incl. at Junagadh</td><td>Spread Dhamma — moral governance, non-violence, compassion; pan-Indian authority (Jambudvīpa)</td></tr>
+      <tr><td><b>Kauṭilya</b></td><td>Author of the <b>Arthaśhāstra</b> — earliest systematic treatise on statecraft</td><td>Saptāṁga theory, "one wheel does not move the carriage", definition of Prithivi</td></tr>
+      <tr><td><b>Pushyamitra Shunga</b></td><td>Founded the Shunga empire (185 BCE)</td><td>Post-Mauryan dynasty in northern India</td></tr>
+      <tr><td><b>Khāravela</b></td><td>Ruler of Kalinga (1st c CE)</td><td>Udayagiri &amp; Khandagiri caves — patronage of art</td></tr>
+      <tr><td><b>Gautamiputra Sātakarṇi</b></td><td>Satavāhana ruler (c. 106–130 CE)</td><td>Peak of the Deccan empire that succeeded the Mauryas</td></tr>
+      <tr><td><b>Rudradaman I</b></td><td>Western Satrap (Śhaka) ruler (c. 150 CE)</td><td>Long <b>Sanskrit</b> inscription (Junagadh) — repaired Sudarshana Lake</td></tr>
+      <tr><td><b>Nedunjeral Adan</b></td><td>Chera ruler of the Sangam age</td><td>Won title <b>adhirāja</b>; conquests up to the <b>Himalayas</b> — pan-Indian aspiration</td></tr>
+      <tr><td><b>Chandragupta II</b> &amp; <b>Skandagupta</b> / <b>Kumāragupta I</b></td><td>Gupta rulers</td><td>Skandagupta restored Sudarshana Lake; Kumāragupta I's Damodarpur plates reveal district administration; Faxian visited (c. 400 CE)</td></tr>
+      <tr><td><b>Prabhāvatī Gupta</b></td><td>Daughter of Chandragupta II; Vākāṭaka queen</td><td>Ruled as <b>regent</b>; issued land grants <b>in her own name</b> — powerful royal woman</td></tr>
+      <tr><td><b>Harṣhavardhana</b></td><td>Puṣhyabhūti ruler (606 CE; annexed Kannauj)</td><td>Xuan Zang visited India (629–645 CE) during this era</td></tr>
+      <tr><td><b>Karikala Chola</b></td><td>Early Chola king</td><td>Built the <b>Grand Anicut (Kallanai)</b> — still in use today</td></tr>
+      <tr><td><b>Parantaka I</b></td><td>Chola ruler (10th c CE)</td><td><b>Uttaramerur inscriptions</b> — Kudavolai village election system</td></tr>
+      <tr><td><b>Rajaraja I &amp; Rajendra I</b></td><td>Imperial Chola rulers (985–1014; 11th c CE)</td><td>Brihadeeshwara Temple, Thanjavur; Rajendra I took title <b>Gangaikonda</b></td></tr>
+      <tr><td><b>Gautama Buddha &amp; Mahāvīra</b></td><td>Influential thinkers of the renunciant tradition (600–300 BCE)</td><td>Part of the śhramaṇa/renunciation trend from mid-1st millennium BCE</td></tr>
+      <tr><td><b>Nahapāna &amp; Uṣhavadata</b></td><td>Śhaka king &amp; his son-in-law (2nd c CE)</td><td>Nashik cave inscription — guilds as banking institutions (3000 kāhāpaṇas)</td></tr>
+      <tr><td><b>Mahārāja Jayanātha</b></td><td>Ruler (late 5th c CE)</td><td>Karitalai copper plates — brāhmaṇas as land managers</td></tr>
+      <tr><td><b>Kālidāsa</b></td><td>Sanskrit poet (Gupta era)</td><td>Raghuvaṁśha, Kumārasambhava (Kāvya)</td></tr>
+      <tr><td><b>Tiruvalluvar</b></td><td>Tamil poet</td><td>Tirukkural — classic of Tamil wisdom literature</td></tr>
+      <tr><td><b>Bāṇabhaṭṭa</b></td><td>Sanskrit writer</td><td><b>Kādambarī</b> — celebrated as one of the world's first novels</td></tr>
+      <tr><td><b>Avvaiyar</b></td><td>Sangam poetess</td><td>Women's active role in literature &amp; public life</td></tr>
+      <tr><td><b>Sembiyan Mahādevī</b></td><td>Chola royal woman</td><td>Temple building &amp; religious patronage</td></tr>
+      <tr><td><b>Nāgasena</b></td><td>Buddhist teacher</td><td>Milindapañho (attributed to him) — 8 stages of agricultural operations</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ============ 16. COMPARISONS ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">16</span><span class="t">📊 Quick Comparisons (confusable pairs)</span></div>
+  <table class="tt">
+    <thead><tr><th style="width:26%">Confusable pair</th><th>Key difference</th></tr></thead>
+    <tbody>
+      <tr><td><b>Jana vs Janapada</b></td><td>Kinship-based clan vs <b>territory-based</b> state ("where the jana set its feet")</td></tr>
+      <tr><td><b>Rājya vs Gaṇa-Saṁgha</b></td><td>Monarchy (hereditary king) vs <b>republic</b> (collective rule, e.g. Vajji)</td></tr>
+      <tr><td><b>Janapada vs Mahājanapada</b></td><td>Smaller territorial unit vs <b>bigger</b> political unit (16, from 6th c BCE)</td></tr>
+      <tr><td><b>Dharma vs Dhamma vs Ṛita</b></td><td>Duty/righteousness (Sanskrit) vs its Pali form (Buddhist/Aśhokan) vs <b>cosmic order</b> (Ṛig Veda)</td></tr>
+      <tr><td><b>Varṇa vs Jāti</b></td><td>4 fixed categories vs <b>unlimited</b> birth-based groups</td></tr>
+      <tr><td><b>Brāhman vs Brāhmaṇa(text) vs Brahmins</b></td><td>Universal Being (concept) vs ritual-explanation texts vs the varṇa</td></tr>
+      <tr><td><b>Brahmadeya vs Agrahāram</b></td><td>Pallavas' tax-free village grants vs Chālukyas' grants to <b>Brahmin settlements</b></td></tr>
+      <tr><td><b>PGW vs NBPW</b></td><td>Painted Grey Ware (later Vedic phase) vs glossy, refined <b>"deluxe ware"</b> (2nd half of 1st millennium BCE, mid-Gangetic)</td></tr>
+      <tr><td><b>Early Tamil kingdoms vs Imperial Cholas</b></td><td>Sangam-age (300 BCE–300 CE) vs 9th–11th c CE — many centuries apart!</td></tr>
+      <tr><td><b>Sabhā vs Samiti</b></td><td>Small elite judicial body vs larger policy assembly</td></tr>
+      <tr><td><b>Āśhrama (stage) vs Āśhrama (Saptāṁga)</b></td><td>4 stages of life (brahmacharya…) vs <b>hermitage</b> — different contexts!</td></tr>
+      <tr><td><b>Uttarāpatha vs Dakṣiṇāpatha</b></td><td>Northern land route vs southern land route (both from ~6th c BCE)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ============ 17. MUST REMEMBER ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">17</span><span class="t">🔥 MUST REMEMBER — Top Exam Facts</span></div>
+  <div class="must-box">
+    <div class="mt">🔥 If you remember nothing else, remember these:</div>
+    <ul class="b">
+      <li>Evolution chain: <b>jana → janapada → mahājanapada → empire</b> (kinship → territory → big states → empires).</li>
+      <li><b>321 BCE</b> Chandragupta Maurya; <b>272–232 BCE</b> Aśhoka &amp; Dhamma; <b>320–550 CE</b> Guptas; <b>9th–11th c</b> imperial Cholas.</li>
+      <li><b>16 mahājanapadas</b>; <b>Magadha</b> most powerful (strategic location + fertile plains + strong rulers) → base of Mauryan Empire.</li>
+      <li>Vedic assemblies: <b>sabhā (judicial), samiti (policy), vidhata (popular gathering)</b>.</li>
+      <li><b>Saptāṁga</b> = king + ministers + territory + forts + treasury + army + allies (Kauṭilya).</li>
+      <li><b>Dharma ≠ religion</b> — duty, righteousness, moral conduct (Pali: dhamma).</li>
+      <li>Prithivi (Arthaśhāstra) = "area between <b>Himavat and the sea</b>" = chakravarti-kśhetra.</li>
+      <li>Varṇa: earliest reference in <b>Puruṣhasūkta (Book 10, Ṛig Veda)</b>; jāti emerged via intermarriage, endogamous migration, territorial differences.</li>
+      <li><b>4 āśhramas</b> (brahmacharya, gṛihastha, vānaprastha, saṁnyāsa) &amp; <b>4 puruṣhārthas</b> (dharma, artha, kāma, mokṣha).</li>
+      <li>Land tax = <b>1/6 of produce</b> (Mauryan); <b>Trade routes: Uttarāpatha &amp; Dakṣiṇāpatha</b> (6th c BCE).</li>
+      <li><b>Guilds (śhreṇīs)</b>: 18 types (Jātaka); worked as banks — Nashik inscription (Nahapāna/Uṣhavadata).</li>
+      <li>Case studies: <b>Uttaramerur (Kudavolai ballot)</b>, <b>Junagadh rock (Aśhoka + Rudradaman I + Skandagupta)</b>, <b>Mandsaur (silk weavers)</b>, <b>Sudarshana Lake (Puṣhyagupta → Rudradaman I → Skandagupta)</b>.</li>
+      <li>Tamilakam: <b>Chola–tiger, Chera–bow, Pandya–fish</b>; Sangam literature <b>300 BCE–300 CE</b>.</li>
+      <li><b>Āḻvārs (12, Viṣhṇu) &amp; Nāyanmārs (63, Śhiva)</b> — Tamil Bhakti, 6th century.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============ 18. LAST 5-MINUTE REVISION ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">18</span><span class="t">⚡ Last 5-Minute Revision</span></div>
+  <div class="rapid">
+    <div class="rt">⚡ Read this 5 minutes before the exam</div>
+    <div class="rgrid">
+      <div class="rcol">
+        <div class="rh">🗓️ Dates</div>
+        <ul>
+          <li>2000–500 BCE Vedic period; 1500–300 BCE Upaniṣhads</li>
+          <li>1000–600 BCE janapadas; 600–300 BCE 16 mahājanapadas + Buddha &amp; Mahāvīra</li>
+          <li>321 BCE Mauryan Empire; 272–232 BCE Aśhoka</li>
+          <li>185 BCE Shungas; 300 BCE–300 CE Sangam age</li>
+          <li>2nd c BCE–3rd c CE Satavāhanas; c. 150 CE Rudradaman I</li>
+          <li>320–550 CE Guptas; 427 CE Nalanda</li>
+          <li>543–753 CE Chālukyas of Badami; 712 CE Arab conquest of Sindh</li>
+          <li>9th–11th c CE imperial Cholas; 10th c Uttaramerur; 985–1014 Rajaraja I</li>
+        </ul>
+        <div class="rh">👤 Names</div>
+        <ul>
+          <li>Kauṭilya (Arthaśhāstra), Aśhoka (Dhamma), Rudradaman I &amp; Skandagupta (lake)</li>
+          <li>Nedunjeral Adan (adhirāja), Rajendra I (Gangaikonda)</li>
+          <li>Prabhāvatī Gupta (regent), Avvaiyar (poetess), Sembiyan Mahādevī (temples)</li>
+          <li>Kālidāsa, Tiruvalluvar, Bāṇabhaṭṭa (Kādambarī), Āryabhaṭa</li>
+          <li>Nahapāna &amp; Uṣhavadata (Nashik guild inscription)</li>
+        </ul>
+        <div class="rh">📜 Definitions</div>
+        <ul>
+          <li>Society = customs-regulated relationships; State = law-based political system</li>
+          <li>Janapada = "where the jana set its feet" (territorial identity)</li>
+          <li>Dharma = duty/righteousness (NOT religion); Ṛita = cosmic order</li>
+          <li>Gotra = patrilineal clan from a sage; śhreṇī = guild</li>
+        </ul>
+      </div>
+      <div class="rcol">
+        <div class="rh">🔑 Causes &amp; Effects</div>
+        <ul>
+          <li>Iron + Ganga plains → surplus → control of land/trade → complex admin → states</li>
+          <li>Magadha's rise → Mauryan Empire</li>
+          <li>Agriculture = revenue base → state built irrigation (dams recorded in inscriptions)</li>
+          <li>Emergence of states → infrastructure &amp; safety → trade expansion → guilds as banks</li>
+        </ul>
+        <div class="rh">🧠 Core concepts</div>
+        <ul>
+          <li>Assemblies limited the rājā's power (early participation)</li>
+          <li>Saptāṁga (7 limbs); mantri-pariṣhad; provinces→districts→villages</li>
+          <li>Pan-Indian ideal: Jambudvīpa, chakravarti-kśhetra, aśhvamedha</li>
+          <li>Village assemblies self-reliant (Chola: revenue, irrigation, justice)</li>
+          <li>Bhakti = direct devotion, no rituals, open to all classes &amp; genders</li>
+        </ul>
+        <div class="rh">⚖️ Key differences</div>
+        <ul>
+          <li>Varṇa (4, fixed) vs Jāti (unlimited)</li>
+          <li>Monarchy vs Gaṇa-saṁgha (republic)</li>
+          <li>Brahmadeya (Pallava) vs Agrahāram (Chālukya)</li>
+          <li>Early Tamil kingdoms vs imperial Cholas (centuries apart)</li>
+        </ul>
+        <div class="rh">⚡ 10 rapid-fire facts</div>
+        <ul>
+          <li>Ṛig Veda: 1,028 hymns; Sāma Veda → 7 svaras of music</li>
+          <li>Pañchajana: Yadu, Turvaśha, Puru, Anu, Druhyu; 'Bharata' from Bharata jana</li>
+          <li>Uttarāpatha &amp; Dakṣiṇāpatha; ports Muziris, Arikamedu, Poompuhar</li>
+          <li>Jātaka: 18 guilds; punch-marked silver coins = earliest</li>
+          <li>Tri-partite struggle: Pratihāras–Pālas–Rāṣhṭrakūṭas (for Kannauj)</li>
+          <li>Chola units: maṇḍalam → valanāḍu → nāḍu → Ur</li>
+          <li>Kudavolai = ballot pot; child draws palm leaves publicly</li>
+          <li>Gupta NEW post: sāndhivigrahika (minister of peace &amp; war)</li>
+          <li>Land tax 1/6; Grand Anicut (Karikala) still in use</li>
+          <li>Milindapañho: 8 stages of farming; Amarakoṣha = lexicon</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 19. MEMORY TRICKS ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">19</span><span class="t">🧠 Memory Tricks &amp; Mnemonics</span></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Pañchajana — "YTPAD":</b> <b>Y</b>adu, <b>T</b>urvaśha, <b>P</b>uru, <b>A</b>nu, <b>D</b>ruhyu</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Assemblies — "S-S-V":</b> Sabhā (small, judicial) → Samiti (big, policy) → Vidhata (all villagers)</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Saptāṁga — "Raja-Mantri-Desh-Durg-Khazana-Fauj-Mitra":</b> king, ministers, territory, forts, treasury, army, allies</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Puruṣhārthas — "DAKM":</b> <b>D</b>harma, <b>A</b>rtha, <b>K</b>āma, <b>M</b>okṣha</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Āśhramas — "B-G-V-S":</b> brahmacharya → gṛihastha → vānaprastha → saṁnyāsa</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Tamilakam emblems — "Chola Tiger, Chera Bow, Pandya Fish":</b> tiger = Chola, bow = Chera, fish = Pandya</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Women sages — "AVGL":</b> <b>A</b>pālā, <b>V</b>iśhvavārā, <b>G</b>hoṣhā, <b>L</b>opāmudrā</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Tri-partite struggle — "3 powers, 1 Kannauj":</b> <b>P</b>ratihāra, <b>P</b>āla, <b>R</b>āṣhṭrakūṭa</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Sangam society — "AVVA" (Tolkappiyam):</b> <b>A</b>rasar (kings), <b>V</b>anigar (traders), <b>V</b>ellāḷar (farmers), <b>A</b>ntanar (brāhmaṇas)</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Junagadh rock — "A-R-S" (3 rulers, ~700 years):</b> <b>A</b>śhoka → <b>R</b>udradaman I → <b>S</b>kandagupta (same Sudarshana Lake site)</div></div>
+</div>
+
+<!-- ============ 20. ANSWER WRITING ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">20</span><span class="t">📝 How to Use These Points in an Answer</span></div>
+  <div class="ans">
+    <div class="at">Q. "Explain the administrative system of early Indian states." (5 marks)</div>
+    <div class="astep"><div class="k">INTRODUCTION</div><div class="v">1–2 lines: Early Indian states evolved from kin-based janas into territorial states and empires, developing a multi-layered administrative system.</div></div>
+    <div class="astep"><div class="k">BODY (3–5 points)</div><div class="v">① Kauṭilya's Saptāṁga (7 constituents; "one wheel does not move the carriage") ② Council of ministers (mantri-pariṣhad — treasurer, tax collector, legal advisor, commander) ③ Layers: provinces → divisions → districts → villages (bhukti/maṇḍala…, village = smallest unit) ④ Example: Gupta Damodarpur plates (5 district members) ⑤ Example: Chola Uttaramerur (self-reliant village assemblies, Kudavolai elections)</div></div>
+    <div class="astep"><div class="k">CONCLUSION</div><div class="v">1 line: Thus administration combined central authority with decentralised, self-reliant local institutions — ensuring justice, revenue collection and public welfare.</div></div>
+  </div>
+  <div class="ans">
+    <div class="at">Q. "How did the idea of dharma and chakravarti samrāj promote unity?" (5 marks)</div>
+    <div class="astep"><div class="k">INTRODUCTION</div><div class="v">Dharma = ethical duty binding rulers &amp; subjects; chakravarti samrāj = ideal of one paramount ruler over the whole subcontinent.</div></div>
+    <div class="astep"><div class="k">BODY (3–5 points)</div><div class="v">① Dharma, Ṛita, samatva — shared ethical values ② Pan-Indian terms: Jambudvīpa, Bhāratavarṣha, chakravarti-kśhetra ③ Aśhvamedha &amp; Rājasūya yajñas ④ Examples: Aśhoka's Dhamma; Nedunjeral Adan (Himalayas); Rajendra I (Gangaikonda) ⑤ Ethics in governance: Uttaramerur's "honest earnings"</div></div>
+    <div class="astep"><div class="k">CONCLUSION</div><div class="v">These ideals created shared social values &amp; governance norms, presenting the subcontinent as one political entity despite many kingdoms.</div></div>
+  </div>
+  <div class="ans">
+    <div class="at">Q. (Source-based) "What does the Nashik cave inscription tell us about the economic role of guilds?" (3 marks)</div>
+    <div class="astep"><div class="k">INTRODUCTION</div><div class="v">The Nashik cave inscription (2nd century CE) of Uṣhavadata records a perpetual endowment deposited with professional guilds.</div></div>
+    <div class="astep"><div class="k">BODY (3 points)</div><div class="v">① 3000 kāhāpaṇas were invested with weavers' guilds at Govadhana at a fixed rate of interest ② The interest was used to maintain Buddhist monasteries and caves (cloth money etc. for the Saṁgha) ③ This shows guilds were trusted as banking/credit institutions — securely investing funds and generating steady income</div></div>
+    <div class="astep"><div class="k">CONCLUSION</div><div class="v">Hence guilds functioned not just as craft associations but as banks and financiers of early India.</div></div>
+  </div>
+  <div class="ans">
+    <div class="at">Q. "What do we learn about varṇa and the role of women from early Indian society?" (5 marks)</div>
+    <div class="astep"><div class="k">INTRODUCTION</div><div class="v">Early Indian society had a varṇa order (4 categories) and a varied, evolving position of women.</div></div>
+    <div class="astep"><div class="k">BODY (3–5 points)</div><div class="v">① Varṇa's earliest reference — Puruṣhasūkta (Book 10, Ṛig Veda); originally occupation-based &amp; flexible (Ṛig Veda 9.112.3: poet, physician, corn-grinder in one family) ② Buddhist Sutta Nipāta: "no brāhmaṇa by birth, only by deeds"; jātis emerged via intermarriage &amp; endogamy ③ Social mobility — rulers from diverse backgrounds (Nandas, Mauryas, Guptas…); Mandsaur inscription (silk weavers) ④ Women — Vedic period: education, sabhā, women sages (Apālā, Lopāmudrā…); Prabhāvatī Gupta as regent; Avvaiyar &amp; Sembiyan Mahādevī ⑤ Later decline with changing social-political conditions</div></div>
+    <div class="astep"><div class="k">CONCLUSION</div><div class="v">Thus early Indian society was more fluid than often assumed — with both hierarchy and mobility.</div></div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>

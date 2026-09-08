@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Civics Ch 6 — Democracy — Revision Notes</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+@page { size: 794px 1123px; margin: 0; }
+:root{
+  --bg:#f7f9fc; --card:#eef2f9; --stripe:#f4f7fb;
+  --thead:#4c6b92; --border:#d5dfe9; --accent:#2a5298; --deep:#1a365d;
+  --text:#1f2833; --muted:#7e8894;
+}
+html,body{margin:0;padding:0;width:794px;background:var(--bg);color:var(--text);
+  font-family:'Inter','Noto Sans SC','Noto Color Emoji',sans-serif;font-size:15px;line-height:1.55;}
+body{line-break:strict;word-break:normal;overflow-wrap:break-word;}
+@media screen{
+  html{height:auto;display:flex;justify-content:center;background:#e6ebf2;}
+  body{margin:20px auto;box-shadow:0 0 40px rgba(0,0,0,.12);}
+}
+p,td,li{overflow-wrap:break-word;}
+
+/* ---------- COVER ---------- */
+.cover{width:794px;height:1123px;box-sizing:border-box;position:relative;background:var(--bg);
+  break-after:page;overflow:hidden;}
+.cover .vline{position:absolute;left:92px;top:110px;bottom:110px;width:6px;background:var(--accent);}
+.cover .c-content{position:absolute;left:146px;right:76px;top:0;bottom:0;}
+.cover .kicker{position:absolute;top:140px;font-size:13px;font-weight:600;letter-spacing:4px;
+  color:var(--accent);text-transform:uppercase;}
+.cover .title{position:absolute;top:205px;font-size:58px;font-weight:900;line-height:1.15;
+  color:var(--deep);max-width:560px;}
+.cover .sub{position:absolute;top:340px;font-size:17px;font-weight:500;color:var(--accent);}
+.cover .summary{position:absolute;top:400px;font-size:15.5px;line-height:1.65;color:var(--text);
+  max-width:470px;opacity:.92;}
+.cover .chips{position:absolute;top:635px;display:flex;flex-wrap:wrap;gap:10px;max-width:520px;}
+.cover .chip{border:1.5px solid var(--border);border-radius:6px;padding:7px 13px;font-size:12.5px;
+  font-weight:600;color:var(--deep);background:var(--card);}
+.cover .meta{position:absolute;bottom:160px;font-size:14px;color:var(--muted);line-height:1.7;}
+.cover .meta b{color:var(--text);font-weight:700;}
+.cover .foot{position:absolute;bottom:105px;font-size:12px;letter-spacing:2.5px;color:var(--muted);
+  text-transform:uppercase;font-weight:500;}
+.cover .geo{position:absolute;top:88px;right:76px;opacity:.9;}
+</style>
+<style>
+/* ---------- MAIN CONTENT ---------- */
+.main-content{padding:48px 58px 44px 58px;}
+.sec{margin-top:24px;}
+.sec:first-child{margin-top:0;}
+.sec-h{display:flex;align-items:center;gap:12px;break-after:avoid;break-inside:avoid;
+  margin-bottom:13px;padding-bottom:8px;border-bottom:2px solid var(--border);}
+.sec-h .num{background:var(--thead);color:#fff;font-weight:800;font-size:13px;border-radius:5px;
+  padding:4px 10px;letter-spacing:.5px;flex-shrink:0;}
+.sec-h .t{font-size:21px;font-weight:800;color:var(--deep);line-height:1.25;}
+.sub-h{font-size:16px;font-weight:700;color:var(--accent);margin:16px 0 7px 0;
+  break-after:avoid;break-inside:avoid;}
+.sub-h .tag{font-weight:800;margin-right:6px;}
+
+ul.b{margin:6px 0 10px 0;padding-left:0;list-style:none;}
+ul.b>li{position:relative;padding-left:20px;margin-bottom:4.5px;break-inside:avoid;
+  text-align:left;}
+ul.b>li::before{content:'';position:absolute;left:4px;top:8.5px;width:7px;height:7px;
+  border-radius:2px;background:var(--accent);}
+ul.b ul{margin:4px 0 2px 0;padding-left:0;list-style:none;}
+ul.b ul>li{position:relative;padding-left:16px;margin-bottom:3px;font-size:14px;color:#39434e;}
+ul.b ul>li::before{content:'–';position:absolute;left:2px;color:var(--accent);font-weight:700;}
+
+.bdg{display:inline-block;font-size:11.5px;font-weight:700;border-radius:4px;padding:1.5px 7px;
+  vertical-align:1px;letter-spacing:.3px;white-space:nowrap;}
+.bdg.must{background:#fdeceb;color:#8f2b1a;border:1px solid #eec7bd;}
+.bdg.imp{background:#fdf3e7;color:#8a5a17;border:1px solid #ecd8b6;}
+.bdg.exam{background:#eaf1fa;color:#28518f;border:1px solid #c9d8ec;}
+.bdg.conf{background:#f3eefc;color:#5b3d99;border:1px solid #d8ccf0;}
+.bdg.und{background:#e9f5ee;color:#23663f;border:1px solid #c6e2d1;}
+
+table.tt{width:100%;border-collapse:collapse;font-size:13.5px;margin:8px 0 12px 0;}
+table.tt thead{display:table-header-group;}
+table.tt tr{break-inside:avoid;}
+table.tt th{background:var(--thead);color:#fff;font-weight:700;text-align:left;
+  padding:7px 10px;font-size:13px;}
+table.tt td{border:1px solid var(--border);padding:6.5px 10px;vertical-align:top;background:#fff;}
+table.tt tr:nth-child(even) td{background:var(--stripe);}
+table.tt td b{color:var(--deep);}
+
+.concept{border:1.5px solid var(--border);border-left:4px solid var(--accent);border-radius:6px;
+  background:#fff;padding:11px 14px 9px 14px;margin-bottom:10px;break-inside:avoid;}
+.concept .ct{font-size:15px;font-weight:800;color:var(--deep);margin-bottom:4px;}
+.concept .row{display:flex;gap:8px;margin-bottom:3.5px;font-size:13.8px;}
+.concept .row .k{flex-shrink:0;font-weight:700;color:var(--accent);min-width:96px;}
+.concept .row .v{color:#333d47;}
+
+.hing{background:var(--card);border:1.5px dashed var(--accent);border-radius:6px;
+  padding:10px 14px;margin:10px 0;break-inside:avoid;}
+.hing .ht{font-size:13px;font-weight:800;color:var(--accent);margin-bottom:4px;letter-spacing:.5px;}
+.hing .hb{font-size:14px;color:#39434e;line-height:1.55;}
+
+.must-box{background:#fdeceb;border:2px solid var(--accent);border-radius:8px;
+  padding:13px 16px;margin:12px 0;break-inside:avoid;}
+.must-box .mt{font-size:15px;font-weight:900;color:#8f2b1a;margin-bottom:7px;}
+.must-box ul.b>li{margin-bottom:5px;}
+.must-box ul.b>li::before{background:#c0392b;}
+
+.rapid{border:2px solid var(--thead);border-radius:8px;background:#fff;margin:12px 0;
+  padding:14px 16px;break-inside:avoid;}
+.rapid .rt{font-size:16px;font-weight:900;color:var(--deep);margin-bottom:9px;
+  border-bottom:2px solid var(--border);padding-bottom:7px;}
+.rgrid{display:flex;flex-wrap:wrap;gap:10px;}
+.rcol{flex:1 1 46%;min-width:300px;}
+.rcol .rh{font-size:13px;font-weight:800;color:var(--accent);text-transform:uppercase;
+  letter-spacing:.5px;margin:7px 0 4px 0;}
+.rcol ul{margin:0;padding-left:18px;font-size:13.2px;}
+.rcol li{margin-bottom:2.5px;break-inside:avoid;}
+
+.mnem{display:flex;gap:10px;align-items:flex-start;background:var(--stripe);border:1px solid var(--border);
+  border-radius:6px;padding:8px 13px;margin-bottom:7px;break-inside:avoid;}
+.mnem .mk{flex-shrink:0;font-size:16px;}
+.mnem .mtt{font-size:13.6px;}
+.mnem .mtt b{color:var(--deep);}
+
+.ans{background:#fff;border:1.5px solid var(--border);border-radius:8px;padding:12px 15px;
+  margin:12px 0;break-inside:avoid;}
+.ans .at{font-weight:900;font-size:15px;color:var(--deep);margin-bottom:6px;}
+.ans .astep{display:flex;gap:9px;margin-bottom:5px;font-size:13.8px;}
+.ans .astep .k{flex-shrink:0;font-weight:800;color:var(--accent);width:110px;}
+.note{font-size:13px;color:var(--muted);margin:6px 0;font-style:italic;}
+.kf{background:var(--card);border-radius:6px;padding:1px 6px;font-weight:700;color:var(--deep);}
+</style>
+</head>
+<body>
+
+<!-- ============ COVER ============ -->
+<div class="cover">
+  <div class="vline"></div>
+  <svg class="geo" width="130" height="130" viewBox="0 0 130 130" fill="none">
+    <circle cx="55" cy="55" r="42" stroke="#2a5298" stroke-width="0.8" opacity="0.18"/>
+    <circle cx="67" cy="62" r="42" stroke="#2a5298" stroke-width="0.8" opacity="0.3"/>
+    <circle cx="80" cy="70" r="42" stroke="#2a5298" stroke-width="0.8" opacity="0.42"/>
+    <circle cx="112" cy="30" r="7" fill="#2a5298" opacity="0.5"/>
+    <circle cx="103" cy="48" r="3" fill="#2a5298" opacity="0.3"/>
+  </svg>
+  <div class="c-content">
+    <div class="kicker">Class 9 SST &bull; Civics &bull; Chapter 6</div>
+    <div class="title">Democracy</div>
+    <div class="sub">Premium Last-Minute Revision Booklet</div>
+    <div class="summary">
+      Exam-focused short notes covering the full chapter — democratic traditions from
+      Vedic assemblies to the Constituent Assembly, the 7 principles of democracy,
+      Fundamental Rights with articles, types of democracy, India's living democracy,
+      grassroots case studies, women's political participation, the Emergency of
+      1975–77, and today's challenges — with Hinglish explanations and a 5-minute
+      rapid revision.
+    </div>
+    <div class="chips">
+      <span class="chip">🏛️ 1 Civics Chapter</span>
+      <span class="chip">📜 Constitution Facts</span>
+      <span class="chip">⚡ 5-Minute Revision</span>
+      <span class="chip">💡 Hinglish Explanations</span>
+      <span class="chip">🎯 Exam-Oriented</span>
+    </div>
+    <div class="meta">
+      <b>Source:</b> Understanding Society: India and Beyond &bull; Grade 9 – Part 1<br>
+      <b>Use:</b> Quick revision before school tests &amp; exams
+    </div>
+    <div class="foot">Short Notes &bull; Rapid Revision Series</div>
+  </div>
+</div>
+
+<div class="main-content">
+
+<!-- ============ 1. OVERVIEW ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">1</span><span class="t">Chapter at a Glance</span></div>
+  <ul class="b">
+    <li><b>One-line overview:</b> How democracy evolved in India — from ancient traditions of collective decision-making to the world's largest constitutional democracy — its principles, forms, practices, and challenges.</li>
+    <li>Big Questions: (1) How has the idea of democracy evolved over time? (2) What are the different forms of democracy in India &amp; the world? (3) What are democracy's essential features beyond government institutions? (4) What challenges does Indian democracy face?</li>
+    <li><b>Democracy</b> = a form of government in which the <b>source of power and authority lies with the citizens</b>, who elect representatives through <b>free and fair elections</b>; founded on <b>freedom, equality, justice, rights and duties</b>.</li>
+    <li>India = <b>world's largest democracy</b>: population <b>over 140 crore</b>, voter base <b>over 96.8 crore (2024)</b>. <span class="bdg must">🔥 MUST REMEMBER</span></li>
+    <li>Constitution of India: <b>adopted 26 November 1949, came into force 26 January 1950</b>; guarantees &amp; protects Fundamental Rights; no discrimination on religion, race, caste, sex, or place of birth. <span class="bdg must">🔥 MUST REMEMBER</span></li>
+  </ul>
+</div>
+
+<!-- ============ 2. KEY TERMS ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">2</span><span class="t">Key Terms &amp; Definitions</span></div>
+  <table class="tt">
+    <thead><tr><th style="width:30%">Term</th><th>Meaning (exam-ready)</th></tr></thead>
+    <tbody>
+      <tr><td><b>Democracy</b></td><td>Government where power lies with citizens; representatives elected via free &amp; fair elections</td></tr>
+      <tr><td><b>Popular sovereignty</b></td><td>Ultimate source of power = <b>the people</b>; the state derives authority from them</td></tr>
+      <tr><td><b>Universal Adult Franchise</b></td><td>Every citizen <b>18+ has the right to vote</b> through a <b>secret ballot</b>, without discrimination</td></tr>
+      <tr><td><b>Rule of Law</b></td><td>No one is above the law; equality before law; disputes resolved by <b>established legal procedures</b>, not force</td></tr>
+      <tr><td><b>Equality before law</b></td><td>Every individual — irrespective of status, identity, or rank — is treated equally by the law</td></tr>
+      <tr><td><b>Equal protection of law</b></td><td>All persons in <b>similar circumstances</b> shall be treated equally, without discrimination</td></tr>
+      <tr><td><b>Procedure established by law</b></td><td>Procedure established by the law of the state or statute (no punishment without due process)</td></tr>
+      <tr><td><b>Separation of Powers</b></td><td>Legislature makes laws, executive implements, judiciary interprets — prevents concentration of power</td></tr>
+      <tr><td><b>Judicial review</b></td><td>Judiciary can declare a law <b>unconstitutional</b> if inconsistent with the Constitution</td></tr>
+      <tr><td><b>PIL</b></td><td><b>Public Interest Litigation</b> — legal action initiated in a court for enforcement of <b>public interest</b></td></tr>
+      <tr><td><b>Civil society</b></td><td>Voluntary groups, NGOs &amp; community associations functioning independently within society</td></tr>
+      <tr><td><b>Federalism</b></td><td>Power &amp; responsibilities shared between central &amp; state governments (Union, State, Concurrent lists)</td></tr>
+      <tr><td><b>Sovereignty</b></td><td>From Latin <i>superanus</i> ("supreme") — the supreme, final, independent legal authority of a State</td></tr>
+      <tr><td><b>Question Hour</b></td><td><b>First hour</b> of a parliamentary session when members ask questions to the government — checks its work</td></tr>
+      <tr><td><b>Quorum</b></td><td>Minimum number of members required in a meeting to make proceedings valid</td></tr>
+      <tr><td><b>Cooperatives</b></td><td>Groups formed by people for common benefit; members share profits &amp; responsibilities equally</td></tr>
+      <tr><td><b>Legislation</b></td><td>Laws made by the government — maintain order &amp; regulate society</td></tr>
+      <tr><td><b>Participatory democracy</b></td><td>Citizens engage beyond elections — local councils, public consultations, community initiatives</td></tr>
+      <tr><td><b>Emergency</b></td><td>Articles <b>352, 356, 360</b> — National Emergency, President's Rule, Financial Emergency</td></tr>
+      <tr><td><b>Civic responsibility</b></td><td>Respecting others' rights, responsible social media use, abiding by laws, appreciating diversity</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ============ 3. DEMOCRATIC TRADITIONS ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">3</span><span class="t">Democratic Traditions — India's Long Story</span></div>
+  <div class="chain" style="border:1.5px solid var(--border);border-radius:6px;background:#fff;margin-bottom:11px;break-inside:avoid;overflow:hidden;">
+    <div class="ch-t" style="background:var(--card);font-weight:800;color:var(--deep);font-size:14.5px;padding:8px 14px;border-bottom:1px solid var(--border);">📌 EVOLUTION OF DEMOCRACY IN INDIA (chain)</div>
+    <div class="step" style="display:flex;gap:10px;padding:6px 14px;border-bottom:1px dashed var(--border);font-size:13.8px;"><div class="k" style="flex-shrink:0;font-weight:800;color:var(--accent);width:132px;font-size:12.3px;">VEDIC ROOTS</div><div class="v" style="color:#333d47;">Assemblies — <b>sabhā, samiti, vidhata</b> — collective decision-making; early <b>republican states (gaṇas/saṁghas)</b>; king ruled in consultation with assemblies &amp; ministers</div></div>
+    <div class="step" style="display:flex;gap:10px;padding:6px 14px;border-bottom:1px dashed var(--border);font-size:13.8px;"><div class="k" style="flex-shrink:0;font-weight:800;color:var(--accent);width:132px;font-size:12.3px;">BUDDHIST SAṀGHA</div><div class="v" style="color:#333d47;"><b>Bauddha Saṁghas</b> (monastic community of Gautama Buddha) encouraged <b>debate &amp; discussion</b>; members <b>chose their leader &amp; voted</b> on decisions</div></div>
+    <div class="step" style="display:flex;gap:10px;padding:6px 14px;border-bottom:1px dashed var(--border);font-size:13.8px;"><div class="k" style="flex-shrink:0;font-weight:800;color:var(--accent);width:132px;font-size:12.3px;">VEDIC VERSE</div><div class="v" style="color:#333d47;"><b>Ṛig Veda 10.191.3 (Aikyamatya Sūktam)</b>: "Their counsel is one and the same; their assembly is one..." — consultation, consensus, shared responsibility</div></div>
+    <div class="step" style="display:flex;gap:10px;padding:6px 14px;border-bottom:1px dashed var(--border);font-size:13.8px;"><div class="k" style="flex-shrink:0;font-weight:800;color:var(--accent);width:132px;font-size:12.3px;">COLONIAL SETBACK</div><div class="v" style="color:#333d47;">Foreign invasions disrupted political fabric; by the <b>19th century the British colonised most of the subcontinent</b>, limiting people's participation in governance</div></div>
+    <div class="step" style="display:flex;gap:10px;padding:6px 14px;border-bottom:1px dashed var(--border);font-size:13.8px;"><div class="k" style="flex-shrink:0;font-weight:800;color:var(--accent);width:132px;font-size:12.3px;">INDEPENDENCE STRUGGLE</div><div class="v" style="color:#333d47;">The long freedom struggle <b>revived and strengthened democratic ideas</b> among the people</div></div>
+    <div class="step" style="display:flex;gap:10px;padding:6px 14px;font-size:13.8px;"><div class="k" style="flex-shrink:0;font-weight:800;color:var(--accent);width:132px;font-size:12.3px;">CONSTITUTION</div><div class="v" style="color:#333d47;"><b>Constituent Assembly formed 1946</b> (before independence in 1947); took <b>2 years, 11 months, 18 days</b> to draft the <b>world's longest written Constitution</b></div></div>
+  </div>
+  <ul class="b">
+    <li><b>Dr. B.R. Ambedkar</b> = Chairman of the <b>Drafting Committee</b> of the Constitution. <span class="bdg must">🔥 MUST REMEMBER</span></li>
+    <li><b>Constituent Assembly Debates (CAD)</b>: members believed the Constitution should not be a rigid legal code but a <b>dynamic document</b> evolving through lawful amendments — hence <b>Article 368</b> (amendment provision) — "robust, flexible, transformative and responsive".</li>
+    <li>Global spread of democratic values also influenced the CAD.</li>
+  </ul>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — Democracy ke Indian roots</div>
+  <div class="hb">Log sochte hain democracy Britishers se aayi — par chapter kehta hai <b>nahi</b>! Vedic times mein hi <b>sabhā-samiti</b> assemblies thi, Buddha ki Saṁgha mein <b>voting hoti thi</b>, aur gaṇa-saṁghas = republics. Phir British rule ne logon ki participation kam kar di. Freedom struggle ne wahi democratic values <b>dobara jaga di</b>, aur 1946 mein Constituent Assembly ne 2 saal 11 mahine 18 din mein world's longest written Constitution bana di.</div></div>
+</div>
+
+<!-- ============ 4. PRINCIPLES ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">4</span><span class="t">Principles of Democracy (Non-Negotiable)</span> <span class="bdg must">🔥 MUST REMEMBER (whole section)</span></div>
+
+  <div class="concept">
+    <div class="ct">4.1 Popular Sovereignty</div>
+    <div class="row"><div class="k">Meaning</div><div class="v">Ultimate source of power lies with <b>the people</b>; the state derives its authority from them</div></div>
+    <div class="row"><div class="k">Key points</div><div class="v">Government elected through free &amp; fair elections; formulates policies &amp; implements laws</div></div>
+    <div class="row"><div class="k">Example</div><div class="v"><b>Universal Adult Franchise</b> — every citizen 18+ votes through a <b>secret ballot</b></div></div>
+    <div class="row"><div class="k">Why it matters</div><div class="v">Prevents any ruler from claiming power without the people's consent</div></div>
+  </div>
+
+  <div class="concept">
+    <div class="ct">4.2 Rule of Law</div>
+    <div class="row"><div class="k">Meaning</div><div class="v"><b>No one is above the law</b> — ensures equality before law &amp; equal protection of law</div></div>
+    <div class="row"><div class="k">Key points</div><div class="v">Disputes resolved in <b>courts through established procedures</b> — not force or personal influence; no citizen punished without <b>due process</b>; fair opportunity to defend rights</div></div>
+    <div class="row"><div class="k">Example</div><div class="v">Even a minister/PM can be tried in court like any citizen</div></div>
+    <div class="row"><div class="k">Why it matters</div><div class="v">Prevents misuse of power; promotes justice, accountability &amp; trust in the system</div></div>
+  </div>
+
+  <div class="concept">
+    <div class="ct">4.3 Fundamental Rights (6 FRs)</div>
+    <div class="row"><div class="k">Meaning</div><div class="v">Rights enshrined in the Constitution safeguarding citizens' rights, freedom &amp; dignity</div></div>
+    <div class="row"><div class="k">Key points</div><div class="v">
+      <b>① Right to Equality (Articles 14–18) ② Right to Freedom (19–22) ③ Right Against Exploitation (23–24) ④ Right to Freedom of Religion (25–28) ⑤ Cultural &amp; Educational Rights (29–30) ⑥ Right to Constitutional Remedies (Article 32)</b>; enforceable in courts; <b>indivisible &amp; inalienable</b>; subject to reasonable restrictions</div></div>
+    <div class="row"><div class="k">Example</div><div class="v"><b>Article 21A — Right to Education</b> (added <b>2009</b>): free &amp; compulsory education for children aged <b>6–14</b></div></div>
+    <div class="row"><div class="k">Why it matters</div><div class="v">Citizens can seek constitutional remedies under <b>Articles 32 &amp; 226</b> when FRs are violated</div></div>
+  </div>
+
+  <div class="concept">
+    <div class="ct">4.4 Separation of Powers</div>
+    <div class="row"><div class="k">Meaning</div><div class="v">Power divided among <b>legislature (makes laws), executive (implements), judiciary (interprets)</b></div></div>
+    <div class="row"><div class="k">Key points</div><div class="v">Maintains <b>checks &amp; balances</b>; Parliament can amend the Constitution but the judiciary can <b>review amendments</b>; executive power regulated by laws &amp; reviewable by courts</div></div>
+    <div class="row"><div class="k">Example</div><div class="v">If a law is inconsistent with the Constitution, the judiciary declares it <b>unconstitutional</b></div></div>
+    <div class="row"><div class="k">Why it matters</div><div class="v">Prevents concentration of power in any one organ; judiciary is impartial, independent — guardian of the Constitution; <b>PIL</b> ensures access to justice for all</div></div>
+  </div>
+
+  <div class="concept">
+    <div class="ct">4.5 Accountability &amp; Transparency</div>
+    <div class="row"><div class="k">Meaning</div><div class="v">Democratic governments are <b>answerable to citizens</b></div></div>
+    <div class="row"><div class="k">Key points</div><div class="v">Through elections, public debates &amp; engagement with civil society, citizens evaluate government actions; builds trust</div></div>
+    <div class="row"><div class="k">Example</div><div class="v"><b>Right to Information (RTI) Act, 2005</b> — citizens can seek information from government agencies; <b>Question Hour</b> + auditing of government accounts</div></div>
+    <div class="row"><div class="k">Why it matters</div><div class="v">Continuous public involvement strengthens democracy</div></div>
+  </div>
+
+  <div class="concept">
+    <div class="ct">4.6 Multi-Party System</div>
+    <div class="row"><div class="k">Meaning</div><div class="v">Several political parties contest elections, representing diverse voices &amp; interests</div></div>
+    <div class="row"><div class="k">Key points</div><div class="v">Party/coalition securing <b>more than 50% of seats</b> forms the government; rest = <b>opposition</b>; parties reflect socio-cultural, political, ideological &amp; regional diversity; function under the <b>Representation of the People Act, 1951</b></div></div>
+    <div class="row"><div class="k">Example</div><div class="v">India — over <b>2,800 registered political parties</b></div></div>
+    <div class="row"><div class="k">Why it matters</div><div class="v">Gives people real choice between competing ideas &amp; leaders</div></div>
+  </div>
+
+  <div class="concept">
+    <div class="ct">4.7 Safeguarding Vulnerable Groups</div>
+    <div class="row"><div class="k">Meaning</div><div class="v">Government's duty to protect all communities — caste, gender, religion, region</div></div>
+    <div class="row"><div class="k">Key points</div><div class="v">Resources distributed <b>equitably</b>, especially to the most vulnerable, without discrimination</div></div>
+    <div class="row"><div class="k">Example</div><div class="v"><b>Article 46</b>: "The State shall promote with special care the educational and economic interests of the weaker sections… in particular, of the <b>Scheduled Castes and the Scheduled Tribes</b>, and shall protect them from social injustice and all forms of exploitation."</div></div>
+    <div class="row"><div class="k">Why it matters</div><div class="v">Historical inequality of opportunities requires corrective care</div></div>
+  </div>
+
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — FR vs Fundamental Duties vs DPSP</div>
+  <div class="hb">Teensh alag cheezein hain: <b>Fundamental Rights</b> = tumhare HAQ (Article 14–32, court mein enforceable). <b>Fundamental Duties</b> = tumhara FARZ (rights ke saath aane wali zimmedariyan). <b>Directive Principles of State Policy</b> = SARKAR ke liye GUIDELINES (welfare state banane ke goals). Rights enforceable hain, DPSP nahi — yahi exam ka favourite confusion hai!</div></div>
+</div>
+<!-- ============ 5. PROCESS-INSTITUTION-VALUE ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">5</span><span class="t">Democratic Processes — Institutions &amp; Values <span class="bdg exam">📌 EXAM POINT (table)</span></span></div>
+  <table class="tt">
+    <thead><tr><th style="width:24%">Process</th><th style="width:42%">Institutions</th><th>Democratic values</th></tr></thead>
+    <tbody>
+      <tr><td><b>Legislative</b></td><td>Legislature — Parliament, State legislatures, local bodies</td><td>Representation, deliberation, dissent</td></tr>
+      <tr><td><b>Electoral</b></td><td><b>Election Commission of India</b></td><td>Participation, equality</td></tr>
+      <tr><td><b>Judicial</b></td><td>Courts</td><td>Rule of law, equality, justice</td></tr>
+      <tr><td><b>Participatory</b></td><td><b>Civil society</b>, media</td><td>Debate &amp; discussion, freedom of expression</td></tr>
+      <tr><td><b>Accountability</b></td><td><b>CAG</b>, Central Information Commission (CIC), <b>Lokpal</b>, Central Vigilance Commission (CVC)</td><td>Transparency</td></tr>
+      <tr><td><b>Decentralisation</b></td><td>Rural &amp; urban <b>local bodies</b></td><td>People's participation at grassroots</td></tr>
+      <tr><td><b>Checks &amp; balances</b></td><td>Division of powers between centre &amp; states through a <b>written constitution</b></td><td>Devolution of power</td></tr>
+    </tbody>
+  </table>
+  <ul class="b">
+    <li><b>Media</b> = <b>"fourth pillar of democracy"</b> — informs people, raises public issues, voices of the masses (newspapers, news channels, social media). <span class="bdg must">🔥 MUST REMEMBER</span></li>
+    <li><b>Real strength of democracy = its citizens</b> — participation, awareness of duties &amp; rights, commitment to honesty &amp; fairness.</li>
+  </ul>
+</div>
+
+<!-- ============ 6. TYPES OF DEMOCRACY ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">6</span><span class="t">Types of Democracy <span class="bdg must">🔥 MUST REMEMBER</span></span></div>
+  <table class="tt">
+    <thead><tr><th style="width:26%">Type</th><th style="width:40%">Key features</th><th>Example</th></tr></thead>
+    <tbody>
+      <tr><td><b>Direct Democracy</b></td><td>Citizens <b>directly participate</b> in most decision-making; difficult in large countries</td><td><b>Switzerland</b></td></tr>
+      <tr><td><b>Representative (Indirect) Democracy</b></td><td>People <b>elect representatives</b>; periodic elections; government accountable to people; people do not directly govern</td><td><b>India</b></td></tr>
+      <tr><td><b>Parliamentary Democracy</b></td><td>Executive (council of ministers) is <b>part of &amp; accountable to the legislature</b>; people elect the legislature but NOT the executive</td><td><b>India, Canada</b></td></tr>
+      <tr><td><b>Presidential Democracy</b></td><td>Executive <b>independent of the legislature</b>; <b>President elected by the people</b>, accountable to the people</td><td><b>United States of America</b></td></tr>
+    </tbody>
+  </table>
+  <ul class="b">
+    <li>Democracy offers <b>no single model</b> — different societies institutionalise it differently (how citizens participate, how power is structured).</li>
+    <li>Common fundamental principles everywhere: <b>freedom, equality, participation, rule of law, rights, duties</b>.</li>
+  </ul>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — Parliamentary vs Presidential</div>
+  <div class="hb"><b>Parliamentary</b> (India): PM aur ministers <b>Parliament ke andar se</b> aate hain — legislature ke saamne answerable (confidence vote). Tum vote dete ho <b>MP ko</b>, PM ko nahi. <b>Presidential</b> (USA): President <b>alag se</b> logon ke vote se seedha chuna jaata hai — legislature se independent. Dono democracy hain, bas executive chunne ka tareeka alag hai!</div></div>
+
+  <div class="sub-h"><span class="tag">6.1</span>Democracies Around the World (country table) <span class="bdg exam">📌 EXAM POINT</span></div>
+  <table class="tt">
+    <thead><tr><th style="width:17%">Country</th><th style="width:25%">Type</th><th style="width:33%">Head of State / Govt</th><th>Key features</th></tr></thead>
+    <tbody>
+      <tr><td><b>India</b></td><td>Representative (Parliamentary)</td><td><b>President</b> (Head of State) + <b>Prime Minister</b> (Head of Government)</td><td>Multi-party, written constitution, FRs &amp; duties, federalism</td></tr>
+      <tr><td><b>Canada</b></td><td>Parliamentary</td><td><b>Governor-General</b> (appointed by the Crown of UK) + PM</td><td>Federalism, multi-party system</td></tr>
+      <tr><td><b>United Kingdom</b></td><td>Parliamentary; <b>Constitutional Monarchy</b></td><td><b>Monarch</b> (Head of State) + PM</td><td><b>Unwritten</b> constitution, parliamentary sovereignty</td></tr>
+      <tr><td><b>Switzerland</b></td><td><b>Direct</b> democracy</td><td><b>Federal Council</b> (Head of Government)</td><td>Written constitution, multiple parties</td></tr>
+      <tr><td><b>USA</b></td><td><b>Presidential</b></td><td><b>President</b> (Head of State &amp; Government)</td><td>Written constitution, <b>two major parties</b></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ============ 7. INDIA'S LIVING DEMOCRACY ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">7</span><span class="t">Democracy in Practice — India's Living Democracy</span></div>
+  <ul class="b">
+    <li><b>Huge representation:</b> one Member of Parliament represents about <b>25 lakh people</b> on average. <span class="bdg exam">📌 EXAM POINT</span></li>
+    <li><b>Many languages, one election:</b> elections conducted in <b>22 scheduled languages</b>; <b>election symbols</b> let even non-literate citizens vote independently.</li>
+    <li><b>Over one million polling stations</b> — in mountains, forests, deserts, islands; sometimes a station for a <b>single voter</b>.</li>
+    <li><b>Thousands of parties:</b> 2,800+ registered political parties — reflecting social &amp; regional diversity, many viewpoints competing peacefully.</li>
+    <li><b>Three-tier system:</b> Union → State → Local governments (Panchayati Raj &amp; Municipalities) — administrative efficiency + democratic participation.</li>
+    <li><b>Tribal protection:</b> <b>Autonomous District Councils (ADCs)</b> in specific north-eastern regions — legislative &amp; judicial authority to preserve tribal customs; <b>PESA Act, 1996</b> (Panchayats Extension to Scheduled Areas) — empowers the <b>Gram Sabha</b> as primary decision-making body. <span class="bdg imp">⭐ IMPORTANT</span></li>
+  </ul>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — PESA &amp; ADC</div>
+  <div class="hb"><b>ADC</b> = north-east ke tribal areas ke liye <b>apna chhota sarkar</b> — apne customs bachane ke legislative/judicial powers. <b>PESA 1996</b> = baaki states ke Scheduled (tribal) Areas mein <b>Gram Sabha</b> ko decision-maker banata hai — matlab gaon ki sabha hi badi decisions leti hai. Dono ka goal: tribal heritage + self-governance.</div></div>
+
+  <div class="sub-h"><span class="tag">7.1</span>Case Studies — Democracy at the Grassroots <span class="bdg must">🔥 MUST REMEMBER (case studies)</span></div>
+  <div class="concept">
+    <div class="ct">Case 1 — Jethipura Gram Panchayat (Block Idar, Sabarkantha, Gujarat)</div>
+    <div class="row"><div class="k">What</div><div class="v">Won the <b>Nanaji Deshmukh Rashtriya Gaurav Gram Sabha Puraskar (NDRGGSP) in 2019</b> for exemplary performance</div></div>
+    <div class="row"><div class="k">How</div><div class="v">Effective conduct of <b>Gram Sabhas</b>, proper record maintenance, <b>Special Gram Sabhas</b>, <b>Mahila Sabhas</b> (women's sabhas), action on education, sanitation, welfare of women &amp; children</div></div>
+    <div class="row"><div class="k">Why it matters</div><div class="v">Adequate <b>quorum</b> with active participation of marginalised sections — <b>SCs, STs and women</b></div></div>
+  </div>
+  <div class="concept">
+    <div class="ct">Case 2 — South Manubankul Gram Panchayat (Rupaichari Block, Tripura Tribal Areas ADC, Tripura)</div>
+    <div class="row"><div class="k">What</div><div class="v">Recognised as a <b>"women-friendly panchayat"</b> at the national level by the <b>Ministry of Panchayati Raj</b></div></div>
+    <div class="row"><div class="k">How</div><div class="v">Promotes <b>women's participation in decision-making</b>; health, sanitation &amp; livelihood facilities; community programmes, <b>self-help groups</b>, implementation of government schemes; cleanliness, education, social awareness</div></div>
+    <div class="row"><div class="k">Why it matters</div><div class="v">Shows democracy is not limited to voting — active grassroots participation makes it responsive &amp; inclusive</div></div>
+  </div>
+  <ul class="b">
+    <li>Civil society organisations, socio-religious &amp; community institutions, <b>cooperatives</b>, and trade unions also adopt democratic decision-making — democracy extends into <b>everyday social life</b>.</li>
+  </ul>
+</div>
+
+<!-- ============ 8. WOMEN & DEMOCRACY ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">8</span><span class="t">Women and Democracy <span class="bdg must">🔥 MUST REMEMBER</span></span></div>
+  <div class="sub-h"><span class="tag">8.1</span>Women and the Right to Vote</div>
+  <table class="tt">
+    <thead><tr><th style="width:30%">Country</th><th>Women got full voting rights</th></tr></thead>
+    <tbody>
+      <tr><td><b>Britain</b></td><td>Only in <b>1928</b> — after decades of protests &amp; movements</td></tr>
+      <tr><td><b>USA</b></td><td>Only in <b>1920</b> — after long struggles</td></tr>
+      <tr><td><b>India</b></td><td><b>From the very start</b> — when the Constitution came into force in <b>1950</b>, <b>Universal Adult Franchise</b> was extended to ALL citizens (men &amp; women alike), <b>without discrimination</b> — no prolonged legal battles needed! <span class="bdg exam">📌 EXAM POINT</span></td></tr>
+    </tbody>
+  </table>
+  <ul class="b">
+    <li>BUT: right to vote ≠ equal participation — <b>social prejudices</b> still act as barriers affecting women's representation in politics.</li>
+  </ul>
+  <div class="sub-h"><span class="tag">8.2</span>Women's Reservation in Local Bodies</div>
+  <ul class="b">
+    <li><b>Article 243D:</b> not less than <b>one-third (⅓)</b> seats reserved for women (by direct election) in every <b>Panchayat</b>; <b>21 States + 2 UTs</b> have raised it to <b>50%</b> in Panchayati Raj Institutions. <span class="bdg exam">📌 EXAM POINT</span></li>
+    <li><b>Article 243T:</b> not less than <b>one-third (⅓)</b> reservation for women in every <b>Municipality</b>; as of <b>2023</b>, <b>17 States + 1 UT</b> give <b>50%</b> in Urban Local Bodies.</li>
+    <li>Empowerment of women starts with <b>active participation in decision-making institutions</b>.</li>
+    <li>Grassroots leaders who advocated for rural poor &amp; marginalised: <b>Chaudhary Charan Singh</b> &amp; <b>Babu Jagjivan Ram</b>. <span class="bdg imp">⭐ IMPORTANT</span></li>
+  </ul>
+</div>
+
+<!-- ============ 9. RTI ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">9</span><span class="t">The Right to Information (RTI) Act, 2005 <span class="bdg must">🔥 MUST REMEMBER</span></span></div>
+  <ul class="b">
+    <li><b>How it became law (democratic process in action):</b> concerns raised by citizens, journalists, civil society &amp; elected representatives → examined by <b>parliamentary committees</b> → proposal reviewed by expert groups → <b>debated in Parliament</b> → refined through consultations → safeguards for national security &amp; administrative efficiency incorporated → passed → came into force <b>2005</b>.</li>
+    <li><b>What it does:</b> empowers citizens to <b>seek information from government departments</b> → strengthens accountability &amp; democratic governance.</li>
+    <li>Civil society &amp; community institutions act as <b>bridges between citizens and the State</b> — through PIL, campaigns, community organisations → making democracy more inclusive &amp; responsive.</li>
+  </ul>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — RTI ka matlab</div>
+  <div class="hb">RTI = <b>"right to question"</b>. Koi bhi citizen sarkari department se poochh sakta hai: "is kaam par kitna kharch hua? file kahan hai?" Sarkar jawaab dena padta hai. Isse corruption pakda jaata hai aur sarkar <b>transparent</b> banti hai. Ye 2005 mein law bani — ekdam democratic tareeke se: logon ke complaints → committee → Parliament debate → law. Isliye RTI = <b>accountability ka sabse powerful hathiyar</b>.</div></div>
+</div>
+
+<!-- ============ 10. CHALLENGES ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">10</span><span class="t">Challenges to Indian Democracy</span></div>
+  <ul class="b">
+    <li>Democracy requires <b>constant care, awareness &amp; active participation</b> — from institutions AND citizens; rights must be exercised <b>responsibly</b>.</li>
+    <li>Everyday weakening actions: <b>damaging public property, spreading misinformation, violating public rules, indifference</b> towards public issues.</li>
+    <li>Major challenges: <b>illiteracy, misinformation/fake news (social media!), inequality, poverty, regionalism, gender inequality, social discrimination</b>, gaps in implementation of laws &amp; policies (reduces public trust). <span class="bdg exam">📌 EXAM POINT</span></li>
+    <li>Misinformation can influence public opinion, create confusion, even lead to conflict.</li>
+  </ul>
+  <div class="sub-h"><span class="tag">10.1</span>The Emergency (1975–77) <span class="bdg must">🔥 MUST REMEMBER</span></div>
+  <div class="chain" style="border:1.5px solid var(--border);border-radius:6px;background:#fff;margin-bottom:11px;break-inside:avoid;overflow:hidden;">
+    <div class="ch-t" style="background:var(--card);font-weight:800;color:var(--deep);font-size:14.5px;padding:8px 14px;border-bottom:1px solid var(--border);">📌 THE EMERGENCY — full chain</div>
+    <div class="step" style="display:flex;gap:10px;padding:6px 14px;border-bottom:1px dashed var(--border);font-size:13.8px;"><div class="k" style="flex-shrink:0;font-weight:800;color:var(--accent);width:132px;font-size:12.3px;">BACKGROUND</div><div class="v" style="color:#333d47;">Early 1970s: growing public dissatisfaction with the government led by <b>Indira Gandhi</b> — rising <b>unemployment, inflation, allegations of misgovernance</b> → widespread protests</div></div>
+    <div class="step" style="display:flex;gap:10px;padding:6px 14px;border-bottom:1px dashed var(--border);font-size:13.8px;"><div class="k" style="flex-shrink:0;font-weight:800;color:var(--accent);width:132px;font-size:12.3px;">WHAT HAPPENED</div><div class="v" style="color:#333d47;"><b>June 1975: National Emergency imposed</b> on grounds of <b>internal disturbance</b> (Articles 352, 356, 360 deal with Emergency provisions)</div></div>
+    <div class="step" style="display:flex;gap:10px;padding:6px 14px;border-bottom:1px dashed var(--border);font-size:13.8px;"><div class="k" style="flex-shrink:0;font-weight:800;color:var(--accent);width:132px;font-size:12.3px;">EFFECTS</div><div class="v" style="color:#333d47;">Majority of <b>Fundamental Rights suspended</b>; <b>press censored</b>; numerous political leaders &amp; activists <b>arrested</b>; citizens' freedom restricted; democratic institutions under severe strain</div></div>
+    <div class="step" style="display:flex;gap:10px;padding:6px 14px;border-bottom:1px dashed var(--border);font-size:13.8px;"><div class="k" style="flex-shrink:0;font-weight:800;color:var(--accent);width:132px;font-size:12.3px;">RESISTANCE</div><div class="v" style="color:#333d47;">Mass movements led by <b>Jayaprakash Narayan</b> — political leader &amp; socialist thinker, popularly known as <b>Lok Nayak</b> — mobilised students &amp; citizens, especially in <b>Bihar and Gujarat</b></div></div>
+    <div class="step" style="display:flex;gap:10px;padding:6px 14px;font-size:13.8px;"><div class="k" style="flex-shrink:0;font-weight:800;color:var(--accent);width:132px;font-size:12.3px;">RESULT &amp; LESSON</div><div class="v" style="color:#333d47;">Emergency <b>lifted in 1977</b> → general elections held → <b>ruling government defeated</b> — people expressed their will through the ballot. Showed both the <b>vulnerability AND resilience</b> of Indian democracy + importance of constitutional safeguards, civil liberties &amp; active citizen participation</div></div>
+  </div>
+  <div class="hing"><div class="ht">💡 HINGLISH ME SAMJHO — Emergency kya thi</div>
+  <div class="hb">1975–77: sarkar ne "Emergency" laga di — <b>rights suspend, press par censorship, leaders jail mein</b>. Jayaprakash Narayan (JP / Lok Nayak) ne Bihar-Gujarat mein andolan uthaya. 1977 mein Emergency hatai gayi, elections hue, aur <b>janta ne ruling party ko hara diya</b>. Lesson: democracy tod sakte hain, par <b>ballot se janta jawab bhi deti hai</b> — isliye Emergency = democracy ke liye bada lesson + proof ki Indian democracy resilient hai.</div></div>
+</div>
+
+<!-- ============ 11. DEMOCRACY AND YOU ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">11</span><span class="t">Democracy and You — Young Citizens</span></div>
+  <ul class="b">
+    <li>Being <b>well-informed</b> = a vital responsibility: read newspapers, watch news, use the internet responsibly → informed opinions on public issues.</li>
+    <li><b>Programmes instilling civic responsibility:</b> <b>National Service Scheme (NSS)</b>, <b>National Cadet Corps (NCC)</b>, Bharat Scouts &amp; Guides — community service, teamwork, respect for democratic ideals. <span class="bdg imp">⭐ IMPORTANT</span></li>
+    <li>Youth participation: understand the Constitution, follow Fundamental Duties, be media literate, take leadership in school &amp; community, participate in nation-building activities.</li>
+    <li>Democracy is not merely a system of government but a <b>continuous process</b> shaped by institutions + active citizenship; its strength depends on <b>informed and responsible citizens</b>. <span class="bdg und">💡 UNDERSTAND THIS</span></li>
+  </ul>
+</div>
+<!-- ============ 12. MUST REMEMBER ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">12</span><span class="t">🔥 MUST REMEMBER — Top Exam Facts</span></div>
+  <div class="must-box">
+    <div class="mt">🔥 If you remember nothing else, remember these:</div>
+    <ul class="b">
+      <li>Democracy = power lies with <b>citizens</b>; free &amp; fair elections; freedom, equality, justice, rights &amp; duties.</li>
+      <li>Constitution: adopted <b>26 Nov 1949</b>, in force <b>26 Jan 1950</b>; Constituent Assembly <b>1946</b>; drafting took <b>2 years, 11 months, 18 days</b> — world's <b>longest written Constitution</b>; <b>Dr. B.R. Ambedkar</b> chaired the Drafting Committee; amendments via <b>Article 368</b>.</li>
+      <li>India = world's <b>largest democracy</b>: 140+ crore population, <b>96.8 crore voters (2024)</b>; 1 MP ≈ <b>25 lakh</b> people; <b>22 scheduled languages</b>; <b>1 million+ polling stations</b>; <b>2,800+ parties</b>.</li>
+      <li><b>6 Fundamental Rights + articles:</b> Equality (14–18), Freedom (19–22), Against Exploitation (23–24), Freedom of Religion (25–28), Cultural &amp; Educational (29–30), Constitutional Remedies (32); remedies under <b>32 &amp; 226</b>; <b>Article 21A</b> (Right to Education, added <b>2009</b>, ages <b>6–14</b>).</li>
+      <li>Universal Adult Franchise: <b>18+, secret ballot</b>; women in India had it <b>from 1950</b> (Britain 1928, USA 1920).</li>
+      <li>Women's reservation: <b>Article 243D</b> (Panchayats, ⅓; 21 States + 2 UTs → 50%), <b>Article 243T</b> (Municipalities, ⅓; 17 States + 1 UT → 50% as of 2023).</li>
+      <li><b>Article 46</b> — special care for weaker sections, SCs &amp; STs. <b>RTI Act 2005</b> — right to seek information.</li>
+      <li>Media = <b>fourth pillar of democracy</b>; accountability bodies: <b>CAG, CIC, Lokpal, CVC</b>.</li>
+      <li>Types: Direct (Switzerland) vs Representative (India); Parliamentary (India, Canada, UK) vs Presidential (USA).</li>
+      <li><b>Emergency 1975–77</b> (Articles <b>352, 356, 360</b>): FRs suspended, press censored; <b>Jayaprakash Narayan (Lok Nayak)</b> — Bihar &amp; Gujarat; lifted 1977 → govt defeated.</li>
+      <li>Case studies: <b>Jethipura (Gujarat, NDRGGSP 2019)</b>; <b>South Manubankul (Tripura, women-friendly panchayat)</b>; <b>PESA 1996</b> &amp; <b>ADCs</b> for tribal self-governance.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============ 13. LAST 5-MINUTE REVISION ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">13</span><span class="t">⚡ Last 5-Minute Revision</span></div>
+  <div class="rapid">
+    <div class="rt">⚡ Read this 5 minutes before the exam</div>
+    <div class="rgrid">
+      <div class="rcol">
+        <div class="rh">🗓️ Dates &amp; numbers</div>
+        <ul>
+          <li>1946 Constituent Assembly; 26 Nov 1949 adopted; 26 Jan 1950 in force</li>
+          <li>2 years 11 months 18 days — longest written Constitution</li>
+          <li>96.8 crore voters (2024); 140+ crore population; 25 lakh per MP</li>
+          <li>22 languages; 1 million+ polling stations; 2,800+ parties</li>
+          <li>RTI Act 2005; PESA 1996; RPA 1951</li>
+          <li>Women's vote: India 1950 / USA 1920 / Britain 1928</li>
+          <li>Emergency 1975–77 (Articles 352, 356, 360)</li>
+        </ul>
+        <div class="rh">📜 Articles</div>
+        <ul>
+          <li>FRs: 14–18, 19–22, 23–24, 25–28, 29–30, 32</li>
+          <li>21A Right to Education (2009, 6–14 years)</li>
+          <li>368 Amendment; 46 SC/ST welfare</li>
+          <li>243D Panchayat women ⅓; 243T Municipality women ⅓</li>
+        </ul>
+        <div class="rh">👤 Names</div>
+        <ul>
+          <li>Dr. B.R. Ambedkar — Chairman, Drafting Committee</li>
+          <li>Indira Gandhi — PM during Emergency</li>
+          <li>Jayaprakash Narayan (Lok Nayak) — anti-Emergency movements</li>
+          <li>Chaudhary Charan Singh, Babu Jagjivan Ram — grassroots leaders</li>
+        </ul>
+      </div>
+      <div class="rcol">
+        <div class="rh">🧠 7 Principles of democracy</div>
+        <ul>
+          <li>Popular sovereignty (people = source of power)</li>
+          <li>Rule of law (no one above law)</li>
+          <li>Fundamental Rights (6, enforceable)</li>
+          <li>Separation of powers (legislature–executive–judiciary)</li>
+          <li>Accountability &amp; transparency (elections, RTI, Question Hour)</li>
+          <li>Multi-party system (50%+ seats = government)</li>
+          <li>Safeguarding vulnerable groups (Article 46)</li>
+        </ul>
+        <div class="rh">⚖️ Key differences</div>
+        <ul>
+          <li>Direct (Switzerland) vs Representative (India)</li>
+          <li>Parliamentary (executive in legislature) vs Presidential (executive separate)</li>
+          <li>Equality before law vs equal protection of law</li>
+          <li>FRs (enforceable) vs Duties vs DPSP (guidelines)</li>
+          <li>India (written constitution) vs UK (unwritten)</li>
+        </ul>
+        <div class="rh">⚡ Rapid-fire facts</div>
+        <ul>
+          <li>Sabhā/Samiti/Vidhata + gaṇa-saṁgha = Indian democratic roots; Ṛig Veda 10.191.3</li>
+          <li>Buddha's Saṁgha — debate, voting, elected leader</li>
+          <li>Media = fourth pillar; PIL = public interest court action</li>
+          <li>Quorum = minimum members for valid meeting</li>
+          <li>Jethipura — NDRGGSP 2019; Manubankul — women-friendly</li>
+          <li>Emergency: June 1975, internal disturbance; lifted 1977, govt defeated</li>
+          <li>NSS + NCC — civic responsibility programmes</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 14. MEMORY TRICKS ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">14</span><span class="t">🧠 Memory Tricks &amp; Mnemonics</span></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>6 Fundamental Rights — "EFERCC: Every Friend Enjoys Rasgulla, Cold Coffee":</b> <b>E</b>quality, <b>F</b>reedom, against <b>E</b>xploitation, <b>R</b>eligion freedom, <b>C</b>ultural &amp; Educational, <b>C</b>onstitutional Remedies</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>FR articles — "14 se Equality shuru, 32 par Court":</b> 14–18 → 19–22 → 23–24 → 25–28 → 29–30 → 32 (32 teeth = courtroom smile!)</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>7 principles — "PoReF SeAMS":</b> <b>Po</b>pular sovereignty, <b>Re</b>ule of law, <b>F</b>undamental Rights, <b>Se</b>paration of powers, <b>A</b>ccountability, <b>M</b>ulti-party, <b>S</b>afeguarding vulnerable groups</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Women's vote years — "20–20–28–50: USA-ne-20, Britain-ne-28, India-ne-50 (1950)":</b> USA 1920, Britain 1928, India 1950 (from the start!)</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Emergency articles — "352-National, 356-President's Rule, 360-Financial" (3-5-2: 3 national emergencies pattern):</b> National Emergency → President's Rule → Financial Emergency</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Parliamentary vs Presidential — "India mein PM Parliament se, USA mein President People se":</b> executive from legislature vs executive elected directly by people</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Accountability bodies — "C-C-L-C (Chal CLC!):</b> <b>C</b>AG, <b>C</b>IC, <b>L</b>okpal, <b>C</b>VC</div></div>
+  <div class="mnem"><div class="mk">🧠</div><div class="mtt"><b>Country types — "S-D-P-P: Switzerland-Direct, Presidential-USA, Parliamentary-India":</b> Switzerland = Direct; USA = Presidential; India/Canada/UK = Parliamentary</div></div>
+</div>
+
+<!-- ============ 15. ANSWER WRITING ============ -->
+<div class="sec">
+  <div class="sec-h"><span class="num">15</span><span class="t">📝 How to Use These Points in an Answer</span></div>
+  <div class="ans">
+    <div class="at">Q. "What are the essential principles of democracy in India?" (5 marks)</div>
+    <div class="astep"><div class="k">INTRODUCTION</div><div class="v">A thriving democracy rests on certain non-negotiable principles, upheld in India through constitutional provisions.</div></div>
+    <div class="astep"><div class="k">BODY (3–5 points)</div><div class="v">① Popular sovereignty + Universal Adult Franchise (18+, secret ballot) ② Rule of law — no one above law ③ Fundamental Rights (6 rights with Articles 14–32) ④ Separation of powers — checks &amp; balances, judicial review ⑤ Accountability &amp; transparency — RTI 2005, Question Hour + Article 46 for vulnerable groups</div></div>
+    <div class="astep"><div class="k">CONCLUSION</div><div class="v">These principles together ensure that power remains with the people and government remains accountable.</div></div>
+  </div>
+  <div class="ans">
+    <div class="at">Q. "Is voting alone enough to make a country democratic? Justify." (5 marks)</div>
+    <div class="astep"><div class="k">INTRODUCTION</div><div class="v">Voting is essential but democracy needs much more than elections.</div></div>
+    <div class="astep"><div class="k">BODY (3–5 points)</div><div class="v">① Free &amp; fair elections + independent ECI ② Rule of law + FRs protected by judiciary ③ Accountability — RTI, Question Hour, free press ④ Participation beyond voting — Gram Sabhas, civil society, PIL ⑤ Counter-example — the Emergency (1975–77): elections alone could not stop rights from being suspended; citizen vigilance was needed</div></div>
+    <div class="astep"><div class="k">CONCLUSION</div><div class="v">Democracy is a continuous process — it needs informed, active citizens and strong institutions, not just ballot boxes.</div></div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>

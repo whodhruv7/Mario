@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "Based on the image provided, here is the quality check:\n\n1.  **Emoji/Icons:** **Yes**, they are rendering properly. All the colored icons (book, calendar, lightning bolt, lightbulb, and target) are clearly visible and not showing as boxes or tofu.\n2.  **Text Layout:** **Yes**, it is clean. There is no overlapping text, and nothing appears to be cut off. The spacing is consistent and readable.\n3.  **Professionalism:** **Yes**, it looks professional. The design uses a cohesive color palette (earthy browns and beiges), clear typography hierarchy, and a balanced layout that looks like a polished educational resource.\n4.  **Visual Defects:** **None detected**. The image is sharp, the alignment is correct, and all graphical elements (including the decorative circles in the top right) are intact.\n\n**Verdict:** The page quality is excellent and print-ready.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1788877231,
+  "id": "20260908222017a819e61ec1814237",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260908222017a819e61ec1814237",
+  "usage": {
+    "completion_tokens": 194,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 848,
+    "prompt_tokens_details": {
+      "cached_tokens": 2
+    },
+    "total_tokens": 1042
+  }
+}

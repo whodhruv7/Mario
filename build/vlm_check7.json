@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "Based on the image provided:\n\n*   **% Filled:** Approximately **55-60%** of the page is filled with text content. The bottom third of the page (below the second \"CONCLUSION\" section) consists largely of empty white space.\n*   **Defects:** There are **no visible defects**. The text is clear, legible, and properly formatted within the structured boxes. The page number \"12\" and footer (\"Ch 7 • Elections\") are correctly positioned at the bottom.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1788877687,
+  "id": "2026090822275330dedbc02e394778",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "2026090822275330dedbc02e394778",
+  "usage": {
+    "completion_tokens": 106,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 789,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 895
+  }
+}
