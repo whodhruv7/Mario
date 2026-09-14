@@ -53,3 +53,22 @@ Work Log:
 Stage Summary:
 - NEW deliverables in download/: History_Ch5_5Page_Revision_Notes.pdf (5 pages), Civics_Ch6_5Page_Revision_Notes.pdf (4 pages), Civics_Ch7_5Page_Revision_Notes.pdf (3 pages) + HTML sources in download/html_sources/*_5Page_notes.html
 - Old long versions kept alongside; previews in download/previews/*_5p_*.png
+
+---
+Task ID: 4
+Agent: main
+Task: Build ONE simplified exam-pack PDF per user request — each chapter: understanding notes + 10 definitions + 10 MCQs, nothing else
+
+Work Log:
+- User cut all extra sections; wanted one PDF, diff sections per chapter (History Ch5, Civics Ch6, Civics_Ch7)
+- Loaded pdf skill + creative-flow brief, overflow/palette/typography/pagination typesetting files; reused proven pipeline (html2pdf-next.js, A4 794×1123, @page margin 26/46)
+- Reinstalled pagedjs (symlink /home/z/node_modules/pagedjs -> my-project/node_modules; exports-field blocks require.resolve — existsCheck path used)
+- Built download/html_sources/Exam_Pack_Class9_SST.html: compact dark banner (no full cover) + 3 chapter sections, each = Part A notes (~700-800 words, bold mini-heads), Part B 10-definition table, Part C 10 MCQs (2-col option grid) + answer key with one-line reasons
+- No emoji, one indigo color family (M-tier #373f6b bands, XS-tier #4653c8 accents), Inter font
+- Fixed: 131 em-dashes nbsp-bound + 1 opening quote (line-start punctuation), removed 1 stray soft hyphen, "variams"→"variyams"
+- Stamped footers via scripts/stamp_exampack.py (label + page number every page); metadata via pdf.py meta.set
+- QA: poster_validate check-html PASS (0 errors); pdf_qa --no-tables ALL PASS (11 checks incl. punctuation); text layer 0×U+FFFD, diacritics verified; VLM checks on p1/p2 pass (diacritics, tables, MCQ grid, banner all clean)
+
+Stage Summary:
+- FINAL deliverable: download/Class9_SST_Exam_Pack.pdf — 7 pages, 547 KB, vector, ~5,300 words, 30 definitions, 30 MCQs + answer keys; HTML source in download/html_sources/Exam_Pack_Class9_SST.html; previews download/previews/ExamPack_p{1,2,3,5,7}.png
+- Page map: p1-3 History Ch5, p4-5 Democracy Ch6, p6-7 Elections Ch7

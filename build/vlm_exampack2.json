@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1. Yes, the table borders and rows are clean, with all text properly contained within the cells.\n2. Yes, the MCQ options are arranged in a clear, readable 2-column grid.\n3. No, there is no overlapping or cut-off text; everything is fully visible.\n4. Yes, the overall layout is well-organized and professional.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1789387880,
+  "id": "202609142011181507af70e95346a8",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202609142011181507af70e95346a8",
+  "usage": {
+    "completion_tokens": 74,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1488,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1562
+  }
+}

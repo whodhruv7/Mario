@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1) Yes, the Indic transliteration characters (e.g., Ṛ, ā, ṇa, ś) render correctly without any empty boxes or tofu.\n2) No, there is no text overlapping or cut off; all content is clearly visible and well-spaced.\n3) Yes, the dark banner at the top looks clean, and the white text is highly readable.\n4) No, the layout is professional and defect-free with clear headings and organized sections.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1789387877,
+  "id": "20260914201113942869212af34daf",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260914201113942869212af34daf",
+  "usage": {
+    "completion_tokens": 100,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1544,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1644
+  }
+}
