@@ -33,3 +33,23 @@ Work Log:
 
 Stage Summary:
 - Deliverables in download/: History_Ch5_State_and_Society_up_to_1000CE_Short_Notes.pdf (24 pages), Civics_Ch6_Democracy_Short_Notes.pdf (14 pages), Civics_Ch7_Elections_Short_Notes.pdf (13 pages) + HTML sources in download/html_sources/
+
+---
+Task ID: 3
+Agent: main
+Task: Rebuild all 3 booklets as ultra-compressed MAX-5-PAGE versions (user request)
+
+Work Log:
+- User found 24/14/13-page booklets too long to write; requested max 5 pages each while keeping everything important
+- Re-loaded pdf skill (Creative Flow route: emoji content) + brief, fonts, overflow, pagination, typography, palette refs
+- Extracted all content from the 3 existing HTML booklets via scripts/extract_booklet_text.py
+- Built 3 dense HTML booklets (compact banner instead of full cover, 10px body, 9.6px tables, 2-col grids, @page margin 28/44px for footer zone)
+- Installed pagedjs (symlinked /home/z/node_modules/pagedjs -> my-project/node_modules — exports-field blocked require.resolve)
+- Iterated density (line-height 1.4->1.35, margins) until page targets hit
+- Fixed QA: em-dash line-starts via nbsp binding; bare "—" table cell -> "none"
+- Stamped numbers via scripts/stamp_mini.py (every page numbered — short-doc rule); set metadata; pdf_qa --no-tables: ALL 3 PASS
+- VLM visual checks pass (emoji, tables, footers); Elections last-page footer verified via text extraction
+
+Stage Summary:
+- NEW deliverables in download/: History_Ch5_5Page_Revision_Notes.pdf (5 pages), Civics_Ch6_5Page_Revision_Notes.pdf (4 pages), Civics_Ch7_5Page_Revision_Notes.pdf (3 pages) + HTML sources in download/html_sources/*_5Page_notes.html
+- Old long versions kept alongside; previews in download/previews/*_5p_*.png

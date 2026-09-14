@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "*   **Emojis:** Render correctly (e.g., ✅, ⚠️, 🔥, 📅).\n*   **Layout:** Cleanly laid out. The 2-column grids and tables are well-structured with no text overlap or cut-offs.\n*   **Footer:** Yes, the chapter label is at the bottom left (\"Ch 5 - State...\") and the page number is centered at the bottom.\n*   **Defects:** No significant empty gaps or layout defects observed; the formatting is consistent and professional.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1789372913,
+  "id": "20260914160143b2779b9d92e6408a",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260914160143b2779b9d92e6408a",
+  "usage": {
+    "completion_tokens": 113,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 2340,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 2453
+  }
+}

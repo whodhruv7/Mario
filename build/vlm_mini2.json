@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1. **Emoji rendering:** OK (no tofu boxes).\n2. **Tables/Grids:** Clean, no overlap or cut-offs.\n3. **Page numbers/Labels:** Page 1 has both; Page 3 is missing the bottom-center page number but has the chapter label.\n4. **Defects:** No big empty gaps or major defects.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1789372926,
+  "id": "20260914160202a237153527974fa4",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260914160202a237153527974fa4",
+  "usage": {
+    "completion_tokens": 74,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 2329,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 2403
+  }
+}
