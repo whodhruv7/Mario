@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1. Yes, the 2-column grids are well-aligned with no overlap or cut-off text.\n2. Yes, all bullet point and answer key text is clearly readable.\n3. No, the layout is clean and free of visible defects.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1789388180,
+  "id": "20260914201618c3f371d90a724fce",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260914201618c3f371d90a724fce",
+  "usage": {
+    "completion_tokens": 50,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1472,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1522
+  }
+}

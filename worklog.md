@@ -72,3 +72,16 @@ Work Log:
 Stage Summary:
 - FINAL deliverable: download/Class9_SST_Exam_Pack.pdf — 7 pages, 547 KB, vector, ~5,300 words, 30 definitions, 30 MCQs + answer keys; HTML source in download/html_sources/Exam_Pack_Class9_SST.html; previews download/previews/ExamPack_p{1,2,3,5,7}.png
 - Page map: p1-3 History Ch5, p4-5 Democracy Ch6, p6-7 Elections Ch7
+
+---
+Task ID: 5
+Agent: main
+Task: User said "continue fast" — append the offered Last-Minute Rapid Revision section
+
+Work Log:
+- Appended Section 04 "Last-Minute Rapid Revision" to Exam_Pack_Class9_SST.html (also fulfils originally-owed lists: History top 10, Civics top 10, cannot-forget concepts)
+- Added .topgrid/.rlabel/.tf/.tfa CSS (compact 2-col grids, break-inside:avoid); em-dashes nbsp-bound consistently; banner chip updated
+- Re-rendered (8 pages, 575 KB), re-stamped via scripts/stamp_exampack.py, metadata updated, pdf_qa --no-tables ALL PASS, 0 FFFD, VLM p8 check clean
+
+Stage Summary:
+- FINAL: download/Class9_SST_Exam_Pack.pdf — 8 pages: p1-3 History, p4-5 Democracy, p6-7 Elections, p8 Rapid Revision (30 facts + 10 core concepts + 10 T/F with answers)
