@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Class 9 Civics — Exam Workbook (Ch 6 + Ch 7)</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+@page { size: 794px 1123px; margin: 0; }
+:root{
+  --bg:#F8F7FC; --ink:#282A42; --muted:#8386A0; --border:#E2E1EE; --card:#FFFFFF;
+  --t:#4F46B8; --t-dark:#38308C; --t-tint:#ECEBFA; --t-line:#D3D0F0;
+  --o:#D97706; --o-dark:#A85A05; --o-tint:#FCF1DE; --o-line:#F3DDB5;
+}
+html,body{margin:0;padding:0;width:794px;background:var(--bg);color:var(--ink);
+  font-family:'Inter','Noto Sans SC','Noto Color Emoji',sans-serif;font-size:10.8px;line-height:1.38;}
+body{line-break:strict;word-break:normal;overflow-wrap:break-word;}
+p,td,li{overflow-wrap:break-word;}
+*{box-sizing:border-box;}
+@media screen{
+  html{height:auto;display:flex;justify-content:center;background:#E5E4EE;}
+  body{transform-origin:top center;margin:20px auto;box-shadow:0 0 40px rgba(0,0,0,.15);}
+}
+
+/* ---------- CHAPTER ACCENT THEMES ---------- */
+.ch6{--acc:var(--t);--accd:var(--t-dark);--tint:var(--t-tint);--line:var(--t-line);}
+.ch7{--acc:var(--o);--accd:var(--o-dark);--tint:var(--o-tint);--line:var(--o-line);}
+
+/* ---------- COVER (fixed full page) ---------- */
+.cvr{position:relative;width:794px;height:1123px;break-after:page;
+  background:radial-gradient(circle at 655px 60px, rgba(79,70,184,.15) 0%, rgba(79,70,184,.05) 38%, transparent 58%),
+             radial-gradient(circle at 60px 1075px, rgba(217,119,6,.14) 0%, rgba(217,119,6,.05) 36%, transparent 56%),
+             var(--bg);
+  display:flex;flex-direction:column;justify-content:center;padding:60px 58px;}
+.blob{position:absolute;border-radius:50%;background:transparent;}
+.b3{width:140px;height:140px;right:60px;bottom:100px;border:2.5px dashed #4F46B82e;}
+.b4{width:90px;height:90px;left:64px;top:120px;border:2.5px dashed #D9770640;}
+.coin{position:absolute;font-size:42px;opacity:.9;}
+.c1{right:90px;top:92px;transform:rotate(12deg);}
+.c2{right:140px;bottom:165px;transform:rotate(-10deg);}
+.cv-kick{font-size:13px;font-weight:800;letter-spacing:5px;color:var(--t);text-transform:uppercase;}
+.cv-title{font-family:'Baloo 2','Inter',sans-serif;font-size:76px;font-weight:800;line-height:1;
+  color:var(--ink);margin:14px 0 0 0;}
+.cv-title2{font-family:'Baloo 2','Inter',sans-serif;font-size:44px;font-weight:800;line-height:1.05;
+  color:var(--t);margin:4px 0 10px 0;}
+.cv-sub{font-size:16px;color:#3E5548;max-width:560px;line-height:1.5;margin-top:8px;}
+.cv-chaps{margin-top:30px;display:flex;flex-direction:column;gap:12px;max-width:640px;}
+.cv-chap{display:flex;align-items:center;gap:14px;background:var(--card);border:1.5px solid var(--border);
+  border-radius:14px;padding:13px 18px;box-shadow:0 3px 10px rgba(30,51,39,.06);}
+.cv-chap .cbadge{flex-shrink:0;width:52px;height:52px;border-radius:12px;display:flex;align-items:center;
+  justify-content:center;font-family:'Baloo 2',sans-serif;font-size:24px;font-weight:800;color:#fff;}
+.cv-chap .cb2{background:linear-gradient(135deg,#4F46B8,#38308C);}
+.cv-chap .cb3{background:linear-gradient(135deg,#D97706,#A85A05);}
+.cv-chap .ct{font-size:16.5px;font-weight:800;color:var(--ink);line-height:1.25;}
+.cv-chap .cs{font-size:11.5px;color:var(--muted);margin-top:2px;}
+.cv-chips{margin-top:26px;display:flex;flex-wrap:wrap;gap:8px;max-width:660px;}
+.cv-chips span{border:1.5px solid var(--border);border-radius:20px;padding:5px 13px;font-size:11px;
+  font-weight:700;color:var(--ink);background:var(--card);}
+.cv-foot{position:absolute;bottom:44px;left:58px;right:58px;display:flex;justify-content:space-between;
+  align-items:center;border-top:2px solid var(--border);padding-top:16px;}
+.cv-foot .fl{font-size:11px;font-weight:700;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase;}
+.cv-foot .fr{font-size:20px;font-weight:800;font-family:'Baloo 2',sans-serif;color:var(--t);}
+
+/* ---------- MAIN FLOW ---------- */
+.main-content{padding:26px 42px 22px 42px;}
+.topic.flow{break-inside:auto;}
+.define,.hing{break-inside:avoid;}
+
+/* how-to strip */
+.howto{display:flex;gap:10px;margin-bottom:12px;}
+.howto .hstep{flex:1 1 0;min-width:0;background:var(--card);border:1.5px solid var(--border);
+  border-radius:10px;padding:8px 10px;text-align:center;break-inside:avoid;}
+.howto .hn{font-family:'Baloo 2',sans-serif;font-size:17px;font-weight:800;}
+.howto .h6g .hn{color:var(--t);} .howto .h7g .hn{color:var(--o);}
+.howto .hd{font-size:10px;color:var(--muted);font-weight:600;line-height:1.4;margin-top:2px;}
+
+/* chapter opener */
+.ch-open{border-radius:16px;padding:18px 22px;margin:14px 0 12px 0;break-inside:avoid;
+  break-after:avoid;position:relative;overflow:hidden;}
+.ch-open .big-emoji{position:absolute;right:24px;top:50%;transform:translateY(-50%);font-size:74px;opacity:.85;}
+.ch-open .okick{font-size:10.5px;font-weight:800;letter-spacing:3px;color:#fff;text-transform:uppercase;
+  display:inline-block;background:rgba(255,255,255,.22);border-radius:12px;padding:3px 12px;}
+.ch-open .otitle{font-family:'Baloo 2',sans-serif;font-size:30px;font-weight:800;color:#fff;line-height:1.05;margin-top:10px;}
+.ch-open .osub{font-size:12.5px;color:rgba(255,255,255,.94);margin-top:8px;max-width:560px;line-height:1.5;}
+.ch-open .ochips{margin-top:14px;display:flex;flex-wrap:wrap;gap:6px;max-width:560px;}
+.ch-open .ochips span{background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.45);
+  border-radius:12px;padding:2.5px 10px;font-size:10px;font-weight:700;color:#fff;}
+.ch6 .ch-open{background:linear-gradient(120deg,#4F46B8 0%,#38308C 100%);}
+.ch7 .ch-open{background:linear-gradient(120deg,#D97706 0%,#A85A05 100%);}
+
+/* section header */
+.sec-h{display:flex;align-items:center;gap:10px;margin:14px 0 8px 0;break-after:avoid;break-inside:avoid;}
+.sec-h .sq{flex-shrink:0;width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center;
+  font-size:15px;color:#fff;background:var(--acc);}
+.sec-h .st{font-family:'Baloo 2',sans-serif;font-size:18px;font-weight:800;color:var(--accd);}
+.sec-h .sline{flex:1;height:2.5px;border-radius:2px;background:linear-gradient(90deg,var(--line),transparent);}
+
+/* topic card */
+.topic{background:var(--card);border:1.5px solid var(--border);border-radius:13px;
+  padding:9px 13px 8px 13px;margin-bottom:7px;break-inside:auto;border-left:5px solid var(--acc);}
+.topic-h{display:flex;align-items:center;gap:10px;margin-bottom:9px;break-after:avoid;break-inside:avoid;}
+.topic-h .tnum{flex-shrink:0;font-family:'Baloo 2',sans-serif;font-size:13px;font-weight:800;color:#fff;
+  background:var(--acc);border-radius:7px;padding:2px 9px;letter-spacing:.5px;}
+.topic-h .tt{font-family:'Baloo 2',sans-serif;font-size:15.5px;font-weight:800;color:var(--ink);line-height:1.2;}
+.topic-h .tick{margin-left:auto;flex-shrink:0;font-size:10px;font-weight:700;color:var(--muted);
+  border:1.5px dashed var(--border);border-radius:12px;padding:2px 9px;}
+.define{background:var(--tint);border:1.2px solid var(--line);border-radius:8px;padding:6px 10px;margin-bottom:5px;}
+.define .dl{font-size:10px;font-weight:800;letter-spacing:1.6px;color:var(--accd);text-transform:uppercase;}
+.define .dd{font-size:11px;margin-top:2px;line-height:1.45;}
+.define .dd b{color:var(--accd);}
+.hing{background:#FFF9EC;border:1.5px dashed var(--acc);border-radius:8px;padding:6px 10px;margin-bottom:5px;}
+.hing .ht{font-size:10px;font-weight:800;letter-spacing:1.2px;color:var(--accd);text-transform:uppercase;}
+.hing .hb{font-size:10.8px;line-height:1.44;margin-top:2px;color:#43413A;}
+.hing .hb b{color:var(--accd);}
+.pts{margin:0;padding-left:0;list-style:none;}
+.pts li{position:relative;padding-left:16px;margin-bottom:2px;font-size:11px;line-height:1.4;break-inside:avoid;}
+.pts li::before{content:'';position:absolute;left:2px;top:6.5px;width:6px;height:6px;border-radius:2px;background:var(--acc);}
+.pts li b{color:var(--accd);}
+.plabel{font-size:10px;font-weight:800;letter-spacing:1.2px;color:var(--accd);text-transform:uppercase;
+  margin:1px 0 3px 0;break-after:avoid;}
+.exbox{background:var(--bg);border:1.2px solid var(--border);border-radius:8px;padding:6px 10px;margin-top:5px;font-size:10.4px;}
+.exbox .xt{font-weight:800;color:var(--ink);}
+
+/* system tree (hierarchy box) */
+.sys{background:var(--tint);border:1.2px solid var(--line);border-radius:8px;padding:6px 10px;margin-bottom:5px;}
+.sys.flow{break-inside:auto;}
+.sys .syt{font-size:10px;font-weight:800;letter-spacing:1.6px;color:var(--accd);text-transform:uppercase;break-after:avoid;}
+ul.tree{list-style:none;margin:2px 0 0 0;padding:0;}
+ul.tree>li{position:relative;padding-left:15px;margin:2px 0;font-size:10.9px;line-height:1.4;font-weight:700;}
+ul.tree>li::before{content:'';position:absolute;left:0;top:5.5px;width:7px;height:7px;border-radius:2px;background:var(--acc);}
+ul.tree ul{list-style:none;margin:1.5px 0 2.5px 0;padding-left:12px;border-left:2px solid var(--line);}
+ul.tree ul li{position:relative;padding-left:12px;margin:1px 0;font-size:10.6px;line-height:1.38;font-weight:400;}
+ul.tree ul li::before{content:'▸';position:absolute;left:0;top:0;color:var(--acc);font-size:9.5px;}
+ul.tree ul li b{color:var(--accd);}
+
+/* numbered steps (how things work) */
+ol.steps{list-style:none;counter-reset:st;margin:0 0 7px 0;padding:0;}
+ol.steps li{counter-increment:st;position:relative;padding-left:24px;margin-bottom:2px;font-size:10.9px;line-height:1.4;break-inside:avoid;}
+ol.steps li::before{content:counter(st);position:absolute;left:0;top:1px;width:16px;height:16px;border-radius:50%;
+  background:var(--acc);color:#fff;font-family:'Baloo 2',sans-serif;font-size:10px;font-weight:800;
+  display:flex;align-items:center;justify-content:center;}
+ol.steps li b{color:var(--accd);}
+
+/* generic table */
+table.tt{width:100%;border-collapse:collapse;font-size:10.4px;margin:5px 0 3px 0;}
+table.tt thead{display:table-header-group;}
+table.tt tr{break-inside:avoid;}
+table.tt th{background:var(--acc);color:#fff;font-weight:700;text-align:left;padding:4px 8px;font-size:10px;}
+table.tt td{border:1px solid var(--border);padding:3px 8px;vertical-align:top;background:#fff;line-height:1.42;}
+table.tt tr:nth-child(even) td{background:var(--bg);}
+table.tt td b{color:var(--accd);}
+
+/* definition bank */
+.defbank{background:var(--tint);border:1.5px solid var(--line);border-radius:13px;padding:8px 12px;
+  margin:5px 0;break-inside:avoid;}
+.defbank .dbt{break-after:avoid;font-family:'Baloo 2',sans-serif;font-size:16px;font-weight:800;color:var(--accd);margin-bottom:6px;}
+.db-grid{display:grid;grid-template-columns:1fr 1fr;gap:3px 16px;}
+.db-grid .d{font-size:10.35px;line-height:1.42;break-inside:avoid;}
+.db-grid .d b{color:var(--accd);}
+
+/* MCQ */
+.mcq-score{display:flex;align-items:center;gap:10px;background:var(--card);border:1.5px solid var(--border);
+  border-radius:10px;padding:7px 12px;margin-bottom:10px;break-inside:avoid;}
+.mcq-score .ms{font-size:11px;font-weight:700;color:var(--muted);}
+.mcq-score .blank{width:64px;height:22px;border:2px dashed var(--acc);border-radius:6px;}
+.mcq{background:var(--card);border:1.5px solid var(--border);border-radius:11px;padding:8px 12px;
+  margin-bottom:6px;break-inside:auto;}
+.mcq .mq{font-size:11.2px;font-weight:700;line-height:1.42;margin-bottom:5px;break-after:avoid;break-inside:avoid;}
+.mcq .mq .qn{color:var(--accd);font-family:'Baloo 2',sans-serif;font-weight:800;}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:4px 14px;}
+.opts .op{font-size:10.8px;line-height:1.45;padding-left:24px;position:relative;}
+.opts .op::before{content:attr(data-l);position:absolute;left:0;top:0;width:17px;height:17px;border-radius:50%;
+  border:1.5px solid var(--border);background:var(--bg);font-size:9.6px;font-weight:800;color:var(--accd);
+  display:flex;align-items:center;justify-content:center;}
+.anskey{background:var(--accd);border-radius:13px;padding:11px 14px;margin:10px 0;break-inside:avoid;}
+.anskey .akt{font-family:'Baloo 2',sans-serif;font-size:15px;font-weight:800;color:#fff;margin-bottom:7px;}
+.ans-strip{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:9px;}
+.ans-strip span{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.4);border-radius:8px;
+  padding:2.5px 9px;font-size:10.5px;font-weight:800;color:#fff;}
+.xpls{display:grid;grid-template-columns:1fr;gap:3px;}
+.xpls .x{font-size:10.3px;color:rgba(255,255,255,.95);line-height:1.45;padding-left:14px;position:relative;}
+.xpls .x::before{content:'▸';position:absolute;left:0;color:#D9D4F7;}
+.ch7 .xpls .x::before{color:#FBE0B4;}
+
+/* QA */
+.qa{background:var(--card);border:1.5px solid var(--border);border-radius:11px;padding:8px 12px;
+  margin-bottom:6px;break-inside:auto;border-left:5px solid var(--acc);}
+.qa .qq{font-size:11.4px;font-weight:800;line-height:1.42;margin-bottom:5px;break-after:avoid;break-inside:avoid;}
+.qa .qq .qn{color:var(--accd);font-family:'Baloo 2',sans-serif;}
+.qa .alab{font-size:10px;font-weight:800;letter-spacing:1.4px;color:var(--accd);text-transform:uppercase;margin-bottom:3px;}
+.qa .ans{margin:0;padding-left:0;list-style:none;}
+.qa .ans li{position:relative;padding-left:15px;margin-bottom:2px;font-size:10.7px;line-height:1.4;break-inside:avoid;}
+.qa .ans li::before{content:'';position:absolute;left:1px;top:6.5px;width:5.5px;height:5.5px;border-radius:50%;background:var(--acc);}
+.qa .ans li b{color:var(--accd);}
+
+/* closer */
+.closer{background:linear-gradient(120deg,#282A42,#4F46B8);border-radius:16px;padding:18px 22px;
+  margin-top:16px;text-align:center;break-inside:avoid;}
+.closer .cl1{font-family:'Baloo 2',sans-serif;font-size:23px;font-weight:800;color:#fff;}
+.closer .cl2{font-size:12px;color:rgba(255,255,255,.9);margin-top:5px;line-height:1.5;}
+</style>
+</head>
+<body>
+
+<!-- ================= COVER ================= -->
+<div class="cvr">
+  <div class="blob b3"></div><div class="blob b4"></div>
+  <div class="coin c1">⚖️</div><div class="coin c2">🗳️</div>
+  <div class="cv-kick">Class 9 &bull; SST &bull; Exam Workbook</div>
+  <div class="cv-title">CIVICS</div>
+  <div class="cv-title2">the Workbook</div>
+  <div class="cv-sub">Poora exam prep&nbsp;— samajhne wali <b>Hinglish notes</b>, likhne wale <b>English points</b>, saare <b>definitions</b>, <b>system trees</b> (iske under kya, uske under kya), <b>differences</b> aur full <b>practice set</b> (MCQs + big Q&amp;A). All from your textbook, nothing missed.</div>
+  <div class="cv-chaps">
+    <div class="cv-chap">
+      <div class="cbadge cb2">6</div>
+      <div><div class="ct">Democracy</div><div class="cs">Democratic traditions, principles (popular sovereignty, rule of law, rights, separation of powers), types of democracy, India's living democracy &amp; challenges</div></div>
+    </div>
+    <div class="cv-chap">
+      <div class="cbadge cb3">7</div>
+      <div><div class="ct">Elections</div><div class="cs">Why elections matter, FPTP &amp; PR systems, election laws, ECI &amp; its machinery, political parties, anti-defection law &amp; challenges</div></div>
+    </div>
+  </div>
+  <div class="cv-chips">
+    <span>💡 Hinglish Samajh</span><span>✍️ Exam-Ready Points</span><span>📖 Definition Bank</span><span>🌳 System Trees</span><span>⚖️ Differences</span><span>✅ 10 + 10 MCQs</span><span>📝 10 + 10 Big Q&amp;A</span><span>🎯 Under 20 Pages</span>
+  </div>
+  <div class="cv-foot">
+    <div class="fl">Understanding Society: India &amp; Beyond &bull; Grade 9 Part 1</div>
+    <div class="fr">Let's go! 🚀</div>
+  </div>
+</div>
+
+<div class="main-content">
+
+<!-- HOW TO USE -->
+<div class="howto">
+  <div class="hstep h6g"><div class="hn">1 · SAMAJH</div><div class="hd">Pehle 💡 Hinglish box padh&nbsp;— topic ka feel aa jayega</div></div>
+  <div class="hstep h6g"><div class="hn">2 · RATTAAA</div><div class="hd">📖 Definition + ✍️ points yaad kar&nbsp;— yehi likhne ke hain</div></div>
+  <div class="hstep h7g"><div class="hn">3 · TEST</div><div class="hd">MCQs khud solve kar, phir answers check kar 💪</div></div>
+  <div class="hstep h7g"><div class="hn">4 · WRITE</div><div class="hd">Big Q&amp;A dekh&nbsp;— points ko apne answers me copy-paryog karo</div></div>
+</div>

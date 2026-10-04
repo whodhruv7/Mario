@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Class 9 Geography — Exam Workbook (Ch 2 + Ch 3)</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+@page { size: 794px 1123px; margin: 0; }
+:root{
+  --bg:#F7FBF8; --ink:#1E3327; --muted:#75887C; --border:#DFEAE1; --card:#FFFFFF;
+  --t:#2E7D4F; --t-dark:#1F5A38; --t-tint:#E7F4EC; --t-line:#C2E2CF;
+  --o:#2563A8; --o-dark:#1A4977; --o-tint:#E8F1FA; --o-line:#C1DAF1;
+}
+html,body{margin:0;padding:0;width:794px;background:var(--bg);color:var(--ink);
+  font-family:'Inter','Noto Sans SC','Noto Color Emoji',sans-serif;font-size:10.8px;line-height:1.38;}
+body{line-break:strict;word-break:normal;overflow-wrap:break-word;}
+p,td,li{overflow-wrap:break-word;}
+*{box-sizing:border-box;}
+@media screen{
+  html{height:auto;display:flex;justify-content:center;background:#E2E8E4;}
+  body{transform-origin:top center;margin:20px auto;box-shadow:0 0 40px rgba(0,0,0,.15);}
+}
+
+/* ---------- CHAPTER ACCENT THEMES ---------- */
+.ch2{--acc:var(--t);--accd:var(--t-dark);--tint:var(--t-tint);--line:var(--t-line);}
+.ch3{--acc:var(--o);--accd:var(--o-dark);--tint:var(--o-tint);--line:var(--o-line);}
+
+/* ---------- COVER (fixed full page) ---------- */
+.cvr{position:relative;width:794px;height:1123px;break-after:page;
+  background:radial-gradient(circle at 655px 60px, rgba(46,125,79,.16) 0%, rgba(46,125,79,.05) 38%, transparent 58%),
+             radial-gradient(circle at 60px 1075px, rgba(37,99,168,.15) 0%, rgba(37,99,168,.05) 36%, transparent 56%),
+             var(--bg);
+  display:flex;flex-direction:column;justify-content:center;padding:60px 58px;}
+.blob{position:absolute;border-radius:50%;background:transparent;}
+.b3{width:140px;height:140px;right:60px;bottom:100px;border:2.5px dashed #2E7D4F2e;}
+.b4{width:90px;height:90px;left:64px;top:120px;border:2.5px dashed #2563A840;}
+.coin{position:absolute;font-size:42px;opacity:.9;}
+.c1{right:90px;top:92px;transform:rotate(12deg);}
+.c2{right:140px;bottom:165px;transform:rotate(-10deg);}
+.cv-kick{font-size:13px;font-weight:800;letter-spacing:5px;color:var(--t);text-transform:uppercase;}
+.cv-title{font-family:'Baloo 2','Inter',sans-serif;font-size:76px;font-weight:800;line-height:1;
+  color:var(--ink);margin:14px 0 0 0;}
+.cv-title2{font-family:'Baloo 2','Inter',sans-serif;font-size:44px;font-weight:800;line-height:1.05;
+  color:var(--t);margin:4px 0 10px 0;}
+.cv-sub{font-size:16px;color:#3E5548;max-width:560px;line-height:1.5;margin-top:8px;}
+.cv-chaps{margin-top:30px;display:flex;flex-direction:column;gap:12px;max-width:640px;}
+.cv-chap{display:flex;align-items:center;gap:14px;background:var(--card);border:1.5px solid var(--border);
+  border-radius:14px;padding:13px 18px;box-shadow:0 3px 10px rgba(30,51,39,.06);}
+.cv-chap .cbadge{flex-shrink:0;width:52px;height:52px;border-radius:12px;display:flex;align-items:center;
+  justify-content:center;font-family:'Baloo 2',sans-serif;font-size:24px;font-weight:800;color:#fff;}
+.cv-chap .cb2{background:linear-gradient(135deg,#2E7D4F,#1F5A38);}
+.cv-chap .cb3{background:linear-gradient(135deg,#2563A8,#1A4977);}
+.cv-chap .ct{font-size:16.5px;font-weight:800;color:var(--ink);line-height:1.25;}
+.cv-chap .cs{font-size:11.5px;color:var(--muted);margin-top:2px;}
+.cv-chips{margin-top:26px;display:flex;flex-wrap:wrap;gap:8px;max-width:660px;}
+.cv-chips span{border:1.5px solid var(--border);border-radius:20px;padding:5px 13px;font-size:11px;
+  font-weight:700;color:var(--ink);background:var(--card);}
+.cv-foot{position:absolute;bottom:44px;left:58px;right:58px;display:flex;justify-content:space-between;
+  align-items:center;border-top:2px solid var(--border);padding-top:16px;}
+.cv-foot .fl{font-size:11px;font-weight:700;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase;}
+.cv-foot .fr{font-size:20px;font-weight:800;font-family:'Baloo 2',sans-serif;color:var(--t);}
+
+/* ---------- MAIN FLOW ---------- */
+.main-content{padding:26px 42px 22px 42px;}
+.topic.flow{break-inside:auto;}
+.define,.hing{break-inside:avoid;}
+
+/* how-to strip */
+.howto{display:flex;gap:10px;margin-bottom:12px;}
+.howto .hstep{flex:1 1 0;min-width:0;background:var(--card);border:1.5px solid var(--border);
+  border-radius:10px;padding:8px 10px;text-align:center;break-inside:avoid;}
+.howto .hn{font-family:'Baloo 2',sans-serif;font-size:17px;font-weight:800;}
+.howto .h2g .hn{color:var(--t);} .howto .h3g .hn{color:var(--o);}
+.howto .hd{font-size:10px;color:var(--muted);font-weight:600;line-height:1.4;margin-top:2px;}
+
+/* chapter opener */
+.ch-open{border-radius:16px;padding:18px 22px;margin:14px 0 12px 0;break-inside:avoid;
+  break-after:avoid;position:relative;overflow:hidden;}
+.ch-open .big-emoji{position:absolute;right:24px;top:50%;transform:translateY(-50%);font-size:74px;opacity:.85;}
+.ch-open .okick{font-size:10.5px;font-weight:800;letter-spacing:3px;color:#fff;text-transform:uppercase;
+  display:inline-block;background:rgba(255,255,255,.22);border-radius:12px;padding:3px 12px;}
+.ch-open .otitle{font-family:'Baloo 2',sans-serif;font-size:30px;font-weight:800;color:#fff;line-height:1.05;margin-top:10px;}
+.ch-open .osub{font-size:12.5px;color:rgba(255,255,255,.94);margin-top:8px;max-width:560px;line-height:1.5;}
+.ch-open .ochips{margin-top:14px;display:flex;flex-wrap:wrap;gap:6px;max-width:560px;}
+.ch-open .ochips span{background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.45);
+  border-radius:12px;padding:2.5px 10px;font-size:10px;font-weight:700;color:#fff;}
+.ch2 .ch-open{background:linear-gradient(120deg,#2E7D4F 0%,#1F5A38 100%);}
+.ch3 .ch-open{background:linear-gradient(120deg,#2563A8 0%,#1A4977 100%);}
+
+/* section header */
+.sec-h{display:flex;align-items:center;gap:10px;margin:14px 0 8px 0;break-after:avoid;break-inside:avoid;}
+.sec-h .sq{flex-shrink:0;width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center;
+  font-size:15px;color:#fff;background:var(--acc);}
+.sec-h .st{font-family:'Baloo 2',sans-serif;font-size:18px;font-weight:800;color:var(--accd);}
+.sec-h .sline{flex:1;height:2.5px;border-radius:2px;background:linear-gradient(90deg,var(--line),transparent);}
+
+/* topic card */
+.topic{background:var(--card);border:1.5px solid var(--border);border-radius:13px;
+  padding:9px 13px 8px 13px;margin-bottom:7px;break-inside:auto;border-left:5px solid var(--acc);}
+.topic-h{display:flex;align-items:center;gap:10px;margin-bottom:9px;break-after:avoid;break-inside:avoid;}
+.topic-h .tnum{flex-shrink:0;font-family:'Baloo 2',sans-serif;font-size:13px;font-weight:800;color:#fff;
+  background:var(--acc);border-radius:7px;padding:2px 9px;letter-spacing:.5px;}
+.topic-h .tt{font-family:'Baloo 2',sans-serif;font-size:15.5px;font-weight:800;color:var(--ink);line-height:1.2;}
+.topic-h .tick{margin-left:auto;flex-shrink:0;font-size:10px;font-weight:700;color:var(--muted);
+  border:1.5px dashed var(--border);border-radius:12px;padding:2px 9px;}
+.define{background:var(--tint);border:1.2px solid var(--line);border-radius:8px;padding:6px 10px;margin-bottom:5px;}
+.define .dl{font-size:10px;font-weight:800;letter-spacing:1.6px;color:var(--accd);text-transform:uppercase;}
+.define .dd{font-size:11px;margin-top:2px;line-height:1.45;}
+.define .dd b{color:var(--accd);}
+.hing{background:#FFF9EC;border:1.5px dashed var(--acc);border-radius:8px;padding:6px 10px;margin-bottom:5px;}
+.hing .ht{font-size:10px;font-weight:800;letter-spacing:1.2px;color:var(--accd);text-transform:uppercase;}
+.hing .hb{font-size:10.8px;line-height:1.44;margin-top:2px;color:#43413A;}
+.hing .hb b{color:var(--accd);}
+.pts{margin:0;padding-left:0;list-style:none;}
+.pts li{position:relative;padding-left:16px;margin-bottom:2px;font-size:11px;line-height:1.4;break-inside:avoid;}
+.pts li::before{content:'';position:absolute;left:2px;top:6.5px;width:6px;height:6px;border-radius:2px;background:var(--acc);}
+.pts li b{color:var(--accd);}
+.plabel{font-size:10px;font-weight:800;letter-spacing:1.2px;color:var(--accd);text-transform:uppercase;
+  margin:1px 0 3px 0;break-after:avoid;}
+.exbox{background:var(--bg);border:1.2px solid var(--border);border-radius:8px;padding:6px 10px;margin-top:5px;font-size:10.4px;}
+.exbox .xt{font-weight:800;color:var(--ink);}
+
+/* system tree (hierarchy box) */
+.sys{background:var(--tint);border:1.2px solid var(--line);border-radius:8px;padding:6px 10px;margin-bottom:5px;}
+.sys.flow{break-inside:auto;}
+.sys .syt{font-size:10px;font-weight:800;letter-spacing:1.6px;color:var(--accd);text-transform:uppercase;break-after:avoid;}
+ul.tree{list-style:none;margin:2px 0 0 0;padding:0;}
+ul.tree>li{position:relative;padding-left:15px;margin:2px 0;font-size:10.9px;line-height:1.4;font-weight:700;}
+ul.tree>li::before{content:'';position:absolute;left:0;top:5.5px;width:7px;height:7px;border-radius:2px;background:var(--acc);}
+ul.tree ul{list-style:none;margin:1.5px 0 2.5px 0;padding-left:12px;border-left:2px solid var(--line);}
+ul.tree ul li{position:relative;padding-left:12px;margin:1px 0;font-size:10.6px;line-height:1.38;font-weight:400;}
+ul.tree ul li::before{content:'▸';position:absolute;left:0;top:0;color:var(--acc);font-size:9.5px;}
+ul.tree ul li b{color:var(--accd);}
+
+/* numbered steps (how things work) */
+ol.steps{list-style:none;counter-reset:st;margin:0 0 7px 0;padding:0;}
+ol.steps li{counter-increment:st;position:relative;padding-left:24px;margin-bottom:2px;font-size:10.9px;line-height:1.4;break-inside:avoid;}
+ol.steps li::before{content:counter(st);position:absolute;left:0;top:1px;width:16px;height:16px;border-radius:50%;
+  background:var(--acc);color:#fff;font-family:'Baloo 2',sans-serif;font-size:10px;font-weight:800;
+  display:flex;align-items:center;justify-content:center;}
+ol.steps li b{color:var(--accd);}
+
+/* generic table */
+table.tt{width:100%;border-collapse:collapse;font-size:10.4px;margin:5px 0 3px 0;}
+table.tt thead{display:table-header-group;}
+table.tt tr{break-inside:avoid;}
+table.tt th{background:var(--acc);color:#fff;font-weight:700;text-align:left;padding:4px 8px;font-size:10px;}
+table.tt td{border:1px solid var(--border);padding:3px 8px;vertical-align:top;background:#fff;line-height:1.42;}
+table.tt tr:nth-child(even) td{background:var(--bg);}
+table.tt td b{color:var(--accd);}
+
+/* definition bank */
+.defbank{background:var(--tint);border:1.5px solid var(--line);border-radius:13px;padding:8px 12px;
+  margin:5px 0;break-inside:avoid;}
+.defbank .dbt{break-after:avoid;font-family:'Baloo 2',sans-serif;font-size:16px;font-weight:800;color:var(--accd);margin-bottom:6px;}
+.db-grid{display:grid;grid-template-columns:1fr 1fr;gap:3px 16px;}
+.db-grid .d{font-size:10.35px;line-height:1.42;break-inside:avoid;}
+.db-grid .d b{color:var(--accd);}
+
+/* MCQ */
+.mcq-score{display:flex;align-items:center;gap:10px;background:var(--card);border:1.5px solid var(--border);
+  border-radius:10px;padding:7px 12px;margin-bottom:10px;break-inside:avoid;}
+.mcq-score .ms{font-size:11px;font-weight:700;color:var(--muted);}
+.mcq-score .blank{width:64px;height:22px;border:2px dashed var(--acc);border-radius:6px;}
+.mcq{background:var(--card);border:1.5px solid var(--border);border-radius:11px;padding:8px 12px;
+  margin-bottom:6px;break-inside:auto;}
+.mcq .mq{font-size:11.2px;font-weight:700;line-height:1.42;margin-bottom:5px;break-after:avoid;break-inside:avoid;}
+.mcq .mq .qn{color:var(--accd);font-family:'Baloo 2',sans-serif;font-weight:800;}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:4px 14px;}
+.opts .op{font-size:10.8px;line-height:1.45;padding-left:24px;position:relative;}
+.opts .op::before{content:attr(data-l);position:absolute;left:0;top:0;width:17px;height:17px;border-radius:50%;
+  border:1.5px solid var(--border);background:var(--bg);font-size:9.6px;font-weight:800;color:var(--accd);
+  display:flex;align-items:center;justify-content:center;}
+.anskey{background:var(--accd);border-radius:13px;padding:11px 14px;margin:10px 0;break-inside:avoid;}
+.anskey .akt{font-family:'Baloo 2',sans-serif;font-size:15px;font-weight:800;color:#fff;margin-bottom:7px;}
+.ans-strip{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:9px;}
+.ans-strip span{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.4);border-radius:8px;
+  padding:2.5px 9px;font-size:10.5px;font-weight:800;color:#fff;}
+.xpls{display:grid;grid-template-columns:1fr;gap:3px;}
+.xpls .x{font-size:10.3px;color:rgba(255,255,255,.95);line-height:1.45;padding-left:14px;position:relative;}
+.xpls .x::before{content:'▸';position:absolute;left:0;color:#BFE3C8;}
+.ch3 .xpls .x::before{color:#BFD8F2;}
+
+/* QA */
+.qa{background:var(--card);border:1.5px solid var(--border);border-radius:11px;padding:8px 12px;
+  margin-bottom:6px;break-inside:auto;border-left:5px solid var(--acc);}
+.qa .qq{font-size:11.4px;font-weight:800;line-height:1.42;margin-bottom:5px;break-after:avoid;break-inside:avoid;}
+.qa .qq .qn{color:var(--accd);font-family:'Baloo 2',sans-serif;}
+.qa .alab{font-size:10px;font-weight:800;letter-spacing:1.4px;color:var(--accd);text-transform:uppercase;margin-bottom:3px;}
+.qa .ans{margin:0;padding-left:0;list-style:none;}
+.qa .ans li{position:relative;padding-left:15px;margin-bottom:2px;font-size:10.7px;line-height:1.4;break-inside:avoid;}
+.qa .ans li::before{content:'';position:absolute;left:1px;top:6.5px;width:5.5px;height:5.5px;border-radius:50%;background:var(--acc);}
+.qa .ans li b{color:var(--accd);}
+
+/* closer */
+.closer{background:linear-gradient(120deg,#1E3327,#2E7D4F);border-radius:16px;padding:18px 22px;
+  margin-top:16px;text-align:center;break-inside:avoid;}
+.closer .cl1{font-family:'Baloo 2',sans-serif;font-size:23px;font-weight:800;color:#fff;}
+.closer .cl2{font-size:12px;color:rgba(255,255,255,.9);margin-top:5px;line-height:1.5;}
+</style>
+</head>
+<body>
+
+<!-- ================= COVER ================= -->
+<div class="cvr">
+  <div class="blob b3"></div><div class="blob b4"></div>
+  <div class="coin c1">🌍</div><div class="coin c2">🏔️</div>
+  <div class="cv-kick">Class 9 &bull; SST &bull; Exam Workbook</div>
+  <div class="cv-title">GEOGRAPHY</div>
+  <div class="cv-title2">the Workbook</div>
+  <div class="cv-sub">Poora exam prep&nbsp;— samajhne wali <b>Hinglish notes</b>, likhne wale <b>English points</b>, saare <b>definitions</b>, <b>system trees</b> (iske under kya, uske under kya) aur full <b>practice set</b> (MCQs + big Q&amp;A). All from your textbook, nothing missed.</div>
+  <div class="cv-chaps">
+    <div class="cv-chap">
+      <div class="cbadge cb2">2</div>
+      <div><div class="ct">Shaping of the Earth's Surface</div><div class="cs">Plate tectonics, weathering &amp; erosion, agents of gradation&nbsp;— rivers, waves, glaciers, wind, underground water &amp; landform disasters</div></div>
+    </div>
+    <div class="cv-chap">
+      <div class="cbadge cb3">3</div>
+      <div><div class="ct">Atmosphere and Climate</div><div class="cs">Composition &amp; layers of atmosphere, weather vs climate, monsoon mechanism, seasons, climate change &amp; the Punjab floods case study</div></div>
+    </div>
+  </div>
+  <div class="cv-chips">
+    <span>💡 Hinglish Samajh</span><span>✍️ Exam-Ready Points</span><span>📖 Definition Bank</span><span>🌳 System Trees</span><span>⚖️ Differences</span><span>✅ 10 + 10 MCQs</span><span>📝 10 + 10 Big Q&amp;A</span><span>🎯 Under 20 Pages</span>
+  </div>
+  <div class="cv-foot">
+    <div class="fl">Understanding Society: India &amp; Beyond &bull; Grade 9 Part 1</div>
+    <div class="fr">Let's go! 🚀</div>
+  </div>
+</div>
+
+<div class="main-content">
+
+<!-- HOW TO USE -->
+<div class="howto">
+  <div class="hstep h2g"><div class="hn">1 · SAMAJH</div><div class="hd">Pehle 💡 Hinglish box padh&nbsp;— topic ka feel aa jayega</div></div>
+  <div class="hstep h2g"><div class="hn">2 · RATTAAA</div><div class="hd">📖 Definition + ✍️ points yaad kar&nbsp;— yehi likhne ke hain</div></div>
+  <div class="hstep h3g"><div class="hn">3 · TEST</div><div class="hd">MCQs khud solve kar, phir answers check kar 💪</div></div>
+  <div class="hstep h3g"><div class="hn">4 · WRITE</div><div class="hd">Big Q&amp;A dekh&nbsp;— points ko apne answers me copy-paryog karo</div></div>
+</div>
+
+<!-- ================================================= CHAPTER 2 -->
+<div class="ch2">
+
+<div class="ch-open">
+  <div class="big-emoji">🏔️</div>
+  <div class="okick">Chapter 2 &bull; Geography</div>
+  <div class="otitle">Shaping of the<br>Earth's Surface</div>
+  <div class="osub">Earth ki surface kabhi fixed nahi hai&nbsp;— andar se powerful forces (earthquakes, volcanoes, folding, faulting) naye landforms banati hain, aur bahar se weathering&nbsp;+ erosion unhe ghiste hain. Is chapter me: plate tectonics se lekar saare landforms aur disasters tak.</div>
+  <div class="ochips"><span>🔑 11 Topics</span><span>📖 25+ Definitions</span><span>🌳 5 System Trees</span><span>✅ 10 MCQs</span><span>📝 10 Q&amp;A</span></div>
+</div>
+
+<div class="sec-h"><span class="sq">📚</span><span class="st">Notes&nbsp;— Har Topic, Poori Samajh</span><span class="sline"></span></div>
+
+<!-- T1 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T1</span><span class="tt">Inside the Earth&nbsp;— 3 Layers 🌍</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Crust</b>&nbsp;— the outermost layer of the Earth on which we live. &nbsp;|&nbsp; <b>Mantle</b>&nbsp;— the very thick, hot, mostly solid layer between the crust and the core. &nbsp;|&nbsp; <b>Core</b>&nbsp;— the innermost, extremely hot and heavy layer of the Earth.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Socho ek kadu (pumpkin) ka structure&nbsp;— sabse bahar patli skin (crust), phir mota gudda (mantle), aur beech me sabse dense wala part (core). Hum crust pe rehte hain! Crust + upper mantle milke banta hai <b>lithosphere</b> (solid, rigid tile jaisa), aur uske neeche <b>asthenosphere</b>&nbsp;— jo semi-molten (aadha pighla hua) hai. Isi slippery asthenosphere pe plates slip-slide karti rehti hain!</div></div>
+  <div class="sys flow">
+    <div class="syt">🌳 System&nbsp;— Earth's Interior (iske under yeh)</div>
+    <ul class="tree">
+      <li>Crust (outermost)
+        <ul>
+          <li><b>Continental crust</b>&nbsp;— 30–40 km thick (under continents)</li>
+          <li><b>Oceanic crust</b>&nbsp;— only 5–7 km thick (under oceans)</li>
+        </ul>
+      </li>
+      <li>Mantle (~2900 km) &nbsp;→&nbsp; hot, mostly solid
+        <ul>
+          <li><b>Asthenosphere</b>&nbsp;— upper part, semi-molten (partially molten rock), lets plates move</li>
+        </ul>
+      </li>
+      <li>Core (innermost, densest)
+        <ul>
+          <li><b>Outer core</b> (~2200 km)&nbsp;— fluid layer of iron and nickel</li>
+          <li><b>Inner core</b> (~1250 km)&nbsp;— solid, hot, spinning metal ball</li>
+        </ul>
+      </li>
+      <li><b>Lithosphere</b> (~100 km)&nbsp;— crust + upper mantle; broken into tectonic plates</li>
+    </ul>
+  </div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>The Earth is made of <b>three main layers: crust, mantle, and core</b> (Earth's radius ≈ 6375 km).</li>
+    <li><b>Lithosphere</b> = crust + upper mantle&nbsp;— the rigid outer layer; it is broken into <b>tectonic plates</b>.</li>
+    <li><b>Asthenosphere</b> = hot, mobile, semi-molten layer beneath the lithosphere&nbsp;— allows the plates to move.</li>
+    <li>Crust thickness <b>varies</b>: 30–40 km under continents vs 5–7 km under oceans.</li>
+  </ul>
+</div>
+
+<!-- T2 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T2</span><span class="tt">Plate Tectonics&nbsp;— Theory 🧩</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Plate tectonics</b>&nbsp;— the theory (given by <b>W.J. Morgan</b>) explaining the movement of the Earth's crust: the outermost layer is broken into large and small pieces called <b>tectonic plates</b> that move slowly over the semi-molten layer beneath them. &nbsp;|&nbsp; <b>Landform</b>&nbsp;— a natural feature on the Earth's surface formed by weathering, erosion, deposition, or movement of the crust (mountains, valleys, plateaus, plains).</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Socho Earth ka upper cover ek <b>tooti hui thali</b> jaisa hai&nbsp;— kai bade-bade tukde (plates) jo dheere-dheere (saal me bas <b>few centimetres</b>!) asthenosphere pe travel karte hain. Itna slow ki humein feel nahi hota, but crores of years me mountains khadi kar dete hain. Kaun dhakka deta hai? <b>Convection currents</b>&nbsp;— jaise garam paani upar uthta hai aur thanda neeche girta hai, waise hi mantle ka molten material!</div></div>
+  <div class="sys flow">
+    <div class="syt">🌳 System&nbsp;— Types of Tectonic Plates</div>
+    <ul class="tree">
+      <li><b>Continental plates</b>&nbsp;— carry continents</li>
+      <li><b>Oceanic plates</b>&nbsp;— carry ocean floors</li>
+      <li><b>Mixed plates</b>&nbsp;— carry both continents and oceans</li>
+    </ul>
+  </div>
+  <div class="plabel">✍️ Exam Points&nbsp;— yehi likhna hai</div>
+  <ul class="pts">
+    <li>Theory given by <b>W.J. Morgan</b>; plates move <b>a few centimetres per year</b>.</li>
+    <li><b>Major plates:</b> Pacific, Eurasian, African, North American, South American, Indo-Australian, and Antarctic.</li>
+    <li>Movement is caused by <b>convection currents in the mantle</b>: core's heat makes molten material <b>rise</b>, cooler material <b>sinks</b>&nbsp;— this continuous cycle pushes and pulls the plates.</li>
+    <li>Plate movement gives rise to <b>mountains, valleys, ocean basins, volcanoes, earthquakes</b> and explains the distribution of continents and oceans.</li>
+    <li>Helps identify <b>earthquake- and volcano-prone regions</b> and manage disasters.</li>
+  </ul>
+</div>
+
+<!-- T3 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T3</span><span class="tt">Plate Boundaries&nbsp;— 3 Types + Ring of Fire 🔥</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Plate boundary</b>&nbsp;— the edge where two tectonic plates meet. &nbsp;|&nbsp; <b>Ring of Fire</b>&nbsp;— the zone around the Pacific Ocean where most earthquakes and volcanoes occur (along plate boundaries).</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Do plates ki "mulaqaat" ke 3 tareeke: <b>aana-jaana</b> (convergent&nbsp;— takkar!), <b>alag hona</b> (divergent&nbsp;— gap banta hai, magma bharta hai) aur <b>paas se guzarna</b> (transform&nbsp;— ragad se earthquakes). Pacific Ocean ke around plates ka junction hi hai <b>Ring of Fire</b>&nbsp;— isliye wahan sabse zyada earthquakes + volcanoes. India bhi risk me hai&nbsp;— 2001 me Gujarat ka bada bhukamp yaad rakho!</div></div>
+  <div class="sys flow">
+    <div class="syt">🌳 System&nbsp;— 3 Plate Boundaries (iske under kya hota hai)</div>
+    <ul class="tree">
+      <li><b>Convergent</b>&nbsp;— plates move towards each other
+        <ul>
+          <li>Continental + continental → <b>fold mountains</b> (e.g., the Himalaya)</li>
+          <li>Oceanic + continental → oceanic plate <b>sinks beneath</b> (subduction) → <b>volcanoes + earthquakes</b></li>
+        </ul>
+      </li>
+      <li><b>Divergent</b>&nbsp;— plates move away from each other
+        <ul>
+          <li>Magma rises from below → forms <b>new crust</b> → creates <b>mid-ocean ridges</b> (e.g., the <b>Mid-Atlantic Ridge</b>)</li>
+        </ul>
+      </li>
+      <li><b>Transform</b>&nbsp;— plates slide past each other
+        <ul>
+          <li><b>No crust created or destroyed</b> → mainly causes <b>earthquakes</b> (e.g., the <b>San Andreas Fault</b>, USA)</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>Most earthquakes and volcanoes occur <b>along plate boundaries</b>, especially around the Pacific&nbsp;— the <b>Ring of Fire</b>.</li>
+    <li>India has experienced major earthquakes (e.g., <b>Gujarat, 2001</b>)&nbsp;— a large quake in a densely populated country causes severe damage to life and environment.</li>
+    <li><b>Don't Miss Out:</b> Ancient India knew earthquakes as <b>bhūkampa</b>. In the <b>Bṛihatsaṁhitā</b>, <b>Varāhamihira</b> linked them to wind, rain, clouds and animal behaviour, attributing them to four forces&nbsp;— <b>Vāyu (wind), Agni (fire), Indra (thunder), Varuṇa (water)</b>.</li>
+    <li><b>Baratang Island</b> (Andaman &amp; Nicobar) has India's only <b>mud volcano</b>&nbsp;— mud bubbles out due to underground gases and pressure.</li>
+  </ul>
+</div>
+
+<!-- T4 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T4</span><span class="tt">Weathering vs Erosion&nbsp;— Breaking vs Carrying 🪨</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Weathering</b>&nbsp;— the process through which rocks on the Earth's surface break down into smaller pieces; it does <b>not</b> involve movement of the broken material. &nbsp;|&nbsp; <b>Erosion</b>&nbsp;— the process by which soil, rocks and surface materials are worn away and <b>carried from one place to another</b> by natural agents like water, wind, ice or waves.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Ek line me: <b>Weathering = todna (bina hilaye)</b>, <b>Erosion = todna + utha ke le jaana</b>. Jaise exam me&nbsp;— question samajhna ≠ answer likh ke copy karna! Erosion me "transport" ka step extra hai. Dono milkar mountains ko ghisa kar plains banate hain&nbsp;— crore saal ka slow makeover 💅.</div></div>
+  <div class="sys flow">
+    <div class="syt">🌳 System&nbsp;— Types (dono ke)</div>
+    <ul class="tree">
+      <li><b>Weathering&nbsp;— 3 types</b>
+        <ul>
+          <li><b>Physical</b>&nbsp;— rocks break due to temperature changes, frost, or wind</li>
+          <li><b>Chemical</b>&nbsp;— minerals change by reactions with water, air, or acids → new substances</li>
+          <li><b>Biological</b>&nbsp;— caused by plants, animals, micro-organisms (e.g., roots grow into cracks and split rocks)</li>
+        </ul>
+      </li>
+      <li><b>Erosion&nbsp;— 4 types (by agent)</b>
+        <ul>
+          <li><b>Water</b> (rivers, rain, ocean waves) &nbsp;·&nbsp; <b>Wind</b> (dry, sandy areas)</li>
+          <li><b>Glacial</b> (moving ice scrapes and carries rocks) &nbsp;·&nbsp; <b>Coastal</b> (sea waves wear away the shore)</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="plabel">✍️ Exam Points&nbsp;— erosion ka asar + ancient solutions</div>
+  <ul class="pts">
+    <li>Weathering also helps in <b>forming soil</b>; erosion <b>shapes landforms</b>&nbsp;— can both create and destroy features.</li>
+    <li><b>Effect on occupations:</b> farmers lose fertile <b>topsoil</b> (lower yields); river/coast-side people lose land, houses, roads; construction and mining face unstable land; tourism and fishing suffer.</li>
+    <li><b>Ancient water &amp; soil conservation (Sindhu-Sarasvatī civilisation):</b> contouring, bunding, terracing, dams and canals&nbsp;— recorded in the <b>Vedas, Kṛiṣhiparāśhara, Kauṭilya's Arthaśhāstra, Vṛikṣhāyurveda</b>.</li>
+    <li><b>Zabo system</b> (Nagaland)&nbsp;— earthen bunds on hillslopes for soil and water conservation; <b>check dams</b> across small streams slow water, stop erosion, recharge groundwater.</li>
+    <li>Key terms: <b>Contour trench (CCT)</b>&nbsp;— trenches dug along contour lines of a hillside to hold rainwater; <b>Bunding</b>&nbsp;— earthen embankments along contour lines; <b>Terracing</b>&nbsp;— level steps cut on a hillside.</li>
+  </ul>
+</div>
+
+<!-- T5 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T5</span><span class="tt">Agents of Gradation&nbsp;— 5 Forces 🛠️</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Agents of gradation</b>&nbsp;— natural forces that wear down, transport, and deposit materials on the Earth's surface, helping to level or smooth it over time.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Gradation ka simple matlab&nbsp;— <b>"level karna"</b>. Earth ke upar-neeche (uneven) hisson ko dheere-dheere barabar karna. 5 kaam karne wale hain: <b>paani, baraf (glacier), hawa, lehrein (waves), aur zameen ke neeche ka paani (groundwater)</b>&nbsp;— upar wale areas ko neeche karte hain, neeche wale ko bhar dete hain. Erosion + deposition dono inke tool hain!</div></div>
+  <div class="sys flow">
+    <div class="syt">🌳 System&nbsp;— 5 Agents &amp; unka kaam</div>
+    <ul class="tree">
+      <li><b>Running water</b>&nbsp;— erodes rocks and soils → forms valleys and plains</li>
+      <li><b>Glaciers</b>&nbsp;— scrape and carry huge material → carve U-shaped valleys</li>
+      <li><b>Wind</b>&nbsp;— shapes deserts by eroding and depositing sand</li>
+      <li><b>Sea waves</b>&nbsp;— erode coastlines → form cliffs, beaches, and bays</li>
+      <li><b>Groundwater</b>&nbsp;— dissolves rocks like limestone → creates caves and sinkholes</li>
+    </ul>
+  </div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>Together these agents <b>continuously modify landforms</b>&nbsp;— lowering high areas and filling up low areas.</li>
+    <li>Each agent makes its own <b>signature landforms</b>&nbsp;— ye next topics me ek-ek karke.</li>
+  </ul>
+</div>
+
+<!-- T6 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T6</span><span class="tt">Running Water&nbsp;— River's 3 Courses 🏞️</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Waterfall</b>&nbsp;— a landform where a river flows over a steep cliff or vertical drop; forms where <b>hard rocks resist erosion</b> while softer rocks below are worn away. &nbsp;|&nbsp; <b>Meander</b>&nbsp;— a winding curve or bend in the middle/lower course of a river, formed by <b>lateral erosion and deposition of sediments</b>. &nbsp;|&nbsp; <b>Delta</b>&nbsp;— a fan-shaped/triangular landform at the <b>mouth</b> of a river where it deposits sediments carried from upstream into a sea, ocean or lake.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Nadi ki life story 3 acts me: <b>Upper course</b> (jawaani)&nbsp;— full speed, ghaati kaat-ta hai (V-shaped valleys, waterfalls); <b>Middle course</b> (adulthood)&nbsp;— thak ke mudne lagti hai (meanders&nbsp;— jaise zameen pe 'S' likhta); <b>Lower course</b> (budhapa)&nbsp;— slow-slow, saara maal (sediment) samundar ke muh pe dump kar deti hai = <b>delta</b>! Sundarbans&nbsp;— India ka famous delta, super fertile.</div></div>
+  <div class="sys flow">
+    <div class="syt">🌳 System&nbsp;— River Course ke 3 Stages (iske under landforms)</div>
+    <ul class="tree">
+      <li><b>Upper course</b>&nbsp;— steep gradient, strong erosion
+        <ul>
+          <li><b>V-shaped valleys</b> &nbsp;·&nbsp; <b>waterfalls</b> (hard rock caps soft rock → sudden drop + plunge pool) &nbsp;·&nbsp; <b>rapids</b></li>
+        </ul>
+      </li>
+      <li><b>Middle course</b>&nbsp;— loses energy, starts depositing
+        <ul>
+          <li><b>Meanders</b> (outer bank erodes, inner bank deposits) &nbsp;·&nbsp; <b>oxbow lakes</b> &nbsp;·&nbsp; <b>floodplains</b></li>
+        </ul>
+      </li>
+      <li><b>Lower course</b>&nbsp;— slowest, maximum deposition
+        <ul>
+          <li><b>Deltas</b> &nbsp;·&nbsp; <b>levees</b> &nbsp;·&nbsp; <b>alluvial fans</b></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="plabel">✍️ Exam Points&nbsp;— human importance</div>
+  <ul class="pts">
+    <li><b>Waterfall:</b> tourist attraction; <b>hydroelectric power</b> from the force of falling water; recreation (trekking, photography); cultural/religious significance in some regions.</li>
+    <li><b>Meander:</b> fertile soil along banks supports <b>agriculture</b>; villages/towns develop on gentle slopes near meanders; used for <b>navigation and irrigation</b>&nbsp;— e.g., the <b>Grand Anicut (Kallanai)</b> in Tamil Nadu, built for irrigation.</li>
+    <li><b>Delta:</b> rich <b>alluvial soil</b> → ideal for crops like <b>rice and jute</b>; fishing (fresh + saltwater mix); dense settlements, trade and transport routes&nbsp;— but <b>prone to flooding</b>.</li>
+  </ul>
+  <div class="exbox"><span class="xt">📍 India example:</span> <b>Sundarbans delta</b>&nbsp;— unique, popular with tourists; formed where the river meets the sea (distributaries, islands/bars).</div>
+</div>
+
+<!-- T7 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T7</span><span class="tt">Waves &amp; Currents&nbsp;— Coastal Work 🌊</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Beach</b>&nbsp;— a landform of sand, pebbles or rocks along the shoreline, created by the <b>deposition of sediments by waves</b>.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Lehrein coastal kaarigar hain&nbsp;— kuch <b>banati</b> hain (beach&nbsp;— sand jama karke), kuch <b>todti</b> hain (cliffs, caves). Order yaad rakho, exam me sequence poocha jata hai: waves pehle kamzor jagah <b>cave</b> khodti hain → do caves milke <b>arch</b> banati hain → arch girta hai to pillar bachta hai = <b>stack</b>! Jaise mitti ka ghar&nbsp;— pehle darwaza, phir mehraab, phir khamba.</div></div>
+  <div class="sys flow">
+    <div class="syt">🌳 System&nbsp;— Coastal Erosion Landforms (step-by-step)</div>
+    <ul class="tree">
+      <li><b>Cliffs</b>&nbsp;— steep rock faces as waves undercut the base of the coast</li>
+      <li><b>Wave-cut platforms</b>&nbsp;— flat areas left behind as cliffs retreat</li>
+      <li><b>Caves</b>&nbsp;— formed when waves erode weak parts of the rock</li>
+      <li><b>Arches</b>&nbsp;— created when caves on opposite sides of a headland meet</li>
+      <li><b>Stacks</b>&nbsp;— isolated pillars of rock left standing after arches collapse</li>
+    </ul>
+  </div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>Beaches are shaped constantly by <b>wave action, tides and currents</b>.</li>
+    <li><b>Beach importance:</b> tourism (boosts local economy); fishing areas; sand and shell collection; act as <b>natural barriers</b> protecting coastal settlements from strong waves and erosion.</li>
+    <li>Some coastal areas need <b>coastal protection</b> to safeguard settlements; others are tourism hubs.</li>
+  </ul>
+</div>
+
+<!-- T8 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T8</span><span class="tt">Glaciers&nbsp;— Baraf ka Bulldozer 🧊</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Moraines</b>&nbsp;— landforms created by the <b>deposition of till</b> (rocks, soil, debris) carried along and left behind by glaciers when they melt.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Glacier = <b>slow-moving ice ki nadi</b>. Jaise bulldozer road pe mitti uthata-dhakelta hai, glacier pahadon ko scrape karke <b>U-shaped valley</b> banata hai (nadi V-shape banati hai, glacier U&nbsp;— yaad rakhna!). Pighalne pe saara jama kiya maal (till) chhod deta hai = <b>moraines</b>&nbsp;— side me (lateral), end pe (terminal), aur do glaciers milne pe beech me (medial).</div></div>
+  <div class="sys flow">
+    <div class="syt">🌳 System&nbsp;— Glacial Landforms</div>
+    <ul class="tree">
+      <li><b>Erosion wale</b>
+        <ul>
+          <li><b>U-shaped valleys</b>&nbsp;— glaciers widen and deepen river valleys</li>
+          <li><b>Cirques</b>&nbsp;— bowl-shaped depressions at the head of a glacier</li>
+          <li><b>Aretes</b>&nbsp;— sharp ridges between valleys</li>
+          <li><b>Hanging valleys</b>&nbsp;— where smaller glaciers meet larger ones</li>
+          <li><b>Fjords</b>&nbsp;— deep, narrow inlets when the sea floods glacial valleys</li>
+        </ul>
+      </li>
+      <li><b>Deposition wale (moraines)</b>
+        <ul>
+          <li><b>Lateral</b>&nbsp;— along the sides of glaciers</li>
+          <li><b>Terminal</b>&nbsp;— at the end, marking the glacier's furthest advance</li>
+          <li><b>Medial</b>&nbsp;— in the middle, when two glaciers meet and lateral moraines join</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="plabel">✍️ Exam Points&nbsp;— human importance</div>
+  <ul class="pts">
+    <li>U-shaped valleys and cirques → <b>trekking, skiing, mountaineering</b> tourism.</li>
+    <li><b>Fjords</b> are used as harbours and for fishing; some valleys have fertile glacial soil for agriculture.</li>
+    <li>Glaciers are crucial <b>sources of fresh water</b>&nbsp;— feeding rivers that sustain populations downstream.</li>
+    <li>Moraines often create <b>fertile soil</b>, natural dams and lakes&nbsp;— used for water supply, irrigation, hydroelectric power.</li>
+  </ul>
+</div>
+
+<!-- T9 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T9</span><span class="tt">Wind + Underground Water 🏜️</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Dunes</b>&nbsp;— hills or ridges of sand formed by wind in deserts or along sandy coasts. &nbsp;|&nbsp; <b>Karst topography</b>&nbsp;— unique landforms created by underground water through <b>chemical weathering and erosion of limestone</b> (soluble rocks). &nbsp;|&nbsp; <b>Stalactites</b>&nbsp;— icicle-shaped formations hanging from cave <b>ceilings</b>; <b>Stalagmites</b>&nbsp;— formations rising from cave <b>floors</b> (when both join → a pillar).</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Desert me hawa boss hai&nbsp;— sand ko udha kar jahan girti hai wahan <b>dunes</b>; jahan khodti hai wahan <b>deflation hollows</b> (aur paani ki table tak pahunch jaye to <b>oasis</b>&nbsp;— desert ka swimming pool 🏝️). Zameen ke neeche groundwater <b>limestone ko gholta</b> hai (jaise namak paani me)&nbsp;— ban jaate hain <b>caves</b>, aur andar mineral-laden drops se <b>stalactite</b> (ceiling se latakti&nbsp;— "c" for ceiling!) aur <b>stalagmite</b> (floor se khadi&nbsp;— "g" for ground!).</div></div>
+  <div class="sys flow">
+    <div class="syt">🌳 System&nbsp;— Wind Landforms &nbsp;+&nbsp; Karst (Underground Water) Landforms</div>
+    <ul class="tree">
+      <li><b>Wind&nbsp;— erosion landforms</b>
+        <ul>
+          <li><b>Yardangs</b>&nbsp;— streamlined rock ridges carved by wind</li>
+          <li><b>Ventifacts</b>&nbsp;— rocks polished and shaped by sandblasting</li>
+          <li><b>Deflation hollows / blowouts</b>&nbsp;— shallow depressions where loose material is removed (may expose water table → <b>oasis</b>)</li>
+          <li><b>Desert pavements</b>&nbsp;— flat surfaces left after finer particles are blown away</li>
+        </ul>
+      </li>
+      <li><b>Wind&nbsp;— deposition: 4 dune types</b>
+        <ul>
+          <li><b>Barchan</b>&nbsp;— crescent-shaped; limited sand + single wind direction</li>
+          <li><b>Longitudinal</b>&nbsp;— long ridges parallel to the prevailing wind</li>
+          <li><b>Star</b>&nbsp;— multiple arms; winds from different directions</li>
+          <li><b>Parabolic</b>&nbsp;— U-shaped, often stabilised by vegetation</li>
+        </ul>
+      </li>
+      <li><b>Karst (underground water)</b>
+        <ul>
+          <li><b>Caves</b>&nbsp;— hollow spaces as acidic water dissolves rock</li>
+          <li><b>Stalactites</b> (ceiling) &amp; <b>stalagmites</b> (floor) &nbsp;·&nbsp; <b>pillars</b> (when they join)</li>
+          <li><b>Sinkholes / dolines</b>&nbsp;— depressions when ground collapses into an underground cavity</li>
+          <li><b>Underground rivers</b>&nbsp;— flow through cave systems</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>Wind landforms influence <b>settlement and agriculture</b> in arid regions; yardangs and ventifacts attract <b>tourists and geologists</b>.</li>
+    <li><b>Dunes:</b> natural barriers against desertification and wind erosion; protect coastal settlements from sea winds; sand sometimes used for construction.</li>
+    <li><b>Caves &amp; underground rivers:</b> fresh water sources, tourism, cultural/religious significance; stalagmites–stalactites attract geologists and adventurers.</li>
+  </ul>
+</div>
+
+<!-- T10 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T10</span><span class="tt">Landform Disasters&nbsp;— 4 Villains ⚠️</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Landslide</b>&nbsp;— sudden slope failure when soil and rocks slide down unstable slopes. &nbsp;|&nbsp; <b>Avalanche</b>&nbsp;— sudden collapse of snow down steep mountain slopes. &nbsp;|&nbsp; <b>GLOF (Glacial Lake Outburst Flood)</b>&nbsp;— sudden release of large volumes of water from glacial lakes when their natural dams (ice or loose moraines) collapse. &nbsp;|&nbsp; <b>Dust storm</b>&nbsp;— strong winds lifting large amounts of loose, dry soil and sand into the air.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Har landform ke saath uska disaster bhi attached hai: <b>pahad</b> → landslide/avalanche; <b>glacier</b> → GLOF (glacier pighla, lake bani, moraine dam toota&nbsp;— poora paani ek jhatke me neeche!); <b>desert</b> → dust storm. Causes hamesha 2 type ki hain: <b>natural</b> (baarish, earthquake, heat) + <b>human-made</b> (deforestation, mining, unplanned construction). Yehi trick yaad rakho, answer me dono likhoge!</div></div>
+  <div class="sys flow">
+    <div class="syt">🌳 System&nbsp;— 4 Disasters &amp; their Causes (natural + human)</div>
+    <ul class="tree">
+      <li><b>Landslide</b>
+        <ul>
+          <li>Natural: heavy continuous rainfall (water seeps in → weight ↑, friction ↓); earthquakes and volcanic eruptions; steep slopes; loose/weathered rocks</li>
+          <li>Human: deforestation, mining, road construction, unplanned hillside construction; poor drainage; improper land use</li>
+        </ul>
+      </li>
+      <li><b>Avalanche</b>
+        <ul>
+          <li>Natural: heavy snowfall in a short time (extra weight); sudden temperature rise (partial melting → less friction); strong winds piling snow unevenly; earthquakes and vibrations</li>
+          <li>Human: skiing, trekking, construction in mountainous areas disturbing snow-covered slopes</li>
+        </ul>
+      </li>
+      <li><b>GLOF</b>
+        <ul>
+          <li>Rapid glacier melting (rising temperatures) → lake size and pressure ↑ on ice/moraine dams; heavy rain or snowfall adds water; earthquakes, avalanches or landslides weaken the dam → sudden collapse → destructive downstream floods</li>
+        </ul>
+      </li>
+      <li><b>Dust storm</b>
+        <ul>
+          <li>Natural: prolonged drought and low rainfall → loose, dry soil; common in desert and semi-arid regions</li>
+          <li>Human: sparse vegetation from deforestation, overgrazing, poor farming; climate change increases frequency and intensity</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li><b>Chamoli, Uttarakhand (Feb 2021):</b> devastating flood&nbsp;— people and livestock lost lives; severe damage to buildings, roads, bridges and hydel projects; village connectivity affected.</li>
+    <li>For each disaster, be ready to list: <b>prone areas + mitigation measures + recent examples</b> (book asks you to research these).</li>
+  </ul>
+</div>
+
+<!-- T11 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T11</span><span class="tt">Landforms &amp; Human Life + Final Recap 🌏</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">History + geography ka connection: <b>rewa-sabun jaisi fertile plains</b> (Ganga, Nile, Brahmaputra, Indus) ne agriculture aur early cities di; <b>Himalaya</b> ne India ko invasions se bachaya but Khyber pass se cultural exchange bhi; <b>Thar desert</b> ne badi settlements nahi di, but Silk Route jaise trade routes; <b>coasts</b> ne trade, travel aur cultural contacts diye&nbsp;— south India ke kingdoms isliye flourish hue. Simple: jaisi zameen, waisi kahani!</div></div>
+  <div class="plabel">✍️ Exam Points&nbsp;— Before we move on (book summary)</div>
+  <ul class="pts">
+    <li>The Earth is made of layers&nbsp;— <b>crust, mantle, core</b>.</li>
+    <li><b>Internal forces</b> (earthquakes, volcanoes, folding, faulting) move the crust and build landforms; <b>external forces</b> (weathering, erosion, deposition) carve smaller landforms.</li>
+    <li>The Earth's surface is carved by agents of gradation&nbsp;— <b>running water, waves and tides, glaciers, wind, underground water</b>.</li>
+    <li>Disasters like <b>landslides, avalanches, GLOFs, dust storms</b> are associated with specific landforms and affect human life in multiple ways.</li>
+    <li>Human life is deeply connected to landforms&nbsp;— they influence our <b>climate, resources, settlements, and cultures</b>.</li>
+  </ul>
+</div>
+
+<!-- DIFFERENCES CH2 -->
+<div class="sec-h"><span class="sq">⚖️</span><span class="st">Differences&nbsp;— Pakka Aane Wale</span><span class="sline"></span></div>
+<table class="tt">
+  <thead><tr><th style="width:19%">Basis</th><th>Weathering</th><th>Erosion</th></tr></thead>
+  <tbody>
+    <tr><td><b>Meaning</b></td><td>Breakdown of rocks into smaller pieces on the Earth's surface</td><td>Wearing away of soil, rocks and surface materials</td></tr>
+    <tr><td><b>Movement</b></td><td><b>No movement</b> of broken material&nbsp;— only breaking down</td><td>Broken material is <b>carried from one place to another</b></td></tr>
+    <tr><td><b>Types</b></td><td>Physical, chemical, biological</td><td>Water, wind, glacial, coastal erosion</td></tr>
+    <tr><td><b>Role</b></td><td>Breaks rocks; helps form <b>soil</b></td><td>Shapes landforms; can create and destroy features</td></tr>
+  </tbody>
+</table>
+<table class="tt">
+  <thead><tr><th style="width:19%">Basis</th><th>Internal Forces</th><th>External Forces</th></tr></thead>
+  <tbody>
+    <tr><td><b>Source</b></td><td>Inside the Earth (heat of the interior)</td><td>On/at the surface (sun-driven agents)</td></tr>
+    <tr><td><b>Examples</b></td><td>Earthquakes, volcanic eruptions, folding, faulting</td><td>Weathering, erosion, deposition</td></tr>
+    <tr><td><b>Effect</b></td><td>Build mountains, valleys, ocean basins (make the surface uneven)</td><td>Wear down and reshape landforms (level the surface)</td></tr>
+    <tr><td><b>Speed</b></td><td>Sudden and drastic (minutes to years)</td><td>Slow and gradual (thousands of years)</td></tr>
+  </tbody>
+</table>
+<table class="tt">
+  <thead><tr><th style="width:22%">Basis</th><th>Stalactite</th><th>Stalagmite</th></tr></thead>
+  <tbody>
+    <tr><td><b>Position</b></td><td>Hangs from the <b>ceiling</b> of a cave</td><td>Rises from the <b>floor</b> of a cave</td></tr>
+    <tr><td><b>Shape</b></td><td>Icicle-shaped (pointing down)</td><td>Grows upward like a column</td></tr>
+    <tr><td><b>Both join</b></td><td colspan="2">Together they form a <b>pillar</b> inside the cave (Karst topography)</td></tr>
+  </tbody>
+</table>
+
+<!-- DEFINITION BANK CH2 -->
+<div class="defbank">
+  <div class="dbt">📖 Definition Bank&nbsp;— Chapter 2 (likhne ke liye ready)</div>
+  <div class="db-grid">
+    <div class="d"><b>Landform</b>&nbsp;— natural feature on the Earth's surface formed by weathering, erosion, deposition or crustal movement.</div>
+    <div class="d"><b>Plate tectonics</b>&nbsp;— theory by W.J. Morgan explaining the movement of the Earth's crust broken into tectonic plates.</div>
+    <div class="d"><b>Tectonic plates</b>&nbsp;— massive slabs of solid rock moving slowly (a few cm/year) over the semi-molten layer.</div>
+    <div class="d"><b>Plate boundary</b>&nbsp;— the edge where two tectonic plates meet (convergent, divergent, transform).</div>
+    <div class="d"><b>Ring of Fire</b>&nbsp;— zone around the Pacific Ocean with most earthquakes and volcanoes.</div>
+    <div class="d"><b>Lithosphere</b>&nbsp;— rigid outer layer = crust + upper mantle; broken into tectonic plates.</div>
+    <div class="d"><b>Asthenosphere</b>&nbsp;— hot, mobile, semi-molten layer beneath the lithosphere.</div>
+    <div class="d"><b>Weathering</b>&nbsp;— breakdown of rocks into smaller pieces without movement.</div>
+    <div class="d"><b>Erosion</b>&nbsp;— wearing away and carrying away of surface material by water, wind, ice or waves.</div>
+    <div class="d"><b>Agents of gradation</b>&nbsp;— running water, glaciers, wind, waves, groundwater.</div>
+    <div class="d"><b>Waterfall</b>&nbsp;— river flowing over a steep cliff; hard rock resists, soft rock below is worn away.</div>
+    <div class="d"><b>Meander</b>&nbsp;— winding bend formed by lateral erosion and deposition.</div>
+    <div class="d"><b>Delta</b>&nbsp;— fan-shaped deposition at the mouth of a river (e.g., Sundarbans).</div>
+    <div class="d"><b>Beach</b>&nbsp;— coastal deposition of sand, pebbles or rocks by waves.</div>
+    <div class="d"><b>Moraines</b>&nbsp;— depositional landforms of till (glacier debris): lateral, terminal, medial.</div>
+    <div class="d"><b>Till</b>&nbsp;— rocks, soil and debris carried along and deposited by glaciers.</div>
+    <div class="d"><b>Dunes</b>&nbsp;— sand hills/ridges made by wind: barchan, longitudinal, star, parabolic.</div>
+    <div class="d"><b>Karst topography</b>&nbsp;— landforms made by underground water dissolving limestone.</div>
+    <div class="d"><b>Stalactite / Stalagmite</b>&nbsp;— cave formations from ceiling / from floor.</div>
+    <div class="d"><b>Landslide</b>&nbsp;— sudden slope failure; natural + human causes.</div>
+    <div class="d"><b>Avalanche</b>&nbsp;— sudden slide of unstable snow on steep slopes.</div>
+    <div class="d"><b>GLOF</b>&nbsp;— Glacial Lake Outburst Flood; sudden release of glacial lake water.</div>
+    <div class="d"><b>Dust storm</b>&nbsp;— strong winds lifting loose, dry soil and sand into the air.</div>
+    <div class="d"><b>Contouring (CCT)</b>&nbsp;— trenches along contour lines to hold rainwater and stop soil erosion.</div>
+    <div class="d"><b>Bunding</b>&nbsp;— earthen embankments along contour lines to slow run-off.</div>
+    <div class="d"><b>Terracing</b>&nbsp;— level steps cut on a hillside to prevent soil erosion.</div>
+  </div>
+</div>
+
+<!-- MCQ CH2 -->
+<div class="sec-h"><span class="sq">✅</span><span class="st">MCQ Challenge&nbsp;— 10 Questions (Ch 2)</span><span class="sline"></span></div>
+<div class="mcq-score"><span class="ms">🎯 Solve karne ke baad score bharo →</span><div class="blank"></div><span class="ms">/ 10</span></div>
+
+<div class="mcq"><div class="mq"><span class="qn">Q1.</span> The theory of plate tectonics was given by —</div>
+  <div class="opts"><div class="op" data-l="a">Alfred Wegener</div><div class="op" data-l="b">W.J. Morgan</div><div class="op" data-l="c">Varāhamihira</div><div class="op" data-l="d">Kauṭilya</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q2.</span> The lithosphere consists of —</div>
+  <div class="opts"><div class="op" data-l="a">the crust only</div><div class="op" data-l="b">the crust and the upper mantle</div><div class="op" data-l="c">the mantle and the core</div><div class="op" data-l="d">the whole mantle</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q3.</span> The movement of tectonic plates is caused by —</div>
+  <div class="opts"><div class="op" data-l="a">rotation of the Earth</div><div class="op" data-l="b">gravity of the Moon</div><div class="op" data-l="c">convection currents in the mantle</div><div class="op" data-l="d">ocean tides</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q4.</span> When two continental plates collide, they form —</div>
+  <div class="opts"><div class="op" data-l="a">mid-ocean ridges</div><div class="op" data-l="b">fold mountains like the Himalaya</div><div class="op" data-l="c">transform faults</div><div class="op" data-l="d">ocean trenches only</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q5.</span> Most earthquakes and volcanoes occur around the Pacific Ocean in a zone called the —</div>
+  <div class="opts"><div class="op" data-l="a">Ring of Fire</div><div class="op" data-l="b">Ring of Water</div><div class="op" data-l="c">Circle of Rocks</div><div class="op" data-l="d">Belt of Ice</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q6.</span> Which of the following involves <b>no movement</b> of broken material?</div>
+  <div class="opts"><div class="op" data-l="a">Erosion</div><div class="op" data-l="b">Deposition</div><div class="op" data-l="c">Weathering</div><div class="op" data-l="d">Transportation</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q7.</span> Plant roots growing into rock cracks and splitting them apart is an example of —</div>
+  <div class="opts"><div class="op" data-l="a">chemical weathering</div><div class="op" data-l="b">physical weathering</div><div class="op" data-l="c">biological weathering</div><div class="op" data-l="d">glacial erosion</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q8.</span> U-shaped valleys, cirques, aretes and fjords are created by —</div>
+  <div class="opts"><div class="op" data-l="a">rivers</div><div class="op" data-l="b">wind</div><div class="op" data-l="c">sea waves</div><div class="op" data-l="d">glaciers</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q9.</span> The sequence of coastal erosion landforms when a headland is worn away is —</div>
+  <div class="opts"><div class="op" data-l="a">stack → arch → cave → cliff</div><div class="op" data-l="b">cave → arch → stack</div><div class="op" data-l="c">arch → cave → beach</div><div class="op" data-l="d">beach → bar → stack</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q10.</span> A Glacial Lake Outburst Flood (GLOF) happens when —</div>
+  <div class="opts"><div class="op" data-l="a">a river delta silts up</div><div class="op" data-l="b">a dam is built on a river</div><div class="op" data-l="c">a glacial lake's ice/moraine dam suddenly collapses</div><div class="op" data-l="d">heavy snow falls on a plain</div></div></div>
+
+<div class="anskey">
+  <div class="akt">🔑 Answer Key&nbsp;— Chapter 2</div>
+  <div class="ans-strip"><span>1 → b</span><span>2 → b</span><span>3 → c</span><span>4 → b</span><span>5 → a</span><span>6 → c</span><span>7 → c</span><span>8 → d</span><span>9 → b</span><span>10 → c</span></div>
+  <div class="xpls">
+    <div class="x"><b>1:</b> Plate tectonics theory = W.J. Morgan (earth science).</div>
+    <div class="x"><b>2:</b> Lithosphere = crust + upper mantle (≈100 km thick, broken into plates).</div>
+    <div class="x"><b>3:</b> Core's heat → molten material rises, cooler sinks → convection currents push/pull plates.</div>
+    <div class="x"><b>4:</b> Continental–continental convergence (convergent boundary) → fold mountains (Himalaya).</div>
+    <div class="x"><b>5:</b> Ring of Fire = Pacific rim zone with most quakes + volcanoes (along plate boundaries).</div>
+    <div class="x"><b>6:</b> Weathering = breakdown WITHOUT movement; erosion involves movement.</div>
+    <div class="x"><b>7:</b> Plants/animals/micro-organisms = biological weathering.</div>
+    <div class="x"><b>8:</b> Glaciers widen valleys into U-shapes; cirques, aretes, hanging valleys, fjords all glacial.</div>
+    <div class="x"><b>9:</b> Waves erode weak rock → caves; caves on opposite sides meet → arch; arch collapses → stack.</div>
+    <div class="x"><b>10:</b> GLOF = sudden release of water when the glacial lake's natural (ice/moraine) dam breaks.</div>
+  </div>
+</div>
+
+<!-- QA CH2 -->
+<div class="sec-h"><span class="sq">📝</span><span class="st">Big Questions&nbsp;— Exam-Ready Answers (Ch 2)</span><span class="sline"></span></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q1.</span> Describe the layers of the Earth's interior.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>The Earth is made up of <b>three main layers: the crust, the mantle, and the core</b>.</li>
+    <li>The <b>crust</b> is the outermost layer on which we live&nbsp;— 30–40 km thick under continents but only 5–7 km under the oceans.</li>
+    <li>The <b>mantle</b> lies below the crust&nbsp;— very thick, hot and mostly solid; the upper semi-molten part is the <b>asthenosphere</b>.</li>
+    <li>The <b>core</b> is the innermost and densest layer&nbsp;— the outer core is a fluid layer of iron and nickel; the inner core is a solid, hot, spinning metal ball.</li>
+    <li>The crust together with the upper mantle forms the <b>lithosphere</b>, which is broken into tectonic plates that move over the asthenosphere.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q2.</span> What is plate tectonics? What causes the movement of tectonic plates?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>Plate tectonics is an important theory in earth science given by <b>W.J. Morgan</b> explaining the movement of the Earth's crust.</li>
+    <li>According to it, the outermost layer is not one single piece but is broken into several large and small pieces called <b>tectonic plates</b> (continental, oceanic, or mixed).</li>
+    <li>These plates move very slowly&nbsp;— usually <b>a few centimetres per year</b>&nbsp;— over the semi-molten layer beneath them.</li>
+    <li>The movement is caused by <b>convection currents in the mantle</b>: heat from the Earth's core makes molten material rise while cooler material sinks, and this continuous cycle pushes and pulls the plates.</li>
+    <li>Major plates include the Pacific, Eurasian, African, North American, South American, Indo-Australian and Antarctic plates.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q3.</span> Explain the three types of plate boundaries with their effects.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Convergent boundary</b>&nbsp;— plates move towards each other: continental plates colliding form <b>fold mountains</b> like the Himalaya; an oceanic plate colliding with a continental plate <b>sinks beneath it</b>, leading to volcanic activity and earthquakes.</li>
+    <li><b>Divergent boundary</b>&nbsp;— plates move away from each other: <b>magma rises from below</b> and forms new crust, creating features like <b>mid-ocean ridges</b>&nbsp;— e.g., the Mid-Atlantic Ridge.</li>
+    <li><b>Transform boundary</b>&nbsp;— plates <b>slide past each other</b> without creating or destroying crust, mainly causing <b>earthquakes</b>&nbsp;— e.g., the San Andreas Fault in the USA.</li>
+    <li>Most earthquakes and volcanoes occur along these plate boundaries, especially around the Pacific Ocean, known as the <b>Ring of Fire</b>.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q4.</span> Distinguish between weathering and erosion. How does erosion affect human occupations?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Weathering</b> is the breakdown of rocks into smaller pieces <b>without any movement</b> of the material&nbsp;— physical, chemical, or biological.</li>
+    <li><b>Erosion</b> is the wearing away of soil and rocks that <b>involves movement</b>, by agents like water, wind, ice, or waves.</li>
+    <li><b>Effect on occupations:</b> for farmers, erosion removes the fertile <b>topsoil</b>, lowering crop yields.</li>
+    <li>People near rivers and coasts lose <b>land, houses and roads</b>; in construction and mining, erosion destabilises land and poses safety risks.</li>
+    <li>Industries like <b>tourism and fishing</b> suffer when beaches, rivers and fertile lands are destroyed.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q5.</span> What are agents of gradation? Name the landforms created by each.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>Agents of gradation are <b>natural forces that wear down, transport and deposit materials</b>, levelling the Earth's surface over time.</li>
+    <li><b>Running water</b>&nbsp;— erodes rocks and soils to form valleys and plains (waterfalls, meanders, deltas).</li>
+    <li><b>Glaciers</b>&nbsp;— scrape and carry material, carving <b>U-shaped valleys</b>, cirques, aretes, fjords, moraines.</li>
+    <li><b>Wind</b>&nbsp;— shapes deserts: yardangs, ventifacts, deflation hollows, desert pavements, <b>dunes</b>.</li>
+    <li><b>Sea waves</b>&nbsp;— erode coastlines into cliffs, caves, arches, stacks, and deposit <b>beaches</b>.</li>
+    <li><b>Groundwater</b>&nbsp;— dissolves limestone creating <b>Karst topography</b>: caves, stalactites, stalagmites, sinkholes, underground rivers.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q6.</span> Explain how a river creates different landforms in its three courses.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>Rivers shape the land through <b>erosion, transportation and deposition</b> along their course.</li>
+    <li><b>Upper course:</b> steep gradients and strong erosive forces create <b>V-shaped valleys, waterfalls and rapids</b>&nbsp;— waterfalls form where hard rocks resist erosion while softer rocks below are worn away.</li>
+    <li><b>Middle course:</b> the river begins to <b>meander</b>&nbsp;— eroding outer banks and depositing sediment on inner banks; forms <b>oxbow lakes and floodplains</b>.</li>
+    <li><b>Lower course:</b> the slow river deposits large sediment loads, forming <b>deltas, levees and alluvial fans</b> at its mouth.</li>
+    <li>These landforms support agriculture (fertile banks), settlements, navigation and irrigation&nbsp;— e.g., the <b>Grand Anicut (Kallanai)</b> in Tamil Nadu.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q7.</span> How are coastal landforms created by waves and currents?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>Waves and currents constantly move over the ocean surface and <b>reshape the coastal zone</b>.</li>
+    <li><b>Deposition:</b> beaches are formed by sediments deposited by waves along the shoreline; they are popular tourist spots and act as natural barriers against strong waves.</li>
+    <li><b>Erosion:</b> waves undercut the coast to form <b>cliffs</b>; flat <b>wave-cut platforms</b> are left behind as cliffs retreat.</li>
+    <li>Waves erode weak rock to form <b>caves</b>; caves on opposite sides of a headland meet to form <b>arches</b>; when arches collapse, isolated rock pillars called <b>stacks</b> remain.</li>
+    <li>These landforms influence tourism and may require <b>coastal protection</b> for settlements.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q8.</span> Describe the landforms made by glaciers.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Erosional landforms:</b> <b>U-shaped valleys</b> (glaciers widen and deepen river valleys), <b>cirques</b> (bowl-shaped depressions at a glacier's head), <b>aretes</b> (sharp ridges between valleys), <b>hanging valleys</b> (where smaller glaciers meet larger ones) and <b>fjords</b> (deep, narrow inlets formed when the sea floods glacial valleys).</li>
+    <li><b>Depositional landforms — moraines:</b> formed of <b>till</b> (rocks, soil, debris) left behind by melting glaciers.</li>
+    <li>Types: <b>lateral</b> (along the sides), <b>terminal</b> (at the end, marking the furthest advance) and <b>medial</b> (in the middle, when two glaciers' lateral moraines join).</li>
+    <li><b>Human importance:</b> tourism (trekking, skiing, mountaineering), fjords as harbours and fishing bases, fertile glacial soil, and moraine-formed dams and lakes for water supply, irrigation and hydroelectric power.</li>
+    <li>Glaciers are also crucial <b>sources of fresh water</b> feeding rivers downstream.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q9.</span> Write a short note on the landforms created by underground water.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>Underground water, especially in <b>limestone or soluble rock</b> areas, creates <b>Karst topography</b> through chemical weathering and erosion.</li>
+    <li><b>Caves</b>&nbsp;— hollow spaces formed as acidic water dissolves rock.</li>
+    <li><b>Stalactites</b>&nbsp;— icicle-shaped formations hanging from cave ceilings; <b>stalagmites</b>&nbsp;— formations rising from the floors; when both join, a <b>pillar</b> is formed.</li>
+    <li><b>Sinkholes (dolines)</b>&nbsp;— depressions formed when the ground collapses into an underground cavity; <b>underground rivers</b> flow through cave systems.</li>
+    <li>These provide fresh water, tourism opportunities, and cultural or religious significance.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q10.</span> What causes landslides? How do human activities increase their risk?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Natural causes:</b> heavy and continuous rainfall seeps into soil and rocks, increasing weight and reducing friction; earthquakes and volcanic eruptions shake and weaken slopes; steep slopes and loose, weathered rocks increase risk.</li>
+    <li><b>Human activities:</b> deforestation, mining, road construction and unplanned construction on hillsides disturb the natural balance of slopes.</li>
+    <li>Poor drainage systems and improper land use allow excess water to accumulate, leading to <b>sudden slope failure</b>.</li>
+    <li>Avalanches, GLOFs and dust storms are other landform-related disasters&nbsp;— e.g., the <b>Chamoli (Uttarakhand) flood of February 2021</b> damaged buildings, roads, bridges and hydel projects.</li>
+    <li>Mitigation needs awareness, planning and protecting slopes (as done in ancient India through contouring, bunding and terracing).</li>
+  </ul></div>
+
+</div><!-- /ch2 -->
+
+<!-- ================================================= CHAPTER 3 -->
+<div class="ch3">
+
+<div class="ch-open">
+  <div class="big-emoji">🌦️</div>
+  <div class="okick">Chapter 3 &bull; Geography</div>
+  <div class="otitle">Atmosphere<br>and Climate</div>
+  <div class="osub">Asman hawa ka ek blanket hai&nbsp;— atmosphere. Isme kaun-kaun si gases hain, kitni layers hain, weather climate se alag kaise hai, monsoon ka full mechanism, seasons, climate change aur Punjab floods&nbsp;— sab is chapter me, zero se!</div>
+  <div class="ochips"><span>🔑 10 Topics</span><span>📖 25+ Definitions</span><span>🌳 4 System Trees</span><span>✅ 10 MCQs</span><span>📝 10 Q&amp;A</span></div>
+</div>
+
+<div class="sec-h"><span class="sq">📚</span><span class="st">Notes&nbsp;— Har Topic, Poori Samajh</span><span class="sline"></span></div>
+
+<!-- T1 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T1</span><span class="tt">Atmosphere&nbsp;— Hawa ka Blanket 🌫️</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Atmosphere</b>&nbsp;— a blanket of air surrounding the Earth, pulled down around it by gravity; a mixture of gases vital for the survival of all living beings. &nbsp;|&nbsp; <b>Gravity</b>&nbsp;— a fundamental physical force of attraction between objects that have mass or energy (e.g., the Sun and the Earth).</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Earth ko socho ek <b>cocoon me lipda planet</b>&nbsp;— wahi atmosphere hai. Gravity isko Earth ke pass khichti rehti hai (warna hawa space me ud jaati). 3 kaam: (1) Sun ke <b>harmful radiation (UV) se shield</b>, (2) <b>temperature regulate</b> karti hai&nbsp;— Sun ki energy trap karke wapas space me jaane se rok-ti hai, (3) <b>weather aur climate</b> ka control room. Bina atmosphere ke&nbsp;— din pe garmi, raat pe barf, aur koi paani nahi!</div></div>
+  <div class="sys flow">
+    <div class="syt">🌳 System&nbsp;— Composition of the Atmosphere (%)</div>
+    <ul class="tree">
+      <li><b>Nitrogen&nbsp;— 78%</b> (most abundant)</li>
+      <li><b>Oxygen&nbsp;— 21%</b> (second most abundant)</li>
+      <li><b>Argon&nbsp;— 0.93%</b></li>
+      <li><b>Carbon dioxide&nbsp;— 0.04%</b></li>
+      <li><b>Others&nbsp;— 0.03%</b>&nbsp;— helium, neon, krypton, xenon, ozone, hydrogen</li>
+      <li><b>Water vapour&nbsp;— 0.1% to 0.4%</b> (varies)&nbsp;— plays a significant role in cloud formation and precipitation; plus tiny <b>dust particles</b></li>
+    </ul>
+  </div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li><b>Nitrogen and oxygen</b> are the two primary and most abundant gases essential for life.</li>
+    <li>The composition of the atmosphere <b>varies with altitude</b>.</li>
+    <li>For the pie diagram question: draw a circle&nbsp;— 78% N₂, 21% O₂, small slices for Ar 0.93%, CO₂ 0.04%, others.</li>
+  </ul>
+</div>
+
+<!-- T2 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T2</span><span class="tt">Layers of the Atmosphere&nbsp;— 5 Floors 🏢</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Altitude</b>&nbsp;— the height of a location above mean sea level (sea level = zero). Layers are defined on the basis of changes in <b>temperature and density</b> with altitude&nbsp;— air density is highest near the surface and decreases with altitude.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Atmosphere = 5-manzila building, floor change hone par temperature ka behaviour badal jaata hai: <b>Troposphere</b> (ground floor&nbsp;— hum sab yahan; jitna upar, utni thand, yahi saara weather hota hai), <b>Stratosphere</b> (2nd&nbsp;— aeroplanes yahan udte hain kyunki clouds/td nahi; ozone ka guard room), <b>Mesosphere</b> (3rd&nbsp;— shooting stars yahan jalti hain ✨), <b>Thermosphere</b> (4th&nbsp;— garam! radio waves bounce + aurora ka jhilmil), <b>Exosphere</b> (roof&nbsp;— itna patla ki hawa space me nikal jaati hai).</div></div>
+  <div class="sys flow">
+    <div class="syt">🌳 System&nbsp;— 5 Layers, bottom se top (height + kaam)</div>
+    <ul class="tree">
+      <li><b>Troposphere</b>&nbsp;— avg height ~12 km; temperature <b>decreases</b> with altitude
+        <ul>
+          <li>The air we breathe + most water vapour and clouds; <b>nearly all weather</b> (rainfall, fog, hail)</li>
+          <li>Separated from stratosphere by the <b>tropopause</b></li>
+        </ul>
+      </li>
+      <li><b>Stratosphere</b>&nbsp;— up to 50 km; <b>ideal for flying aeroplanes</b> (free of clouds and weather)
+        <ul>
+          <li>Contains the <b>ozone layer</b>&nbsp;— filters the Sun's harmful ultraviolet radiation</li>
+          <li>Boundary above: <b>stratopause</b></li>
+        </ul>
+      </li>
+      <li><b>Mesosphere</b>&nbsp;— up to 80 km; temperature <b>decreases</b> with altitude
+        <ul>
+          <li>Most <b>meteorites burn up</b> here</li>
+        </ul>
+      </li>
+      <li><b>Thermosphere</b>&nbsp;— 80 to 700 km; temperature <b>rises very rapidly</b> (gas molecules absorb X-rays and short-wave UV)
+        <ul>
+          <li>Helps <b>radio transmission</b> by reflecting radio waves back to Earth; the <b>ionosphere</b> is part of it</li>
+          <li><b>Auroras</b> (northern and southern lights) occur here</li>
+        </ul>
+      </li>
+      <li><b>Exosphere</b>&nbsp;— uppermost; very thin air&nbsp;— light gases (helium, hydrogen) float into space due to weak gravity</li>
+    </ul>
+  </div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li><b>Don't Miss Out:</b> temperature decreases with altitude <b>only in the troposphere and mesosphere</b>.</li>
+    <li><b>Aurora:</b> word from Latin, meaning 'dawn' (Roman goddess Aurora); <b>solar wind</b> (charged particles from the Sun) is directed to the magnetic poles, and each gas glows a particular colour&nbsp;— <b>Aurora Borealis</b> (Northern Hemisphere), <b>Aurora Australis</b> (Southern Hemisphere).</li>
+    <li><b>Don't Miss Out:</b> we don't feel air pressure because air presses from all sides and our bodies exert an <b>equal counter-pressure</b>.</li>
+  </ul>
+</div>
+
+<!-- T3 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T3</span><span class="tt">Weather vs Climate + 5 Elements 🌡️</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Weather</b>&nbsp;— the hour-to-hour and day-to-day conditions of the atmosphere. &nbsp;|&nbsp; <b>Climate</b>&nbsp;— the sum total of weather conditions and variations over a large area for an extended period of time, usually <b>thirty years or more</b>.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Aaj ka mood = <b>weather</b> (aaj baarish, kal dhoop); 30+ saal ka average nature = <b>climate</b> (Mumbai ka climate humid hai, Rajasthan ka dry). Simple&nbsp;— "weather aaj ka, climate zindagi bhar ka!" Weather banane ke 5 elements hain, jo humare chapter ke heroes hain: <b>temperature, precipitation, humidity, wind, atmospheric pressure</b>.</div></div>
+  <div class="plabel">✍️ Exam Points&nbsp;— 5 Elements of Weather &amp; Climate</div>
+  <ul class="pts">
+    <li><b>Temperature:</b> varies day–night and across seasons; key factor = <b>insolation</b> (incoming solar energy intercepted by the Earth)&nbsp;— insolation decreases from the equator towards the poles, so temperature also <b>decreases from equator to poles</b>.</li>
+    <li><b>Humidity:</b> presence of water vapour in the air; as air gets warmer, its capacity to hold water vapour increases&nbsp;— on humid days clothes take longer to dry and sweat evaporates slowly (discomfort!).</li>
+    <li><b>Precipitation:</b> when part of the atmosphere is saturated with water vapour which condenses and falls due to gravity&nbsp;— includes <b>drizzle, rain, snow, sleet, hail</b>; affected by prevailing winds, mountains, and seasons; rain is the most common form; long absence of rain → dry climate; most groundwater is collected from rainwater.</li>
+    <li><b>Atmospheric pressure:</b> pressure exerted by the weight of air&nbsp;— <b>highest at sea level, falls with altitude</b>; horizontally, it depends on temperature: warm air rises → <b>low pressure</b> (cloudy, wet weather); cold air sinks → <b>high pressure</b> (clear, sunny skies).</li>
+    <li><b>Wind:</b> movement of air from <b>high-pressure to low-pressure areas</b>.</li>
+  </ul>
+</div>
+
+<!-- T4 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T4</span><span class="tt">Wind&nbsp;— Speed Table + Naam ka Rule 💨</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Hawa ka funda ek line me: <b>"pressure gap hua toh hawa bhaagi"</b>&nbsp;— high pressure se low pressure ki taraf. Naam rakhne ka rule twist hai: winds ko un <b>direction ke naam par</b> jaana jaata hai jahan <b>se</b> aati hain! West se aayi toh <b>westerly</b>. Confusing? Trick: "FROM wali direction = naam". Aur pressure-direction diagram&nbsp;— garam jagah (low pressure) pe clouds, thandi jagah (high pressure) pe clear sky.</div></div>
+  <table class="tt">
+    <thead><tr><th style="width:28%">Wind (category)</th><th style="width:22%">Speed (km/hr)</th><th>Common Effects</th></tr></thead>
+    <tbody>
+      <tr><td><b>Calm</b></td><td>0–1</td><td>Calm; smoke rises vertically.</td></tr>
+      <tr><td><b>Light breeze</b></td><td>6–11</td><td>Wind felt on the face; leaves rustle; ordinary vane moves.</td></tr>
+      <tr><td><b>Strong breeze</b></td><td>39–49</td><td>Large branches sway; umbrellas difficult to use.</td></tr>
+      <tr><td><b>Storm</b></td><td>103–117</td><td>Rarely experienced; usually accompanied by widespread damage.</td></tr>
+    </tbody>
+  </table>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>Wind can be gentle or strong&nbsp;— from blowing dry leaves to <b>uprooting trees</b> during a storm.</li>
+    <li><b>Don't Miss Out:</b> winds are named after the direction they <b>blow from</b>&nbsp;— e.g., the wind blowing from the west is called <b>westerly</b>.</li>
+    <li>Air always moves from <b>high-pressure areas to low-pressure areas</b>; its direction is influenced by the Earth's rotation.</li>
+  </ul>
+</div>
+
+<!-- T5 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T5</span><span class="tt">Land Breeze vs Sea Breeze 🌅</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Land breeze</b>&nbsp;— a local wind that blows <b>from land to sea during the night</b>, due to differential cooling&nbsp;— land cools faster than the sea at night, so the temperature and pressure difference is low and wind speed is low. &nbsp;|&nbsp; <b>Sea breeze</b>&nbsp;— a local wind that blows <b>from sea to land during the day</b> (especially the afternoon), when the land becomes relatively warmer than the sea, forming a low-pressure region over land.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Beach trip wala logic: <b>Din me zameen tez garam</b> hoti hai (sand jalata hai!) → zameen pe low pressure → hawa <b>samundar se zameen</b> pe aati hai = sea breeze&nbsp;— isliye beach pe dopahar me mast thandi hawa! <b>Raat me zameen tez thandi</b> → zameen pe high pressure → hawa <b>zameen se samundar</b> = land breeze. Dono coastal areas ka <b>natural AC</b> hain&nbsp;— moderate climate banate hain.</div></div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>Local winds like land and sea breezes affect the <b>weather and climate of coastal regions</b> and create <b>moderate climatic conditions</b> there.</li>
+    <li><b>Day:</b> land warmer than water → low pressure over land → wind blows sea → land.</li>
+    <li><b>Night:</b> land cools faster than the sea → pressure difference is small → gentle wind blows land → sea.</li>
+  </ul>
+</div>
+
+<!-- T6 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T6</span><span class="tt">Seasons in India&nbsp;— 4 (IMD) + 6 (Traditional) 🗓️</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Seasons</b>&nbsp;— divisions of the year based on generalised monthly atmospheric conditions or a common pattern over a few weeks or months (cool or hot, windy or calm, cloudy or bright, wet or dry).</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">IMD (Indian Meteorological Department) ke hisaab se India ka saal <b>4 seasons</b> me bata hai: <b>Winter</b> (Dec–early Apr), <b>Summer</b> (Apr–Jun), <b>Monsoon</b> (Jun–Sep), <b>Post-monsoon</b> (Oct–Dec). Lekin humare traditional calendar me <b>6 ṛtu</b> hain&nbsp;— Vasanta (bahaar), Grīṣhma (garmi), Varṣhā (baarish), Śharad (patjhad ke baad), Hemanta, Śhiśhira (sardi). Himalayan states (thandi wali) me autumn aur spring ke saath <b>6 seasons</b> dikhte hain!</div></div>
+  <div class="sys flow">
+    <div class="syt">🌳 System&nbsp;— IMD ke 4 Seasons (months + details)</div>
+    <ul class="tree">
+      <li><b>Winter</b>&nbsp;— December to early April
+        <ul>
+          <li>Coldest months: <b>December–January</b>; average temperature ~10–15°C in the north-west, ~20–25°C in the south-east</li>
+        </ul>
+      </li>
+      <li><b>Summer / pre-monsoon</b>&nbsp;— April to June (up to July in north-west India)
+        <ul>
+          <li>Hottest month: <b>April</b> in western &amp; southern regions, <b>May</b> in northern regions; average 32–40°C across inland India</li>
+        </ul>
+      </li>
+      <li><b>Monsoon / rainy (advancing monsoon)</b>&nbsp;— June to September
+        <ul>
+          <li>Humid <b>south-west summer monsoon</b> sweeps across the country from late May/early June; recedes from north India from early October; <b>South India receives more rainfall</b> during this retreat</li>
+        </ul>
+      </li>
+      <li><b>Post-monsoon (retreating monsoon)</b>&nbsp;— October to December
+        <ul>
+          <li>North-west India: October–November usually <b>cloudless</b></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <table class="tt">
+    <thead><tr><th style="width:26%">Season (Ṛtu)</th><th style="width:37%">Indian Calendar Months</th><th>Gregorian Months</th></tr></thead>
+    <tbody>
+      <tr><td><b>Vasanta</b> (spring)</td><td>Chaitra–Vaiśhākha</td><td>March–April</td></tr>
+      <tr><td><b>Grīṣhma</b> (summer)</td><td>Jyeṣhṭha–Āṣhāḍha</td><td>May–June</td></tr>
+      <tr><td><b>Varṣhā</b> (monsoon)</td><td>Śhrāvaṇa–Bhādrapada</td><td>July–August</td></tr>
+      <tr><td><b>Śharad</b> (autumn)</td><td>Āśhvina–Kārtika</td><td>September–October</td></tr>
+      <tr><td><b>Hemanta</b> (pre-winter)</td><td>Mārgaśhīrṣha–Pauṣha</td><td>November–December</td></tr>
+      <tr><td><b>Śhiśhira</b> (winter)</td><td>Māgha–Phālguna</td><td>January–February</td></tr>
+    </tbody>
+  </table>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>The climate of India is broadly classified as <b>tropical monsoon</b>.</li>
+    <li>Traditional six seasons are based on the <b>astronomical division of 12 months into six parts</b>; each is about two months long (durations vary across regions).</li>
+    <li><b>Don't Miss Out:</b> Kauṭilya's <b>Arthaśhāstra</b> contains records of scientific measurements of rainfall and their use in managing revenue and relief efforts.</li>
+    <li>Himalayan states, being more temperate, experience <b>two additional seasons&nbsp;— autumn and spring</b>.</li>
+  </ul>
+</div>
+
+<!-- T7 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T7</span><span class="tt">Monsoon&nbsp;— Full Mechanism ☔</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Monsoon</b>&nbsp;— the <b>seasonal reversal in wind direction</b> during a year. The word comes from the Arabic <b>mausim</b>, meaning 'season'&nbsp;— Arab traders named it after noticing the reversal of winds on their sailing voyages to India.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Monsoon = <b>winds ka direction ulta hona</b>, season ke saath! Story: <b>Garmi (June–Sept)</b>&nbsp;— India ki zameen samundar se tez garam → zameen pe <b>LOW pressure</b>, samundar pe high → <b>geeli hawa samundar se zameen</b> pe aati hai = <b>South-West Monsoon</b> → baarish! 💧 <b>Sardi (Oct–Feb)</b>&nbsp;— zameen tez thandi → zameen pe <b>HIGH pressure</b> → <b>thandi sookhi hawa zameen se samundar</b> = <b>North-East Monsoon</b>. Twist: ye hawa <b>Bay of Bengal cross</b> karti hai to moisture utha leti → <b>Tamil Nadu, Andhra Pradesh, Karnataka</b> ke east coast pe baarish! Isliye Chennai ki baarish saal ke end me hoti hai jab baaki India sookha ho chuka hota hai.</div></div>
+  <div class="sys flow">
+    <div class="syt">🌳 System&nbsp;— 2 Monsoons (direction + months + kaam)</div>
+    <ul class="tree">
+      <li><b>South-West Monsoon (summer monsoon)</b>&nbsp;— June to September
+        <ul>
+          <li>Winds blow <b>sea → land</b> across the Indian Ocean, the Arabian Sea and the Bay of Bengal</li>
+          <li>Cause: <b>unequal heating</b>&nbsp;— land heats faster → <b>low pressure</b> over the subcontinent, ocean relatively cooler → high pressure</li>
+          <li>Accounts for <b>most of India's annual rainfall</b></li>
+        </ul>
+      </li>
+      <li><b>North-East Monsoon (winter monsoon)</b>&nbsp;— October to February
+        <ul>
+          <li>Land cools faster → <b>high pressure</b> over land, low over seas</li>
+          <li><b>Cold, dry winds blow land → sea</b>&nbsp;— generally no rain for most of India</li>
+          <li><b>Exception:</b> picking up moisture over the Bay of Bengal → rain in the <b>eastern coast: Tamil Nadu, Andhra Pradesh, parts of Karnataka</b></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="plabel">✍️ Exam Points&nbsp;— importance + ancient knowledge + missions</div>
+  <ul class="pts">
+    <li><b>Why monsoon matters:</b> most of India's <b>agriculture</b> depends on it (sowing, growing); good monsoon → food production + water in rivers, reservoirs, wells; affects daily life, transport, festivals, employment (especially rural).</li>
+    <li>Excess rain → <b>floods</b>; weak monsoon → <b>droughts</b>&nbsp;— the economy, lifestyle and livelihoods swing with it.</li>
+    <li><b>Ancient rainfall science:</b> <b>Kṛiṣhiparāśhara</b> predicted rain from positions of the <b>Moon and Sun</b>; <b>Varāhamihira</b>'s Bṛihatsaṁhitā used <b>nakṣhatras</b> (lunar mansions&nbsp;— 27 divisions of the Moon's path; the Moon moves through one each day).</li>
+    <li><b>Kālidāsa</b>'s <b>Meghadūtam</b> (~5th century CE) mentions the date of monsoon onset over central India and traces the path of monsoon clouds.</li>
+    <li><b>National Monsoon Mission (NMM)</b>&nbsp;— Ministry of Earth Sciences; state-of-the-art weather and climate prediction models. <b>Mission Mausam</b>&nbsp;— aims to make India a global leader in weather/climate science, 'Weather Ready' and 'Climate Smart'.</li>
+  </ul>
+</div>
+
+<!-- T8 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T8</span><span class="tt">Climate Change + Carbon Footprint 🌱</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Climate change</b>&nbsp;— long-term changes in weather patterns (temperature, rainfall, wind) caused mainly by human activities&nbsp;— burning fossil fuels, deforestation, and industrial pollution. &nbsp;|&nbsp; <b>Carbon footprint</b>&nbsp;— the total amount of greenhouse gases released into the atmosphere as a result of human activities (energy use, transportation, production of goods and services).</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Simple equation: <b>fuel jalaaya + ped kaate + factories chalayi</b> → greenhouse gases (CO₂, methane, nitrous oxide, water vapour) badhi → ye gases <b>heat trap</b> karti hain (car ki shisha-band gaadi jaise&nbsp;— dhoop me andar garmi!) → <b>global warming</b> → result: zyada floods, droughts, glaciers pighle, sea level badha, biodiversity khatre me. Solution bhi simple hai&nbsp;— <b>apna carbon footprint ghatao</b>: walk/cycle, lights band, paani bachao, plastic kam, ped lagao. Chhote steps, bada asar!</div></div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li><b>Causes:</b> burning of fossil fuels, deforestation, industrial pollution releasing CO₂.</li>
+    <li><b>Greenhouse gases:</b> carbon dioxide, methane, nitrous oxide, water vapour&nbsp;— trap heat and raise global temperatures.</li>
+    <li><b>Effects:</b> more frequent floods and droughts, melting glaciers, rising sea levels, loss of biodiversity; threatens ecosystems, human health, agriculture, livelihoods&nbsp;— impacts <b>women and children</b> too.</li>
+    <li><b>Solutions:</b> reduce carbon footprints, use renewable energy, protect forests, adopt sustainable lifestyles&nbsp;— every small step counts.</li>
+    <li>Activity (book): score your habits&nbsp;— transport (walk/cycle = low; flights often = very high), electricity, water use, waste &amp; plastics&nbsp;— then take a <b>climate action pledge</b> with two changes.</li>
+  </ul>
+</div>
+
+<!-- T9 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T9</span><span class="tt">Case Study&nbsp;— Punjab Floods 2025 🌊</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">2025 me Punjab dooba kyun? <b>Double dhamaka:</b> natural (bahut heavy monsoon + <b>western disturbances</b> extra laaye; Himachal aur J&amp;K me bhi baarish&nbsp;— Satluj, Beas, Ravi, Ghaggar pehle hi full thi!) + human-made (<b>dhūsī bāndh</b>&nbsp;— purane kamzor embankments toot gaye; log nadi ke bilkul paas bas gaye the; rivers/dams me <b>silt jama</b> tha&nbsp;— capacity kam; warnings late aayi). Result: fasal doobi, maringe, roads-bridges toote, bimariyan faili. Lesson: <b>planning hi bachai sakti hai</b>!</div></div>
+  <div class="sys flow">
+    <div class="syt">🌳 System&nbsp;— Causes (natural + human-made) + Effects</div>
+    <ul class="tree">
+      <li><b>Natural causes</b>
+        <ul>
+          <li>Very heavy monsoon rains intensified by <b>western disturbances</b> (extra moisture and rain)</li>
+          <li>Rain not only in Punjab but also in <b>Himachal Pradesh and Jammu &amp; Kashmir</b></li>
+          <li>Rivers <b>Satluj, Beas, Ravi (and Ghaggar)</b> already flowing high; extra water from hills + local rain → overflow</li>
+        </ul>
+      </li>
+      <li><b>Human-made causes</b>
+        <ul>
+          <li>Weak, old river embankments (<b>dhūsī bāndh</b>) that could not hold the rising water</li>
+          <li>Houses and farms built <b>too close to rivers</b> → no space for floodwater to spread</li>
+          <li><b>Silt and mud</b> collected in rivers and dams → reduced capacity</li>
+          <li>Late or unclear <b>flood warnings</b> → people unprepared</li>
+        </ul>
+      </li>
+      <li><b>Effects</b>
+        <ul>
+          <li>Lives lost; thousands moved to <b>relief camps</b></li>
+          <li>Farmland flooded; crops like <b>paddy</b> severely damaged; poultry and dairy farms destroyed; animals sick or dead</li>
+          <li>Roads, bridges, border fences and public buildings damaged</li>
+          <li>Murky standing water → <b>waterborne diseases</b> and sanitation problems; heavy economic losses and social disruption</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>Case shows the urgent need for improved <b>flood management and preparedness</b> (relief operations were carried out as water receded).</li>
+    <li>Discussion points (book): natural factors vs human activities&nbsp;— which caused more? Could better planning have reduced damage? What are <b>NDMA</b> (National Disaster Management Authority) guidelines? What role can students/youth play?</li>
+  </ul>
+</div>
+
+<!-- T10 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T10</span><span class="tt">Quick Recap&nbsp;— Before We Move On ⚡</span><span class="tick">☐ revised</span></div>
+  <div class="plabel">✍️ Exam Points&nbsp;— book summary (seedha seedha)</div>
+  <ul class="pts">
+    <li>The atmosphere is a mixture of gases&nbsp;— mainly <b>nitrogen and oxygen</b>&nbsp;— with small amounts of other gases, water vapour and dust that support life, form clouds and cause rainfall.</li>
+    <li>Layers (bottom → top): <b>Troposphere, Stratosphere, Mesosphere, Thermosphere, Exosphere</b>&nbsp;— divided by changes in temperature and air density with height.</li>
+    <li><b>Weather</b> = daily atmospheric conditions; <b>climate</b> = average weather of a place over a long period (30+ years).</li>
+    <li>India has a <b>tropical monsoon climate</b>; the IMD divides the year into <b>four seasons</b>&nbsp;— winter, summer, monsoon and post-monsoon.</li>
+    <li><b>Climate change</b> = long-term change in weather caused mainly by burning fuels and cutting trees → global warming and extreme weather; we reduce our <b>carbon footprint</b> by saving energy, using renewables, planting trees and eco-friendly living.</li>
+  </ul>
+</div>
+
+<!-- DIFFERENCES CH3 -->
+<div class="sec-h"><span class="sq">⚖️</span><span class="st">Differences&nbsp;— Pakka Aane Wale</span><span class="sline"></span></div>
+<table class="tt">
+  <thead><tr><th style="width:19%">Basis</th><th>Weather</th><th>Climate</th></tr></thead>
+  <tbody>
+    <tr><td><b>Meaning</b></td><td>Hour-to-hour, day-to-day conditions of the atmosphere</td><td>Sum total of weather conditions over a large area for an extended period</td></tr>
+    <tr><td><b>Time period</b></td><td>Short term (hours/days)&nbsp;— varies significantly day-to-day</td><td>Long term&nbsp;— usually <b>thirty years or more</b></td></tr>
+    <tr><td><b>Example</b></td><td>"It will rain today"</td><td>"India has a tropical monsoon climate"</td></tr>
+  </tbody>
+</table>
+<table class="tt">
+  <thead><tr><th style="width:19%">Basis</th><th>Troposphere</th><th>Stratosphere</th></tr></thead>
+  <tbody>
+    <tr><td><b>Height</b></td><td>Average ~12 km (lowest layer)</td><td>Extends up to 50 km (above troposphere)</td></tr>
+    <tr><td><b>Temperature</b></td><td><b>Decreases</b> with altitude</td><td><b>Rises</b> with altitude</td></tr>
+    <tr><td><b>Key contents</b></td><td>Air we breathe, most water vapour and clouds</td><td>The <b>ozone layer</b>&nbsp;— filters harmful UV radiation</td></tr>
+    <tr><td><b>Activity</b></td><td>Nearly all weather phenomena (rain, fog, hail)</td><td><b>Ideal for aeroplanes</b>&nbsp;— free of clouds and weather disturbances</td></tr>
+    <tr><td><b>Boundary</b></td><td>Separated from stratosphere by the <b>tropopause</b></td><td>Separated from mesosphere by the <b>stratopause</b></td></tr>
+  </tbody>
+</table>
+<table class="tt">
+  <thead><tr><th style="width:19%">Basis</th><th>Land Breeze</th><th>Sea Breeze</th></tr></thead>
+  <tbody>
+    <tr><td><b>Time</b></td><td><b>Night</b></td><td><b>Day</b> (especially afternoon)</td></tr>
+    <tr><td><b>Direction</b></td><td>Land → sea</td><td>Sea → land</td></tr>
+    <tr><td><b>Reason</b></td><td>Land cools faster than the sea at night</td><td>Land becomes relatively warmer than the sea by day</td></tr>
+    <tr><td><b>Pressure</b></td><td>High pressure over land</td><td>Low pressure over land</td></tr>
+    <tr><td><b>Speed</b></td><td>Low (small temperature/pressure difference)</td><td>Relatively stronger</td></tr>
+  </tbody>
+</table>
+<table class="tt">
+  <thead><tr><th style="width:19%">Basis</th><th>South-West Monsoon</th><th>North-East Monsoon</th></tr></thead>
+  <tbody>
+    <tr><td><b>Season</b></td><td>Summer monsoon&nbsp;— <b>June to September</b></td><td>Winter monsoon&nbsp;— <b>October to February</b></td></tr>
+    <tr><td><b>Direction</b></td><td>Sea → land (Indian Ocean, Arabian Sea, Bay of Bengal)</td><td>Land → sea</td></tr>
+    <tr><td><b>Nature</b></td><td>Warm and <b>moist</b>&nbsp;— brings most of India's rainfall</td><td>Cold and <b>dry</b> for most of India</td></tr>
+    <tr><td><b>Pressure</b></td><td>Low pressure over land (unequal heating&nbsp;— land hotter)</td><td>High pressure over land (land cools faster)</td></tr>
+    <tr><td><b>Exceptional rain</b></td><td>Whole of India benefits</td><td>Picks moisture over Bay of Bengal → rain in <b>Tamil Nadu, Andhra Pradesh, Karnataka</b> (eastern coast)</td></tr>
+  </tbody>
+</table>
+
+<!-- DEFINITION BANK CH3 -->
+<div class="defbank">
+  <div class="dbt">📖 Definition Bank&nbsp;— Chapter 3 (likhne ke liye ready)</div>
+  <div class="db-grid">
+    <div class="d"><b>Atmosphere</b>&nbsp;— blanket of air around the Earth, held by gravity; mixture of gases vital for life.</div>
+    <div class="d"><b>Gravity</b>&nbsp;— fundamental force of attraction between objects with mass or energy.</div>
+    <div class="d"><b>Altitude</b>&nbsp;— height of a place above mean sea level (sea level = zero).</div>
+    <div class="d"><b>Insolation</b>&nbsp;— incoming solar energy from the Sun intercepted by the Earth.</div>
+    <div class="d"><b>Weather</b>&nbsp;— hour-to-hour and day-to-day conditions of the atmosphere.</div>
+    <div class="d"><b>Climate</b>&nbsp;— average weather over a large area for 30+ years.</div>
+    <div class="d"><b>Humidity</b>&nbsp;— presence of water vapour in the air; warm air holds more of it.</div>
+    <div class="d"><b>Precipitation</b>&nbsp;— condensed water vapour falling due to gravity: drizzle, rain, snow, sleet, hail.</div>
+    <div class="d"><b>Atmospheric (air) pressure</b>&nbsp;— pressure exerted by the weight of air; highest at sea level.</div>
+    <div class="d"><b>Wind</b>&nbsp;— movement of air from high-pressure to low-pressure areas; named after the direction it blows from.</div>
+    <div class="d"><b>Land breeze</b>&nbsp;— local wind, land → sea at night (land cools faster).</div>
+    <div class="d"><b>Sea breeze</b>&nbsp;— local wind, sea → land in the day (land heats up more).</div>
+    <div class="d"><b>Monsoon</b>&nbsp;— seasonal reversal in wind direction during a year (Arabic: mausim = season).</div>
+    <div class="d"><b>Seasons (ṛtu)</b>&nbsp;— divisions of the year based on generalised monthly atmospheric conditions.</div>
+    <div class="d"><b>Nakṣhatras</b>&nbsp;— 27 equal divisions of the Moon's path across the sky; Moon crosses one each day.</div>
+    <div class="d"><b>Climate change</b>&nbsp;— long-term change in weather patterns, mainly due to human activities.</div>
+    <div class="d"><b>Carbon footprint</b>&nbsp;— total greenhouse gases released by human activities.</div>
+    <div class="d"><b>Greenhouse gases</b>&nbsp;— CO₂, methane, nitrous oxide, water vapour; trap heat, raise temperatures.</div>
+    <div class="d"><b>IMD</b>&nbsp;— India Meteorological Department; recognises 4 seasons in India.</div>
+    <div class="d"><b>Western disturbances</b>&nbsp;— weather systems that brought extra moisture and rain in the Punjab 2025 floods.</div>
+    <div class="d"><b>Dhūsī bāndh</b>&nbsp;— weak/old river embankments that failed during the Punjab floods.</div>
+    <div class="d"><b>NMM / Mission Mausam</b>&nbsp;— MoES missions for monsoon prediction &amp; 'Weather Ready, Climate Smart' India.</div>
+  </div>
+</div>
+
+<!-- MCQ CH3 -->
+<div class="sec-h"><span class="sq">✅</span><span class="st">MCQ Challenge&nbsp;— 10 Questions (Ch 3)</span><span class="sline"></span></div>
+<div class="mcq-score"><span class="ms">🎯 Solve karne ke baad score bharo →</span><div class="blank"></div><span class="ms">/ 10</span></div>
+
+<div class="mcq"><div class="mq"><span class="qn">Q1.</span> The two most abundant gases in the atmosphere are —</div>
+  <div class="opts"><div class="op" data-l="a">oxygen and carbon dioxide</div><div class="op" data-l="b">nitrogen and oxygen</div><div class="op" data-l="c">nitrogen and argon</div><div class="op" data-l="d">oxygen and ozone</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q2.</span> Aeroplanes fly mainly in the stratosphere because it is —</div>
+  <div class="opts"><div class="op" data-l="a">the closest layer to Earth</div><div class="op" data-l="b">free of clouds and weather disturbances</div><div class="op" data-l="c">the hottest layer</div><div class="op" data-l="d">full of ozone for fuel</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q3.</span> Most meteorites burn up in the —</div>
+  <div class="opts"><div class="op" data-l="a">troposphere</div><div class="op" data-l="b">stratosphere</div><div class="op" data-l="c">mesosphere</div><div class="op" data-l="d">exosphere</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q4.</span> The colourful displays of light near the poles, called auroras, occur in the —</div>
+  <div class="opts"><div class="op" data-l="a">thermosphere</div><div class="op" data-l="b">troposphere</div><div class="op" data-l="c">mesosphere</div><div class="op" data-l="d">stratosphere</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q5.</span> Climate is the average weather of a place taken over a period of —</div>
+  <div class="opts"><div class="op" data-l="a">one year</div><div class="op" data-l="b">ten years</div><div class="op" data-l="c">thirty years or more</div><div class="op" data-l="d">one month</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q6.</span> Temperature decreases with increasing altitude ONLY in the —</div>
+  <div class="opts"><div class="op" data-l="a">troposphere and stratosphere</div><div class="op" data-l="b">troposphere and mesosphere</div><div class="op" data-l="c">stratosphere and thermosphere</div><div class="op" data-l="d">mesosphere and exosphere</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q7.</span> The wind blowing from the west is called a westerly. Winds are named after —</div>
+  <div class="opts"><div class="op" data-l="a">the direction they blow towards</div><div class="op" data-l="b">the direction they blow from</div><div class="op" data-l="c">their speed</div><div class="op" data-l="d">the season of their birth</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q8.</span> During the south-west monsoon, winds blow from sea to land because —</div>
+  <div class="opts"><div class="op" data-l="a">the landmass heats faster, creating low pressure over the subcontinent</div><div class="op" data-l="b">the ocean heats faster than the land</div><div class="op" data-l="c">gravity pulls the winds landward</div><div class="op" data-l="d">the Himalayas block the winds</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q9.</span> The north-east (winter) monsoon causes rainfall mainly in —</div>
+  <div class="opts"><div class="op" data-l="a">Punjab and Haryana</div><div class="op" data-l="b">Tamil Nadu, Andhra Pradesh and parts of Karnataka</div><div class="op" data-l="c">Rajasthan and Gujarat</div><div class="op" data-l="d">the entire Gangetic plain</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q10.</span> In the Punjab floods of 2025, the rivers involved were —</div>
+  <div class="opts"><div class="op" data-l="a">Ganga, Yamuna and Son</div><div class="op" data-l="b">Satluj, Beas and Ravi</div><div class="op" data-l="c">Godavari, Krishna and Kaveri</div><div class="op" data-l="d">Narmada, Tapi and Mahanadi</div></div></div>
+
+<div class="anskey">
+  <div class="akt">🔑 Answer Key&nbsp;— Chapter 3</div>
+  <div class="ans-strip"><span>1 → b</span><span>2 → b</span><span>3 → c</span><span>4 → a</span><span>5 → c</span><span>6 → b</span><span>7 → b</span><span>8 → a</span><span>9 → b</span><span>10 → b</span></div>
+  <div class="xpls">
+    <div class="x"><b>1:</b> Nitrogen 78% + oxygen 21% = primary, most abundant gases.</div>
+    <div class="x"><b>2:</b> Stratosphere is free of clouds and other weather disturbances → ideal for flying.</div>
+    <div class="x"><b>3:</b> Most meteorites entering from space burn up in the mesosphere (up to 80 km).</div>
+    <div class="x"><b>4:</b> Auroras occur in the thermosphere (80–700 km); Borealis (north), Australis (south).</div>
+    <div class="x"><b>5:</b> Climate = average conditions over an extended period, usually 30+ years.</div>
+    <div class="x"><b>6:</b> Temperature falls with height only in the troposphere and the mesosphere.</div>
+    <div class="x"><b>7:</b> Winds are named after the direction they blow FROM (westerly = from the west).</div>
+    <div class="x"><b>8:</b> Summer = land heats faster than sea → low pressure over land → moist sea winds move in.</div>
+    <div class="x"><b>9:</b> NE winds pick moisture over the Bay of Bengal → eastern coast (TN, AP, Karnataka) gets rain.</div>
+    <div class="x"><b>10:</b> Punjab rivers: Satluj, Beas, Ravi (plus Ghaggar) swelled after heavy rains.</div>
+  </div>
+</div>
+
+<!-- QA CH3 -->
+<div class="sec-h"><span class="sq">📝</span><span class="st">Big Questions&nbsp;— Exam-Ready Answers (Ch 3)</span><span class="sline"></span></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q1.</span> What is the atmosphere? Explain its composition.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>The atmosphere is a <b>blanket of air surrounding the Earth</b>, pulled down around it by <b>gravity</b>&nbsp;— a mixture of gases vital for the survival of all living beings.</li>
+    <li>It <b>shields us from the Sun's harmful radiation</b> (including ultraviolet) and <b>regulates the Earth's temperature</b> by trapping some of the Sun's energy.</li>
+    <li>Composition: <b>nitrogen 78%</b>, <b>oxygen 21%</b>, argon 0.93%, carbon dioxide 0.04%, and others 0.03% (helium, neon, krypton, xenon, ozone, hydrogen).</li>
+    <li>It also contains <b>water vapour (0.1–0.4%)</b>&nbsp;— important for cloud formation and precipitation&nbsp;— and tiny dust particles.</li>
+    <li>The composition <b>varies with altitude</b>.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q2.</span> Describe the structure (layers) of the atmosphere.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>The atmosphere has a layered structure defined by changes in <b>temperature and density</b> with altitude (density is highest near the surface).</li>
+    <li><b>Troposphere</b> (avg ~12 km): temperature decreases with height; the air we breathe, most water vapour and clouds; nearly all weather phenomena; bounded above by the tropopause.</li>
+    <li><b>Stratosphere</b> (up to 50 km): ideal for aeroplanes&nbsp;— free of clouds and weather; contains the <b>ozone layer</b> that filters UV radiation; bounded by the stratopause.</li>
+    <li><b>Mesosphere</b> (up to 80 km): temperature decreases with height; most <b>meteorites burn up</b> here.</li>
+    <li><b>Thermosphere</b> (80–700 km): temperature rises rapidly (absorbs X-rays and short-wave UV); helps <b>radio transmission</b>; the ionosphere is part of it; <b>auroras</b> occur here.</li>
+    <li><b>Exosphere</b>: uppermost, very thin air; light gases like helium and hydrogen escape into space.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q3.</span> In which layer of the atmosphere do aeroplanes fly and why?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>Aeroplanes fly in the <b>stratosphere</b>, the second layer extending up to <b>50 km</b> above the troposphere.</li>
+    <li>It is <b>free of clouds and other weather disturbances</b> (rain, storms, turbulence), making flights smooth and safe.</li>
+    <li>A notable feature is the <b>layer of ozone gas</b>, which shields us by filtering the Sun's harmful ultraviolet radiation.</li>
+    <li>Weather phenomena are confined to the troposphere below, so the stratosphere offers a stable corridor for long-distance flying.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q4.</span> Distinguish between (a) the troposphere and stratosphere, (b) the south-west and north-east monsoon.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>(a) Height:</b> troposphere ~12 km vs stratosphere up to 50 km.</li>
+    <li><b>(a) Temperature:</b> falls with altitude in the troposphere but rises in the stratosphere.</li>
+    <li><b>(a) Contents:</b> troposphere has the air we breathe, most water vapour, clouds and <b>all weather</b>; stratosphere has the <b>ozone layer</b> and is ideal for aeroplanes.</li>
+    <li><b>(b) Season:</b> SW monsoon = June–September (summer); NE monsoon = October–February (winter).</li>
+    <li><b>(b) Direction and nature:</b> SW blows <b>sea → land</b>, warm and moist&nbsp;— brings most of India's rain; NE blows <b>land → sea</b>, cold and dry&nbsp;— but brings rain to the <b>eastern coast (Tamil Nadu, Andhra Pradesh, Karnataka)</b> after crossing the Bay of Bengal.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q5.</span> Explain the elements of weather and climate.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Temperature:</b> varies day–night and season-wise; controlled by <b>insolation</b>, which decreases from the equator to the poles&nbsp;— so temperature also decreases poleward.</li>
+    <li><b>Humidity:</b> water vapour in the air; warmer air holds more vapour; humid days slow down drying of clothes and evaporation of sweat.</li>
+    <li><b>Precipitation:</b> saturated air condenses and falls as drizzle, rain, snow, sleet or hail; factors: prevailing winds, mountains, seasons; rain is the most common form.</li>
+    <li><b>Atmospheric pressure:</b> weight of air; highest at sea level, falls with altitude; warm air rises → low pressure (cloudy/wet); cold air sinks → high pressure (clear/sunny).</li>
+    <li><b>Wind:</b> air moving from high-pressure to low-pressure areas&nbsp;— from a gentle breeze to storm force.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q6.</span> Why do we not feel the pressure of the atmosphere? What is the relation between pressure and wind?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>The air above us exerts significant force, but <b>air presses on us from all sides</b> and our bodies exert an <b>equal counter-pressure</b>&nbsp;— the two cancel out, so we feel nothing.</li>
+    <li>Pressure is <b>highest at sea level</b> and decreases with altitude; horizontally it depends on the air's temperature.</li>
+    <li>In high-temperature areas, heated air <b>rises</b> → creates <b>low pressure</b>&nbsp;— associated with cloudy skies and wet weather.</li>
+    <li>In colder areas, air is heavy and <b>sinks</b> → <b>high pressure</b>&nbsp;— associated with clear, sunny skies.</li>
+    <li><b>Wind</b> is simply air moving from high-pressure to low-pressure areas&nbsp;— its direction is influenced by the Earth's rotation.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q7.</span> Describe the four main seasons of India recognised by the IMD.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Winter (December to early April):</b> coldest months are December–January; average temperature ~10–15°C in the north-west, rising to ~20–25°C towards the south-east.</li>
+    <li><b>Summer or pre-monsoon (April to June):</b> hottest month is April in western and southern regions, May in the north; averages 32–40°C across inland India.</li>
+    <li><b>Monsoon or rainy season (June to September):</b> dominated by the humid <b>south-west summer monsoon</b>, which sweeps across the country from late May or early June; it recedes from north India from early October, with South India receiving more rainfall then.</li>
+    <li><b>Post-monsoon or retreating monsoon (October to December):</b> October–November are usually cloudless in north-west India.</li>
+    <li>The climate of India is broadly <b>tropical monsoon</b>; Himalayan states also experience autumn and spring.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q8.</span> What is monsoon? Explain the mechanism of the south-west monsoon.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>Monsoon is the <b>seasonal reversal in wind direction</b> during a year; Arab traders named it from the Arabic word <b>mausim</b> ('season'), having noticed the reversal on sailing voyages.</li>
+    <li><b>Step 1:</b> During summer, the Indian landmass <b>heats up faster</b> than the surrounding oceans.</li>
+    <li><b>Step 2:</b> This creates a <b>low-pressure area</b> over the Indian subcontinent, while the Indian Ocean stays cooler with <b>high pressure</b>.</li>
+    <li><b>Step 3:</b> Winds move from high to low pressure&nbsp;— so <b>moist winds blow from the ocean towards the land</b> across the Indian Ocean, the Arabian Sea and the Bay of Bengal (June–September).</li>
+    <li><b>Step 4:</b> These moisture-laden winds bring <b>rainfall</b>&nbsp;— the SW monsoon accounts for most of the rainfall in the country throughout the year.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q9.</span> What is climate change? What are its causes and effects?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>Climate change refers to <b>long-term changes in weather patterns</b>&nbsp;— temperature, rainfall and wind.</li>
+    <li><b>Causes:</b> mainly human activities&nbsp;— burning of fossil fuels, deforestation, and industrial pollution releasing gases like carbon dioxide.</li>
+    <li>These increase <b>greenhouse gases</b> (CO₂, methane, nitrous oxide, water vapour) that trap heat and raise global temperatures.</li>
+    <li><b>Effects:</b> more frequent floods and droughts, melting glaciers, rising sea levels, loss of biodiversity; impacts human health, agriculture and livelihoods&nbsp;— including women and children.</li>
+    <li><b>Solutions:</b> reduce carbon footprints, use renewable energy, protect forests, adopt sustainable lifestyles&nbsp;— every small step counts.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q10.</span> Explain the causes and effects of the Punjab floods of 2025.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Natural causes:</b> very heavy monsoon rains intensified by <b>western disturbances</b>; rain also fell in Himachal Pradesh and Jammu &amp; Kashmir; the rivers <b>Satluj, Beas and Ravi</b> were already flowing high before the downpour began.</li>
+    <li><b>Human-made causes:</b> weak and old embankments (<b>dhūsī bāndh</b>); houses and farms built too close to rivers; silt and mud reducing the capacity of rivers and dams; late or unclear flood warnings.</li>
+    <li><b>Effects:</b> loss of lives; thousands shifted to relief camps; farmland and crops like paddy damaged; poultry and dairy farms destroyed; animals sick or dead.</li>
+    <li>Roads, bridges, border fences and public buildings were damaged; standing murky water spread <b>waterborne diseases</b>.</li>
+    <li>The floods underscored the urgent need for improved <b>flood management and preparedness</b>&nbsp;— better planning could have reduced the damage.</li>
+  </ul></div>
+
+</div><!-- /ch3 -->
+
+<div class="closer">
+  <div class="cl1">You're exam-ready! 💪🧠</div>
+  <div class="cl2">Definitions ratto → system trees revise karo (iske under kya tha!) → differences ke tables yaad karo → MCQs solve karke score check karo → big Q&amp;A se answer-writing practice. Geography = sorted. All the best! 🍀</div>
+</div>
+
+</div><!-- /main-content -->
+</body>
+</html>

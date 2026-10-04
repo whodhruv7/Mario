@@ -121,3 +121,28 @@ Stage Summary:
 - FINAL: download/Economics_Workbook_Ch8_Ch9.pdf — 18 pages, 2.0 MB, vector, PASS
 - HTML source: download/html_sources/Economics_Workbook_Ch8_Ch9.html (editable)
 - Facts sourced strictly from textbook extracts in download/text_sources/
+
+---
+Task ID: geo-civics-workbooks
+Agent: Main agent (Super Z)
+Task: Create TWO separate Class 9 exam workbooks per user request — Geography (Ch2 + Ch3) and Civics (Ch6 + Ch7), each under 20 pages, with: English definitions, Hinglish-ONLY explanations, hierarchical system trees ("iske under yeh, uske under yeh"), differences tables, 10+10 MCQs each in English, 10+10 Q&A each, full textbook coverage, sharp clear points
+
+Work Log:
+- Loaded pdf skill + creative-flow brief + fonts/overflow/pagination/typography/palette/cover refs; reused proven Economics_Workbook pipeline (A4 794x1123, html2pdf-next.js + pagedjs)
+- Read all 4 chapter text sources completely (Geography Ch2 1093 ln, Ch3 1294 ln, Civics Ch6 2413 ln, Ch7 2228 ln) — full coverage of every book topic incl. DON'T MISS OUT boxes
+- Built Geography_Workbook_Ch2_Ch3.html from 8 part files (scripts/geo_wb_p1..p8): cover + howto + Ch2 (11 topic cards) + Ch3 (10 topic cards); each topic = EN definition + Hinglish samajh box + system tree/hierarchy + EN exam points; added 2 NEW components (.sys tree with nested ▸ lists, ol.steps numbered flow); 3+4 differences tables; 2 defbanks (~26+22 defs); 10+10 MCQs with anskeys+reasons; 10+10 big Q&A
+- Palette: Ch2 green #2E7D4F / Ch3 blue #2563A8 on cream-green bg
+- Built Civics_Workbook_Ch6_Ch7.html from 7 part files (civ_wb_p1 generated from geo p1 via 27 palette/text swaps, rest handwritten): Ch6 (11 topics: democratic traditions, 7 principles, FRs tree, separation of powers, process-institution-value table, 4 types of democracy, living democracy facts, challenges+Emergency) + Ch7 (10 topics: why elections, FPTP/PR/STV, laws, delimitation, ECI structure+functions+apps, parties+anti-defection+recognition, challenges); 2+3 differences tables; defbanks; 10+10 MCQs; 10+10 Q&A
+- Palette: Ch6 indigo #4F46B8 / Ch7 amber #D97706 on lavender-tinted bg
+- Fixed env resets: pagedjs+playwright+pdf-lib reinstalled at /home/z (created package.json to stop npm pruning; pagedjs symlinked into my-project/node_modules for existsCheck path)
+- cover_validate.js PASS on both isolated covers (geo: 0 overlaps; civics: 0 overlaps)
+- Geo pagination: 22 → 20 → 19 pages (tightened line-height 1.47→1.38, paddings/margins, all topic+sys cards flowable, QA/MCQ cards flowable with question-gluing); Civics: 19 pages first render
+- Fixed civics QA WARN: bare '—' table cell → 'Not used in India' (same fix as earlier booklets)
+- Stamped via scripts/stamp_workbooks.py (cover hidden, Arabic 1..18, subject label footer); metadata via pdf.py meta.set (had to redo geo after re-stamp overwrote it)
+- pdf_qa --no-tables: BOTH PASS (all checks); 0x U+FFFD in both; last pages 86%/49% fill (≥40% rule)
+- Rendered 9+9 preview PNGs at 110 DPI to download/previews/
+
+Stage Summary:
+- FINAL deliverables: download/Geography_Workbook_Ch2_Ch3.pdf (19 pages, 2.1 MB) + download/Civics_Workbook_Ch6_Ch7.pdf (19 pages, 2.2 MB) — both vector, QA PASS, Z.ai metadata
+- HTML sources: download/html_sources/Geography_Workbook_Ch2_Ch3.html + Civics_Workbook_Ch6_Ch7.html (editable)
+- Series status: Econ done (18p), Geo done (19p), Civics done (19p); History Ch4+Ch5 workbook still pending (was requested in earlier session but not in latest instruction)
