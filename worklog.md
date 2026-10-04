@@ -85,3 +85,19 @@ Work Log:
 
 Stage Summary:
 - FINAL: download/Class9_SST_Exam_Pack.pdf — 8 pages: p1-3 History, p4-5 Democracy, p6-7 Elections, p8 Rapid Revision (30 facts + 10 core concepts + 10 T/F with answers)
+
+---
+Task ID: save-and-review-new-chapters
+Agent: Main agent (Super Z)
+Task: Save 5 newly uploaded SST chapter PDFs (iest102-109) and thoroughly review their content
+
+Work Log:
+- Confirmed 5 uploads saved at /home/z/my-project/upload/ (iest102, iest103, iest104, iest108, iest109)
+- Identified: Geo Ch2 Shaping of Earth's Surface (26p), Geo Ch3 Atmosphere & Climate (22p), Hist Ch4 Early Humans (34p), Econ Ch8 Problem of Choice (12p), Econ Ch9 Price Puzzle (26p)
+- Extracted full text of ALL 8 chapters to /home/z/my-project/download/text_sources/*.txt via scripts/extract_all_chapters.py
+- Read through each of the 5 new chapters fully: key concepts, definitions, facts, examples, timelines noted
+
+Stage Summary:
+- Full chapter inventory now: Hist Ch4, Hist Ch5, Civics Ch6, Civics Ch7, Geo Ch2, Geo Ch3, Econ Ch8, Econ Ch9 (8 chapters)
+- Text sources ready for future notes/MCQ/definitions generation
+- User pending task from before: one combined PDF with per-chapter sections (10 definitions + 10 MCQs each) - originally for 3 chapters, may now expand to 8
