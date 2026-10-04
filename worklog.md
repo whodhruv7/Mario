@@ -101,3 +101,23 @@ Stage Summary:
 - Full chapter inventory now: Hist Ch4, Hist Ch5, Civics Ch6, Civics Ch7, Geo Ch2, Geo Ch3, Econ Ch8, Econ Ch9 (8 chapters)
 - Text sources ready for future notes/MCQ/definitions generation
 - User pending task from before: one combined PDF with per-chapter sections (10 definitions + 10 MCQs each) - originally for 3 chapters, may now expand to 8
+
+---
+Task ID: economics-workbook
+Agent: Main agent (Super Z)
+Task: Create Class 9 Economics Exam Workbook PDF (Ch8 + Ch9) — Hinglish notes + English exam points + definitions + 10 MCQs + 10 Q&A per chapter, under 20 pages, colorful/interactive
+
+Work Log:
+- Loaded pdf skill; read creative-flow brief + fonts/overflow/pagination/typography specs fully
+- Built 7-part HTML (scripts/econ_wb_p1..p7.html) -> download/html_sources/Economics_Workbook_Ch8_Ch9.html
+- Structure: cover (794x1123 full-bleed) + howto strip + Ch8 (12 topic cards, defbank x2, 10 MCQs + key, 10 QA) + Ch9 (10 topic cards, defbank x2, 10 MCQs + key, 10 QA) + closer
+- Fixed cover_validate issues: split nested title spans, repositioned coins, blobs -> bg gradients
+- Installed pagedjs (symlink to project root node_modules)
+- Iterated pagination: 21 -> 20 -> 18 pages (split giant T6 card into 3, made topic cards flowable with header gluing, split defbanks, tightened spacing, glued em-dashes)
+- QA: pdf_qa.py PASS (all checks), 0 corrupted chars, metadata branded (Z.ai author)
+- Rendered 9 preview PNGs at 110 DPI to download/previews/
+
+Stage Summary:
+- FINAL: download/Economics_Workbook_Ch8_Ch9.pdf — 18 pages, 2.0 MB, vector, PASS
+- HTML source: download/html_sources/Economics_Workbook_Ch8_Ch9.html (editable)
+- Facts sourced strictly from textbook extracts in download/text_sources/

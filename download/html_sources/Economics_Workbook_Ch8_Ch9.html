@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Class 9 Economics — Exam Workbook (Ch 8 + Ch 9)</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+@page { size: 794px 1123px; margin: 0; }
+:root{
+  --bg:#FBF8F1; --ink:#22313F; --muted:#8A8172; --border:#E9E1CF; --card:#FFFFFF;
+  --t:#0E7C6B; --t-dark:#0A5B4E; --t-tint:#E6F3EF; --t-line:#BFE0D7;
+  --o:#E4572E; --o-dark:#BC431E; --o-tint:#FCEAE0; --o-line:#F6CDB9;
+}
+html,body{margin:0;padding:0;width:794px;background:var(--bg);color:var(--ink);
+  font-family:'Inter','Noto Sans SC','Noto Color Emoji',sans-serif;font-size:11px;line-height:1.49;}
+body{line-break:strict;word-break:normal;overflow-wrap:break-word;}
+p,td,li{overflow-wrap:break-word;}
+*{box-sizing:border-box;}
+@media screen{
+  html{height:auto;display:flex;justify-content:center;background:#E8E3D5;}
+  body{transform-origin:top center;margin:20px auto;box-shadow:0 0 40px rgba(0,0,0,.15);}
+}
+
+/* ---------- CHAPTER ACCENT THEMES ---------- */
+.ch8{--acc:var(--t);--accd:var(--t-dark);--tint:var(--t-tint);--line:var(--t-line);}
+.ch9{--acc:var(--o);--accd:var(--o-dark);--tint:var(--o-tint);--line:var(--o-line);}
+
+/* ---------- COVER (fixed full page) ---------- */
+.cvr{position:relative;width:794px;height:1123px;break-after:page;
+  background:radial-gradient(circle at 655px 60px, rgba(14,124,107,.16) 0%, rgba(14,124,107,.05) 38%, transparent 58%),
+             radial-gradient(circle at 60px 1075px, rgba(228,87,46,.15) 0%, rgba(228,87,46,.05) 36%, transparent 56%),
+             var(--bg);
+  display:flex;flex-direction:column;justify-content:center;padding:60px 58px;}
+.blob{position:absolute;border-radius:50%;background:transparent;}
+.b3{width:140px;height:140px;right:60px;bottom:100px;border:2.5px dashed #0E7C6B2e;}
+.b4{width:90px;height:90px;left:64px;top:120px;border:2.5px dashed #E4572E40;}
+.coin{position:absolute;font-size:42px;opacity:.9;}
+.c1{right:90px;top:92px;transform:rotate(12deg);}
+.c2{right:140px;bottom:165px;transform:rotate(-10deg);}
+.cv-kick{font-size:13px;font-weight:800;letter-spacing:5px;color:var(--t);text-transform:uppercase;}
+.cv-title{font-family:'Baloo 2','Inter',sans-serif;font-size:76px;font-weight:800;line-height:1;
+  color:var(--ink);margin:14px 0 0 0;}
+.cv-title2{font-family:'Baloo 2','Inter',sans-serif;font-size:44px;font-weight:800;line-height:1.05;
+  color:var(--t);margin:4px 0 10px 0;}
+.cv-sub{font-size:16px;color:#4A5568;max-width:560px;line-height:1.5;margin-top:8px;}
+.cv-chaps{margin-top:30px;display:flex;flex-direction:column;gap:12px;max-width:640px;}
+.cv-chap{display:flex;align-items:center;gap:14px;background:var(--card);border:1.5px solid var(--border);
+  border-radius:14px;padding:13px 18px;box-shadow:0 3px 10px rgba(34,49,63,.06);}
+.cv-chap .cbadge{flex-shrink:0;width:52px;height:52px;border-radius:12px;display:flex;align-items:center;
+  justify-content:center;font-family:'Baloo 2',sans-serif;font-size:24px;font-weight:800;color:#fff;}
+.cv-chap .cb8{background:linear-gradient(135deg,#0E7C6B,#0A5B4E);}
+.cv-chap .cb9{background:linear-gradient(135deg,#E4572E,#BC431E);}
+.cv-chap .ct{font-size:16.5px;font-weight:800;color:var(--ink);line-height:1.25;}
+.cv-chap .cs{font-size:11.5px;color:var(--muted);margin-top:2px;}
+.cv-chips{margin-top:26px;display:flex;flex-wrap:wrap;gap:8px;max-width:660px;}
+.cv-chips span{border:1.5px solid var(--border);border-radius:20px;padding:5px 13px;font-size:11px;
+  font-weight:700;color:var(--ink);background:var(--card);}
+.cv-foot{position:absolute;bottom:44px;left:58px;right:58px;display:flex;justify-content:space-between;
+  align-items:center;border-top:2px solid var(--border);padding-top:16px;}
+.cv-foot .fl{font-size:11px;font-weight:700;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase;}
+.cv-foot .fr{font-size:20px;font-weight:800;font-family:'Baloo 2',sans-serif;color:var(--t);}
+
+/* ---------- MAIN FLOW ---------- */
+.main-content{padding:38px 50px 34px 50px;}
+.topic.flow{break-inside:auto;}
+.define,.hing{break-inside:avoid;}
+
+/* how-to strip */
+.howto{display:flex;gap:10px;margin-bottom:16px;}
+.howto .hstep{flex:1 1 0;min-width:0;background:var(--card);border:1.5px solid var(--border);
+  border-radius:10px;padding:10px 12px;text-align:center;break-inside:avoid;}
+.howto .hn{font-family:'Baloo 2',sans-serif;font-size:17px;font-weight:800;}
+.howto .h8 .hn{color:var(--t);} .howto .h9 .hn{color:var(--o);}
+.howto .hd{font-size:10px;color:var(--muted);font-weight:600;line-height:1.4;margin-top:2px;}
+
+/* chapter opener */
+.ch-open{border-radius:16px;padding:22px 26px;margin:20px 0 16px 0;break-inside:avoid;
+  break-after:avoid;position:relative;overflow:hidden;}
+.ch-open .big-emoji{position:absolute;right:24px;top:50%;transform:translateY(-50%);font-size:74px;opacity:.85;}
+.ch-open .okick{font-size:10.5px;font-weight:800;letter-spacing:3px;color:#fff;text-transform:uppercase;
+  display:inline-block;background:rgba(255,255,255,.22);border-radius:12px;padding:3px 12px;}
+.ch-open .otitle{font-family:'Baloo 2',sans-serif;font-size:34px;font-weight:800;color:#fff;line-height:1.05;margin-top:10px;}
+.ch-open .osub{font-size:12.5px;color:rgba(255,255,255,.94);margin-top:8px;max-width:560px;line-height:1.5;}
+.ch-open .ochips{margin-top:14px;display:flex;flex-wrap:wrap;gap:6px;max-width:560px;}
+.ch-open .ochips span{background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.45);
+  border-radius:12px;padding:2.5px 10px;font-size:10px;font-weight:700;color:#fff;}
+.ch8 .ch-open{background:linear-gradient(120deg,#0E7C6B 0%,#0A5B4E 100%);}
+.ch9 .ch-open{background:linear-gradient(120deg,#E4572E 0%,#BC431E 100%);}
+
+/* section header (notes / mcq / qa) */
+.sec-h{display:flex;align-items:center;gap:10px;margin:18px 0 10px 0;break-after:avoid;break-inside:avoid;}
+.sec-h .sq{flex-shrink:0;width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center;
+  font-size:15px;color:#fff;background:var(--acc);}
+.sec-h .st{font-family:'Baloo 2',sans-serif;font-size:20px;font-weight:800;color:var(--accd);}
+.sec-h .sline{flex:1;height:2.5px;border-radius:2px;background:linear-gradient(90deg,var(--line),transparent);}
+
+/* topic card */
+.topic{background:var(--card);border:1.5px solid var(--border);border-radius:13px;
+  padding:12px 15px 11px 15px;margin-bottom:11px;break-inside:auto;border-left:5px solid var(--acc);}
+.topic-h{display:flex;align-items:center;gap:10px;margin-bottom:9px;break-after:avoid;break-inside:avoid;}
+.topic-h .tnum{flex-shrink:0;font-family:'Baloo 2',sans-serif;font-size:13px;font-weight:800;color:#fff;
+  background:var(--acc);border-radius:7px;padding:2px 9px;letter-spacing:.5px;}
+.topic-h .tt{font-family:'Baloo 2',sans-serif;font-size:15.5px;font-weight:800;color:var(--ink);line-height:1.2;}
+.topic-h .tick{margin-left:auto;flex-shrink:0;font-size:10px;font-weight:700;color:var(--muted);
+  border:1.5px dashed var(--border);border-radius:12px;padding:2px 9px;}
+.define{background:var(--tint);border:1.2px solid var(--line);border-radius:8px;padding:7px 11px;margin-bottom:7px;}
+.define .dl{font-size:10px;font-weight:800;letter-spacing:1.6px;color:var(--accd);text-transform:uppercase;}
+.define .dd{font-size:11.2px;margin-top:2px;line-height:1.5;}
+.define .dd b{color:var(--accd);}
+.hing{background:#FFF9EC;border:1.5px dashed var(--acc);border-radius:8px;padding:7px 11px;margin-bottom:7px;}
+.hing .ht{font-size:10px;font-weight:800;letter-spacing:1.2px;color:var(--accd);text-transform:uppercase;}
+.hing .hb{font-size:11px;line-height:1.55;margin-top:2px;color:#4A4133;}
+.hing .hb b{color:var(--accd);}
+.pts{margin:0;padding-left:0;list-style:none;}
+.pts li{position:relative;padding-left:16px;margin-bottom:3px;font-size:11.2px;line-height:1.47;break-inside:avoid;}
+.pts li::before{content:'';position:absolute;left:2px;top:6.5px;width:6px;height:6px;border-radius:2px;background:var(--acc);}
+.pts li b{color:var(--accd);}
+.plabel{font-size:10px;font-weight:800;letter-spacing:1.2px;color:var(--accd);text-transform:uppercase;
+  margin:2px 0 4px 0;break-after:avoid;}
+.exbox{background:var(--bg);border:1.2px solid var(--border);border-radius:8px;padding:7px 11px;margin-top:7px;font-size:10.6px;}
+.exbox .xt{font-weight:800;color:var(--ink);}
+
+/* generic table */
+table.tt{width:100%;border-collapse:collapse;font-size:10.6px;margin:7px 0 4px 0;}
+table.tt thead{display:table-header-group;}
+table.tt tr{break-inside:avoid;}
+table.tt th{background:var(--acc);color:#fff;font-weight:700;text-align:left;padding:4.5px 9px;font-size:10.2px;}
+table.tt td{border:1px solid var(--border);padding:3.6px 9px;vertical-align:top;background:#fff;line-height:1.45;}
+table.tt tr:nth-child(even) td{background:var(--bg);}
+table.tt td b{color:var(--accd);}
+
+/* definition bank */
+.defbank{background:var(--tint);border:1.5px solid var(--line);border-radius:13px;padding:10px 14px;
+  margin:6px 0;break-inside:avoid;}
+.defbank .dbt{break-after:avoid;}
+.defbank .dbt{font-family:'Baloo 2',sans-serif;font-size:16px;font-weight:800;color:var(--accd);margin-bottom:8px;}
+.db-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 16px;}
+.db-grid .d{font-size:10.35px;line-height:1.42;break-inside:avoid;}
+.db-grid .d b{color:var(--accd);}
+
+/* MCQ */
+.mcq-score{display:flex;align-items:center;gap:10px;background:var(--card);border:1.5px solid var(--border);
+  border-radius:10px;padding:8px 14px;margin-bottom:12px;break-inside:avoid;}
+.mcq-score .ms{font-size:11px;font-weight:700;color:var(--muted);}
+.mcq-score .blank{width:64px;height:22px;border:2px dashed var(--acc);border-radius:6px;}
+.mcq{background:var(--card);border:1.5px solid var(--border);border-radius:11px;padding:10px 14px;
+  margin-bottom:9px;break-inside:avoid;}
+.mcq .mq{font-size:11.4px;font-weight:700;line-height:1.45;margin-bottom:6px;}
+.mcq .mq .qn{color:var(--accd);font-family:'Baloo 2',sans-serif;font-weight:800;}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:4px 14px;}
+.opts .op{font-size:10.8px;line-height:1.45;padding-left:24px;position:relative;}
+.opts .op::before{content:attr(data-l);position:absolute;left:0;top:0;width:17px;height:17px;border-radius:50%;
+  border:1.5px solid var(--border);background:var(--bg);font-size:9.6px;font-weight:800;color:var(--accd);
+  display:flex;align-items:center;justify-content:center;}
+.anskey{background:var(--accd);border-radius:13px;padding:14px 16px;margin:14px 0;break-inside:avoid;}
+.anskey .akt{font-family:'Baloo 2',sans-serif;font-size:15px;font-weight:800;color:#fff;margin-bottom:7px;}
+.ans-strip{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:9px;}
+.ans-strip span{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.4);border-radius:8px;
+  padding:2.5px 9px;font-size:10.5px;font-weight:800;color:#fff;}
+.xpls{display:grid;grid-template-columns:1fr;gap:3px;}
+.xpls .x{font-size:10.3px;color:rgba(255,255,255,.95);line-height:1.45;padding-left:14px;position:relative;}
+.xpls .x::before{content:'▸';position:absolute;left:0;color:#FFD8A8;}
+.ch9 .xpls .x::before{color:#FFD8A8;}
+
+/* QA */
+.qa{background:var(--card);border:1.5px solid var(--border);border-radius:11px;padding:10px 14px;
+  margin-bottom:9px;break-inside:avoid;border-left:5px solid var(--acc);}
+.qa .qq{font-size:11.6px;font-weight:800;line-height:1.45;margin-bottom:6px;}
+.qa .qq .qn{color:var(--accd);font-family:'Baloo 2',sans-serif;}
+.qa .alab{font-size:10px;font-weight:800;letter-spacing:1.4px;color:var(--accd);text-transform:uppercase;margin-bottom:3px;}
+.qa .ans{margin:0;padding-left:0;list-style:none;}
+.qa .ans li{position:relative;padding-left:15px;margin-bottom:2.5px;font-size:10.9px;line-height:1.46;break-inside:avoid;}
+.qa .ans li::before{content:'';position:absolute;left:1px;top:6.5px;width:5.5px;height:5.5px;border-radius:50%;background:var(--acc);}
+.qa .ans li b{color:var(--accd);}
+
+/* closer */
+.closer{background:linear-gradient(120deg,#22313F,#0E7C6B);border-radius:16px;padding:22px 26px;
+  margin-top:22px;text-align:center;break-inside:avoid;}
+.closer .cl1{font-family:'Baloo 2',sans-serif;font-size:23px;font-weight:800;color:#fff;}
+.closer .cl2{font-size:12px;color:rgba(255,255,255,.9);margin-top:5px;line-height:1.5;}
+</style>
+</head>
+<body>
+
+<!-- ================= COVER ================= -->
+<div class="cvr">
+  <div class="blob b3"></div><div class="blob b4"></div>
+  <div class="coin c1">💰</div><div class="coin c2">🧩</div>
+  <div class="cv-kick">Class 9 &bull; SST &bull; Exam Workbook</div>
+  <div class="cv-title">ECONOMICS</div>
+  <div class="cv-title2">the Workbook</div>
+  <div class="cv-sub">Poora exam prep — samajhne wali <b>Hinglish notes</b>, likhne wale <b>English points</b>, saare <b>definitions</b>, aur full <b>practice set</b> (MCQs + big Q&amp;A). All from your textbook, nothing extra.</div>
+  <div class="cv-chaps">
+    <div class="cv-chap">
+      <div class="cbadge cb8">8</div>
+      <div><div class="ct">Building Blocks in Economics</div><div class="cs">The Problem of Choice — scarcity, opportunity cost, PPC, 3 key questions, economic systems</div></div>
+    </div>
+    <div class="cv-chap">
+      <div class="cbadge cb9">9</div>
+      <div><div class="ct">The Price Puzzle: What Drives the Market</div><div class="cs">Demand, supply, market equilibrium &amp; the role of government</div></div>
+    </div>
+  </div>
+  <div class="cv-chips">
+    <span>💡 Hinglish Samajh</span><span>✍️ Exam-Ready Points</span><span>📖 Definition Bank</span><span>✅ 10 + 10 MCQs</span><span>📝 10 + 10 Big Q&amp;A</span><span>🎯 Under 20 Pages</span>
+  </div>
+  <div class="cv-foot">
+    <div class="fl">Understanding Society: India &amp; Beyond &bull; Grade 9 Part 1</div>
+    <div class="fr">Let's go! 🚀</div>
+  </div>
+</div>
+
+<div class="main-content">
+
+<!-- HOW TO USE -->
+<div class="howto">
+  <div class="hstep h8"><div class="hn">1 · SAMAJH</div><div class="hd">Pehle 💡 Hinglish box padh — topic ka feel aa jayega</div></div>
+  <div class="hstep h8"><div class="hn">2 · RATTAAA</div><div class="hd">📖 Definition + ✍️ points yaad kar — yehi likhne ke hain</div></div>
+  <div class="hstep h9"><div class="hn">3 · TEST</div><div class="hd">MCQs khud solve kar, phir answers check kar 💪</div></div>
+  <div class="hstep h9"><div class="hn">4 · WRITE</div><div class="hd">Big Q&amp;A dekh — points ko apne answers me copy-paryog karo</div></div>
+</div>
+
+<!-- ================================================= CHAPTER 8 -->
+<div class="ch8">
+
+<div class="ch-open">
+  <div class="big-emoji">🧭</div>
+  <div class="okick">Chapter 8 &bull; Economics</div>
+  <div class="otitle">Building Blocks in Economics:<br>The Problem of Choice</div>
+  <div class="osub">Economics = choices ki science. Resources kam, wants unlimited — toh choose karna padta hai. Is chapter me: scarcity, opportunity cost, PPC, 3 key questions aur economic systems.</div>
+  <div class="ochips"><span>🔑 12 Topics</span><span>📖 20+ Definitions</span><span>✅ 10 MCQs</span><span>📝 10 Q&amp;A</span></div>
+</div>
+
+<div class="sec-h"><span class="sq">📚</span><span class="st">Notes — Har Topic, Poori Samajh</span><span class="sline"></span></div>
+
+<!-- T1 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T1</span><span class="tt">Economics — What is it? 🤔</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Economics</b> is the discipline that deals with how choices are made by <b>optimising (best use of)</b> limited resources to satisfy the <b>needs and wants</b> of people.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Word aaya hai Greek se — <b>oikonomia</b> = <b>oikos</b> (household) + <b>nemein</b> (management) = <b>"household management"</b>. Simple: jaise ghar me mummy paise limited hote hain aur unse poora month chalati hain — wahi economics hai, bas poore desh ke level pe! Government, companies, families — sabko yahi problem hoti hai: <b>kam resources, zyada demands</b>.</div></div>
+  <div class="plabel">✍️ Exam Points — yehi likhna hai</div>
+  <ul class="pts">
+    <li><b>Origin:</b> Greek word <b>oikonomia</b> — oikos (household) + nemein (management), meaning 'household management'.</li>
+    <li>Economics studies how <b>individuals, enterprises and governments</b> make choices to use limited resources efficiently.</li>
+    <li>It explains how <b>economic entities</b> — consumers, producers, governments, financial institutions — interact in an economy.</li>
+    <li>It covers: how people earn wages, how wealth is distributed, how prices are determined, how policies &amp; trade affect employment.</li>
+    <li>Good economic decisions are based on <b>data and analysis</b> — not guesswork (data = facts &amp; statistics; surveys = systematic data collection).</li>
+  </ul>
+</div>
+
+<!-- T2 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T2</span><span class="tt">Needs vs Wants 🍚 vs 🎮</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Needs</b> — essentials required for survival, like food, water and shelter. &nbsp;|&nbsp; <b>Wants</b> — desires beyond essentials, like gadgets, vacations and luxury items.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb"><b>Need</b> = bina ye zinda nahi reh sakte (khana, paani, ghar). <b>Want</b> = dil ki demand — cycle se bike, bike se car, car se... aur badhte hi jao! 🚲→🏍️→🚗 Isliye kehte hain <b>"human wants are unlimited and keep changing"</b> — yahi economics ki root problem hai.</div></div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li><b>Needs</b> are essential for survival — food, water, shelter.</li>
+    <li><b>Wants</b> are unlimited, keep changing, and grow with time — e.g., bicycle → motorbike → car.</li>
+    <li>Choices are made by individuals, enterprises and governments — e.g., spending pocket money on snacks vs saving for shoes.</li>
+    <li>Since wants exceed resources, <b>every economic choice involves giving something up</b>.</li>
+  </ul>
+  <div class="exbox"><span class="xt">🧠 Quick trick:</span> Need = <b>N</b>ahi hua toh <b>N</b>ahi bachoge. Want = <b>W</b>ish list — hoga toh mast, nahi toh chalega!</div>
+</div>
+
+<!-- T3 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T3</span><span class="tt">Scarcity &amp; Resources — The Root Problem 🥲</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Resources</b> — factors used for the production of goods and services; they can be natural (water, coal) or human-made (capital, technology). &nbsp;|&nbsp; <b>Scarcity</b> — the condition of limited resources against unlimited wants.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Ek hi <b>steel</b> ka block — usse hospital ke <b>medical equipment</b> bana sakte ho, <b>fridge</b> bhi, <b>aircraft</b> bhi. Steel kam hai, uses bahut saare — matlab resources ki <b>alternative uses</b> hain. Toh economy ko decide karna padta hai kahan lagana hai. Yahi <b>scarcity</b> hai — aur isi se <b>choice</b> ka problem paida hota hai.</div></div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>Both natural and human-made resources are <b>limited in quantity</b>.</li>
+    <li>Resources have <b>many alternative uses</b> — e.g., steel can make medical equipment, refrigerators or aircraft.</li>
+    <li><b>Factors of production</b> (Grade 8 recap): <b>Land, Labour, Capital, Technology</b>.</li>
+    <li>Not just households — whole <b>economies</b> must decide how to use scarce resources to improve people's quality of life.</li>
+    <li>Scarcity + unlimited wants → <b>choices</b> → every choice has a cost (next topic!).</li>
+  </ul>
+</div>
+
+<!-- T4 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T4</span><span class="tt">Opportunity Cost — What You Give Up 💸</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Opportunity cost</b> — the <b>value of what is given up</b> when one alternative is chosen and the other options are sacrificed.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Friday evening: movie <b>ya</b> cricket match — dono ek saath nahi. Movie chuni toh <b>match ka maza</b> gaya = movie ka opportunity cost. Book example: farmer ke paas ek piece of land — usme <b>barley ya wheat</b> ugaa sakta hai. Barley boya toh wheat ka sacrifice = barley ka opportunity cost. Yaad rakhna: <b>jo chhoda, wahi cost hai!</b></div></div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>When one alternative is chosen, the other options are <b>given up</b> — their value is the opportunity cost.</li>
+    <li><b>Farmer example:</b> with limited land, water and labour, he can grow barley or wheat in different combinations — more barley means less wheat.</li>
+    <li>Opportunity cost applies to <b>households, enterprises and governments</b> alike (e.g., govt: highways vs hospitals).</li>
+    <li>Understanding it improves decision-making — we compare what we gain against what we sacrifice.</li>
+  </ul>
+  <div class="exbox"><span class="xt">🧠 Exam line:</span> "Every economic choice has an opportunity cost" — 1-mark question me seedha likh do. ✔️</div>
+</div>
+
+<!-- T5 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T5</span><span class="tt">Production Possibility Curve (PPC) 📉</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>PPC</b> — the curve showing <b>different combinations of two goods</b> that can be produced using <b>all available resources</b> efficiently.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">PPC ek <b>seesaw</b> jaisa hai — ek side barley, doosri side wheat. Ek side ka weight badhaya toh doosri girti hai! Graph me x-axis pe <b>barley (kg)</b>, y-axis pe <b>wheat (kg)</b>, aur curve <b>neeche ki taraf jhuki (downward sloping)</b> hoti hai — kyunki zyada barley chahiye toh wheat sacrifice karni padegi. <b>A se E</b> tak move karo → barley badhti hai, wheat ghat-ti jaati hai.</div></div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>PPC shows the <b>trade-off</b> between two goods (here: barley and wheat).</li>
+    <li>It is <b>downward sloping</b> — producing more of one good requires sacrificing some of the other.</li>
+    <li><b>Points ON the curve</b> = maximum output with <b>efficient use of resources</b> (no wastage).</li>
+    <li>It helps <b>enterprises and governments</b> in better planning and decision-making.</li>
+  </ul>
+  <table class="tt">
+    <thead><tr><th>Combination</th><th>Barley (kg)</th><th>Wheat (kg)</th><th>Kya ho raha hai?</th></tr></thead>
+    <tbody>
+      <tr><td><b>A</b></td><td>0</td><td>100</td><td>Sirf wheat, no barley</td></tr>
+      <tr><td><b>B</b></td><td>25</td><td>90</td><td>Thodi barley → 10 kg wheat gaya</td></tr>
+      <tr><td><b>C</b></td><td>50</td><td>70</td><td>Barley badhi → wheat ghati</td></tr>
+      <tr><td><b>D</b></td><td>75</td><td>40</td><td>Aur barley → aur sacrifice</td></tr>
+      <tr><td><b>E</b></td><td>100</td><td>0</td><td>Full barley, zero wheat</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- T6 (split into 3 cards) -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T6</span><span class="tt">3 Key Questions — KYA produce karein? ❓</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Har economy — India ho ya America — ko 3 sawaal ka jawab dena hota hai: <b>KYA produce karein? KAISE produce karein? KISKE LIYE produce karein?</b> Scarcity ki wajah se yeh 3 questions compulsory hain — resources kam hain, toh decide karo kahan, kaise aur kiske liye lagana hai! Pehla sawaal dekhte hain 👇</div></div>
+  <div class="plabel">✍️ Exam Points — Q1: What to produce?</div>
+  <ul class="pts">
+    <li>Which goods &amp; services, and in what quantities, should be produced to meet the economy's needs.</li>
+    <li><b>Example:</b> water-intensive crops (sugarcane, paddy) vs drought-resistant crops (millets, pulses).</li>
+    <li>Sugarcane = high profit + supports sugar industry; millets = save water + improve soil health + sustainable agriculture.</li>
+    <li>Here <b>opportunity cost of sugarcane</b> = forgone gains from saved water and improved soil health — a trade-off between <b>short-term profit and long-term sustainability</b>.</li>
+  </ul>
+</div>
+
+<!-- T7 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T7</span><span class="tt">3 Key Questions — KISKE LIYE produce karein? 🎯</span><span class="tick">☐ revised</span></div>
+  <div class="plabel">✍️ Exam Points — Q2: For whom to produce?</div>
+  <ul class="pts">
+    <li>Since people have different needs, incomes, tastes and lifestyles — producers decide <b>which group of consumers to serve</b>.</li>
+    <li><b>Shoes example:</b> School shoes (simple, durable, affordable) • Office shoes (comfort, formal, leather) • Sports shoes (rubber soles, lightweight, grip &amp; support) • Casual slippers (comfortable, affordable).</li>
+    <li>Leather shoes → office-goers &amp; higher-income customers; rubber/synthetic → sports players, factory workers (affordable + durable).</li>
+    <li>Producers study what consumers like, their income and demand — so resources are <b>not wasted</b>.</li>
+  </ul>
+</div>
+
+<!-- T8 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T8</span><span class="tt">3 Key Questions — KAISE produce karein? ⚙️</span><span class="tick">☐ revised</span></div>
+  <div class="plabel">✍️ Exam Points — Q3: How to produce?</div>
+  <ul class="pts">
+    <li>Which methods, resources and technologies to use — the right mix of factors of production.</li>
+    <li><b>Labour-intensive</b> = more workers, less machinery (agriculture, handicrafts). <b>Capital-intensive</b> = more machines &amp; technology, fewer workers (steel, automobile industries).</li>
+    <li>The choice depends on: <b>cost of capital, technology available, nature of product</b> (customised clothes need skilled labour; mass production suits machines), <b>availability &amp; cost of labour</b>, and <b>government laws &amp; regulations</b>.</li>
+    <li><b>Garment example:</b> machines mehngi → labour; machines sasti → automation. Designer clothes = skilled labour; mass garments = machines.</li>
+  </ul>
+</div>
+
+<!-- T9 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T9</span><span class="tt">Economic Systems — 3 Tarika 🏛️</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Economic system</b> — the system that defines the mechanisms for the <b>production, consumption and distribution</b> of goods, services and resources in a country.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">3 systems = 3 personalities 😄 — <b>Planned</b>: "Sarkar sab decide karegi" (strict papa 🧔). <b>Market</b>: "Demand-supply khud decide karega, sarkar bas referee" (cool referee 🏃). <b>Mixed</b>: "Dono mil ke" — India wala practical combo (office me dono bosses 👨‍💼👩‍💼). Har system wahi 3 questions (kya/kaise/kiske liye) alag tarah se answer karta hai.</div></div>
+  <div class="plabel">✍️ Exam Points — the 3 systems</div>
+  <ul class="pts">
+    <li><b>Planned economy:</b> a <b>central planning authority</b> of the government (like a planning commission) makes all major decisions — what, how much, how, for whom and at what prices. Government owns most resources (land, factories, banks, transport). Strict <b>permits &amp; licenses</b> → little competition → less motivation to improve quality or innovate. <b>Examples: former Soviet Union, North Korea, Cuba.</b></li>
+    <li><b>Market economy:</b> decisions are made mainly by <b>forces of demand and supply</b> with little government intervention — government acts like a <b>referee</b> (safety, law &amp; order; does not control prices or production). Ownership largely with <b>individuals &amp; private companies</b>. Competition → better quality, lower prices, innovation. <b>Examples: USA, Japan, Hong Kong.</b></li>
+    <li><b>Mixed economy:</b> combines features of both — private individuals, enterprises AND the government play important roles. Large <b>public sector companies</b> exist alongside private players. In reality, <b>almost all economies are mixed</b>. <b>Examples: India (post-1991), China (post-1978), Germany, Sweden.</b></li>
+  </ul>
+  <table class="tt">
+    <thead><tr><th style="width:19%">Basis</th><th>Planned 🧔</th><th>Market 🏃</th><th>Mixed 🤝</th></tr></thead>
+    <tbody>
+      <tr><td><b>Who decides?</b></td><td>Central govt authority</td><td>Demand &amp; supply forces</td><td>Both govt + market</td></tr>
+      <tr><td><b>Ownership</b></td><td>Mostly government</td><td>Mostly private</td><td>Private + public sector</td></tr>
+      <tr><td><b>Competition</b></td><td>Very limited (permits, licenses)</td><td>High → innovation</td><td>Regulated competition</td></tr>
+      <tr><td><b>Examples</b></td><td>Former USSR, North Korea, Cuba</td><td>USA, Japan, Hong Kong</td><td>India, China, Germany, Sweden</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- T10 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T10</span><span class="tt">India's Economic Journey 🇮🇳</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Independence ke baad India <b>"sarkari style"</b> me chala — licenses, permits, sarkari banks, sarkari factories. Phir <b>1991</b> me economy struggling hui (serious economic difficulties) — toh government ne <b>big reforms</b> ki: nakhre kam, competition zyada! Aaj India ek <b>market-oriented mixed economy</b> hai — private players bhi, sarkar bhi. 🚀</div></div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li><b>After Independence:</b> India followed a <b>state-led approach</b> similar to a planned economy — government controlled industries, allocated resources, regulated production through <b>licenses &amp; permits</b>; banking, transport &amp; heavy industries dominated by the <b>public sector</b>.</li>
+    <li><b>By 1991:</b> the country faced <b>serious economic difficulties</b>.</li>
+    <li><b>Reforms of 1991:</b> reduced excessive regulations, encouraged <b>private enterprise</b>, opened the economy to <b>global trade &amp; investment</b>, and increased <b>competition</b>.</li>
+    <li>Result: India gradually shifted towards a more <b>market-oriented system</b> while retaining an important role for the government → today a <b>mixed economy</b>.</li>
+  </ul>
+</div>
+
+<!-- T11 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T11</span><span class="tt">Economic Survey &amp; Economists' Work 📊</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Economic Survey of India</b> — an important <b>annual document</b> prepared by the <b>Ministry of Finance</b> and presented in <b>Parliament before the Union Budget</b>.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Economic Survey = desh ki <b>report card</b> 📔 — pichle saal economy kaisi rahi (agriculture, industry, services, jobs, inflation...). Budget se pehle Parliament me pesh hoti hai, isliye ise <b>Union Budget ka blueprint</b> bhi kehte hain. Aur economists kya karte hain? Data analyse kar ke <b>policy, finance, research, consulting</b> — chaar departments me kaam.</div></div>
+  <div class="plabel">✍️ Exam Points — Economic Survey</div>
+  <ul class="pts">
+    <li>Annual document by the <b>Ministry of Finance</b>, presented in Parliament <b>before the Union Budget</b>.</li>
+    <li>Reviews the country's <b>economic performance</b> of the past year and analyses sectors — agriculture, industry, services, employment, inflation, education, health, infrastructure.</li>
+    <li>Discusses future <b>challenges and opportunities</b>; acts as a <b>blueprint for the Union Budget</b>; explains economic data clearly to citizens.</li>
+  </ul>
+  <div class="plabel">✍️ Exam Points — Scope of economists' work</div>
+  <ul class="pts">
+    <li><b>Policy-making:</b> guiding governments on taxation or welfare spending.</li>
+    <li><b>Finance:</b> advising investors on where to invest.</li>
+    <li><b>Research &amp; education:</b> studying economic trends and teaching.</li>
+    <li><b>Business consulting:</b> helping firms plan growth or improve efficiency.</li>
+    <li>They use data from <b>government reports, economic surveys and companies' financial statements</b> to weigh alternatives, opportunity costs and potential outcomes.</li>
+  </ul>
+</div>
+
+<!-- T12 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T12</span><span class="tt">Quick Recap — One Shot ⚡</span><span class="tick">☐ revised</span></div>
+  <ul class="pts">
+    <li><b>Unlimited wants</b> + <b>limited resources</b> = <b>SCARCITY</b> → <b>CHOICES</b> → every choice has an <b>opportunity cost</b>.</li>
+    <li><b>PPC</b> = trade-off between two goods; points on it = maximum efficient output.</li>
+    <li><b>3 key questions:</b> What to produce? How to produce? For whom to produce?</li>
+    <li><b>3 systems:</b> Planned (govt decides — N. Korea, Cuba) • Market (demand-supply decides — USA, Japan) • Mixed (both — India).</li>
+    <li><b>India:</b> state-led after Independence → <b>1991 reforms</b> → market-oriented mixed economy.</li>
+    <li><b>Economic Survey</b> = annual report card by Finance Ministry, before the Budget.</li>
+  </ul>
+</div>
+
+<!-- DEFINITION BANK CH8 -->
+<div class="defbank">
+  <div class="dbt">📖 Definition Bank — Chapter 8, Part 1 (likhne ke liye ready) 📖</div>
+  <div class="db-grid">
+    <div class="d"><b>Economics</b> — study of how choices are made to optimise limited resources for satisfying needs &amp; wants.</div>
+    <div class="d"><b>Needs</b> — essentials for survival: food, water, shelter.</div>
+    <div class="d"><b>Wants</b> — desires beyond essentials; unlimited and ever-changing.</div>
+    <div class="d"><b>Scarcity</b> — the problem of limited resources vs unlimited wants.</div>
+    <div class="d"><b>Resources</b> — factors used to produce goods &amp; services (natural or human-made).</div>
+    <div class="d"><b>Factors of production</b> — land, labour, capital, technology.</div>
+    <div class="d"><b>Opportunity cost</b> — value of the next best alternative given up when a choice is made.</div>
+    <div class="d"><b>PPC</b> — curve showing combinations of two goods producible with all available resources.</div>
+    <div class="d"><b>Market</b> — place (physical or virtual/internet) where buying &amp; selling of products and services takes place.</div>
+    <div class="d"><b>Economy</b> — the system of production, distribution, trade and consumption of goods &amp; services in an area.</div>
+    <div class="d"><b>Economic entities</b> — participants in economic activity: producers, consumers, government, enterprises.</div>
+    <div class="d"><b>Economic system</b> — mechanism defining production, consumption &amp; distribution of goods, services and resources.</div>
+    <div class="d"><b>Planned economy</b> — resource allocation &amp; prices determined by the government.</div>
+    <div class="d"><b>Market economy</b> — resource allocation &amp; prices determined primarily by market forces.</div>
+    <div class="d"><b>Mixed economy</b> — government &amp; private sector coexist and compete; private players are regulated.</div>
+    <div class="d"><b>Public goods</b> — goods available to all without exclusion (parks, roads, police, street lights, basic education).</div>  </div>
+</div>
+
+<div class="defbank">
+  <div class="dbt">📖 Definition Bank — Chapter 8 (Part 2) 📖</div>
+  <div class="db-grid">
+    <div class="d"><b>Labour-intensive</b> — production using more workers and less machinery.</div>
+    <div class="d"><b>Capital-intensive</b> — production using more machines/technology and fewer workers.</div>
+    <div class="d"><b>Policy</b> — a course or principle of action adopted by an organisation or government.</div>
+    <div class="d"><b>Data</b> — facts and statistics collected for reference or analysis; <b>Surveys</b> — systematic collection of such data.</div>
+  </div>
+</div>
+
+<!-- MCQ CH8 -->
+<div class="sec-h"><span class="sq">✅</span><span class="st">MCQ Challenge — 10 Questions</span><span class="sline"></span></div>
+<div class="mcq-score"><span class="ms">🎯 Solve karne ke baad score bharo →</span><div class="blank"></div><span class="ms">/ 10</span></div>
+
+<div class="mcq"><div class="mq"><span class="qn">Q1.</span> The word 'Economics' comes from the Greek word <i>oikonomia</i>, which means —</div>
+  <div class="opts"><div class="op" data-l="a">wealth creation</div><div class="op" data-l="b">household management</div><div class="op" data-l="c">study of markets</div><div class="op" data-l="d">pricing of resources</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q2.</span> Which of the following is a <b>need</b> and not a want?</div>
+  <div class="opts"><div class="op" data-l="a">gaming console</div><div class="op" data-l="b">vacation abroad</div><div class="op" data-l="c">drinking water</div><div class="op" data-l="d">designer shoes</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q3.</span> The basic economic problem arises because —</div>
+  <div class="opts"><div class="op" data-l="a">wants are limited, resources are unlimited</div><div class="op" data-l="b">wants are unlimited, resources are limited</div><div class="op" data-l="c">both wants and resources are limited</div><div class="op" data-l="d">both wants and resources are unlimited</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q4.</span> When you choose one alternative, the <b>value of the option given up</b> is called —</div>
+  <div class="opts"><div class="op" data-l="a">total cost</div><div class="op" data-l="b">marginal cost</div><div class="op" data-l="c">opportunity cost</div><div class="op" data-l="d">fixed cost</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q5.</span> The Production Possibility Curve (PPC) shows —</div>
+  <div class="opts"><div class="op" data-l="a">profit margins of firms</div><div class="op" data-l="b">combinations of two goods produced using all resources</div><div class="op" data-l="c">the demand schedule of a consumer</div><div class="op" data-l="d">growth of population</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q6.</span> Which of these is <b>NOT</b> one of the three key questions of economics?</div>
+  <div class="opts"><div class="op" data-l="a">What to produce?</div><div class="op" data-l="b">How to produce?</div><div class="op" data-l="c">For whom to produce?</div><div class="op" data-l="d">When to consume?</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q7.</span> In a planned economy, major economic decisions are taken by —</div>
+  <div class="opts"><div class="op" data-l="a">market forces of demand &amp; supply</div><div class="op" data-l="b">the central planning authority of the government</div><div class="op" data-l="c">consumers through voting</div><div class="op" data-l="d">large private corporations</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q8.</span> Which of the following is best described as a <b>market economy</b>?</div>
+  <div class="opts"><div class="op" data-l="a">North Korea</div><div class="op" data-l="b">Cuba</div><div class="op" data-l="c">Japan</div><div class="op" data-l="d">former Soviet Union</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q9.</span> India's economic reforms of 1991 —</div>
+  <div class="opts"><div class="op" data-l="a">increased licences and permits</div><div class="op" data-l="b">reduced regulations &amp; opened the economy to global trade</div><div class="op" data-l="c">nationalised all private banks</div><div class="op" data-l="d">banned private enterprise</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q10.</span> A good whose use by some people does <b>not</b> prevent others from using it (e.g., parks, street lights) is a —</div>
+  <div class="opts"><div class="op" data-l="a">luxury good</div><div class="op" data-l="b">substitute good</div><div class="op" data-l="c">public good</div><div class="op" data-l="d">complementary good</div></div></div>
+
+<div class="anskey">
+  <div class="akt">🔑 Answer Key — Chapter 8</div>
+  <div class="ans-strip"><span>1 → b</span><span>2 → c</span><span>3 → b</span><span>4 → c</span><span>5 → b</span><span>6 → d</span><span>7 → b</span><span>8 → c</span><span>9 → b</span><span>10 → c</span></div>
+  <div class="xpls">
+    <div class="x"><b>1:</b> oikos (household) + nemein (management) = household management.</div>
+    <div class="x"><b>2:</b> Needs are survival essentials — food, water, shelter; rest are wants.</div>
+    <div class="x"><b>3:</b> Unlimited wants + limited (scarce) resources = the central problem → choices.</div>
+    <div class="x"><b>4:</b> Opportunity cost = value of what is given up when choosing an alternative.</div>
+    <div class="x"><b>5:</b> PPC = combinations of two goods with all resources used efficiently.</div>
+    <div class="x"><b>6:</b> The three questions are what, how, for whom — "when to consume" is not one.</div>
+    <div class="x"><b>7:</b> Planned = central authority (govt) decides what/how/for whom &amp; prices.</div>
+    <div class="x"><b>8:</b> Japan is a market economy (USA, Hong Kong too); others are planned.</div>
+    <div class="x"><b>9:</b> 1991 reforms reduced excessive regulations, encouraged private enterprise, opened trade.</div>
+    <div class="x"><b>10:</b> Public goods are non-excludable — parks, roads, police, street lights.</div>
+  </div>
+</div>
+
+<!-- QA CH8 -->
+<div class="sec-h"><span class="sq">📝</span><span class="st">Big Questions — Exam-Ready Answers (points me)</span><span class="sline"></span></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q1.</span> What is economics? Explain its origin and what it deals with.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>Economics is the discipline that deals with how <b>choices are made by optimising limited resources</b> to satisfy needs and wants.</li>
+    <li>The word comes from the Greek <b>oikonomia</b> — <b>oikos</b> (household) + <b>nemein</b> (management) — meaning 'household management'.</li>
+    <li>Just as families must plan with limited income, <b>nations</b> must plan how to use resources efficiently.</li>
+    <li>It studies how economic entities — <b>consumers, producers, governments, financial institutions</b> — interact in an economy.</li>
+    <li>It explains wages, distribution of wealth, price determination, and the effect of policies and trade on markets and employment.</li>
+    <li>Good economic decisions are based on <b>data and analysis</b>, not guesswork.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q2.</span> Distinguish between needs and wants. Why can all wants not be satisfied?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Needs</b> are essentials for survival — food, water, shelter.</li>
+    <li><b>Wants</b> are desires beyond essentials — gadgets, vacations, luxury items.</li>
+    <li>Wants are <b>unlimited and keep changing</b> — a person may upgrade from bicycle → motorbike → car.</li>
+    <li>All wants cannot be satisfied because <b>resources are limited</b> in quantity.</li>
+    <li>Hence individuals, enterprises and governments must constantly <b>choose</b> — and every choice sacrifices an alternative.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q3.</span> What is scarcity? Why is it called the central problem of economics?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>Scarcity is the condition where <b>resources are limited</b> while <b>human wants are unlimited</b>.</li>
+    <li>Both natural resources (water, coal) and human-made resources (capital, technology) are limited in quantity.</li>
+    <li>Resources also have <b>competing/alternative uses</b> — e.g., steel can make medical equipment, refrigerators or aircraft.</li>
+    <li>Because of scarcity, every economy must answer <b>what, how and for whom to produce</b>.</li>
+    <li>Thus scarcity forces <b>choice</b>, and every choice creates an <b>opportunity cost</b> — making it the central problem of economics.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q4.</span> Explain the concept of opportunity cost with the farmer's example.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>Opportunity cost is the <b>value of what is given up</b> when one alternative is chosen over others.</li>
+    <li>A farmer with a piece of land can grow either <b>barley or wheat</b>.</li>
+    <li>With limited land, water and labour, he must decide <b>how much of each crop</b> to produce.</li>
+    <li>When he moves from combination A to E (growing more barley), <b>some wheat must be sacrificed</b> — this sacrifice is the opportunity cost of growing barley.</li>
+    <li>Opportunity cost applies to all decision-makers — households (pocket money), enterprises, and governments (highways vs hospitals).</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q5.</span> What is the Production Possibility Curve? What do the points on the curve show?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>The PPC is the curve showing <b>different combinations of two goods</b> that can be produced using <b>all available resources</b>.</li>
+    <li>It shows the <b>trade-off</b> between the two goods — e.g., barley and wheat.</li>
+    <li>It is <b>downward sloping</b>: producing more of one good requires sacrificing the other.</li>
+    <li>All points <b>on the PPC</b> show the <b>maximum output</b> achievable through <b>efficient use of resources</b>, avoiding wastage.</li>
+    <li>It helps enterprises and governments in <b>better planning and decision-making</b>.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q6.</span> Explain the three key questions that every economy must answer, with examples.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>What to produce?</b> — which goods and services, and in what quantities; e.g., water-intensive sugarcane/paddy vs drought-resistant millets/pulses; choosing sugarcane means giving up the gains of saved water and soil health (opportunity cost).</li>
+    <li><b>For whom to produce?</b> — which group of consumers to serve; e.g., school shoes (simple, durable, affordable), office shoes (formal, leather), sports shoes (grip, lightweight) — produced for different needs and purchasing power.</li>
+    <li><b>How to produce?</b> — choice of technique: <b>labour-intensive</b> (agriculture, handicrafts) or <b>capital-intensive</b> (steel, automobiles); depends on cost of capital, technology, product type, labour availability and government regulations.</li>
+    <li>All three arise from <b>scarcity</b> — limited resources must be allocated among unlimited wants.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q7.</span> Compare the three types of economic systems.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Planned economy:</b> a central planning authority of the government makes all major decisions — what, how, for whom, and prices; government owns most resources; strict permits and licenses restrict competition and reduce motivation to innovate. Examples: former Soviet Union, North Korea, Cuba.</li>
+    <li><b>Market economy:</b> decisions are driven by <b>demand and supply</b> with little government intervention; the government acts like a <b>referee</b> ensuring safety and law &amp; order; private ownership dominates; competition brings better quality, lower prices and innovation. Examples: USA, Japan, Hong Kong.</li>
+    <li><b>Mixed economy:</b> combines both — private players and the government coexist and compete; large public sector companies operate alongside private enterprises; private players are regulated. Examples: India (post-1991), China (post-1978), Germany, Sweden.</li>
+    <li>In reality, <b>almost all economies are mixed</b> — pure systems rarely exist.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q8.</span> Why do pure market or pure planned economies rarely exist? Why is a mixed economy considered more practical?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>A pure <b>planned</b> system restricts competition — few enterprises, less innovation, and the government may fail to match production with people's needs.</li>
+    <li>A pure <b>market</b> system can produce unfair outcomes — markets allocate goods by ability to pay, so essentials may become unaffordable for vulnerable groups.</li>
+    <li>A <b>mixed economy</b> combines strengths — private enterprise brings competition, innovation and efficiency; government brings welfare programmes, public goods, fair competition rules and consumer protection.</li>
+    <li>It allows flexibility — the degree of government involvement can adjust to the country's needs (e.g., India's shift after 1991).</li>
+    <li>Hence almost all real economies — even the USA and Singapore — are mixed in practice.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q9.</span> Describe India's economic journey since Independence.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>After Independence, India followed a <b>state-led approach</b> similar to a planned economy.</li>
+    <li>The government controlled industries, allocated resources and regulated production through <b>licenses and permits</b>.</li>
+    <li>Key sectors — <b>banking, transport, heavy industries</b> — were dominated by the public sector.</li>
+    <li>By <b>1991</b>, the country faced serious economic difficulties.</li>
+    <li>The government introduced major <b>reforms</b>: reduced excessive regulations, encouraged private enterprise, opened the economy to global trade and investment, and increased competition.</li>
+    <li>Result: India gradually became a <b>market-oriented mixed economy</b> with the government still playing an important role.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q10.</span> What is the Economic Survey of India? What is the scope of economists' work?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>The Economic Survey is an important <b>annual document</b> prepared by the <b>Ministry of Finance</b>.</li>
+    <li>It is presented in <b>Parliament before the Union Budget</b>.</li>
+    <li>It reviews the past year's economic performance and analyses sectors — agriculture, industry, services, employment, inflation, education, health, infrastructure.</li>
+    <li>It discusses future challenges and opportunities and acts as a <b>blueprint for the Union Budget</b>.</li>
+    <li><b>Scope of economists' work:</b> policy-making (taxation, welfare), finance (advising investors), research &amp; education (studying trends, teaching), and business consulting (helping firms plan growth and efficiency).</li>
+  </ul></div>
+
+</div><!-- /ch8 -->
+
+<!-- ================================================= CHAPTER 9 -->
+<div class="ch9">
+
+<div class="ch-open">
+  <div class="big-emoji">🧩</div>
+  <div class="okick">Chapter 9 &bull; Economics</div>
+  <div class="otitle">The Price Puzzle:<br>What Drives the Market</div>
+  <div class="osub">Mehngai ka khel — kaun control karta hai? Do badi taqtein: <b>demand</b> aur <b>supply</b>. Is chapter me: laws of demand &amp; supply, market equilibrium, aur sarkar ka role — price ceiling, price floor, public goods.</div>
+  <div class="ochips"><span>🔑 10 Topics</span><span>📖 20+ Definitions</span><span>✅ 10 MCQs</span><span>📝 10 Q&amp;A</span></div>
+</div>
+
+<div class="sec-h"><span class="sq">📚</span><span class="st">Notes — Har Topic, Poori Samajh</span><span class="sline"></span></div>
+
+<!-- T1 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T1</span><span class="tt">Demand — Chahna + Khareed Paana 🛒</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Demand</b> — the quantity of a product that people are <b>willing AND able</b> to buy at a <b>particular price</b>, depending on their needs, preferences, season, trend and income.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Sirf chahna demand nahi hai! Ferrari chahiye sabko 🏎️ but khareedne ki <b>purchasing power</b> kisi ke paas nahi. Demand = <b>desire + ability to pay</b>. Aur ye price pe depend karti hai — sasta hai toh zyada log khareedte hain, mehnga hai toh kam. Isi ko agla topic me law me dekhte hain.</div></div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>Demand = <b>willingness + ability (purchasing power)</b> to buy at a particular price.</li>
+    <li>It is <b>not just desire</b> — desire without purchasing power is not demand.</li>
+    <li>Depends on: needs, preferences, <b>season, trend and income</b>.</li>
+    <li><b>Purchasing power</b> — a measure of how much one unit of currency can buy at a particular time.</li>
+  </ul>
+</div>
+
+<!-- T2 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T2</span><span class="tt">Law of Demand — Utaavla Seesaw 📉</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Law of Demand</b> — as the price of a product <b>rises</b>, its quantity demanded <b>falls</b>; as price <b>falls</b>, quantity demanded <b>rises</b> — an <b>inverse relationship</b> (other factors constant).</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Aam (mango) season shuru — <b>₹150/kg</b> → Srivalli sirf <b>1 kg</b>. Supply badhi, price <b>₹100</b> → <b>2 kg</b>. Full season me <b>₹50</b> → <b>3 kg</b>! 🥭 Matlab: price neeche, demand upar — <b>ulta relation</b>. Isko graph pe draw karo toh curve <b>neeche ki taraf jhukti</b> hai (downward sloping).</div></div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>Price ↑ → quantity demanded ↓; price ↓ → quantity demanded ↑ — <b>inverse relationship</b>.</li>
+    <li><b>Individual demand</b> — quantity one consumer wants to buy at different prices (other factors constant).</li>
+    <li>The table of price–quantity is the <b>demand schedule</b>; drawn on a graph it becomes the <b>demand curve</b> (DD').</li>
+    <li>The demand curve slopes <b>downward</b> from left to right.</li>
+  </ul>
+  <table class="tt">
+    <thead><tr><th>Price of mango/kg</th><th>Srivalli buys</th><th>Point on curve</th></tr></thead>
+    <tbody>
+      <tr><td>₹150</td><td>1 kg</td><td>A</td></tr>
+      <tr><td>₹100</td><td>2 kg</td><td>B</td></tr>
+      <tr><td>₹50</td><td>3 kg</td><td>C</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- T3 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T3</span><span class="tt">Individual vs Market Demand + Curve 📊</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Individual demand</b> — quantity one consumer buys at different prices. &nbsp;|&nbsp; <b>Market demand</b> — the <b>sum of all individual demands</b> at each price.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Srivalli + Alex + Israt — teeno ki demand <b>add</b> karo = market demand. 🧮 ₹50 pe: Srivalli 3 + Alex 6 + Israt 9 = <b>18 kg</b>. Ek interesting baat (book me bhi): market demand curve individual curve se <b>flatter</b> hoti hai — kyunki ek price change pe itne saare log react karte hain ki total quantity response <b>bada</b> hota hai!</div></div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>Market demand = <b>Q1 + Q2 + Q3 + ...</b> (sum of all individual demands at each price).</li>
+    <li>Plotting market demand at different prices gives the <b>market demand curve</b> (DmDm').</li>
+    <li>The market demand curve is <b>flatter</b> than an individual curve — the same price change creates a <b>larger total quantity response</b> (₹150→₹50: Srivalli +2 kg, but market +12 kg).</li>
+  </ul>
+  <table class="tt">
+    <thead><tr><th>Price</th><th>Q1 (Srivalli)</th><th>Q2 (Alex)</th><th>Q3 (Israt)</th><th>Market Demand</th></tr></thead>
+    <tbody>
+      <tr><td>₹150</td><td>1 kg</td><td>2 kg</td><td>3 kg</td><td><b>6 kg</b></td></tr>
+      <tr><td>₹100</td><td>2 kg</td><td>4 kg</td><td>6 kg</td><td><b>12 kg</b></td></tr>
+      <tr><td>₹50</td><td>3 kg</td><td>6 kg</td><td>9 kg</td><td><b>18 kg</b></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- T4 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T4</span><span class="tt">Demand ke Determinants (price ke alawa) 🎛️</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Price same rahe, phir bhi demand badal sakti hai — kyunki aur bhi factors hain: <b>related goods</b> (substitute/complement), <b>income</b>, <b>taste</b>, <b>population</b>, <b>season</b>, <b>future expectations</b>. Jaise: coffee mehngi hui toh log <b>chai</b> peene lage (substitute!). Petrol mehnga toh <b>car ki demand giri</b> (complement!). 🚗⛽</div></div>
+  <div class="plabel">✍️ Exam Points — sab determinants</div>
+  <ul class="pts">
+    <li><b>Price of related goods —</b> <b>Substitute goods</b> replace each other (tea ↔ coffee, mangoes ↔ bananas): price of one ↑ → demand for the other ↑. <b>Complementary goods</b> are used together (car + petrol, printer + cartridges, movie ticket + popcorn): price of one ↑ → demand for the other ↓.</li>
+    <li><b>Income:</b> when household income rises, consumers buy more or better quality → quantity demanded rises (prices constant).</li>
+    <li><b>Taste &amp; preference:</b> personal likes decide demand — Srivalli loves mangoes and won't substitute oranges even if cheaper.</li>
+    <li><b>Population size &amp; composition:</b> India = most populous nation → huge domestic demand. More children → sports shoes; more working adults → formal shoes; more elderly → comfortable/orthopaedic shoes.</li>
+    <li><b>Seasonality:</b> demand changes with weather, festivals, habits — bookshops at new session, sweets in festive season, sweaters in winter.</li>
+    <li><b>Future price expectations:</b> expect prices to fall → postpone purchases (demand ↓ now); expect rise → buy immediately (demand ↑ now) — e.g., waiting for Diwali/New Year discounts.</li>
+  </ul>
+  <div class="define" style="margin-top:6px;"><div class="dl">📖 Bonus Definition</div><div class="dd"><b>Diminishing marginal utility</b> — the extra satisfaction (utility) from each additional unit keeps <b>falling</b> as we consume more. Pehla aam 😍, teesra aam 😐 — isliye willingness to pay bhi girti hai, aur demand price ke saath inverse me chalti hai.</div></div>
+</div>
+
+<!-- T5 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T5</span><span class="tt">Supply &amp; Law of Supply 📦</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Supply</b> — the quantity of a product that sellers are <b>willing and able to offer</b> at a particular price. &nbsp;|&nbsp; <b>Law of Supply</b> — as price <b>rises</b>, quantity supplied <b>rises</b>; as price falls, quantity supplied falls — a <b>direct relationship</b>.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Demand ka ulta! 💁 Seller ki soch: price zyada → <b>profit zyada</b> → zyada bechuga, aur naye firms bhi market me ghuseinge. Price kam → profit kam → supply bhi kam. Seller A: ₹50 pe 1 kg, ₹100 pe 2 kg, ₹150 pe 3 kg. Isliye supply curve <b>upar ki taraf</b> chadhti hai (upward sloping) 📈 — demand wali seesaw ka ulta.</div></div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>Supply = willingness + ability of <b>sellers</b> to offer a product at a particular price.</li>
+    <li><b>Law of supply (direct relationship):</b> price ↑ → quantity supplied ↑ — higher prices increase profitability and attract new firms.</li>
+    <li><b>Individual supply</b> — quantity one seller offers at different prices; <b>market supply</b> — sum of all sellers (A+B+C = QS).</li>
+    <li>The supply curve slopes <b>upward</b> (e.g., sellers A, B, C: at ₹50 supply 6 kg, ₹100 → 12 kg, ₹150 → 18 kg in total).</li>
+    <li>Season logic: start of mango season — supply low → prices high; mid-season — supply ↑ → prices fall.</li>
+  </ul>
+</div>
+
+<!-- T6 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T6</span><span class="tt">Supply ke Determinants 🎚️</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Price ke alawa supply bhi kai cheezo pe depend karta hai: farmer soch raha hai <b>wheat ya chana</b> ugaye (jo mehnga, wahi boyega!); market me <b>sellers zyada</b> toh supply zyada; <b>technology improve</b> hui (drip irrigation 🌱, cold storage) toh production badh ke supply bhi; aur <b>bhav badhne ki ummeed</b> hai toh aaj bechna rok lo (aalu wale dhaniye kar lete hain!).</div></div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li><b>Price of related goods:</b> supply of one good depends on profitability of alternatives — wheat prices low but chickpea prices high → farmer grows more chickpeas next season.</li>
+    <li><b>Number of sellers:</b> more sellers → higher competition &amp; production → market supply exceeds demand → prices fall. Fewer sellers → lower supply → prices rise.</li>
+    <li><b>Technology:</b> improvement reduces cost of production → producers make &amp; supply more — e.g., drip irrigation, weather sensors raise crop output; cold storage lets mangoes reach distant markets, increasing supply.</li>
+    <li><b>Future expectations:</b> if producers expect higher demand/prices ahead, they produce more (supply ↑); expecting lower demand → cut production; e.g., potato wholesalers hold back stock to sell later at higher prices.</li>
+  </ul>
+</div>
+
+<!-- T7 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T7</span><span class="tt">Market Equilibrium — The Perfect Balance ⚖️</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Market equilibrium</b> — the point where <b>supply equals demand</b>; there is no excess supply (surplus) or excess demand (shortage), and prices remain stable unless external factors change.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Wo price jahan <b>buyers jitna khareedna chahte hain = sellers jitna bechna chahte hain</b>. Book example: <b>₹100 pe demand 12 kg = supply 12 kg</b> → EQUILIBRIUM! ✨ Is point pe market "cleared" ho jaata hai — na shortage, na surplus, aur price pe change ka koi pressure nahi. Graph me ye point <b>E</b> hai jahan demand curve supply curve ko kaat-ti hai.</div></div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>Prices are determined by the <b>interaction of demand and supply</b> — negotiation between what buyers will pay and sellers will accept.</li>
+    <li><b>Equilibrium price = ₹100, equilibrium quantity = 12 kg</b> (chapter example) — where Qd = Qs.</li>
+    <li><b>At a lower price (₹40):</b> Qd (38 kg) &gt; Qs (6 kg) → <b>excess demand</b> (shortage) → pressure for price to rise.</li>
+    <li><b>At a higher price (₹150):</b> Qs (43 kg) &gt; Qd (8 kg) → <b>excess supply</b> (surplus) → pressure for price to fall.</li>
+    <li>At equilibrium the market is <b>'cleared'</b> — no shortage, no surplus, no pressure to change.</li>
+  </ul>
+  <table class="tt">
+    <thead><tr><th>Price</th><th>Qd (kg)</th><th>Qs (kg)</th><th>Condition</th><th>Outcome</th></tr></thead>
+    <tbody>
+      <tr><td>₹40</td><td>38</td><td>6</td><td>Qs &lt; Qd</td><td><b>Excess Demand</b> (shortage)</td></tr>
+      <tr><td>₹100</td><td>12</td><td>12</td><td>Qs = Qd</td><td><b>Market Equilibrium</b> ⭐</td></tr>
+      <tr><td>₹150</td><td>8</td><td>43</td><td>Qs &gt; Qd</td><td><b>Excess Supply</b> (surplus)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- T8 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T8</span><span class="tt">Real World — Markets are Dynamic! 🌪️</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Theory me equilibrium ek fixed point hai, but <b>real world me sab chalta rehta hai</b> — technology, wages, wars, elections, pandemic, mausam! 😵 Isliye market hamesha <b>ek naye equilibrium ki taraf adjust</b> karta rehta hai, kabhi settle nahi hota. COVID me masks 🏷️, aur Goa ke hotels — dono perfect examples.</div></div>
+  <div class="plabel">✍️ Exam Points</div>
+  <ul class="pts">
+    <li>In the real world, markets are <b>dynamic</b> — technology, wages, interest rates, wars, political events, pandemics, weather and disasters constantly change demand &amp; supply.</li>
+    <li>So equilibrium is <b>never stable</b> — the market always keeps adjusting towards a <b>new equilibrium</b>.</li>
+    <li><b>COVID-19 masks (2020):</b> demand surged rapidly → supply couldn't catch up → prices rose sharply → suppliers adjusted, prices fell → pandemic over → demand reduced → prices back to pre-pandemic levels.</li>
+    <li><b>Hotel tariffs (Goa, 100 rooms):</b> off-season weekday (July Monday) ₹1,500 • tourist-season weekend (December Saturday) ₹8,000 • New Year's Eve ₹25,000 — and a 40% overnight cut if a group booking cancels, to fill empty rooms.</li>
+    <li>Tariff changes depend on: how fast rooms are booking, tariffs of nearby hotels, festivals/events, weather forecasts, days left before arrival, past booking trends.</li>
+  </ul>
+</div>
+
+<!-- T9 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T9</span><span class="tt">Role of Government — Referee Mode 🏛️</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Price ceiling</b> — an imposed price control setting the <b>maximum</b> price a seller can charge. &nbsp;|&nbsp; <b>Price floor</b> — an imposed limit on how <b>low</b> a price can go; to be effective it must be set <b>above the equilibrium price</b>. &nbsp;|&nbsp; <b>Monopoly</b> — a market with a <b>single seller</b> controlling the entire supply of a unique product, with no close substitutes.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Market hamesha fair nahi hota — dawai ₹5000 ho jaye toh? 🤬 Tab sarkar referee banti hai: <b>ceiling</b> = chhat (upar ki limit — zyada mehnga nahi bech sakte, jaise sanitiser ₹100/200ml), <b>floor</b> = zameen (neeche ki limit — jaise minimum wage, taaki mazdoor ko loota na jaye). Ek akela seller poora market kaabu kare = <b>monopoly</b> — ye bhi sarkar check karti hai.</div></div>
+  <div class="plabel">✍️ Exam Points — why &amp; how government intervenes</div>
+  <ul class="pts">
+    <li>Markets allocate goods by <b>willingness &amp; ability to pay</b> — essentials can become unaffordable, so fairness &amp; equity are needed for <b>vulnerable, low-income groups</b>.</li>
+    <li><b>Price ceiling:</b> maximum prices for essential goods like medicines — prevents overcharging.</li>
+    <li><b>Price floor:</b> e.g., <b>minimum wage</b> — ensures workers earn enough; effective only <b>above equilibrium price</b>.</li>
+    <li><b>Monopoly</b> harms consumers — higher prices, poorer quality, restricted supply; government keeps price &amp; quantity in check.</li>
+    <li><b>Regulators</b> ensure transparency: <b>RBI</b> (banking), <b>CCPA</b> (consumer rights &amp; unfair trade), <b>TRAI</b> (telecom), <b>SEBI</b> (securities market).</li>
+    <li><b>COVID sanitiser case:</b> demand surged → hoarding &amp; black marketing → government declared sanitisers essential under the <b>Essential Commodities Act, 1955</b>, capping MRP at <b>₹100 for 200 ml</b>; soon many companies started production and prices normalised.</li>
+    <li><b>Hoarding</b> — accumulating goods beyond immediate need (fear of shortage / expected price rise); <b>Black marketing</b> — illegal trade of banned or regulated goods.</li>
+  </ul>
+</div>
+
+<!-- T10 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T10</span><span class="tt">Public Goods + Limits of Intervention 🚧</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Public goods</b> — goods &amp; services provided by the government for the benefit of all citizens — roads, bridges, public parks, street lighting, national defence, sanitation; their use by some does not prevent others from using them.</div></div>
+  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb"><b>Park wali story</b> 🏞️: mohalle me park banwana hai, har family ₹5,000 de. Sab sochte hain — "dus log paise denge toh park ban jayega, main <b>free me</b> ghoom lunga!" 😜 Result: paise poore nahi aate, park kabhi nahi banta. Isi ko kehte hai <b>free-rider problem</b> — isliye aisi cheezein <b>sarkar</b> ko hi banana padti hai. But dhyan — zyada intervention bhi nuksaan karta hai (next points!).</div></div>
+  <div class="plabel">✍️ Exam Points — public goods</div>
+  <ul class="pts">
+    <li>Private companies don't provide them because they <b>do not generate direct profit</b>.</li>
+    <li>Examples: roads, bridges, parks, street lighting, national defence, sanitation &amp; drainage systems.</li>
+    <li>Government provision ensures <b>social welfare, economic development and equal access</b> to essential services.</li>
+  </ul>
+  <div class="plabel">✍️ Exam Points — limitations of government intervention</div>
+  <ul class="pts">
+    <li><b>Price distortions &amp; reduced producer incentives:</b> if govt fixes wheat at ₹20/kg when market price is ₹30 — farmers receive less → reduced production and shortages.</li>
+    <li><b>Compliance burdens:</b> extensive regulations, licenses, permits — e.g., a small restaurant needs food safety, fire safety, pollution control and local clearances; time &amp; cost discourage small entrepreneurs (hurts <b>ease of doing business</b>).</li>
+    <li><b>Discourages innovation &amp; entrepreneurship:</b> heavy regulation and price controls reduce incentives — farmers won't invest in better seeds or irrigation if returns are inadequate → long-term productivity falls.</li>
+  </ul>
+  <div class="exbox"><span class="xt">🧠 Last-line for answers:</span> A democratic government is accountable to the people — it must intervene to protect welfare, but <b>carefully and in balance</b>. ✔️</div>
+</div>
+
+<!-- DEFINITION BANK CH9 -->
+<div class="defbank">
+  <div class="dbt">📖 Definition Bank — Chapter 9, Part 1 (likhne ke liye ready) 📖</div>
+  <div class="db-grid">
+    <div class="d"><b>Demand</b> — quantity buyers are willing &amp; able to purchase at a particular price.</div>
+    <div class="d"><b>Law of demand</b> — price &amp; quantity demanded move in opposite directions (inverse relation).</div>
+    <div class="d"><b>Individual demand</b> — one consumer's purchase quantity at different prices.</div>
+    <div class="d"><b>Market demand</b> — sum of all individual demands at each price.</div>
+    <div class="d"><b>Demand schedule</b> — table of price vs quantity demanded; <b>demand curve</b> — its graph (DD', slopes downward).</div>
+    <div class="d"><b>Substitute goods</b> — replace each other (tea–coffee); price of one ↑ → demand for other ↑.</div>
+    <div class="d"><b>Complementary goods</b> — used together (car–petrol); price of one ↑ → demand for other ↓.</div>
+    <div class="d"><b>Related goods</b> — products whose demand is interconnected.</div>
+    <div class="d"><b>Purchasing power</b> — how much one unit of currency can buy at a particular time.</div>
+    <div class="d"><b>Diminishing marginal utility</b> — extra satisfaction from each additional unit falls as consumption increases.</div>
+      </div>
+</div>
+
+<div class="defbank">
+  <div class="dbt">📖 Definition Bank — Chapter 9 (Part 2) 📖</div>
+  <div class="db-grid">
+    <div class="d"><b>Supply</b> — quantity sellers are willing &amp; able to offer at a particular price.</div>
+    <div class="d"><b>Law of supply</b> — price &amp; quantity supplied move together (direct relation); supply curve slopes upward.</div>
+    <div class="d"><b>Market supply</b> — sum of all individual sellers' supplies (A+B+C = QS).</div>
+    <div class="d"><b>Market equilibrium</b> — point where quantity demanded = quantity supplied; market is 'cleared'.</div>
+    <div class="d"><b>Equilibrium price/quantity</b> — the price (₹100) &amp; quantity (12 kg) at which Qd = Qs.</div><div class="d"><b>Price ceiling</b> — government-set maximum price (e.g., sanitiser cap).</div>
+    <div class="d"><b>Price floor</b> — government-set minimum price (e.g., minimum wage); effective above equilibrium.</div>
+    <div class="d"><b>Monopoly</b> — single seller of a unique product, no close substitutes, high price-setting power.</div>
+    <div class="d"><b>Public goods</b> — non-excludable goods provided by the government for all (roads, parks, defence).</div>
+    <div class="d"><b>Hoarding</b> — stocking goods beyond need fearing shortages / expecting price rise.</div>
+    <div class="d"><b>Black marketing</b> — illegal trade of banned or regulated goods &amp; services.</div>
+    <div class="d"><b>Revenue</b> — total money a business earns from sales before any expenses are deducted.</div>
+  </div>
+</div>
+
+<!-- MCQ CH9 -->
+<div class="sec-h"><span class="sq">✅</span><span class="st">MCQ Challenge — 10 Questions</span><span class="sline"></span></div>
+<div class="mcq-score"><span class="ms">🎯 Solve karne ke baad score bharo →</span><div class="blank"></div><span class="ms">/ 10</span></div>
+
+<div class="mcq"><div class="mq"><span class="qn">Q1.</span> Demand for a product is best defined as —</div>
+  <div class="opts"><div class="op" data-l="a">just the desire to buy something</div><div class="op" data-l="b">willingness + ability to buy at a particular price</div><div class="op" data-l="c">the quantity sellers offer for sale</div><div class="op" data-l="d">money spent on advertising</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q2.</span> According to the law of demand, when the price of a product rises —</div>
+  <div class="opts"><div class="op" data-l="a">quantity demanded rises</div><div class="op" data-l="b">quantity demanded falls</div><div class="op" data-l="c">supply increases immediately</div><div class="op" data-l="d">demand becomes infinite</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q3.</span> Tea and coffee are examples of —</div>
+  <div class="opts"><div class="op" data-l="a">complementary goods</div><div class="op" data-l="b">substitute goods</div><div class="op" data-l="c">public goods</div><div class="op" data-l="d">luxury goods</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q4.</span> If petrol prices rise sharply, the demand for cars is likely to —</div>
+  <div class="opts"><div class="op" data-l="a">rise</div><div class="op" data-l="b">fall, as they are complementary goods</div><div class="op" data-l="c">remain exactly the same</div><div class="op" data-l="d">first rise, then become zero</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q5.</span> The satisfaction from each extra unit consumed keeps falling — this principle is called —</div>
+  <div class="opts"><div class="op" data-l="a">law of supply</div><div class="op" data-l="b">market equilibrium</div><div class="op" data-l="c">diminishing marginal utility</div><div class="op" data-l="d">opportunity cost</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q6.</span> The supply curve slopes —</div>
+  <div class="opts"><div class="op" data-l="a">downward, like the demand curve</div><div class="op" data-l="b">upward, showing a direct price–quantity relation</div><div class="op" data-l="c">in a complete circle</div><div class="op" data-l="d">horizontally, parallel to the x-axis</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q7.</span> Market equilibrium is the point where —</div>
+  <div class="opts"><div class="op" data-l="a">demand is greater than supply</div><div class="op" data-l="b">supply is greater than demand</div><div class="op" data-l="c">quantity demanded equals quantity supplied</div><div class="op" data-l="d">the government fixes the price</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q8.</span> In the chapter's mango example, the equilibrium price and quantity were —</div>
+  <div class="opts"><div class="op" data-l="a">₹40 and 6 kg</div><div class="op" data-l="b">₹100 and 12 kg</div><div class="op" data-l="c">₹150 and 43 kg</div><div class="op" data-l="d">₹50 and 18 kg</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q9.</span> The government's maximum price limit for an essential good (like the sanitiser cap of ₹100/200 ml) is called a —</div>
+  <div class="opts"><div class="op" data-l="a">price floor</div><div class="op" data-l="b">price ceiling</div><div class="op" data-l="c">market equilibrium</div><div class="op" data-l="d">tariff wall</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q10.</span> Roads, street lights, public parks and national defence are examples of —</div>
+  <div class="opts"><div class="op" data-l="a">substitute goods</div><div class="op" data-l="b">complementary goods</div><div class="op" data-l="c">public goods</div><div class="op" data-l="d">capital-intensive goods</div></div></div>
+
+<div class="anskey">
+  <div class="akt">🔑 Answer Key — Chapter 9</div>
+  <div class="ans-strip"><span>1 → b</span><span>2 → b</span><span>3 → b</span><span>4 → b</span><span>5 → c</span><span>6 → b</span><span>7 → c</span><span>8 → b</span><span>9 → b</span><span>10 → c</span></div>
+  <div class="xpls">
+    <div class="x"><b>1:</b> Demand = desire backed by purchasing power — willingness + ability to buy.</div>
+    <div class="x"><b>2:</b> Inverse relation: price ↑ → quantity demanded ↓ (mango example).</div>
+    <div class="x"><b>3:</b> Substitutes replace each other — coffee mehnga → chai ki demand ↑.</div>
+    <div class="x"><b>4:</b> Car + petrol are complements — used together, so one's price ↑ hurts the other's demand.</div>
+    <div class="x"><b>5:</b> Each extra unit gives less extra satisfaction — diminishing marginal utility.</div>
+    <div class="x"><b>6:</b> Higher price → higher profit → more supplied; so the supply curve climbs upward.</div>
+    <div class="x"><b>7:</b> Equilibrium: Qd = Qs — market cleared, no shortage or surplus.</div>
+    <div class="x"><b>8:</b> At ₹100, demand 12 kg = supply 12 kg — the equilibrium (point E).</div>
+    <div class="x"><b>9:</b> Price ceiling = maximum legal price (Essential Commodities Act, COVID case).</div>
+    <div class="x"><b>10:</b> Public goods — non-excludable, provided by the government for all.</div>
+  </div>
+</div>
+
+<!-- QA CH9 -->
+<div class="sec-h"><span class="sq">📝</span><span class="st">Big Questions — Exam-Ready Answers (points me)</span><span class="sline"></span></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q1.</span> What is demand? How is it different from mere desire?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>Demand is the quantity of a product that people are <b>willing and able to buy at a particular price</b>.</li>
+    <li>It depends on the buyer's needs, preferences, season, trend and income.</li>
+    <li>Desire alone is <b>not</b> demand — it must be supported by <b>purchasing power</b> (ability to pay).</li>
+    <li>Example: many may desire a luxury car, but only those who can pay create demand for it.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q2.</span> State and explain the law of demand with the mango example.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>The law of demand states that price and quantity demanded move in <b>opposite directions</b> (inverse relationship), other factors remaining constant.</li>
+    <li>When price rises, quantity demanded falls; when price falls, quantity demanded rises.</li>
+    <li><b>Mango example:</b> at ₹150/kg Srivalli bought 1 kg; at ₹100/kg she bought 2 kg; at ₹50/kg she bought 3 kg.</li>
+    <li>Plotting these gives a <b>downward-sloping demand curve</b> (DD').</li>
+    <li>One reason behind it is <b>diminishing marginal utility</b> — each extra unit gives less satisfaction, so willingness to pay falls.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q3.</span> Explain individual demand and market demand with a schedule.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Individual demand</b> — the quantity one consumer wants to buy at different prices, other factors constant; its table form is the individual <b>demand schedule</b>.</li>
+    <li><b>Market demand</b> — the sum of all individual demands at each price (Q1 + Q2 + Q3).</li>
+    <li>Example: at ₹50 — Srivalli 3 kg + Alex 6 kg + Israt 9 kg = <b>market demand 18 kg</b>; at ₹100 it is 12 kg; at ₹150 it is 6 kg.</li>
+    <li>Plotting market demand gives the <b>market demand curve</b> (DmDm'), which is <b>flatter</b> than an individual curve.</li>
+    <li>Reason: many consumers respond together, so the same price change creates a <b>larger total quantity response</b> (₹150→₹50: individual +2 kg vs market +12 kg).</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q4.</span> Explain the factors (other than price) that influence demand.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Price of related goods:</b> substitutes (tea–coffee) — price of one ↑ → demand for other ↑; complements (car–petrol, printer–cartridge) — price of one ↑ → demand for other ↓.</li>
+    <li><b>Income:</b> higher household income → consumers buy more or better quality → demand rises.</li>
+    <li><b>Taste &amp; preference:</b> personal likes — Srivalli prefers mangoes even if oranges are cheaper.</li>
+    <li><b>Population size &amp; composition:</b> India's huge population boosts demand; more children → sports shoes; working adults → formal shoes; elderly → orthopaedic shoes.</li>
+    <li><b>Seasonality:</b> weather, festivals and habits — books in the new session, sweets in festivals, sweaters in winter.</li>
+    <li><b>Future price expectations:</b> expected fall → postpone buying; expected rise → buy now (pre-Diwali discounts).</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q5.</span> Distinguish between substitute goods and complementary goods, with examples.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Substitutes</b> can replace each other in use — tea and coffee, mangoes and bananas.</li>
+    <li>When the price of a substitute rises, people switch to the cheaper one, so <b>demand for the related good increases</b>.</li>
+    <li><b>Complements</b> are used together to give utility — car and petrol, printer and cartridges, movie ticket and popcorn.</li>
+    <li>When the price of one complement rises, demand for the other <b>falls</b> — costlier movie tickets reduce popcorn demand.</li>
+    <li>Both show that demand for a good is <b>interconnected</b> with prices of related goods.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q6.</span> What is supply? Explain the law of supply.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>Supply is the quantity of a product that <b>sellers are willing and able to offer</b> at a particular price.</li>
+    <li><b>Law of supply (direct relationship):</b> as price rises, quantity supplied rises; as price falls, quantity supplied falls.</li>
+    <li>Reason: higher prices <b>increase profitability</b>, incentivising producers to raise output and attracting new firms.</li>
+    <li>Example: seller A supplies 1 kg at ₹50, 2 kg at ₹100, 3 kg at ₹150 per kg of mangoes.</li>
+    <li>The supply curve therefore slopes <b>upward</b>; market supply = sum of all individual supplies (A+B+C).</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q7.</span> What is market equilibrium? Explain with the chapter's table example.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>Market equilibrium is the point where <b>quantity demanded equals quantity supplied</b>.</li>
+    <li>Here there is no pressure for prices to change and the market is <b>'cleared'</b> — neither shortage nor surplus.</li>
+    <li><b>Example:</b> at ₹100, quantity demanded = quantity supplied = <b>12 kg</b> → equilibrium price ₹100, equilibrium quantity 12 kg (point E where the curves intersect).</li>
+    <li><b>Below it (₹40):</b> Qd 38 kg &gt; Qs 6 kg → <b>excess demand</b> — shortage pushes prices up.</li>
+    <li><b>Above it (₹150):</b> Qs 43 kg &gt; Qd 8 kg → <b>excess supply</b> — surplus pushes prices down.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q8.</span> Does market equilibrium really exist in the real world? Explain with examples.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>In theory, equilibrium is a fixed intersection of demand and supply — but real markets are <b>dynamic</b>.</li>
+    <li>Technology, wages, interest rates, wars, political events, pandemics, weather and disasters keep changing demand and supply.</li>
+    <li>So equilibrium is <b>never stable</b> — markets keep adjusting towards a <b>new equilibrium</b>.</li>
+    <li><b>COVID-19 masks:</b> demand surged → supply lagged → prices rose → suppliers adjusted → prices fell → pandemic ended → prices returned to normal.</li>
+    <li><b>Hotel tariffs:</b> a Goa hotel charges ₹1,500 (off-season weekday), ₹8,000 (December weekend) and ₹25,000 (New Year's Eve), cutting tariffs by 40% overnight when a group cancels — prices move constantly with demand.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q9.</span> Why and how does the government intervene in the market?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Why:</b> markets allocate goods by ability to pay — essentials may become unaffordable; fairness and equity are needed to protect <b>vulnerable, low-income groups</b>.</li>
+    <li><b>Price ceiling:</b> maximum price for essential goods (medicines) to prevent overcharging; e.g., sanitisers capped at ₹100/200 ml under the <b>Essential Commodities Act, 1955</b> during COVID-19.</li>
+    <li><b>Price floor:</b> minimum limit such as <b>minimum wage</b>, so workers are not exploited; effective when set above the equilibrium price.</li>
+    <li><b>Monopoly control:</b> a single seller can charge higher prices and restrict supply — the government keeps prices and quantity in check.</li>
+    <li><b>Regulators:</b> RBI (banking), CCPA (consumer protection), TRAI (telecom), SEBI (securities) ensure transparency and stop unfair practices like <b>hoarding</b> and <b>black marketing</b>.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q10.</span> What are public goods? Why must the government provide them, and what are the limits of intervention?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Public goods</b> are goods and services provided by the government for the benefit of all — roads, bridges, parks, street lighting, defence, sanitation.</li>
+    <li>Private companies do not provide them because they <b>do not generate direct profit</b>.</li>
+    <li><b>Park example (free-rider problem):</b> if every family thinks "others will pay, I'll use it free", the park never gets built — so collective goods need government funding.</li>
+    <li><b>Limits of intervention:</b> price controls below market levels reduce producers' motivation (wheat at ₹20 vs market ₹30 → shortages).</li>
+    <li>Heavy <b>compliance burdens</b> (multiple licences for a small restaurant) hurt the ease of doing business.</li>
+    <li>Excessive regulation <b>discourages innovation</b> — farmers won't invest in better seeds without adequate returns.</li>
+  </ul></div>
+
+</div><!-- /ch9 -->
+
+<div class="closer">
+  <div class="cl1">You're exam-ready! 💪🧠</div>
+  <div class="cl2">Definitions ratto → points likho → MCQs solve karke score check karo → big Q&amp;A se answer-writing practice. Economics = sorted. All the best! 🍀</div>
+</div>
+
+</div><!-- /main-content -->
+</body>
+</html>
