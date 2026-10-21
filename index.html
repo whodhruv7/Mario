@@ -740,6 +740,95 @@ animation:goldShine 3.4s ease-in-out infinite}
 @media (pointer:coarse){
   .q-x{width:46px;height:46px}
 }
+
+/* ================================================================
+   HEAD F (round 4) — question minimize pill, interactive tap-to-
+   learn Gyan cards, Gyan Book study mode, result learning recap
+   ================================================================ */
+
+/* ---------- minimized question: corner re-open pill ---------- */
+#qReopen{position:fixed;left:14px;bottom:calc(96px + env(safe-area-inset-bottom,0px));z-index:38;display:none;align-items:center;gap:9px;
+  max-width:min(78vw,320px);padding:12px 18px;border-radius:99px;border:1px solid rgba(255,200,92,.6);cursor:pointer;
+  background:linear-gradient(160deg,#8A5A17,#5C3A0E);color:#FFE3A6;font-weight:800;font-size:13px;letter-spacing:.03em;
+  box-shadow:0 10px 30px -8px rgba(0,0,0,.65),0 0 22px -4px rgba(255,190,80,.5);-webkit-tap-highlight-color:transparent;
+  animation:qrIn .32s cubic-bezier(.2,.9,.3,1.3)}
+#qReopen.on{display:flex}
+#qReopen .ic{width:16px;height:16px;color:#FFC85C;flex:none}
+#qReopenTxt{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@keyframes qrIn{from{transform:translateY(10px);opacity:0}to{transform:none;opacity:1}}
+#qReopen::after{content:"";position:absolute;inset:-5px;border-radius:99px;border:2px solid rgba(255,200,92,.55);animation:qrPing 1.7s infinite;pointer-events:none}
+@keyframes qrPing{0%{transform:scale(.96);opacity:.9}70%{transform:scale(1.12);opacity:0}100%{transform:scale(1.12);opacity:0}}
+@media (max-width:640px){#qReopen{bottom:calc(104px + env(safe-area-inset-bottom,0px));padding:11px 15px;font-size:12px}}
+
+/* ---------- interactive teach cards (tap to learn) ---------- */
+.cpt-tools{display:flex;justify-content:space-between;align-items:center;margin:0 0 10px}
+.cpt-count{font-size:10.5px;font-weight:800;letter-spacing:.12em;color:rgba(233,242,255,.5);text-transform:uppercase}
+.cpt-showall{background:none;border:none;color:#9BD1FF;font-size:12px;font-weight:700;cursor:pointer;padding:4px 9px;border-radius:8px;
+  text-decoration:underline dotted;-webkit-tap-highlight-color:transparent}
+.cpt-showall:hover{background:rgba(126,200,255,.12)}
+.cpt-dots{display:flex;gap:5px;align-items:center}
+.cpt-dots i{width:22px;height:5px;border-radius:3px;background:rgba(233,242,255,.14);transition:all .25s}
+.cpt-dots i.on{background:linear-gradient(90deg,#FFC85C,#FF9D5C);box-shadow:0 0 7px rgba(255,170,80,.5)}
+.cpt-cards{display:flex;flex-direction:column;gap:9px;margin:0 0 14px}
+.cpt-card{position:relative;border-radius:13px;border:1px solid rgba(233,242,255,.1);background:rgba(233,242,255,.05);overflow:hidden}
+.cpt-card .cc-in{display:flex;gap:11px;align-items:flex-start;padding:11px 14px;opacity:0;transform:translateY(7px)}
+.cpt-card.rev .cc-in{animation:ccIn .45s forwards}
+@keyframes ccIn{to{opacity:1;transform:none}}
+.cpt-card .cc-in .ic{width:14px;height:14px;color:#FFC85C;flex:none;margin-top:2px}
+.cpt-card .cc-in span{font-size:14px;line-height:1.5;color:#E2ECFA;font-weight:600}
+.cpt-cover{position:absolute;inset:0;display:flex;align-items:center;gap:10px;padding:0 14px;cursor:pointer;z-index:2;
+  background:linear-gradient(150deg,rgba(30,56,104,.94),rgba(16,34,70,.96));border-left:3px solid rgba(126,200,255,.45);
+  transition:background .15s;-webkit-tap-highlight-color:transparent}
+.cpt-cover:hover{background:linear-gradient(150deg,rgba(42,76,134,.96),rgba(22,44,86,.97))}
+.cpt-cover:active{transform:scale(.995)}
+.cpt-cover .cc-n{width:26px;height:26px;flex:none;border-radius:9px;display:grid;place-items:center;background:rgba(126,200,255,.15);
+  color:#9BD1FF;font-weight:900;font-size:12px;border:1px solid rgba(126,200,255,.32)}
+.cpt-cover b{font-size:12px;font-weight:800;letter-spacing:.05em;color:rgba(233,242,255,.78)}
+.cpt-cover .cc-spark{margin-left:auto;font-size:14px;animation:ccSpark 1.3s infinite}
+@keyframes ccSpark{0%,100%{transform:scale(1)}50%{transform:scale(1.3)}}
+.cpt-card.rev .cpt-cover{display:none}
+.cpt-gem.gem-hide{display:none}
+#conceptGo:disabled,#bkNext:disabled,#bkDone:disabled{opacity:.42;filter:grayscale(.35);cursor:not-allowed;transform:none}
+
+/* ---------- GYAN BOOK (chapter study mode) ---------- */
+#ovl-book{position:fixed;inset:0;z-index:46;display:none;align-items:center;justify-content:center;padding:16px clamp(10px,3vw,30px);
+  background:radial-gradient(120% 120% at 50% 0%,rgba(12,28,64,.8),rgba(2,10,26,.93));backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+#ovl-book.open{display:flex;animation:fadeIn .3s}
+.book-card{width:100%;max-width:660px;max-height:min(90vh,760px);display:flex;flex-direction:column;border-radius:22px;position:relative;overflow:hidden;
+  background:linear-gradient(165deg,rgba(24,46,90,.97),rgba(8,20,46,.98));
+  border:1px solid rgba(200,164,255,.28);box-shadow:0 24px 80px -20px rgba(0,6,20,.92),0 0 50px -12px rgba(200,164,255,.3);
+  animation:cptIn .45s cubic-bezier(.2,.9,.3,1.15)}
+.book-head{display:flex;gap:14px;align-items:center;padding:18px clamp(16px,3.5vw,28px) 13px;border-bottom:1px solid rgba(233,242,255,.08)}
+.book-kicker{font-size:10px;font-weight:900;letter-spacing:.2em;color:#C9B8FF;text-transform:uppercase;margin-bottom:4px}
+.book-title{font-size:clamp(18px,3vw,24px);font-weight:900;color:#F2F7FF;margin:0;line-height:1.15}
+.book-chap{font-size:11.5px;color:rgba(233,242,255,.62);display:flex;align-items:center;gap:6px;margin-top:5px}
+.book-chap .ic{width:12px;height:12px;color:#C9B8FF}
+.book-head .q-x{position:relative;top:0;right:0;margin-left:auto;flex:none}
+.book-body{overflow-y:auto;padding:14px clamp(16px,3.5vw,28px) 6px;flex:1}
+.book-dots{display:flex;gap:6px;justify-content:center;padding:12px clamp(16px,3.5vw,28px) 4px}
+.book-dots i{width:28px;height:6px;border-radius:4px;background:rgba(233,242,255,.13);transition:all .25s}
+.book-dots i.done{background:rgba(61,220,151,.45)}
+.book-dots i.cur{background:linear-gradient(90deg,#C9B8FF,#7EC8FF);box-shadow:0 0 10px rgba(155,140,255,.5)}
+.book-nav{display:flex;gap:10px;padding:10px clamp(16px,3.5vw,28px) 18px;border-top:1px solid rgba(233,242,255,.08)}
+.book-nav .btn{flex:1}
+@media (max-width:640px){.book-head{padding:14px 14px 10px}.book-body{padding:12px 14px 4px}.book-nav{padding:8px 14px 14px}}
+
+/* ---------- setup: study-first CTA ---------- */
+.study-cta{display:flex;align-items:center;gap:11px;width:100%;margin-top:12px;padding:12px 14px;border-radius:13px;cursor:pointer;
+  background:linear-gradient(140deg,rgba(155,140,255,.15),rgba(126,200,255,.1));border:1px solid rgba(155,140,255,.42);
+  color:#E5DCFF;text-align:left;transition:all .18s;font-family:inherit;-webkit-tap-highlight-color:transparent}
+.study-cta:hover{background:linear-gradient(140deg,rgba(155,140,255,.24),rgba(126,200,255,.16));transform:translateY(-1px);box-shadow:0 8px 22px -10px rgba(155,140,255,.5)}
+.study-cta .ic{width:19px;height:19px;color:#C9B8FF;flex:none}
+.study-cta b{display:block;font-size:13.5px;font-weight:800;color:#EFEAFF}
+.study-cta span{display:block;font-size:11.5px;color:rgba(233,242,255,.62);margin-top:2px;line-height:1.4}
+
+/* ---------- result: today's gyan recap ---------- */
+.res-gyan{display:flex;gap:12px;align-items:center;background:linear-gradient(120deg,rgba(155,140,255,.13),rgba(126,232,255,.09));
+  border:1px solid rgba(155,140,255,.32);border-radius:14px;padding:12px 14px;margin:12px 0 0;text-align:left}
+.res-gyan>.ic{width:20px;height:20px;color:#C9B8FF;flex:none}
+.res-gyan b{display:block;font-size:10.5px;font-weight:900;letter-spacing:.14em;color:#C9B8FF;text-transform:uppercase;margin-bottom:3px}
+.res-gyan span{font-size:12.5px;line-height:1.5;color:rgba(233,242,255,.85)}
+.res-gyan .btn{flex:none;padding:9px 13px;font-size:12.5px}
 </style>
 <body>
 <!-- ======= SVG ICON SPRITE ======= -->
@@ -880,7 +969,12 @@ animation:goldShine 3.4s ease-in-out infinite}
           <h3><svg class="ic" style="color:var(--gold)"><use href="#i-map"/></svg> Mission Plan</h3>
           <div class="plan-rows" id="planRows"></div>
           <div class="plan-hint"><svg class="ic"><use href="#i-bulb"/></svg> <span id="planHint"></span></div>
-          <button id="btnStart" class="btn btn-gold btn-lg btn-block" style="margin-top:16px"><svg class="ic"><use href="#i-play"/></svg> Start Mission</button>
+          <button class="study-cta" id="btnStudy" title="Study the whole chapter first">
+            <svg class="ic"><use href="#i-book"/></svg>
+            <div><b>Padho Pehle — Gyan Book</b><span>Teach-first mode: all 5 gyan sections with the wisp, phir battle</span></div>
+            <svg class="ic" style="margin-left:auto;width:15px;height:15px;color:#C9B8FF"><use href="#i-chev-r"/></svg>
+          </button>
+          <button id="btnStart" class="btn btn-gold btn-lg btn-block" style="margin-top:12px"><svg class="ic"><use href="#i-play"/></svg> Start Mission</button>
         </div>
       </div>
     </div>
@@ -925,6 +1019,7 @@ animation:goldShine 3.4s ease-in-out infinite}
     </div>
     <div id="hud-progress"></div>
     <div id="hud-hintbar"></div>
+    <button id="qReopen" aria-label="Reopen the question"><svg class="ic"><use href="#i-swords"/></svg><span id="qReopenTxt">Tap to Answer</span></button>
     <button id="btn-jump"><svg class="ic"><use href="#i-up"/></svg>JUMP</button>
     <div id="lowhp-vignette"></div>
     <div id="big-banner"><div class="bb-k" id="bbK"></div><div class="bb-t" id="bbT"></div></div>
@@ -946,6 +1041,11 @@ animation:goldShine 3.4s ease-in-out infinite}
 <!-- ======= GYAN SLIDE (teach first) ======= -->
 <div id="ovl-concept" role="dialog" aria-label="Concept slide">
   <div class="concept-card" id="conceptCard"></div>
+</div>
+
+<!-- ======= GYAN BOOK (chapter study mode) ======= -->
+<div id="ovl-book" role="dialog" aria-label="Gyan Book — study the chapter">
+  <div class="book-card" id="bookCard"></div>
 </div>
 
 <!-- ======= GYAN BREAK (wisp lesson after dragon strike) ======= -->
@@ -1126,7 +1226,9 @@ const ACH = [
   {id:'chapter3s',    ic:'i-star',   name:'Chapter Master',     desc:'Earn 3 stars in any chapter.'},
   {id:'epic40',       ic:'i-swords', name:'Mahayug Survivor',   desc:'Conquer the 40-question Mahayug mode.'},
   {id:'comeback',     ic:'i-heart',  name:'Last Heart Stand',   desc:'Win a mission with exactly 1 heart left.'},
-  {id:'boss10',       ic:'i-skull',  name:'Boss Bounty Hunter', desc:'Defeat 10 bosses.'}
+  {id:'boss10',       ic:'i-skull',  name:'Boss Bounty Hunter', desc:'Defeat 10 bosses.'},
+  {id:'scholar',      ic:'i-book',   name:'Gyan Scholar',       desc:'Complete 10 tap-to-learn Gyan lessons.'},
+  {id:'professor',    ic:'i-book',   name:'Gyan Guru',          desc:'Complete 35 tap-to-learn Gyan lessons.'}
 ];
 
 const TYPE_META = {
@@ -2633,9 +2735,9 @@ class Game {
     const h = this.hero;
     if (h.state !== 'gone') Art.dhruva(ctx, h.x, h.y, { t: this.t, state: this.mode === 'over' && this.stats.hearts <= 0 ? 'defeat' : h.state, phase: h.phase, dir: h.dir, squash: h.squash, attack: h.attack || 0, hurt: h.hurtT > 0 ? 1 : 0, blink: h.blinkT > 0, lean: this.mode === 'run' && h.grounded ? .04 : (h.state === 'jump' ? -.06 : .05) });
     // shakti aura — hero glows when the bow is charged
-    if (st.shakti >= 3) {
+    if (this.stats.shakti >= 3) {
       ctx.save();
-      const sa = .22 + .12 * Math.sin(this.t * 6) + st.shakti * .04;
+      const sa = .22 + .12 * Math.sin(this.t * 6) + this.stats.shakti * .04;
       const ag = ctx.createRadialGradient(h.x, h.y - 52, 14, h.x, h.y - 52, 64);
       ag.addColorStop(0, 'rgba(255,217,130,0)'); ag.addColorStop(.7, 'rgba(255,200,92,' + (sa * .5) + ')'); ag.addColorStop(1, 'transparent');
       ctx.fillStyle = ag; ctx.beginPath(); ctx.arc(h.x, h.y - 52, 64, 0, 7); ctx.fill();
@@ -3146,12 +3248,12 @@ const QuizUI = (() => {
       '<div class="q-foot"><button class="btn-hint" id="qHint"><svg class="ic"><use href="#i-bulb"/></svg>Hint · 5 <svg class="ic"><use href="#i-coin"/></svg></button>' +
       '<button class="beam-btn" id="qBeam" title="Unleash the Gyan Beam"><svg class="ic"><use href="#i-bolt"/></svg><span id="qBeamTxt">Gyan Beam</span></button><span class="spacer"></span>' +
       '<button class="btn btn-blue btn-next" id="qSubmit" disabled>Lock Answer</button></div>';
-    // ✕ leave button (top-right of the question bar)
+    // ✕ minimize button (top-right of the question bar) — see the battlefield, tap anything to come back
     const xBtn = document.createElement('button');
     xBtn.className = 'q-x'; xBtn.id = 'qClose';
-    xBtn.title = 'Leave mission'; xBtn.setAttribute('aria-label', 'Leave mission');
+    xBtn.title = 'Minimize — view the battlefield'; xBtn.setAttribute('aria-label', 'Minimize question');
     xBtn.innerHTML = '<svg class="ic"><use href="#i-x"/></svg>';
-    xBtn.addEventListener('click', () => { AudioSys.play('click'); UI.confirmLeave(); });
+    xBtn.addEventListener('click', () => { AudioSys.play('click'); QuizUI.minimize(); });
     card.appendChild(xBtn);
 
     const body = $('#qScroll');
@@ -3413,12 +3515,43 @@ const QuizUI = (() => {
   }
 
   function close() {
+    _min = false;
+    const pill = $('#qReopen'); if (pill) pill.classList.remove('on');
     const ovl = $('#ovl-question');
     ovl.classList.remove('open');
     window.removeEventListener('keydown', QuizUI._keyHandler);
     setTimeout(() => { if (!$('#ovl-question').classList.contains('open')) $('#qcard').innerHTML = ''; }, 400);
   }
-  return { render, showFeedback, close, get cur() { return cur; } };
+
+  /* ✕ on the question bar — slide the question away so the player can look
+     at the battlefield. The dragon waits; any tap/key (or the corner pill)
+     brings the SAME card back with its state intact. */
+  function minimize() {
+    if (!cur || cur.done) return;
+    if (!$('#ovl-question').classList.contains('open')) return;
+    _min = true;
+    $('#ovl-question').classList.remove('open');
+    window.removeEventListener('keydown', QuizUI._keyHandler);
+    const pill = $('#qReopen');
+    if (pill) {
+      const r = Flow.run;
+      $('#qReopenTxt').textContent = r ? 'Q' + Math.min(r.shown, r.n) + ' · Tap to Answer' : 'Tap to Answer';
+      pill.classList.add('on');
+    }
+    UI.hintbar('Sawaal park hua hai — screen dekh lo, phir kisi bhi tap pe wapas aa jao!', 4200);
+    AudioSys.play('click');
+  }
+  function restore() {
+    if (!_min) return;
+    _min = false;
+    const pill = $('#qReopen'); if (pill) pill.classList.remove('on');
+    const ovl = $('#ovl-question');
+    if (!ovl.classList.contains('open')) ovl.classList.add('open', 'during-game');
+    window.addEventListener('keydown', QuizUI._keyHandler);
+    if (QuizUI._syncBeam) QuizUI._syncBeam();
+    AudioSys.play('crystal');
+  }
+  return { render, showFeedback, close, minimize, restore, get cur() { return cur; }, get min() { return _min; } };
 })();
 
 /* ================================================================
@@ -3648,6 +3781,8 @@ const UI = {
     }[type];
     const lvBefore = levelOf(S.xp - xp), lvAfter = levelOf(S.xp);
     const mk = mistakeList().length;
+    const gyanNotes = (!r.isMistake && typeof CONCEPTS !== 'undefined') ? CONCEPTS[r.chapter] : null;
+    const gyanLearned = r.gyanLearned || 0;
     $('#resultCard').innerHTML =
       '<div class="res-emoji">' + map.emo + '</div>' +
       '<div class="res-kicker">' + map.k + '</div>' +
@@ -3656,15 +3791,19 @@ const UI = {
       (type !== 'defeat' ? '<div class="res-stars">' + [1, 2, 3].map(i => '<span class="st' + (i <= stars ? ' lit' : '') + '" style="animation-delay:' + (300 + i * 260) + 'ms" data-star="' + (i <= stars) + '"><svg class="ic" style="width:1em;height:1em"><use href="#i-star"/></svg></span>').join('') + '</div>' : '') +
       '<div class="res-stats">' +
       resStat(acc + '<small>%</small>', 'Accuracy') + resStat(r.correct + '/' + r.shown, 'Correct') +
+      resStat('' + gyanLearned, 'Gyan') +
       resStat(st.hearts + '<small>/' + st.maxHearts + '</small>', 'Hearts') + resStat('x' + (st.bestCombo || 0), 'Best Combo') +
       resStat('' + st.coins, 'Coins') + resStat('' + st.crystals, 'Crystals') +
       '</div>' +
       '<div class="res-xp"><svg class="ic"><use href="#i-bolt"/></svg> +' + xp + ' XP' + (lvAfter > lvBefore ? ' <span style="margin-left:auto;color:var(--gold)">LEVEL UP → ' + LEVELS[lvAfter].t + '!</span>' : '') + '</div>' +
+      (gyanNotes ? '<div class="res-gyan"><svg class="ic"><use href="#i-gem"/></svg><div style="flex:1;min-width:0"><b>Aaj Ka Gyan — ' + esc(gyanNotes.title) + '</b>' +
+        '<span>' + esc(gyanNotes.gem || 'Har gyan slide ne tujhe ek nayi cheez sikhayi — wisp kuch nahi bhoolta.') + '</span></div>' +
+        '<button class="btn btn-glass" id="resStudy"><svg class="ic"><use href="#i-book"/></svg> Revise</button></div>' : '') +
       ((strong.length || weak.length) ? '<div class="res-topics"><h4>Topic Radar</h4><div class="topic-rows">' +
         '<div class="topic-col strong"><h5><svg class="ic"><use href="#i-check"/></svg> Strong</h5>' + (strong.length ? strong.map(t => tRow(t)).join('') : '<div class="small muted">Nothing solidified yet — keep going.</div>') + '</div>' +
         '<div class="topic-col weak"><h5><svg class="ic"><use href="#i-bulb"/></svg> Revise</h5>' + (weak.length ? weak.map(t => tRow(t)).join('') : '<div class="small muted">No weak topics. Show-off.</div>') + '</div></div></div>' : '') +
       '<div class="res-btns">' +
-      '<button class="btn btn-glass" id="resHome"><svg class="ic"><use href="#i-home"/></svg> Home</button>' +
+      '<button class="btn btn-glass" id="resHome"><svg class="ic"><use href="#i-exit"/></svg> Leave Game</button>' +
       (mk ? '<button class="btn btn-coral" id="resMistake"><svg class="ic"><use href="#i-redo"/></svg> Fix ' + mk + ' Mistake' + (mk > 1 ? 's' : '') + '</button>' : '') +
       '<button class="btn btn-gold" id="resAgain"><svg class="ic"><use href="#i-redo"/></svg> ' + (type === 'victory' ? 'Run Again' : 'Try Again') + '</button>' +
       '</div>';
@@ -3676,6 +3815,8 @@ const UI = {
     });
     if (type === 'victory') { AudioSys.play('fanfare'); setTimeout(() => toast('<svg class="ic"><use href="#i-trophy"/></svg> ' + (stars >= 3 ? 'FLAWLESS — 3 stars!' : stars + ' star' + (stars > 1 ? 's' : '') + ' earned!'), 'gold'), 800); }
     $('#resHome').addEventListener('click', () => { AudioSys.play('click'); this.show('home'); });
+    const rs = $('#resStudy');
+    if (rs) rs.addEventListener('click', () => { AudioSys.play('click'); this.showBook(r.chapter, { from: 'result' }); });
     $('#resAgain').addEventListener('click', () => { AudioSys.play('click'); this.openSetup(r.chapter); });
     const rm = $('#resMistake');
     if (rm) rm.addEventListener('click', () => { AudioSys.play('click'); this.openBrief({ mistake: true }); });
@@ -3729,10 +3870,11 @@ const UI = {
     this.modal('How to Play',
       '<div style="display:flex;flex-direction:column;gap:14px">' +
       howRow('i-run', 'Run & Jump', 'Dhruva auto-runs toward the dragons. Tap the screen, press <span class="kbd">Space</span> or <span class="kbd">↑</span> to jump — tap twice for a double jump. Grab coins and violet crystals, dodge thorn patches and mind the pits.') +
-      howRow('i-book', 'Gyan Slides — Learn First', 'Before every battle the blue wisp shows you a Gyan Slide: the chapter\'s key points you are about to be tested on. Read it, tap <b>Samajh Gaya</b>, and then prove it in battle. After every 3 cards a <b>Tricky Challenge</b> checks the concept properly.') +
+      howRow('i-book', 'Learn First, Test Later', 'Before every battle the wisp brings a <b>Gyan Slide</b> — tap each face-down card to learn the chapter\'s key points, then press <b>Samajh Gaya</b> and prove it in battle. Want the whole chapter upfront? Open the <b>Gyan Book</b> from Mission Setup — Padho Pehle!') +
       howRow('i-flame', 'Shakti — Charge Your Weapon', 'Every correct answer adds <b>SHAKTI</b> to your bow and fire. At 2+ shakti your strike one-shots a Gnarlin; at full shakti a boss hit lands an extra streak slot. Wrong answers cost half your shakti.') +
-      howRow('i-bulb', 'Gyan Break — Wisp Teaches', 'A wrong answer means the dragon strikes you FIRST. Then the wisp slides in, teaches you the topic, and the same card returns for a second try. Get it right and your mistake is cleared — redeemed!') +
-      howRow('i-heart', 'Hearts, Mana & Power-ups', 'You carry 10 hearts (upgradable at the Shop). Correct answers charge mana — at 100% unleash the Gyan Beam. Open chests for power-ups. The ✕ on any question card (or the Leave button) lets you exit and bank your rewards anytime.') +
+      howRow('i-bulb', 'Gyan Break — Wisp Teaches', 'A wrong answer means the dragon strikes you FIRST. Then the wisp slides in, teaches you the topic, and the same card returns for a second try. Get it right and your mistake is cleared — redeemed! After every 3 cards a <b>Tricky Challenge</b> tests the concept properly.') +
+      howRow('i-x', '✕ & Leave — You\'re in Control', 'Press the <b>✕</b> on a question to slide it away and look at the battlefield — a glowing pill waits in the corner, and any tap or key brings the same question right back. The <b>Leave button</b> (top-right) and <b>Leave Game</b> (result screen) bank your rewards and exit anytime.') +
+      howRow('i-heart', 'Hearts, Mana & Power-ups', 'You carry 10 hearts (upgradable at the Shop). Correct answers charge mana — at 100% unleash the Gyan Beam. Open chests for power-ups, keep your streak alive, and earn Gyan Scholar honours by studying.') +
       '</div>', 'i-info');
   },
   modalAch() {
@@ -3781,29 +3923,135 @@ const UI = {
     $('#pMus').addEventListener('click', e => { S.settings.music = !S.settings.music; e.target.classList.toggle('on'); AudioSys.setMusic(S.settings.music); persist(); });
   },
 
-  /* ---------- teach-first: Gyan Slide (before each battle stage) ---------- */
+  /* ---------- teach-first: Gyan Slide (before each battle stage) ----------
+     INTERACTIVE: every point is a face-down card — the learner TAPS to learn,
+     the wisp sparkles, dots fill up, and only then the battle button unlocks. */
   showConcept(o) {
     const c = o.notes, sec = o.sec, card = $('#conceptCard');
     const wispSrc = (typeof ASSETS !== 'undefined' && ASSETS.sp_wisp) ? ASSETS.sp_wisp : '';
+    const pts = (sec && sec.points) || [];
     card.innerHTML =
       '<div class="cpt-head">' +
       (wispSrc ? '<img class="cpt-wisp" src="' + wispSrc + '" alt="Wisp"/>' : '<div class="cpt-wisp cssWisp"></div>') +
       '<div><div class="cpt-kicker">' + (o.boss ? 'BOSS PREP · FINAL GYAN' : 'GYAN SLIDE ' + o.idx + '/' + o.total) + '</div>' +
       '<h3 class="cpt-title">' + esc(sec.h) + '</h3>' +
       '<div class="cpt-chap"><svg class="ic"><use href="#i-book"/></svg>' + esc(c.title) + '</div></div></div>' +
-      '<ul class="cpt-list">' + sec.points.map((p, i) =>
-        '<li style="animation-delay:' + (260 + i * 170) + 'ms"><svg class="ic"><use href="#i-bolt"/></svg><span>' + esc(p) + '</span></li>').join('') + '</ul>' +
-      '<div class="cpt-gem" style="animation-delay:' + (260 + sec.points.length * 170 + 120) + 'ms"><svg class="ic"><use href="#i-gem"/></svg><div><b>Gyan Gem</b><span>' + esc(c.gem || '') + '</span></div></div>' +
-      '<button class="btn btn-gold btn-lg btn-block" id="conceptGo" style="animation-delay:' + (260 + sec.points.length * 170 + 260) + 'ms"><svg class="ic"><use href="#i-play"/></svg>' + (o.boss ? 'Face the Dragon!' : 'Samajh Gaya — Battle!') + '</button>';
+      '<div class="cpt-tools"><div class="cpt-dots" id="cptDots">' + pts.map(() => '<i></i>').join('') + '</div>' +
+      '<button class="cpt-showall" id="cptAll">sab dikhao ⏩</button></div>' +
+      '<div class="cpt-cards" id="cptCards">' + pts.map((p, i) =>
+        '<div class="cpt-card" data-i="' + i + '"><div class="cpt-cover"><span class="cc-n">' + (i + 1) + '</span><b>GYAN ' + (i + 1) + ' · tap karke seekho</b><span class="cc-spark">✨</span></div>' +
+        '<div class="cc-in"><svg class="ic"><use href="#i-bolt"/></svg><span>' + esc(p) + '</span></div></div>').join('') + '</div>' +
+      '<div class="cpt-gem gem-hide" id="cptGem"><svg class="ic"><use href="#i-gem"/></svg><div><b>Gyan Gem</b><span>' + esc(c.gem || '') + '</span></div></div>' +
+      '<button class="btn btn-gold btn-lg btn-block" id="conceptGo" disabled><svg class="ic"><use href="#i-play"/></svg>' + (o.boss ? 'Face the Dragon!' : 'Samajh Gaya — Battle!') + '</button>';
     $('#ovl-concept').classList.add('open');
     AudioSys.play('crystal');
+    let revealed = 0, counted = false;
+    const dots = [...card.querySelectorAll('#cptDots i')];
+    const finish = () => {
+      if (revealed < pts.length) return;
+      $('#cptGem').classList.remove('gem-hide');
+      const go = $('#conceptGo'); if (go) go.disabled = false;
+      if (!counted) { counted = true; learnGyan(); AudioSys.play('powerup'); }
+    };
+    card.querySelectorAll('.cpt-card .cpt-cover').forEach(cv => cv.addEventListener('click', () => {
+      const el = cv.parentElement;
+      if (el.classList.contains('rev')) return;
+      el.classList.add('rev');
+      const i = +el.dataset.i; if (dots[i]) dots[i].classList.add('on');
+      revealed++; AudioSys.play('crystal');
+      finish();
+    }));
+    $('#cptAll').addEventListener('click', () => {
+      card.querySelectorAll('.cpt-card').forEach((el, k) => {
+        if (!el.classList.contains('rev')) setTimeout(() => { el.classList.add('rev'); AudioSys.play('tick'); }, k * 110);
+        if (dots[k]) dots[k].classList.add('on');
+      });
+      revealed = pts.length; finish();
+    });
     $('#conceptGo').addEventListener('click', () => {
+      if ($('#conceptGo').disabled) return;
       AudioSys.play('powerup');
       $('#ovl-concept').classList.remove('open');
       o.onGo && o.onGo();
     });
   },
   closeConcept() { const el = $('#ovl-concept'); if (el) el.classList.remove('open'); },
+
+  /* ---------- GYAN BOOK — full chapter study mode (teach first, test later) ----------
+     Opened from Mission Setup (“Padho Pehle”) and from the result screen (“Revise”).
+     All 5 sections of the chapter, tap-to-learn cards, Gyan Gem, section dots. */
+  showBook(chapterId, opts) {
+    const c = (typeof CONCEPTS !== 'undefined') ? CONCEPTS[chapterId] : null;
+    if (!c || !c.sections || !c.sections.length) { toast('<svg class="ic"><use href="#i-book"/></svg> Gyan Book for this chapter is brewing — coming soon!', 'violet'); return; }
+    opts = opts || {};
+    const card = $('#bookCard');
+    const wispSrc = (typeof ASSETS !== 'undefined' && ASSETS.sp_wisp) ? ASSETS.sp_wisp : '';
+    const total = c.sections.length;
+    let i = 0;
+    const studied = new Set();
+    const renderSec = () => {
+      const sec = c.sections[i];
+      const pts = sec.points || [];
+      card.innerHTML =
+        '<div class="book-head">' +
+        (wispSrc ? '<img class="cpt-wisp" src="' + wispSrc + '" alt="Wisp"/>' : '<div class="cpt-wisp cssWisp"></div>') +
+        '<div><div class="book-kicker">GYAN BOOK · SECTION ' + (i + 1) + ' / ' + total + '</div>' +
+        '<h3 class="book-title">' + esc(sec.h) + '</h3>' +
+        '<div class="book-chap"><svg class="ic"><use href="#i-book"/></svg>' + esc(c.title) + '</div></div>' +
+        '<button class="q-x" id="bookX" title="Close Gyan Book" aria-label="Close Gyan Book"><svg class="ic"><use href="#i-x"/></svg></button></div>' +
+        '<div class="book-body">' +
+        '<div class="cpt-tools"><div class="cpt-dots" id="bkDots">' + pts.map(() => '<i></i>').join('') + '</div>' +
+        '<button class="cpt-showall" id="bkAll">sab dikhao ⏩</button></div>' +
+        '<div class="cpt-cards" id="bkCards">' + pts.map((p, k) =>
+          '<div class="cpt-card" data-i="' + k + '"><div class="cpt-cover"><span class="cc-n">' + (k + 1) + '</span><b>GYAN ' + (k + 1) + ' · tap karke seekho</b><span class="cc-spark">✨</span></div>' +
+          '<div class="cc-in"><svg class="ic"><use href="#i-bolt"/></svg><span>' + esc(p) + '</span></div></div>').join('') + '</div>' +
+        '<div class="cpt-gem gem-hide" id="bkGem"><svg class="ic"><use href="#i-gem"/></svg><div><b>Gyan Gem</b><span>' + esc(c.gem || '') + '</span></div></div>' +
+        '</div>' +
+        '<div class="book-dots">' + c.sections.map((_, k) => '<i class="' + (k === i ? 'cur' : (k < i ? 'done' : '')) + '"></i>').join('') + '</div>' +
+        '<div class="book-nav">' +
+        '<button class="btn btn-glass" id="bkPrev"' + (i === 0 ? ' disabled' : '') + '><svg class="ic"><use href="#i-chev-l"/></svg> Back</button>' +
+        (i < total - 1
+          ? '<button class="btn btn-gold" id="bkNext" disabled>Next Gyan <svg class="ic"><use href="#i-chev-r"/></svg></button>'
+          : '<button class="btn btn-gold" id="bkDone" disabled><svg class="ic"><use href="#i-swords"/></svg> ' + (opts.from === 'setup' ? 'Ab Battle Shuru Kar!' : 'Chapter Revised!') + '</button>') +
+        '</div>';
+      let revealed = 0;
+      const dots = [...card.querySelectorAll('#bkDots i')];
+      const finish = () => {
+        if (revealed < pts.length) return;
+        const gem = $('#bkGem'); if (gem) gem.classList.remove('gem-hide');
+        const nb = $('#bkNext') || $('#bkDone'); if (nb) nb.disabled = false;
+        if (!studied.has(i)) { studied.add(i); learnGyan(); }
+      };
+      card.querySelectorAll('.cpt-card .cpt-cover').forEach(cv => cv.addEventListener('click', () => {
+        const el = cv.parentElement;
+        if (el.classList.contains('rev')) return;
+        el.classList.add('rev');
+        const k = +el.dataset.i; if (dots[k]) dots[k].classList.add('on');
+        revealed++; AudioSys.play('crystal');
+        finish();
+      }));
+      $('#bkAll').addEventListener('click', () => {
+        card.querySelectorAll('.cpt-card').forEach((el, k) => {
+          if (!el.classList.contains('rev')) setTimeout(() => { el.classList.add('rev'); AudioSys.play('tick'); }, k * 110);
+          if (dots[k]) dots[k].classList.add('on');
+        });
+        revealed = pts.length; finish();
+      });
+      $('#bookX').addEventListener('click', () => { AudioSys.play('click'); UI.closeBook(); });
+      const prev = $('#bkPrev'); if (prev && !prev.disabled) prev.addEventListener('click', () => { AudioSys.play('click'); i--; renderSec(); });
+      const next = $('#bkNext'); if (next) next.addEventListener('click', () => { if (!next.disabled) { AudioSys.play('powerup'); i++; renderSec(); } });
+      const fin = $('#bkDone'); if (fin) fin.addEventListener('click', () => {
+        if (fin.disabled) return;
+        AudioSys.play('fanfare'); UI.closeBook();
+        toast('<svg class="ic"><use href="#i-book"/></svg> <b>Chapter revised!</b> Wisp is proud — ab battle mein dikhao.', 'violet');
+      });
+      const bb = card.querySelector('.book-body'); if (bb) bb.scrollTop = 0;
+    };
+    renderSec();
+    $('#ovl-book').classList.add('open');
+    AudioSys.play('crystal');
+  },
+  closeBook() { const el = $('#ovl-book'); if (el) el.classList.remove('open'); },
 
   /* ---------- Gyan Break: the wisp teaches after the dragon strikes ---------- */
   showLesson(q, onGo) {
@@ -3910,6 +4158,14 @@ function planRow(label, val, icon) {
   return '<div class="plan-row"><span><svg class="ic" style="color:var(--blue-200)"><use href="#' + icon + '"/></svg> ' + label + '</span><b>' + val + '</b></div>';
 }
 function resStat(v, l) { return '<div class="res-stat"><b><span class="grow">' + v + '</span></b><span>' + l + '</span></div>'; }
+/* every completed tap-to-learn section = 1 gyan lesson (drives Gyan Scholar achievements) */
+function learnGyan() {
+  S.stats.gyan = (S.stats.gyan || 0) + 1;
+  if (Flow.run && !Flow.run.isMistake) Flow.run.gyanLearned = (Flow.run.gyanLearned || 0) + 1;
+  if (S.stats.gyan >= 10) grantAch('scholar');
+  if (S.stats.gyan >= 35) grantAch('professor');
+  persist();
+}
 function tRow(t) { return '<div class="tbar-row"><span class="tb-l">' + esc(t.t) + '</span><div class="tbar"><i style="width:' + Math.round(t.r * 100) + '%"></i></div><span>' + Math.round(t.r * 100) + '%</span></div>'; }
 function howRow(icon, t, d) {
   return '<div style="display:flex;gap:13px;align-items:flex-start"><div style="width:42px;height:42px;border-radius:13px;flex:none;display:grid;place-items:center;background:var(--glass-2);color:var(--gold)"><svg class="ic" style="font-size:20px"><use href="#' + icon + '"/></svg></div>' +
@@ -3947,12 +4203,16 @@ function toast(html, cls) {
   const jumpKeys = e => (e.code === 'Space' || e.key === ' ' || e.key === 'ArrowUp' || e.key === 'w' || e.code === 'KeyW');
   window.addEventListener('keydown', e => {
     if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA')) return;
+    // question minimized? ANY key brings it back — the dragon waits, learning doesn't
+    if (QuizUI.min && UI.screen === 'game' && !$('#ovl-pause').classList.contains('open') && !$('#ovl-generic').classList.contains('open')) {
+      e.preventDefault(); QuizUI.restore(); return;
+    }
     if (jumpKeys(e)) {
       if (UI.screen === 'game' && !$('#ovl-question').classList.contains('open')) { e.preventDefault(); Flow.G && Flow.G.jump(); }
       else if (UI.screen === 'title') { }
     }
     if ((e.key === 'p' || e.key === 'P' || e.key === 'Escape')) {
-      if (UI.screen === 'game' && !$('#ovl-question').classList.contains('open')) {
+      if (UI.screen === 'game' && !$('#ovl-question').classList.contains('open') && !QuizUI.min) {
         if ($('#ovl-pause').classList.contains('open')) { $('#ovl-pause').classList.remove('open'); Flow.G && Flow.G.resume(); }
         else UI.openPause();
       }
@@ -3963,6 +4223,14 @@ function toast(html, cls) {
     if (Flow.G && !$('#ovl-question').classList.contains('open') && !$('#ovl-pause').classList.contains('open')) Flow.G.jump();
   });
   $('#btn-jump').addEventListener('pointerdown', e => { e.preventDefault(); Flow.G && Flow.G.jump(); });
+  // question minimized? ANY tap on the battlefield (outside HUD controls) re-opens it
+  $('#scr-game').addEventListener('pointerdown', e => {
+    if (!QuizUI.min) return;
+    if (e.target.closest('#hud')) return; // leave / pause / mute stay reachable
+    e.stopPropagation(); e.preventDefault();
+    QuizUI.restore();
+  }, true);
+  $('#qReopen').addEventListener('click', () => { if (QuizUI.min) QuizUI.restore(); });
   // tap frenzy
   window.addEventListener('pointerdown', () => { if (Flow.frenzy.on) Flow.frenzyTap(); });
   $('#tapfrenzy').addEventListener('pointerdown', e => { e.preventDefault(); Flow.frenzyTap(); });
@@ -3986,6 +4254,7 @@ function toast(html, cls) {
     persist();
   });
   $('#btnStart').addEventListener('click', () => { AudioSys.play('click'); UI.openBrief({ chapter: Flow.sel.chapter }); });
+  $('#btnStudy').addEventListener('click', () => { AudioSys.play('click'); UI.showBook(Flow.sel.chapter, { from: 'setup' }); });
   $('#diffSeg').addEventListener('click', e => {
     const b = e.target.closest('button'); if (!b) return;
     Flow.sel.diff = b.dataset.d;
@@ -4007,7 +4276,7 @@ function toast(html, cls) {
   UI.checkRotate();
 
   // expose for console/debug
-  window.TINKER = { Flow, UI, S: () => S, QBANK, WORLDS, Game };
+  window.TINKER = { Flow, UI, QuizUI, S: () => S, QBANK, WORLDS, Game };
 })();
 
 </script>
