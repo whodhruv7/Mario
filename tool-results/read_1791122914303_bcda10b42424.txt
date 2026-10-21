@@ -1,0 +1,502 @@
+     1→<!DOCTYPE html>
+     2→<html lang="en">
+     3→<head>
+     4→<meta charset="UTF-8">
+     5→<title>Class 9 Economics — Exam Workbook (Ch 8 + Ch 9)</title>
+     6→<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+     7→<style>
+     8→@page { size: 794px 1123px; margin: 0; }
+     9→:root{
+    10→  --bg:#FBF8F1; --ink:#22313F; --muted:#8A8172; --border:#E9E1CF; --card:#FFFFFF;
+    11→  --t:#0E7C6B; --t-dark:#0A5B4E; --t-tint:#E6F3EF; --t-line:#BFE0D7;
+    12→  --o:#E4572E; --o-dark:#BC431E; --o-tint:#FCEAE0; --o-line:#F6CDB9;
+    13→}
+    14→html,body{margin:0;padding:0;width:794px;background:var(--bg);color:var(--ink);
+    15→  font-family:'Inter','Noto Sans SC','Noto Color Emoji',sans-serif;font-size:11px;line-height:1.49;}
+    16→body{line-break:strict;word-break:normal;overflow-wrap:break-word;}
+    17→p,td,li{overflow-wrap:break-word;}
+    18→*{box-sizing:border-box;}
+    19→@media screen{
+    20→  html{height:auto;display:flex;justify-content:center;background:#E8E3D5;}
+    21→  body{transform-origin:top center;margin:20px auto;box-shadow:0 0 40px rgba(0,0,0,.15);}
+    22→}
+    23→
+    24→/* ---------- CHAPTER ACCENT THEMES ---------- */
+    25→.ch8{--acc:var(--t);--accd:var(--t-dark);--tint:var(--t-tint);--line:var(--t-line);}
+    26→.ch9{--acc:var(--o);--accd:var(--o-dark);--tint:var(--o-tint);--line:var(--o-line);}
+    27→
+    28→/* ---------- COVER (fixed full page) ---------- */
+    29→.cvr{position:relative;width:794px;height:1123px;break-after:page;
+    30→  background:radial-gradient(circle at 655px 60px, rgba(14,124,107,.16) 0%, rgba(14,124,107,.05) 38%, transparent 58%),
+    31→             radial-gradient(circle at 60px 1075px, rgba(228,87,46,.15) 0%, rgba(228,87,46,.05) 36%, transparent 56%),
+    32→             var(--bg);
+    33→  display:flex;flex-direction:column;justify-content:center;padding:60px 58px;}
+    34→.blob{position:absolute;border-radius:50%;background:transparent;}
+    35→.b3{width:140px;height:140px;right:60px;bottom:100px;border:2.5px dashed #0E7C6B2e;}
+    36→.b4{width:90px;height:90px;left:64px;top:120px;border:2.5px dashed #E4572E40;}
+    37→.coin{position:absolute;font-size:42px;opacity:.9;}
+    38→.c1{right:90px;top:92px;transform:rotate(12deg);}
+    39→.c2{right:140px;bottom:165px;transform:rotate(-10deg);}
+    40→.cv-kick{font-size:13px;font-weight:800;letter-spacing:5px;color:var(--t);text-transform:uppercase;}
+    41→.cv-title{font-family:'Baloo 2','Inter',sans-serif;font-size:76px;font-weight:800;line-height:1;
+    42→  color:var(--ink);margin:14px 0 0 0;}
+    43→.cv-title2{font-family:'Baloo 2','Inter',sans-serif;font-size:44px;font-weight:800;line-height:1.05;
+    44→  color:var(--t);margin:4px 0 10px 0;}
+    45→.cv-sub{font-size:16px;color:#4A5568;max-width:560px;line-height:1.5;margin-top:8px;}
+    46→.cv-chaps{margin-top:30px;display:flex;flex-direction:column;gap:12px;max-width:640px;}
+    47→.cv-chap{display:flex;align-items:center;gap:14px;background:var(--card);border:1.5px solid var(--border);
+    48→  border-radius:14px;padding:13px 18px;box-shadow:0 3px 10px rgba(34,49,63,.06);}
+    49→.cv-chap .cbadge{flex-shrink:0;width:52px;height:52px;border-radius:12px;display:flex;align-items:center;
+    50→  justify-content:center;font-family:'Baloo 2',sans-serif;font-size:24px;font-weight:800;color:#fff;}
+    51→.cv-chap .cb8{background:linear-gradient(135deg,#0E7C6B,#0A5B4E);}
+    52→.cv-chap .cb9{background:linear-gradient(135deg,#E4572E,#BC431E);}
+    53→.cv-chap .ct{font-size:16.5px;font-weight:800;color:var(--ink);line-height:1.25;}
+    54→.cv-chap .cs{font-size:11.5px;color:var(--muted);margin-top:2px;}
+    55→.cv-chips{margin-top:26px;display:flex;flex-wrap:wrap;gap:8px;max-width:660px;}
+    56→.cv-chips span{border:1.5px solid var(--border);border-radius:20px;padding:5px 13px;font-size:11px;
+    57→  font-weight:700;color:var(--ink);background:var(--card);}
+    58→.cv-foot{position:absolute;bottom:44px;left:58px;right:58px;display:flex;justify-content:space-between;
+    59→  align-items:center;border-top:2px solid var(--border);padding-top:16px;}
+    60→.cv-foot .fl{font-size:11px;font-weight:700;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase;}
+    61→.cv-foot .fr{font-size:20px;font-weight:800;font-family:'Baloo 2',sans-serif;color:var(--t);}
+    62→
+    63→/* ---------- MAIN FLOW ---------- */
+    64→.main-content{padding:38px 50px 34px 50px;}
+    65→.topic.flow{break-inside:auto;}
+    66→.define,.hing{break-inside:avoid;}
+    67→
+    68→/* how-to strip */
+    69→.howto{display:flex;gap:10px;margin-bottom:16px;}
+    70→.howto .hstep{flex:1 1 0;min-width:0;background:var(--card);border:1.5px solid var(--border);
+    71→  border-radius:10px;padding:10px 12px;text-align:center;break-inside:avoid;}
+    72→.howto .hn{font-family:'Baloo 2',sans-serif;font-size:17px;font-weight:800;}
+    73→.howto .h8 .hn{color:var(--t);} .howto .h9 .hn{color:var(--o);}
+    74→.howto .hd{font-size:10px;color:var(--muted);font-weight:600;line-height:1.4;margin-top:2px;}
+    75→
+    76→/* chapter opener */
+    77→.ch-open{border-radius:16px;padding:22px 26px;margin:20px 0 16px 0;break-inside:avoid;
+    78→  break-after:avoid;position:relative;overflow:hidden;}
+    79→.ch-open .big-emoji{position:absolute;right:24px;top:50%;transform:translateY(-50%);font-size:74px;opacity:.85;}
+    80→.ch-open .okick{font-size:10.5px;font-weight:800;letter-spacing:3px;color:#fff;text-transform:uppercase;
+    81→  display:inline-block;background:rgba(255,255,255,.22);border-radius:12px;padding:3px 12px;}
+    82→.ch-open .otitle{font-family:'Baloo 2',sans-serif;font-size:34px;font-weight:800;color:#fff;line-height:1.05;margin-top:10px;}
+    83→.ch-open .osub{font-size:12.5px;color:rgba(255,255,255,.94);margin-top:8px;max-width:560px;line-height:1.5;}
+    84→.ch-open .ochips{margin-top:14px;display:flex;flex-wrap:wrap;gap:6px;max-width:560px;}
+    85→.ch-open .ochips span{background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.45);
+    86→  border-radius:12px;padding:2.5px 10px;font-size:10px;font-weight:700;color:#fff;}
+    87→.ch8 .ch-open{background:linear-gradient(120deg,#0E7C6B 0%,#0A5B4E 100%);}
+    88→.ch9 .ch-open{background:linear-gradient(120deg,#E4572E 0%,#BC431E 100%);}
+    89→
+    90→/* section header (notes / mcq / qa) */
+    91→.sec-h{display:flex;align-items:center;gap:10px;margin:18px 0 10px 0;break-after:avoid;break-inside:avoid;}
+    92→.sec-h .sq{flex-shrink:0;width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center;
+    93→  font-size:15px;color:#fff;background:var(--acc);}
+    94→.sec-h .st{font-family:'Baloo 2',sans-serif;font-size:20px;font-weight:800;color:var(--accd);}
+    95→.sec-h .sline{flex:1;height:2.5px;border-radius:2px;background:linear-gradient(90deg,var(--line),transparent);}
+    96→
+    97→/* topic card */
+    98→.topic{background:var(--card);border:1.5px solid var(--border);border-radius:13px;
+    99→  padding:12px 15px 11px 15px;margin-bottom:11px;break-inside:auto;border-left:5px solid var(--acc);}
+   100→.topic-h{display:flex;align-items:center;gap:10px;margin-bottom:9px;break-after:avoid;break-inside:avoid;}
+   101→.topic-h .tnum{flex-shrink:0;font-family:'Baloo 2',sans-serif;font-size:13px;font-weight:800;color:#fff;
+   102→  background:var(--acc);border-radius:7px;padding:2px 9px;letter-spacing:.5px;}
+   103→.topic-h .tt{font-family:'Baloo 2',sans-serif;font-size:15.5px;font-weight:800;color:var(--ink);line-height:1.2;}
+   104→.topic-h .tick{margin-left:auto;flex-shrink:0;font-size:10px;font-weight:700;color:var(--muted);
+   105→  border:1.5px dashed var(--border);border-radius:12px;padding:2px 9px;}
+   106→.define{background:var(--tint);border:1.2px solid var(--line);border-radius:8px;padding:7px 11px;margin-bottom:7px;}
+   107→.define .dl{font-size:10px;font-weight:800;letter-spacing:1.6px;color:var(--accd);text-transform:uppercase;}
+   108→.define .dd{font-size:11.2px;margin-top:2px;line-height:1.5;}
+   109→.define .dd b{color:var(--accd);}
+   110→.hing{background:#FFF9EC;border:1.5px dashed var(--acc);border-radius:8px;padding:7px 11px;margin-bottom:7px;}
+   111→.hing .ht{font-size:10px;font-weight:800;letter-spacing:1.2px;color:var(--accd);text-transform:uppercase;}
+   112→.hing .hb{font-size:11px;line-height:1.55;margin-top:2px;color:#4A4133;}
+   113→.hing .hb b{color:var(--accd);}
+   114→.pts{margin:0;padding-left:0;list-style:none;}
+   115→.pts li{position:relative;padding-left:16px;margin-bottom:3px;font-size:11.2px;line-height:1.47;break-inside:avoid;}
+   116→.pts li::before{content:'';position:absolute;left:2px;top:6.5px;width:6px;height:6px;border-radius:2px;background:var(--acc);}
+   117→.pts li b{color:var(--accd);}
+   118→.plabel{font-size:10px;font-weight:800;letter-spacing:1.2px;color:var(--accd);text-transform:uppercase;
+   119→  margin:2px 0 4px 0;break-after:avoid;}
+   120→.exbox{background:var(--bg);border:1.2px solid var(--border);border-radius:8px;padding:7px 11px;margin-top:7px;font-size:10.6px;}
+   121→.exbox .xt{font-weight:800;color:var(--ink);}
+   122→
+   123→/* generic table */
+   124→table.tt{width:100%;border-collapse:collapse;font-size:10.6px;margin:7px 0 4px 0;}
+   125→table.tt thead{display:table-header-group;}
+   126→table.tt tr{break-inside:avoid;}
+   127→table.tt th{background:var(--acc);color:#fff;font-weight:700;text-align:left;padding:4.5px 9px;font-size:10.2px;}
+   128→table.tt td{border:1px solid var(--border);padding:3.6px 9px;vertical-align:top;background:#fff;line-height:1.45;}
+   129→table.tt tr:nth-child(even) td{background:var(--bg);}
+   130→table.tt td b{color:var(--accd);}
+   131→
+   132→/* definition bank */
+   133→.defbank{background:var(--tint);border:1.5px solid var(--line);border-radius:13px;padding:10px 14px;
+   134→  margin:6px 0;break-inside:avoid;}
+   135→.defbank .dbt{break-after:avoid;}
+   136→.defbank .dbt{font-family:'Baloo 2',sans-serif;font-size:16px;font-weight:800;color:var(--accd);margin-bottom:8px;}
+   137→.db-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 16px;}
+   138→.db-grid .d{font-size:10.35px;line-height:1.42;break-inside:avoid;}
+   139→.db-grid .d b{color:var(--accd);}
+   140→
+   141→/* MCQ */
+   142→.mcq-score{display:flex;align-items:center;gap:10px;background:var(--card);border:1.5px solid var(--border);
+   143→  border-radius:10px;padding:8px 14px;margin-bottom:12px;break-inside:avoid;}
+   144→.mcq-score .ms{font-size:11px;font-weight:700;color:var(--muted);}
+   145→.mcq-score .blank{width:64px;height:22px;border:2px dashed var(--acc);border-radius:6px;}
+   146→.mcq{background:var(--card);border:1.5px solid var(--border);border-radius:11px;padding:10px 14px;
+   147→  margin-bottom:9px;break-inside:avoid;}
+   148→.mcq .mq{font-size:11.4px;font-weight:700;line-height:1.45;margin-bottom:6px;}
+   149→.mcq .mq .qn{color:var(--accd);font-family:'Baloo 2',sans-serif;font-weight:800;}
+   150→.opts{display:grid;grid-template-columns:1fr 1fr;gap:4px 14px;}
+   151→.opts .op{font-size:10.8px;line-height:1.45;padding-left:24px;position:relative;}
+   152→.opts .op::before{content:attr(data-l);position:absolute;left:0;top:0;width:17px;height:17px;border-radius:50%;
+   153→  border:1.5px solid var(--border);background:var(--bg);font-size:9.6px;font-weight:800;color:var(--accd);
+   154→  display:flex;align-items:center;justify-content:center;}
+   155→.anskey{background:var(--accd);border-radius:13px;padding:14px 16px;margin:14px 0;break-inside:avoid;}
+   156→.anskey .akt{font-family:'Baloo 2',sans-serif;font-size:15px;font-weight:800;color:#fff;margin-bottom:7px;}
+   157→.ans-strip{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:9px;}
+   158→.ans-strip span{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.4);border-radius:8px;
+   159→  padding:2.5px 9px;font-size:10.5px;font-weight:800;color:#fff;}
+   160→.xpls{display:grid;grid-template-columns:1fr;gap:3px;}
+   161→.xpls .x{font-size:10.3px;color:rgba(255,255,255,.95);line-height:1.45;padding-left:14px;position:relative;}
+   162→.xpls .x::before{content:'▸';position:absolute;left:0;color:#FFD8A8;}
+   163→.ch9 .xpls .x::before{color:#FFD8A8;}
+   164→
+   165→/* QA */
+   166→.qa{background:var(--card);border:1.5px solid var(--border);border-radius:11px;padding:10px 14px;
+   167→  margin-bottom:9px;break-inside:avoid;border-left:5px solid var(--acc);}
+   168→.qa .qq{font-size:11.6px;font-weight:800;line-height:1.45;margin-bottom:6px;}
+   169→.qa .qq .qn{color:var(--accd);font-family:'Baloo 2',sans-serif;}
+   170→.qa .alab{font-size:10px;font-weight:800;letter-spacing:1.4px;color:var(--accd);text-transform:uppercase;margin-bottom:3px;}
+   171→.qa .ans{margin:0;padding-left:0;list-style:none;}
+   172→.qa .ans li{position:relative;padding-left:15px;margin-bottom:2.5px;font-size:10.9px;line-height:1.46;break-inside:avoid;}
+   173→.qa .ans li::before{content:'';position:absolute;left:1px;top:6.5px;width:5.5px;height:5.5px;border-radius:50%;background:var(--acc);}
+   174→.qa .ans li b{color:var(--accd);}
+   175→
+   176→/* closer */
+   177→.closer{background:linear-gradient(120deg,#22313F,#0E7C6B);border-radius:16px;padding:22px 26px;
+   178→  margin-top:22px;text-align:center;break-inside:avoid;}
+   179→.closer .cl1{font-family:'Baloo 2',sans-serif;font-size:23px;font-weight:800;color:#fff;}
+   180→.closer .cl2{font-size:12px;color:rgba(255,255,255,.9);margin-top:5px;line-height:1.5;}
+   181→</style>
+   182→</head>
+   183→<body>
+   184→
+   185→<!-- ================= COVER ================= -->
+   186→<div class="cvr">
+   187→  <div class="blob b3"></div><div class="blob b4"></div>
+   188→  <div class="coin c1">💰</div><div class="coin c2">🧩</div>
+   189→  <div class="cv-kick">Class 9 &bull; SST &bull; Exam Workbook</div>
+   190→  <div class="cv-title">ECONOMICS</div>
+   191→  <div class="cv-title2">the Workbook</div>
+   192→  <div class="cv-sub">Poora exam prep — samajhne wali <b>Hinglish notes</b>, likhne wale <b>English points</b>, saare <b>definitions</b>, aur full <b>practice set</b> (MCQs + big Q&amp;A). All from your textbook, nothing extra.</div>
+   193→  <div class="cv-chaps">
+   194→    <div class="cv-chap">
+   195→      <div class="cbadge cb8">8</div>
+   196→      <div><div class="ct">Building Blocks in Economics</div><div class="cs">The Problem of Choice — scarcity, opportunity cost, PPC, 3 key questions, economic systems</div></div>
+   197→    </div>
+   198→    <div class="cv-chap">
+   199→      <div class="cbadge cb9">9</div>
+   200→      <div><div class="ct">The Price Puzzle: What Drives the Market</div><div class="cs">Demand, supply, market equilibrium &amp; the role of government</div></div>
+   201→    </div>
+   202→  </div>
+   203→  <div class="cv-chips">
+   204→    <span>💡 Hinglish Samajh</span><span>✍️ Exam-Ready Points</span><span>📖 Definition Bank</span><span>✅ 10 + 10 MCQs</span><span>📝 10 + 10 Big Q&amp;A</span><span>🎯 Under 20 Pages</span>
+   205→  </div>
+   206→  <div class="cv-foot">
+   207→    <div class="fl">Understanding Society: India &amp; Beyond &bull; Grade 9 Part 1</div>
+   208→    <div class="fr">Let's go! 🚀</div>
+   209→  </div>
+   210→</div>
+   211→
+   212→<div class="main-content">
+   213→
+   214→<!-- HOW TO USE -->
+   215→<div class="howto">
+   216→  <div class="hstep h8"><div class="hn">1 · SAMAJH</div><div class="hd">Pehle 💡 Hinglish box padh — topic ka feel aa jayega</div></div>
+   217→  <div class="hstep h8"><div class="hn">2 · RATTAAA</div><div class="hd">📖 Definition + ✍️ points yaad kar — yehi likhne ke hain</div></div>
+   218→  <div class="hstep h9"><div class="hn">3 · TEST</div><div class="hd">MCQs khud solve kar, phir answers check kar 💪</div></div>
+   219→  <div class="hstep h9"><div class="hn">4 · WRITE</div><div class="hd">Big Q&amp;A dekh — points ko apne answers me copy-paryog karo</div></div>
+   220→</div>
+   221→
+   222→<!-- ================================================= CHAPTER 8 -->
+   223→<div class="ch8">
+   224→
+   225→<div class="ch-open">
+   226→  <div class="big-emoji">🧭</div>
+   227→  <div class="okick">Chapter 8 &bull; Economics</div>
+   228→  <div class="otitle">Building Blocks in Economics:<br>The Problem of Choice</div>
+   229→  <div class="osub">Economics = choices ki science. Resources kam, wants unlimited — toh choose karna padta hai. Is chapter me: scarcity, opportunity cost, PPC, 3 key questions aur economic systems.</div>
+   230→  <div class="ochips"><span>🔑 12 Topics</span><span>📖 20+ Definitions</span><span>✅ 10 MCQs</span><span>📝 10 Q&amp;A</span></div>
+   231→</div>
+   232→
+   233→<div class="sec-h"><span class="sq">📚</span><span class="st">Notes — Har Topic, Poori Samajh</span><span class="sline"></span></div>
+   234→
+   235→<!-- T1 -->
+   236→<div class="topic">
+   237→  <div class="topic-h"><span class="tnum">T1</span><span class="tt">Economics — What is it? 🤔</span><span class="tick">☐ revised</span></div>
+   238→  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Economics</b> is the discipline that deals with how choices are made by <b>optimising (best use of)</b> limited resources to satisfy the <b>needs and wants</b> of people.</div></div>
+   239→  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Word aaya hai Greek se — <b>oikonomia</b> = <b>oikos</b> (household) + <b>nemein</b> (management) = <b>"household management"</b>. Simple: jaise ghar me mummy paise limited hote hain aur unse poora month chalati hain — wahi economics hai, bas poore desh ke level pe! Government, companies, families — sabko yahi problem hoti hai: <b>kam resources, zyada demands</b>.</div></div>
+   240→  <div class="plabel">✍️ Exam Points — yehi likhna hai</div>
+   241→  <ul class="pts">
+   242→    <li><b>Origin:</b> Greek word <b>oikonomia</b> — oikos (household) + nemein (management), meaning 'household management'.</li>
+   243→    <li>Economics studies how <b>individuals, enterprises and governments</b> make choices to use limited resources efficiently.</li>
+   244→    <li>It explains how <b>economic entities</b> — consumers, producers, governments, financial institutions — interact in an economy.</li>
+   245→    <li>It covers: how people earn wages, how wealth is distributed, how prices are determined, how policies &amp; trade affect employment.</li>
+   246→    <li>Good economic decisions are based on <b>data and analysis</b> — not guesswork (data = facts &amp; statistics; surveys = systematic data collection).</li>
+   247→  </ul>
+   248→</div>
+   249→
+   250→<!-- T2 -->
+   251→<div class="topic">
+   252→  <div class="topic-h"><span class="tnum">T2</span><span class="tt">Needs vs Wants 🍚 vs 🎮</span><span class="tick">☐ revised</span></div>
+   253→  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Needs</b> — essentials required for survival, like food, water and shelter. &nbsp;|&nbsp; <b>Wants</b> — desires beyond essentials, like gadgets, vacations and luxury items.</div></div>
+   254→  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb"><b>Need</b> = bina ye zinda nahi reh sakte (khana, paani, ghar). <b>Want</b> = dil ki demand — cycle se bike, bike se car, car se... aur badhte hi jao! 🚲→🏍️→🚗 Isliye kehte hain <b>"human wants are unlimited and keep changing"</b> — yahi economics ki root problem hai.</div></div>
+   255→  <div class="plabel">✍️ Exam Points</div>
+   256→  <ul class="pts">
+   257→    <li><b>Needs</b> are essential for survival — food, water, shelter.</li>
+   258→    <li><b>Wants</b> are unlimited, keep changing, and grow with time — e.g., bicycle → motorbike → car.</li>
+   259→    <li>Choices are made by individuals, enterprises and governments — e.g., spending pocket money on snacks vs saving for shoes.</li>
+   260→    <li>Since wants exceed resources, <b>every economic choice involves giving something up</b>.</li>
+   261→  </ul>
+   262→  <div class="exbox"><span class="xt">🧠 Quick trick:</span> Need = <b>N</b>ahi hua toh <b>N</b>ahi bachoge. Want = <b>W</b>ish list — hoga toh mast, nahi toh chalega!</div>
+   263→</div>
+   264→
+   265→<!-- T3 -->
+   266→<div class="topic">
+   267→  <div class="topic-h"><span class="tnum">T3</span><span class="tt">Scarcity &amp; Resources — The Root Problem 🥲</span><span class="tick">☐ revised</span></div>
+   268→  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Resources</b> — factors used for the production of goods and services; they can be natural (water, coal) or human-made (capital, technology). &nbsp;|&nbsp; <b>Scarcity</b> — the condition of limited resources against unlimited wants.</div></div>
+   269→  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Ek hi <b>steel</b> ka block — usse hospital ke <b>medical equipment</b> bana sakte ho, <b>fridge</b> bhi, <b>aircraft</b> bhi. Steel kam hai, uses bahut saare — matlab resources ki <b>alternative uses</b> hain. Toh economy ko decide karna padta hai kahan lagana hai. Yahi <b>scarcity</b> hai — aur isi se <b>choice</b> ka problem paida hota hai.</div></div>
+   270→  <div class="plabel">✍️ Exam Points</div>
+   271→  <ul class="pts">
+   272→    <li>Both natural and human-made resources are <b>limited in quantity</b>.</li>
+   273→    <li>Resources have <b>many alternative uses</b> — e.g., steel can make medical equipment, refrigerators or aircraft.</li>
+   274→    <li><b>Factors of production</b> (Grade 8 recap): <b>Land, Labour, Capital, Technology</b>.</li>
+   275→    <li>Not just households — whole <b>economies</b> must decide how to use scarce resources to improve people's quality of life.</li>
+   276→    <li>Scarcity + unlimited wants → <b>choices</b> → every choice has a cost (next topic!).</li>
+   277→  </ul>
+   278→</div>
+   279→
+   280→<!-- T4 -->
+   281→<div class="topic">
+   282→  <div class="topic-h"><span class="tnum">T4</span><span class="tt">Opportunity Cost — What You Give Up 💸</span><span class="tick">☐ revised</span></div>
+   283→  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Opportunity cost</b> — the <b>value of what is given up</b> when one alternative is chosen and the other options are sacrificed.</div></div>
+   284→  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Friday evening: movie <b>ya</b> cricket match — dono ek saath nahi. Movie chuni toh <b>match ka maza</b> gaya = movie ka opportunity cost. Book example: farmer ke paas ek piece of land — usme <b>barley ya wheat</b> ugaa sakta hai. Barley boya toh wheat ka sacrifice = barley ka opportunity cost. Yaad rakhna: <b>jo chhoda, wahi cost hai!</b></div></div>
+   285→  <div class="plabel">✍️ Exam Points</div>
+   286→  <ul class="pts">
+   287→    <li>When one alternative is chosen, the other options are <b>given up</b> — their value is the opportunity cost.</li>
+   288→    <li><b>Farmer example:</b> with limited land, water and labour, he can grow barley or wheat in different combinations — more barley means less wheat.</li>
+   289→    <li>Opportunity cost applies to <b>households, enterprises and governments</b> alike (e.g., govt: highways vs hospitals).</li>
+   290→    <li>Understanding it improves decision-making — we compare what we gain against what we sacrifice.</li>
+   291→  </ul>
+   292→  <div class="exbox"><span class="xt">🧠 Exam line:</span> "Every economic choice has an opportunity cost" — 1-mark question me seedha likh do. ✔️</div>
+   293→</div>
+   294→
+   295→<!-- T5 -->
+   296→<div class="topic">
+   297→  <div class="topic-h"><span class="tnum">T5</span><span class="tt">Production Possibility Curve (PPC) 📉</span><span class="tick">☐ revised</span></div>
+   298→  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>PPC</b> — the curve showing <b>different combinations of two goods</b> that can be produced using <b>all available resources</b> efficiently.</div></div>
+   299→  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">PPC ek <b>seesaw</b> jaisa hai — ek side barley, doosri side wheat. Ek side ka weight badhaya toh doosri girti hai! Graph me x-axis pe <b>barley (kg)</b>, y-axis pe <b>wheat (kg)</b>, aur curve <b>neeche ki taraf jhuki (downward sloping)</b> hoti hai — kyunki zyada barley chahiye toh wheat sacrifice karni padegi. <b>A se E</b> tak move karo → barley badhti hai, wheat ghat-ti jaati hai.</div></div>
+   300→  <div class="plabel">✍️ Exam Points</div>
+   301→  <ul class="pts">
+   302→    <li>PPC shows the <b>trade-off</b> between two goods (here: barley and wheat).</li>
+   303→    <li>It is <b>downward sloping</b> — producing more of one good requires sacrificing some of the other.</li>
+   304→    <li><b>Points ON the curve</b> = maximum output with <b>efficient use of resources</b> (no wastage).</li>
+   305→    <li>It helps <b>enterprises and governments</b> in better planning and decision-making.</li>
+   306→  </ul>
+   307→  <table class="tt">
+   308→    <thead><tr><th>Combination</th><th>Barley (kg)</th><th>Wheat (kg)</th><th>Kya ho raha hai?</th></tr></thead>
+   309→    <tbody>
+   310→      <tr><td><b>A</b></td><td>0</td><td>100</td><td>Sirf wheat, no barley</td></tr>
+   311→      <tr><td><b>B</b></td><td>25</td><td>90</td><td>Thodi barley → 10 kg wheat gaya</td></tr>
+   312→      <tr><td><b>C</b></td><td>50</td><td>70</td><td>Barley badhi → wheat ghati</td></tr>
+   313→      <tr><td><b>D</b></td><td>75</td><td>40</td><td>Aur barley → aur sacrifice</td></tr>
+   314→      <tr><td><b>E</b></td><td>100</td><td>0</td><td>Full barley, zero wheat</td></tr>
+   315→    </tbody>
+   316→  </table>
+   317→</div>
+   318→
+   319→<!-- T6 (split into 3 cards) -->
+   320→<div class="topic">
+   321→  <div class="topic-h"><span class="tnum">T6</span><span class="tt">3 Key Questions — KYA produce karein? ❓</span><span class="tick">☐ revised</span></div>
+   322→  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Har economy — India ho ya America — ko 3 sawaal ka jawab dena hota hai: <b>KYA produce karein? KAISE produce karein? KISKE LIYE produce karein?</b> Scarcity ki wajah se yeh 3 questions compulsory hain — resources kam hain, toh decide karo kahan, kaise aur kiske liye lagana hai! Pehla sawaal dekhte hain 👇</div></div>
+   323→  <div class="plabel">✍️ Exam Points — Q1: What to produce?</div>
+   324→  <ul class="pts">
+   325→    <li>Which goods &amp; services, and in what quantities, should be produced to meet the economy's needs.</li>
+   326→    <li><b>Example:</b> water-intensive crops (sugarcane, paddy) vs drought-resistant crops (millets, pulses).</li>
+   327→    <li>Sugarcane = high profit + supports sugar industry; millets = save water + improve soil health + sustainable agriculture.</li>
+   328→    <li>Here <b>opportunity cost of sugarcane</b> = forgone gains from saved water and improved soil health — a trade-off between <b>short-term profit and long-term sustainability</b>.</li>
+   329→  </ul>
+   330→</div>
+   331→
+   332→<!-- T7 -->
+   333→<div class="topic">
+   334→  <div class="topic-h"><span class="tnum">T7</span><span class="tt">3 Key Questions — KISKE LIYE produce karein? 🎯</span><span class="tick">☐ revised</span></div>
+   335→  <div class="plabel">✍️ Exam Points — Q2: For whom to produce?</div>
+   336→  <ul class="pts">
+   337→    <li>Since people have different needs, incomes, tastes and lifestyles — producers decide <b>which group of consumers to serve</b>.</li>
+   338→    <li><b>Shoes example:</b> School shoes (simple, durable, affordable) • Office shoes (comfort, formal, leather) • Sports shoes (rubber soles, lightweight, grip &amp; support) • Casual slippers (comfortable, affordable).</li>
+   339→    <li>Leather shoes → office-goers &amp; higher-income customers; rubber/synthetic → sports players, factory workers (affordable + durable).</li>
+   340→    <li>Producers study what consumers like, their income and demand — so resources are <b>not wasted</b>.</li>
+   341→  </ul>
+   342→</div>
+   343→
+   344→<!-- T8 -->
+   345→<div class="topic">
+   346→  <div class="topic-h"><span class="tnum">T8</span><span class="tt">3 Key Questions — KAISE produce karein? ⚙️</span><span class="tick">☐ revised</span></div>
+   347→  <div class="plabel">✍️ Exam Points — Q3: How to produce?</div>
+   348→  <ul class="pts">
+   349→    <li>Which methods, resources and technologies to use — the right mix of factors of production.</li>
+   350→    <li><b>Labour-intensive</b> = more workers, less machinery (agriculture, handicrafts). <b>Capital-intensive</b> = more machines &amp; technology, fewer workers (steel, automobile industries).</li>
+   351→    <li>The choice depends on: <b>cost of capital, technology available, nature of product</b> (customised clothes need skilled labour; mass production suits machines), <b>availability &amp; cost of labour</b>, and <b>government laws &amp; regulations</b>.</li>
+   352→    <li><b>Garment example:</b> machines mehngi → labour; machines sasti → automation. Designer clothes = skilled labour; mass garments = machines.</li>
+   353→  </ul>
+   354→</div>
+   355→
+   356→<!-- T9 -->
+   357→<div class="topic flow">
+   358→  <div class="topic-h"><span class="tnum">T9</span><span class="tt">Economic Systems — 3 Tarika 🏛️</span><span class="tick">☐ revised</span></div>
+   359→  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Economic system</b> — the system that defines the mechanisms for the <b>production, consumption and distribution</b> of goods, services and resources in a country.</div></div>
+   360→  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">3 systems = 3 personalities 😄 — <b>Planned</b>: "Sarkar sab decide karegi" (strict papa 🧔). <b>Market</b>: "Demand-supply khud decide karega, sarkar bas referee" (cool referee 🏃). <b>Mixed</b>: "Dono mil ke" — India wala practical combo (office me dono bosses 👨‍💼👩‍💼). Har system wahi 3 questions (kya/kaise/kiske liye) alag tarah se answer karta hai.</div></div>
+   361→  <div class="plabel">✍️ Exam Points — the 3 systems</div>
+   362→  <ul class="pts">
+   363→    <li><b>Planned economy:</b> a <b>central planning authority</b> of the government (like a planning commission) makes all major decisions — what, how much, how, for whom and at what prices. Government owns most resources (land, factories, banks, transport). Strict <b>permits &amp; licenses</b> → little competition → less motivation to improve quality or innovate. <b>Examples: former Soviet Union, North Korea, Cuba.</b></li>
+   364→    <li><b>Market economy:</b> decisions are made mainly by <b>forces of demand and supply</b> with little government intervention — government acts like a <b>referee</b> (safety, law &amp; order; does not control prices or production). Ownership largely with <b>individuals &amp; private companies</b>. Competition → better quality, lower prices, innovation. <b>Examples: USA, Japan, Hong Kong.</b></li>
+   365→    <li><b>Mixed economy:</b> combines features of both — private individuals, enterprises AND the government play important roles. Large <b>public sector companies</b> exist alongside private players. In reality, <b>almost all economies are mixed</b>. <b>Examples: India (post-1991), China (post-1978), Germany, Sweden.</b></li>
+   366→  </ul>
+   367→  <table class="tt">
+   368→    <thead><tr><th style="width:19%">Basis</th><th>Planned 🧔</th><th>Market 🏃</th><th>Mixed 🤝</th></tr></thead>
+   369→    <tbody>
+   370→      <tr><td><b>Who decides?</b></td><td>Central govt authority</td><td>Demand &amp; supply forces</td><td>Both govt + market</td></tr>
+   371→      <tr><td><b>Ownership</b></td><td>Mostly government</td><td>Mostly private</td><td>Private + public sector</td></tr>
+   372→      <tr><td><b>Competition</b></td><td>Very limited (permits, licenses)</td><td>High → innovation</td><td>Regulated competition</td></tr>
+   373→      <tr><td><b>Examples</b></td><td>Former USSR, North Korea, Cuba</td><td>USA, Japan, Hong Kong</td><td>India, China, Germany, Sweden</td></tr>
+   374→    </tbody>
+   375→  </table>
+   376→</div>
+   377→
+   378→<!-- T10 -->
+   379→<div class="topic">
+   380→  <div class="topic-h"><span class="tnum">T10</span><span class="tt">India's Economic Journey 🇮🇳</span><span class="tick">☐ revised</span></div>
+   381→  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Independence ke baad India <b>"sarkari style"</b> me chala — licenses, permits, sarkari banks, sarkari factories. Phir <b>1991</b> me economy struggling hui (serious economic difficulties) — toh government ne <b>big reforms</b> ki: nakhre kam, competition zyada! Aaj India ek <b>market-oriented mixed economy</b> hai — private players bhi, sarkar bhi. 🚀</div></div>
+   382→  <div class="plabel">✍️ Exam Points</div>
+   383→  <ul class="pts">
+   384→    <li><b>After Independence:</b> India followed a <b>state-led approach</b> similar to a planned economy — government controlled industries, allocated resources, regulated production through <b>licenses &amp; permits</b>; banking, transport &amp; heavy industries dominated by the <b>public sector</b>.</li>
+   385→    <li><b>By 1991:</b> the country faced <b>serious economic difficulties</b>.</li>
+   386→    <li><b>Reforms of 1991:</b> reduced excessive regulations, encouraged <b>private enterprise</b>, opened the economy to <b>global trade &amp; investment</b>, and increased <b>competition</b>.</li>
+   387→    <li>Result: India gradually shifted towards a more <b>market-oriented system</b> while retaining an important role for the government → today a <b>mixed economy</b>.</li>
+   388→  </ul>
+   389→</div>
+   390→
+   391→<!-- T11 -->
+   392→<div class="topic">
+   393→  <div class="topic-h"><span class="tnum">T11</span><span class="tt">Economic Survey &amp; Economists' Work 📊</span><span class="tick">☐ revised</span></div>
+   394→  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Economic Survey of India</b> — an important <b>annual document</b> prepared by the <b>Ministry of Finance</b> and presented in <b>Parliament before the Union Budget</b>.</div></div>
+   395→  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Economic Survey = desh ki <b>report card</b> 📔 — pichle saal economy kaisi rahi (agriculture, industry, services, jobs, inflation...). Budget se pehle Parliament me pesh hoti hai, isliye ise <b>Union Budget ka blueprint</b> bhi kehte hain. Aur economists kya karte hain? Data analyse kar ke <b>policy, finance, research, consulting</b> — chaar departments me kaam.</div></div>
+   396→  <div class="plabel">✍️ Exam Points — Economic Survey</div>
+   397→  <ul class="pts">
+   398→    <li>Annual document by the <b>Ministry of Finance</b>, presented in Parliament <b>before the Union Budget</b>.</li>
+   399→    <li>Reviews the country's <b>economic performance</b> of the past year and analyses sectors — agriculture, industry, services, employment, inflation, education, health, infrastructure.</li>
+   400→    <li>Discusses future <b>challenges and opportunities</b>; acts as a <b>blueprint for the Union Budget</b>; explains economic data clearly to citizens.</li>
+   401→  </ul>
+   402→  <div class="plabel">✍️ Exam Points — Scope of economists' work</div>
+   403→  <ul class="pts">
+   404→    <li><b>Policy-making:</b> guiding governments on taxation or welfare spending.</li>
+   405→    <li><b>Finance:</b> advising investors on where to invest.</li>
+   406→    <li><b>Research &amp; education:</b> studying economic trends and teaching.</li>
+   407→    <li><b>Business consulting:</b> helping firms plan growth or improve efficiency.</li>
+   408→    <li>They use data from <b>government reports, economic surveys and companies' financial statements</b> to weigh alternatives, opportunity costs and potential outcomes.</li>
+   409→  </ul>
+   410→</div>
+   411→
+   412→<!-- T12 -->
+   413→<div class="topic">
+   414→  <div class="topic-h"><span class="tnum">T12</span><span class="tt">Quick Recap — One Shot ⚡</span><span class="tick">☐ revised</span></div>
+   415→  <ul class="pts">
+   416→    <li><b>Unlimited wants</b> + <b>limited resources</b> = <b>SCARCITY</b> → <b>CHOICES</b> → every choice has an <b>opportunity cost</b>.</li>
+   417→    <li><b>PPC</b> = trade-off between two goods; points on it = maximum efficient output.</li>
+   418→    <li><b>3 key questions:</b> What to produce? How to produce? For whom to produce?</li>
+   419→    <li><b>3 systems:</b> Planned (govt decides — N. Korea, Cuba) • Market (demand-supply decides — USA, Japan) • Mixed (both — India).</li>
+   420→    <li><b>India:</b> state-led after Independence → <b>1991 reforms</b> → market-oriented mixed economy.</li>
+   421→    <li><b>Economic Survey</b> = annual report card by Finance Ministry, before the Budget.</li>
+   422→  </ul>
+   423→</div>
+   424→
+   425→<!-- DEFINITION BANK CH8 -->
+   426→<div class="defbank">
+   427→  <div class="dbt">📖 Definition Bank — Chapter 8, Part 1 (likhne ke liye ready) 📖</div>
+   428→  <div class="db-grid">
+   429→    <div class="d"><b>Economics</b> — study of how choices are made to optimise limited resources for satisfying needs &amp; wants.</div>
+   430→    <div class="d"><b>Needs</b> — essentials for survival: food, water, shelter.</div>
+   431→    <div class="d"><b>Wants</b> — desires beyond essentials; unlimited and ever-changing.</div>
+   432→    <div class="d"><b>Scarcity</b> — the problem of limited resources vs unlimited wants.</div>
+   433→    <div class="d"><b>Resources</b> — factors used to produce goods &amp; services (natural or human-made).</div>
+   434→    <div class="d"><b>Factors of production</b> — land, labour, capital, technology.</div>
+   435→    <div class="d"><b>Opportunity cost</b> — value of the next best alternative given up when a choice is made.</div>
+   436→    <div class="d"><b>PPC</b> — curve showing combinations of two goods producible with all available resources.</div>
+   437→    <div class="d"><b>Market</b> — place (physical or virtual/internet) where buying &amp; selling of products and services takes place.</div>
+   438→    <div class="d"><b>Economy</b> — the system of production, distribution, trade and consumption of goods &amp; services in an area.</div>
+   439→    <div class="d"><b>Economic entities</b> — participants in economic activity: producers, consumers, government, enterprises.</div>
+   440→    <div class="d"><b>Economic system</b> — mechanism defining production, consumption &amp; distribution of goods, services and resources.</div>
+   441→    <div class="d"><b>Planned economy</b> — resource allocation &amp; prices determined by the government.</div>
+   442→    <div class="d"><b>Market economy</b> — resource allocation &amp; prices determined primarily by market forces.</div>
+   443→    <div class="d"><b>Mixed economy</b> — government &amp; private sector coexist and compete; private players are regulated.</div>
+   444→    <div class="d"><b>Public goods</b> — goods available to all without exclusion (parks, roads, police, street lights, basic education).</div>  </div>
+   445→</div>
+   446→
+   447→<div class="defbank">
+   448→  <div class="dbt">📖 Definition Bank — Chapter 8 (Part 2) 📖</div>
+   449→  <div class="db-grid">
+   450→    <div class="d"><b>Labour-intensive</b> — production using more workers and less machinery.</div>
+   451→    <div class="d"><b>Capital-intensive</b> — production using more machines/technology and fewer workers.</div>
+   452→    <div class="d"><b>Policy</b> — a course or principle of action adopted by an organisation or government.</div>
+   453→    <div class="d"><b>Data</b> — facts and statistics collected for reference or analysis; <b>Surveys</b> — systematic collection of such data.</div>
+   454→  </div>
+   455→</div>
+   456→
+   457→<!-- MCQ CH8 -->
+   458→<div class="sec-h"><span class="sq">✅</span><span class="st">MCQ Challenge — 10 Questions</span><span class="sline"></span></div>
+   459→<div class="mcq-score"><span class="ms">🎯 Solve karne ke baad score bharo →</span><div class="blank"></div><span class="ms">/ 10</span></div>
+   460→
+   461→<div class="mcq"><div class="mq"><span class="qn">Q1.</span> The word 'Economics' comes from the Greek word <i>oikonomia</i>, which means —</div>
+   462→  <div class="opts"><div class="op" data-l="a">wealth creation</div><div class="op" data-l="b">household management</div><div class="op" data-l="c">study of markets</div><div class="op" data-l="d">pricing of resources</div></div></div>
+   463→<div class="mcq"><div class="mq"><span class="qn">Q2.</span> Which of the following is a <b>need</b> and not a want?</div>
+   464→  <div class="opts"><div class="op" data-l="a">gaming console</div><div class="op" data-l="b">vacation abroad</div><div class="op" data-l="c">drinking water</div><div class="op" data-l="d">designer shoes</div></div></div>
+   465→<div class="mcq"><div class="mq"><span class="qn">Q3.</span> The basic economic problem arises because —</div>
+   466→  <div class="opts"><div class="op" data-l="a">wants are limited, resources are unlimited</div><div class="op" data-l="b">wants are unlimited, resources are limited</div><div class="op" data-l="c">both wants and resources are limited</div><div class="op" data-l="d">both wants and resources are unlimited</div></div></div>
+   467→<div class="mcq"><div class="mq"><span class="qn">Q4.</span> When you choose one alternative, the <b>value of the option given up</b> is called —</div>
+   468→  <div class="opts"><div class="op" data-l="a">total cost</div><div class="op" data-l="b">marginal cost</div><div class="op" data-l="c">opportunity cost</div><div class="op" data-l="d">fixed cost</div></div></div>
+   469→<div class="mcq"><div class="mq"><span class="qn">Q5.</span> The Production Possibility Curve (PPC) shows —</div>
+   470→  <div class="opts"><div class="op" data-l="a">profit margins of firms</div><div class="op" data-l="b">combinations of two goods produced using all resources</div><div class="op" data-l="c">the demand schedule of a consumer</div><div class="op" data-l="d">growth of population</div></div></div>
+   471→<div class="mcq"><div class="mq"><span class="qn">Q6.</span> Which of these is <b>NOT</b> one of the three key questions of economics?</div>
+   472→  <div class="opts"><div class="op" data-l="a">What to produce?</div><div class="op" data-l="b">How to produce?</div><div class="op" data-l="c">For whom to produce?</div><div class="op" data-l="d">When to consume?</div></div></div>
+   473→<div class="mcq"><div class="mq"><span class="qn">Q7.</span> In a planned economy, major economic decisions are taken by —</div>
+   474→  <div class="opts"><div class="op" data-l="a">market forces of demand &amp; supply</div><div class="op" data-l="b">the central planning authority of the government</div><div class="op" data-l="c">consumers through voting</div><div class="op" data-l="d">large private corporations</div></div></div>
+   475→<div class="mcq"><div class="mq"><span class="qn">Q8.</span> Which of the following is best described as a <b>market economy</b>?</div>
+   476→  <div class="opts"><div class="op" data-l="a">North Korea</div><div class="op" data-l="b">Cuba</div><div class="op" data-l="c">Japan</div><div class="op" data-l="d">former Soviet Union</div></div></div>
+   477→<div class="mcq"><div class="mq"><span class="qn">Q9.</span> India's economic reforms of 1991 —</div>
+   478→  <div class="opts"><div class="op" data-l="a">increased licences and permits</div><div class="op" data-l="b">reduced regulations &amp; opened the economy to global trade</div><div class="op" data-l="c">nationalised all private banks</div><div class="op" data-l="d">banned private enterprise</div></div></div>
+   479→<div class="mcq"><div class="mq"><span class="qn">Q10.</span> A good whose use by some people does <b>not</b> prevent others from using it (e.g., parks, street lights) is a —</div>
+   480→  <div class="opts"><div class="op" data-l="a">luxury good</div><div class="op" data-l="b">substitute good</div><div class="op" data-l="c">public good</div><div class="op" data-l="d">complementary good</div></div></div>
+   481→
+   482→<div class="anskey">
+   483→  <div class="akt">🔑 Answer Key — Chapter 8</div>
+   484→  <div class="ans-strip"><span>1 → b</span><span>2 → c</span><span>3 → b</span><span>4 → c</span><span>5 → b</span><span>6 → d</span><span>7 → b</span><span>8 → c</span><span>9 → b</span><span>10 → c</span></div>
+   485→  <div class="xpls">
+   486→    <div class="x"><b>1:</b> oikos (household) + nemein (management) = household management.</div>
+   487→    <div class="x"><b>2:</b> Needs are survival essentials — food, water, shelter; rest are wants.</div>
+   488→    <div class="x"><b>3:</b> Unlimited wants + limited (scarce) resources = the central problem → choices.</div>
+   489→    <div class="x"><b>4:</b> Opportunity cost = value of what is given up when choosing an alternative.</div>
+   490→    <div class="x"><b>5:</b> PPC = combinations of two goods with all resources used efficiently.</div>
+   491→    <div class="x"><b>6:</b> The three questions are what, how, for whom — "when to consume" is not one.</div>
+   492→    <div class="x"><b>7:</b> Planned = central authority (govt) decides what/how/for whom &amp; prices.</div>
+   493→    <div class="x"><b>8:</b> Japan is a market economy (USA, Hong Kong too); others are planned.</div>
+   494→    <div class="x"><b>9:</b> 1991 reforms reduced excessive regulations, encouraged private enterprise, opened trade.</div>
+   495→    <div class="x"><b>10:</b> Public goods are non-excludable — parks, roads, police, street lights.</div>
+   496→  </div>
+   497→</div>
+   498→
+   499→<!-- QA CH8 -->
+   500→<div class="sec-h"><span class="sq">📝</span><span class="st">Big Questions — Exam-Ready Answers (points me)</span><span class="sline"></span></div>
+
+[showing lines 1-500 of 982; use offset=501 with limit to continue reading]

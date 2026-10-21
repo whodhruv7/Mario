@@ -146,3 +146,21 @@ Stage Summary:
 - FINAL deliverables: download/Geography_Workbook_Ch2_Ch3.pdf (19 pages, 2.1 MB) + download/Civics_Workbook_Ch6_Ch7.pdf (19 pages, 2.2 MB) — both vector, QA PASS, Z.ai metadata
 - HTML sources: download/html_sources/Geography_Workbook_Ch2_Ch3.html + Civics_Workbook_Ch6_Ch7.html (editable)
 - Series status: Econ done (18p), Geo done (19p), Civics done (19p); History Ch4+Ch5 workbook still pending (was requested in earlier session but not in latest instruction)
+
+---
+Task ID: part2-upload-read
+Agent: Main agent (Super Z)
+Task: User uploaded 6 PDFs of Part 2 of Class 9 book ("Exploring Society: India and Beyond" Grade 9 Part 2); read all chapters thoroughly and confirm
+
+Work Log:
+- Saved uploads: iest201-iest206.pdf in /home/z/my-project/upload/
+- Identified: Geo Ch1 Oceans and Life (20p), Geo Ch2 Life on Earth (24p), Hist Ch3 Resistance and Resilience 1000-1700 CE (36p), Civics Ch4 Governance and Public Policy (26p), Econ Ch5 Managing Your Personal Finances (18p), Ent Ch6 From Ideas to Startups (28p incl. maps/credits)
+- Extracted full text via scripts/extract_part2_chapters.py -> download/text_sources/P2_*.txt (6 files, ~7,385 lines total)
+- History Ch3 was truncated in chat attachment; read remaining PDF pages 29-36 from extracted txt (Indian Ocean trade, Amukthamalyada quote, European arrival, merchant groups, Before-we-move-on summary, questions)
+- Read and absorbed all 6 chapters completely: definitions, stories/case studies, timelines, DON'T MISS OUT boxes, THINK/EXPLORE activities, chapter-end questions
+
+Stage Summary:
+- Part 2 inventory (subject mapping for future workbooks): Geography = Ch1+Ch2; History = Ch3; Civics = Ch4; Economics = Ch5+Ch6 (Ch6 is Entrepreneurship)
+- Text sources ready: P2_Geography_Ch1/2, P2_History_Ch3, P2_Civics_Ch4, P2_Economics_Ch5, P2_Entrepreneurship_Ch6
+- Key facts noted for exam content: maritime zones (12/24/200NM, UNCLOS), spring/neap tides, 2004 tsunami (2.3L lives, ITEWC), GEMINI/INCOIS, biome pyramid, GI tags, FRA 2006, Mendha Lekha, government vs governance, policy cycle 7 stages, NEP 2020, Khelo Bharat Niti 2025, 5 pillars of personal finance, tax slabs FY2025-26 (Priya ₹14L example, ₹78,750 tax), FD/bonds/stocks/MF, EMI, 4 functional areas of business, ABC bakery P&L (PAT ₹60,000), Lijjat Papad (₹80 -> ₹1,600 crore), Oberoi, Chettiars, 120 unicorns 2025, Viksit Bharat 2047
+- Next likely task: Part 2 workbooks (user to confirm which subjects/format)

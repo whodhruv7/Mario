@@ -1,0 +1,1544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Class 9 History — Exam Workbook (Ch 4 + Ch 5)</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+@page { size: 794px 1123px; margin: 0; }
+:root{
+  --bg:#FBF8F1; --ink:#22313F; --muted:#8A8172; --border:#E9E1CF; --card:#FFFFFF;
+  --a4:#B45309; --a4d:#8A3E06; --a4t:#FBF1E2; --a4l:#EFD3A7;
+  --a5:#4C51BF; --a5d:#3730A3; --a5t:#ECEDFB; --a5l:#C7CDF3;
+}
+html,body{margin:0;padding:0;width:794px;background:var(--bg);color:var(--ink);
+  font-family:'Inter','Noto Sans SC','Noto Color Emoji',sans-serif;font-size:11px;line-height:1.44;}
+body{line-break:strict;word-break:normal;overflow-wrap:break-word;}
+p,td,li{overflow-wrap:break-word;}
+*{box-sizing:border-box;}
+@media screen{
+  html{height:auto;display:flex;justify-content:center;background:#E8E3D5;}
+  body{transform-origin:top center;margin:20px auto;box-shadow:0 0 40px rgba(0,0,0,.15);}
+}
+
+/* ---------- CHAPTER ACCENT THEMES ---------- */
+.ch4{--acc:var(--a4);--accd:var(--a4d);--tint:var(--a4t);--line:var(--a4l);}
+.ch5{--acc:var(--a5);--accd:var(--a5d);--tint:var(--a5t);--line:var(--a5l);}
+
+/* ---------- COVER (fixed full page) ---------- */
+.cvr{position:relative;width:794px;height:1123px;break-after:page;
+  background:radial-gradient(circle at 655px 60px, rgba(180,83,9,.16) 0%, rgba(180,83,9,.05) 38%, transparent 58%),
+             radial-gradient(circle at 60px 1075px, rgba(76,81,191,.15) 0%, rgba(76,81,191,.05) 36%, transparent 56%),
+             var(--bg);
+  display:flex;flex-direction:column;justify-content:center;padding:60px 58px;}
+.blob{position:absolute;border-radius:50%;background:transparent;}
+.b3{width:140px;height:140px;right:60px;bottom:100px;border:2.5px dashed #B453092e;}
+.b4{width:90px;height:90px;left:64px;top:120px;border:2.5px dashed #4C51BF40;}
+.coin{position:absolute;font-size:42px;opacity:.9;}
+.c1{right:90px;top:92px;transform:rotate(12deg);}
+.c2{right:140px;bottom:165px;transform:rotate(-10deg);}
+.cv-kick{font-size:13px;font-weight:800;letter-spacing:5px;color:#B45309;text-transform:uppercase;}
+.cv-title{font-family:'Baloo 2','Inter',sans-serif;font-size:76px;font-weight:800;line-height:1;
+  color:var(--ink);margin:14px 0 0 0;}
+.cv-title2{font-family:'Baloo 2','Inter',sans-serif;font-size:44px;font-weight:800;line-height:1.05;
+  color:#B45309;margin:4px 0 10px 0;}
+.cv-sub{font-size:16px;color:#4A5568;max-width:560px;line-height:1.5;margin-top:8px;}
+.cv-chaps{margin-top:30px;display:flex;flex-direction:column;gap:12px;max-width:640px;}
+.cv-chap{display:flex;align-items:center;gap:14px;background:var(--card);border:1.5px solid var(--border);
+  border-radius:14px;padding:13px 18px;box-shadow:0 3px 10px rgba(34,49,63,.06);}
+.cv-chap .cbadge{flex-shrink:0;width:52px;height:52px;border-radius:12px;display:flex;align-items:center;
+  justify-content:center;font-family:'Baloo 2',sans-serif;font-size:24px;font-weight:800;color:#fff;}
+.cv-chap .cb4{background:linear-gradient(135deg,#B45309,#8A3E06);}
+.cv-chap .cb5{background:linear-gradient(135deg,#4C51BF,#3730A3);}
+.cv-chap .ct{font-size:16.5px;font-weight:800;color:var(--ink);line-height:1.25;}
+.cv-chap .cs{font-size:11.5px;color:var(--muted);margin-top:2px;line-height:1.4;}
+.cv-chips{margin-top:26px;display:flex;flex-wrap:wrap;gap:8px;max-width:660px;}
+.cv-chips span{border:1.5px solid var(--border);border-radius:20px;padding:5px 13px;font-size:11px;
+  font-weight:700;color:var(--ink);background:var(--card);}
+.cv-foot{position:absolute;bottom:44px;left:58px;right:58px;display:flex;justify-content:space-between;
+  align-items:center;border-top:2px solid var(--border);padding-top:16px;}
+.cv-foot .fl{font-size:11px;font-weight:700;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase;}
+.cv-foot .fr{font-size:20px;font-weight:800;font-family:'Baloo 2',sans-serif;color:#B45309;}
+
+/* ---------- MAIN FLOW ---------- */
+.main-content{padding:30px 48px 22px 48px;}
+.topic.flow{break-inside:auto;}
+.define,.hing{break-inside:avoid;}
+
+/* how-to strip */
+.howto{display:flex;gap:10px;margin-bottom:12px;}
+.howto .hstep{flex:1 1 0;min-width:0;background:var(--card);border:1.5px solid var(--border);
+  border-radius:10px;padding:10px 12px;text-align:center;break-inside:avoid;}
+.howto .hn{font-family:'Baloo 2',sans-serif;font-size:15px;font-weight:800;}
+.howto .h4 .hn{color:var(--a4);} .howto .h5 .hn{color:var(--a5);}
+.howto .hd{font-size:9.6px;color:var(--muted);font-weight:600;line-height:1.4;margin-top:2px;}
+
+/* chapter opener */
+.ch-open{border-radius:16px;padding:18px 24px;margin:16px 0 12px 0;break-inside:avoid;
+  break-after:avoid;position:relative;overflow:hidden;}
+.ch-open .big-emoji{position:absolute;right:24px;top:50%;transform:translateY(-50%);font-size:74px;opacity:.85;}
+.ch-open .okick{font-size:10.5px;font-weight:800;letter-spacing:3px;color:#fff;text-transform:uppercase;
+  display:inline-block;background:rgba(255,255,255,.22);border-radius:12px;padding:3px 12px;}
+.ch-open .otitle{font-family:'Baloo 2',sans-serif;font-size:33px;font-weight:800;color:#fff;line-height:1.05;margin-top:10px;padding-right:80px;}
+.ch-open .osub{font-size:12.5px;color:rgba(255,255,255,.94);margin-top:8px;max-width:560px;line-height:1.5;padding-right:80px;}
+.ch-open .ochips{margin-top:14px;display:flex;flex-wrap:wrap;gap:6px;max-width:560px;}
+.ch-open .ochips span{background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.45);
+  border-radius:12px;padding:2.5px 10px;font-size:10px;font-weight:700;color:#fff;}
+.ch4 .ch-open{background:linear-gradient(120deg,#B45309 0%,#8A3E06 100%);}
+.ch5 .ch-open{background:linear-gradient(120deg,#4C51BF 0%,#3730A3 100%);}
+
+/* section header */
+.sec-h{display:flex;align-items:center;gap:10px;margin:14px 0 8px 0;break-after:avoid;break-inside:avoid;}
+.sec-h .sq{flex-shrink:0;width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center;
+  font-size:15px;color:#fff;background:var(--acc);}
+.sec-h .st{font-family:'Baloo 2',sans-serif;font-size:20px;font-weight:800;color:var(--accd);}
+.sec-h .sline{flex:1;height:2.5px;border-radius:2px;background:linear-gradient(90deg,var(--line),transparent);}
+
+/* timeline strip */
+.tline-box{background:var(--tint);border:1.5px solid var(--line);border-radius:13px;padding:8px 12px;
+  margin:5px 0 8px 0;break-inside:avoid;}
+.tline-box .tlt{font-family:'Baloo 2',sans-serif;font-size:14.5px;font-weight:800;color:var(--accd);margin-bottom:6px;}
+.tline{display:flex;flex-wrap:wrap;gap:4px 5px;}
+.tline .tl{background:#fff;border:1.2px solid var(--line);border-radius:8px;padding:2.5px 8px;
+  font-size:9.7px;font-weight:700;color:var(--accd);line-height:1.35;}
+.tline .tl b{color:var(--ink);}
+
+/* topic card */
+.topic{background:var(--card);border:1.5px solid var(--border);border-radius:13px;
+  padding:10px 14px 9px 14px;margin-bottom:9px;break-inside:auto;border-left:5px solid var(--acc);}
+.topic-h{display:flex;align-items:center;gap:10px;margin-bottom:7px;break-after:avoid;break-inside:avoid;}
+.topic-h .tnum{flex-shrink:0;font-family:'Baloo 2',sans-serif;font-size:13px;font-weight:800;color:#fff;
+  background:var(--acc);border-radius:7px;padding:2px 9px;letter-spacing:.5px;}
+.topic-h .tt{font-family:'Baloo 2',sans-serif;font-size:15.5px;font-weight:800;color:var(--ink);line-height:1.2;}
+.topic-h .tick{margin-left:auto;flex-shrink:0;font-size:10px;font-weight:700;color:var(--muted);
+  border:1.5px dashed var(--border);border-radius:12px;padding:2px 9px;}
+.define{background:var(--tint);border:1.2px solid var(--line);border-radius:8px;padding:6px 10px;margin-bottom:5px;}
+.define .dl{font-size:10px;font-weight:800;letter-spacing:1.6px;color:var(--accd);text-transform:uppercase;}
+.define .dd{font-size:11px;margin-top:2px;line-height:1.48;}
+.define .dd b{color:var(--accd);}
+.hing{background:#FFF9EC;border:1.5px dashed var(--acc);border-radius:8px;padding:6px 10px;margin-bottom:5px;}
+.hing .ht{font-size:10px;font-weight:800;letter-spacing:1.2px;color:var(--accd);text-transform:uppercase;}
+.hing .hb{font-size:11px;line-height:1.5;margin-top:2px;color:#4A4133;}
+.hing .hb b{color:var(--accd);}
+.pts{margin:0;padding-left:0;list-style:none;}
+.pts li{position:relative;padding-left:16px;margin-bottom:2.5px;font-size:11px;line-height:1.42;break-inside:avoid;}
+.pts li::before{content:'';position:absolute;left:2px;top:6.5px;width:6px;height:6px;border-radius:2px;background:var(--acc);}
+.pts li b{color:var(--accd);}
+.plabel{font-size:10px;font-weight:800;letter-spacing:1.2px;color:var(--accd);text-transform:uppercase;
+  margin:1px 0 3px 0;break-after:avoid;}
+.exbox{background:var(--bg);border:1.2px solid var(--border);border-radius:8px;padding:6px 10px;margin-top:5px;font-size:10.6px;}
+.exbox .xt{font-weight:800;color:var(--ink);}
+
+/* generic table */
+table.tt{width:100%;border-collapse:collapse;font-size:10.6px;margin:5px 0 3px 0;}
+table.tt thead{display:table-header-group;}
+table.tt tr{break-inside:avoid;}
+table.tt th{background:var(--acc);color:#fff;font-weight:700;text-align:left;padding:4.5px 9px;font-size:10.2px;}
+table.tt td{border:1px solid var(--border);padding:3px 8px;vertical-align:top;background:#fff;line-height:1.42;}
+table.tt tr:nth-child(even) td{background:var(--bg);}
+table.tt td b{color:var(--accd);}
+
+/* VS difference card */
+.vs{background:var(--card);border:1.5px solid var(--border);border-radius:13px;padding:9px 13px;
+  margin-bottom:9px;break-inside:avoid;border-left:5px solid var(--acc);}
+.vs-h{display:flex;align-items:center;gap:9px;margin-bottom:6px;break-after:avoid;}
+.vs-h .vnum{flex-shrink:0;font-family:'Baloo 2',sans-serif;font-size:11.5px;font-weight:800;color:#fff;
+  background:var(--acc);border-radius:7px;padding:2px 8px;}
+.vs-h .vt{font-family:'Baloo 2',sans-serif;font-size:14px;font-weight:800;color:var(--ink);line-height:1.2;}
+.vs-cols{display:grid;grid-template-columns:1fr 34px 1fr;gap:8px;align-items:stretch;}
+.vs-col{border-radius:9px;padding:5px 8px;border:1.2px solid;}
+.vs-col.va{background:var(--tint);border-color:var(--line);}
+.vc-t{font-size:11px;font-weight:800;margin-bottom:4px;line-height:1.3;}
+.va .vc-t{color:var(--accd);}
+.vs-badge{align-self:center;justify-self:center;width:30px;height:30px;border-radius:50%;background:var(--ink);
+  color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Baloo 2',sans-serif;
+  font-size:10.5px;font-weight:800;letter-spacing:.5px;}
+.vpts{margin:0;padding-left:0;list-style:none;}
+.vpts li{position:relative;padding-left:13px;margin-bottom:2px;font-size:10px;line-height:1.38;break-inside:avoid;}
+.vpts li::before{content:'';position:absolute;left:0;top:5.5px;width:5px;height:5px;border-radius:50%;}
+.va .vpts li::before{background:var(--acc);}
+.vpts li b{color:var(--accd);}
+/* chapter-specific side B of VS cards */
+.ch4 .vs-col.vb{background:#E9F0EA;border-color:#C9DCCE;}
+.ch4 .vb .vc-t{color:#3F6B52;}
+.ch4 .vb .vpts li::before{background:#3F6B52;}
+.ch4 .vb .vpts li b{color:#3F6B52;}
+.ch5 .vs-col.vb{background:#FAEAEE;border-color:#EFC9D6;}
+.ch5 .vb .vc-t{color:#9A3455;}
+.ch5 .vb .vpts li::before{background:#9A3455;}
+.ch5 .vb .vpts li b{color:#9A3455;}
+
+/* definition bank */
+.defbank{background:var(--tint);border:1.5px solid var(--line);border-radius:13px;padding:9px 13px;
+  margin:5px 0;break-inside:avoid;}
+.defbank .dbt{break-after:avoid;}
+.defbank .dbt{font-family:'Baloo 2',sans-serif;font-size:16px;font-weight:800;color:var(--accd);margin-bottom:8px;}
+.db-grid{display:grid;grid-template-columns:1fr 1fr;gap:3px 14px;}
+.db-grid .d{font-size:10.2px;line-height:1.4;break-inside:avoid;}
+.db-grid .d b{color:var(--accd);}
+
+/* MCQ */
+.mcq-score{display:flex;align-items:center;gap:10px;background:var(--card);border:1.5px solid var(--border);
+  border-radius:10px;padding:7px 14px;margin-bottom:9px;break-inside:avoid;}
+.mcq-score .ms{font-size:11px;font-weight:700;color:var(--muted);}
+.mcq-score .blank{width:64px;height:22px;border:2px dashed var(--acc);border-radius:6px;}
+.mcq{background:var(--card);border:1.5px solid var(--border);border-radius:11px;padding:7px 12px;
+  margin-bottom:6px;break-inside:avoid;}
+.mcq .mq{font-size:11.4px;font-weight:700;line-height:1.42;margin-bottom:5px;}
+.mcq .mq .qn{color:var(--accd);font-family:'Baloo 2',sans-serif;font-weight:800;}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:4px 14px;}
+.opts .op{font-size:10.5px;line-height:1.42;padding-left:24px;position:relative;}
+.opts .op::before{content:attr(data-l);position:absolute;left:0;top:0;width:17px;height:17px;border-radius:50%;
+  border:1.5px solid var(--border);background:var(--bg);font-size:9.6px;font-weight:800;color:var(--accd);
+  display:flex;align-items:center;justify-content:center;}
+.anskey{background:var(--accd);border-radius:13px;padding:10px 13px;margin:8px 0;break-inside:avoid;}
+.anskey .akt{font-family:'Baloo 2',sans-serif;font-size:15px;font-weight:800;color:#fff;margin-bottom:6px;}
+.ans-strip{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:7px;}
+.ans-strip span{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.4);border-radius:8px;
+  padding:2.5px 9px;font-size:10.5px;font-weight:800;color:#fff;}
+.xpls{display:grid;grid-template-columns:1fr;gap:3px;}
+.xpls .x{font-size:10.15px;color:rgba(255,255,255,.95);line-height:1.42;padding-left:14px;position:relative;}
+.xpls .x::before{content:'▸';position:absolute;left:0;color:#FFD8A8;}
+
+/* QA */
+.qa{background:var(--card);border:1.5px solid var(--border);border-radius:11px;padding:7px 12px;
+  margin-bottom:6px;break-inside:avoid;border-left:5px solid var(--acc);}
+.qa .qq{font-size:11.6px;font-weight:800;line-height:1.4;margin-bottom:4px;}
+.qa .qq .qn{color:var(--accd);font-family:'Baloo 2',sans-serif;}
+.qa .alab{font-size:10px;font-weight:800;letter-spacing:1.4px;color:var(--accd);text-transform:uppercase;margin-bottom:2px;}
+.qa .ans{margin:0;padding-left:0;list-style:none;}
+.qa .ans li{position:relative;padding-left:15px;margin-bottom:1.5px;font-size:10.75px;line-height:1.38;break-inside:avoid;}
+.qa .ans li::before{content:'';position:absolute;left:1px;top:6.5px;width:5.5px;height:5.5px;border-radius:50%;background:var(--acc);}
+.qa .ans li b{color:var(--accd);}
+
+/* closer */
+.closer{background:linear-gradient(120deg,#22313F,#8A3E06);border-radius:14px;padding:10px 18px;
+  margin-top:8px;text-align:center;break-inside:avoid;}
+.closer .cl1{font-family:'Baloo 2',sans-serif;font-size:15.5px;font-weight:800;color:#fff;}
+.closer .cl2{font-size:10.8px;color:rgba(255,255,255,.9);margin-top:3px;line-height:1.45;}
+</style>
+</head>
+<body>
+
+<!-- ================= COVER ================= -->
+<div class="cvr">
+  <div class="blob b3"></div><div class="blob b4"></div>
+  <div class="coin c1">🏺</div><div class="coin c2">⚔️</div>
+  <div class="cv-kick">Class 9 &bull; SST &bull; Exam Workbook</div>
+  <div class="cv-title">HISTORY</div>
+  <div class="cv-title2">the Workbook</div>
+  <div class="cv-sub">Dono chapters ki <b>poori taiyari</b>&nbsp;— har concept ki <b>Hinglish definition</b>, story-style <b>samajh</b>, likhne wale <b>points</b>, saare <b>3-vs-3 differences</b>, aur full <b>practice set</b> (MCQs + Big Q&amp;A). All from your textbook, nothing extra.</div>
+  <div class="cv-chaps">
+    <div class="cv-chap">
+      <div class="cbadge cb4">4</div>
+      <div><div class="ct">Early Humans and Beginning of Civilisation</div><div class="cs">Africa se civilisation tak&nbsp;— human ancestors, Stone Ages, Neolithic Revolution, Harappan journey, Mesopotamia&nbsp;• Egypt&nbsp;• China</div></div>
+    </div>
+    <div class="cv-chap">
+      <div class="cbadge cb5">5</div>
+      <div><div class="ct">State and Society up to 1000 CE</div><div class="cs">Vedic jana se Chola empire tak&nbsp;— Vedas, kings &amp; administration, varṇa-jāti, women, bhakti, education, trade &amp; guilds</div></div>
+    </div>
+  </div>
+  <div class="cv-chips">
+    <span>💡 Hinglish Samajh</span><span>✍️ Points me Answers</span><span>⚔️ 3-vs-3 Differences</span><span>✅ 10 + 10 MCQs</span><span>📝 10 + 10 Big Q&amp;A</span><span>🎯 Under 25 Pages</span>
+  </div>
+  <div class="cv-foot">
+    <div class="fl">Understanding Society: India &amp; Beyond &bull; Grade 9 Part 1</div>
+    <div class="fr">Let's go! 🚀</div>
+  </div>
+</div>
+
+<div class="main-content">
+
+<!-- HOW TO USE -->
+<div class="howto">
+  <div class="hstep h4"><div class="hn">1 · SAMAJH</div><div class="hd">Pehle 💡 story box padho&nbsp;— topic ka feel aa jayega</div></div>
+  <div class="hstep h4"><div class="hn">2 · DEFINES</div><div class="hd">📖 Hinglish definitions + ✍️ points yaad karo&nbsp;— yehi likhne ke hain</div></div>
+  <div class="hstep h5"><div class="hn">3 · DIFFERENCE</div><div class="hd">⚔️ 3-vs-3 cards ratta maaro&nbsp;— yahi se tricky questions aate hain</div></div>
+  <div class="hstep h5"><div class="hn">4 · TEST</div><div class="hd">✅ MCQs solve karo → 📝 Big Q&amp;A se answer-writing practice</div></div>
+</div>
+<!-- ================================================= CHAPTER 4 -->
+<div class="ch4">
+
+<div class="ch-open">
+  <div class="big-emoji">🗿</div>
+  <div class="okick">Chapter 4 &bull; History</div>
+  <div class="otitle">Early Humans and<br>Beginning of Civilisation</div>
+  <div class="osub">Ek badi journey&nbsp;— Africa ke jungles se le kar nadi-kinare wali <b>great civilisations</b> tak. Kaam kaise badla, insaan kaise badla, aur civilisation <b>kaise bani</b>&nbsp;— sab is chapter me.</div>
+  <div class="ochips"><span>🔑 11 Topics</span><span>📖 20+ Definitions</span><span>⚔️ 6 Differences</span><span>✅ 10 MCQs</span><span>📝 10 Q&amp;A</span></div>
+</div>
+
+<div class="tline-box">
+  <div class="tlt">⏳ Timeline&nbsp;— ek nazar me (dates approximate hain!)</div>
+  <div class="tline">
+    <span class="tl"><b>~3.3 million yrs ago</b> · pehle stone tools</span>
+    <span class="tl"><b>~2 million yrs ago</b> · Homo erectus Africa se bahar</span>
+    <span class="tl"><b>~300,000 yrs ago</b> · Homo sapiens evolve</span>
+    <span class="tl"><b>~12,000 yrs ago</b> · climate warm, Mesolithic</span>
+    <span class="tl"><b>7000 BCE</b> · Mehrgarh (farming village)</span>
+    <span class="tl"><b>4000 BCE</b> · copper age start</span>
+    <span class="tl"><b>3200 BCE</b> · cuneiform (likhai start)</span>
+    <span class="tl"><b>2600 BCE</b> · Mature Harappan</span>
+    <span class="tl"><b>1792 BCE</b> · Hammurabi (Babylon)</span>
+    <span class="tl"><b>1600 BCE</b> · Shang dynasty (China)</span>
+  </div>
+</div>
+
+<div class="sec-h"><span class="sq">📚</span><span class="st">Notes&nbsp;— Har Topic, Poori Samajh</span><span class="sline"></span></div>
+
+<!-- T1 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T1</span><span class="tt">Why Study Early Humans + Writing se Pehle vs Baad 🕰️</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition (Hinglish)</div><div class="dd"><b>Early human history</b>&nbsp;— writing ke invent hone se pehle ka lamba period (insaani itihaas ka <b>99% se zyada hissa!</b>), jise mainly <b>archaeological evidence</b> (tools, fossils, cave art) se padha jaata hai.</div></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Socho ek aisi diary jo <b>3 million saal</b> purani ho&nbsp;— but likhi nahi gayi! 😲 Toh historians ko pata kaise chala? <b>Tools, bones, fossils</b>&nbsp;— ye sab jaise time-capsule me band mile. Isi liye <b>archaeology</b> is period ki chaabi hai. Aur haan&nbsp;— likhai aayi toh sirf <b>5000 saal pehle</b>, matlab humari poori kahani ka <b>99% hissa bina likhe</b> guzra hai!</div></div>
+  <div class="plabel">✍️ Points&nbsp;— yehi likhna hai</div>
+  <ul class="pts">
+    <li>Early human history ka study batata hai ki <b>biological evolution</b> (australopithecines → Homo sapiens&nbsp;— physical changes) aur <b>cultural evolution</b> (Quaternary Period&nbsp;— last <b>26 lakh years</b>&nbsp;— me tools/technology banakar environment ke saath adapt hona) sath-sath chale.</li>
+    <li>Life ka safar: <b>hunting-gathering → agriculture → surplus food</b>&nbsp;— aur surplus ne hi <b>civilisation ki neev</b> rakhi.</li>
+    <li>Likhai ke sources: <b>Harappan script</b> (pictographic&nbsp;— <b>undeciphered</b>, Sindhu lipi ke naam se bhi jaani jaati hai); <b>cuneiform</b> (Sumer) aur <b>hieroglyphic</b> (Egypt)&nbsp;— dono <b>decipher ho chuki hain</b>, inhi se ~5000 saal pehle historical period shuru maana jaata hai.</li>
+    <li><b>Brahmi script</b> ~400 BCE se&nbsp;— southern India + Ganga valley; <b>Aśhoka</b> (3rd century BCE) ne ise formalise kiya.</li>
+  </ul>
+  <table class="tt">
+    <thead><tr><th>Base</th><th>✍️ Writing se PEHLE</th><th>📜 Writing ke BAAD</th></tr></thead>
+    <tbody>
+      <tr><td><b>Time share</b></td><td>99% se zyada itihaas (3 mya → 5000 yrs ago)</td><td>1% se kam (last 5000 years)</td></tr>
+      <tr><td><b>Sources</b></td><td>Artefacts (tools, implements, material objects)</td><td>Artefacts + written documents dono</td></tr>
+      <tr><td><b>Logon ki soch</b></td><td>Samajhna mushkil (thoughts/ideas ka evidence nahi)</td><td>Literature se names, events, social-political life milta hai</td></tr>
+      <tr><td><b>Dating</b></td><td>Approximate (andaaza)</td><td>Relatively accurate (coronation, wars ke dates milti hain)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- T2 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T2</span><span class="tt">Human Ancestors&nbsp;— Africa se Duniya Tak 🌍</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions (Hinglish)</div><div class="dd"><b>Hominin</b>&nbsp;— modern humans + human-like ancestors ka group (tool makers). &nbsp;|&nbsp; <b>Fossil</b>&nbsp;— purane plants, animals ya humans ke <b>preserved remains/impressions</b>, jo hazaaron-lakh saalon me dharti ke neeche dabe rehnaake patthar ban gaye. &nbsp;|&nbsp; <b>Old World</b>&nbsp;— Africa, Asia aur Europe (sabse purane settlements ka ilaka).</div></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Poori insaani family ka <b>ghar Africa</b> tha! 🏠 Pehle <b>Homo erectus</b> nikla (~2 million yrs ago) apne <b>handaxes aur cleavers</b> lekar&nbsp;— Asia-Europe tak phail gaya. Phir <b>~125,000 yrs ago</b> dusri wave nikli&nbsp;— hum khud, <b>Homo sapiens</b> (Africa me ~300,000 yrs ago evolve hue)! Aur tools? Unhe <b>extra-corporal limbs</b> kehte hain&nbsp;— matlab body ke "extra haath" jaise kaam karte the. 😄</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li>Sabse pehle stone tools <b>~3.3 million years ago</b> bane&nbsp;— isi se 'human behaviour' shuru maana gaya (animals ye cognitive ability nahi rakhte).</li>
+    <li><b>Homo erectus</b> = Africa se <b>bahar nikla pehla hominin</b> (handaxes + cleavers&nbsp;— tools Asia-Europe me mile).</li>
+    <li>Dusri badi exit <b>~125,000 yrs ago</b>&nbsp;— early <b>Homo sapiens</b>; wo <b>50,000–12,000 yrs ago</b> ke beech <b>Australia aur Americas</b> tak pahunche.</li>
+    <li>Archaeologists sites me se <b>tools, bones</b> dhoondhte hain aur khud similar tools <b>banakar experiment</b> karte hain&nbsp;— samajhne ke liye ki log unhe kaise use karte the.</li>
+  </ul>
+  <table class="tt">
+    <thead><tr><th>Ancestor</th><th>Kahan mile</th><th>Kab</th><th>Tools / Khaas baat</th></tr></thead>
+    <tbody>
+      <tr><td><b>Homo habilis</b></td><td>Olduvai Gorge (Tanzania, Kenya)</td><td>2–6 mya</td><td>Chopper stone tools ('handy man')</td></tr>
+      <tr><td><b>Homo erectus</b></td><td>Eastern African Rift Valley</td><td>~2 mya</td><td>Handaxes &amp; cleavers; Africa se pehla exit</td></tr>
+      <tr><td><b>H. neanderthalensis</b></td><td>Europe &amp; Southwest Asia</td><td>till ~40,000 yrs</td><td>Middle Palaeolithic flake tools</td></tr>
+      <tr><td><b>Homo sapiens</b></td><td>Poore duniya me</td><td>~300,000 yrs</td><td>Complex technologies; aaj ki <b>only living</b> species</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- T3 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T3</span><span class="tt">Early History ke 6 Ages&nbsp;— Ek Oversh 👀</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Historians ne early history ko <b>technology ke progress</b> ke hisaab se 6 ages me baanta diya&nbsp;— kaunse tools, kaunsi lifestyle, kaisi settlements. Yaad rakhne ka trick: <b>Pa-Me-Neo-Chal-Bronze-Iron</b>&nbsp;— jaise phone ke updates, ek ke baad ek advanced version! 📱 stone → bronze → iron!</div></div>
+  <div class="plabel">✍️ Points&nbsp;— 6 ages (tool + lifestyle basis)</div>
+  <ul class="pts">
+    <li><b>Palaeolithic (Old Stone Age):</b> hunting-gathering lifestyle; <b>simple stone tools</b>.</li>
+    <li><b>Mesolithic:</b> <b>microlithic (chhote patthar)</b> tools; hunting-gathering se agriculture ke beech ka <b>transitional phase</b>.</li>
+    <li><b>Neolithic (New Stone Age):</b> hunting-gathering se <b>agriculture + settled life</b> me shift; <b>domestication of animals</b>; <b>polished stone tools</b>.</li>
+    <li><b>Chalcolithic (Copper + Stone Age):</b> stone ke saath <b>copper</b> ka use; <b>early metallurgy</b> (metal nikalna aur shape dena).</li>
+    <li><b>Bronze Age:</b> <b>bronze metallurgy</b> (copper + tin milakar bronze); <b>trade, towns aur early civilisations</b> ka expansion.</li>
+    <li><b>Iron Age:</b> <b>iron metallurgy</b> (smelting); <b>stronger tools &amp; weapons</b>; zyada advanced societies.</li>
+  </ul>
+  <div class="exbox"><span class="xt">🧠 Yaad rakhna:</span> Ye division <b>technological progress</b> pe based hai&nbsp;— tools, agriculture ki shuruaat, lifestyle aur settlement patterns. Aur <b>Neolithic Revolution</b> = farming me shift (T6 me detail!).</div>
+</div>
+
+<!-- T4 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T4</span><span class="tt">Palaeolithic Life&nbsp;— Hunter-Gatherers 🪨</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition (Hinglish)</div><div class="dd"><b>Palaeolithic</b>&nbsp;— <i>palaeo</i> = old + <i>lithic</i> = stone = <b>Old Stone Age</b>; hunter-gatherers ka daur, jab log shikaar aur khana khojkar jeete the.</div></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Palaeolithic banda = survival ka full package khud! 😤 Handaxes se meat kaatna, <b>scrapers</b> se animal ki skin saaf karna, <b>choppers</b> se bones todo&nbsp;— andar se <b>protein-rich marrow</b> nikal khao! Phir aaye <b>bow &amp; arrow</b> 🏹, cave walls pe <b>paintings</b>, body pe pigments, aur pehli <b>beads</b> (stone, bone, shell)&nbsp;— koi bhai/didi fashion se peeche nahi! 💅</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li>Indian subcontinent me sabse purani settlement <b>~2 million yrs ago</b>; sites&nbsp;— <b>Attirampakkam</b> (Tamil Nadu, <b>1.5–1.7 mya</b>) aur <b>Isampur</b> (Karnataka, <b>1.2 mya</b>).</li>
+    <li>Tools: quartzite/limestone ke <b>handaxes, cleavers, scrapers, choppers</b>&nbsp;— meat kaatne, tubers khodne, skin scrape karne, bones se marrow nikaalne ke liye.</li>
+    <li>Middle Palaeolithic: chhote tools&nbsp;— <b>scrapers, borers, points</b>&nbsp;— projectiles (teer) banaake hunting <b>efficient</b> hui.</li>
+    <li>Later: <b>bow &amp; arrow</b>; glassy rocks se <b>blade &amp; microblade tools</b> (fresh banaye toh bahut sharp); small game ka shikaar.</li>
+    <li><b>Symbolic communication</b> ka development, caves/rock shelters pe <b>paintings</b>, body decoration ke <b>pigments</b>, pehli <b>beads</b>, aur <b>burin (engraver)</b>&nbsp;— bones/shells (jaise ostrich eggs) pe design kaatne ka tool.</li>
+    <li>Ye developments <b>Homo sapiens</b> se judi hain&nbsp;— jo dheere-dheere <b>poori duniya</b> me phaile.</li>
+  </ul>
+</div>
+
+<!-- T5 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T5</span><span class="tt">Mesolithic&nbsp;— Chhote Tools, Bade Changes 🎣</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">~12,000 saal pehle Earth ne <b>heater on</b> kar diya! 🌡️ Climate warm hua&nbsp;— ice pighli, forests &amp; grasslands phaile. Naye resources aaye: <b>small game, fish, wild grains</b>. Result? Itna khana ki <b>insaani itihaas ki pehli population explosion</b> hui! 🎉 Log <b>machli pakadne</b> lage (marine + freshwater dono) aur art bhi full on&nbsp;— <b>Bhimbetka</b> ki painted caves iska superstar hai.</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li>~12,000 yrs ago climate <b>warm</b> hua&nbsp;— forests &amp; grasslands pichle ice-covered ilaqon me expand hue.</li>
+    <li>Naye landscapes se mila: <b>small game animals, fish, edible wild grains</b>&nbsp;— waise hi <b>pehli population explosion</b> hui.</li>
+    <li><b>Microlithic (tiny stone) tools</b>&nbsp;— aquatic food (marine + freshwater) jama karne me kaam aaye; <b>fishing</b> subsistence economy ki mainstay thi.</li>
+    <li>Art activity <b>flourish</b> hua; caves &amp; rock shelters aksar occupy hue.</li>
+    <li><b>Bhimbetka (Madhya Pradesh)</b>&nbsp;— <b>World Heritage Site</b>; <b>hundreds of painted rock shelters</b>&nbsp;— Mesolithic (aur usse bhi pehle) ke logon ke.</li>
+  </ul>
+</div>
+<!-- T6 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T6</span><span class="tt">Neolithic Revolution&nbsp;— Farming ka Dhamaka 🌾</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition (Hinglish)</div><div class="dd"><b>Neolithic Revolution</b>&nbsp;— hunting-gathering se <b>food-producing zindagi</b> me gradual transition; iski pehchaan hai <b>select animals &amp; plants ka domestication</b>&nbsp;— unhe human control me laakar cultivation &amp; husbandry se <b>new breeds</b> develop karna.</div></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Hazaaron saal tak hunter-gatherers ne <b>mausam aur khane ke sources</b> ko itna acche se observe kiya ki unhone khud <b>ugana shuru</b> kar diya! 😮 Badla kya? Pehle tools bante the <b>khana dhoondhne</b> ke liye&nbsp;— ab bante the <b>khana paida karne</b> ke liye! Ghar bane (pehle <b>village settlements</b>), <b>pottery</b> aayi (khana store karne ke liye)&nbsp;— aur isi ne <b>urban revolution ki neev</b> rakhi. Isliye ise bas 'change' nahi, <b>REVOLUTION</b> kehte hain&nbsp;— poori lifestyle hi palat gayi!</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li>Transition <b>har jagah ek saath nahi</b> hua&nbsp;— alag-alag regions me <b>alag-alag time</b> pe hua (regional variation).</li>
+    <li>Farmer tools: hunter-gatherers <b>procuring (dhoondhne)</b> ke liye tools banate the; Neolithic farmers <b>food production &amp; processing</b> ke liye&nbsp;— aur <b>polished stone tools</b> bhi.</li>
+    <li><b>Pottery</b>&nbsp;— earthenware, kai shapes &amp; sizes me&nbsp;— storage ke liye game-changer.</li>
+    <li>Pehle <b>village settlements</b> establish hue&nbsp;— <b>urban revolution ki foundation</b>.</li>
+  </ul>
+  <table class="tt">
+    <thead><tr><th>Region</th><th>Ghar ka Crop 🌱</th></tr></thead>
+    <tbody>
+      <tr><td>West Asia</td><td>Wheat &amp; barley</td></tr>
+      <tr><td>India</td><td>Millets (bajra-type)</td></tr>
+      <tr><td>India&nbsp;— Ganga Plains</td><td>Rice 🍚</td></tr>
+      <tr><td>West Africa</td><td>Pearl millet</td></tr>
+      <tr><td>North China / South China (Yangtze)</td><td>Millets / Rice</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- T7 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T7</span><span class="tt">Mehrgarh&nbsp;— Subcontinent ka Pehla Farming Village 🏡</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Present-day Pakistan me, <b>Bolan River</b> ke kinare, ~<b>7000 BCE</b> me ek village basa jo aaj <b>Mehrgarh</b> ke naam se mashhoor hai&nbsp;— subcontinent ka <b>sabse purana Neolithic site</b> aur <b>pehla agricultural village</b>! 🥇 Yahan ke log: <b>sun-dried brick</b> ke ghar, <b>granaries</b> (anaaj ke godam), mare hue logon ki <b>graves</b>, aur <b>lapis lazuli, carnelian, shells</b> ke ornaments banate the. Phir <b>4000 BCE</b> tak inhone <b>copper</b> bhi banana shuru kar diya&nbsp;— metal age enter!</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li><b>Mehrgarh (Bolan River, Pakistan)</b>&nbsp;— oldest Neolithic site + earliest agricultural village, <b>~7000 BCE</b>; Baluchistan ke foothills me.</li>
+    <li>Log: <b>handmade sun-dried brick</b> houses &amp; granaries; <b>graves</b> me dead bury karna; <b>semi-precious stones</b> (lapis lazuli, carnelian) + shells ke ornaments.</li>
+    <li>Kheti: <b>wheat &amp; barley</b>; paalna: <b>sheep, goats, Indian cattle</b>&nbsp;— khaas kar <b>zebu humped bull</b> 🐂.</li>
+    <li><b>First copper makers</b>&nbsp;— ~<b>4000 BCE</b> tak <b>Chalcolithic</b> ban gaye&nbsp;— isi ne <b>~3500 BCE</b> ka Bronze Age <b>Sindhu-Sarasvatī civilisation</b> ready kiya.</li>
+    <li><b>2500 BCE</b> tak subcontinent ka bada hissa Neolithic agricultural communities se basa&nbsp;— cattle/sheep/goat herding + cereals, millets, pulses.</li>
+    <li>Site example: <b>Sanganakallu</b> (Karnataka)&nbsp;— granite hill pe, ~2000 BCE.</li>
+  </ul>
+</div>
+
+<!-- T8 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T8</span><span class="tt">Sindhu-Sarasvatī (Harappan) ka Safar 🏙️</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Mehrgarh wali farming culture aage badhi&nbsp;— middle/upper <b>Indus valley</b> aur <b>Ghaggar-Sarasvatī basins</b> me phaili. Copper tools + fertile plains = <b>prosperity</b> 💰. Alag-alag regions ki pottery styles dheere-dheere <b>standard</b> hui&nbsp;— aur <b>Early Harappan</b> stage ban gaya. Isi ne <b>2600 BCE</b> tak <b>Mature Harappan</b> ke <b>urban centres</b> ko janm diya! Safar: Neolithic (7000) → Chalcolithic (4000-4500) → Early Harappan → <b>Mature (2600-1900)</b> → Late Harappan.</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li>Copper tools ne <b>alluvial plains</b> (Indus + Ghaggar-Sarasvatī) me productivity badhai&nbsp;— prosperity + <b>large-scale pottery production</b> (regional styles).</li>
+    <li><b>Early Harappan</b> (cultural continuity wala stage): pottery traditions, <b>semi-precious stone beads, shell bangles, terracotta, copper working</b>; perimeter wall, seals aur script ki <b>shuruaat</b> bhi isi stage me&nbsp;— sites: <b>Bhirrana &amp; Kunal</b> (Sarasvatī belt&nbsp;— Pre-Harappan phase <b>7000–5500 BCE</b>), Harappa, Rehman Dheri.</li>
+    <li><b>Mature Harappan ~2600 BCE</b> se urban centres; <b>Late Harappan</b> ~1900 BCE tak.</li>
+    <li><b>Kalibangan (Rajasthan)</b>&nbsp;— <b>ploughed fields</b> mile! Horizontal + vertical furrows = <b>double crop cultivation</b>&nbsp;— bilkul aaj ke <b>Rabi-Kharif</b> jaisa. ~5000 saal purani tradition! 🌾</li>
+    <li><b>Standard weights &amp; measures:</b> chhote units ke liye <b>binary multiples</b> (1, 2, 4, 8, 16...), bade units ke liye <b>10 ke multiples</b>&nbsp;— <b>cubical stone weights</b> kai sites se mile.</li>
+    <li>Crafts: pottery (economy ka major craft), copper work, shell work, beads (<b>Harappa, Kunal, Datrana</b>); pottery pe <b>graffiti</b> + geometric/animal <b>seals</b>&nbsp;— script ke <b>forerunners</b>.</li>
+    <li><b>Water management:</b> Baluchistan me <b>gabarbands</b> (check dams); <b>Dholavira (Kachchh)</b>&nbsp;— dams/canals se do streams ka paani <b>deep tanks ki series</b> me (stone + mud-brick, kuch bedrock me cut); <b>Lothal ka dockyard</b>&nbsp;— poora <b>burnt bricks</b> ka!</li>
+  </ul>
+</div>
+
+<!-- T9 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T9</span><span class="tt">Mesopotamia&nbsp;— Do Darmiyan ki Zameen 🏗️</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions (Hinglish)</div><div class="dd"><b>Mesopotamia</b>&nbsp;— Greek me <b>"land in between"</b>&nbsp;— <b>Euphrates + Tigris</b> nadiyon ke beech ki zameen (aaj ke Iraq/Kuwait + Turkey &amp; SW Iran ke kuch hisse). &nbsp;|&nbsp; <b>City-state</b>&nbsp;— ek city ke around centre wala <b>sovereign state</b> jo aas-paas ke territories pe raaj karta hai. &nbsp;|&nbsp; <b>Ziggurat</b>&nbsp;— tower jaisa <b>stepped pyramid-shaped temple</b>; upar main temple&nbsp;— top holy place, aas-paas palaces + royal storehouses; ek hi entrance (treasury bhi tha!).</div></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Duniya ki <b>pehle city-based civilisation</b> yahin bani! Zagros-Taurus ke pahadon ka <b>crescent-shaped</b> ilaka&nbsp;— <b>'fertile crescent'</b> 🌙 (Mediterranean se Persian Gulf tak). Yahan <b>4 badi city-civilisations</b> ek ke baad ek aayin: <b>Sumerian → Akkadian → Assyrian → Babylonian</b>. Sumerians hi wo genius hain jinhone <b>likhai (cuneiform, ~3200 BCE)</b>, <b>pahiye wali gaadi</b>, <b>sailboat</b>, <b>dams &amp; canals</b> aur <b>60-min hour / 360° circle</b> diya! 🤯 Aur Sargon (Akkadian) ne duniya ka <b>pehla dynastic empire</b> banaya. Phir Babylon wale <b>Hammurabi</b> ne <b>world's pehla famous law code</b> likhwaya!</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li>Yahan farming <b>12,000 yrs ago</b> shuru hui; copper tools <b>~4500 BCE</b> me aaye&nbsp;— agriculture, crafts aur trade <b>boost</b> hua.</li>
+    <li><b>Sumerians (Ur, southern Iraq):</b> pehle <b>dams &amp; canals</b> (irrigation); pehle <b>mud bricks + burnt bricks</b> (houses, defensive walls); har city me chief god ka <b>ziggurat</b>&nbsp;— city usi ke around badi; <b>multiple gods</b> (floods/winds jaise natural forces pe power); <b>wheeled cart + sailboat</b> invent; number system <b>base-60</b> (60-min hour, 60-sec minute, 360° circle).</li>
+    <li>Entry ziggurat me sirf <b>high priests &amp; priestesses</b> ko&nbsp;— ruling class ka hissa; social hierarchy clearly dikhti hai.</li>
+    <li><b>Cuneiform (~3200 BCE):</b> wedge-shaped <b>stylus</b> se damp <b>clay tablets</b> pe marks; <b>scribes</b> ko high status; <b>3000 BCE</b> tak poori Mesopotamia me&nbsp;— chahe languages alag hon. Tablets se pata chala: myths &amp; epics (jaise <b>Epic of Gilgamesh</b>), <b>law codes</b>, farming/craft records (potters, shipbuilders, carpenters...).</li>
+    <li><b>Akkadians (2334 BCE):</b> <b>Sargon</b>&nbsp;— duniya ka <b>pehla dynastic empire</b>; Akkadian language (Sumerian se alag) but <b>same cuneiform</b>. Unke records me <b>Dilmun (Bahrain), Magan (Oman), Meluhha (= Sindhu-Sarasvatī civilisation!)</b> se trade&nbsp;— <b>beads, ivory, timber, gold dust, copper</b>.</li>
+    <li><b>Assyrians (Assur, north):</b> Akkadians ke baad&nbsp;— <b>2154–early 1700 BCE</b> supremacy.</li>
+    <li><b>Babylonians (1900 BCE, central):</b> <b>Hammurabi (1792 BCE)</b>&nbsp;— padosi regions jeet ke bada empire; <b>Code of Hammurabi</b>&nbsp;— civil &amp; social conduct ke rules&nbsp;— <b>future legal systems ka model</b>. <b>~1400 BCE</b> tak decline&nbsp;— <b>Hittites</b> (Indo-European, Anatolia/Turkey) ke attacks + environmental degradation + agriculture pe pressure + internal problems.</li>
+  </ul>
+</div>
+
+<!-- T10 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T10</span><span class="tt">Egypt&nbsp;— Nile ka Tohfa 🐪</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions (Hinglish)</div><div class="dd"><b>Papyrus</b>&nbsp;— papyrus plant ke trunk ke strips ko criss-cross karke, press-dry-polish karke bana <b>purana paper</b>. &nbsp;|&nbsp; <b>Mummification</b>&nbsp;— body ke internal organs (<b>heart chhodkar</b>) nikaal kar <b>natron</b> se sukha kar, oil laga kar <b>linen strips</b> me lapetna&nbsp;— rituals ke saath dafnaana. &nbsp;|&nbsp; <b>Ka</b>&nbsp;— har insaan ka <b>spiritual double</b>, jo body preserve rahe toh maut ke baad bhi zinda rehta hai.</div></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Egypt = <b>giftoftheNile</b>! Har summer me Nile <b>flood</b> hota tha&nbsp;— pichhla <b>kaali mitti 'kemet'</b> chhod jaata tha (isi liye Egyptians apni zameen ko <b>Kemet</b> = 'the black' kehte the!). Ditches khodkar paani fields me + reservoirs me&nbsp;— aur <b>calendar</b> bhi Nile ke floods ke beech ke din gin-gin ke bana! 📅 Kings = <b>Pharaohs</b>&nbsp;— jinhe devta-samjh ke mana jaata tha. Unke liye <b>mastaba</b> (rectangular structure) → ek ke upar ek → <b>PYRAMID!</b> 🔺 Aur mystery? <b>Rosetta Stone</b>&nbsp;— 1799 me mila, 3 scripts wala&nbsp;— jisse 1822 me <b>Champollion</b> ne Egyptian script <b>decipher</b> kar li!</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li>Greeks/Romans Egypt ko jaante the&nbsp;— <b>Herodotus</b> (5th c. BCE) yahan aake likha; 19th century collection <b>de l'Égypte</b>.</li>
+    <li><b>Papyrus records:</b> stories + practical details; <b>Papyrus Ebers</b>&nbsp;— <b>700+ cures &amp; spells</b> (medicine). <b>2000 BCE</b> ki libraries me labelled jars me scrolls&nbsp;— ek me <b>'Sindbad the Sailor'</b> ki oldest version, animal fables (<b>Aesop's Fables</b> se link), ghost/romance tales, aur <b>sabse purani 'Cinderella'</b>! 👠</li>
+    <li><b>Rosetta Stone:</b> 1799 me <b>Pierre Bouchard</b> (French army engineer) ne fort repair karte waqt khoja&nbsp;— 3 types of writing incl. <b>Greek</b>; 1822 me <b>Jean-François Champollion</b> ne decipher kiya (bilingual dictionary jaisa breakthrough!).</li>
+    <li><b>~3000 BCE</b> city-states; Nile ke summer floods → <b>kemet</b> (black soil) → farming; ditches + reservoirs → <b>collective effort</b> → local government + administrative class ka uday.</li>
+    <li><b>Calendar:</b> Nile floods ke beech ka time gin ke&nbsp;— <b>Year = 365 days</b> (12 months × 30 + 5 extra); basis&nbsp;— <b>Sirius (Dog Star)</b> ka udna; 3 seasons&nbsp;— <b>Inundation (autumn), Peret-growing (winter), Shemu-harvest (summer)</b>.</li>
+    <li><b>Pharaohs</b> ka power; burial&nbsp;— <b>mastaba</b> → stacked mastabas → <b>pyramid</b> (example: <b>step pyramid at Saqqara</b>); kyunki wahan har insaan ka <b>ka</b> (spiritual double) body preserve rahe toh zinda rehta tha&nbsp;— isliye <b>mummification</b>.</li>
+    <li><b>Social pyramid:</b> Pharaoh (top) → government officials, nobles &amp; priests → free landholders, artisans &amp; merchants → serfs &amp; slaves (bottom).</li>
+    <li>Life me maza bhi tha: <b>swimming, canoeing, board games, music, dancing</b>; festivals me god ki statue parade (<b>sistrum</b> instrument)&nbsp;— <b>Sed festival</b> = king ke <b>30 saal</b> of rule ka celebration.</li>
+    <li><b>Women ke rights</b> Greek/Roman se zyada&nbsp;— <b>property own karna, business chalana</b>; <b>Cleopatra</b> (69–30 BCE)&nbsp;— bachpan se rule ki training, <b>18 saal ki age</b> me queen!</li>
+  </ul>
+</div>
+
+<!-- T11 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T11</span><span class="tt">China + Sab Civilisations ki Common Story 🐉</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">China ki kahani <b>Huang He (Yellow River) + Yangtze</b> ke kinare bhi likhi gayi&nbsp;— wahan bhi ~7000 BCE se Neolithic cultures! Bronze Age me <b>Shang</b> phir <b>Zhou</b> dynasties aayin. Sabse mazedar source? <b>Oracle bones!</b> 🦴 Animal bones/tortoise shells pe symbols likh ke <b>garam</b> karo&nbsp;— jo <b>cracks</b> bane unse <b>future predict</b> karo! Aaj ye hamein unki hopes aur fears batate hain. Aur naam 'China' khud <b>Qin (Ch'in) dynasty</b> se aaya&nbsp;— jisne country ko <b>unify</b> kiya!</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li>Rivers: <b>Huang He (Yellow) + Yangtze</b>&nbsp;— early Neolithic cultures <b>~7000 BCE</b>; bronze <b>~2000 BCE</b> (Yellow River basin); urban centres <b>~1600 BCE</b> se&nbsp;— first Chinese Bronze Age territorial empire.</li>
+    <li><b>Bronze Age dynasties:</b> <b>Shang (1600–1046 BCE)</b> aur <b>Zhou (1046–256 BCE)</b>. Zhou rulers = <b>kings + priests dono</b>&nbsp;— 'appointees of heaven'&nbsp;— lekin agar janta prosper nahi kari toh <b>dismiss</b> bhi ho sakte the!</li>
+    <li>Iron <b>~600 BCE</b> se popular (Chinese Iron Age); <b>Qin (221–206 BCE)</b>&nbsp;— <b>naam 'China' isi se</b>, first imperial dynasty, country unify kiya; <b>Han (206 BCE–220 CE)</b>&nbsp;— important Iron Age dynasty.</li>
+    <li><b>Oracles:</b> animal bones + tortoise shells pe symbols&nbsp;— garam karke <b>cracks</b> padhi jaati thin&nbsp;— future-telling; aaj hopes/desires/fears ka source.</li>
+    <li><b>Chinese script = logographic</b>&nbsp;— characters poore <b>words/morphemes</b> represent karte hain, sounds ko nahi.</li>
+    <li>Crafts: <b>jade</b> objects &amp; figurines (ritual/prestige&nbsp;— jade China se bahar se aata tha); <b>jade 'fish' chimes</b> jo cord se bandhe, strike karne pe <b>musical sound</b> dete! 🎵 Marble ornaments; <b>bronze metallurgy</b>&nbsp;— weapons, tools, elaborate <b>ritual vessels</b>.</li>
+    <li><b>Great Wall:</b> <b>680 BCE</b> se Zhou + other dynasties ne <b>nomadic tribes ke raids</b> se bachne ke liye alag-alag walls banayi&nbsp;— baad me <b>join</b> hui; expansion/repair <b>17th century CE</b> tak&nbsp;— total ~2000 saal ka construction!</li>
+    <li><b>Silk:</b> Neolithic (4000–3000 BCE) se jaana; Bronze Age me major craft; <b>Han dynasty (2nd c. BCE)</b> me external trade itna badha ki poora route hi <b>'Silk Route'</b> kehlaya.</li>
+    <li><b>1500 BCE</b> tak society <b>stratified</b>&nbsp;— ruling class/nobles/aristocrats upar, phir farmers &amp; labourers.</li>
+    <li>More firsts: Zhou me <b>metal money</b>; 5th c. BCE tak <b>money economy</b>; duniya ka <b>pehla paper currency</b>; <b>public examination se civil services</b>&nbsp;— officials ko <b>archery, horsemanship, calculations, writing, music</b> me test karke chuna jaata tha!</li>
+  </ul>
+  <div class="exbox"><span class="xt">🌟 Wrap-up (4 civilisations ki common story):</span> Har civilisation&nbsp;— <b>Sindhu-Sarasvatī, Mesopotamia (Euphrates-Tigris), Egypt (Nile), China (Huang He)</b>&nbsp;— <b>independently</b> fertile <b>river plains</b> me bani. Agriculture harness kiya → economic growth → <b>urban cities</b> → social &amp; administrative systems → <b>writing systems</b> se records + literature. Humari cultural ethos ki jadrein inhi Bronze Age civilisations me hain!</div>
+</div>
+<!-- ============ DIFFERENCE ZONE CH4 ============ -->
+<div class="sec-h"><span class="sq">⚔️</span><span class="st">Difference Zone&nbsp;— 3 vs 3 (yahi se tricky questions aate hain!)</span><span class="sline"></span></div>
+
+<div class="vs">
+  <div class="vs-h"><span class="vnum">D1</span><span class="vt">Palaeolithic vs Neolithic&nbsp;— Stone Age ka Start vs End 🪨🌾</span></div>
+  <div class="vs-cols">
+    <div class="vs-col va">
+      <div class="vc-t">🪨 Palaeolithic (Old Stone Age)</div>
+      <ul class="vpts">
+        <li><b>Tools:</b> bade, simple, crude&nbsp;— handaxes, cleavers, choppers, scrapers.</li>
+        <li><b>Life:</b> nomadic hunter-gatherers&nbsp;— khana shikaar/khoj karke, caves &amp; open camps me.</li>
+        <li><b>Food:</b> sirf mila-khaya (hunted animals, tubers, fruits)&nbsp;— koi production nahi.</li>
+      </ul>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="vs-col vb">
+      <div class="vc-t">🌾 Neolithic (New Stone Age)</div>
+      <ul class="vpts">
+        <li><b>Tools:</b> <b>polished</b> stone tools&nbsp;— farming &amp; food-processing ke liye.</li>
+        <li><b>Life:</b> settled&nbsp;— pehle <b>village settlements</b>, ghar, granaries.</li>
+        <li><b>Food:</b> khud <b>produce</b> kiya&nbsp;— farming + <b>domesticated animals</b> + pottery me storage.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="vs">
+  <div class="vs-h"><span class="vnum">D2</span><span class="vt">Stone Age vs Bronze Age 🪨 vs 🥉</span></div>
+  <div class="vs-cols">
+    <div class="vs-col va">
+      <div class="vc-t">🪨 Stone Age (Palaeo-Meso-Neo)</div>
+      <ul class="vpts">
+        <li><b>Technology:</b> sirf stone tools (baad me polished + microliths).</li>
+        <li><b>Settlements:</b> chhote villages/temporary camps&nbsp;— koi bade towns nahi.</li>
+        <li><b>Society:</b> simple&nbsp;— koi writing nahi*, limited trade.</li>
+      </ul>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="vs-col vb">
+      <div class="vc-t">🥉 Bronze Age</div>
+      <ul class="vpts">
+        <li><b>Technology:</b> <b>bronze metallurgy</b> (copper + tin)&nbsp;— strong tools.</li>
+        <li><b>Settlements:</b> <b>urban centres/towns</b>&nbsp;— planned cities, trade expansion.</li>
+        <li><b>Society:</b> <b>early civilisations</b>&nbsp;— writing, standard weights, social hierarchy.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="vs">
+  <div class="vs-h"><span class="vnum">D3</span><span class="vt">Hunting-Gathering vs Farming Life 🏹 vs 🌾</span></div>
+  <div class="vs-cols">
+    <div class="vs-col va">
+      <div class="vc-t">🏹 Hunting-Gathering</div>
+      <ul class="vpts">
+        <li><b>Movement:</b> nomadic&nbsp;— khane ke peeche hamesha ghoomna padta tha.</li>
+        <li><b>Security:</b> uncertain&nbsp;— khana milna guaranteed nahi, koi surplus nahi.</li>
+        <li><b>Dependence:</b> poori tarah <b>nature</b> pe&nbsp;— mausam bura toh bhook.</li>
+      </ul>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="vs-col vb">
+      <div class="vc-t">🌾 Farming (Food Production)</div>
+      <ul class="vpts">
+        <li><b>Movement:</b> settled&nbsp;— ek jagah&nbsp;— ghar, granaries, villages.</li>
+        <li><b>Security:</b> <b>surplus food</b> possible&nbsp;— store karke bad din ke liye rakha.</li>
+        <li><b>Result:</b> surplus ne hi <b>civilisation ki neev</b> rakhi&nbsp;— cities, crafts, trade.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="vs">
+  <div class="vs-h"><span class="vnum">D4</span><span class="vt">Harappan Script vs Cuneiform 🤔 vs 📝</span></div>
+  <div class="vs-cols">
+    <div class="vs-col va">
+      <div class="vc-t">🏛️ Harappan Script (Sindhu lipi)</div>
+      <ul class="vpts">
+        <li><b>Status:</b> <b>undeciphered</b>&nbsp;— aaj tak padha nahi ja saka!</li>
+        <li><b>Type:</b> pictographic&nbsp;— seals &amp; pottery pe engravings.</li>
+        <li><b>Result:</b> Harappans ke <b>thoughts/ideas</b> aaj tak mystery&nbsp;— sirf objects se pata chalta hai.</li>
+      </ul>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="vs-col vb">
+      <div class="vc-t">📝 Cuneiform (Sumerian)</div>
+      <ul class="vpts">
+        <li><b>Status:</b> <b>deciphered</b>&nbsp;— padhi ja sakti hai (~3200 BCE se).</li>
+        <li><b>Type:</b> wedge-shaped <b>stylus</b> se damp <b>clay tablets</b> pe marks.</li>
+        <li><b>Result:</b> myths, epics, <b>law codes</b>, trade/farming records&nbsp;— poori picture milti hai.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="vs">
+  <div class="vs-h"><span class="vnum">D5</span><span class="vt">Mastaba vs Pyramid 🪦 vs 🔺</span></div>
+  <div class="vs-cols">
+    <div class="vs-col va">
+      <div class="vc-t">🪦 Mastaba</div>
+      <ul class="vpts">
+        <li><b>Shape:</b> <b>rectangular</b> structure&nbsp;— flat-top wala.</li>
+        <li><b>Role:</b> burial chamber ke <b>upar</b> rakha jaane wala structure.</li>
+        <li><b>Evolution:</b> ye hi Egyptian burial ki <b>pehli shape</b> thi.</li>
+      </ul>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="vs-col vb">
+      <div class="vc-t">🔺 Pyramid</div>
+      <ul class="vpts">
+        <li><b>Shape:</b> mastabas ko <b>ek ke upar ek</b> rakhne se bana&nbsp;— steps wala&nbsp;— example: <b>Saqqara</b>.</li>
+        <li><b>Role:</b> <b>Pharaohs</b> ki grand burial&nbsp;— power ka symbol.</li>
+        <li><b>Belief:</b> body preserve rahe toh <b>ka</b> (spiritual double) zinda rehta hai&nbsp;— isliye mummification + pyramid.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="vs">
+  <div class="vs-h"><span class="vnum">D6</span><span class="vt">4 River Valley Civilisations&nbsp;— ek nazar me 🌊</span></div>
+  <table class="tt">
+    <thead><tr><th>Civilisation</th><th>Nadi 🏞️</th><th>Writing 📝</th><th>Khaas Baat 🌟</th></tr></thead>
+    <tbody>
+      <tr><td><b>Sindhu-Sarasvatī</b></td><td>Sindhu + Sarasvatī</td><td>Pictographic (undeciphered)</td><td>Planned cities, weights, Dholavira tanks, Lothal dockyard</td></tr>
+      <tr><td><b>Mesopotamia</b></td><td>Euphrates + Tigris</td><td>Cuneiform (deciphered)</td><td>Pehli city civilisation, ziggurat, wheel, base-60, Code of Hammurabi</td></tr>
+      <tr><td><b>Egypt</b></td><td>Nile</td><td>Hieroglyphic (deciphered)</td><td>Pyramids, mummies, papyrus, 365-day calendar, Pharaohs</td></tr>
+      <tr><td><b>China</b></td><td>Huang He + Yangtze</td><td>Logographic (oracle bones se early info)</td><td>Great Wall, Silk Route, jade, paper currency, civil services</td></tr>
+    </tbody>
+  </table>
+  <div class="exbox"><span class="xt">🧠 Common thread:</span> Chaar civilisations <b>independently</b> bani&nbsp;— lekin features sab me <b>common</b>: river plains, agriculture, urban centres, writing, trade, social hierarchy.</div>
+</div>
+
+<!-- ============ DEFBANK CH4 ============ -->
+<div class="sec-h"><span class="sq">📖</span><span class="st">Definition Bank&nbsp;— Chapter 4</span><span class="sline"></span></div>
+
+<div class="defbank">
+  <div class="dbt">📖 Part 1&nbsp;— Early Humans &amp; Ages</div>
+  <div class="db-grid">
+    <div class="d"><b>Hominin</b>&nbsp;— modern humans + human-like ancestors ka group (tool makers).</div>
+    <div class="d"><b>Fossil</b>&nbsp;— purane jeev-janton ke preserved remains/impressions jo saalon me patthar ban gaye.</div>
+    <div class="d"><b>Artefact</b>&nbsp;— insaano se bani material cheezein (tools, implements)&nbsp;— prehistory ka main source.</div>
+    <div class="d"><b>Old World</b>&nbsp;— Africa, Asia, Europe&nbsp;— earliest palaeolithic settlements ka ilaka.</div>
+    <div class="d"><b>Biological evolution</b>&nbsp;— australopithecines se Homo sapiens tak ke physical/genetic changes.</div>
+    <div class="d"><b>Cultural evolution</b>&nbsp;— Quaternary Period (last 26 lakh yrs) me tools/technology se adapt hona.</div>
+    <div class="d"><b>Palaeolithic</b>&nbsp;— Old Stone Age; hunting-gathering + simple stone tools.</div>
+    <div class="d"><b>Mesolithic</b>&nbsp;— microlithic tools wala transitional phase (hunting-gathering → agriculture).</div>
+    <div class="d"><b>Microliths</b>&nbsp;— chhote (tiny) stone tools&nbsp;— fishing &amp; gathering ke kaam ke liye.</div>
+    <div class="d"><b>Neolithic Revolution</b>&nbsp;— domestication ke saath food-producing life me shift.</div>
+    <div class="d"><b>Domestication</b>&nbsp;— animals/plants ko human control me laana + new breeds develop karna.</div>
+    <div class="d"><b>Chalcolithic</b>&nbsp;— copper + stone tools ka daur (early metallurgy).</div>
+    <div class="d"><b>Bronze Age</b>&nbsp;— copper + tin = bronze; trade, towns, early civilisations.</div>
+    <div class="d"><b>Iron Age</b>&nbsp;— iron metallurgy; stronger tools &amp; weapons; advanced societies.</div>
+  </div>
+</div>
+
+<div class="defbank">
+  <div class="dbt">📖 Part 2&nbsp;— Civilisations</div>
+  <div class="db-grid">
+    <div class="d"><b>City-state</b>&nbsp;— city-centred sovereign state jo aas-paas ka territory raaj karta hai.</div>
+    <div class="d"><b>Ziggurat</b>&nbsp;— stepped pyramid-shaped tower temple&nbsp;— top holy, saath treasury bhi.</div>
+    <div class="d"><b>Cuneiform</b>&nbsp;— Sumerians ki wedge-shaped writing (stylus + clay tablets).</div>
+    <div class="d"><b>Fertile Crescent</b>&nbsp;— Zagros-Taurus ka crescent-shaped fertile foothill belt.</div>
+    <div class="d"><b>Meluhha</b>&nbsp;— Mesopotamian records me Sindhu-Sarasvatī civilisation ka naam.</div>
+    <div class="d"><b>Code of Hammurabi</b>&nbsp;— civil &amp; social conduct ke compiled rules&nbsp;— legal systems ka model.</div>
+    <div class="d"><b>Papyrus</b>&nbsp;— plant ke strips se bana Egypt ka purana paper.</div>
+    <div class="d"><b>Kemet</b>&nbsp;— 'the black'&nbsp;— Egyptians apni black-soil zameen ke liye kahte the.</div>
+    <div class="d"><b>Pharaoh</b>&nbsp;— Egypt ka powerful ruler (devta-samjh).</div>
+    <div class="d"><b>Ka</b>&nbsp;— spiritual double&nbsp;— body preserve rahe toh maut ke baad bhi zinda.</div>
+    <div class="d"><b>Mummification</b>&nbsp;— organs (heart chhod) nikaal ke natron se sukhana, linen me lapetna.</div>
+    <div class="d"><b>Mastaba</b>&nbsp;— burial chamber ke upar ka rectangular structure.</div>
+    <div class="d"><b>Oracle bones</b>&nbsp;— garam karke cracks padhne wali China ki prediction bones.</div>
+    <div class="d"><b>Logographic script</b>&nbsp;— characters = poore words/morphemes (sounds nahi)&nbsp;— Chinese script.</div>
+    <div class="d"><b>Silk Route</b>&nbsp;— Han dynasty ke time silk ke trade ka famous route.</div>
+    <div class="d"><b>Gabarbands</b>&nbsp;— Baluchistan ke Early Harappans ki check dams (irrigation).</div>
+  </div>
+</div>
+
+<!-- ============ MCQ CH4 ============ -->
+<div class="sec-h"><span class="sq">✅</span><span class="st">MCQ Challenge&nbsp;— 10 Questions</span><span class="sline"></span></div>
+<div class="mcq-score"><span class="ms">🎯 Solve karne ke baad score bharo →</span><div class="blank"></div><span class="ms">/ 10</span></div>
+
+<div class="mcq"><div class="mq"><span class="qn">Q1.</span> Sabse pehle stone tools lagbhag kitne samay pehle banaye gaye the?</div>
+  <div class="opts"><div class="op" data-l="a">5000 saal pehle</div><div class="op" data-l="b">125,000 saal pehle</div><div class="op" data-l="c">3.3 million saal pehle</div><div class="op" data-l="d">2 million saal pehle</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q2.</span> Africa se <b>bahar nikalne wala pehla hominin</b> kaun tha?</div>
+  <div class="opts"><div class="op" data-l="a">Homo habilis</div><div class="op" data-l="b">Homo erectus</div><div class="op" data-l="c">Homo sapiens</div><div class="op" data-l="d">Neanderthal</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q3.</span> Attirampakkam (1.5–1.7 mya) kis state me hai?</div>
+  <div class="opts"><div class="op" data-l="a">Karnataka</div><div class="op" data-l="b">Madhya Pradesh</div><div class="op" data-l="c">Tamil Nadu</div><div class="op" data-l="d">Pakistan</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q4.</span> Bhimbetka (Madhya Pradesh) kis cheez ke liye World Heritage Site hai?</div>
+  <div class="opts"><div class="op" data-l="a">pyramids</div><div class="op" data-l="b">painted rock shelters</div><div class="op" data-l="c">pahilon ki factories</div><div class="op" data-l="d">metal tools</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q5.</span> Subcontinent ka <b>sabse purana Neolithic site / pehla agricultural village</b> kaunsa hai?</div>
+  <div class="opts"><div class="op" data-l="a">Kalibangan</div><div class="op" data-l="b">Lothal</div><div class="op" data-l="c">Sanganakallu</div><div class="op" data-l="d">Mehrgarh</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q6.</span> 'Mesopotamia' shabd ka matlab kya hai?</div>
+  <div class="opts"><div class="op" data-l="a">black zameen</div><div class="op" data-l="b">land in between</div><div class="op" data-l="c">fertile crescent</div><div class="op" data-l="d">river ki gift</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q7.</span> <b>Ziggurat</b> kya tha?</div>
+  <div class="opts"><div class="op" data-l="a">Egypt ka burial structure</div><div class="op" data-l="b">China ki prediction bone</div><div class="op" data-l="c">stepped pyramid-shaped temple</div><div class="op" data-l="d">Harappan seal</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q8.</span> <b>Cuneiform</b> writing system kisne develop kiya?</div>
+  <div class="opts"><div class="op" data-l="a">Sumerians</div><div class="op" data-l="b">Egyptians</div><div class="op" data-l="c">Harappans</div><div class="op" data-l="d">Chinese</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q9.</span> Egyptian script (hieroglyphs) 1822 me kisne decipher ki?</div>
+  <div class="opts"><div class="op" data-l="a">Pierre Bouchard</div><div class="op" data-l="b">Jean-François Champollion</div><div class="op" data-l="c">Herodotus</div><div class="op" data-l="d">Sargon</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q10.</span> Mesopotamian records me <b>'Meluhha'</b> kis civilisation ko kaha gaya hai?</div>
+  <div class="opts"><div class="op" data-l="a">Egypt</div><div class="op" data-l="b">China</div><div class="op" data-l="c">Sindhu-Sarasvatī</div><div class="op" data-l="d">Bahrain (Dilmun)</div></div></div>
+
+<div class="anskey">
+  <div class="akt">🔑 Answer Key&nbsp;— Chapter 4</div>
+  <div class="ans-strip"><span>1 → c</span><span>2 → b</span><span>3 → c</span><span>4 → b</span><span>5 → d</span><span>6 → b</span><span>7 → c</span><span>8 → a</span><span>9 → b</span><span>10 → c</span></div>
+  <div class="xpls">
+    <div class="x"><b>1:</b> ~3.3 mya pe pehle stone tools&nbsp;— yahi 'human behaviour' ki shuruaat mani gayi.</div>
+    <div class="x"><b>2:</b> Homo erectus (handaxes + cleavers wala)&nbsp;— ~2 mya pe pehla exit.</div>
+    <div class="x"><b>3:</b> Attirampakkam Tamil Nadu me (Isampur Karnataka me hai).</div>
+    <div class="x"><b>4:</b> Bhimbetka = hundreds of painted rock shelters (Mesolithic + pehle bhi).</div>
+    <div class="x"><b>5:</b> Mehrgarh (Bolan River, Pakistan)&nbsp;— ~7000 BCE ka pehla farming village.</div>
+    <div class="x"><b>6:</b> Greek me 'land in between'&nbsp;— Euphrates + Tigris ke beech.</div>
+    <div class="x"><b>7:</b> Ziggurat = har city ke chief god ka stepped-pyramid temple&nbsp;— treasury bhi.</div>
+    <div class="x"><b>8:</b> Cuneiform Sumerians ki&nbsp;— wedge-shaped stylus, clay tablets, ~3200 BCE.</div>
+    <div class="x"><b>9:</b> Rosetta Stone 1799 me mili (Bouchard)&nbsp;— decipher kiya Champollion ne (1822).</div>
+    <div class="x"><b>10:</b> Meluhha = Sindhu-Sarasvatī civilisation (Dilmun = Bahrain, Magan = Oman).</div>
+  </div>
+</div>
+
+<!-- ============ QA CH4 ============ -->
+<div class="sec-h"><span class="sq">📝</span><span class="st">Big Questions&nbsp;— Exam-Ready Answers (points me)</span><span class="sline"></span></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q1.</span> Farming me shift ko 'Neolithic Revolution' kyun kehte hain&nbsp;— simple change kyun nahi?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>Revolution = <b>poori lifestyle palat</b> jaana&nbsp;— sirf ek naya kaam shuru hona nahi.</li>
+    <li><b>Food procurement → food production:</b> log khana dhoondhna chhodkar khud <b>ugane</b> lage&nbsp;— select animals &amp; plants ka <b>domestication</b> + cultivation/husbandry se <b>new breeds</b>.</li>
+    <li><b>Nomadic → settled life:</b> pehle <b>village settlements</b> bane&nbsp;— ghar, granaries&nbsp;— <b>urban revolution ki foundation</b> rakhhi.</li>
+    <li><b>Technology badla:</b> procuring tools ki jagah <b>production &amp; processing tools</b> (polished stone) + <b>pottery</b> (storage).</li>
+    <li><b>Surplus food</b> produce ho sakta tha&nbsp;— aur surplus hi <b>civilisation ki neev</b> tha.</li>
+    <li>Ye transition <b>alag-alag regions me alag time</b> pe hua&nbsp;— ek saath kahin nahi.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q2.</span> Writing ke aavishkaar se <b>pehle</b> aur <b>baad</b> ke itihaas ko samajhne me kya farak hai?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Time ka hissa:</b> writing se pehle ka period = itihaas ka <b>99% se zyada</b> (3 mya → 5000 yrs); baad ka = <b>1% se kam</b> (last 5000 years).</li>
+    <li><b>Sources:</b> pehle&nbsp;— sirf <b>artefacts</b> (tools, implements, material objects); baad me&nbsp;— artefacts + <b>written documents</b> dono.</li>
+    <li><b>Logon ki soch:</b> pehle thoughts/ideas samajhna <b>mushkil</b>; baad me literature se <b>naam, events, social-political-cultural life</b> ki jaankari.</li>
+    <li><b>Dating:</b> pehle <b>approximate</b>; baad me relatively <b>accurate</b>&nbsp;— coronation, wars ke specific dates milte hain.</li>
+    <li><b>Deciphered scripts</b> (cuneiform, hieroglyphic) ne historical period ki shuruaat ki&nbsp;— jabki <b>Harappan script aaj tak undeciphered</b> hai.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q3.</span> Insaan Africa se nikal kar duniya me kaise phaile? (human dispersal describe karo)</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li>Hamare <b>sabse purane ancestors evolve hue aur rahe Africa me</b>.</li>
+    <li><b>~2 million yrs ago:</b> <b>Homo erectus</b> (handaxes + cleavers banane wala) <b>pehla hominin jo Africa se bahar</b> nikla&nbsp;— Europe-Asia me phaila (0.5–2 mya ke tools mile).</li>
+    <li><b>~125,000 yrs ago:</b> dusri badi exit&nbsp;— early <b>Homo sapiens</b> ki wave.</li>
+    <li><b>Homo sapiens</b> Africa me <b>~300,000 yrs ago</b> evolve hue&nbsp;— aaj poori duniya me fail e hue hain.</li>
+    <li><b>50,000–12,000 yrs ago</b> ke beech sapiens <b>Australia aur Americas</b> tak pahunche.</li>
+    <li>Migration ke saath&nbsp;— <b>complex technologies</b> (bow &amp; arrow, blades, beads, art) bhi faili.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q4.</span> <b>Palaeolithic, Mesolithic aur Neolithic</b> periods ko tools, settlements, art aur subsistence (khana) ke basis pe compare karo.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Palaeolithic&nbsp;— tools:</b> handaxes, cleavers, choppers, scrapers (quartzite/limestone); baad me borers, points, bow &amp; arrow. <b>Mesolithic&nbsp;— tools:</b> <b>microlithic (tiny) tools</b> + bone points. <b>Neolithic&nbsp;— tools:</b> <b>polished tools</b> for farming + processing.</li>
+    <li><b>Palaeolithic&nbsp;— khana:</b> hunting-gathering (meat, tubers, marrow). <b>Mesolithic:</b> fishing (marine + freshwater), small game, wild grains. <b>Neolithic:</b> <b>khud paida kiya</b>&nbsp;— farming + domesticated animals.</li>
+    <li><b>Palaeolithic&nbsp;— settlements:</b> caves/open camps, nomadic. <b>Mesolithic:</b> nadi/jheel ke paas temporary settlements. <b>Neolithic:</b> <b>permanent villages</b>, ghar, granaries.</li>
+    <li><b>Palaeolithic&nbsp;— art:</b> cave paintings, pigments, beads, burin engravings. <b>Mesolithic:</b> art <b>flourish</b> hui&nbsp;— <b>Bhimbetka</b> ki painted rock shelters. <b>Neolithic:</b> <b>pottery</b> (shapes &amp; sizes) + crafts.</li>
+    <li><b>Extra (Mesolithic):</b> ~12,000 yrs ago warm climate → resources badhe → <b>pehli population explosion</b>.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q5.</span> Mehrgarh se Mature Harappan tak ka safar trace karo&nbsp;— Sindhu-Sarasvatī civilisation kaise bani?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>~7000 BCE:</b> <b>Mehrgarh</b> (Bolan River)&nbsp;— subcontinent ka pehla farming village&nbsp;— wheat/barley + sheep/goats/zebu; brick houses, granaries, graves, ornaments.</li>
+    <li><b>~4000–4500 BCE:</b> kuch settlements ne <b>copper extraction</b> seekh li&nbsp;— earliest <b>Chalcolithic</b> sites&nbsp;— <b>Bronze Age ki shuruaat</b>.</li>
+    <li>Copper tools + fertile <b>Indus &amp; Ghaggar-Sarasvatī plains</b> → productivity + prosperity → <b>pottery/craft production</b> bada (regional styles).</li>
+    <li><b>Early Harappan stage:</b> regional styles me <b>cultural continuity</b>&nbsp;— pottery, beads, shell bangles, copper working; perimeter walls, seals, script ki shuruaat; <b>Bhirrana &amp; Kunal</b> me Pre-Harappan phase <b>7000–5500 BCE</b> se.</li>
+    <li><b>~2600 BCE:</b> technological advancement + economic integration se <b>Mature Harappan urban centres</b> paida hue (<b>1900 BCE</b> tak, phir Late Harappan).</li>
+    <li>Mature phase ki khaasiyat: <b>planned cities, standard weights (binary + 10 ke multiples), seals, water management</b>&nbsp;— <b>Dholavira</b> ke tanks, <b>Lothal</b> ka dockyard, <b>Kalibangan</b> ke ploughed fields.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q6.</span> Sumerians ke bade contributions kya the?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Duniya ki pehli city-based civilisation</b>&nbsp;— Ur aur Sumer (southern Iraq) ke cities.</li>
+    <li><b>Pehle dams &amp; canals</b>&nbsp;— irrigation ke liye.</li>
+    <li><b>Pehle mud bricks + burnt bricks</b>&nbsp;— houses, defensive walls, structures.</li>
+    <li><b>Ziggurat</b>&nbsp;— har city ke chief god ka grand stepped-pyramid temple; city usi ke around bada; economy temple se judi; entry sirf high priests/priestesses ko.</li>
+    <li><b>Cuneiform (~3200 BCE)</b>&nbsp;— pehli writing&nbsp;— wedge-shaped stylus + clay tablets; scribes ko high status; <b>3000 BCE</b> tak poori Mesopotamia me.</li>
+    <li><b>Wheeled cart + sailboat</b> invent kiye; calculations se structures/fields measure kiye.</li>
+    <li><b>Base-60 number system</b>&nbsp;— 60-minute hour, 60-second minute, 360-degree circle&nbsp;— aaj tak chal raha hai!</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q7.</span> Code of Hammurabi kya tha aur kyu important tha?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Hammurabi</b>&nbsp;— Babylonia ka ruler jo <b>1792 BCE</b> me aaya&nbsp;— padosi regions jeet ke chhote city-state ko <b>bade empire</b> me badla.</li>
+    <li>Usne apne poore empire ke liye <b>civil aur social conduct ke rules &amp; regulations compile</b> karwaye&nbsp;— yahi <b>Code of Hammurabi</b> hai.</li>
+    <li>Ye <b>future ki kai legal systems ka foundational model</b> bana.</li>
+    <li>Code ek <b>stone stele</b> pe cuneiform me likha mila hai&nbsp;— jisme Hammurabi ko <b>Shamash</b> (justice ke Babylonian god) se law lete hue dikhaya gaya hai.</li>
+    <li>Isse pata chalta hai ki Mesopotamian society me <b>likhe hue rules</b> se governance hoti thi&nbsp;— sirf raja ki marzi se nahi.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q8.</span> Egyptian script ko decipher kaise kiya gaya? (Rosetta Stone ki kahani)</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>1799:</b> <b>Pierre Bouchard</b>&nbsp;— French army engineer&nbsp;— Egypt me ek <b>fort repair</b> karte waqt ek bade <b>black stone</b> pe chhupi mysterious writing dhundta hai&nbsp;— yahi <b>Rosetta Stone</b> hai.</li>
+    <li>Stone pe <b>teen types ki writing</b> thi&nbsp;— jisme ek <b>Greek</b> bhi thi.</li>
+    <li>Kyunki log <b>Greek ab bhi padh sakte the</b>&nbsp;— ye bada breakthrough tha&nbsp;— bilkul <b>bilingual dictionary</b> jaisa ek lost language ke liye!</li>
+    <li><b>1822:</b> French linguist <b>Jean-François Champollion</b> ne Egyptian script ko finally <b>decipher</b> kar liya.</li>
+    <li>Decipher hone se humein Egyptian <b>papyrus records, stories, beliefs aur history</b> ki poori samajh mil gayi.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q9.</span> Egyptian society aur beliefs ko describe karo. (pharaoh, pyramid, mummification, calendar, women)</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Nile hi zindagi thi:</b> har summer flood&nbsp;— <b>kemet</b> (black soil)&nbsp;— ditches + reservoirs se kheti; floods ke beech ka time gin ke <b>365-day calendar</b> (12 × 30 + 5; Sirius star ke aane pe based; 3 seasons: Inundation, Peret, Shemu).</li>
+    <li><b>Collective kaam</b> (ditches, dams) se <b>local government + administrative class</b> ka uday hua.</li>
+    <li><b>Pharaohs</b> = powerful rulers; maut ke baad unhe deep underground dafnaya jaata&nbsp;— upar <b>mastaba</b>&nbsp;— dheere-dheere stacked hokar <b>pyramid</b> bana (step pyramid&nbsp;— <b>Saqqara</b>).</li>
+    <li><b>Belief:</b> har insaan ka ek <b>ka (spiritual double)</b>&nbsp;— body preserve rahe toh maut ke baad bhi zinda rehta hai&nbsp;— isliye <b>mummification</b> (organs heart chhodkar, natron se dry, linen wrap).</li>
+    <li><b>Social pyramid:</b> Pharaoh → officials, nobles, priests → free landholders, artisans, merchants → serfs &amp; slaves.</li>
+    <li><b>Women ke rights</b> Greek/Roman se better&nbsp;— property own, business chala sakti thin; <b>Cleopatra</b> 18 saal ki umar me queen bani (69–30 BCE).</li>
+    <li>Leisure: swimming, board games, music, dancing; <b>Sed festival</b>&nbsp;— king ke 30 saal ke rule ka celebration.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q10.</span> "Bronze Age civilisations developed independently but shared common features."&nbsp;— is statement ko examine karo.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Independently developed:</b> chaaron civilisations&nbsp;— <b>Sindhu-Sarasvatī (Sindhu-Sarasvatī rivers), Mesopotamia (Euphrates-Tigris), Egypt (Nile), China (Huang He)</b>&nbsp;— apne-apne river plains me <b>alag-alag</b> lagi&nbsp;— kisi ne kisi se seekh kar nahi banayi.</li>
+    <li><b>Common feature 1&nbsp;— River plains:</b> sabhi <b>fertile nadi ki ghaati</b> me&nbsp;— paani + fertile mitti + transport.</li>
+    <li><b>Common feature 2&nbsp;— Agriculture:</b> harness kiya gaya agricultural productivity hi <b>economic growth</b> ka engine tha&nbsp;— surplus aayi.</li>
+    <li><b>Common feature 3&nbsp;— Urban centres:</b> economic growth se <b>cities</b> nikli&nbsp;— planned settlements, crafts, trade.</li>
+    <li><b>Common feature 4&nbsp;— Social &amp; administrative systems:</b> sabhi me <b>hierarchy</b> (rulers, priests, elites → common log) aur governance systems develop hue.</li>
+    <li><b>Common feature 5&nbsp;— Writing:</b> economic transactions + social activities record karne ke liye&nbsp;— phir literature bhi (cuneiform, hieroglyphic, Harappan, Chinese).</li>
+    <li><b>Difference bhi thi:</b> Mesopotamia-Harappan me <b>direct trade/contact</b> ka evidence (Meluhha records)&nbsp;— Egypt-China ka direct contact kam.</li>
+    <li><b>Conclusion:</b> alag-alag janm le kar bhi unhone <b>similar problems ke similar solutions</b> nikale&nbsp;— isliye humari cultural ethos ki jadrein inhi me hain.</li>
+  </ul></div>
+
+</div><!-- /ch4 -->
+<!-- ================================================= CHAPTER 5 -->
+<div class="ch5">
+
+<div class="ch-open">
+  <div class="big-emoji">👑</div>
+  <div class="okick">Chapter 5 &bull; History</div>
+  <div class="otitle">State and Society<br>up to 1000 CE</div>
+  <div class="osub">Vedic ke <b>jana</b> se le kar Chola ke <b>mandals</b> tak&nbsp;— raja kaise bana, samaj kaise baja, <b>varṇa-jāti</b> kya hai, aur <b>dharma</b> se lekar <b>guilds</b> tak sab. Sabse detailed chapter&nbsp;— sabse zyada marks yahin se!</div>
+  <div class="ochips"><span>🔑 16 Topics</span><span>📖 25+ Definitions</span><span>⚔️ 8 Differences</span><span>✅ 10 MCQs</span><span>📝 10 Q&amp;A</span></div>
+</div>
+
+<div class="tline-box">
+  <div class="tlt">⏳ Timeline&nbsp;— ek nazar me</div>
+  <div class="tline">
+    <span class="tl"><b>2nd mill. BCE</b> · Ṛig Veda (earliest literary source)</span>
+    <span class="tl"><b>1000–600 BCE</b> · janapadas aaye</span>
+    <span class="tl"><b>600–300 BCE</b> · 16 mahājanapadas + Buddha-Mahāvīra</span>
+    <span class="tl"><b>321 BCE</b> · Mauryan Empire</span>
+    <span class="tl"><b>272–232 BCE</b> · Aśhoka ka reign</span>
+    <span class="tl"><b>300 BCE–300 CE</b> · Sangam literature</span>
+    <span class="tl"><b>320–550 CE</b> · Guptas</span>
+    <span class="tl"><b>427/480 CE</b> · Nalanda / Vallabhī</span>
+    <span class="tl"><b>543–753 CE</b> · Chālukyas of Badami</span>
+    <span class="tl"><b>753–982 CE</b> · Rāṣhṭrakūṭas</span>
+    <span class="tl"><b>730–1036 CE</b> · Gurjara-Pratihāras</span>
+    <span class="tl"><b>10th c. CE</b> · Uttaramerur inscription</span>
+    <span class="tl"><b>985–1014 CE</b> · Rājarāja I (imperial Chola)</span>
+    <span class="tl"><b>1010 CE</b> · Brihadeeshwara Temple, Thanjavur</span>
+  </div>
+</div>
+
+<div class="sec-h"><span class="sq">📚</span><span class="st">Notes&nbsp;— Har Topic, Poori Samajh</span><span class="sline"></span></div>
+
+<!-- T1 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T1</span><span class="tt">Society vs State&nbsp;— Do Alag Cheezein 🤝🏛️</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions (Hinglish)</div><div class="dd"><b>Society</b>&nbsp;— logon ke beech <b>social relationships</b> ka system&nbsp;— jo log ek <b>common territory, culture</b> aur belonging ki feeling share karte hain; isme families, marriage jaise <b>institutions</b> aur customs shamil hain; ise <b>customs &amp; practices</b> se control kiya jaata hai, formal laws se nahi. &nbsp;|&nbsp; <b>State</b>&nbsp;— <b>rules aur laws</b> pe based organised <b>political system</b>&nbsp;— rulers aur subjects ke <b>rights &amp; duties</b>, governance ke mechanisms, aur law &amp; order enforce karne wale institutions.</div></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Simple funda: <b>Society</b> = logon ka <b>network</b> (rishte, customs, traditions&nbsp;— dil se chalta hai) ❤️; <b>State</b> = <b>power ka system</b> (laws, taxes, army&nbsp;— rules se chalta hai) ⚖️. Jab bhi bahut saare log saath rehte hain, kuch <b>shared norms</b> bante hain taaki order rahe&nbsp;— aur jab society badi aur complex hoti hai, tab <b>state</b> ka concept dheere-dheere develop hota hai. Dono ka safar isi chapter me hai!</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li>Bade groups saath rehte hain → <b>rules &amp; shared norms</b> bante hain → order &amp; harmony → sab groups ko jodkar ek <b>'system'</b> banta hai.</li>
+    <li>Early India me society ne <b>customs, traditions, agreed practices</b> ke basis pe kai organisational systems develop kiye.</li>
+    <li>Political systems (state) <b>gradually</b> bane&nbsp;— jaise-jaise societies <b>badi aur complex</b> hui.</li>
+  </ul>
+</div>
+
+<!-- T2 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T2</span><span class="tt">Vedas&nbsp;— Pehle Literary Sources + 4 Vedas 📖</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Harappan script <b>padhi nahi ja saki</b>, toh humein voice kisne di? <b>Vedas!</b> 🗣️ Ye <b>saalon tak oral</b> (bolkar yaad rakhe gaye) the&nbsp;— phir likhe gaye. Sabse pehla aur sabse important: <b>Ṛig Veda</b>. Iski date aaj bhi <b>debated</b> hai&nbsp;— historians ke andaza <b>5th millennium BCE se 2nd millennium BCE</b> tak! Ise <b>subcontinent ke northwest</b> me compose kiya gaya&nbsp;— <b>Sapta-Sindhu</b> region (Sindhu + 5 tributaries + Sarasvatī). Aur maza ye ki Ṛig Veda aur Sindhu-Sarasvatī civilisation&nbsp;— dono <b>copper</b> jaante the!</div></div>
+  <div class="plabel">✍️ Points&nbsp;— 4 Vedas</div>
+  <ul class="pts">
+    <li><b>Ṛig Veda:</b> earliest veda&nbsp;— <b>1,028 hymns (sūktas)</b>&nbsp;— duniya ki sabse purani surviving poetry me se; deities ki tareef + creation, birth-death jaise universal thoughts.</li>
+    <li><b>Sāma Veda:</b> Ṛig Veda ke hymns, <b>musical recitation</b> ke liye arranged&nbsp;— isi ki chanting tradition se <b>7 svaras (notes)</b> ka system bana&nbsp;— <b>Indian music ki foundation!</b> 🎵</li>
+    <li><b>Yajur Veda:</b> <b>yajñas ki performative details</b>&nbsp;— Ṛig Veda wale hymns kaise use karne hain; <b>prose me explanations</b>.</li>
+    <li><b>Atharva Veda:</b> kaleidoscope of hymns&nbsp;— <b>buri nazar/evil hatane</b> wale + <b>physical-mental bimariyon ke ilaaj</b> wale.</li>
+  </ul>
+  <div class="plabel">✍️ Har Veda ke 4 parts (exam trap!)</div>
+  <ul class="pts">
+    <li><b>Samhitā</b>&nbsp;— hymns (deity invoke karne + yajña me oblation ke liye).</li>
+    <li><b>Brāhmaṇa</b>&nbsp;— <b>prose</b> me rituals ki explanations.</li>
+    <li><b>Āraṇyaka</b> (araṇya = forest)&nbsp;— jungle me rehne wale sages ki philosophy.</li>
+    <li><b>Upaniṣhad</b>&nbsp;— deep questions: <b>Ātman</b> (Self) aur <b>Brāhmaṇ</b> (Ultimate Universal Being).</li>
+  </ul>
+  <div class="exbox"><span class="xt">⚠️ Confuse mat hona:</span> <b>Brāhman</b> = ek concept &nbsp;|&nbsp; <b>Brāhmaṇas</b> = texts &nbsp;|&nbsp; <b>Brāhmaṇas/Brahmins</b> = varṇa category. Teen alag cheezein!</div>
+</div>
+
+<!-- T3 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T3</span><span class="tt">Vedic Polity&nbsp;— Jana, Rājā aur 3 Assemblies 🏕️</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Early Vedic society <b>janas</b> (clans) me rehti thi&nbsp;— matlab <b>kinship</b> (khoon ke rishte) se judi groups. Ṛig Veda me <b>~30 janas</b> ka zikr hai&nbsp;— jinme se 5 famous: <b>pañchajana</b> ('five peoples'). Aur ek fun fact: <b>'Bharata'</b> naam pehli baar Ṛig Veda me hi aaya&nbsp;— <b>Bharata jana</b> ke liye! Rājā kya tha? <b>Clan chief</b>&nbsp;— warfare me lead karta, members ki protection karta. Lekin power ka kya guarantee? <b>Assemblies!</b> Aaj ke parliament jaisa vibe&nbsp;— logon ki awaaz! 🗳️</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li><b>Jana</b>&nbsp;— kinship ties se bound clan/group; Ṛig Veda me ~30 janas; <b>pañchajana</b> = 5 janas (Yadu, Turvaśha, Puru, Anu, Druhyu).</li>
+    <li><b>'Bharata'</b> shabd Ṛig Veda me pehli baar&nbsp;— <b>Bharata jana</b> (Bharatas family se ruled log).</li>
+    <li><b>Rājā</b>&nbsp;— clan chief: warfare me lead + members ki protection.</li>
+    <li><b>3 assemblies</b> (Ṛig Veda + Atharva Veda me mention): <b>sabhā</b>&nbsp;— chhota body, <b>judicial function</b>, select elites; <b>samiti</b>&nbsp;— bada assembly, <b>policy decisions</b> + political affairs, broader population, warfare discussions; <b>vidhata</b>&nbsp;— popular gathering, community (janas) ke members aate the.</li>
+    <li>In assemblies ki wajah se <b>rājā ki power limited</b> thi&nbsp;— aaj ke democratic institutions se comparison hota hai (people's participation).</li>
+  </ul>
+</div>
+
+<!-- T4 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T4</span><span class="tt">Janapada → Mahājanapada → Magadha ka Rise 📈</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Jab jana log ek <b>territory</b> pe set ho gaye&nbsp;— bana <b>janapada</b> (matlab: "jahan jana ne pehla pair rakha" 👣). Ab pehchaan <b>khoon se zameen</b> ho gayi! Phir 600 BCE ke aas-paas bade units aaye&nbsp;— <b>16 mahājanapadas</b>&nbsp;— aur inme se ek ne sabko peeche chhod ke empire bana liya: <b>MAGADHA</b> (Bihar)! Kyun? <b>Strategic location + fertile plains + strong rulers.</b> Isi se nikla <b>Mauryan Empire</b>. Saath me Ganga plains me iron tools → zyada kheti → zyada anna → zyada prosperity&nbsp;— sab connected hai! ⛓️</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li><b>~1000–600 BCE:</b> Vedic society <b>territorial entities</b> me badli&nbsp;— <b>janapada</b> = "where a people (jana) first set its feet"&nbsp;— kinship identity se <b>territorial identity</b>.</li>
+    <li>Ab <b>land, agricultural production, trade routes</b> pe control important hua&nbsp;— complex administrative systems bane.</li>
+    <li><b>~600 BCE–300 CE:</b> <b>16 mahājanapadas</b> (bade political units) rise hue.</li>
+    <li><b>Magadha (present-day Bihar)</b>&nbsp;— most powerful&nbsp;— <b>strategic location + fertile plains + strong rulers</b>&nbsp;— neighbours pe control badhaya → <b>Mauryan Empire</b> ki neev.</li>
+    <li><b>Ganga plains me shift:</b> early Vedic culture NW me (Indus-Sarasvatī)&nbsp;— later Vedic me <b>Ganga plains</b> main centre; iron implements + <b>PGW pottery</b>; middle Gangetic region me <b>NBPW</b> ('deluxe ware'&nbsp;— smooth glossy black surface); <b>paddy + zyada grain variety</b>.</li>
+    <li>Political forms do type ki: <b>monarchical states (rājyas)</b> aur <b>republican states (gaṇas/saṁghas)</b>.</li>
+  </ul>
+</div>
+
+<!-- T5 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T5</span><span class="tt">Tamilakam&nbsp;— Chera, Chola, Pandya 🐯🏹🐟</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Jab north me Magadha chamak raha tha, south me apne superheroes the! 🦸 Mauryas ke baad Deccan me <b>Satavāhanas</b> (~500 saal!). Aur unse bhi south&nbsp;— <b>teen crowned kings</b> = '<b>Vendar of Tamilakam</b>': <b>Cholas</b> (tiger 🐯), <b>Cheras</b> (bow 🏹), <b>Pandyas</b> (fish 🐟). Inke baare me humein <b>Sangam literature</b> (300 BCE–300 CE) se pata chalta hai&nbsp;— earliest Tamil literature! Aur haan&nbsp;— ye <b>early</b> Cholas-Cheras-Pandyas hain; baad wale <b>imperial</b> Cholas se confuse mat karna!</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li>Deccan me Mauryas ke baad <b>Satavāhana Empire</b>&nbsp;— 2nd c. BCE se 3rd c. CE tak (~500 years).</li>
+    <li>South ke polities (Aśhokan inscriptions me bhi mentioned): <b>Cholas</b>&nbsp;— lower <b>Kāverī</b> valley; <b>Pandyas</b>&nbsp;— <b>Tamraparni &amp; Vaigai</b> valleys; <b>Keralaputras (= Cheras, Kerala)</b>; <b>Satiyaputras</b>&nbsp;— north Tamil Nadu.</li>
+    <li><b>Emblems:</b> Chola = <b>tiger</b>, Chera = <b>bow</b>, Pandya = <b>fish</b>.</li>
+    <li><b>Sangam literature (300 BCE–300 CE)</b>&nbsp;— earliest Tamil literary tradition&nbsp;— in early Tamil kingdoms ka main source.</li>
+    <li>Teeno = <b>'Vendar of Tamilakam'</b> (three crowned kings)&nbsp;— fertile <b>rice-growing regions</b> me kingdom.</li>
+    <li>Sangam poems me brave kings&nbsp;— jaise Chera ruler <b>Nedunjeral Adan</b> ne kai crowned kings ko haraakar <b>adhirāja</b> ka rank jeeta; poems me <b>Vedic yajñas</b> + epic traditions ka zikr bhi.</li>
+  </ul>
+</div>
+
+<!-- T6 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T6</span><span class="tt">Raja ke Duties + Poore Subcontinent ka Sapna 🫅</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Raja sirf kursi pe baithne wala nahi tha! 🪑 Texts kehte hain: <b>Kauṭilya's Arthaśhāstra</b>&nbsp;— "Raja khud energetic rahega, tabhi officers energetic rahenge!" <b>Yajur Veda</b> ki coronation oath&nbsp;— "strong aur weak dono ko <b>impartially</b> judge karo, desh ko calamities se bachao, logo ka bhalai karo." <b>Mahābhārata ke Śhānti Parva</b>&nbsp;— ethics, justice, responsibility ki guide. Aur sabse cool baat? Raja sochte the <b>poore subcontinent</b> ke liye&nbsp;— <b>Jambudvīpa, Bhāratavarṣha, chakravarti kśhetra</b> jaise concepts se! 🇮🇳</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li>6th c. BCE se rulers ke titles: <b>rājā, mahārāja, samrāṭ</b>&nbsp;— regional traditions reflect karte hue.</li>
+    <li><b>Raja ki main duties:</b> subjects ko <b>external threats + internal disorder</b> se protect karna; <b>justice</b> dena (abduction, robbery, theft, adultery ke cases).</li>
+    <li><b>Stern punishments:</b> cow killing, treachery, intoxicating liquor&nbsp;— kabhi-kabhi <b>capital punishment</b> tak.</li>
+    <li><b>Kingship generally hereditary thi</b>&nbsp;— LEKIN kuch references me raja <b>elected ya expelled</b> bhi hue&nbsp;— matlab power <b>absolute nahi</b> thi!</li>
+    <li><b>Pan-Indian awareness ke terms:</b> <b>Jambudvīpa</b> (Aśhoka: apne parākrama se Jambudvīpa me spiritual changes), <b>Bhāratavarṣha</b>, <b>Prithivi</b> = Arthaśhāstra ke hisaab se "Himalayas aur samudra ke beech ka ilaka" = <b>chakravarti kśhetra</b> ("universal paramount ruler ka domain"), <b>Aśhvamedha &amp; Rājasūya yajñas</b>.</li>
+    <li>Ye ideal baad tak chala: Chera <b>Nedunjeral Adan</b> ne Himalayas tak conquest ki; 11th c. me Chola <b>Rajendra I</b> ne <b>Gangaikonda</b> title liya (Ganga ke kinare conquests ki yaad me).</li>
+  </ul>
+</div>
+
+<!-- T7 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T7</span><span class="tt">Council of Ministers + Saptāṁga (7 Ang) 🧩</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition (Hinglish)</div><div class="dd"><b>Saptāṁga</b>&nbsp;— Kauṭilya ke hisaab se state ke <b>7 constituents</b> (organs)&nbsp;— jo <b>properly integrated</b> rahein tabhi state effectively kaam karti hai.</div></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">State ko maano ek <b>insaan</b> ki tarah&nbsp;— 7 ang (body parts) chahiye! 🧍 Arthaśhāstra kehti hai: <b>"one wheel does not move the carriage"</b>&nbsp;— ek pahiya gaadi nahi chala sakta! Raja akela nahi chalata&nbsp;— uske saath <b>mantri-pariṣhad</b> (council of ministers) hoti thi&nbsp;— elder statesman jo advice dete the. Aur Aśhoka ke ek inscription me&nbsp;— jab emperor absent tha, council ne <b>khud decisions</b> lie public interest me! 🤝</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li><b>Kauṭilya ke 7 constituents (Saptāṁga):</b> king (<b>swāmi</b>), ministers/councillors (<b>amātya</b>), territory + population (<b>janapada</b>), fortified towns (<b>durga</b>), treasury (<b>kośha</b>), defence &amp; law-order forces (<b>daṇḍa</b>), allies (<b>mitra</b>).</li>
+    <li><b>Mantri-pariṣhad</b>&nbsp;— elder statesmen ki chhoti body&nbsp;— raja ko <b>advise &amp; support</b>; members: <b>treasurer, chief tax collector, chief legal advisor, commander-in-chief</b>.</li>
+    <li><b>Aśhokan inscription:</b> emperor ki absence me council ne <b>independently decisions</b> liye&nbsp;— exceptional circumstances, public interest me.</li>
+    <li><b>Arthaśhāstra</b>&nbsp;— earliest &amp; most systematic treatise on <b>statecraft</b>&nbsp;— administration ki poori picture + raja ko governance ki training ka importance.</li>
+  </ul>
+</div>
+
+<!-- T8 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T8</span><span class="tt">Empires ki Administration&nbsp;— Paisa-Pyramid Scheme 🏛️</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Bade empire ko manage karna&nbsp;— jaise bada school! 🏫 Top pe <b>king</b> (principal), phir <b>provinces</b> (branches), phir <b>districts</b> (classes), aur sabse neeche <b>villages</b> (students)&nbsp;— jo actually sab kuch karte the! Sabse mazedar: <b>gaon</b> khud se chalta tha&nbsp;— revenue, irrigation, roads, records sab&nbsp;— bilkul <b>self-reliant</b>! Aur Pallava/Chola gaon me <b>variyams</b> (committees) thi&nbsp;— aaj ke panchayat jaisa hi system! 🏡</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li>Structure: kingdom → <b>provinces</b> → <b>divisions/districts</b> → groups of villages → <b>villages</b> (smallest unit).</li>
+    <li><b>Satavāhanas:</b> empire me <b>āḥāras</b> (administrative divisions) + unke <b>amātyas</b> (ministers); har gaon ka head&nbsp;— <b>grāmika</b>.</li>
+    <li><b>300–800 CE (decentralisation ka daur):</b> north me&nbsp;— provinces = <b>bhuktis</b>, divisions = <b>viṣhaya/bhoga</b>, districts = <b>adhiṣhṭhāna/paṭṭana</b>, village-groups = <b>vithis</b>; south me&nbsp;— <b>maṇḍalas/maṇḍalams</b>, <b>koṭṭams/valanāḍu</b>, <b>nāḍu</b>, <b>paṭṭalā/kūṛram</b>.</li>
+    <li><b>District officers (pradeśhikas):</b> judicial + administrative kaam&nbsp;— aur decisions se pehle <b>bankers, caravan leaders, artisans, scribes</b> jaise important logon se consult karte the; cities ke apne governors (revenue + law &amp; order).</li>
+    <li><b>Guptas (320–550 CE):</b> purani system retain ki&nbsp;— <b>mantri</b> = civil admin ka head; naya post&nbsp;— <b>sāndhivigrahika</b> (minister of peace and war!); <b>kumārāmātyas</b> = local/provincial administrators. <b>Damodarpur copper plates (Kumaragupta I):</b> district office ke <b>5 members</b>&nbsp;— head district officer, chief banker, chief caravan trader, chief artisan, chief of revenue collection.</li>
+    <li><b>Pallavas (c. 275–897 CE):</b> centralised monarchy + decentralised local governance; <b>Brahmadeya</b> = gaon ko <b>tax-free land grants</b>; village assemblies ke <b>variyams</b>&nbsp;— irrigation, gardens, temple management.</li>
+    <li><b>Chālukyas of Badami (c. 543–753 CE):</b> same pattern; <b>agrahārams</b> = Brahmin settlements ko land grants (<b>Aihole &amp; Badami</b> ke agrahārams learning centres ban gaye).</li>
+    <li><b>Gurjara-Pratihāras (8th–10th c.):</b> capital <b>Kannauj (UP)</b>&nbsp;— itna coveted ki teen powers ladi: <b>tri-partite struggle</b>&nbsp;— Gurjara-Pratihāras vs Pālas vs Rāṣhṭrakūṭas!</li>
+    <li><b>Imperial Cholas (9th–11th c.):</b> <b>maṇḍalams</b> (provinces) → <b>valanāḍus</b> (districts) → <b>nāḍus</b> (village groups) → <b>Urs</b> (villages); village assemblies&nbsp;— revenue, land management, irrigation, roads, record maintenance&nbsp;— <b>self-reliant institutions</b>.</li>
+    <li><b>Uttaramerur inscription (Parantaka I, 10th c.):</b> Vaikunṭha Perumal Temple (Kanchipuram district, TN) me&nbsp;— village governance ki poori details; <b>Kudavolai</b> = 'ballot pot' system&nbsp;— candidates ke naam <b>palm leaves</b> pe likh ke bade pot me&nbsp;— public gathering me ek <b>chhota bachcha</b> leaves nikaalta tha&nbsp;— sabke saamne (aksar temple me)&nbsp;— fairness ke liye! Elected members <b>variyams</b> me bante (tank committee, justice, taxes).</li>
+  </ul>
+</div>
+<!-- T9 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T9</span><span class="tt">Ethics&nbsp;— Samatva, Ṛita aur Dharma ⚖️</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition (Hinglish)</div><div class="dd"><b>Dharma</b>&nbsp;— iska matlab <b>religion nahi</b>! Ye hai <b>duty, obligation, righteousness aur moral conduct</b>&nbsp;— ek aisi zindagi jisme ethical values central hon; Sanskrit root <b>dhri</b> se (jisse dharati = earth bhi). Mahābhārata me Bhishma kehte hain: <b>"jo sab beings ko upar rakhta hai, wahi dharma hai."</b> &nbsp;|&nbsp; <b>Dhamma</b>&nbsp;— dharma ka hi <b>Pali version</b> (Buddhism me).</div></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Early India me law aur life ki jad <b>ethics</b> me thi! Vedas aur epics me&nbsp;— reality, right conduct, universe ki origin ke sawaal. 3 bade concepts: <b>samatva</b> = sab badan ek hi matter ke, har consciousness ek supreme consciousness ka hissa&nbsp;— matlab <b>sab barabar</b>! 🤝 <b>ṛita</b> = cosmic order&nbsp;— nature aur society ka balance (Ṛig Veda me). Aur <b>dharma</b> = apni role ki duty poori karna. Mazedaar example: "<b>lohe ka dharma hai doobna, lakdi ka tairna!</b>"&nbsp;— har cheez ka apna dharma hota hai!</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li><b>Samatva (principle of sameness):</b> sab bodies same matter se bani, sab consciousness ek supreme consciousness ke manifestation; Vedas use <b>satya (real/true)</b> aur <b>ṛita (right)</b> kehte hain&nbsp;— "invisible origin of all things".</li>
+    <li><b>Mahābhārata</b> ke characters <b>saare varṇas</b> se hain&nbsp;— phir bhi samatva uphold karte hain; epics <b>discrimination ko critique</b> karte hain&nbsp;— "jo sab beings ke welfare ke liye kaam kare wahi achha insaan/ruler".</li>
+    <li><b>Ṛita (Ṛig Veda):</b> all-pervading <b>cosmic order</b>&nbsp;— nature + society me harmony &amp; balance; natural forces ko regulate karta hai, moral values uphold karta hai.</li>
+    <li><b>Bhagavad Gītā</b>&nbsp;— knowledge, faith, action, virtue aur ethical life pe zor.</li>
+    <li><b>Aśhoka ke edicts</b> ne <b>dhamma</b> promote kiya&nbsp;— moral conduct, family me respect, non-violence, compassion.</li>
+    <li><b>Uttaramerur inscription:</b> election candidates ke liye shart&nbsp;— "<b>honest earnings</b>" aur mann ka "<b>pure</b>" hona!</li>
+    <li><b>Kāmandaka's Nītisāra</b> aur <b>Bāṇabhaṭṭa's Kādambarī</b> (duniya ki pehli novels me se ek)&nbsp;— kingship &amp; governance pe advice&nbsp;— ethics + politics ka connection.</li>
+  </ul>
+</div>
+
+<!-- T10 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T10</span><span class="tt">Varṇa &amp; Jāti&nbsp;— Dono Alag Hain! (VIMP) ⭐</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions (Hinglish)</div><div class="dd"><b>Varṇa</b>&nbsp;— samaj ke <b>4 fixed categories</b> (brāhmaṇa, kṣhatriya, vaiśhya, śhūdra)&nbsp;— sabse pehla zikr <b>Puruṣhasūkta</b> (Ṛig Veda, Book 10) me; ek <b>functional division</b> (kaam ke hisaab se). &nbsp;|&nbsp; <b>Jāti</b>&nbsp;— birth-based social groups jo <b>varṇas se alag</b> aur <b>unlimited in number</b> hain; intermarriage, migrating communities ke <b>endogamous</b> hona aur territorial differences se bani.</div></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Sabse bada exam trap: <b>varṇa ≠ jāti!</b> 😤 Varṇa = sirf <b>4</b> categories&nbsp;— kaam ke basis pe (knowledge > power > wealth ki value system). Jāti = <b>hazaaron</b> groups&nbsp;— jo dheere-dheere bante gaye. Aur early Vedic time me sab <b>flexible</b> tha! Proof? Ṛig Veda ka ek verse (9.112.3): "<b>Main poet hoon, mere papa physician hain, meri mummy corn pees-ti hain</b>"&nbsp;— ek hi family me 3 alag occupations! 🤯 Buddhist text <b>Sutta Nipāta</b> bhi kehta hai: "<b>janm se koi brāhmaṇa nahi hota&nbsp;— deeds se hota hai.</b>"</div></div>
+  <div class="plabel">✍️ Points&nbsp;— 4 varṇas aur unke roles</div>
+  <ul class="pts">
+    <li><b>Brāhmaṇas:</b> Vedas padhna-sikhana, <b>yajñas perform/officiate</b> karna, dāna (gifts) dena-lena.</li>
+    <li><b>Rajanya (Kṣhatriyas):</b> <b>warfare, logon ki protection, justice</b> administer karna; scriptures ka study, yajñas sponsor karna.</li>
+    <li><b>Vaiśhyas:</b> <b>economic activities</b>&nbsp;— agriculture, pastoralism, trade; rituals + charity me bhi participate.</li>
+    <li><b>Śhūdras:</b> dusre varṇas ko <b>assist</b> karna&nbsp;— but practically khud bhi agriculture, animal husbandry, trade, arts &amp; crafts me lage the.</li>
+    <li>Value system: <b>knowledge ko highest status</b> → phir political power → phir wealth.</li>
+  </ul>
+  <div class="plabel">✍️ Points&nbsp;— flexibility aur jāti ka banna</div>
+  <ul class="pts">
+    <li>Early Vedic texts me <b>birth se fixed status nahi</b>&nbsp;— identity ethnicity, region, village, <b>gotra</b>, language, <b>occupation</b> jaise factors se banti thi; occupations <b>flexible &amp; mobile</b> thi.</li>
+    <li>Proof: <b>Ṛig Veda 9.112.3</b> (poet + physician + corn-grinder ek family me); <b>Sutta Nipāta</b>: "No brāhmaṇa is such by birth... only by his deeds."</li>
+    <li><b>Jāti kaise bani:</b> varṇas ke beech <b>intermarriage</b>, migrate karne wali communities ke <b>endogamous</b> ho jaana (apne group me hi shaadi), aur <b>territorial differences</b>.</li>
+    <li><b>Endogamy</b>&nbsp;— apne hi social group/community/clan me shaadi karna.</li>
+    <li>Varṇa <b>4 pe fixed</b>; jāti ki <b>koi limit nahi</b>&nbsp;— naye groups/occupations ke saath badhti gayi. Time ke saath flexibility <b>kam</b> hoti gayi.</li>
+  </ul>
+</div>
+
+<!-- T11 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T11</span><span class="tt">Social Mobility&nbsp;— Badalte Roles, Uthte Raje 🔄</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Varṇa-jāti hamesha <b>patti ki hui deewar</b> nahi thi&nbsp;— mobility thi! Naye raje <b>alag-alag backgrounds</b> se aaye: <b>Nandas, Mauryas, Śhungas, Satavāhanas, Vākāṭakas, Guptas, Pushyabhūtis!</b> Proof inscriptions se bhi milta hai: <b>Mandsaur Stone Inscription</b> (473 CE) me ek <b>silk weavers ka guild</b>&nbsp;— jo Gujarat se MP shift hua&nbsp;— aur wo sirf weaving nahi, <b>archery aur astrology</b> me bhi expert the! 🏹✨ Skills badal sakti thin&nbsp;— bas.</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li>Varṇa-jāti <b>rigid nahi</b> thi&nbsp;— inke andar aur paar <b>social mobility</b> dikhti hai.</li>
+    <li><b>Rulers from diverse backgrounds:</b> Nandas, Mauryas, Śhungas, Satavāhanas, Vākāṭakas, Guptas, Pushyabhūtis.</li>
+    <li><b>Mandsaur Stone Inscription (473 CE):</b> silk weavers ka guild&nbsp;— <b>Lata (Gujarat) se Dashapura (MP)</b> migration; skills: weaving + archery + astrology.</li>
+    <li><b>Karitalai copper plates</b> (Mahārāja Jayanātha, late 5th c. CE)&nbsp;— <b>brāhmaṇas land managers</b> ke roop me recorded!</li>
+    <li><b>Sangam evidence:</b> <b>Tolkappiyam</b> me 4-fold division&nbsp;— <b>Arasar (kings), Vanigar (traders), Velar (farmers), Antanar (brāhmaṇas)</b>&nbsp;— occupation pe based, <b>fluid</b>; <b>Pattinappalai</b> me merchants, salt-makers, fishermen, artisans, agriculturists, warriors sab <b>actively interact</b> karte hain&nbsp;— matlab society <b>occupation/economy</b> se organise hui, rigid varṇa se nahi.</li>
+  </ul>
+</div>
+
+<!-- T12 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T12</span><span class="tt">Family, Gotra, Āśhrama &amp; Puruṣhārtha 👨‍👩‍👧‍👦</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definitions (Hinglish)</div><div class="dd"><b>Gotra</b>&nbsp;— <b>patrilineal lineage</b>&nbsp;— ek common ancestor (traditionally kisi <b>Vedic sage/ṛiṣhi</b>) tak jaane wali clan-line; marriage ko regulate karne me important role. &nbsp;|&nbsp; <b>Patrilineal</b>&nbsp;— wo system jisme family identity aur inheritance <b>male line</b> se pass hoti hai.</div></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Vedic samaj ka structure ek <b>pyramid</b> tha: <b>kula</b> (family)&nbsp;— sabse chhota unit → kai families milkar <b>grāma</b> (village) → grāmas ka group <b>viśha</b> (head: viśhapati) → aur sabse upar <b>jana</b> (jiska protector rājā). Zindagi bhi 4 stages me baanti gayi thi&nbsp;— <b>āśhramas!</b> 🎓 Pehle student (brahmacharya), phir ghar-basna (gṛihastha), phir jungle me shaanti (vānaprastha), aur last&nbsp;— sab chhodna (saṁnyāsa)! Life ke <b>4 goals</b> bhi the: dharma-artha-kāma-mokṣha.</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li><b>Kula</b> (family) = sabse chhota/basic social unit; later Vedic me&nbsp;— kinship se bound household.</li>
+    <li>Chain: <b>kula → grāma (village) → viśha (head&nbsp;— viśhapati) → jana (rājā = chief protector)</b>.</li>
+    <li><b>4 Āśhramas (life stages):</b> <b>brahmacharya</b> (studentship) → <b>gṛihastha</b> (householder) → <b>vānaprastha</b> (forest life) → <b>saṁnyāsa</b> (renunciation).</li>
+    <li>Har stage apna-apna dharma&nbsp;— social, moral, spiritual fulfilment → society me harmony.</li>
+    <li><b>Ṣhoḍaśha saṁskāras</b>&nbsp;— 16 rites of passage: janm, education ki shuruaat, studies ka completion, engagement, shaadi, bachon ki shaadi, death rites... poori life covered!</li>
+    <li><b>4 Puruṣhārthas (life goals):</b> <b>dharma</b> (righteousness) + <b>artha</b> (material well-being) + <b>kāma</b> (desires ki poori) + <b>mokṣha</b> (liberation).</li>
+    <li><b>Dharma + mokṣha</b> = ethically sabse important; <b>artha</b> accha hai&nbsp;— agar wo <b>dharma ki guidance</b> me ho (society ke welfare ke saath aligned).</li>
+  </ul>
+</div>
+
+<!-- T13 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T13</span><span class="tt">Role of Women&nbsp;— Shiksha se Raj tak 👑👩</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Vedic time me auraton ki position <b>high &amp; respectful</b> thi! Wo <b>scholarly learning</b> me participate karti thin, kabhi-kabhi <b>rituals bhi</b> perform karti thin (mardon ke saath!), <b>chariot races</b> aur <b>sabhā</b> jaise gatherings me jaati thin. 🏇 Ṛig Veda ki kuch hymns <b>women sages</b> se judi hain&nbsp;— Apālā, Viśhvavārā, Ghoṣhā, Lopāmudrā! Manu-smṛiti ka famous line: "<b>Jahan women ka samman hota hai, wahan devta khush hote hain!</b>" 🙏 Baad me position fluctuate hui&nbsp;— phir bhi women har field me contribute karti rahin.</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li><b>Vedic women:</b> scholarly learning, rituals (male counterparts ke saath), <b>chariot races</b>, <b>sabhā</b> gatherings.</li>
+    <li><b>Women sages (Ṛig Veda hymns):</b> <b>Apālā, Viśhvavārā, Ghoṣhā, Lopāmudrā</b>; goddesses&nbsp;— <b>Uṣhā</b> (dawn) aur <b>Aditi</b> (mother of gods) ko bhi revered status mila.</li>
+    <li><b>Manu-smṛiti (3.56):</b> "Where women are honoured, there the gods rejoice; where they are not honoured, all sacred rites prove fruitless."</li>
+    <li>Time ke saath position <b>fluctuate/decline</b> hui&nbsp;— lekin women <b>household, agriculture, crafts, religious practices</b> me contribute karti rahin.</li>
+    <li><b>Gupta-Vākāṭaka literature</b> (4th–6th c. CE)&nbsp;— female characters <b>highly educated</b>, arts me skilled.</li>
+    <li><b>Prabhāvatī Gupta</b>&nbsp;— Chandragupta II ki beti&nbsp;— Vākāṭaka kingdom me <b>regent</b> (kabhi-kabhi queen) rahi&nbsp;— apne naam se <b>land grants issue</b> karti thi!</li>
+    <li>Post-Maurya <b>votive inscriptions</b> me women <b>donors</b> dikhti hain (apni devta ko gift dedicate karne wali).</li>
+    <li><b>Sangam women:</b> planting, weeding, husking, winnowing paddy + cattle rearing, spinning, fishing, salt production, garland selling; famous poetesses&nbsp;— <b>Avvaiyar</b> aur <b>Vennikuyattiyar</b> (woman potter!); women bards &amp; dancers bhi.</li>
+    <li><b>Chola period:</b> royal women jaise <b>Sembiyan Mahādevī</b>&nbsp;— temple building + religious institutions ka support.</li>
+  </ul>
+</div>
+
+<!-- T14 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T14</span><span class="tt">Religion&nbsp;— Vedas se Bhakti Tak 🛕</span><span class="tick">☐ revised</span></div>
+  <div class="define"><div class="dl">📖 Definition (Hinglish)</div><div class="dd"><b>Bhakti</b>&nbsp;— aisa devotional path jo <b>bina Vedas ke elaborate rituals</b> ke&nbsp;— seedha god se connection offer karta hai&nbsp;— aur <b>sabke liye khula</b>&nbsp;— chahe koi bhi class ya gender ho.</div></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Vedic gods ka koi <b>strict boss nahi</b> tha&nbsp;— alag hymns me alag devta supreme! Har devta <b>nature ka element</b> tha&nbsp;— sun, rain, fire, dawn... isliye nature = <b>sacred</b> maani jaati thi (aaj bhi <b>Chhath</b> aur <b>Makar Sankranti</b> me sun worship dikhta hai&nbsp;— continuity!). 🌞 Phir middle of 1st millennium BCE me ek nayi lehar&nbsp;— <b>renunciants</b> (sab kuch chhod dene wale)! Phir aayi <b>Bhakti</b>&nbsp;— pyaar se bhagwan tak seedha connection&nbsp;— no middleman! Tamil region me iski dhamakedaar entry hui&nbsp;— <b>Āḻvārs</b> (12, Viṣhṇu ke) aur <b>Nāyanmārs</b> (63, Śhiva ke)! 🕉️</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li><b>Vedic pantheon:</b> koi rigid hierarchy nahi&nbsp;— different hymns me different deities supreme; worship <b>prayers + yajñas</b> (offerings, aksar <b>sacred fire</b> me) se.</li>
+    <li>Har Vedic deity <b>nature ke element</b> se juda&nbsp;— early societies ki survival ke liye nature pe dependence&nbsp;— nature resource nahi, <b>sacred &amp; powerful</b> thi; isi se respect + responsibility ka worldview.</li>
+    <li><b>Continuity:</b> sun worship aaj bhi&nbsp;— <b>Chhath</b> puja aur <b>Makar Sankranti</b> me!</li>
+    <li><b>Renunciants (mid-1st millennium BCE):</b> material comforts se non-attachment; terms&nbsp;— <b>parivrājaka</b> (wanderer), <b>bhikṣhu</b> (alms se jeene wala), <b>śhramaṇa</b> (one who strives); <b>Gautama Buddha &amp; Mahāvīra</b> is period ke influential thinkers&nbsp;— but renunciation ki idea Vedic tradition me pehle se thi (<b>vānaprastha, saṁnyāsa</b>!).</li>
+    <li>Religious tradition evolve hui&nbsp;— <b>personal deities (Viṣhṇu, Śhiva, Śhakti)</b> ki worship ki taraf.</li>
+    <li><b>Bhakti:</b> direct connection + <b>elaborate rituals ki zaroorat nahi</b> + <b>class/gender sabke liye open</b>; early references <b>Mahābhārata</b> me; organised tradition <b>6th century</b> me <b>Tamil region</b> se prominent hui.</li>
+    <li><b>Āḻvārs (12)</b>&nbsp;— Viṣhṇu ke saint-poets; <b>Nāyanmārs (63)</b>&nbsp;— Śhiva ke saint-poets; dono ne milkar <b>Tamil Bhakti literature</b> ka bada corpus banaya&nbsp;— is period ka sabse bada cultural-religious development.</li>
+  </ul>
+</div>
+
+<!-- T15 -->
+<div class="topic">
+  <div class="topic-h"><span class="tnum">T15</span><span class="tt">Education&nbsp;— Gurukula se Universities Tak 🎓</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Early India me education = <b>poori zindagi ki taiyari</b>, sirf naukri ka rasta nahi! 😌 Values pehle&nbsp;— <b>satya, dhairya, niyamitata, vinamrata</b>, senses ka control... phir subjects&nbsp;— Vedas, grammar, logic, philosophy, maths, science, medicine, astronomy + <b>music, dance, painting, archery!</b> Student <b>guru ke ghar</b> (gurukula) me rehta tha&nbsp;— family ka hi hissa maana jaata tha; yoga, meditation aur guru ki seva bhi daily routine me. Relation itna sacred ki ise <b>guru-śhiṣhya paramparā</b> kehte hain! 🙏</div></div>
+  <div class="plabel">✍️ Points</div>
+  <ul class="pts">
+    <li><b>Inner values:</b> truth, patience, regularity, humility, control of senses, <b>sattvaśhuddhi</b> (purity of self), life-nature-environment ki unity, sab beings ke prati reverence&nbsp;— sab <b>dharma ke alignment</b> me.</li>
+    <li><b>Subjects:</b> Vedas + grammar, logic, philosophy, ethics, mathematics, science, medicine, astronomy; arts&nbsp;— music, dance, painting, physical education, <b>archery</b> jaise martial arts; saath me <b>yoga, meditation, guru ki seva</b>.</li>
+    <li><b>Gurukula:</b> teacher (guru/āchārya) ke ghar ka centre; <b>guru-śhiṣhya paramparā</b> sacred&nbsp;— guru = "andhere se roshni tak" le jaane wala guide; student = family ka member.</li>
+    <li><b>Prominent universities/centres:</b> <b>Takshashilā</b>, <b>Nalanda (427 CE)</b>, <b>Vallabhī (480 CE)</b>, <b>Vikramśhilā (783–820 CE)</b>, Kānchipuram, Nagarjunakoṇḍa... students India + bahar se aate the; kingdoms badle&nbsp;— knowledge traditions <b>persist</b> karti rahin.</li>
+    <li><b>Literary heritage:</b> Sanskrit poetry&nbsp;— <b>Kālidāsa</b> (Raghuvaṁśha, Kumārasambhava); Tamil&nbsp;— <b>Tiruvalluvar's Tirukkural</b>, epics <b>Silappadikāram &amp; Maṇimēkalai</b>; grammar&nbsp;— <b>Pāṇini's Aṣhṭādhyāyī</b>, Piṅgala's Chhandaśhāstra, Patañjali's Mahābhāṣhya; law/ethics&nbsp;— Manu-smṛti aadi; medicine&nbsp;— <b>Charaka-samhitā &amp; Suśhruta-samhitā</b>.</li>
+  </ul>
+</div>
+
+<!-- T16 -->
+<div class="topic flow">
+  <div class="topic-h"><span class="tnum">T16</span><span class="tt">Economy&nbsp;— Kheti, Trade aur Guilds 💰</span><span class="tick">☐ revised</span></div>
+  <div class="hing"><div class="ht">💡 Story Time</div><div class="hb">Economy ka engine = <b>kheti</b>! 🚜 Mauryan state ne poora system banaya&nbsp;— zameen ki classification, <b>1/6 tax</b> (produce ka hissa), aur irrigation pe full focus (Sudarshana Lake ka dam!). Trade ke do highway: <b>Uttarāpatha</b> (north) aur <b>Dakṣhiṇāpatha</b> (south)&nbsp;— aur ports se <b>Rome tak</b> trade! Sabse interesting: <b>GUILDS (śhreṇīs)</b>&nbsp;— same kaam karne walon ka union&nbsp;— jinke paas log <b>paisa deposit</b> karate the aur <b>interest</b> lete the&nbsp;— aaj ke banks jaisa! 🏦 (Nashik cave inscription iska proof hai!)</div></div>
+  <div class="plabel">✍️ Points&nbsp;— agriculture &amp; irrigation</div>
+  <ul class="pts">
+    <li><b>Mauryan state:</b> economic activities ko regulate/supervise karta tha; gaon me&nbsp;— individual holdings + common pastures + outskirts ke groves; forest clearing se agriculture expansion (kuch forests <b>law se protected</b>!).</li>
+    <li><b>Basic land tax = produce ka ~1/6</b>; revenue assessment ke liye land ki categories (cultivated, fallow/wasteland, high &amp; dry, sown fields, groves&nbsp;— Kauṭilya ke description se).</li>
+    <li><b>Crops:</b> kai varieties of rice, pulses, wheat, linseed, mustard, saffron, sugarcane, vegetables, fruits; <b>Milindapañho</b> (Buddhist text, Nāgasena) me kheti ke <b>8 stages</b> (preparing-weeding se harvesting-winnowing tak)!</li>
+    <li>Deccan ke <b>black soil</b> me cotton; <b>Amarakośha</b> (Sanskrit lexicon) me forest/crops/plants/manure ka chapter; Sangam texts&nbsp;— Chera region: <b>jackfruit, pepper, turmeric</b>; <b>ragi + sugarcane</b> ki cultivation.</li>
+    <li><b>Irrigation:</b> reservoirs, canals, dams&nbsp;— <b>Sudarshana Lake ka dam</b> (Puṣhyagupta&nbsp;— Chandragupta Maurya ka governor&nbsp;— ne banaya; Rudradaman I ne repair karaya; Skandagupta ne restore karaya&nbsp;— Junagadh inscription!); Cholas&nbsp;— canals, lakes, tanks; <b>Grand Anicut (Kallanai)</b>&nbsp;— <b>Karikala Chola</b> ne banwaya&nbsp;— <b>aaj bhi use me hai!</b> 🤯</li>
+  </ul>
+  <div class="plabel">✍️ Points&nbsp;— trade, ports &amp; guilds</div>
+  <ul class="pts">
+    <li><b>Arthaśhāstra:</b> trade = major economic activity; <b>Magadha</b> textiles, gems, coral, pearls, metals, minerals ka trader; <b>salt ka production state se strictly regulated</b>; trade routes ki safety + adulteration rokna.</li>
+    <li><b>6th c. BCE se 2 bade land routes:</b> <b>Dakṣhiṇāpatha + Uttarāpatha</b>&nbsp;— baad ki dynasties ne maintain/expand kiya; inland ↔ coastal ports ko jodkar overland + maritime trade integrate kiya.</li>
+    <li><b>Ports:</b> <b>Muziris, Kāveripattinam, Arikamedu, Masulipatnam</b>; early CE me <b>Rome se trade</b> (sea routes + Central Asia via land).</li>
+    <li><b>Guilds (śhreṇīs):</b> traders/artisans/merchants ke collective organisations (same profession)&nbsp;— mahājanapadas ke rise (6th c. BCE) ke baad bade role; isee period me <b>silver punch-marked coins</b> bhi aayi!</li>
+    <li><b>Jātaka literature: 18 types ke guilds</b>&nbsp;— well-established &amp; influential institutions; quality regulate karte the, prices fix karte the, <b>guild courts</b> se discipline; <b>banks + financiers + trustees</b> ka kaam bhi!</li>
+    <li><b>Nashik cave inscription (2nd c. CE):</b> Śhaka king <b>Nahapāna</b> ke damad <b>Uṣhavadāta</b> ka&nbsp;— donations guilds me deposit&nbsp;— fixed interest&nbsp;— Buddhist monasteries/caves ke maintenance ke liye&nbsp;— guilds = banking institutions!</li>
+    <li><b>Sanchi Great Stupa</b> ke southern gateway pe&nbsp;— <b>Vidiśhā ke ivory workers ka guild</b>&nbsp;— sculptures carve kiye&nbsp;— craft guilds ka religious patronage.</li>
+    <li><b>Textiles:</b> silk, cotton, wool, linen; centres&nbsp;— <b>Mathura, Kāśhī, Kāmarūpa</b>; silk weavers ke guilds ka evidence.</li>
+  </ul>
+</div>
+<!-- ============ DIFFERENCE ZONE CH5 ============ -->
+<div class="sec-h"><span class="sq">⚔️</span><span class="st">Difference Zone&nbsp;— 3 vs 3 (sabse zyada yahin se aayenge!)</span><span class="sline"></span></div>
+
+<div class="vs">
+  <div class="vs-h"><span class="vnum">D1</span><span class="vt">Varṇa vs Jāti&nbsp;— ⭐ VIMP (exam favourite!)</span></div>
+  <div class="vs-cols">
+    <div class="vs-col va">
+      <div class="vc-t">🟠 Varṇa</div>
+      <ul class="vpts">
+        <li><b>Number:</b> sirf <b>4</b> categories&nbsp;— brāhmaṇa, kṣhatriya, vaiśhya, śhūdra (fixed!).</li>
+        <li><b>Basis:</b> <b>functional division</b> (duties/kaam)&nbsp;— knowledge &gt; power &gt; wealth value system.</li>
+        <li><b>Source:</b> earliest mention <b>Puruṣhasūkta</b> (Ṛig Veda, Book 10); early Vedic me flexible.</li>
+      </ul>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="vs-col vb">
+      <div class="vc-t">🔴 Jāti</div>
+      <ul class="vpts">
+        <li><b>Number:</b> <b>unlimited</b>&nbsp;— naye groups/occupations ke saath badhti gayi.</li>
+        <li><b>Basis:</b> <b>birth-based</b> endogamous groups (apne group me hi shaadi).</li>
+        <li><b>Formation:</b> varṇas me <b>intermarriage</b> + migrating communities ke endogamous hona + <b>territorial differences</b> se.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="vs">
+  <div class="vs-h"><span class="vnum">D2</span><span class="vt">Society vs State 🤝 vs 🏛️</span></div>
+  <div class="vs-cols">
+    <div class="vs-col va">
+      <div class="vc-t">🤝 Society</div>
+      <ul class="vpts">
+        <li><b>Base:</b> logon ke beech <b>social relationships</b> ka system.</li>
+        <li><b>Regulation:</b> <b>customs &amp; practices</b> se chalta hai&nbsp;— formal laws se nahi.</li>
+        <li><b>Structure:</b> families/households + marriage jaise institutions + customs.</li>
+      </ul>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="vs-col vb">
+      <div class="vc-t">🏛️ State</div>
+      <ul class="vpts">
+        <li><b>Base:</b> <b>rules &amp; laws</b> pe based organised political system.</li>
+        <li><b>Regulation:</b> rulers &amp; subjects ke <b>rights &amp; duties</b> defined hote hain.</li>
+        <li><b>Structure:</b> governance mechanisms + law &amp; order enforce karne wale institutions.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="vs">
+  <div class="vs-h"><span class="vnum">D3</span><span class="vt">Sabhā vs Samiti&nbsp;— Vedic Assemblies 🗣️</span></div>
+  <div class="vs-cols">
+    <div class="vs-col va">
+      <div class="vc-t">⚖️ Sabhā</div>
+      <ul class="vpts">
+        <li><b>Size:</b> <b>chhota</b> body&nbsp;— select elites ka.</li>
+        <li><b>Function:</b> mainly <b>judicial</b> (nyay).</li>
+        <li><b>Nature:</b> elite, restricted gathering.</li>
+      </ul>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="vs-col vb">
+      <div class="vc-t">🗳️ Samiti</div>
+      <ul class="vpts">
+        <li><b>Size:</b> <b>bada</b> assembly&nbsp;— broader population represent karti thi.</li>
+        <li><b>Function:</b> <b>policy decisions</b> + political affairs (warfare discussions).</li>
+        <li><b>Nature:</b> popular&nbsp;— janas ke members participate karte the.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="vs">
+  <div class="vs-h"><span class="vnum">D4</span><span class="vt">Jana vs Janapada&nbsp;— Khoon vs Zameen 👣</span></div>
+  <div class="vs-cols">
+    <div class="vs-col va">
+      <div class="vc-t">🏕️ Jana (clan)</div>
+      <ul class="vpts">
+        <li><b>Identity:</b> <b>kinship ties</b> (khoon ke rishte) se judi group.</li>
+        <li><b>Base:</b> log <b>logon</b> se jud e the&nbsp;— territory se nahi.</li>
+        <li><b>Period:</b> early Vedic society ka form; Ṛig Veda me ~30 janas.</li>
+      </ul>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="vs-col vb">
+      <div class="vc-t">🗺️ Janapada</div>
+      <ul class="vpts">
+        <li><b>Identity:</b> <b>territory</b>&nbsp;— "jahan jana ne pehla pair rakha".</li>
+        <li><b>Base:</b> <b>land, agriculture, trade routes</b> pe control important hua.</li>
+        <li><b>Period:</b> ~1000–600 BCE&nbsp;— complex administrative systems ka aagaz.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="vs">
+  <div class="vs-h"><span class="vnum">D5</span><span class="vt">Monarchy vs Republic&nbsp;— Rājya vs Gaṇa/Saṁgha 👑 vs 🤲</span></div>
+  <div class="vs-cols">
+    <div class="vs-col va">
+      <div class="vc-t">👑 Monarchical State (Rājya)</div>
+      <ul class="vpts">
+        <li><b>Power:</b> ek <b>raja</b> ke haath me&nbsp;— hereditary (aksar).</li>
+        <li><b>Examples:</b> Magadha, Mauryas, Guptas&nbsp;— ye lineage se aaye.</li>
+        <li><b>Structure:</b> raja + ministers + officers ki hierarchy.</li>
+      </ul>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="vs-col vb">
+      <div class="vc-t">🤲 Republican State (Gaṇa/Saṁgha)</div>
+      <ul class="vpts">
+        <li><b>Power:</b> <b>collective</b> decision-making&nbsp;— ek akele raja nahi.</li>
+        <li><b>Period:</b> 6th c. BCE ke northern India ke political landscape ka hissa.</li>
+        <li><b>Significance:</b> dikhata hai ki early India me <b>alag-alag governance forms</b> co-exist karti thin.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="vs">
+  <div class="vs-h"><span class="vnum">D6</span><span class="vt">Dharma vs Dhamma 🕉️</span></div>
+  <div class="vs-cols">
+    <div class="vs-col va">
+      <div class="vc-t">🕉️ Dharma</div>
+      <ul class="vpts">
+        <li><b>Language:</b> <b>Sanskrit</b> shabd (root&nbsp;— <b>dhri</b>).</li>
+        <li><b>Meaning:</b> duty, obligation, righteousness, moral conduct&nbsp;— <b>religion nahi!</b></li>
+        <li><b>Use:</b> Hindu/Vedic tradition ke texts me&nbsp;— Bhishma: "jo sab ko upar rakhe wahi dharma".</li>
+      </ul>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="vs-col vb">
+      <div class="vc-t">☸️ Dhamma</div>
+      <ul class="vpts">
+        <li><b>Language:</b> dharma ka <b>Pali</b> version (Buddhism me).</li>
+        <li><b>Meaning:</b> similar ethical principles hi&nbsp;— moral way of life.</li>
+        <li><b>Use:</b> <b>Aśhoka ke edicts</b> me&nbsp;— moral conduct, respect, non-violence, compassion.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="vs">
+  <div class="vs-h"><span class="vnum">D7</span><span class="vt">Dakṣhiṇāpatha vs Uttarāpatha&nbsp;— Trade ke 2 Highway 🛣️</span></div>
+  <div class="vs-cols">
+    <div class="vs-col va">
+      <div class="vc-t">⬇️ Dakṣhiṇāpatha</div>
+      <ul class="vpts">
+        <li><b>Direction:</b> <b>south</b> ki taraf wala route.</li>
+        <li><b>Connect:</b> north ko <b>peninsular/deccan India</b> se.</li>
+        <li><b>Role:</b> south ke ports + resources tak access.</li>
+      </ul>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="vs-col vb">
+      <div class="vc-t">⬆️ Uttarāpatha</div>
+      <ul class="vpts">
+        <li><b>Direction:</b> <b>north</b> ki taraf wala route.</li>
+        <li><b>Connect:</b> Gangetic plains ko <b>northwest + Central Asia</b> se.</li>
+        <li><b>Role:</b> overland trade&nbsp;— Rome tak connections isi se.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="vs">
+  <div class="vs-h"><span class="vnum">D8</span><span class="vt">Āḻvārs vs Nāyanmārs&nbsp;— Bhakti ke Do Team 🎵</span></div>
+  <div class="vs-cols">
+    <div class="vs-col va">
+      <div class="vc-t">💙 Āḻvārs</div>
+      <ul class="vpts">
+        <li><b>Number:</b> <b>12</b> saint-poets.</li>
+        <li><b>Devotion:</b> <b>Lord Viṣhṇu</b> ki praise me hymns.</li>
+        <li><b>Region:</b> Tamil region&nbsp;— 6th century se prominence.</li>
+      </ul>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="vs-col vb">
+      <div class="vc-t">🕉️ Nāyanmārs</div>
+      <ul class="vpts">
+        <li><b>Number:</b> <b>63</b> saint-poets.</li>
+        <li><b>Devotion:</b> <b>Lord Śhiva</b> ki praise me hymns (Śhaiva saints).</li>
+        <li><b>Region:</b> Tamil region&nbsp;— Āḻvārs ke alongside.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="vs">
+  <div class="vs-h"><span class="vnum">D9</span><span class="vt">Brahmadeya vs Agrahāram&nbsp;— Land Grants 🏅</span></div>
+  <div class="vs-cols">
+    <div class="vs-col va">
+      <div class="vc-t">🟣 Brahmadeya</div>
+      <ul class="vpts">
+        <li><b> Dynasty:</b> <b>Pallavas</b> (c. 275–897 CE) ka system.</li>
+        <li><b>Kya:</b> gaon ko diye gaye <b>tax-free land grants</b>.</li>
+        <li><b>Result:</b> village assemblies + variyams ka autonomous functioning.</li>
+      </ul>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="vs-col vb">
+      <div class="vc-t">🟢 Agrahāram</div>
+      <ul class="vpts">
+        <li><b> Dynasty:</b> <b>Chālukyas of Badami</b> (c. 543–753 CE) ka system.</li>
+        <li><b>Kya:</b> <b>Brahmin settlements</b> ko diye gaye land grants.</li>
+        <li><b>Result:</b> kuch (jaise <b>Aihole &amp; Badami</b>) <b>learning centres</b> ban gaye.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ============ DEFBANK CH5 ============ -->
+<div class="sec-h"><span class="sq">📖</span><span class="st">Definition Bank&nbsp;— Chapter 5</span><span class="sline"></span></div>
+
+<div class="defbank">
+  <div class="dbt">📖 Part 1&nbsp;— Polity &amp; Administration</div>
+  <div class="db-grid">
+    <div class="d"><b>Society</b>&nbsp;— social relationships ka system; customs &amp; practices se regulated.</div>
+    <div class="d"><b>State</b>&nbsp;— rules &amp; laws pe based organised political system.</div>
+    <div class="d"><b>Jana</b>&nbsp;— kinship ties se bound clan (Ṛig Veda me ~30).</div>
+    <div class="d"><b>Janapada</b>&nbsp;— "jahan jana ne pehla pair rakha"&nbsp;— territory-based identity.</div>
+    <div class="d"><b>Mahājanapada</b>&nbsp;— janapada se bada political unit (16 the; Magadha sabse powerful).</div>
+    <div class="d"><b>Gaṇa/Saṁgha</b>&nbsp;— republican state (collective governance).</div>
+    <div class="d"><b>Sabhā</b>&nbsp;— chhota, judicial, select elites wala Vedic assembly.</div>
+    <div class="d"><b>Samiti</b>&nbsp;— bada, policy-decisions wala assembly (broader population).</div>
+    <div class="d"><b>Vidhata</b>&nbsp;— popular gathering (community ke members).</div>
+    <div class="d"><b>Saptāṁga</b>&nbsp;— state ke 7 constituents (swāmi, amātya, janapada, durga, kośha, daṇḍa, mitra).</div>
+    <div class="d"><b>Mantri-pariṣhad</b>&nbsp;— elder statesmen ki council jo raja ko advise karti thi.</div>
+    <div class="d"><b>Āḥāra</b>&nbsp;— Satavāhana empire ka administrative division.</div>
+    <div class="d"><b>Bhukti</b>&nbsp;— north me province; <b>Viṣhaya</b>&nbsp;— division/district.</div>
+    <div class="d"><b>Maṇḍalam</b>&nbsp;— south me province; <b>Valanāḍu</b>&nbsp;— district; <b>Nāḍu</b>&nbsp;— village group.</div>
+    <div class="d"><b>Chakravarti kśhetra</b>&nbsp;— "universal paramount ruler ka domain" = Himalayas se samudar tak.</div>
+    <div class="d"><b>Kudavolai</b>&nbsp;— Chola village elections ka 'ballot pot' system.</div>
+  </div>
+</div>
+
+<div class="defbank">
+  <div class="dbt">📖 Part 2&nbsp;— Samaj, Dharm &amp; Arth</div>
+  <div class="db-grid">
+    <div class="d"><b>Varṇa</b>&nbsp;— 4 fixed social categories (Puruṣhasūkta me pehla zikr).</div>
+    <div class="d"><b>Jāti</b>&nbsp;— endogamous birth groups; unlimited number; varṇa se alag.</div>
+    <div class="d"><b>Endogamy</b>&nbsp;— apne hi social group me shaadi karna.</div>
+    <div class="d"><b>Gotra</b>&nbsp;— common ancestor (Vedic sage) tak jaane wali patrilineal lineage.</div>
+    <div class="d"><b>Patrilineal</b>&nbsp;— identity/inheritance male line se pass hoti hai.</div>
+    <div class="d"><b>Āśhrama</b>&nbsp;— life ke 4 stages: brahmacharya, gṛihastha, vānaprastha, saṁnyāsa.</div>
+    <div class="d"><b>Puruṣhārtha</b>&nbsp;— life ke 4 goals: dharma, artha, kāma, mokṣha.</div>
+    <div class="d"><b>Ṣhoḍaśha saṁskāras</b>&nbsp;— life ke 16 rites of passage.</div>
+    <div class="d"><b>Dharma</b>&nbsp;— duty, righteousness, moral conduct (religion nahi).</div>
+    <div class="d"><b>Ṛita</b>&nbsp;— Ṛig Veda ka cosmic order&nbsp;— nature-society ka balance.</div>
+    <div class="d"><b>Samatva</b>&nbsp;— sameness ka principle&nbsp;— sab ek supreme consciousness ke manifestation.</div>
+    <div class="d"><b>Bhakti</b>&nbsp;— rituals ke bina direct devotion&nbsp;— sab class/gender ke liye open.</div>
+    <div class="d"><b>Gurukula</b>&nbsp;— guru ke ghar based education; guru-śhiṣhya paramparā sacred.</div>
+    <div class="d"><b>Śhreṇī (Guild)</b>&nbsp;— same profession walon ka collective organisation&nbsp;; banking bhi karte the.</div>
+    <div class="d"><b>Votive inscription</b>&nbsp;— devta/sacred place ko gift dedicate karne wala record.</div>
+    <div class="d"><b>Brahmadeya / Agrahāram</b>&nbsp;— Pallava gaon ko / Chālukya Brahmin settlements ko diye land grants.</div>
+  </div>
+</div>
+
+<!-- ============ MCQ CH5 ============ -->
+<div class="sec-h"><span class="sq">✅</span><span class="st">MCQ Challenge&nbsp;— 10 Questions</span><span class="sline"></span></div>
+<div class="mcq-score"><span class="ms">🎯 Solve karne ke baad score bharo →</span><div class="blank"></div><span class="ms">/ 10</span></div>
+
+<div class="mcq"><div class="mq"><span class="qn">Q1.</span> India ka <b>earliest literary source</b> kaunsa hai?</div>
+  <div class="opts"><div class="op" data-l="a">Mahābhārata</div><div class="op" data-l="b">Ṛig Veda</div><div class="op" data-l="c">Sangam literature</div><div class="op" data-l="d">Manu-smṛiti</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q2.</span> Kis Veda ki chanting tradition <b>7 svaras</b> (Indian music ki foundation) ka base hai?</div>
+  <div class="opts"><div class="op" data-l="a">Ṛig Veda</div><div class="op" data-l="b">Yajur Veda</div><div class="op" data-l="c">Sāma Veda</div><div class="op" data-l="d">Atharva Veda</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q3.</span> 'Pañchajana' me kitne janas the?</div>
+  <div class="opts"><div class="op" data-l="a">16</div><div class="op" data-l="b">30</div><div class="op" data-l="c">4</div><div class="op" data-l="d">5</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q4.</span> 'Janapada' ka literal meaning kya hai?</div>
+  <div class="opts"><div class="op" data-l="a">bada kingdom</div><div class="op" data-l="b">jahan jana ne pehla pair rakha</div><div class="op" data-l="c">raja ki zameen</div><div class="op" data-l="d">trade route</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q5.</span> 16 mahājanapadas me sabse powerful kaunsa nikla?</div>
+  <div class="opts"><div class="op" data-l="a">Kosala</div><div class="op" data-l="b">Avanti</div><div class="op" data-l="c">Magadha</div><div class="op" data-l="d">Vatsa</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q6.</span> Sangam literature ka period kya hai?</div>
+  <div class="opts"><div class="op" data-l="a">600–300 BCE</div><div class="op" data-l="b">300 BCE–300 CE</div><div class="op" data-l="c">300–800 CE</div><div class="op" data-l="d">1000–1300 CE</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q7.</span> <b>Cheras</b> ka royal emblem kya tha?</div>
+  <div class="opts"><div class="op" data-l="a">tiger</div><div class="op" data-l="b">fish</div><div class="op" data-l="c">bow</div><div class="op" data-l="d">lotus</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q8.</span> State ke <b>7 constituents (Saptāṁga)</b> kis treatise ne describe kiye?</div>
+  <div class="opts"><div class="op" data-l="a">Manu-smṛiti</div><div class="op" data-l="b">Kauṭilya's Arthaśhāstra</div><div class="op" data-l="c">Mahābhārata</div><div class="op" data-l="d">Nītisāra</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q9.</span> <b>Kudavolai (ballot pot)</b> system ki jaankari kis inscription se milti hai?</div>
+  <div class="opts"><div class="op" data-l="a">Junagadh</div><div class="op" data-l="b">Nashik cave</div><div class="op" data-l="c">Mandsaur</div><div class="op" data-l="d">Uttaramerur</div></div></div>
+<div class="mcq"><div class="mq"><span class="qn">Q10.</span> <b>Āḻvārs</b> ke saint-poets kis deity ki praise me hymns likhte the?</div>
+  <div class="opts"><div class="op" data-l="a">Śhiva</div><div class="op" data-l="b">Viṣhṇu</div><div class="op" data-l="c">Śhakti</div><div class="op" data-l="d">Surya</div></div></div>
+
+<div class="anskey">
+  <div class="akt">🔑 Answer Key&nbsp;— Chapter 5</div>
+  <div class="ans-strip"><span>1 → b</span><span>2 → c</span><span>3 → d</span><span>4 → b</span><span>5 → c</span><span>6 → b</span><span>7 → c</span><span>8 → b</span><span>9 → d</span><span>10 → b</span></div>
+  <div class="xpls">
+    <div class="x"><b>1:</b> Ṛig Veda&nbsp;— earliest corpus (2nd millennium BCE se literary sources start).</div>
+    <div class="x"><b>2:</b> Sāma Veda = musical recitation → 7 svaras → Indian music ki jad.</div>
+    <div class="x"><b>3:</b> Pañchajana = 'five peoples'&nbsp;— Yadu, Turvaśha, Puru, Anu, Druhyu.</div>
+    <div class="x"><b>4:</b> Janapada = "where a people first set its feet"&nbsp;— kinship se territorial identity.</div>
+    <div class="x"><b>5:</b> Magadha (Bihar)&nbsp;— strategic location + fertile plains + strong rulers → Mauryan Empire.</div>
+    <div class="x"><b>6:</b> Sangam literature = 300 BCE–300 CE&nbsp;— earliest Tamil tradition.</div>
+    <div class="x"><b>7:</b> Chera = bow 🏹 (Chola = tiger, Pandya = fish).</div>
+    <div class="x"><b>8:</b> Saptāṁga (7 organs of state) Kauṭilya ke Arthaśhāstra me.</div>
+    <div class="x"><b>9:</b> Uttaramerur inscription (Parantaka I, 10th c.)&nbsp;— Chola village elections ki details.</div>
+    <div class="x"><b>10:</b> Āḻvārs (12) = Viṣhṇu; Nāyanmārs (63) = Śhiva.</div>
+  </div>
+</div>
+
+<!-- ============ QA CH5 ============ -->
+<div class="sec-h"><span class="sq">📝</span><span class="st">Big Questions&nbsp;— Exam-Ready Answers (points me)</span><span class="sline"></span></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q1.</span> Vedic period se bade empires (Mauryas/Guptas) tak <b>political organisation</b> kaise badla?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Stage 1&nbsp;— Early Vedic:</b> kinship-based <b>janas</b> (clans)&nbsp;— rājā = clan chief; assemblies (<b>sabhā, samiti, vidhata</b>) power ko limit karti thin.</li>
+    <li><b>Stage 2&nbsp;— ~1000–600 BCE:</b> <b>janapadas</b>&nbsp;— territorial identity; land, agriculture, trade routes pe control ka importance badha.</li>
+    <li><b>Stage 3&nbsp;— 600–300 BCE:</b> <b>16 mahājanapadas</b>&nbsp;— bade political units; <b>Magadha</b> most powerful; do forms&nbsp;— <b>rājyas (monarchy)</b> aur <b>gaṇas/saṁghas (republics)</b>.</li>
+    <li><b>Stage 4&nbsp;— Empires:</b> <b>Mauryas, Guptas (north)</b> aur <b>Cholas (south)</b>&nbsp;— provinces → districts → villages wala multi-layered administration.</li>
+    <li><b>Continuity:</b> pan-Indian ideals (<b>chakravarti, Bhāratavarṣha, Aśhvamedha/Rājasūya</b>) aur dharma ka ethical principle kabhi nahi toota.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q2.</span> Raja ki role, important officers, aur bade territories govern karne ke methods describe karo.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Raja:</b> protection (external threats + internal disorder) + justice; titles&nbsp;— rājā/mahārāja/samrāṭ; hereditary (aksar) lekin elected/expelled bhi&nbsp;— power absolute nahi.</li>
+    <li><b>Mantri-pariṣhad:</b> elder statesmen ki council&nbsp;— treasurer, chief tax collector, chief legal advisor, commander-in-chief; Aśhoka ki absence me decisions bhi li.</li>
+    <li><b>Multi-layered system:</b> provinces (<b>bhuktis</b>/maṇḍalams) → divisions (<b>viṣhayas</b>/koṭṭams) → districts → village-groups → <b>villages</b> (smallest unit).</li>
+    <li><b>District level (Gupta&nbsp;— Damodarpur plates):</b> 5 members&nbsp;— head district officer, chief banker, chief caravan trader, chief artisan, chief of revenue collection&nbsp;— officers bankers/caravan leaders se consult karte the.</li>
+    <li><b>Officer examples:</b> Satavāhana <b>amātyas</b> (āḥāras me), <b>grāmika</b> (gaon head), <b>pradeśhika</b> (district governor&nbsp;— judicial + administrative), Gupta <b>sāndhivigrahika</b> (minister of peace &amp; war) + <b>kumārāmātyas</b>.</li>
+    <li><b>Village level:</b> assemblies khud revenue, irrigation, roads, records sambhalti thin&nbsp;— self-reliant (Uttaramerur ka example).</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q3.</span> <b>Sabhā aur samiti</b> ne rājā ki power kaise limit ki? Aaj ke kaunse institutions similar function karte hain?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Sabhā:</b> chhota body&nbsp;— select elites&nbsp;— mainly <b>judicial function</b>.</li>
+    <li><b>Samiti:</b> bada assembly&nbsp;— <b>policy decisions + political affairs</b> (warfare discussions)&nbsp;— broader population represent karti thi.</li>
+    <li>Rājā clan chief tha&nbsp;— warfare me lead + protection&nbsp;— lekin assemblies me log <b>rajniti pe discuss</b> karte the&nbsp;— matlab decision-making me <b>logon ki participation</b> thi.</li>
+    <li>References milte hain ki raja <b>elected ya expelled</b> ho sakte the&nbsp;— royal authority hamesha absolute nahi thi.</li>
+    <li><b>Aaj ke similar institutions:</b> <b>Parliament</b> aur <b>courts</b>&nbsp;— jo elected leaders ki power ko check karte hain; modern democracies me constitution + representative bodies wahi kaam karti hain jo assemblies karti thin&nbsp;— governance me people's participation ka idea.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q4.</span> Early Indian texts ke hisaab se <b>raja ke ideals aur duties</b> kya thi?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Arthaśhāstra (Kauṭilya):</b> "Only if a king is himself energetically active, do his officers follow him energetically"&nbsp;— raja mehnti aur active rakhe; "one wheel does not move the carriage"&nbsp;— cooperation zaroori.</li>
+    <li><b>Yajur Veda (coronation oath):</b> strong aur weak dono ko <b>impartially &amp; fairly</b> judge karna + desh ko calamities se bachana + logo ka bhalai karna.</li>
+    <li><b>Śhānti Parva (Mahābhārata):</b> ethical conduct, justice, aur subjects ke prati responsibilities ki guidance.</li>
+    <li><b>Practical duties:</b> external threats + internal disorder se protection; justice (abduction, robbery, theft, adultery); serious offences (cow-killing, treachery, liquor) pe stern punishments.</li>
+    <li><b>Ethical ideal:</b> raja "sab beings ke welfare ke liye kaam karne wala" hona chahiye (samatva ka principle).</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q5.</span> <b>Varṇa aur jāti</b> me kya difference hai? Kaunse factors se various jātis bani? ⭐</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Varṇa:</b> samaj ke <b>4 fixed categories</b> (brāhmaṇa, kṣhatriya, vaiśhya, śhūdra)&nbsp;— sabse pehla zikr <b>Puruṣhasūkta</b> (Ṛig Veda, Book 10) me&nbsp;— ek <b>functional division</b>: knowledge highest, phir political power, phir wealth.</li>
+    <li><b>Roles:</b> brāhmaṇa&nbsp;— study/teach + yajña + dāna; kṣhatriya&nbsp;— warfare, protection, justice; vaiśhya&nbsp;— agriculture, pastoralism, trade; śhūdra&nbsp;— dusron ko assist (practically kheti-trade-crafts bhi).</li>
+    <li><b>Jāti:</b> <b>alag structure</b>&nbsp;— <b>unlimited number</b> me birth-based groups; naye groups/occupations ke saath badhti rahi.</li>
+    <li><b>Formation factors:</b> (1) varṇas ke beech <b>intermarriage</b>; (2) migrate karne wali communities <b>endogamous</b> ho gayi (apne group me hi shaadi&nbsp;— <b>endogamy</b>); (3) <b>territorial differences</b>.</li>
+    <li><b>Early flexibility:</b> Ṛig Veda 9.112.3&nbsp;— "main poet, papa physician, mummy corn-grinder"&nbsp;— ek family me alag occupations; <b>Sutta Nipāta</b>: "koi janm se brāhmaṇa nahi&nbsp;— deeds se hai".</li>
+    <li>Time ke saath ye <b>flexibility kam</b> hui&nbsp;— society dheere-dheere rigid hui.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q6.</span> Early Indian society ke baare me <b>women ki role</b> se hum kya seekhte hain?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Vedic period:</b> women ki position <b>high &amp; respectful</b>&nbsp;— scholarly learning + rituals me participation (mardon ke saath), <b>chariot races</b>, <b>sabhā</b> jaise gatherings.</li>
+    <li><b>Women sages:</b> Ṛig Veda ki kuch hymns <b>Apālā, Viśhvavārā, Ghoṣhā, Lopāmudrā</b> se&nbsp;— intellectual-religious life me active; goddesses <b>Uṣhā</b> (dawn) &amp; <b>Aditi</b> revered.</li>
+    <li><b>Manu-smṛiti:</b> "Jahan women honoured hain, wahan devta khush hote hain; jahan nahi, wahan sab rites bekaar."</li>
+    <li>Baad me position <b>fluctuate/decline</b> hui&nbsp;— phir bhi women household, agriculture, crafts, religion me contribute karti rahin.</li>
+    <li><b>Political power:</b> <b>Prabhāvatī Gupta</b>&nbsp;— Vākāṭaka kingdom ki <b>regent</b>&nbsp;— apne naam se land grants; women donors votive inscriptions pe.</li>
+    <li><b>Sangam period:</b> kheti ke kaam (planting, weeding, winnowing) + cattle rearing, spinning, fishing, salt, garlands; poetesses <b>Avvaiyar, Vennikuyattiyar</b>; Chola <b>Sembiyan Mahādevī</b>&nbsp;— temple building ka patronage.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q7.</span> <b>Chola empire</b> me gaon ki administration kaise hoti thi? (Uttaramerur)</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Structure:</b> Chola empire = <b>maṇḍalams</b> (provinces) → <b>valanāḍus</b> (districts) → <b>nāḍus</b> (village groups) → <b>Urs</b> (villages)&nbsp;— village = smallest unit.</li>
+    <li><b>Village assemblies:</b> local disputes settle karna + local affairs&nbsp;— <b>revenue collection, land management, irrigation, road construction, record maintenance</b>&nbsp;— sab unke zimme.</li>
+    <li>Assemblies <b>independent &amp; self-reliant</b> thin&nbsp;— government ke patronage pe dependent nahi.</li>
+    <li><b>Uttaramerur inscription (Parantaka I, 10th c.):</b> Vaikunṭha Perumal Temple (Kanchipuram district, TN) me&nbsp;— village governance ki vivid description.</li>
+    <li><b>Kudavolai system:</b> candidates ke naam <b>palm leaves</b> pe likh ke pot me&nbsp;— public gathering me <b>chhota bachcha</b> leaves nikaalta&nbsp;— sabke saamne (fairness)&nbsp;— representatives select hone ke liye.</li>
+    <li>Elected members <b>variyams</b> (specialised committees) me bante&nbsp;— <b>tank committee</b> (irrigation), justice, tax collection&nbsp;— har committee ka apna kaam.</li>
+    <li>Ethics bhi likhi thi: candidates ke paas <b>"honest earnings"</b> honi chahiye + mann <b>"pure"</b> ho.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q8.</span> Early India ke <b>education system</b> ko describe karo (gurukula se universities tak).</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Maksad:</b> education = <b>holistic</b>&nbsp;— poori zindagi ki taiyari, career ka rasta nahi; <b>dharma</b> ke alignment me&nbsp;— parents, teachers, gods ke prati duties.</li>
+    <li><b>Inner values:</b> truth, patience, regularity, humility, senses ka control, <b>sattvaśhuddhi</b> (self-purity), life-nature ki unity, sab beings ka reverence.</li>
+    <li><b>Subjects:</b> Vedas, grammar, logic, philosophy, ethics, maths, science, medicine, astronomy + arts (music, dance, painting) + physical education + <b>archery</b> jaise martial arts + yoga/meditation.</li>
+    <li><b>Gurukula:</b> guru ke ghar ka centre; <b>guru-śhiṣhya paramparā</b> sacred&nbsp;— student = family member; disciplined life (self-control, obedience, devotion).</li>
+    <li><b>Universities/centres:</b> <b>Takshashilā, Nalanda (427 CE), Vallabhī (480 CE), Vikramśhilā</b>&nbsp;— India + bahar ke students; political changes ke bawajood knowledge traditions persist rahin.</li>
+    <li><b>Evidence of learning culture:</b> Kālidāsa ki poetry, Tirukkural, Tamil epics, Pāṇini ka grammar, Charaka &amp; Suśhruta ki medicine&nbsp;— subjects A to Z covered!</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q9.</span> <b>Dharma</b> kya hai? Ise governance se kya connection tha?</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Meaning:</b> dharma = <b>religion nahi</b>&nbsp;— <b>duty, obligation, righteousness, moral conduct</b>; root <b>dhri</b> se (dharati = earth); Mahābhārata me Bhishma: "jo sab beings ko upar rakhta hai wahi dharma hai".</li>
+    <li><b>Related concepts:</b> <b>samatva</b> (sab same&nbsp;— discrimination ka critique) aur <b>ṛita</b> (cosmic order&nbsp;— harmony &amp; balance); <b>dhamma</b> = Pali version (Buddhism).</li>
+    <li><b>Governance connection:</b> raja ke duties (protection + justice) ethical principles se guided the&nbsp;— Śhānti Parva, Arthaśhāstra dono ethics-governance ka rishta dikhate hain.</li>
+    <li><b>Aśhoka ke edicts:</b> <b>dhamma</b> ka promotion&nbsp;— moral conduct, family me respect, non-violence, compassion&nbsp;— politics me ethics ka sabse bada example.</li>
+    <li><b>Uttaramerur inscription:</b> election candidates ke liye "<b>honest earnings</b>" + "<b>pure mind</b>" ki shart&nbsp;— public life me moral conduct ka importance.</li>
+    <li><b>Books:</b> Kāmandaka's <b>Nītisāra</b> &amp; Bāṇabhaṭṭa's <b>Kādambarī</b>&nbsp;— kingship-governance pe ethical advice&nbsp;— connection later periods tak chala.</li>
+  </ul></div>
+
+<div class="qa"><div class="qq"><span class="qn">Q10.</span> Early India ke <b>trade routes, ports aur guilds</b> ka role describe karo.</div>
+  <div class="alab">Answer</div>
+  <ul class="ans">
+    <li><b>Routes:</b> 6th c. BCE se do bade land routes&nbsp;— <b>Uttarāpatha (north)</b> aur <b>Dakṣhiṇāpatha (south)</b>&nbsp;— dynasties ne maintain/expand kiye; goods, log, ideas ka movement; inland regions ko coastal ports se joda.</li>
+    <li><b>Ports:</b> <b>Muziris, Kāveripattinam, Arikamedu, Masulipatnam</b>&nbsp;— Indian + foreign traders dono ko attract kiye; early CE me <b>Rome se significant trade</b> (sea + Central Asia via land).</li>
+    <li><b>Goods:</b> Magadha&nbsp;— textiles, gems, coral, pearls, metals, minerals; <b>salt state-regulated</b>; route safety + anti-adulteration measures.</li>
+    <li><b>Guilds (śhreṇīs):</b> same profession ke traders/artisans/merchants ke collective organisations; mahājanapadas ke rise ke baad powerful; <b>Jātaka literature me 18 types</b>; quality regulate + prices fix + <b>guild courts</b> se discipline.</li>
+    <li><b>Guilds as banks:</b> <b>Nashik cave inscription (2nd c. CE, Uṣhavadāta)</b>&nbsp;— donations guilds me deposit&nbsp;— fixed interest&nbsp;— Buddhist monasteries ka maintenance&nbsp;— guilds banking/credit institutions the.</li>
+    <li><b>Craft guilds:</b> Sanchi ke Great Stupa ka southern gateway&nbsp;— <b>Vidiśhā ke ivory workers ka guild</b>&nbsp;— artistic production + religious patronage.</li>
+    <li><b>Currency:</b> <b>silver punch-marked coins</b> (6th c. BCE se) isi period me circulation me aayin.</li>
+  </ul></div>
+
+</div><!-- /ch5 -->
+
+<div class="closer">
+  <div class="cl1">You're 80/80 ready! 🏆</div>
+  <div class="cl2">Timeline ratto → definitions + points likho → ⚔️ differences ka ratta maaro → MCQs solve karo → Big Q&amp;A se practice. All the best, champ! 🍀👑</div>
+</div>
+
+</div><!-- /main-content -->
+</body>
+</html>

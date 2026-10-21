@@ -1,0 +1,302 @@
+   384→    <li><b>After Independence:</b> India followed a <b>state-led approach</b> similar to a planned economy — government controlled industries, allocated resources, regulated production through <b>licenses &amp; permits</b>; banking, transport &amp; heavy industries dominated by the <b>public sector</b>.</li>
+   385→    <li><b>By 1991:</b> the country faced <b>serious economic difficulties</b>.</li>
+   386→    <li><b>Reforms of 1991:</b> reduced excessive regulations, encouraged <b>private enterprise</b>, opened the economy to <b>global trade &amp; investment</b>, and increased <b>competition</b>.</li>
+   387→    <li>Result: India gradually shifted towards a more <b>market-oriented system</b> while retaining an important role for the government → today a <b>mixed economy</b>.</li>
+   388→  </ul>
+   389→</div>
+   390→
+   391→<!-- T11 -->
+   392→<div class="topic">
+   393→  <div class="topic-h"><span class="tnum">T11</span><span class="tt">Economic Survey &amp; Economists' Work 📊</span><span class="tick">☐ revised</span></div>
+   394→  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Economic Survey of India</b> — an important <b>annual document</b> prepared by the <b>Ministry of Finance</b> and presented in <b>Parliament before the Union Budget</b>.</div></div>
+   395→  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Economic Survey = desh ki <b>report card</b> 📔 — pichle saal economy kaisi rahi (agriculture, industry, services, jobs, inflation...). Budget se pehle Parliament me pesh hoti hai, isliye ise <b>Union Budget ka blueprint</b> bhi kehte hain. Aur economists kya karte hain? Data analyse kar ke <b>policy, finance, research, consulting</b> — chaar departments me kaam.</div></div>
+   396→  <div class="plabel">✍️ Exam Points — Economic Survey</div>
+   397→  <ul class="pts">
+   398→    <li>Annual document by the <b>Ministry of Finance</b>, presented in Parliament <b>before the Union Budget</b>.</li>
+   399→    <li>Reviews the country's <b>economic performance</b> of the past year and analyses sectors — agriculture, industry, services, employment, inflation, education, health, infrastructure.</li>
+   400→    <li>Discusses future <b>challenges and opportunities</b>; acts as a <b>blueprint for the Union Budget</b>; explains economic data clearly to citizens.</li>
+   401→  </ul>
+   402→  <div class="plabel">✍️ Exam Points — Scope of economists' work</div>
+   403→  <ul class="pts">
+   404→    <li><b>Policy-making:</b> guiding governments on taxation or welfare spending.</li>
+   405→    <li><b>Finance:</b> advising investors on where to invest.</li>
+   406→    <li><b>Research &amp; education:</b> studying economic trends and teaching.</li>
+   407→    <li><b>Business consulting:</b> helping firms plan growth or improve efficiency.</li>
+   408→    <li>They use data from <b>government reports, economic surveys and companies' financial statements</b> to weigh alternatives, opportunity costs and potential outcomes.</li>
+   409→  </ul>
+   410→</div>
+   411→
+   412→<!-- T12 -->
+   413→<div class="topic">
+   414→  <div class="topic-h"><span class="tnum">T12</span><span class="tt">Quick Recap — One Shot ⚡</span><span class="tick">☐ revised</span></div>
+   415→  <ul class="pts">
+   416→    <li><b>Unlimited wants</b> + <b>limited resources</b> = <b>SCARCITY</b> → <b>CHOICES</b> → every choice has an <b>opportunity cost</b>.</li>
+   417→    <li><b>PPC</b> = trade-off between two goods; points on it = maximum efficient output.</li>
+   418→    <li><b>3 key questions:</b> What to produce? How to produce? For whom to produce?</li>
+   419→    <li><b>3 systems:</b> Planned (govt decides — N. Korea, Cuba) • Market (demand-supply decides — USA, Japan) • Mixed (both — India).</li>
+   420→    <li><b>India:</b> state-led after Independence → <b>1991 reforms</b> → market-oriented mixed economy.</li>
+   421→    <li><b>Economic Survey</b> = annual report card by Finance Ministry, before the Budget.</li>
+   422→  </ul>
+   423→</div>
+   424→
+   425→<!-- DEFINITION BANK CH8 -->
+   426→<div class="defbank">
+   427→  <div class="dbt">📖 Definition Bank — Chapter 8, Part 1 (likhne ke liye ready) 📖</div>
+   428→  <div class="db-grid">
+   429→    <div class="d"><b>Economics</b> — study of how choices are made to optimise limited resources for satisfying needs &amp; wants.</div>
+   430→    <div class="d"><b>Needs</b> — essentials for survival: food, water, shelter.</div>
+   431→    <div class="d"><b>Wants</b> — desires beyond essentials; unlimited and ever-changing.</div>
+   432→    <div class="d"><b>Scarcity</b> — the problem of limited resources vs unlimited wants.</div>
+   433→    <div class="d"><b>Resources</b> — factors used to produce goods &amp; services (natural or human-made).</div>
+   434→    <div class="d"><b>Factors of production</b> — land, labour, capital, technology.</div>
+   435→    <div class="d"><b>Opportunity cost</b> — value of the next best alternative given up when a choice is made.</div>
+   436→    <div class="d"><b>PPC</b> — curve showing combinations of two goods producible with all available resources.</div>
+   437→    <div class="d"><b>Market</b> — place (physical or virtual/internet) where buying &amp; selling of products and services takes place.</div>
+   438→    <div class="d"><b>Economy</b> — the system of production, distribution, trade and consumption of goods &amp; services in an area.</div>
+   439→    <div class="d"><b>Economic entities</b> — participants in economic activity: producers, consumers, government, enterprises.</div>
+   440→    <div class="d"><b>Economic system</b> — mechanism defining production, consumption &amp; distribution of goods, services and resources.</div>
+   441→    <div class="d"><b>Planned economy</b> — resource allocation &amp; prices determined by the government.</div>
+   442→    <div class="d"><b>Market economy</b> — resource allocation &amp; prices determined primarily by market forces.</div>
+   443→    <div class="d"><b>Mixed economy</b> — government &amp; private sector coexist and compete; private players are regulated.</div>
+   444→    <div class="d"><b>Public goods</b> — goods available to all without exclusion (parks, roads, police, street lights, basic education).</div>  </div>
+   445→</div>
+   446→
+   447→<div class="defbank">
+   448→  <div class="dbt">📖 Definition Bank — Chapter 8 (Part 2) 📖</div>
+   449→  <div class="db-grid">
+   450→    <div class="d"><b>Labour-intensive</b> — production using more workers and less machinery.</div>
+   451→    <div class="d"><b>Capital-intensive</b> — production using more machines/technology and fewer workers.</div>
+   452→    <div class="d"><b>Policy</b> — a course or principle of action adopted by an organisation or government.</div>
+   453→    <div class="d"><b>Data</b> — facts and statistics collected for reference or analysis; <b>Surveys</b> — systematic collection of such data.</div>
+   454→  </div>
+   455→</div>
+   456→
+   457→<!-- MCQ CH8 -->
+   458→<div class="sec-h"><span class="sq">✅</span><span class="st">MCQ Challenge — 10 Questions</span><span class="sline"></span></div>
+   459→<div class="mcq-score"><span class="ms">🎯 Solve karne ke baad score bharo →</span><div class="blank"></div><span class="ms">/ 10</span></div>
+   460→
+   461→<div class="mcq"><div class="mq"><span class="qn">Q1.</span> The word 'Economics' comes from the Greek word <i>oikonomia</i>, which means —</div>
+   462→  <div class="opts"><div class="op" data-l="a">wealth creation</div><div class="op" data-l="b">household management</div><div class="op" data-l="c">study of markets</div><div class="op" data-l="d">pricing of resources</div></div></div>
+   463→<div class="mcq"><div class="mq"><span class="qn">Q2.</span> Which of the following is a <b>need</b> and not a want?</div>
+   464→  <div class="opts"><div class="op" data-l="a">gaming console</div><div class="op" data-l="b">vacation abroad</div><div class="op" data-l="c">drinking water</div><div class="op" data-l="d">designer shoes</div></div></div>
+   465→<div class="mcq"><div class="mq"><span class="qn">Q3.</span> The basic economic problem arises because —</div>
+   466→  <div class="opts"><div class="op" data-l="a">wants are limited, resources are unlimited</div><div class="op" data-l="b">wants are unlimited, resources are limited</div><div class="op" data-l="c">both wants and resources are limited</div><div class="op" data-l="d">both wants and resources are unlimited</div></div></div>
+   467→<div class="mcq"><div class="mq"><span class="qn">Q4.</span> When you choose one alternative, the <b>value of the option given up</b> is called —</div>
+   468→  <div class="opts"><div class="op" data-l="a">total cost</div><div class="op" data-l="b">marginal cost</div><div class="op" data-l="c">opportunity cost</div><div class="op" data-l="d">fixed cost</div></div></div>
+   469→<div class="mcq"><div class="mq"><span class="qn">Q5.</span> The Production Possibility Curve (PPC) shows —</div>
+   470→  <div class="opts"><div class="op" data-l="a">profit margins of firms</div><div class="op" data-l="b">combinations of two goods produced using all resources</div><div class="op" data-l="c">the demand schedule of a consumer</div><div class="op" data-l="d">growth of population</div></div></div>
+   471→<div class="mcq"><div class="mq"><span class="qn">Q6.</span> Which of these is <b>NOT</b> one of the three key questions of economics?</div>
+   472→  <div class="opts"><div class="op" data-l="a">What to produce?</div><div class="op" data-l="b">How to produce?</div><div class="op" data-l="c">For whom to produce?</div><div class="op" data-l="d">When to consume?</div></div></div>
+   473→<div class="mcq"><div class="mq"><span class="qn">Q7.</span> In a planned economy, major economic decisions are taken by —</div>
+   474→  <div class="opts"><div class="op" data-l="a">market forces of demand &amp; supply</div><div class="op" data-l="b">the central planning authority of the government</div><div class="op" data-l="c">consumers through voting</div><div class="op" data-l="d">large private corporations</div></div></div>
+   475→<div class="mcq"><div class="mq"><span class="qn">Q8.</span> Which of the following is best described as a <b>market economy</b>?</div>
+   476→  <div class="opts"><div class="op" data-l="a">North Korea</div><div class="op" data-l="b">Cuba</div><div class="op" data-l="c">Japan</div><div class="op" data-l="d">former Soviet Union</div></div></div>
+   477→<div class="mcq"><div class="mq"><span class="qn">Q9.</span> India's economic reforms of 1991 —</div>
+   478→  <div class="opts"><div class="op" data-l="a">increased licences and permits</div><div class="op" data-l="b">reduced regulations &amp; opened the economy to global trade</div><div class="op" data-l="c">nationalised all private banks</div><div class="op" data-l="d">banned private enterprise</div></div></div>
+   479→<div class="mcq"><div class="mq"><span class="qn">Q10.</span> A good whose use by some people does <b>not</b> prevent others from using it (e.g., parks, street lights) is a —</div>
+   480→  <div class="opts"><div class="op" data-l="a">luxury good</div><div class="op" data-l="b">substitute good</div><div class="op" data-l="c">public good</div><div class="op" data-l="d">complementary good</div></div></div>
+   481→
+   482→<div class="anskey">
+   483→  <div class="akt">🔑 Answer Key — Chapter 8</div>
+   484→  <div class="ans-strip"><span>1 → b</span><span>2 → c</span><span>3 → b</span><span>4 → c</span><span>5 → b</span><span>6 → d</span><span>7 → b</span><span>8 → c</span><span>9 → b</span><span>10 → c</span></div>
+   485→  <div class="xpls">
+   486→    <div class="x"><b>1:</b> oikos (household) + nemein (management) = household management.</div>
+   487→    <div class="x"><b>2:</b> Needs are survival essentials — food, water, shelter; rest are wants.</div>
+   488→    <div class="x"><b>3:</b> Unlimited wants + limited (scarce) resources = the central problem → choices.</div>
+   489→    <div class="x"><b>4:</b> Opportunity cost = value of what is given up when choosing an alternative.</div>
+   490→    <div class="x"><b>5:</b> PPC = combinations of two goods with all resources used efficiently.</div>
+   491→    <div class="x"><b>6:</b> The three questions are what, how, for whom — "when to consume" is not one.</div>
+   492→    <div class="x"><b>7:</b> Planned = central authority (govt) decides what/how/for whom &amp; prices.</div>
+   493→    <div class="x"><b>8:</b> Japan is a market economy (USA, Hong Kong too); others are planned.</div>
+   494→    <div class="x"><b>9:</b> 1991 reforms reduced excessive regulations, encouraged private enterprise, opened trade.</div>
+   495→    <div class="x"><b>10:</b> Public goods are non-excludable — parks, roads, police, street lights.</div>
+   496→  </div>
+   497→</div>
+   498→
+   499→<!-- QA CH8 -->
+   500→<div class="sec-h"><span class="sq">📝</span><span class="st">Big Questions — Exam-Ready Answers (points me)</span><span class="sline"></span></div>
+   501→
+   502→<div class="qa"><div class="qq"><span class="qn">Q1.</span> What is economics? Explain its origin and what it deals with.</div>
+   503→  <div class="alab">Answer</div>
+   504→  <ul class="ans">
+   505→    <li>Economics is the discipline that deals with how <b>choices are made by optimising limited resources</b> to satisfy needs and wants.</li>
+   506→    <li>The word comes from the Greek <b>oikonomia</b> — <b>oikos</b> (household) + <b>nemein</b> (management) — meaning 'household management'.</li>
+   507→    <li>Just as families must plan with limited income, <b>nations</b> must plan how to use resources efficiently.</li>
+   508→    <li>It studies how economic entities — <b>consumers, producers, governments, financial institutions</b> — interact in an economy.</li>
+   509→    <li>It explains wages, distribution of wealth, price determination, and the effect of policies and trade on markets and employment.</li>
+   510→    <li>Good economic decisions are based on <b>data and analysis</b>, not guesswork.</li>
+   511→  </ul></div>
+   512→
+   513→<div class="qa"><div class="qq"><span class="qn">Q2.</span> Distinguish between needs and wants. Why can all wants not be satisfied?</div>
+   514→  <div class="alab">Answer</div>
+   515→  <ul class="ans">
+   516→    <li><b>Needs</b> are essentials for survival — food, water, shelter.</li>
+   517→    <li><b>Wants</b> are desires beyond essentials — gadgets, vacations, luxury items.</li>
+   518→    <li>Wants are <b>unlimited and keep changing</b> — a person may upgrade from bicycle → motorbike → car.</li>
+   519→    <li>All wants cannot be satisfied because <b>resources are limited</b> in quantity.</li>
+   520→    <li>Hence individuals, enterprises and governments must constantly <b>choose</b> — and every choice sacrifices an alternative.</li>
+   521→  </ul></div>
+   522→
+   523→<div class="qa"><div class="qq"><span class="qn">Q3.</span> What is scarcity? Why is it called the central problem of economics?</div>
+   524→  <div class="alab">Answer</div>
+   525→  <ul class="ans">
+   526→    <li>Scarcity is the condition where <b>resources are limited</b> while <b>human wants are unlimited</b>.</li>
+   527→    <li>Both natural resources (water, coal) and human-made resources (capital, technology) are limited in quantity.</li>
+   528→    <li>Resources also have <b>competing/alternative uses</b> — e.g., steel can make medical equipment, refrigerators or aircraft.</li>
+   529→    <li>Because of scarcity, every economy must answer <b>what, how and for whom to produce</b>.</li>
+   530→    <li>Thus scarcity forces <b>choice</b>, and every choice creates an <b>opportunity cost</b> — making it the central problem of economics.</li>
+   531→  </ul></div>
+   532→
+   533→<div class="qa"><div class="qq"><span class="qn">Q4.</span> Explain the concept of opportunity cost with the farmer's example.</div>
+   534→  <div class="alab">Answer</div>
+   535→  <ul class="ans">
+   536→    <li>Opportunity cost is the <b>value of what is given up</b> when one alternative is chosen over others.</li>
+   537→    <li>A farmer with a piece of land can grow either <b>barley or wheat</b>.</li>
+   538→    <li>With limited land, water and labour, he must decide <b>how much of each crop</b> to produce.</li>
+   539→    <li>When he moves from combination A to E (growing more barley), <b>some wheat must be sacrificed</b> — this sacrifice is the opportunity cost of growing barley.</li>
+   540→    <li>Opportunity cost applies to all decision-makers — households (pocket money), enterprises, and governments (highways vs hospitals).</li>
+   541→  </ul></div>
+   542→
+   543→<div class="qa"><div class="qq"><span class="qn">Q5.</span> What is the Production Possibility Curve? What do the points on the curve show?</div>
+   544→  <div class="alab">Answer</div>
+   545→  <ul class="ans">
+   546→    <li>The PPC is the curve showing <b>different combinations of two goods</b> that can be produced using <b>all available resources</b>.</li>
+   547→    <li>It shows the <b>trade-off</b> between the two goods — e.g., barley and wheat.</li>
+   548→    <li>It is <b>downward sloping</b>: producing more of one good requires sacrificing the other.</li>
+   549→    <li>All points <b>on the PPC</b> show the <b>maximum output</b> achievable through <b>efficient use of resources</b>, avoiding wastage.</li>
+   550→    <li>It helps enterprises and governments in <b>better planning and decision-making</b>.</li>
+   551→  </ul></div>
+   552→
+   553→<div class="qa"><div class="qq"><span class="qn">Q6.</span> Explain the three key questions that every economy must answer, with examples.</div>
+   554→  <div class="alab">Answer</div>
+   555→  <ul class="ans">
+   556→    <li><b>What to produce?</b> — which goods and services, and in what quantities; e.g., water-intensive sugarcane/paddy vs drought-resistant millets/pulses; choosing sugarcane means giving up the gains of saved water and soil health (opportunity cost).</li>
+   557→    <li><b>For whom to produce?</b> — which group of consumers to serve; e.g., school shoes (simple, durable, affordable), office shoes (formal, leather), sports shoes (grip, lightweight) — produced for different needs and purchasing power.</li>
+   558→    <li><b>How to produce?</b> — choice of technique: <b>labour-intensive</b> (agriculture, handicrafts) or <b>capital-intensive</b> (steel, automobiles); depends on cost of capital, technology, product type, labour availability and government regulations.</li>
+   559→    <li>All three arise from <b>scarcity</b> — limited resources must be allocated among unlimited wants.</li>
+   560→  </ul></div>
+   561→
+   562→<div class="qa"><div class="qq"><span class="qn">Q7.</span> Compare the three types of economic systems.</div>
+   563→  <div class="alab">Answer</div>
+   564→  <ul class="ans">
+   565→    <li><b>Planned economy:</b> a central planning authority of the government makes all major decisions — what, how, for whom, and prices; government owns most resources; strict permits and licenses restrict competition and reduce motivation to innovate. Examples: former Soviet Union, North Korea, Cuba.</li>
+   566→    <li><b>Market economy:</b> decisions are driven by <b>demand and supply</b> with little government intervention; the government acts like a <b>referee</b> ensuring safety and law &amp; order; private ownership dominates; competition brings better quality, lower prices and innovation. Examples: USA, Japan, Hong Kong.</li>
+   567→    <li><b>Mixed economy:</b> combines both — private players and the government coexist and compete; large public sector companies operate alongside private enterprises; private players are regulated. Examples: India (post-1991), China (post-1978), Germany, Sweden.</li>
+   568→    <li>In reality, <b>almost all economies are mixed</b> — pure systems rarely exist.</li>
+   569→  </ul></div>
+   570→
+   571→<div class="qa"><div class="qq"><span class="qn">Q8.</span> Why do pure market or pure planned economies rarely exist? Why is a mixed economy considered more practical?</div>
+   572→  <div class="alab">Answer</div>
+   573→  <ul class="ans">
+   574→    <li>A pure <b>planned</b> system restricts competition — few enterprises, less innovation, and the government may fail to match production with people's needs.</li>
+   575→    <li>A pure <b>market</b> system can produce unfair outcomes — markets allocate goods by ability to pay, so essentials may become unaffordable for vulnerable groups.</li>
+   576→    <li>A <b>mixed economy</b> combines strengths — private enterprise brings competition, innovation and efficiency; government brings welfare programmes, public goods, fair competition rules and consumer protection.</li>
+   577→    <li>It allows flexibility — the degree of government involvement can adjust to the country's needs (e.g., India's shift after 1991).</li>
+   578→    <li>Hence almost all real economies — even the USA and Singapore — are mixed in practice.</li>
+   579→  </ul></div>
+   580→
+   581→<div class="qa"><div class="qq"><span class="qn">Q9.</span> Describe India's economic journey since Independence.</div>
+   582→  <div class="alab">Answer</div>
+   583→  <ul class="ans">
+   584→    <li>After Independence, India followed a <b>state-led approach</b> similar to a planned economy.</li>
+   585→    <li>The government controlled industries, allocated resources and regulated production through <b>licenses and permits</b>.</li>
+   586→    <li>Key sectors — <b>banking, transport, heavy industries</b> — were dominated by the public sector.</li>
+   587→    <li>By <b>1991</b>, the country faced serious economic difficulties.</li>
+   588→    <li>The government introduced major <b>reforms</b>: reduced excessive regulations, encouraged private enterprise, opened the economy to global trade and investment, and increased competition.</li>
+   589→    <li>Result: India gradually became a <b>market-oriented mixed economy</b> with the government still playing an important role.</li>
+   590→  </ul></div>
+   591→
+   592→<div class="qa"><div class="qq"><span class="qn">Q10.</span> What is the Economic Survey of India? What is the scope of economists' work?</div>
+   593→  <div class="alab">Answer</div>
+   594→  <ul class="ans">
+   595→    <li>The Economic Survey is an important <b>annual document</b> prepared by the <b>Ministry of Finance</b>.</li>
+   596→    <li>It is presented in <b>Parliament before the Union Budget</b>.</li>
+   597→    <li>It reviews the past year's economic performance and analyses sectors — agriculture, industry, services, employment, inflation, education, health, infrastructure.</li>
+   598→    <li>It discusses future challenges and opportunities and acts as a <b>blueprint for the Union Budget</b>.</li>
+   599→    <li><b>Scope of economists' work:</b> policy-making (taxation, welfare), finance (advising investors), research &amp; education (studying trends, teaching), and business consulting (helping firms plan growth and efficiency).</li>
+   600→  </ul></div>
+   601→
+   602→</div><!-- /ch8 -->
+   603→
+   604→<!-- ================================================= CHAPTER 9 -->
+   605→<div class="ch9">
+   606→
+   607→<div class="ch-open">
+   608→  <div class="big-emoji">🧩</div>
+   609→  <div class="okick">Chapter 9 &bull; Economics</div>
+   610→  <div class="otitle">The Price Puzzle:<br>What Drives the Market</div>
+   611→  <div class="osub">Mehngai ka khel — kaun control karta hai? Do badi taqtein: <b>demand</b> aur <b>supply</b>. Is chapter me: laws of demand &amp; supply, market equilibrium, aur sarkar ka role — price ceiling, price floor, public goods.</div>
+   612→  <div class="ochips"><span>🔑 10 Topics</span><span>📖 20+ Definitions</span><span>✅ 10 MCQs</span><span>📝 10 Q&amp;A</span></div>
+   613→</div>
+   614→
+   615→<div class="sec-h"><span class="sq">📚</span><span class="st">Notes — Har Topic, Poori Samajh</span><span class="sline"></span></div>
+   616→
+   617→<!-- T1 -->
+   618→<div class="topic">
+   619→  <div class="topic-h"><span class="tnum">T1</span><span class="tt">Demand — Chahna + Khareed Paana 🛒</span><span class="tick">☐ revised</span></div>
+   620→  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Demand</b> — the quantity of a product that people are <b>willing AND able</b> to buy at a <b>particular price</b>, depending on their needs, preferences, season, trend and income.</div></div>
+   621→  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Sirf chahna demand nahi hai! Ferrari chahiye sabko 🏎️ but khareedne ki <b>purchasing power</b> kisi ke paas nahi. Demand = <b>desire + ability to pay</b>. Aur ye price pe depend karti hai — sasta hai toh zyada log khareedte hain, mehnga hai toh kam. Isi ko agla topic me law me dekhte hain.</div></div>
+   622→  <div class="plabel">✍️ Exam Points</div>
+   623→  <ul class="pts">
+   624→    <li>Demand = <b>willingness + ability (purchasing power)</b> to buy at a particular price.</li>
+   625→    <li>It is <b>not just desire</b> — desire without purchasing power is not demand.</li>
+   626→    <li>Depends on: needs, preferences, <b>season, trend and income</b>.</li>
+   627→    <li><b>Purchasing power</b> — a measure of how much one unit of currency can buy at a particular time.</li>
+   628→  </ul>
+   629→</div>
+   630→
+   631→<!-- T2 -->
+   632→<div class="topic">
+   633→  <div class="topic-h"><span class="tnum">T2</span><span class="tt">Law of Demand — Utaavla Seesaw 📉</span><span class="tick">☐ revised</span></div>
+   634→  <div class="define"><div class="dl">📖 Definition</div><div class="dd"><b>Law of Demand</b> — as the price of a product <b>rises</b>, its quantity demanded <b>falls</b>; as price <b>falls</b>, quantity demanded <b>rises</b> — an <b>inverse relationship</b> (other factors constant).</div></div>
+   635→  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Aam (mango) season shuru — <b>₹150/kg</b> → Srivalli sirf <b>1 kg</b>. Supply badhi, price <b>₹100</b> → <b>2 kg</b>. Full season me <b>₹50</b> → <b>3 kg</b>! 🥭 Matlab: price neeche, demand upar — <b>ulta relation</b>. Isko graph pe draw karo toh curve <b>neeche ki taraf jhukti</b> hai (downward sloping).</div></div>
+   636→  <div class="plabel">✍️ Exam Points</div>
+   637→  <ul class="pts">
+   638→    <li>Price ↑ → quantity demanded ↓; price ↓ → quantity demanded ↑ — <b>inverse relationship</b>.</li>
+   639→    <li><b>Individual demand</b> — quantity one consumer wants to buy at different prices (other factors constant).</li>
+   640→    <li>The table of price–quantity is the <b>demand schedule</b>; drawn on a graph it becomes the <b>demand curve</b> (DD').</li>
+   641→    <li>The demand curve slopes <b>downward</b> from left to right.</li>
+   642→  </ul>
+   643→  <table class="tt">
+   644→    <thead><tr><th>Price of mango/kg</th><th>Srivalli buys</th><th>Point on curve</th></tr></thead>
+   645→    <tbody>
+   646→      <tr><td>₹150</td><td>1 kg</td><td>A</td></tr>
+   647→      <tr><td>₹100</td><td>2 kg</td><td>B</td></tr>
+   648→      <tr><td>₹50</td><td>3 kg</td><td>C</td></tr>
+   649→    </tbody>
+   650→  </table>
+   651→</div>
+   652→
+   653→<!-- T3 -->
+   654→<div class="topic">
+   655→  <div class="topic-h"><span class="tnum">T3</span><span class="tt">Individual vs Market Demand + Curve 📊</span><span class="tick">☐ revised</span></div>
+   656→  <div class="define"><div class="dl">📖 Definitions</div><div class="dd"><b>Individual demand</b> — quantity one consumer buys at different prices. &nbsp;|&nbsp; <b>Market demand</b> — the <b>sum of all individual demands</b> at each price.</div></div>
+   657→  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Srivalli + Alex + Israt — teeno ki demand <b>add</b> karo = market demand. 🧮 ₹50 pe: Srivalli 3 + Alex 6 + Israt 9 = <b>18 kg</b>. Ek interesting baat (book me bhi): market demand curve individual curve se <b>flatter</b> hoti hai — kyunki ek price change pe itne saare log react karte hain ki total quantity response <b>bada</b> hota hai!</div></div>
+   658→  <div class="plabel">✍️ Exam Points</div>
+   659→  <ul class="pts">
+   660→    <li>Market demand = <b>Q1 + Q2 + Q3 + ...</b> (sum of all individual demands at each price).</li>
+   661→    <li>Plotting market demand at different prices gives the <b>market demand curve</b> (DmDm').</li>
+   662→    <li>The market demand curve is <b>flatter</b> than an individual curve — the same price change creates a <b>larger total quantity response</b> (₹150→₹50: Srivalli +2 kg, but market +12 kg).</li>
+   663→  </ul>
+   664→  <table class="tt">
+   665→    <thead><tr><th>Price</th><th>Q1 (Srivalli)</th><th>Q2 (Alex)</th><th>Q3 (Israt)</th><th>Market Demand</th></tr></thead>
+   666→    <tbody>
+   667→      <tr><td>₹150</td><td>1 kg</td><td>2 kg</td><td>3 kg</td><td><b>6 kg</b></td></tr>
+   668→      <tr><td>₹100</td><td>2 kg</td><td>4 kg</td><td>6 kg</td><td><b>12 kg</b></td></tr>
+   669→      <tr><td>₹50</td><td>3 kg</td><td>6 kg</td><td>9 kg</td><td><b>18 kg</b></td></tr>
+   670→    </tbody>
+   671→  </table>
+   672→</div>
+   673→
+   674→<!-- T4 -->
+   675→<div class="topic">
+   676→  <div class="topic-h"><span class="tnum">T4</span><span class="tt">Demand ke Determinants (price ke alawa) 🎛️</span><span class="tick">☐ revised</span></div>
+   677→  <div class="hing"><div class="ht">💡 Samajh (Hinglish)</div><div class="hb">Price same rahe, phir bhi demand badal sakti hai — kyunki aur bhi factors hain: <b>related goods</b> (substitute/complement), <b>income</b>, <b>taste</b>, <b>population</b>, <b>season</b>, <b>future expectations</b>. Jaise: coffee mehngi hui toh log <b>chai</b> peene lage (substitute!). Petrol mehnga toh <b>car ki demand giri</b> (complement!). 🚗⛽</div></div>
+   678→  <div class="plabel">✍️ Exam Points — sab determinants</div>
+   679→  <ul class="pts">
+   680→    <li><b>Price of related goods —</b> <b>Substitute goods</b> replace each other (tea ↔ coffee, mangoes ↔ bananas): price of one ↑ → demand for the other ↑. <b>Complementary goods</b> are used together (car + petrol, printer + cartridges, movie ticket + popcorn): price of one ↑ → demand for the other ↓.</li>
+   681→    <li><b>Income:</b> when household income rises, consumers buy more or better quality → quantity demanded rises (prices constant).</li>
+   682→    <li><b>Taste &amp; preference:</b> personal likes decide demand — Srivalli loves mangoes and won't substitute oranges even if cheaper.</li>
+   683→    <li><b>Population size &amp; composition:</b> India = most populous nation → huge domestic demand. More children → sports shoes; more working adults → formal shoes; more elderly → comfortable/orthopaedic shoes.</li>
+
+[showing lines 384-683 of 982; use offset=684 with limit to continue reading]
