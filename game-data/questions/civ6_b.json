@@ -1,0 +1,319 @@
+{
+  "chapterId": "civ6",
+  "fragment": "b",
+  "questions": [
+    {
+      "id": "civ6-026",
+      "type": "mcq",
+      "topic": "Rule of Law",
+      "difficulty": "easy",
+      "q": "The Rule of Law establishes that:",
+      "options": ["The ruler is above the law", "No one is above the law", "Laws apply only to ordinary citizens", "Disputes are settled by force"],
+      "answer": 1,
+      "explanation": "The Rule of Law ensures equality before the law and equal protection of the law, and establishes that no one is above the law.",
+      "fact": "The Rule of Law ensures equality before the law and equal protection of the law, and establishes that no one is above the law."
+    },
+    {
+      "id": "civ6-027",
+      "type": "mcq",
+      "topic": "Fundamental Rights",
+      "difficulty": "easy",
+      "q": "How many Fundamental Rights are enshrined in the Indian Constitution?",
+      "options": ["Five", "Six", "Seven", "Four"],
+      "answer": 1,
+      "explanation": "There are six Fundamental Rights, ranging from the Right to Equality to the Right to Constitutional Remedies.",
+      "fact": "There are six Fundamental Rights—the Right to Equality; the Right to Freedom; the Right Against Exploitation; the Right to Freedom of Religion; Cultural and Educational Rights; and the Right to Constitutional Remedies."
+    },
+    {
+      "id": "civ6-028",
+      "type": "mcq",
+      "topic": "Right to Constitutional Remedies",
+      "difficulty": "medium",
+      "q": "The Right to Constitutional Remedies is guaranteed by which Article of the Constitution?",
+      "options": ["Article 32", "Article 21A", "Article 46", "Article 243(d)"],
+      "answer": 0,
+      "explanation": "Article 32 is the Right to Constitutional Remedies; citizens can also seek remedies under Article 226 to protect their fundamental rights.",
+      "fact": "The Right to Constitutional Remedies (Article 32)... citizens can seek constitutional remedies under Articles 32 and 226 for the protection and reinforcement of their fundamental rights."
+    },
+    {
+      "id": "civ6-029",
+      "type": "mcq",
+      "topic": "Separation of powers",
+      "difficulty": "medium",
+      "q": "Which organ of the government interprets the laws?",
+      "options": ["The legislature", "The executive", "The judiciary", "The Election Commission of India"],
+      "answer": 2,
+      "explanation": "Under the separation of powers, the legislature makes laws, the executive implements them, and the judiciary interprets them.",
+      "fact": "The legislature makes laws, the executive implements them, and the judiciary interprets them."
+    },
+    {
+      "id": "civ6-030",
+      "type": "mcq",
+      "topic": "Right to Information Act",
+      "difficulty": "easy",
+      "q": "In which year did the Right to Information Act come into force in India?",
+      "options": ["1951", "1996", "1949", "2005"],
+      "answer": 3,
+      "explanation": "After being passed by Parliament, the RTI Act came into force in 2005; it empowers citizens to seek information from government departments.",
+      "fact": "After being passed by the Parliament, the RTI Act came into force in 2005."
+    },
+    {
+      "id": "civ6-031",
+      "type": "mcq",
+      "topic": "Government formation",
+      "difficulty": "easy",
+      "q": "In elections to the Parliament or State Assemblies, who forms the government?",
+      "options": ["The party with the oldest candidates", "The party chosen by the judiciary", "The party or coalition of parties that secures more than 50 per cent of the seats", "Any party that contests the elections"],
+      "answer": 2,
+      "explanation": "The party—or a coalition of parties—that secures more than 50 per cent of the seats forms the government, while those with fewer seats constitute the opposition.",
+      "fact": "The party—or a coalition of parties—that secures more than 50 per cent of the seats forms the government, while those with fewer seats constitute the opposition."
+    },
+    {
+      "id": "civ6-032",
+      "type": "mcq",
+      "topic": "Regulation of political parties",
+      "difficulty": "hard",
+      "q": "Political parties in India function within the framework of rules laid down by:",
+      "options": ["The Representation of the People Act, 1951", "The Right to Information Act, 2005", "The PESA Act, 1996", "Article 360 of the Constitution"],
+      "answer": 0,
+      "explanation": "Political parties function within the framework of rules and regulations laid down by the Representation of the People Act, 1951.",
+      "fact": "They function within the framework of rules and regulations laid down by the Representation of the People Act, 1951."
+    },
+    {
+      "id": "civ6-033",
+      "type": "mcq",
+      "topic": "Safeguarding vulnerable groups",
+      "difficulty": "hard",
+      "q": "Article 46 of the Constitution directs the State to promote with special care the educational and economic interests of:",
+      "options": ["Only government employees", "The weaker sections, including the Scheduled Castes and the Scheduled Tribes", "Foreign investors", "Urban industrialists"],
+      "answer": 1,
+      "explanation": "Article 46 asks the State to promote the educational and economic interests of the weaker sections, especially the Scheduled Castes and Scheduled Tribes, and to protect them from social injustice and exploitation.",
+      "fact": "Article 46 states that the State shall promote with special care the educational and economic interests of the weaker sections of the people, and, in particular, of the Scheduled Castes and the Scheduled Tribes.",
+      "hint": "This Article specially cares for those who have historically faced social injustice."
+    },
+    {
+      "id": "civ6-034",
+      "type": "truefalse",
+      "topic": "Multi-party system",
+      "difficulty": "easy",
+      "q": "The multi-party system gives people the power to choose those they consider most suitable.",
+      "answer": "true",
+      "explanation": "In a multi-party system, several parties representing diverse voices and interests contest elections, giving people real choice in selecting their representatives.",
+      "fact": "In a multi-party system, several political parties contest elections, representing diverse voices and interests. This gives people the power to choose those they consider most suitable."
+    },
+    {
+      "id": "civ6-035",
+      "type": "truefalse",
+      "topic": "Media in democracy",
+      "difficulty": "easy",
+      "q": "Newspapers, news channels and social media platforms raise issues concerning the public and contribute to their resolution.",
+      "answer": "true",
+      "explanation": "Media keeps people informed about developments and serves as a voice of the masses by raising public issues and helping resolve them.",
+      "fact": "Newspapers, news channels, and social media platforms raise issues concerning the public and contribute to their resolution through appropriate mechanisms."
+    },
+    {
+      "id": "civ6-036",
+      "type": "truefalse",
+      "topic": "Checks and balances",
+      "difficulty": "medium",
+      "q": "While Parliament has the power to amend the Constitution, the judiciary can review such amendments.",
+      "answer": "true",
+      "explanation": "Judicial review of constitutional amendments ensures they are consistent with the spirit of the Constitution—an example of checks and balances between the organs of government.",
+      "fact": "While parliament has the power to amend the Constitution, the judiciary can review such amendments to ensure they are consistent with the spirit of the Constitution."
+    },
+    {
+      "id": "civ6-037",
+      "type": "truefalse",
+      "topic": "Question Hour",
+      "difficulty": "hard",
+      "q": "Question Hour is the last hour of a parliamentary session, reserved for passing money bills.",
+      "answer": "false",
+      "explanation": "Question Hour is the first hour of a parliamentary sitting, when members ask questions to the government, helping check its work and hold it accountable.",
+      "fact": "Question Hour: The first hour of a parliamentary session when members ask questions to the government. This helps check the government's work and hold it accountable."
+    },
+    {
+      "id": "civ6-038",
+      "type": "fillblank",
+      "topic": "Constituent Assembly Debates",
+      "difficulty": "easy",
+      "q": "The Constituent Assembly's Debates are commonly abbreviated as ___.",
+      "answerVariants": ["CAD"],
+      "explanation": "The Constituent Assembly's Debates are known as CAD; they shaped a robust, flexible, transformative and responsive constitution.",
+      "fact": "The global spread of democratic values also influenced the Constituent Assembly's Debates (CAD), contributing to the creation of a robust, flexible, transformative, and responsive constitution."
+    },
+    {
+      "id": "civ6-039",
+      "type": "fillblank",
+      "topic": "India's parliamentary system",
+      "difficulty": "easy",
+      "q": "In India, the President is the Head of State and the ___ is the Head of Government.",
+      "answerVariants": ["Prime Minister", "PM"],
+      "explanation": "In India's parliamentary system, the President is the Head of State, while the Prime Minister, who heads the council of ministers, is the Head of Government.",
+      "fact": "India: President (Head of State), Prime Minister (Head of Government)."
+    },
+    {
+      "id": "civ6-040",
+      "type": "fillblank",
+      "topic": "Democracies around the world",
+      "difficulty": "medium",
+      "q": "In the United Kingdom, the ___ is the Head of State, while the Prime Minister is the Head of Government.",
+      "answerVariants": ["Monarch", "British Monarch", "King", "Queen"],
+      "explanation": "The United Kingdom is a constitutional monarchy: the Monarch is the Head of State, while executive power lies with the Prime Minister.",
+      "fact": "United Kingdom: Monarch (Head of State), Prime Minister (Head of Government)."
+    },
+    {
+      "id": "civ6-041",
+      "type": "match",
+      "topic": "Fundamental Rights articles",
+      "difficulty": "hard",
+      "q": "Match each Fundamental Right with its Articles in the Constitution.",
+      "pairs": [
+        {"l": "Right to Equality", "r": "Articles 14-18"},
+        {"l": "Right to Freedom", "r": "Articles 19-22"},
+        {"l": "Right Against Exploitation", "r": "Articles 23-24"},
+        {"l": "Right to Freedom of Religion", "r": "Articles 25-28"},
+        {"l": "Right to Constitutional Remedies", "r": "Article 32"}
+      ],
+      "explanation": "Each Fundamental Right is protected by a specific range of Articles, from Articles 14-18 for equality to Article 32 for constitutional remedies.",
+      "fact": "The Right to Equality (Articles 14-18); the Right to Freedom (Articles 19-22); the Right Against Exploitation (Articles 23-24); the Right to Freedom of Religion (Articles 25-28); and the Right to Constitutional Remedies (Article 32)."
+    },
+    {
+      "id": "civ6-042",
+      "type": "match",
+      "topic": "Democratic processes and institutions",
+      "difficulty": "medium",
+      "q": "Match each democratic process with its supporting institution.",
+      "pairs": [
+        {"l": "Legislative process", "r": "Legislature (Parliament, State legislature and local bodies)"},
+        {"l": "Electoral process", "r": "Election Commission of India"},
+        {"l": "Judicial process", "r": "Courts"},
+        {"l": "Participatory processes", "r": "Media and civil society"},
+        {"l": "Accountability mechanisms", "r": "CAG, CIC, Lokpal and CVC"}
+      ],
+      "explanation": "The chapter's table links every democratic process with the institution that supports it—from law-making by legislatures to transparency through bodies like the CAG, CIC, Lokpal and CVC.",
+      "fact": "The table highlights how different democratic processes are supported by specific institutions and the values they promote."
+    },
+    {
+      "id": "civ6-043",
+      "type": "order",
+      "topic": "RTI enactment process",
+      "difficulty": "medium",
+      "q": "Arrange the steps in the enactment of the Right to Information Act in the correct order.",
+      "orderItems": [
+        "Concerns about transparency were raised by citizens, journalists and civil society groups",
+        "The issues were examined by parliamentary committees",
+        "The proposal was reviewed by expert groups and debated in Parliament",
+        "The RTI Act was passed by the Parliament",
+        "The RTI Act came into force"
+      ],
+      "explanation": "Citizen concerns were examined by parliamentary committees, then the proposal was reviewed by expert groups, debated and refined in Parliament, and finally passed and enforced in 2005.",
+      "fact": "Concerns... were examined by parliamentary committees... The proposal for an RTI Act was reviewed by expert groups, debated in the Parliament, and refined through consultations... After being passed by the Parliament, the RTI Act came into force in 2005."
+    },
+    {
+      "id": "civ6-044",
+      "type": "order",
+      "topic": "Women's suffrage timeline",
+      "difficulty": "hard",
+      "q": "Arrange these countries in the order in which women received full voting rights.",
+      "orderItems": [
+        "United States of America (1920)",
+        "Britain (1928)",
+        "India (1950)"
+      ],
+      "explanation": "American women got full voting rights in 1920, British women in 1928, and Indian women received Universal Adult Franchise when the Constitution came into force in 1950.",
+      "fact": "In Britain, women received full voting rights only in 1928, while in the United States of America, this occurred in 1920... the Constitution of India came into force in 1950."
+    },
+    {
+      "id": "civ6-045",
+      "type": "multiselect",
+      "topic": "Rule of Law",
+      "difficulty": "medium",
+      "q": "Select all correct statements about the Rule of Law.",
+      "options": [
+        "It allows disputes to be settled by force or personal influence",
+        "It ensures equality before the law",
+        "It provides equal protection of the law",
+        "No citizen can be punished without due process"
+      ],
+      "answerIndices": [1, 2, 3],
+      "explanation": "The Rule of Law ensures equality before law and equal protection of law; disputes are decided by courts through procedures established by law, never by force or personal influence.",
+      "fact": "It ensures equality before the law and equal protection of the law... disputes are resolved in a court of law through procedures established by law, not by force or personal influence... No citizen can be punished without due process."
+    },
+    {
+      "id": "civ6-046",
+      "type": "multiselect",
+      "topic": "Principles of democratic processes",
+      "difficulty": "medium",
+      "q": "Select all correct principles that guide democratic processes, according to the chapter.",
+      "options": ["Transparency", "Participation", "Accountability", "Arbitrary use of power"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Democratic processes are guided by transparency, participation, inclusion, fairness, equality, accountability and respect for diverse opinions—but never by the arbitrary use of power.",
+      "fact": "Democratic processes are guided by principles, such as transparency, participation, inclusion, fairness, equality, accountability, and respect for diverse opinions."
+    },
+    {
+      "id": "civ6-047",
+      "type": "wrongstatement",
+      "topic": "Separation of powers",
+      "difficulty": "medium",
+      "q": "Which of these statements about the separation of powers is INCORRECT?",
+      "options": [
+        "The separation of powers prevents the concentration of power in any one organ.",
+        "The executive power of enforcement agencies is regulated by laws and rules framed by Parliament.",
+        "The judiciary implements laws while the executive interprets them.",
+        "The legislature makes the laws of the country."
+      ],
+      "answer": 2,
+      "explanation": "The statement reverses the roles: the executive implements laws and the judiciary interprets them.",
+      "fact": "The legislature makes laws, the executive implements them, and the judiciary interprets them."
+    },
+    {
+      "id": "civ6-048",
+      "type": "assertion",
+      "topic": "Rule of Law",
+      "difficulty": "medium",
+      "q": "Assertion (A): The Rule of Law prevents the misuse of power in a democracy.\nReason (R): Disputes are resolved in a court of law through procedures established by law, not by force or personal influence.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true, and resolving disputes only through lawful court procedures is exactly how the Rule of Law prevents misuse of power and protects people's rights.",
+      "fact": "Disputes are resolved in a court of law through procedures established by law, not by force or personal influence. This prevents misuse of power and protects people's rights."
+    },
+    {
+      "id": "civ6-049",
+      "type": "assertion",
+      "topic": "India largest democracy",
+      "difficulty": "hard",
+      "q": "Assertion (A): India is considered the world's largest democracy.\nReason (R): India's democracy functions through elections, constitutional values, and everyday civic practices.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both statements are true, but India's status as the largest democracy comes from the scale of citizen participation—over 96.8 crore voters—not merely from how its democracy functions.",
+      "fact": "India is the world's largest democracy... It functions through elections, constitutional values, and everyday civic practices.",
+      "hint": "Ask whether the Reason has anything to do with the SIZE of India's democracy."
+    },
+    {
+      "id": "civ6-050",
+      "type": "assertion",
+      "topic": "Right to Information Act",
+      "difficulty": "medium",
+      "q": "Assertion (A): The Right to Information Act strengthens accountability and democratic governance.\nReason (R): The Act empowers citizens to seek information from government departments.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true; citizens' power to access information from government departments is precisely what makes the RTI Act strengthen accountability and democratic governance.",
+      "fact": "This Act empowers citizens to seek information from government departments, thereby strengthening accountability and democratic governance."
+    }
+  ]
+}

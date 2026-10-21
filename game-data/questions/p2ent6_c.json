@@ -1,0 +1,342 @@
+{
+  "chapterId": "p2ent6",
+  "fragment": "c",
+  "questions": [
+    {
+      "id": "p2ent6-051",
+      "type": "mcq",
+      "topic": "Profit and Loss Account",
+      "difficulty": "easy",
+      "q": "What does the profit and loss account of a business show?",
+      "options": [
+        "The list of all customers who bought from the business",
+        "Whether the business has made a profit or a loss over a period of time, such as a month or a year",
+        "The number of products the business can make in a day",
+        "The market share of the business's competitors"
+      ],
+      "answer": 1,
+      "explanation": "The profit and loss account (or income statement) shows whether the business made a profit or a loss over a period such as a month or a year, helping make informed decisions.",
+      "fact": "One important record is the profit and loss account (or income statement). It shows whether the business has made a profit or a loss over a period of time, such as a month or a year."
+    },
+    {
+      "id": "p2ent6-052",
+      "type": "mcq",
+      "topic": "ABC Bakery Accounts",
+      "difficulty": "easy",
+      "q": "What was ABC bakery's total income for the month ended March 2026?",
+      "options": ["₹2,22,000", "₹73,000", "₹60,000", "₹2,95,000"],
+      "answer": 3,
+      "explanation": "ABC bakery's income — bread and buns ₹1,20,000, pastries and cookies ₹75,000, cake orders ₹85,000 and delivery charges ₹15,000 — added up to a total income of ₹2,95,000.",
+      "fact": "Total Income ₹2,95,000."
+    },
+    {
+      "id": "p2ent6-053",
+      "type": "mcq",
+      "topic": "ABC Bakery Accounts",
+      "difficulty": "hard",
+      "q": "Which was the largest expense in ABC bakery's monthly accounts?",
+      "options": ["Rent", "Salaries and wages for staff", "Raw materials such as flour and sugar", "Advertising and marketing"],
+      "answer": 2,
+      "explanation": "Raw materials (flour and sugar) cost ₹1,00,000 — more than rent (₹40,000), salaries (₹30,000) or advertising (₹8,000) — making it the largest expense head.",
+      "fact": "Raw materials: flour, sugar ₹1,00,000; Rent ₹40,000; Salaries and wages for staff ₹30,000; Advertising and marketing ₹8,000.",
+      "hint": "Compare each expense head in Fig. 6.11 with the others."
+    },
+    {
+      "id": "p2ent6-054",
+      "type": "truefalse",
+      "topic": "Fixed and Variable Costs",
+      "difficulty": "easy",
+      "q": "For ABC bakery, the rent of ₹40,000 is a variable cost that changes with the number of cakes produced.",
+      "answer": "false",
+      "explanation": "Rent is a fixed cost — it remains constant regardless of production volume or sales levels; variable costs, like ingredients and packaging, change with production.",
+      "fact": "Paying fixed costs: rent, equipment costs (ovens, mixers, refrigerators), etc."
+    },
+    {
+      "id": "p2ent6-055",
+      "type": "truefalse",
+      "topic": "Accounting",
+      "difficulty": "easy",
+      "q": "Accounting helps track what the business owns and how much has been borrowed.",
+      "answer": "true",
+      "explanation": "Through accounting records we can track what the business owns and how much it has borrowed, besides making informed decisions and complying with tax laws.",
+      "fact": "We can track what the business owns and how much has been borrowed."
+    },
+    {
+      "id": "p2ent6-056",
+      "type": "fillblank",
+      "topic": "Profit and Loss Account",
+      "difficulty": "hard",
+      "q": "The profit and loss account is also known as the income ___.",
+      "answerVariants": ["statement"],
+      "explanation": "The profit and loss account is also called the income statement; it summarises income, expenses, and the resulting profit or loss over a period of time.",
+      "fact": "One important record is the profit and loss account (or income statement).",
+      "hint": "It is another name beginning with 'income'."
+    },
+    {
+      "id": "p2ent6-057",
+      "type": "fillblank",
+      "topic": "ABC Bakery Accounts",
+      "difficulty": "easy",
+      "q": "In ABC bakery's profit and loss account, the tax to be paid for the month was ₹___.",
+      "answerVariants": ["13,000", "13000", "13 000"],
+      "explanation": "After a profit before tax of ₹73,000, ABC bakery had to pay ₹13,000 as tax, leaving a profit after tax of ₹60,000.",
+      "fact": "Tax to be paid – ₹13,000; Profit after tax (PAT) ₹60,000."
+    },
+    {
+      "id": "p2ent6-058",
+      "type": "order",
+      "topic": "Profit Calculation",
+      "difficulty": "hard",
+      "q": "Arrange the steps of calculating ABC bakery's monthly profit, in the order they appear in its profit and loss account.",
+      "orderItems": [
+        "Start with total sales of ₹2,95,000",
+        "Deduct total expenses of ₹2,22,000",
+        "Arrive at profit before tax of ₹73,000",
+        "Deduct the tax of ₹13,000",
+        "Arrive at profit after tax of ₹60,000"
+      ],
+      "explanation": "The profit calculation starts from total sales, subtracts total expenses to get the profit before tax, then subtracts tax to finally arrive at the profit after tax — exactly as shown in Fig. 6.11.",
+      "fact": "Total sales ₹2,95,000 – Total expenses ₹2,22,000 = PBT ₹73,000; Tax to be paid – ₹13,000; PAT ₹60,000."
+    },
+    {
+      "id": "p2ent6-059",
+      "type": "match",
+      "topic": "Finance Terms",
+      "difficulty": "medium",
+      "q": "Match each finance term used in the chapter with its meaning.",
+      "pairs": [
+        {"l": "Revenue", "r": "Total money earned from main operations or sale of goods and services"},
+        {"l": "Profit after tax (PAT)", "r": "Profit left after paying the tax to the government"},
+        {"l": "Fixed cost", "r": "Expense that remains constant regardless of production volume"},
+        {"l": "Variable cost", "r": "Expense that changes in direct proportion to production"},
+        {"l": "Inventory", "r": "Goods and materials held for production or resale"}
+      ],
+      "explanation": "Revenue is the total money earned, PAT is profit after tax, fixed costs stay constant, variable costs move with production, and inventory is the stock a business holds.",
+      "fact": "Revenue is the total money earned...; Fixed cost remains constant regardless of production volume; Variable cost changes in direct proportion to production; Inventory: goods, materials, and assets a business holds."
+    },
+    {
+      "id": "p2ent6-060",
+      "type": "mcq",
+      "topic": "Fixed and Variable Costs",
+      "difficulty": "medium",
+      "q": "In a bakery, which of the following is a variable cost that changes with the volume of production?",
+      "options": ["Monthly rent of the shop", "Cost of ingredients such as flour and sugar", "Insurance of the building", "Cost of purchasing the oven"],
+      "answer": 1,
+      "explanation": "The cost of ingredients rises as more goods are produced and falls when production drops — a classic variable cost; rent, insurance and equipment are fixed costs.",
+      "fact": "Variable cost: Expenses that change in direct proportion to the volume of goods or services a business produces or sells... covering raw materials, packaging, etc."
+    },
+    {
+      "id": "p2ent6-061",
+      "type": "truefalse",
+      "topic": "India's Startup Ecosystem",
+      "difficulty": "easy",
+      "q": "Today, India is the third-largest startup ecosystem in the world.",
+      "answer": "true",
+      "explanation": "With consistent hard work and perseverance, India has become the third-largest startup ecosystem in the world, powered by its young and talented population.",
+      "fact": "Today, India is the third-largest startup ecosystem in the world, powered by its young and talented population."
+    },
+    {
+      "id": "p2ent6-062",
+      "type": "fillblank",
+      "topic": "Unicorn Startups",
+      "difficulty": "easy",
+      "q": "A ___ is a startup valued at over 1 billion dollars.",
+      "answerVariants": ["unicorn"],
+      "explanation": "A unicorn is the term for a startup valued at over 1 billion dollars; India had around 120 of them in 2025.",
+      "fact": "around 120 unicorns (startups valued at over 1 billion dollars) in 2025."
+    },
+    {
+      "id": "p2ent6-063",
+      "type": "match",
+      "topic": "Startup Terms",
+      "difficulty": "easy",
+      "q": "Match each startup-related term with what it refers to.",
+      "pairs": [
+        {"l": "Startup", "r": "A young, early-stage company offering an innovative product or service"},
+        {"l": "E-commerce", "r": "Online shopping"},
+        {"l": "Fin-tech", "r": "Digital payments"},
+        {"l": "Health-tech", "r": "Online healthcare"},
+        {"l": "Agri-tech", "r": "Farming technology"}
+      ],
+      "explanation": "A startup is a young early-stage company; e-commerce, fin-tech, health-tech and agri-tech are the exciting fields in which India's startups and unicorns work.",
+      "fact": "These are working in exciting fields, like e-commerce (online shopping), fin-tech (digital payments), health-tech (online healthcare), and agri-tech (farming technology)."
+    },
+    {
+      "id": "p2ent6-064",
+      "type": "multiselect",
+      "topic": "Chettiar Community",
+      "difficulty": "medium",
+      "q": "Select all correct qualities for which the Chettiar community was known.",
+      "options": [
+        "Strong business ethics and trust-based lending",
+        "Excellent accounting and record-keeping skills",
+        "Reinvesting profits into trade, temples, education and community welfare",
+        "Refusing to trade with anyone outside their own community"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "The Chettiars were known for trust-based lending, excellent record-keeping, and reinvesting profits into trade, temples, education and community welfare — they actually traded widely across countries.",
+      "fact": "They were known for: Strong business ethics and trust-based lending; Excellent accounting and record-keeping skills; Reinvesting profits into trade, temples, education, and community welfare."
+    },
+    {
+      "id": "p2ent6-065",
+      "type": "mcq",
+      "topic": "Unicorn Startups",
+      "difficulty": "easy",
+      "q": "Around how many unicorns did India have in 2025, according to the chapter?",
+      "options": ["About 120", "About 12", "About 1,200", "About 45"],
+      "answer": 0,
+      "explanation": "The startup world is growing fast, with India having around 120 unicorns — startups valued at over 1 billion dollars — in 2025.",
+      "fact": "The startup world is growing fast, driven by creativity and technological support, with around 120 unicorns (startups valued at over 1 billion dollars) in 2025."
+    },
+    {
+      "id": "p2ent6-066",
+      "type": "wrongstatement",
+      "topic": "ABC Bakery Accounts",
+      "difficulty": "hard",
+      "q": "Which of these statements about ABC bakery's monthly accounts is INCORRECT?",
+      "options": [
+        "The bakery earned ₹15,000 from delivery charges",
+        "The bakery paid ₹10,000 as interest on its loan",
+        "The bakery's profit after tax for the month was ₹73,000",
+        "The bakery spent ₹8,000 on advertising and marketing"
+      ],
+      "answer": 2,
+      "explanation": "₹73,000 was the profit before tax; after paying ₹13,000 as tax, the profit after tax was ₹60,000. The other figures match the profit and loss account.",
+      "fact": "Profit before tax (PBT) ₹73,000; Tax to be paid – ₹13,000; Profit after tax (PAT) ₹60,000; Delivery charges ₹15,000; Interest on loan ₹10,000; Advertising ₹8,000.",
+      "hint": "Be careful about which profit figure comes before and after tax."
+    },
+    {
+      "id": "p2ent6-067",
+      "type": "wrongstatement",
+      "topic": "Accounting",
+      "difficulty": "medium",
+      "q": "Which of these statements about accounting is INCORRECT?",
+      "options": [
+        "It means keeping track of the money coming in (revenue) and the money going out (expenses)",
+        "It enables compliance with the tax laws and regulations of the country",
+        "Every entrepreneur needs to understand basic accounting concepts to know how their business is doing",
+        "Accounting involves recording only the money going out and completely ignoring the money coming in"
+      ],
+      "answer": 3,
+      "explanation": "Accounting records both directions of money — revenue coming in and expenses going out — so that the owner knows how the business is performing.",
+      "fact": "It means keeping track of the money coming in (revenue) and the money going out (expenses), and making sure all records or documents are correct."
+    },
+    {
+      "id": "p2ent6-068",
+      "type": "assertion",
+      "topic": "ABC Bakery Profit",
+      "difficulty": "medium",
+      "q": "Assertion (A): ABC bakery earned a profit after tax of ₹60,000 in the month.\nReason (R): Its total income of ₹2,95,000 exceeded total expenses of ₹2,22,000, giving a profit before tax of ₹73,000, and ₹13,000 went as tax.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true, and the arithmetic in R — ₹2,95,000 minus ₹2,22,000 equals ₹73,000, minus ₹13,000 tax — is exactly how the ₹60,000 profit after tax in A is obtained.",
+      "fact": "Total sales ₹2,95,000 – Total expenses ₹2,22,000 = PBT ₹73,000; Tax – ₹13,000; PAT ₹60,000."
+    },
+    {
+      "id": "p2ent6-069",
+      "type": "assertion",
+      "topic": "Functional Areas",
+      "difficulty": "hard",
+      "q": "Assertion (A): A business is sure to succeed even if one of its functional areas is completely weak.\nReason (R): The four functional areas of a business work together for its success.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "A is false — the chapter asks why a business can fail even with a great idea if one functional area is weak; R is true, as the areas work together and provide structure and coordination for success.",
+      "fact": "Every business has key functional areas... that work together for success; a business can fail even with a great idea if one functional area is weak."
+    },
+    {
+      "id": "p2ent6-070",
+      "type": "mcq",
+      "topic": "Dandekar Brothers",
+      "difficulty": "easy",
+      "q": "In 1931, brothers Digambar and Govind Dandekar started their small business of selling ink powder in",
+      "options": ["South Mumbai", "North Delhi", "Chennai", "Glasgow"],
+      "answer": 2,
+      "explanation": "The Dandekar brothers started their small business in South Mumbai in 1931, selling ink powder with limited resources.",
+      "fact": "In 1931, two brothers, Digambar and Govind Dandekar, started a small business in South Mumbai selling ink powder."
+    },
+    {
+      "id": "p2ent6-071",
+      "type": "mcq",
+      "topic": "Dandekar Brothers",
+      "difficulty": "medium",
+      "q": "Why did the Dandekar brothers travel to Glasgow?",
+      "options": [
+        "To open a branch of their ink shop there",
+        "To import recycled glass bottles",
+        "To study colour chemistry and improve their products",
+        "To attend an exhibition of Indian art"
+      ],
+      "answer": 2,
+      "explanation": "Noticing that artists in India lacked good art materials, the brothers travelled to Glasgow to study colour chemistry, and later set up a laboratory in India to develop art supplies.",
+      "fact": "They travelled to Glasgow to study colour chemistry and improve their products."
+    },
+    {
+      "id": "p2ent6-072",
+      "type": "truefalse",
+      "topic": "Lijjat Exports",
+      "difficulty": "medium",
+      "q": "Lijjat Papad began exporting its products only after 2023.",
+      "answer": "false",
+      "explanation": "Exports began much earlier — in the 1980s and 90s, when Lijjat also expanded into flour, masalas and soaps, crossing a turnover of ₹100 crore.",
+      "fact": "In the 1980s and 90s, Lijjat expanded into other products like flour, masalas, and soaps, and exports began too, crossing a turnover of ₹100 crore."
+    },
+    {
+      "id": "p2ent6-073",
+      "type": "mcq",
+      "topic": "Chettiar Community",
+      "difficulty": "medium",
+      "q": "Besides India, in which of these countries did the Chettiars historically operate?",
+      "options": [
+        "Japan, China and Korea",
+        "Sri Lanka, Burma (now Myanmar) and Malaysia",
+        "The USA and Canada",
+        "Brazil and Argentina"
+      ],
+      "answer": 1,
+      "explanation": "The Chettiars were traders, bankers and moneylenders who operated not only across India but also in Sri Lanka, Burma (now Myanmar), Malaysia and other parts of Southeast Asia.",
+      "fact": "Historically, Chettiars were traders, bankers, and moneylenders, operating not only across India but also in Sri Lanka, Burma (now Myanmar), Malaysia, and other parts of Southeast Asia."
+    },
+    {
+      "id": "p2ent6-074",
+      "type": "assertion",
+      "topic": "Chettiar Community",
+      "difficulty": "medium",
+      "q": "Assertion (A): The Chettiars often built wealth without formal banks.\nReason (R): They reinvested their profits into trade, temples, education and community welfare.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both are true — the Chettiars built wealth through trade in salt, rice, textiles and finance often without formal banks, and they reinvested profits in community causes — but reinvestment does not explain how they managed without banks.",
+      "fact": "The Chettiar community built wealth through trade in salt, rice, textiles, and finance, often without formal banks."
+    },
+    {
+      "id": "p2ent6-075",
+      "type": "multiselect",
+      "topic": "Business Challenges",
+      "difficulty": "medium",
+      "q": "Select all correct examples of challenges and risks that a bakery may face, as per the chapter.",
+      "options": [
+        "A guaranteed profit every month without any effort",
+        "High competition from other bakeries in the locality",
+        "Rising cost of raw materials",
+        "Changing customer preferences and volatile cash flows"
+      ],
+      "answerIndices": [1, 2, 3],
+      "explanation": "Challenges and risks include high competition, rising raw material costs, changing customer preferences and volatile cash flows — profits in business are never guaranteed.",
+      "fact": "These are threats that disrupt operations or cause losses, for example, high competition, rising cost of raw materials, changing customer preferences, volatile cash flows, etc."
+    }
+  ]
+}

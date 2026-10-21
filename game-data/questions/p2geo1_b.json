@@ -1,0 +1,402 @@
+{
+  "chapterId": "p2geo1",
+  "fragment": "b",
+  "questions": [
+    {
+      "id": "p2geo1-026",
+      "type": "mcq",
+      "topic": "Tidal range",
+      "difficulty": "medium",
+      "q": "The Gulf of Khambhat has one of the highest tidal ranges, at about...",
+      "options": [
+        "4-5 metres",
+        "12 metres",
+        "30 metres",
+        "1 metre"
+      ],
+      "answer": 1,
+      "explanation": "The Gulf of Khambhat has one of the highest tidal ranges, at about 12 metres, far above the 4-5 metre ranges found in some ports.",
+      "fact": "The Gulf of Khambhat has one of the highest tidal ranges, at about 12 metres."
+    },
+    {
+      "id": "p2geo1-027",
+      "type": "truefalse",
+      "topic": "Tides and ports",
+      "difficulty": "medium",
+      "q": "Before a ship berths at a port, it must check both the water depth and the tidal range to ensure safe docking.",
+      "answer": "true",
+      "explanation": "Tidal information is essential in ports and coastal areas. Before berthing, a ship must check both water depth and tidal range, especially during low tide, to dock safely.",
+      "fact": "Before a ship berths at a port, it must check both the water depth and the tidal range to ensure safe docking, especially during low tide."
+    },
+    {
+      "id": "p2geo1-028",
+      "type": "mcq",
+      "topic": "Singapore Strait",
+      "difficulty": "hard",
+      "q": "Why do Very Large Crude Carriers (VLCCs) passing through the Singapore Strait often wait for hours to transit only during high tide?",
+      "options": [
+        "Ships are not allowed to move during low tide by law",
+        "High tide makes the water calmer for steering",
+        "The strait has shallow areas, and high tide provides sufficient water depth",
+        "Fuel is cheaper during high tide"
+      ],
+      "answer": 2,
+      "explanation": "Some sea channels like the Singapore Strait contain shallow areas. VLCCs wait for high tide so that there is sufficient water depth and they can avoid running aground.",
+      "fact": "Ships such as Very Large Crude Carriers (VLCCs) passing through shallow areas of the Singapore Strait often wait for hours to transit only during high tide to ensure sufficient water depth and avoid running aground."
+    },
+    {
+      "id": "p2geo1-029",
+      "type": "multiselect",
+      "topic": "Tides",
+      "difficulty": "easy",
+      "q": "Select all correct statements about tides.",
+      "options": [
+        "Tides occur only during storms.",
+        "Tides are the rhythmic rise and fall of ocean water.",
+        "High tide is also called ebb tide.",
+        "Tidal information is essential in ports and coastal areas."
+      ],
+      "answerIndices": [
+        1,
+        3
+      ],
+      "explanation": "Tides are the rhythmic rise and fall of ocean water; the highest level is called high tide or FLOOD tide (ebb is low tide), and tidal information is essential in ports and coastal areas for safe sailing and docking.",
+      "fact": "Tides are the rhythmic rise and fall of ocean water; high tide is flood tide, low tide is ebb tide, and tidal information is essential in ports and coastal areas."
+    },
+    {
+      "id": "p2geo1-030",
+      "type": "mcq",
+      "topic": "Tidal energy sites",
+      "difficulty": "medium",
+      "q": "Which of these are among the major tidal energy sites in India?",
+      "options": [
+        "The Alps and the Rockies",
+        "The Thar Desert and Ladakh",
+        "Delhi, Punjab and Haryana",
+        "The Gulf of Kutch, the Gulf of Khambhat and the Sundarbans"
+      ],
+      "answer": 3,
+      "explanation": "Although tidal energy is not yet widely used on a large scale in India, the Gulf of Kutch, the Gulf of Khambhat and the Sundarbans have been identified as suitable sites for its development.",
+      "fact": "The Gulf of Kutch, the Gulf of Khambhat, and the Sundarbans are among the major tidal energy sites in India."
+    },
+    {
+      "id": "p2geo1-031",
+      "type": "assertion",
+      "topic": "Tidal currents",
+      "difficulty": "medium",
+      "q": "Assertion (A): Tidal changes generate strong currents in coastal areas.\nReason (R): Large volumes of water flow in and out of coastal areas during tides.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Tidal changes generate strong currents because large volumes of water flow in and out of coastal areas. These tidal currents can reach speeds of 5-6 knots (about 9-11 km/h), so R explains A.",
+      "fact": "Tidal changes also generate strong currents because large volumes of water flow in and out of coastal areas; these can reach 5-6 knots (about 9-11 km/h)."
+    },
+    {
+      "id": "p2geo1-032",
+      "type": "truefalse",
+      "topic": "Tides and fishing",
+      "difficulty": "easy",
+      "q": "During high tide, many fish move closer to the shore in search of food and shelter.",
+      "answer": "true",
+      "explanation": "High tides support fishing activities because many fish move closer to the shore in search of food and shelter, enabling fishing communities to obtain a better catch.",
+      "fact": "During high tide, many fish move closer to the shore in search of food and shelter, enabling fishing communities to obtain a better catch."
+    },
+    {
+      "id": "p2geo1-033",
+      "type": "fillblank",
+      "topic": "India's coastline",
+      "difficulty": "hard",
+      "q": "India has a vast coastline of about ___ kilometres.",
+      "answerVariants": [
+        "11,098.81",
+        "11098.81",
+        "11,098",
+        "11098"
+      ],
+      "explanation": "India has a vast coastline of 11,098.81 kilometres. This long coastline gives India great access to the sea for fishing, trade and tidal energy development.",
+      "fact": "India has a vast coastline of 11,098.81 kilometres.",
+      "hint": "It is a five-figure number a little above 11,000 km."
+    },
+    {
+      "id": "p2geo1-034",
+      "type": "mcq",
+      "topic": "Coriolis force",
+      "difficulty": "medium",
+      "q": "Due to the Coriolis force, moving objects in the Northern Hemisphere are deflected...",
+      "options": [
+        "to the right",
+        "to the left",
+        "upwards",
+        "downwards"
+      ],
+      "answer": 0,
+      "explanation": "The Coriolis force, caused by the Earth's rotation, deflects any free moving object from its straight path to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.",
+      "fact": "Coriolis force deflects any free moving object to the right in the Northern Hemisphere and to the left in the Southern Hemisphere."
+    },
+    {
+      "id": "p2geo1-035",
+      "type": "multiselect",
+      "topic": "Ocean current causes",
+      "difficulty": "medium",
+      "q": "Select all correct: ocean currents are caused by factors such as...",
+      "options": [
+        "Differences in temperature and salinity",
+        "The phase of the Moon",
+        "Winds",
+        "The Earth's rotation (Coriolis force)"
+      ],
+      "answerIndices": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Ocean currents are caused by winds, the Earth's rotation (Coriolis force), differences in temperature and salinity, and the shape of continents and ocean basins. The Moon's phase causes tides, not currents.",
+      "fact": "Ocean currents are caused by winds, the Earth's rotation (Coriolis force), differences in temperature and salinity, and the shape of continents and ocean basins."
+    },
+    {
+      "id": "p2geo1-036",
+      "type": "match",
+      "topic": "Ocean currents",
+      "difficulty": "easy",
+      "q": "Match each term related to ocean currents with its correct description.",
+      "pairs": [
+        {
+          "l": "Gulf Stream",
+          "r": "A warm current originating in the Gulf of Mexico"
+        },
+        {
+          "l": "Labrador Current",
+          "r": "A cold current flowing along the east coast of Canada"
+        },
+        {
+          "l": "Warm currents",
+          "r": "Currents flowing from warmer regions; shown in red on maps"
+        },
+        {
+          "l": "Cold currents",
+          "r": "Currents flowing from colder regions; shown in blue on maps"
+        },
+        {
+          "l": "Fishing grounds",
+          "r": "Regions where warm and cold currents meet"
+        }
+      ],
+      "explanation": "Currents from warmer regions are warm currents (red on maps) like the Gulf Stream, while those from colder regions are cold currents (blue) like the Labrador Current. Where they meet, nutrient-rich waters create fishing grounds.",
+      "fact": "The Gulf Stream is a warm current from the Gulf of Mexico; the Labrador Current is a cold current along Canada's east coast; regions where warm and cold currents meet are fishing grounds."
+    },
+    {
+      "id": "p2geo1-037",
+      "type": "truefalse",
+      "topic": "Currents and climate",
+      "difficulty": "medium",
+      "q": "Ocean currents can affect the temperature of nearby coastal regions.",
+      "answer": "true",
+      "explanation": "Currents affect coastal temperatures: the warm Gulf Stream keeps Norway's waters warm, while the cold Labrador Current supports sea ice and icebergs along Canada's east coast.",
+      "fact": "The warm Gulf Stream keeps Norwegian waters warm, while the cold Labrador Current carries freezing water and supports sea ice and icebergs."
+    },
+    {
+      "id": "p2geo1-038",
+      "type": "assertion",
+      "topic": "Gulf Stream and Norway",
+      "difficulty": "medium",
+      "q": "Assertion (A): Sea ice does not form easily in the Norwegian region despite its high latitude.\nReason (R): The warm Gulf Stream flows towards Norway and keeps its waters relatively warm.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "The Gulf Stream, a warm current originating in the Gulf of Mexico, flows towards Norway and keeps its waters relatively warm. This is why sea ice does not form easily there despite latitudes of 60-70 degrees, so R explains A.",
+      "fact": "The Gulf Stream flows towards Norway and keeps its waters relatively warm; as a result, sea ice does not form easily in the Norwegian region despite its high latitude (60-70 degrees)."
+    },
+    {
+      "id": "p2geo1-039",
+      "type": "mcq",
+      "topic": "GEMINI device",
+      "difficulty": "easy",
+      "q": "What is GEMINI?",
+      "options": [
+        "A warship of the Indian Navy",
+        "A type of fishing net",
+        "A handheld device designed for the safety of fishermen at sea",
+        "A satellite used for television broadcasts"
+      ],
+      "answer": 2,
+      "explanation": "GEMINI (GAGAN-Enabled Mariner's Instrument for Navigation and Information) is a handheld device designed for fishermen that plays an important role in ensuring the safety of fishing communities at sea.",
+      "fact": "GEMINI is a handheld device designed for fishermen that plays an important role in ensuring the safety of fishing communities at sea."
+    },
+    {
+      "id": "p2geo1-040",
+      "type": "mcq",
+      "topic": "GEMINI device",
+      "difficulty": "easy",
+      "q": "The GEMINI device receives data from which satellite?",
+      "options": [
+        "CARTOSAT",
+        "INSAT",
+        "IRS",
+        "GAGAN"
+      ],
+      "answer": 3,
+      "explanation": "The GEMINI device receives data from the GAGAN satellite and transfers it to fishermen's mobile phones through Bluetooth.",
+      "fact": "The GEMINI device receives data from the GAGAN satellite and transfers it to fishermen's mobile phones through Bluetooth."
+    },
+    {
+      "id": "p2geo1-041",
+      "type": "truefalse",
+      "topic": "GEMINI device",
+      "difficulty": "easy",
+      "q": "The GEMINI device receives satellite information and transmits it to fishermen's mobile phones.",
+      "answer": "true",
+      "explanation": "GEMINI receives satellite information and transmits it to mobile phones through Bluetooth. Using its dedicated mobile application, fishermen can access important information in their local language.",
+      "fact": "The GEMINI device receives satellite information and transmits it to mobile phones through Bluetooth."
+    },
+    {
+      "id": "p2geo1-042",
+      "type": "multiselect",
+      "topic": "GEMINI information",
+      "difficulty": "medium",
+      "q": "Select all correct: what information can fishermen access through GEMINI?",
+      "options": [
+        "Cyclone and tsunami warnings",
+        "Potential fishing zone advisories",
+        "Crop insurance details",
+        "Alerts about high waves and strong winds"
+      ],
+      "answerIndices": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Through GEMINI, fishermen can access alerts about high waves and strong winds, cyclone and tsunami warnings, potential fishing zone advisories, current speeds, bathymetry data, mapping and risk management information.",
+      "fact": "Using GEMINI, fishermen can access alerts about high waves and strong winds, cyclone and tsunami warnings, potential fishing zone advisories, current speeds, bathymetry data, mapping and risk management information."
+    },
+    {
+      "id": "p2geo1-043",
+      "type": "wrongstatement",
+      "topic": "GEMINI range",
+      "difficulty": "hard",
+      "q": "Which of these statements about the GEMINI device is INCORRECT?",
+      "options": [
+        "At present, GEMINI can transmit information only up to 50 nautical miles into the sea.",
+        "The upgraded GEMINI system is expected to provide a two-way communication system on a pilot basis.",
+        "GEMINI devices are installed on satellites to monitor the ocean.",
+        "The upgraded system will benefit fishermen travelling up to 300 nautical miles."
+      ],
+      "answer": 2,
+      "explanation": "GEMINI is a handheld device carried by fishermen, not a device installed on satellites. It currently works up to 50 nautical miles, and its upgraded version will allow two-way communication for fishermen going up to 300 nautical miles.",
+      "fact": "GEMINI is a handheld device; at present it can transmit information up to 50 nautical miles, and an upgraded version will provide two-way communication benefiting fishermen travelling up to 300 nautical miles."
+    },
+    {
+      "id": "p2geo1-044",
+      "type": "fillblank",
+      "topic": "PMMSY scheme",
+      "difficulty": "medium",
+      "q": "Under the Pradhan Mantri Matsya Sampada ___ (PMMSY), the government provides financial support for GEMINI devices.",
+      "answerVariants": [
+        "Yojana",
+        "yojana"
+      ],
+      "explanation": "Under the Pradhan Mantri Matsya Sampada Yojana (PMMSY), the government provides financial support for GEMINI devices to improve the safety of coastal communities while they are at sea.",
+      "fact": "Under the Pradhan Mantri Matsya Sampada Yojana (PMMSY), the government provides financial support for GEMINI devices."
+    },
+    {
+      "id": "p2geo1-045",
+      "type": "order",
+      "topic": "GEMINI workflow",
+      "difficulty": "hard",
+      "q": "Arrange the steps of how GEMINI works, from first to last.",
+      "orderItems": [
+        "The GAGAN satellite sends data to the GEMINI device",
+        "The GEMINI device receives the data at sea",
+        "The data is transferred to mobile phones through Bluetooth",
+        "The INCOIS mobile application decodes and displays the information in regional languages"
+      ],
+      "explanation": "GEMINI first receives data from the GAGAN satellite, then transfers it to fishermen's phones through Bluetooth, and finally the INCOIS app decodes and displays it in nine regional languages.",
+      "fact": "The GEMINI device receives data from the GAGAN satellite, transfers it to mobile phones through Bluetooth, and the INCOIS application decodes and displays it in nine regional languages."
+    },
+    {
+      "id": "p2geo1-046",
+      "type": "fillblank",
+      "topic": "GEMINI languages",
+      "difficulty": "hard",
+      "q": "The INCOIS mobile application decodes and displays GEMINI information in ___ regional languages.",
+      "answerVariants": [
+        "nine",
+        "9"
+      ],
+      "explanation": "The INCOIS mobile application decodes and displays GEMINI information in nine regional languages, so fishermen can understand warnings and advisories in their own language.",
+      "fact": "The INCOIS mobile application decodes and displays GEMINI information in nine regional languages."
+    },
+    {
+      "id": "p2geo1-047",
+      "type": "mcq",
+      "topic": "Cyclone naming",
+      "difficulty": "hard",
+      "q": "Cyclones in the North Indian Ocean are named sequentially from a list of 169 names submitted by how many member countries?",
+      "options": [
+        "13",
+        "10",
+        "25",
+        "50"
+      ],
+      "answer": 0,
+      "explanation": "Cyclones in the North Indian Ocean are named sequentially from a list of 169 names submitted by 13 member countries, including India. This system aids clear communication and public awareness.",
+      "fact": "Cyclones in the North Indian Ocean are named sequentially from a list of 169 names submitted by 13 member countries, including India."
+    },
+    {
+      "id": "p2geo1-048",
+      "type": "wrongstatement",
+      "topic": "Cyclones",
+      "difficulty": "medium",
+      "q": "Which of these statements about cyclones is INCORRECT?",
+      "options": [
+        "Cyclones can form only over cold polar waters.",
+        "Cyclones are caused by atmospheric disturbances over warm ocean waters.",
+        "India's Cyclone Warning Services monitor storms along both the eastern and western coasts.",
+        "Cyclones are large rotating storms."
+      ],
+      "answer": 0,
+      "explanation": "Cyclones are caused by atmospheric disturbances over WARM ocean waters, not cold polar waters. India's Cyclone Warning Services monitor storms along both coasts and advanced technologies help predict cyclones early.",
+      "fact": "Cyclones are caused by atmospheric disturbances over warm ocean waters; India has Cyclone Warning Services monitoring storms along both coasts."
+    },
+    {
+      "id": "p2geo1-049",
+      "type": "assertion",
+      "topic": "Early warning systems",
+      "difficulty": "hard",
+      "q": "Assertion (A): Early warning systems help save lives during cyclones and tsunamis.\nReason (R): The ocean floor has features like mountains, valleys, plateaus and trenches.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Early warning systems detect hazards, predict disasters and issue timely warnings so people can evacuate. The features of the ocean floor are a true fact about submarine relief, but they do not explain why warning systems save lives.",
+      "fact": "Early Warning Systems help detect cyclones and tsunamis, predict disasters and issue timely warnings so that people can evacuate and stay safe."
+    },
+    {
+      "id": "p2geo1-050",
+      "type": "mcq",
+      "topic": "Simeulue Island",
+      "difficulty": "hard",
+      "q": "The island of Simeulue was largely spared during the 2004 Indian Ocean tsunami. What reason do researchers suggest for this?",
+      "options": [
+        "A high wall built around the island blocked the waves",
+        "Local folklore helped residents recognise tsunami warning signs and respond quickly",
+        "The island was located far from any ocean",
+        "The tsunami never reached Indonesia"
+      ],
+      "answer": 1,
+      "explanation": "Researchers suggest that Simeulue was partly spared because local folklore, passed down through generations, helped residents recognise the warning signs of a tsunami and respond quickly.",
+      "fact": "The Island of Simeulue was largely spared from the 2004 tsunami partly because local folklore helped residents recognise the warning signs of a tsunami and respond quickly.",
+      "hint": "Think about knowledge passed down through generations."
+    }
+  ]
+}

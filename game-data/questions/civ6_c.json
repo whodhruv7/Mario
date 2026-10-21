@@ -1,0 +1,317 @@
+{
+  "chapterId": "civ6",
+  "fragment": "c",
+  "questions": [
+    {
+      "id": "civ6-051",
+      "type": "mcq",
+      "topic": "Direct democracy",
+      "difficulty": "easy",
+      "q": "Which country is given as an example of a direct democracy?",
+      "options": ["India", "Switzerland", "United States of America", "United Kingdom"],
+      "answer": 1,
+      "explanation": "In Switzerland, citizens directly participate in most decision-making processes; such direct democracy is difficult to follow in large countries.",
+      "fact": "Direct Democracy: Citizens directly participate in most decision-making processes... Difficult to follow in large countries. e.g. Switzerland."
+    },
+    {
+      "id": "civ6-052",
+      "type": "mcq",
+      "topic": "Presidential democracy",
+      "difficulty": "easy",
+      "q": "Which country is given as an example of a presidential democracy?",
+      "options": ["India", "Canada", "Switzerland", "United States of America"],
+      "answer": 3,
+      "explanation": "In the United States of America, the executive is independent of the legislature and the President is elected by, and accountable to, the people.",
+      "fact": "Presidential Democracy: The Executive is independent of the legislature. President is elected by the people. President is accountable to the people. e.g. United States of America."
+    },
+    {
+      "id": "civ6-053",
+      "type": "mcq",
+      "topic": "Parliamentary democracy",
+      "difficulty": "hard",
+      "q": "Which of these correctly describes a parliamentary democracy?",
+      "options": ["Members of the executive are also part of the legislature", "The executive is completely independent of the legislature", "Citizens directly participate in most decision-making", "The executive is not answerable to any institution"],
+      "answer": 0,
+      "explanation": "In a parliamentary democracy, members of the executive are drawn from the legislature, which keeps the executive accountable to the legislature.",
+      "fact": "Parliamentary Democracy: Members of the Executive are also part of the legislature. The Executive is accountable to the legislature."
+    },
+    {
+      "id": "civ6-054",
+      "type": "mcq",
+      "topic": "Democracies around the world",
+      "difficulty": "medium",
+      "q": "Which of these countries has an unwritten constitution?",
+      "options": ["India", "United States of America", "United Kingdom", "Switzerland"],
+      "answer": 2,
+      "explanation": "The United Kingdom has an unwritten constitution and parliamentary sovereignty, whereas India, the USA and Switzerland have written constitutions.",
+      "fact": "United Kingdom: Unwritten constitution, parliamentary Sovereignty, multi-party system."
+    },
+    {
+      "id": "civ6-055",
+      "type": "mcq",
+      "topic": "Public Interest Litigation",
+      "difficulty": "medium",
+      "q": "Which of the following best describes Public Interest Litigation (PIL)?",
+      "options": ["A legal action initiated in a court of law for the enforcement of public interest", "A type of election conducted by the Election Commission", "A committee of Parliament that frames laws", "An agreement between two political parties"],
+      "answer": 0,
+      "explanation": "PIL is a legal action initiated in a court for the enforcement of public interest; it is a judiciary initiative taken to ensure access to justice for all.",
+      "fact": "Public Interest Litigation: A legal action initiated in a court of law for the enforcement of public interest."
+    },
+    {
+      "id": "civ6-056",
+      "type": "mcq",
+      "topic": "India's parliamentary system",
+      "difficulty": "medium",
+      "q": "In India, executive power lies with:",
+      "options": ["The President alone", "The council of ministers headed by the Prime Minister", "The Supreme Court", "The Election Commission of India"],
+      "answer": 1,
+      "explanation": "India is a parliamentary democracy in which executive power lies with the council of ministers headed by the Prime Minister.",
+      "fact": "India: Executive power lies with the council of ministers headed by the Prime Minister."
+    },
+    {
+      "id": "civ6-057",
+      "type": "mcq",
+      "topic": "Sovereignty meaning",
+      "difficulty": "hard",
+      "q": "The word 'sovereignty' is derived from which Latin word?",
+      "options": ["Civis, meaning citizen", "Lex, meaning law", "Superanus, meaning supreme", "Populus, meaning people"],
+      "answer": 2,
+      "explanation": "Sovereignty comes from the Latin word superanus, meaning 'supreme'—the supreme, final and independent legal authority of a State over its territory and citizens.",
+      "fact": "Sovereignty: Derived from the Latin word superanus, meaning 'supreme'."
+    },
+    {
+      "id": "civ6-058",
+      "type": "mcq",
+      "topic": "Living democracy facts",
+      "difficulty": "easy",
+      "q": "On average, a Member of Parliament in India represents about how many people?",
+      "options": ["25 lakh", "2,800", "96.8 crore", "One lakh"],
+      "answer": 0,
+      "explanation": "On average, an MP represents about 25 lakh people, which shows the enormous scale at which democratic representation operates in India.",
+      "fact": "On average, a Member of Parliament represents about 25 lakh people. This shows the enormous scale at which democratic representation operates in India."
+    },
+    {
+      "id": "civ6-059",
+      "type": "truefalse",
+      "topic": "Living democracy facts",
+      "difficulty": "easy",
+      "q": "Elections in India are conducted in 22 scheduled languages, and election symbols help those who cannot read to vote independently.",
+      "answer": "true",
+      "explanation": "The use of 22 scheduled languages and easily recognisable election symbols ensures that every citizen, including those who cannot read, can vote independently.",
+      "fact": "Elections in India are conducted in 22 scheduled languages... Election symbols are used so that every citizen, including those who cannot read, can vote independently."
+    },
+    {
+      "id": "civ6-060",
+      "type": "truefalse",
+      "topic": "Living democracy facts",
+      "difficulty": "easy",
+      "q": "India sets up more than one million polling stations, and in some cases a polling station is created even for a single voter.",
+      "answer": "true",
+      "explanation": "Polling stations operate even in remote mountains, forests, deserts and islands, and some are set up for a single voter, making Indian elections truly inclusive.",
+      "fact": "More than one million polling stations, including those in remote areas, such as mountains, forests, deserts, and islands, are set up. In some cases, polling stations are created even for a single voter."
+    },
+    {
+      "id": "civ6-061",
+      "type": "truefalse",
+      "topic": "Participatory democracy",
+      "difficulty": "medium",
+      "q": "Participatory democracy limits citizens' involvement to casting their votes in elections.",
+      "answer": "false",
+      "explanation": "Participatory democracy emphasises greater citizen involvement beyond elections, through local councils, public consultations and community-driven initiatives.",
+      "fact": "Participatory democracy emphasises greater involvement of citizens not only through elections but also through active engagement in shaping policies and governance."
+    },
+    {
+      "id": "civ6-062",
+      "type": "truefalse",
+      "topic": "Tribal self-governance",
+      "difficulty": "hard",
+      "q": "Autonomous District Councils in specific north-eastern regions have legislative and judicial authority to preserve tribal customs.",
+      "answer": "true",
+      "explanation": "The Constitution establishes Autonomous District Councils in specific north-eastern regions, granting them legislative and judicial authority to protect tribal heritage.",
+      "fact": "In specific north-eastern regions, Autonomous District Councils (ADCs) are established, granting them legislative and judicial authority to preserve tribal customs."
+    },
+    {
+      "id": "civ6-063",
+      "type": "fillblank",
+      "topic": "Three-tier system",
+      "difficulty": "easy",
+      "q": "India's constitutional framework operates through a ___-tier system comprising the Union, State, and Local governments.",
+      "answerVariants": ["three", "3"],
+      "explanation": "The three-tier system of Union, State and Local governments facilitates administrative efficiency and democratic participation.",
+      "fact": "India's constitutional framework operates through a three-tier system comprising the Union, State, and Local governments, facilitating administrative efficiency and democratic participation."
+    },
+    {
+      "id": "civ6-064",
+      "type": "fillblank",
+      "topic": "PESA Act 1996",
+      "difficulty": "medium",
+      "q": "The PESA Act of 1996 empowers the ___ Sabha as the primary decision-making body in tribal areas.",
+      "answerVariants": ["Gram"],
+      "explanation": "The PESA Act (Panchayats Extension to Scheduled Areas) of 1996 applies to tribal areas and empowers the Gram Sabha as the primary decision-making body.",
+      "fact": "The PESA Act (Panchayats Extension to Scheduled Areas) of 1996 applies to tribal areas in other states, empowering the Gram Sabha as the primary decision-making body."
+    },
+    {
+      "id": "civ6-065",
+      "type": "fillblank",
+      "topic": "World's longest Constitution",
+      "difficulty": "easy",
+      "q": "The Constituent Assembly drafted the world's ___ written Constitution.",
+      "answerVariants": ["longest"],
+      "explanation": "India's Constitution is the world's longest written Constitution; it took the Assembly 2 years, 11 months and 18 days to draft it.",
+      "fact": "It took the Assembly 2 years, 11 months, and 18 days to draft the world's longest written Constitution."
+    },
+    {
+      "id": "civ6-066",
+      "type": "fillblank",
+      "topic": "Quorum meaning",
+      "difficulty": "hard",
+      "q": "The presence of the minimum number of members needed to make an assembly's proceedings valid is called ___.",
+      "answerVariants": ["quorum"],
+      "explanation": "Quorum is the minimum number of members required for valid assembly proceedings; the Jethipura Gram Panchayat ensured adequate quorum in its Gram Sabhas.",
+      "fact": "Quorum: The presence of the minimum number of members in the meetings of an assembly to make the proceedings valid."
+    },
+    {
+      "id": "civ6-067",
+      "type": "match",
+      "topic": "Democracies around the world",
+      "difficulty": "medium",
+      "q": "Match each country with its key feature as described in the chapter.",
+      "pairs": [
+        {"l": "India", "r": "Multi-party democracy with a written constitution and federalism"},
+        {"l": "United Kingdom", "r": "Constitutional Monarchy with the Monarch as Head of State"},
+        {"l": "United States of America", "r": "Written constitution with two major parties"},
+        {"l": "Switzerland", "r": "Direct democracy with executive power in the Federal Council"},
+        {"l": "Canada", "r": "Governor-General appointed by the Crown of the UK"}
+      ],
+      "explanation": "Each democracy organises power differently; the chapter's table compares their systems of government, heads of state and key features.",
+      "fact": "The chapter's table on democracies across the world lists the type of democracy, system of government, head of state and key features for India, Canada, the UK, Switzerland and the USA."
+    },
+    {
+      "id": "civ6-068",
+      "type": "match",
+      "topic": "Constitutional articles",
+      "difficulty": "hard",
+      "q": "Match each Article of the Constitution with what it deals with.",
+      "pairs": [
+        {"l": "Article 352", "r": "Declaration of National Emergency"},
+        {"l": "Article 356", "r": "President's Rule"},
+        {"l": "Article 360", "r": "Financial Emergency"},
+        {"l": "Article 368", "r": "Amendment of the Constitution"},
+        {"l": "Article 46", "r": "Promoting the interests of weaker sections like SCs and STs"}
+      ],
+      "explanation": "Articles 352, 356 and 360 deal with National Emergency, President's Rule and Financial Emergency; Article 368 provides for amendments, and Article 46 protects weaker sections.",
+      "fact": "Articles 352, 356, and 360 of the Constitution of India deal with the provisions for declaration of National Emergency, President's Rule, and Financial Emergency, respectively."
+    },
+    {
+      "id": "civ6-069",
+      "type": "order",
+      "topic": "Government formation",
+      "difficulty": "medium",
+      "q": "Arrange the steps of government formation in India after elections in the correct order.",
+      "orderItems": [
+        "Elections are held to the Parliament or State Assemblies",
+        "A party or coalition of parties secures more than 50 per cent of the seats",
+        "The winning party or coalition forms the government",
+        "Parties with fewer seats constitute the opposition"
+      ],
+      "explanation": "After elections, the party or coalition with more than 50 per cent of the seats forms the government, and the parties with fewer seats make up the opposition.",
+      "fact": "The party—or a coalition of parties—that secures more than 50 per cent of the seats forms the government, while those with fewer seats constitute the opposition."
+    },
+    {
+      "id": "civ6-070",
+      "type": "order",
+      "topic": "Emergency 1975-77",
+      "difficulty": "hard",
+      "q": "Arrange the events of the Emergency period (1975-77) in the correct order.",
+      "orderItems": [
+        "Unemployment, inflation and allegations of misgovernance led to widespread protests",
+        "A National Emergency was imposed on the grounds of internal disturbance",
+        "Fundamental Rights were suspended and the press was censored",
+        "Mass movements mobilised students and citizens, especially in Bihar and Gujarat",
+        "The Emergency was lifted and general elections were held"
+      ],
+      "explanation": "Protests grew first, the Emergency was imposed in June 1975, Fundamental Rights were suspended and the press censored, mass movements mobilised citizens, and finally the Emergency ended in 1977 with elections.",
+      "fact": "In June 1975, a National Emergency was imposed on the grounds of internal disturbance... The Emergency was lifted in 1977, and general elections were held."
+    },
+    {
+      "id": "civ6-071",
+      "type": "multiselect",
+      "topic": "Living democracy facts",
+      "difficulty": "easy",
+      "q": "Select all correct facts about India's living democracy.",
+      "options": [
+        "More people vote in Indian elections than the total population of many countries",
+        "India has over 2,800 registered political parties",
+        "India's electorate includes people from varied linguistic, religious and socio-economic backgrounds",
+        "Only wealthy citizens are allowed to vote in Indian elections"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Indian elections are unmatched in scale and inclusiveness—more voters than many countries' populations, over 2,800 registered parties, and an electorate drawn from every linguistic, religious and socio-economic background.",
+      "fact": "More people vote in Indian elections than the total population of many countries... India has over 2,800 registered political parties... The Indian electorate includes people from varied linguistic, religious, and socio-economic backgrounds."
+    },
+    {
+      "id": "civ6-072",
+      "type": "multiselect",
+      "topic": "Grassroots democracy cases",
+      "difficulty": "medium",
+      "q": "Select all correct statements about the grassroots democracy case studies.",
+      "options": [
+        "Jethipura Gram Panchayat won the Nanaji Deshmukh Rashtriya Gaurav Gram Sabha Puraskar in 2019",
+        "Jethipura organised Mahila Sabhas and Special Gram Sabhas",
+        "South Manubankul Gram Panchayat is located in Gujarat",
+        "South Manubankul was recognised as a women-friendly panchayat at the national level"
+      ],
+      "answerIndices": [0, 1, 3],
+      "explanation": "Jethipura of Gujarat won the NDRGGSP in 2019 and organised Mahila and Special Gram Sabhas; South Manubankul is in Tripura, not Gujarat, and was recognised as a women-friendly panchayat.",
+      "fact": "Jethipura Gram Panchayat of Gujarat was awarded NDRGGSP in 2019... The South Manubankul Gram Panchayat in Tripura... recognised as a women-friendly panchayat at the national level by the Ministry of Panchayati Raj."
+    },
+    {
+      "id": "civ6-073",
+      "type": "wrongstatement",
+      "topic": "Types of democracy",
+      "difficulty": "medium",
+      "q": "Which of these statements about parliamentary and presidential democracies is INCORRECT?",
+      "options": [
+        "In a presidential democracy, the executive is independent of the legislature.",
+        "India and Canada are examples of presidential democracies.",
+        "In a parliamentary democracy, the executive is accountable to the legislature.",
+        "In a representative democracy, the government is accountable to the people."
+      ],
+      "answer": 1,
+      "explanation": "India and Canada are given as examples of parliamentary democracies, not presidential ones; the United States of America is the chapter's example of a presidential democracy.",
+      "fact": "Parliamentary Democracy: The Executive is accountable to the legislature... e.g. India and Canada."
+    },
+    {
+      "id": "civ6-074",
+      "type": "wrongstatement",
+      "topic": "Media and civil society",
+      "difficulty": "hard",
+      "q": "Which of these statements about media and civil society is INCORRECT?",
+      "options": [
+        "Media keeps people informed and serves as a voice of the masses.",
+        "Civil society refers to voluntary groups, NGOs and community associations.",
+        "Through PIL, campaigns and community organisations, civil society acts as a bridge between citizens and the State.",
+        "The role of media in a democracy is limited only to entertainment."
+      ],
+      "answer": 3,
+      "explanation": "Media's democratic role goes far beyond entertainment—it informs citizens, raises public issues and upholds democratic principles as the fourth pillar of democracy.",
+      "fact": "In addition to keeping people informed about developments around the world, it serves as a voice of the masses."
+    },
+    {
+      "id": "civ6-075",
+      "type": "assertion",
+      "topic": "Living democracy facts",
+      "difficulty": "medium",
+      "q": "Assertion (A): India's democracy is described as a truly 'living' democracy.\nReason (R): Its diversity and citizens' active engagement in the electoral process keep it dynamic.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true; the participation of a diverse electorate—from varied linguistic, religious and socio-economic backgrounds—is exactly what makes Indian democracy 'living'.",
+      "fact": "What makes Indian democracy truly 'living' is its diversity and citizens' active engagement in the electoral process."
+    }
+  ]
+}

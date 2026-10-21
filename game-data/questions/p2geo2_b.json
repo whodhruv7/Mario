@@ -1,0 +1,378 @@
+{
+  "chapterId": "p2geo2",
+  "fragment": "b",
+  "questions": [
+    {
+      "id": "p2geo2-026",
+      "type": "truefalse",
+      "topic": "Terrestrial biomes",
+      "difficulty": "easy",
+      "q": "Terrestrial biomes are classified into forests, grasslands, deserts and tundra, based on their climate.",
+      "answer": "true",
+      "explanation": "Terrestrial (land-based) biomes are classified into forests, grasslands, deserts and tundra based on their climate.",
+      "fact": "Terrestrial biomes are classified into forests, grasslands, deserts, and tundra, based on their climate."
+    },
+    {
+      "id": "p2geo2-027",
+      "type": "truefalse",
+      "topic": "Tundra fragility",
+      "difficulty": "medium",
+      "q": "The tundra is fragile, and even small temperature changes can affect its ecosystem.",
+      "answer": "true",
+      "explanation": "The tundra is a fragile biome. Even small temperature changes can affect its ecosystem, which is why it needs careful protection.",
+      "fact": "The tundra is fragile, and even small temperature changes can affect its ecosystem."
+    },
+    {
+      "id": "p2geo2-028",
+      "type": "wrongstatement",
+      "topic": "Desert biome",
+      "difficulty": "medium",
+      "q": "Which of these statements about deserts is INCORRECT?",
+      "options": [
+        "The extreme conditions of deserts make it difficult for life to survive.",
+        "Plants like cacti are specially adapted to desert conditions.",
+        "All deserts are extremely hot and receive heavy rainfall.",
+        "The Rann of Kutch is one of the world's largest salt deserts."
+      ],
+      "answer": 2,
+      "explanation": "Deserts receive very little rainfall and can be hot like the Sahara or cold like the Gobi. So the claim that all deserts are hot with heavy rainfall is wrong.",
+      "fact": "Deserts are the driest biomes with very little rainfall; they can be hot, like the Sahara in Africa, or cold, like the Gobi in Asia."
+    },
+    {
+      "id": "p2geo2-029",
+      "type": "mcq",
+      "topic": "Aquatic biomes",
+      "difficulty": "easy",
+      "q": "Aquatic biomes cover about how much of the Earth's surface?",
+      "options": [
+        "One-half",
+        "Three-fourths",
+        "One-fourth",
+        "One-tenth"
+      ],
+      "answer": 1,
+      "explanation": "Aquatic biomes cover about three-fourths of the Earth's surface and are divided into freshwater and marine biomes.",
+      "fact": "Aquatic biomes cover about three-fourths of the Earth's surface and are divided into freshwater and marine biomes."
+    },
+    {
+      "id": "p2geo2-030",
+      "type": "truefalse",
+      "topic": "Freshwater biomes",
+      "difficulty": "easy",
+      "q": "Oceans and seas are part of freshwater biomes.",
+      "answer": "false",
+      "explanation": "Oceans, seas and coral reefs are MARINE biomes. Freshwater biomes include rivers, lakes, ponds and wetlands.",
+      "fact": "Freshwater biomes include rivers, lakes, ponds, and wetlands; marine biomes include oceans, seas, and coral reefs."
+    },
+    {
+      "id": "p2geo2-031",
+      "type": "wrongstatement",
+      "topic": "Aquatic biomes",
+      "difficulty": "easy",
+      "q": "Which of these statements about aquatic biomes is INCORRECT?",
+      "options": [
+        "Coral reefs are part of freshwater biomes.",
+        "Freshwater biomes are crucial for agriculture and access to drinking water.",
+        "Marine biomes are rich in biodiversity.",
+        "Aquatic biomes are divided into freshwater and marine biomes."
+      ],
+      "answer": 0,
+      "explanation": "Coral reefs are part of MARINE biomes, which include oceans, seas and coral reefs. Freshwater biomes include rivers, lakes, ponds and wetlands.",
+      "fact": "Marine biomes include oceans, seas, and coral reefs, which are rich in biodiversity."
+    },
+    {
+      "id": "p2geo2-032",
+      "type": "multiselect",
+      "topic": "Freshwater biomes",
+      "difficulty": "easy",
+      "q": "Select all correct: which of these are part of freshwater biomes?",
+      "options": [
+        "Oceans",
+        "Rivers",
+        "Lakes",
+        "Wetlands"
+      ],
+      "answerIndices": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "Freshwater biomes include rivers, lakes, ponds and wetlands. These are crucial for agriculture, drinking water, and supporting species such as fish, frogs and insects. Oceans are marine biomes.",
+      "fact": "Freshwater biomes include rivers, lakes, ponds, and wetlands."
+    },
+    {
+      "id": "p2geo2-033",
+      "type": "truefalse",
+      "topic": "Marine biomes",
+      "difficulty": "medium",
+      "q": "Marine biomes influence the Earth's climate by storing and distributing heat.",
+      "answer": "true",
+      "explanation": "Marine biomes, including oceans, seas and coral reefs, are rich in biodiversity and influence the Earth's climate by storing and distributing heat.",
+      "fact": "Marine biomes influence the Earth's climate by storing and distributing heat."
+    },
+    {
+      "id": "p2geo2-034",
+      "type": "match",
+      "topic": "Biome characteristics",
+      "difficulty": "medium",
+      "q": "Match each biome with its main characteristic.",
+      "pairs": [
+        {
+          "l": "Tundra",
+          "r": "The coldest biome, found near the Arctic and Antarctic regions"
+        },
+        {
+          "l": "Taiga",
+          "r": "Coniferous forests consisting mainly of pines, spruces and larches"
+        },
+        {
+          "l": "Temperate deciduous biome",
+          "r": "Broad-leaved trees that shed their leaves seasonally"
+        },
+        {
+          "l": "Savanna",
+          "r": "Tropical grassland with scattered trees and large animals"
+        },
+        {
+          "l": "Desert",
+          "r": "The driest biome, with sandy soil and sparse vegetation"
+        }
+      ],
+      "explanation": "The tundra is the coldest biome near the poles; the taiga has coniferous forests of pines, spruces and larches; temperate deciduous forests shed leaves seasonally; savannas are tropical grasslands; and deserts are the driest biomes.",
+      "fact": "The taiga biome has coniferous forests of pines, spruces and larches; the temperate deciduous biome has broad-leaved trees that shed leaves seasonally."
+    },
+    {
+      "id": "p2geo2-035",
+      "type": "assertion",
+      "topic": "Thenmala ecotourism",
+      "difficulty": "hard",
+      "q": "Assertion (A): Thenmala is India's first planned hill station.\nReason (R): Thenmala was developed as an ecotourism destination in Keralam.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "Thenmala is India's first planned ECOTOURISM destination, not a hill station, so A is false. R is true: Thenmala, in Keralam, was developed to promote sustainable tourism.",
+      "fact": "Thenmala, located in the Kollam district of Keralam, is India's first planned ecotourism destination."
+    },
+    {
+      "id": "p2geo2-036",
+      "type": "order",
+      "topic": "Biome pyramid arrangement",
+      "difficulty": "easy",
+      "q": "Arrange these biomes from the polar regions towards the tropics.",
+      "orderItems": [
+        "Tundra",
+        "Coniferous forest (Boreal forest)",
+        "Deciduous forest",
+        "Rainforest"
+      ],
+      "explanation": "In the biome pyramid, tundra appears in the polar region, followed by coniferous (boreal) forests, then deciduous forests in temperate lands, and rainforests in the tropics.",
+      "fact": "The biome pyramid arranges biomes from polar (tundra) through subpolar (coniferous forest) and temperate (deciduous forest) to tropical (rainforest)."
+    },
+    {
+      "id": "p2geo2-037",
+      "type": "order",
+      "topic": "Biome pyramid arrangement",
+      "difficulty": "medium",
+      "q": "Arrange these biomes from the wettest to the driest.",
+      "orderItems": [
+        "Rainforest",
+        "Deciduous forest",
+        "Grassland",
+        "Desert"
+      ],
+      "explanation": "On the wet-to-dry side of the biome pyramid, rainforests are the wettest, followed by deciduous forests, then grasslands, and finally deserts, the driest.",
+      "fact": "The biome pyramid arranges biomes along cold-hot and wet-dry axes, from rainforest (wet) to desert (dry)."
+    },
+    {
+      "id": "p2geo2-038",
+      "type": "mcq",
+      "topic": "Biome pyramid",
+      "difficulty": "easy",
+      "q": "At the base of the biome pyramid are the...",
+      "options": [
+        "herbivores",
+        "top predators",
+        "producers, such as plants and algae",
+        "carnivores"
+      ],
+      "answer": 2,
+      "explanation": "At the base of the pyramid are the producers, such as plants and algae, which capture solar energy through photosynthesis. Herbivores, carnivores and top predators occupy the higher levels.",
+      "fact": "At the base of the biome pyramid are the producers, such as plants and algae, which capture solar energy through photosynthesis."
+    },
+    {
+      "id": "p2geo2-039",
+      "type": "mcq",
+      "topic": "Energy flow",
+      "difficulty": "medium",
+      "q": "As we move up the biome pyramid, energy is lost at each trophic level as...",
+      "options": [
+        "water vapour",
+        "light",
+        "sound",
+        "heat during metabolic processes"
+      ],
+      "answer": 3,
+      "explanation": "Energy is lost at each trophic level as heat during metabolic processes. This is why the number of organisms, biomass and available energy decrease as we move up the pyramid.",
+      "fact": "The number of organisms, biomass, and available energy decrease up the pyramid as energy is lost at each trophic level as heat during metabolic processes."
+    },
+    {
+      "id": "p2geo2-040",
+      "type": "wrongstatement",
+      "topic": "Biome pyramid",
+      "difficulty": "hard",
+      "q": "Which of these statements about the biome pyramid is INCORRECT?",
+      "options": [
+        "A biome pyramid illustrates relationships between organisms in terms of energy, number or biomass.",
+        "Producers like plants and algae capture solar energy through photosynthesis.",
+        "Top predators (tertiary consumers) form the highest level of the biome pyramid.",
+        "The biome pyramid applies only to desert ecosystems."
+      ],
+      "answer": 3,
+      "explanation": "The biome pyramid is a general tool for understanding the structure of ecosystems, the flow of energy and the balance of organisms in ANY biome, not only deserts.",
+      "fact": "A biome pyramid helps in understanding the structure of ecosystems, the flow of energy, and the balance between different living organisms in a biome."
+    },
+    {
+      "id": "p2geo2-041",
+      "type": "truefalse",
+      "topic": "Biome pyramid",
+      "difficulty": "medium",
+      "q": "In a biome pyramid, the number of organisms increases as we move up the pyramid.",
+      "answer": "false",
+      "explanation": "The number of organisms, biomass and available energy DECREASE as we move up the pyramid, because energy is lost at each trophic level as heat during metabolic processes.",
+      "fact": "As we move up the pyramid, the number of organisms, biomass, and available energy decrease."
+    },
+    {
+      "id": "p2geo2-042",
+      "type": "order",
+      "topic": "Energy flow",
+      "difficulty": "easy",
+      "q": "Arrange the levels of a biome pyramid from the base to the top.",
+      "orderItems": [
+        "Producers (plants and algae)",
+        "Herbivores (primary consumers)",
+        "Carnivores (secondary consumers)",
+        "Top predators (tertiary consumers)"
+      ],
+      "explanation": "Energy flows from producers (plants and algae) at the base to herbivores (primary consumers), then carnivores (secondary consumers), and finally top predators (tertiary consumers).",
+      "fact": "The biome pyramid has producers at the base, then herbivores (primary consumers), carnivores (secondary consumers), and top predators (tertiary consumers)."
+    },
+    {
+      "id": "p2geo2-043",
+      "type": "truefalse",
+      "topic": "Interconnectedness",
+      "difficulty": "easy",
+      "q": "Animals influence biomes by helping in pollination and seed dispersal.",
+      "answer": "true",
+      "explanation": "Living beings also influence biomes: animals help in pollination and seed dispersal, humans modify landscapes for farming or cities, and microorganisms recycle nutrients.",
+      "fact": "Animals help in pollination and seed dispersal, humans modify landscapes, and microorganisms recycle nutrients."
+    },
+    {
+      "id": "p2geo2-044",
+      "type": "mcq",
+      "topic": "Biodiversity",
+      "difficulty": "easy",
+      "q": "What is biodiversity?",
+      "options": [
+        "The variety of life on Earth, including plants, animals, microorganisms and the ecosystems they inhabit",
+        "The number of humans on Earth",
+        "The study of weather patterns",
+        "The variety of minerals in the soil"
+      ],
+      "answer": 0,
+      "explanation": "Biodiversity is the variety of life on Earth, including plants, animals, microorganisms and the ecosystems they inhabit. It covers species differences, genetic differences within species, and the variety of habitats and ecological processes.",
+      "fact": "Biodiversity is the variety of life on Earth, including plants, animals, microorganisms, and the ecosystems they inhabit."
+    },
+    {
+      "id": "p2geo2-045",
+      "type": "truefalse",
+      "topic": "Biodiversity",
+      "difficulty": "medium",
+      "q": "Biodiversity refers only to the number of different species.",
+      "answer": "false",
+      "explanation": "Biodiversity refers not only to the number of different species but also to the genetic differences within species and the variety of habitats and ecological processes that sustain life.",
+      "fact": "Biodiversity refers not only to the number of different species but also to genetic differences within species and the variety of habitats and ecological processes."
+    },
+    {
+      "id": "p2geo2-046",
+      "type": "multiselect",
+      "topic": "Biodiversity hotspots",
+      "difficulty": "medium",
+      "q": "Select all correct: which of these regions are described as hotspots of biodiversity in India?",
+      "options": [
+        "North-East India",
+        "The Thar Desert",
+        "The Himalaya",
+        "The Western Ghats"
+      ],
+      "answerIndices": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Certain regions such as the Himalaya, the Western Ghats, North-East India and the Andaman & Nicobar Islands are rich in unique species found nowhere else. Identifying and protecting these hotspots is a conservation priority.",
+      "fact": "The Himalaya, the Western Ghats, the North-East India, and the Andaman & Nicobar Islands are rich in unique species found nowhere else."
+    },
+    {
+      "id": "p2geo2-047",
+      "type": "truefalse",
+      "topic": "Endangered species",
+      "difficulty": "medium",
+      "q": "The Nilgiri Tahr is an endangered wild goat.",
+      "answer": "true",
+      "explanation": "The Nilgiri Tahr wild goat is one of India's endangered species. Other examples include the Himalayan Snowcock bird and the Indian spider of the Western Ghats.",
+      "fact": "Examples of endangered Indian wildlife include the Nilgiri Tahr wild goat, the Himalayan Snowcock bird and the Indian spider of the Western Ghats."
+    },
+    {
+      "id": "p2geo2-048",
+      "type": "mcq",
+      "topic": "Forest ecotourism",
+      "difficulty": "easy",
+      "q": "What is ecotourism in forests?",
+      "options": [
+        "Hunting wild animals for sport",
+        "Building large hotels inside forests",
+        "Responsible travel to forested areas where tourists enjoy nature while contributing to its conservation",
+        "Cutting trees to make souvenirs"
+      ],
+      "answer": 2,
+      "explanation": "Ecotourism in forests refers to responsible travel to forested areas where tourists enjoy nature while contributing to its conservation, with minimal environmental impact and respect for local communities.",
+      "fact": "Ecotourism in forests refers to responsible travel to forested areas where tourists enjoy nature while contributing to its conservation."
+    },
+    {
+      "id": "p2geo2-049",
+      "type": "wrongstatement",
+      "topic": "Forest ecotourism",
+      "difficulty": "easy",
+      "q": "Which of these statements about ecotourism is INCORRECT?",
+      "options": [
+        "Ecotourism emphasises minimal environmental impact.",
+        "Ecotourism is just another name for mass tourism.",
+        "Ecotourism supports conservation programmes and generates income for local people.",
+        "Ecotourism encourages respect for local communities."
+      ],
+      "answer": 1,
+      "explanation": "Unlike mass tourism, ecotourism emphasises minimal environmental impact, respect for local communities and learning about ecosystems while supporting conservation and local income.",
+      "fact": "Unlike mass tourism, ecotourism emphasises minimal environmental impact, respect for local communities, and learning about ecosystems."
+    },
+    {
+      "id": "p2geo2-050",
+      "type": "mcq",
+      "topic": "Thenmala ecotourism",
+      "difficulty": "medium",
+      "q": "Which is India's first planned ecotourism destination?",
+      "options": [
+        "Darjeeling",
+        "Shimla",
+        "Ooty",
+        "Thenmala"
+      ],
+      "answer": 3,
+      "explanation": "Thenmala, located in the Kollam district of Keralam, is India's first planned ecotourism destination, developed jointly by the Tourism, Forest and Irrigation Departments of Keralam.",
+      "fact": "Thenmala, located in the Kollam district of Keralam, is India's first planned ecotourism destination."
+    }
+  ]
+}

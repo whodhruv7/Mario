@@ -1,0 +1,410 @@
+{
+  "chapterId": "p2geo2",
+  "fragment": "a",
+  "questions": [
+    {
+      "id": "p2geo2-001",
+      "type": "mcq",
+      "topic": "Biome definition",
+      "difficulty": "easy",
+      "q": "What is a biome?",
+      "options": [
+        "A small pond with a few fish",
+        "A large natural region where certain types of plants and animals live under similar climatic conditions",
+        "A country's political boundary",
+        "A type of cloud formation"
+      ],
+      "answer": 1,
+      "explanation": "Biomes are large natural regions of the world where certain types of plants and animals live under similar climatic conditions, for example icy tundras, hot deserts, green forests and vast grasslands.",
+      "fact": "Biomes are large natural regions of the world where certain types of plants and animals live under similar climatic conditions."
+    },
+    {
+      "id": "p2geo2-002",
+      "type": "mcq",
+      "topic": "Biome etymology",
+      "difficulty": "easy",
+      "q": "The word 'biome' uses 'bio', derived from the Greek word 'bios'. What does 'bios' mean?",
+      "options": [
+        "Earth",
+        "Water",
+        "Life",
+        "Weather"
+      ],
+      "answer": 2,
+      "explanation": "The word 'biome' is made up of 'bio', derived from the Greek word 'bios', meaning 'life', and '-ome', a suffix used in biology to denote a group of a specific type of biological constituents.",
+      "fact": "The word 'biome' is made up of the word 'bio', derived from the Greek word 'bios', meaning 'life'."
+    },
+    {
+      "id": "p2geo2-003",
+      "type": "mcq",
+      "topic": "Biome and ecosystem",
+      "difficulty": "medium",
+      "q": "How is an ecosystem related to a biome?",
+      "options": [
+        "An ecosystem exists only in deserts",
+        "An ecosystem is always larger than a biome",
+        "An ecosystem and a biome are unrelated",
+        "An ecosystem is like a neighbourhood within a biome"
+      ],
+      "answer": 3,
+      "explanation": "A biome is like a broad environmental region, while an ecosystem is like a neighbourhood within it, where plants, animals and non-living things interact closely.",
+      "fact": "A biome is like a broad environmental region, while an ecosystem is like a neighbourhood within it, where plants, animals, and non-living things interact closely."
+    },
+    {
+      "id": "p2geo2-004",
+      "type": "mcq",
+      "topic": "Biome types",
+      "difficulty": "easy",
+      "q": "Biomes can be categorised into which two broad types?",
+      "options": [
+        "Terrestrial and aquatic",
+        "Hot and cold",
+        "Big and small",
+        "Natural and artificial"
+      ],
+      "answer": 0,
+      "explanation": "Different biomes can be categorised into terrestrial biomes (land-based) and aquatic biomes (water-based).",
+      "fact": "Biomes can be categorised into terrestrial (land-based) and aquatic biomes (water-based)."
+    },
+    {
+      "id": "p2geo2-005",
+      "type": "multiselect",
+      "topic": "Biome factors",
+      "difficulty": "easy",
+      "q": "Select all correct: which factors determine the types of plants and animals that can survive and thrive in a biome?",
+      "options": [
+        "The language spoken by humans",
+        "Temperature",
+        "Precipitation patterns",
+        "Dominant plant species"
+      ],
+      "answerIndices": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "Several factors determine which plants and animals can survive in a biome, including temperature, precipitation patterns, dominant plant species and growth forms of vegetation.",
+      "fact": "Factors that determine which types of plants and animals can survive in a biome include temperature, precipitation patterns, dominant plant species and growth forms of vegetation."
+    },
+    {
+      "id": "p2geo2-006",
+      "type": "mcq",
+      "topic": "Tropical rainforests",
+      "difficulty": "easy",
+      "q": "Tropical rainforests are mainly found...",
+      "options": [
+        "in the middle of large deserts",
+        "near the North Pole",
+        "near the Equator, between the Tropic of Cancer and the Tropic of Capricorn",
+        "only on high mountains"
+      ],
+      "answer": 2,
+      "explanation": "Tropical rainforests are mainly found near the Equator, between the Tropic of Cancer and the Tropic of Capricorn (23.5 degrees N to 23.5 degrees S), where conditions remain hot and wet throughout the year.",
+      "fact": "Tropical rainforests are mainly found near the Equator, between the Tropic of Cancer and the Tropic of Capricorn (23.5 N to 23.5 S)."
+    },
+    {
+      "id": "p2geo2-007",
+      "type": "mcq",
+      "topic": "Rainforests in India",
+      "difficulty": "medium",
+      "q": "In India, smaller tropical rainforest regions are found in...",
+      "options": [
+        "the Ganga plains",
+        "the Thar Desert and the Rann of Kutch",
+        "the Deccan Plateau",
+        "the Andaman & Nicobar Islands and the Northeastern states"
+      ],
+      "answer": 3,
+      "explanation": "Smaller rainforest regions are found in Central America, as well as in India's Andaman & Nicobar Islands and the Northeastern states.",
+      "fact": "Smaller rainforest regions are also found in Central America, as well as in India's Andaman & Nicobar Islands, and the Northeastern states."
+    },
+    {
+      "id": "p2geo2-008",
+      "type": "multiselect",
+      "topic": "Largest rainforests",
+      "difficulty": "medium",
+      "q": "Select all correct: where are the largest tropical rainforests located?",
+      "options": [
+        "The Gobi Desert",
+        "The Antarctic ice sheet",
+        "The Amazon Basin in South America",
+        "The Congo Basin in Africa",
+        "Parts of Southeast Asia, such as Indonesia and Malaysia"
+      ],
+      "answerIndices": [
+        2,
+        3,
+        4
+      ],
+      "explanation": "The largest tropical rainforests are located in the Amazon Basin in South America, the Congo Basin in Africa, and parts of Southeast Asia such as Indonesia and Malaysia.",
+      "fact": "The largest tropical rainforests are located in the Amazon Basin in South America, the Congo Basin in Africa, and parts of Southeast Asia, such as Indonesia and Malaysia."
+    },
+    {
+      "id": "p2geo2-009",
+      "type": "wrongstatement",
+      "topic": "Tropical rainforests",
+      "difficulty": "easy",
+      "q": "Which of these statements about tropical rainforests is INCORRECT?",
+      "options": [
+        "Tropical rainforests are the world's richest storehouse of biodiversity.",
+        "The largest tropical rainforests are located in the Amazon Basin, the Congo Basin and parts of Southeast Asia.",
+        "Tropical rainforests are mainly found near the polar regions.",
+        "Smaller rainforest regions are also found in Central America."
+      ],
+      "answer": 2,
+      "explanation": "Tropical rainforests are found near the Equator, between the Tropics of Cancer and Capricorn, not near the poles. They are the world's richest storehouse of biodiversity.",
+      "fact": "Tropical rainforests are mainly found near the Equator and are the world's richest storehouse of biodiversity."
+    },
+    {
+      "id": "p2geo2-010",
+      "type": "assertion",
+      "topic": "Tropical rainforests",
+      "difficulty": "easy",
+      "q": "Assertion (A): Tropical rainforests support the growth of dense forests.\nReason (R): These regions remain hot and wet throughout the year.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Rainforest regions near the Equator remain hot and wet throughout the year, and this climate is what supports the growth of dense forests. So R explains A.",
+      "fact": "Rainforest regions remain hot and wet throughout the year, which supports the growth of dense forests."
+    },
+    {
+      "id": "p2geo2-011",
+      "type": "fillblank",
+      "topic": "Gene bank",
+      "difficulty": "easy",
+      "q": "Tropical rainforests preserve unique genetic material, so together they are also known as a '___ bank'.",
+      "answerVariants": [
+        "gene",
+        "Gene"
+      ],
+      "explanation": "Tropical rainforests form the world's richest storehouse of biodiversity with rich genetic resources. They preserve unique genetic material, and are hence also known as a 'gene bank'.",
+      "fact": "Tropical rainforests are the world's richest storehouse of biodiversity with rich genetic resources and are hence also known as a 'gene bank'."
+    },
+    {
+      "id": "p2geo2-012",
+      "type": "mcq",
+      "topic": "Forest biome role",
+      "difficulty": "medium",
+      "q": "Besides being a 'gene bank', what important role do forests play?",
+      "options": [
+        "Maintaining oxygen levels and balancing the Earth's climate",
+        "Causing earthquakes",
+        "Increasing global warming on their own",
+        "Blocking all rainfall"
+      ],
+      "answer": 0,
+      "explanation": "Forests play an important role in maintaining oxygen levels and balancing the Earth's climate, in addition to preserving rich genetic resources.",
+      "fact": "Forests play an important role in maintaining oxygen levels and balancing the Earth's climate."
+    },
+    {
+      "id": "p2geo2-013",
+      "type": "order",
+      "topic": "Rainforest layers",
+      "difficulty": "medium",
+      "q": "Arrange the layers of vegetation in a rainforest from the top to the forest floor.",
+      "orderItems": [
+        "Emergent layer",
+        "Upper canopy",
+        "Understory/Lower canopy",
+        "Forest floor"
+      ],
+      "explanation": "A rainforest has layered vegetation: the emergent layer pokes out at the top, followed by the upper canopy, then the understory or lower canopy, and finally the forest floor.",
+      "fact": "The layers of a rainforest, from top to bottom, are the emergent layer, upper canopy, understory/lower canopy and forest floor."
+    },
+    {
+      "id": "p2geo2-014",
+      "type": "mcq",
+      "topic": "Savanna animals",
+      "difficulty": "easy",
+      "q": "Which large animals are found in the Savannas of Africa?",
+      "options": [
+        "Polar bears and reindeer",
+        "Lions, elephants and giraffes",
+        "Yaks and snow leopards",
+        "Penguins and seals"
+      ],
+      "answer": 1,
+      "explanation": "Tropical grasslands, also known as Savannas (as in Africa), have scattered trees and are home to large animals such as lions, elephants and giraffes.",
+      "fact": "Tropical grasslands, also known as Savannas (as in Africa), are home to large animals such as lions, elephants, and giraffes."
+    },
+    {
+      "id": "p2geo2-015",
+      "type": "truefalse",
+      "topic": "Savanna biome",
+      "difficulty": "medium",
+      "q": "Savannas are temperate grasslands found in North America.",
+      "answer": "false",
+      "explanation": "Savannas are TROPICAL grasslands found in Africa, with scattered trees and large animals. The temperate grasslands of North America are called prairies.",
+      "fact": "Tropical grasslands are also known as Savannas (as in Africa); temperate grasslands include the prairies in North America."
+    },
+    {
+      "id": "p2geo2-016",
+      "type": "fillblank",
+      "topic": "Savanna biome",
+      "difficulty": "medium",
+      "q": "Tropical grasslands, also known as ___, have scattered trees and are home to large animals like lions, elephants and giraffes.",
+      "answerVariants": [
+        "Savannas",
+        "savannas",
+        "savanna"
+      ],
+      "explanation": "Tropical grasslands are also known as Savannas, as found in Africa. They have scattered trees and support large animals such as lions, elephants and giraffes.",
+      "fact": "Tropical grasslands, also known as Savannas (as in Africa), have scattered trees and are home to large animals."
+    },
+    {
+      "id": "p2geo2-017",
+      "type": "wrongstatement",
+      "topic": "Grassland biome",
+      "difficulty": "easy",
+      "q": "Which of these statements about grasslands is INCORRECT?",
+      "options": [
+        "Savannas are found near the polar regions.",
+        "Grasslands develop in regions that receive moderate rainfall.",
+        "Temperate grasslands have fertile soil and are often used for farming.",
+        "Grasslands are large open areas covered mainly with grass and very few trees."
+      ],
+      "answer": 0,
+      "explanation": "Savannas are tropical grasslands found in Africa, not near the poles. Grasslands receive moderate rainfall, which is not enough to support dense forests, and temperate grasslands have fertile soil.",
+      "fact": "Grasslands develop in regions of moderate rainfall; temperate grasslands (prairies, steppes) have fertile soil, and Savannas are tropical grasslands in Africa."
+    },
+    {
+      "id": "p2geo2-018",
+      "type": "match",
+      "topic": "Biome locations",
+      "difficulty": "medium",
+      "q": "Match each biome or region name with its correct location or type.",
+      "pairs": [
+        {
+          "l": "Prairies",
+          "r": "Temperate grasslands of North America"
+        },
+        {
+          "l": "Steppes",
+          "r": "Temperate grasslands of Asia"
+        },
+        {
+          "l": "Sahara",
+          "r": "A hot desert in Africa"
+        },
+        {
+          "l": "Gobi",
+          "r": "A cold desert in Asia"
+        },
+        {
+          "l": "Amazon Basin",
+          "r": "Largest tropical rainforest region in South America"
+        }
+      ],
+      "explanation": "Prairies are the temperate grasslands of North America and steppes those of Asia; the Sahara is a hot desert in Africa while the Gobi is a cold desert in Asia; the Amazon Basin holds the largest tropical rainforest.",
+      "fact": "Temperate grasslands include the prairies in North America and the steppes in Asia; deserts can be hot like the Sahara in Africa or cold like the Gobi in Asia."
+    },
+    {
+      "id": "p2geo2-019",
+      "type": "mcq",
+      "topic": "Rann of Kutch",
+      "difficulty": "easy",
+      "q": "During the monsoon, the Rann of Kutch turns into...",
+      "options": [
+        "a coral reef",
+        "a dense forest",
+        "a snowfield",
+        "a marshy wetland"
+      ],
+      "answer": 3,
+      "explanation": "The Rann of Kutch in Gujarat is one of the world's largest salt deserts. It turns into a marshy wetland during the monsoon and a vast white salt desert during the dry season.",
+      "fact": "The Rann of Kutch turns into a marshy wetland during the monsoon and a vast white salt desert during the dry season."
+    },
+    {
+      "id": "p2geo2-020",
+      "type": "fillblank",
+      "topic": "Rann of Kutch",
+      "difficulty": "easy",
+      "q": "The Rann of Kutch, one of the world's largest salt deserts, is located in the state of ___.",
+      "answerVariants": [
+        "Gujarat",
+        "gujarat"
+      ],
+      "explanation": "The Rann of Kutch is in Gujarat. It is one of the world's largest salt deserts, becoming a marshy wetland in the monsoon and a white salt desert in the dry season.",
+      "fact": "The Rann of Kutch in Gujarat is one of the world's largest salt deserts."
+    },
+    {
+      "id": "p2geo2-021",
+      "type": "truefalse",
+      "topic": "Desert biome",
+      "difficulty": "easy",
+      "q": "Deserts receive very little rainfall.",
+      "answer": "true",
+      "explanation": "Deserts are the driest biomes, receiving very little rainfall. Their extreme conditions make life difficult, yet specially adapted plants and animals survive there.",
+      "fact": "Deserts are the driest biomes, receiving very little rainfall."
+    },
+    {
+      "id": "p2geo2-022",
+      "type": "assertion",
+      "topic": "Desert adaptations",
+      "difficulty": "easy",
+      "q": "Assertion (A): Camels can withstand the heat and dryness of deserts.\nReason (R): They can store water.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Desert animals such as camels, lizards and snakes are specially adapted to desert conditions: they can store water and withstand heat and dryness. This is why R explains A.",
+      "fact": "Plants like cacti and animals such as camels, lizards, and snakes are specially adapted to desert conditions; they can store water and withstand heat and dryness."
+    },
+    {
+      "id": "p2geo2-023",
+      "type": "fillblank",
+      "topic": "Permafrost",
+      "difficulty": "medium",
+      "q": "In the tundra, the soil is frozen almost year-round — a condition called ___, which makes it difficult for trees to grow.",
+      "answerVariants": [
+        "permafrost",
+        "Permafrost"
+      ],
+      "explanation": "In the tundra, the soil is frozen almost year-round, a condition called permafrost, which makes it difficult for trees to grow. Vegetation is limited to mosses, lichens and small shrubs.",
+      "fact": "The tundra soil is frozen almost year-round, a condition called permafrost, which makes it difficult for trees to grow."
+    },
+    {
+      "id": "p2geo2-024",
+      "type": "mcq",
+      "topic": "Tundra vegetation",
+      "difficulty": "easy",
+      "q": "The vegetation of the tundra is limited to...",
+      "options": [
+        "mosses, lichens and small shrubs",
+        "tall broad-leaved trees",
+        "dense coniferous forests",
+        "mangroves and palms"
+      ],
+      "answer": 0,
+      "explanation": "Because of permafrost, tundra vegetation is limited to mosses, lichens and small shrubs. Trees cannot grow in the frozen soil.",
+      "fact": "Tundra vegetation is limited to mosses, lichens, and small shrubs."
+    },
+    {
+      "id": "p2geo2-025",
+      "type": "multiselect",
+      "topic": "Tundra animals",
+      "difficulty": "easy",
+      "q": "Select all correct: which of these animals are found in the tundra?",
+      "options": [
+        "Arctic foxes",
+        "Polar bears",
+        "Camels",
+        "Reindeer"
+      ],
+      "answerIndices": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Animals such as reindeer, arctic foxes and polar bears, which are well adapted to survive freezing temperatures, are often found in the tundra. Camels live in deserts.",
+      "fact": "Animals such as reindeer, arctic foxes, and polar bears, which are well adapted to survive freezing temperatures, are often found in the tundra."
+    }
+  ]
+}

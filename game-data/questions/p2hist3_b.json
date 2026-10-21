@@ -1,0 +1,281 @@
+{
+  "chapterId": "p2hist3",
+  "fragment": "b",
+  "questions": [
+    {
+      "id": "p2hist3-026",
+      "type": "mcq",
+      "topic": "Mansabdari System",
+      "difficulty": "easy",
+      "q": "What does the term 'mansab' mean?",
+      "options": ["'Rank' or 'office'", "A land grant given to priests", "A tax paid by traders", "A treaty between two kingdoms"],
+      "answer": 0,
+      "explanation": "Mansab means 'rank' or 'office', and its holders were known as mansabdars. Akbar introduced the mansabdari system, which combined military organisation with civil administration.",
+      "fact": "Mansab means 'rank' or 'office', and its holders were known as mansabdars."
+    },
+    {
+      "id": "p2hist3-027",
+      "type": "truefalse",
+      "topic": "Mughal Arrival",
+      "difficulty": "easy",
+      "q": "Bābur, who launched the invasion of India in the early 1500s, came from Central Asia and was also known as Zahiruddin Muhammad.",
+      "answer": "true",
+      "explanation": "Zahiruddin Muhammad, also known as Bābur, came from Central Asia. He launched his invasion as the Delhi Sultanate weakened under its last ruler, Ibrāhim Lodī.",
+      "fact": "Zahiruddin Muhammad, also known as Bābur, from Central Asia launched an invasion on India."
+    },
+    {
+      "id": "p2hist3-028",
+      "type": "mcq",
+      "topic": "Siege of Chittor",
+      "difficulty": "easy",
+      "q": "During Akbar's siege of Chittor (1567–1568), how long did the Rajputs under Rāṇā Udai Singh resist before the fort was captured?",
+      "options": ["About five days", "More than five months", "More than five years", "They surrendered without fighting"],
+      "answer": 1,
+      "explanation": "Under Rāṇā Udai Singh, the Rajputs put up a stiff resistance for more than five months before the fort was captured, and the Mughal army paid a heavy price in the campaign.",
+      "fact": "Under Rāṇā Udai Singh, the Rajputs put up a stiff resistance for more than five months before the fort was captured."
+    },
+    {
+      "id": "p2hist3-029",
+      "type": "mcq",
+      "topic": "Battle of Dewair",
+      "difficulty": "hard",
+      "q": "What was the significance of the Battle of Dewair, fought near Udaipur in 1582?",
+      "options": ["It led to the coronation of Chhatrapati Śhivājī", "It ended the Ahom kingdom's independence", "It resulted in the collapse of key Mughal military outposts in Mewar", "It marked the Portuguese conquest of Goa"],
+      "answer": 2,
+      "explanation": "The Battle of Dewair (1582) resulted in the collapse of key Mughal military outposts in Mewar and helped Mahārāṇā Pratāp reclaim control over Mewar.",
+      "fact": "The Battle of Dewair fought near Udaipur in 1582 resulted in the collapse of key Mughal military outposts in Mewar."
+    },
+    {
+      "id": "p2hist3-030",
+      "type": "mcq",
+      "topic": "Mewar-Mughal Treaty",
+      "difficulty": "medium",
+      "q": "Under the treaty negotiated between the Mughals and Mewar, what special concession was granted to Mewar's leadership?",
+      "options": ["Control of the port of Surat", "The title of Badshah of Hindustan", "Freedom from paying any tribute forever", "Exemption from personal attendance at the Mughal court"],
+      "answer": 3,
+      "explanation": "Under the terms of the treaty, Mewar's leadership was exempted from personal attendance at the Mughal court, which clearly acknowledged Mewar's continued autonomy.",
+      "fact": "Under the terms of the treaty, Mewar leadership was exempted from personal attendance at the Mughal court."
+    },
+    {
+      "id": "p2hist3-031",
+      "type": "mcq",
+      "topic": "Mewar Coat of Arms",
+      "difficulty": "hard",
+      "q": "Mewar's state emblem (Coat of Arms) commemorates the Rajput-Bhil alliance. Who is shown at its centre?",
+      "options": ["The Mughal emperor", "The goddess Tuljā Bhavānī", "Mahārāṇā Pratāp on horseback", "The local deity Eklingji (Shiva)"],
+      "answer": 3,
+      "explanation": "Mewar's Coat of Arms depicts a Rajput warrior and a Bhil warrior with the local deity Eklingji (Shiva) shown at the centre, commemorating the enduring alliance between the two communities.",
+      "fact": "Mewar's state emblem depicts a Rajput warrior and a Bhil warrior with the local deity Eklingji (Shiva) shown at the centre."
+    },
+    {
+      "id": "p2hist3-032",
+      "type": "truefalse",
+      "topic": "Maharana Pratap",
+      "difficulty": "hard",
+      "q": "According to poet Dursā Arhā's account, Mahārāṇā Pratāp regularly participated in the Nauroz festival at the Mughal court.",
+      "answer": "false",
+      "explanation": "The poet Dursā Arhā praised Mahārāṇā Pratāp precisely because he never participated in the Nauroz festival nor mounted guard during Jharokha Darshan — signs of his independence from the Mughal court.",
+      "fact": "You never participated in the Nauroz festival, nor did you mount guard for the imperial presence during Jharokha Darshan."
+    },
+    {
+      "id": "p2hist3-033",
+      "type": "truefalse",
+      "topic": "Rana Udai Singh",
+      "difficulty": "medium",
+      "q": "During Akbar's siege of Chittor, Rāṇā Udai Singh retreated to the Aravalli Hills along with a large number of his subjects.",
+      "answer": "true",
+      "explanation": "In a strategic move, Rāṇā Udai Singh retreated to the Aravalli Hills along with a large number of his subjects rather than remain trapped in the fort.",
+      "fact": "In a strategic move, Rāṇā Udai Singh retreated to the Aravalli Hills along with a large number of his subjects."
+    },
+    {
+      "id": "p2hist3-034",
+      "type": "fillblank",
+      "topic": "Battle of Haldighati",
+      "difficulty": "easy",
+      "q": "Mahārāṇā Pratāp fought the Mughal forces in the Battle of Haldighati in the year ___.",
+      "answerVariants": ["1576"],
+      "explanation": "In 1576, Akbar launched another attack on Mewar, and Mahārāṇā Pratāp, son and successor of Rāṇā Udai Singh, fought the Mughal forces in the Battle of Haldighati.",
+      "fact": "In 1576, Akbar launched another attack on Mewar; Mahārāṇā Pratāp fought against Mughal forces in the Battle of Haldighati."
+    },
+    {
+      "id": "p2hist3-035",
+      "type": "fillblank",
+      "topic": "Rani Abbakka Chowta",
+      "difficulty": "hard",
+      "q": "Rānī Abbakkā Chowṭā of Ullal, in present-day Karnataka, defeated the naval forces of the ___.",
+      "answerVariants": ["Portuguese", "the Portuguese"],
+      "explanation": "Rānī Abbakkā Chowṭā of Ullal (reigned 1525–1570) defeated Portuguese naval forces, showing that resistance to Europeans began soon after their arrival.",
+      "fact": "1525–1570: Reign of Rānī Abbakkā Chowṭā of Ullal defeats Portuguese naval forces."
+    },
+    {
+      "id": "p2hist3-036",
+      "type": "multiselect",
+      "topic": "Bhil Support to Mewar",
+      "difficulty": "easy",
+      "q": "Select all correct ways in which the Bhil community strengthened Mahārāṇā Pratāp's resistance.",
+      "options": ["Extensive knowledge of the Aravalli terrain", "Command of Mughal artillery units", "Expertise in guerrilla warfare", "Skills in archery and service as guides"],
+      "answerIndices": [0, 2, 3],
+      "explanation": "The Bhils' extensive knowledge of the Aravalli terrain, expertise in guerrilla warfare, skills in archery and role as guides strengthened Mewar's resistance against the Mughals.",
+      "fact": "Their extensive knowledge of the Aravalli terrain, expertise in guerrilla warfare, skills in archery, role as guides strengthened Mewar's resistance."
+    },
+    {
+      "id": "p2hist3-037",
+      "type": "wrongstatement",
+      "topic": "Rajput-Mughal Relations",
+      "difficulty": "medium",
+      "q": "Which of these statements about Rajput-Mughal relations is INCORRECT?",
+      "options": ["The Kachhwāha Rajputs of Amber, like Mewar, maintained stiff resistance to Mughal authority", "The decline of the Delhi Sultanate under Ibrāhim Lodī opened the door to Bābur's invasion", "The Mughals needed the Rajputs' military might, loyalty and administrative strength", "Some Rajputs were integrated into the empire through grants of mansabs"],
+      "answer": 0,
+      "explanation": "Unlike Mewar, the Kachhwāha Rajputs of Amber negotiated cooperative relationships with the Mughals. The other three statements are correct.",
+      "fact": "Some Rajput kingdoms such as Mewar maintained stiff resistance, while others like the Kachhwāha Rajputs of Amber negotiated cooperative relationships."
+    },
+    {
+      "id": "p2hist3-038",
+      "type": "order",
+      "topic": "Mughal-Era Battles",
+      "difficulty": "easy",
+      "q": "Arrange these battles in the correct chronological order.",
+      "orderItems": [
+        "First Battle of Panipat (1526)",
+        "Battle of Khanua (1527)",
+        "Akbar's siege of Chittor (1567–1568)",
+        "Battle of Haldighati (1576)",
+        "Battle of Dewair (1582)"
+      ],
+      "explanation": "The correct order is Panipat (1526), Khanua (1527), the siege of Chittor (1567–1568), Haldighati (1576) and finally Dewair (1582).",
+      "fact": "1526: Panipat; 1527: Khanua; 1567–68: siege of Chittor; 1576: Haldighati; 1582: Dewair."
+    },
+    {
+      "id": "p2hist3-039",
+      "type": "assertion",
+      "topic": "Maharana Pratap",
+      "difficulty": "easy",
+      "q": "Assertion (A): Mahārāṇā Pratāp modified his military strategy and adopted guerrilla warfare.\nReason (R): The rugged Aravalli terrain was suited to surprise attacks, raids and ambushes.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 0,
+      "explanation": "Mahārāṇā Pratāp used the rugged Aravalli terrain to his advantage, conducting surprise attacks, raids and ambushes on Mughal forces and their networks. The terrain explains why guerrilla warfare worked, so R explains A.",
+      "fact": "He used the rugged Aravalli terrain to his advantage and conducted surprise attacks, raids, and ambushes on the Mughal forces and their networks."
+    },
+    {
+      "id": "p2hist3-040",
+      "type": "mcq",
+      "topic": "Ahom Kingdom",
+      "difficulty": "easy",
+      "q": "For how long did the Ahom kingdom of Assam maintain its political independence?",
+      "options": ["About a century", "Almost six centuries (1228–1826)", "About fifty years", "Continuously from the 8th century"],
+      "answer": 1,
+      "explanation": "The Ahom kingdom of Assam maintained its political independence for almost six centuries (1228–1826) and successfully resisted several invasions and attempts at annexation.",
+      "fact": "The Ahom kingdom of Assam maintained its political independence for almost six centuries (1228–1826)."
+    },
+    {
+      "id": "p2hist3-041",
+      "type": "mcq",
+      "topic": "Ahom-Mughal Clashes",
+      "difficulty": "medium",
+      "q": "In 1662, who captured the Ahom capital Garhgaon and imposed a treaty on King Jayadhvaj Singha?",
+      "options": ["Abu Bakr", "Mīr Jumlā", "Lachit Borphukan", "Malik Kāfūr"],
+      "answer": 1,
+      "explanation": "In 1662, Mīr Jumlā captured the Ahom capital, Garhgaon, and subsequently a treaty was imposed on King Jayadhvaj Singha.",
+      "fact": "In 1662, Mīr Jumlā captured the Ahom capital, Garhgaon. Subsequently, a treaty was imposed on King Jayadhvaj Singha."
+    },
+    {
+      "id": "p2hist3-042",
+      "type": "mcq",
+      "topic": "Ahom Military Strategy",
+      "difficulty": "easy",
+      "q": "On what did the military strategy of the Ahoms mainly rely?",
+      "options": ["Building the largest cavalry in India", "Paying tribute to avoid war", "Exploiting the local terrain rather than direct confrontation", "Naval battles in the open ocean"],
+      "answer": 2,
+      "explanation": "Ahom military strategy relied on exploiting the local terrain rather than engaging in direct confrontation. Their commanders possessed detailed knowledge of Assam's forests, river systems and monsoon cycles.",
+      "fact": "The military strategy of the Ahoms relied on exploiting the local terrain rather than engaging in direct confrontation."
+    },
+    {
+      "id": "p2hist3-043",
+      "type": "truefalse",
+      "topic": "Ahom Kingdom",
+      "difficulty": "medium",
+      "q": "King Jayadhvaj Singha honoured the treaty imposed by the Mughals for the rest of his reign.",
+      "answer": "false",
+      "explanation": "King Jayadhvaj Singha defied the Mughals and renounced the treaty within a year of the Mughal withdrawal, and the Ahoms retained their independence.",
+      "fact": "The king defied the Mughals and renounced the treaty within a year of the Mughal withdrawal."
+    },
+    {
+      "id": "p2hist3-044",
+      "type": "truefalse",
+      "topic": "Ahom Resistance",
+      "difficulty": "easy",
+      "q": "Despite repeated attempts, the Mughals succeeded in annexing the Brahmaputra valley from the Ahoms.",
+      "answer": "false",
+      "explanation": "Despite repeated attempts by the Mughals to annex the Brahmaputra valley, the Ahoms successfully defended their territories against Mughal invasion.",
+      "fact": "Despite repeated attempts by the Mughals to annex the Brahmaputra valley, the Ahoms successfully defended their territories against Mughal invasion."
+    },
+    {
+      "id": "p2hist3-045",
+      "type": "fillblank",
+      "topic": "Battle of Saraighat",
+      "difficulty": "easy",
+      "q": "The Ahom commander who defeated a Mughal fleet at the Battle of Saraighat in 1671 was ___.",
+      "answerVariants": ["Lachit Borphukan", "Lachit"],
+      "explanation": "In 1671, the Ahom commander Lachit Borphukan defeated a Mughal fleet at the Battle of Saraighat, securing the Brahmaputra as an effective territorial boundary.",
+      "fact": "In 1671, the Ahom commander Lachit Borphukan defeated a Mughal fleet at the Battle of Saraighat."
+    },
+    {
+      "id": "p2hist3-046",
+      "type": "fillblank",
+      "topic": "Ahom Navy",
+      "difficulty": "hard",
+      "q": "The Ahom navy used light, fast boats called ___, built specifically for river warfare.",
+      "answerVariants": ["bachari", "bāchārī", "bacharee"],
+      "explanation": "The Ahom navy used light, fast boats called bāchārī, built specifically for river warfare, which gave them an advantage over Mughal fleets.",
+      "fact": "The Ahom navy used light, fast boats, called bāchārī, built specifically for river warfare."
+    },
+    {
+      "id": "p2hist3-047",
+      "type": "multiselect",
+      "topic": "Ahom Endurance",
+      "difficulty": "medium",
+      "q": "Select all correct components on which Ahom endurance rested.",
+      "options": ["Strategic alliance-building", "Building a huge desert cavalry", "Guerrilla tactics and Assam's challenging geography", "The Paik system of military-administrative organisation"],
+      "answerIndices": [0, 2, 3],
+      "explanation": "Ahom endurance rested on a combination of strategic alliance-building, guerrilla tactics, Assam's challenging geography, and the Paik system of military-administrative organisation.",
+      "fact": "Ahom endurance rested on strategic alliance-building, guerrilla tactics, Assam's challenging geography, and the Paik system."
+    },
+    {
+      "id": "p2hist3-048",
+      "type": "wrongstatement",
+      "topic": "Ahom Kingdom",
+      "difficulty": "medium",
+      "q": "Which of these statements about the Ahom kingdom is INCORRECT?",
+      "options": ["Mughal forces under Abu Bakr made early gains at the first clash but were soon compelled to retreat", "The Ahoms retained their independence even after Mīr Jumlā captured Garhgaon", "By 1616, the Ahoms had recovered the territory lost in the first clash", "At Saraighat, the Ahom commander Lachit Borphukan was defeated by a Mughal fleet"],
+      "answer": 3,
+      "explanation": "At the Battle of Saraighat it was Lachit Borphukan who defeated the Mughal fleet, securing the Brahmaputra as a boundary — not the other way around. The other statements are correct.",
+      "fact": "In 1671, the Ahom commander Lachit Borphukan defeated a Mughal fleet at the Battle of Saraighat."
+    },
+    {
+      "id": "p2hist3-049",
+      "type": "order",
+      "topic": "Ahom-Mughal Chronology",
+      "difficulty": "medium",
+      "q": "Arrange these Ahom-Mughal events in the correct chronological order.",
+      "orderItems": [
+        "First Ahom–Mughal clash near Samdhara (1615)",
+        "Ahoms recover their lost territory (1616)",
+        "Mīr Jumlā captures the Ahom capital Garhgaon (1662)",
+        "Battle of Saraighat (1671)"
+      ],
+      "explanation": "The first Ahom–Mughal clash took place near Samdhara in 1615; by 1616 the Ahoms had recovered the lost territory; Mīr Jumlā captured Garhgaon in 1662; and the Battle of Saraighat followed in 1671.",
+      "fact": "1615: first clash near Samdhara; 1616: lost territory recovered; 1662: Garhgaon captured; 1671: Saraighat."
+    },
+    {
+      "id": "p2hist3-050",
+      "type": "mcq",
+      "topic": "Vijayanagara Empire",
+      "difficulty": "easy",
+      "q": "Who established the independent kingdom of Vijayanagara in 1336?",
+      "options": ["Kṛiṣhṇadevarāya and Rāma Rāya", "Kumāra Kampana and Vīra Ballāla III", "Harihara and Bukkā", "Malik Kāfūr and Muhammad bin Tughlaq"],
+      "answer": 2,
+      "explanation": "Harihara and Bukkā established the independent kingdom of Vijayanagara in 1336, near present-day Hampi in Karnataka, to check the Sultanate's expansion into peninsular India.",
+      "fact": "Harihara and Bukkā established the independent kingdom of Vijayanagara in 1336."
+    }
+  ]
+}

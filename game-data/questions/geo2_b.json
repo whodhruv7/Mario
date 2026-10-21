@@ -1,0 +1,319 @@
+{
+  "chapterId": "geo2",
+  "fragment": "b",
+  "questions": [
+    {
+      "id": "geo2-026",
+      "type": "mcq",
+      "topic": "Weathering Definition",
+      "difficulty": "easy",
+      "q": "Rocks on the Earth's surface break down into smaller pieces through which process?",
+      "options": ["Weathering", "Transportation", "Deposition", "Flooding"],
+      "answer": 0,
+      "explanation": "Weathering is the process through which rocks on the Earth's surface break down into smaller pieces due to various processes.",
+      "fact": "Weathering is the process through which rocks on the Earth's surface break down into smaller pieces due to various processes."
+    },
+    {
+      "id": "geo2-027",
+      "type": "truefalse",
+      "topic": "Erosion Effects",
+      "difficulty": "easy",
+      "q": "Erosion shapes landforms and can both create and destroy features on the Earth's surface.",
+      "answer": "true",
+      "explanation": "Erosion is a shaping force that can create new landforms while also destroying existing features on the Earth's surface.",
+      "fact": "Erosion shapes landforms and can both create and destroy features on the Earth's surface."
+    },
+    {
+      "id": "geo2-028",
+      "type": "wrongstatement",
+      "topic": "Earthquakes in Early India",
+      "difficulty": "medium",
+      "q": "Which of these statements about earthquakes in early India is INCORRECT?",
+      "options": [
+        "A large earthquake in a densely populated country like India can cause severe damage to life and environment",
+        "Varāhamihira dedicated a section to earthquakes in the Bṛihatsaṁhitā",
+        "Changes in wind, rain, clouds, animal behaviour, and planetary alignments were noted as possible earthquake signals",
+        "The Bṛihatsaṁhitā does not mention earthquakes at all"
+      ],
+      "answer": 3,
+      "explanation": "The Bṛihatsaṁhitā actually contains a dedicated section on earthquakes, in which Varāhamihira noted changes in wind, rain, clouds, animal behaviour, and planetary alignments as possible signals.",
+      "fact": "In the Bṛihatsaṁhitā, Varāhamihira dedicated a section to earthquakes, noting how changes in wind, rain, clouds, animal behaviour, and planetary alignments could signal them."
+    },
+    {
+      "id": "geo2-029",
+      "type": "wrongstatement",
+      "topic": "Weathering vs Erosion",
+      "difficulty": "easy",
+      "q": "Which of these statements about weathering and erosion is INCORRECT?",
+      "options": [
+        "Weathering is the process through which rocks on the Earth's surface break down into smaller pieces",
+        "Weathering does not involve movement of the broken material",
+        "Physical, chemical, and biological are the three main types of weathering",
+        "Physical, chemical, and biological are the three main types of erosion"
+      ],
+      "answer": 3,
+      "explanation": "Physical, chemical, and biological are the three main types of WEATHERING, not erosion. The types of erosion are water, wind, glacial, and coastal erosion.",
+      "fact": "There are three main types of weathering: physical weathering, chemical weathering, and biological weathering."
+    },
+    {
+      "id": "geo2-030",
+      "type": "match",
+      "topic": "Weathering and Erosion Processes",
+      "difficulty": "medium",
+      "q": "Match each process that shapes the Earth's surface with its correct description.",
+      "pairs": [
+        {"l": "Physical weathering", "r": "Rocks break into smaller pieces due to temperature changes, frost, or wind"},
+        {"l": "Chemical weathering", "r": "Minerals in rocks change because of reactions with water, air, or acids, forming new substances"},
+        {"l": "Biological weathering", "r": "Plant roots grow into cracks of rocks and split them apart"},
+        {"l": "Erosion", "r": "Surface materials are worn away and carried from one place to another by natural agents"},
+        {"l": "Deposition", "r": "Carried material is dropped, for example sediment accumulating to form a delta"}
+      ],
+      "explanation": "Physical weathering breaks rock by temperature changes, frost, or wind; chemical weathering changes minerals through reactions; biological weathering is done by plants and animals; erosion wears away AND carries material; deposition drops the carried material.",
+      "fact": "There are three main types of weathering: physical, chemical, and biological... erosion involves movement of the broken material... deposits large amounts of sediment, forming deltas.",
+      "hint": "Only one of these five processes involves carrying material away."
+    },
+    {
+      "id": "geo2-031",
+      "type": "multiselect",
+      "topic": "Types of Erosion",
+      "difficulty": "medium",
+      "q": "Select all correct types of erosion described in the chapter.",
+      "options": ["Water erosion", "Wind erosion", "Glacial erosion", "Volcanic erosion", "Magnetic erosion"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "The types of erosion are water erosion (by rivers, rain, or ocean waves), wind erosion in dry and sandy areas, glacial erosion by moving ice, and coastal erosion by sea waves. Volcanic and magnetic erosion are not types of erosion.",
+      "fact": "There are several types of erosion: water erosion, caused by rivers, rain, or ocean waves; wind erosion, common in dry and sandy areas; glacial erosion, where moving ice scrapes and carries rocks; and coastal erosion, where sea waves wear away the land along the shore."
+    },
+    {
+      "id": "geo2-032",
+      "type": "mcq",
+      "topic": "Erosion and Farmers",
+      "difficulty": "medium",
+      "q": "How does erosion affect farmers?",
+      "options": [
+        "It removes the fertile topsoil needed for crop growth, leading to lower yields",
+        "It makes the soil more fertile every year",
+        "It protects crops from strong winds",
+        "It has no effect on agriculture"
+      ],
+      "answer": 0,
+      "explanation": "For farmers, erosion removes the fertile topsoil needed for crop growth, which leads to lower yields.",
+      "fact": "For farmers, erosion removes the fertile topsoil needed for crop growth, leading to lower yields."
+    },
+    {
+      "id": "geo2-033",
+      "type": "wrongstatement",
+      "topic": "Erosion and Occupations",
+      "difficulty": "medium",
+      "q": "Which of these statements about how erosion affects human occupations is INCORRECT?",
+      "options": [
+        "For people living near rivers and coasts, erosion can wash away land, houses, and roads",
+        "In construction and mining, erosion destabilises land, posing safety risks",
+        "Industries like tourism and fishing suffer when beaches and fertile lands are destroyed",
+        "Erosion always benefits human occupations by creating new fertile land everywhere"
+      ],
+      "answer": 3,
+      "explanation": "Erosion harms many occupations: it removes topsoil, washes away land and roads, destabilises construction and mining sites, and hurts tourism and fishing. It does not always create fertile land.",
+      "fact": "This shows that erosion not only shapes the Earth's surface but also directly affects human labour and livelihoods."
+    },
+    {
+      "id": "geo2-034",
+      "type": "truefalse",
+      "topic": "Weathering and Soil",
+      "difficulty": "easy",
+      "q": "Weathering plays an important role in shaping the Earth's surface and forming soil.",
+      "answer": "true",
+      "explanation": "Besides shaping the Earth's surface, weathering is important because it helps in the formation of soil.",
+      "fact": "Weathering plays an important role in shaping the Earth's surface and forming soil."
+    },
+    {
+      "id": "geo2-035",
+      "type": "mcq",
+      "topic": "Zabo System",
+      "difficulty": "hard",
+      "q": "The Zabo system, an integrated farming approach using earthen bunds on hillslopes for soil and water conservation, is found in which state?",
+      "options": ["Nagaland", "Kerala", "Gujarat", "Punjab"],
+      "answer": 0,
+      "explanation": "The Zabo system in Nagaland represents an integrated farming approach that uses earthen bunds built on hillslopes for soil and water conservation.",
+      "fact": "The Zabo system in Nagaland represents an integrated farming approach using earthen bunds on hillslopes for soil and water conservation.",
+      "hint": "This north-eastern state is famous for its hill tribes and terraced hill farming."
+    },
+    {
+      "id": "geo2-036",
+      "type": "fillblank",
+      "topic": "Contour Trenches",
+      "difficulty": "easy",
+      "q": "A continuous ___ trench (CCT) is dug along the contour lines of a hillside to slow down, hold, and infiltrate rainwater.",
+      "answerVariants": ["contour"],
+      "explanation": "CCT stands for continuous contour trench, a water conservation technique that prevents soil erosion and recharges groundwater.",
+      "fact": "A continuous contour trench (CCT) is a water conservation technique in which trenches are dug along the contour lines of a hillside to slow down, hold, and infiltrate rainwater."
+    },
+    {
+      "id": "geo2-037",
+      "type": "assertion",
+      "topic": "Sindhu-Sarasvatī Water Management",
+      "difficulty": "medium",
+      "q": "Assertion (A): The Sindhu-Sarasvatī civilisation employed sophisticated water management techniques.\nReason (R): It used contouring, bunding, terracing, dams, and canals for water management.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true, and the list of techniques (contouring, bunding, terracing, dams, and canals) is exactly what made their water management sophisticated, so R explains A.",
+      "fact": "The Sindhu-Sarasvatī civilisation employed sophisticated techniques, including contouring, bunding, terracing, dams, and canals for water management."
+    },
+    {
+      "id": "geo2-038",
+      "type": "truefalse",
+      "topic": "Check Dams",
+      "difficulty": "easy",
+      "q": "Check dams are constructed across small streams to reduce water velocity and prevent soil erosion.",
+      "answer": "true",
+      "explanation": "Check dams slow down the flow of water, prevent soil erosion, allow sediment deposition, and enhance groundwater recharge.",
+      "fact": "Check dams were constructed across small streams to reduce water velocity, prevent soil erosion, and allow sediment deposition."
+    },
+    {
+      "id": "geo2-039",
+      "type": "fillblank",
+      "topic": "Agents of Gradation",
+      "difficulty": "easy",
+      "q": "The main agents of gradation are running water, glaciers, wind, waves, and ___.",
+      "answerVariants": ["groundwater", "ground water", "underground water"],
+      "explanation": "The main agents of gradation, which wear down, transport, and deposit materials on the Earth's surface, are running water, glaciers, wind, waves, and groundwater.",
+      "fact": "The main agents of gradation are running water, glaciers, wind, waves, and groundwater."
+    },
+    {
+      "id": "geo2-040",
+      "type": "match",
+      "topic": "Agents of Gradation Landforms",
+      "difficulty": "easy",
+      "q": "Match each agent of gradation with the landforms it creates.",
+      "pairs": [
+        {"l": "Running water", "r": "Erodes rocks and soils to form valleys and plains"},
+        {"l": "Glaciers", "r": "Scrape and carry huge amounts of material, carving U-shaped valleys"},
+        {"l": "Wind", "r": "Shapes deserts by eroding and depositing sand"},
+        {"l": "Sea waves", "r": "Erode coastlines to form cliffs, beaches, and bays"},
+        {"l": "Groundwater", "r": "Dissolves rocks such as limestone, creating caves and sinkholes"}
+      ],
+      "explanation": "Each agent leaves its signature: rivers cut valleys and plains, glaciers carve U-shaped valleys, wind shapes deserts, waves build and erode coastlines, and groundwater dissolves limestone into caves and sinkholes.",
+      "fact": "Running water erodes rocks and soils to form valleys and plains. Glaciers scrape and carry huge amounts of material, carving U-shaped valleys. Wind shapes deserts... Sea waves erode coastlines to form cliffs, beaches, and bays. Groundwater dissolves rocks, such as limestone, creating caves, and sinkholes."
+    },
+    {
+      "id": "geo2-041",
+      "type": "truefalse",
+      "topic": "Agents of Gradation",
+      "difficulty": "easy",
+      "q": "Agents of gradation help to level or smooth the Earth's surface over time by lowering high areas and filling up low areas.",
+      "answer": "true",
+      "explanation": "Agents of gradation wear down, transport, and deposit materials, lowering high areas and filling low areas, which levels or smooths the surface over time.",
+      "fact": "Agents of gradation are natural forces that wear down, transport, and deposit materials on the Earth's surface, helping to level or smooth it over time... lowering high areas, and filling up low areas."
+    },
+    {
+      "id": "geo2-042",
+      "type": "mcq",
+      "topic": "Rivers and Civilisations",
+      "difficulty": "easy",
+      "q": "Rivers and fertile plains like those of the Ganga, Nile, Brahmaputra, and Indus gave rise to what kind of societies?",
+      "options": ["Agricultural societies and early cities", "Only hunting communities", "Large industrial factories", "Underwater settlements"],
+      "answer": 0,
+      "explanation": "Fertile river plains supported farming, so they gave rise to agricultural societies and early cities.",
+      "fact": "Rivers and fertile plains like those of the Ganga, Nile, Brahmaputra, and Indus, gave rise to agricultural societies and early cities."
+    },
+    {
+      "id": "geo2-043",
+      "type": "fillblank",
+      "topic": "Silk Route",
+      "difficulty": "medium",
+      "q": "Deserts such as the Thar limited the development of large settlements but encouraged trade routes, such as the ___ Route.",
+      "answerVariants": ["Silk", "silk"],
+      "explanation": "The Thar desert restricted the growth of large settlements, but it encouraged trade routes such as the famous Silk Route.",
+      "fact": "Deserts, such as the Thar limited the development of large settlements but encouraged trade routes, such as the Silk Route."
+    },
+    {
+      "id": "geo2-044",
+      "type": "fillblank",
+      "topic": "Khyber Pass",
+      "difficulty": "easy",
+      "q": "The Himalayas shielded India from invasions but also allowed cultural exchanges through passes like the ___ pass.",
+      "answerVariants": ["Khyber", "khyber"],
+      "explanation": "While the Himalayas acted as a barrier, passes like the Khyber pass allowed cultural exchanges to continue.",
+      "fact": "The Himalayas shielded India from invasions but also allowed cultural exchanges through passes like the Khyber pass."
+    },
+    {
+      "id": "geo2-045",
+      "type": "assertion",
+      "topic": "Terracing Soil Conservation",
+      "difficulty": "medium",
+      "q": "Assertion (A): Terracing is a soil conservation practice that prevents soil erosion on hillsides.\nReason (R): Terracing creates a series of level or gently sloping steps on a hillside.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true, and building level or gently sloping steps on a hillside is precisely how terracing prevents soil erosion, so R explains A.",
+      "fact": "Terracing is a soil conservation practice that creates a series of level or gently sloping steps on a hillside to prevent soil erosion."
+    },
+    {
+      "id": "geo2-046",
+      "type": "wrongstatement",
+      "topic": "Landforms and Civilisations",
+      "difficulty": "hard",
+      "q": "Which of these statements about landforms and human civilisations is INCORRECT?",
+      "options": [
+        "The Himalayas shielded India from invasions",
+        "Coasts and harbours supported trade, travel, and cultural contacts with distant lands",
+        "Wars, settlements, trade, and cultural growth were deeply influenced by the land's physical features",
+        "Landforms have played almost no role in shaping the history of human civilisations"
+      ],
+      "answer": 3,
+      "explanation": "Landforms played a MAJOR role in shaping human civilisations, influencing settlements, trade, wars, and culture. Saying they had almost no role is incorrect.",
+      "fact": "Landforms have played a major role in shaping the history of human civilisations... history shows that wars, settlements, trade, and cultural growth were all deeply influenced by the land's physical features."
+    },
+    {
+      "id": "geo2-047",
+      "type": "mcq",
+      "topic": "Upper Course Landforms",
+      "difficulty": "easy",
+      "q": "Which landforms are formed in the upper course of a river?",
+      "options": ["V-shaped valleys, waterfalls, and rapids", "Meanders and ox-bow lakes", "Deltas and levees", "Cirques and aretes"],
+      "answer": 0,
+      "explanation": "The upper course has steep gradients and strong erosive forces, so V-shaped valleys, waterfalls, and rapids form there.",
+      "fact": "At the upper course, rivers often form V-shaped valleys, waterfalls, and rapids due to steep gradients and strong erosive forces."
+    },
+    {
+      "id": "geo2-048",
+      "type": "truefalse",
+      "topic": "Middle Course Landforms",
+      "difficulty": "medium",
+      "q": "In the middle course, the river starts to meander, forming ox-bow lakes and floodplains.",
+      "answer": "true",
+      "explanation": "As the river loses energy in the middle course, it begins to meander and to deposit sediments, forming ox-bow lakes and floodplains.",
+      "fact": "In the middle course, the river starts to meander, forming oxbow lakes, and floodplains as it loses energy and begins depositing sediments."
+    },
+    {
+      "id": "geo2-049",
+      "type": "order",
+      "topic": "River Course Sequence",
+      "difficulty": "medium",
+      "q": "Arrange these river landforms in the order they appear from the upper course to the lower course of a river.",
+      "orderItems": ["V-shaped valley", "Waterfall", "Meander with ox-bow lakes", "Delta"],
+      "explanation": "V-shaped valleys and waterfalls come first in the upper course, meanders and ox-bow lakes appear in the middle course, and the delta forms at the very end in the lower course.",
+      "fact": "At the upper course, rivers often form V-shaped valleys, waterfalls, and rapids... In the middle course, the river starts to meander... In the lower course... forming deltas, levees, and alluvial fans.",
+      "hint": "Follow the river from the mountains to the sea."
+    },
+    {
+      "id": "geo2-050",
+      "type": "mcq",
+      "topic": "Waterfalls and Hydroelectricity",
+      "difficulty": "easy",
+      "q": "Besides attracting tourists, waterfalls are sometimes used for which purpose?",
+      "options": ["Hydroelectric power generation", "Growing rice and jute", "Creating sea arches", "Making desert pavement"],
+      "answer": 0,
+      "explanation": "The force with which water falls can be harnessed to produce electricity, so waterfalls are sometimes used for hydroelectric power generation.",
+      "fact": "Waterfalls are sometimes used for hydroelectric power generation, as the force with which the water falls, can be harnessed to produce electricity."
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "chapterId": "hist4",
+  "fragment": "d",
+  "questions": [
+    {
+      "id": "hist4-076",
+      "type": "mcq",
+      "topic": "Beginning of Writing",
+      "difficulty": "easy",
+      "q": "Who were the first to start writing, around 3200 BCE?",
+      "options": ["The Harappans", "The Egyptians", "The Sumerians", "The Chinese"],
+      "answer": 2,
+      "explanation": "The Sumerians were the first to start writing around 3200 BCE, and their writing system is known as cuneiform, written by pressing a wedge-shaped stylus into soft clay tablets.",
+      "fact": "The Sumerians were the first to start writing around 3200 BCE, and their writing system is known as cuneiform.",
+      "hint": "Their script was cuneiform, pressed on clay tablets."
+    },
+    {
+      "id": "hist4-077",
+      "type": "multiselect",
+      "topic": "Cuneiform Basics",
+      "difficulty": "medium",
+      "q": "Select all correct statements about cuneiform writing.",
+      "options": [
+        "It consists of hundreds of marks pressed onto the damp surface of clay tablets.",
+        "Its scribes enjoyed a high status in society, similar to the priests and priestesses.",
+        "Tablets were used for keeping records of farming and craft activities.",
+        "It was written with ink on papyrus sheets."
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Cuneiform marks were pressed onto damp clay tablets with sharp wedge-shaped reeds; its scribes enjoyed high status like priests and priestesses; and tablets recorded farming and craft activities of potters, seal cutters, shipbuilders and carpenters. It was not written in ink on papyrus.",
+      "fact": "Cuneiform consists of hundreds of marks pressed onto the damp surface of clay tablets; its scribes enjoyed a high status in the society; tablets were used for keeping a record of farming and craft activities."
+    },
+    {
+      "id": "hist4-078",
+      "type": "mcq",
+      "topic": "Cuneiform Word Origin",
+      "difficulty": "medium",
+      "q": "The word 'cuneiform' comes from the Latin word 'cuneus', which means:",
+      "options": ["Clay", "Reed", "Temple", "Wedge"],
+      "answer": 3,
+      "explanation": "The word cuneiform comes from the Latin word cuneus, meaning 'wedge', referring to the wedge-shaped marks made by pressing a stylus into soft clay tablets.",
+      "fact": "The word cuneiform comes from the Latin word cuneus, meaning 'wedge', referring to the wedge-shaped marks used in the script."
+    },
+    {
+      "id": "hist4-079",
+      "type": "truefalse",
+      "topic": "Cuneiform Spread",
+      "difficulty": "medium",
+      "q": "By 3000 BCE, cuneiform was widely used all over Mesopotamia by different city-states, even though they spoke different languages.",
+      "answer": "true",
+      "explanation": "By 3000 BCE, cuneiform was widely used across Mesopotamia by different city-states even though they spoke different languages. For example, both the Sumerians and the Akkadians used the same cuneiform script for writing.",
+      "fact": "By 3000 BCE, cuneiform was widely used all over Mesopotamia by different city-states, even though they spoke different languages."
+    },
+    {
+      "id": "hist4-080",
+      "type": "mcq",
+      "topic": "Meluhha Trade",
+      "difficulty": "hard",
+      "q": "In Sargon's records, which territory is generally identified with the Sindhu-Sarasvati civilisation?",
+      "options": ["Dilmun", "Magan", "Assyria", "Meluhha"],
+      "answer": 3,
+      "explanation": "The cuneiform tablets of the Akkadian king Sargon mention Mesopotamian trade with Dilmun, Magan and Meluhha. Meluhha is generally identified with the Sindhu-Sarasvati civilisation, while Dilmun and Magan are today's Bahrain and the Oman peninsula.",
+      "fact": "Meluhha is generally identified with the Sindhu-Sarasvati civilisation, and Dilmun and Magan are today's Bahrain and Oman peninsula of the Persian Gulf."
+    },
+    {
+      "id": "hist4-081",
+      "type": "fillblank",
+      "topic": "Dilmun and Magan",
+      "difficulty": "hard",
+      "q": "Dilmun and Magan, the trading territories of Sargon's records, are today's Bahrain and the ___ peninsula of the Persian Gulf.",
+      "answerVariants": ["Oman", "oman"],
+      "explanation": "Dilmun and Magan are today's Bahrain and the Oman peninsula of the Persian Gulf. With the Harappans of Meluhha, they traded semiprecious stone beads, ivory, timber, gold dust and probably copper.",
+      "fact": "Dilmun and Magan are today's Bahrain and Oman peninsula of the Persian Gulf."
+    },
+    {
+      "id": "hist4-082",
+      "type": "wrongstatement",
+      "topic": "Akkadian Empire",
+      "difficulty": "medium",
+      "q": "Which of these statements about the Akkadians is INCORRECT?",
+      "options": [
+        "The city of Akkad lay further north in Sumer, in central Mesopotamia.",
+        "Sargon was an important Babylonian king.",
+        "Akkadian records document the consolidation of power over different regions of Mesopotamia.",
+        "The Epic of Gilgamesh is one of the earliest stories written."
+      ],
+      "answer": 1,
+      "explanation": "Sargon was one of the most important Akkadian kings, not Babylonian; his cuneiform tablets record Mesopotamian trade with Dilmun, Magan and Meluhha. The other statements about Akkad, Akkadian records and the Epic of Gilgamesh are correct.",
+      "fact": "The cuneiform tablets of one of the most important Akkadian kings, Sargon, talk about Mesopotamian trade with the eastern territories of Dilmun, Magan and Meluhha."
+    },
+    {
+      "id": "hist4-083",
+      "type": "match",
+      "topic": "Mesopotamian Civilisations Features",
+      "difficulty": "medium",
+      "q": "Match each Mesopotamian people with its correct feature.",
+      "pairs": [
+        {"l": "Sumerians", "r": "Earliest city-based civilisation, at Ur"},
+        {"l": "Akkadians", "r": "Established the world's first dynastic empire"},
+        {"l": "Assyrians", "r": "City-state of Assur in northern Mesopotamia"},
+        {"l": "Babylonians", "r": "Rose to dominance in central Mesopotamia from 1900 BCE"},
+        {"l": "Hittites", "r": "Indo-European people of Anatolia (modern Turkey)"}
+      ],
+      "explanation": "The Sumerians were the earliest city-based civilisation at Ur; the Akkadians established the world's first dynastic empire; the Assyrians were centred on Assur in the north; the Babylonians dominated central Mesopotamia from 1900 BCE; and the Hittites were Indo-European people who built a powerful empire in Anatolia.",
+      "fact": "The Sumerians were the earliest to evolve into a city-based civilisation at Ur; Akkadian records document the establishment of the world's first dynastic empire; the Assyrian city-state was Assur in northern Mesopotamia; Babylonia gained dominance in central Mesopotamia from 1900 BCE; the Hittites established a powerful empire in Anatolia (modern-day Turkey)."
+    },
+    {
+      "id": "hist4-084",
+      "type": "assertion",
+      "topic": "Code of Hammurabi",
+      "difficulty": "medium",
+      "q": "Assertion (A): Hammurabi's most significant contribution was the compilation of the Code of Hammurabi.\nReason (R): The code served as a foundational model for many future legal systems.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both A and R are true, and R explains A. Hammurabi compiled rules and regulations for civil and social conduct known as the Code of Hammurabi, and its role as a foundational model for future legal systems is exactly what makes it his most significant contribution.",
+      "fact": "The most significant contribution of Hammurabi was the compilation of rules and regulations for civil and social conduct known as the Code of Hammurabi; it served as a foundational model for many future legal systems."
+    },
+    {
+      "id": "hist4-085",
+      "type": "truefalse",
+      "topic": "Egyptian Women",
+      "difficulty": "easy",
+      "q": "Egyptian women, in general, enjoyed more rights than their Greek or Roman counterparts, as they could own property and run businesses.",
+      "answer": "true",
+      "explanation": "Egyptian women could own property and run businesses, enjoying more rights than Greek or Roman women. Cleopatra, trained from childhood to rule, became queen at the age of eighteen.",
+      "fact": "Egyptian women, in general, enjoyed more rights than their Greek or Roman counterparts, as they could own property and run businesses."
+    },
+    {
+      "id": "hist4-086",
+      "type": "wrongstatement",
+      "topic": "Egyptian Calendar",
+      "difficulty": "medium",
+      "q": "Which of these statements about the Egyptian calendar is INCORRECT?",
+      "options": [
+        "It had three seasons: Inundation, Peret and shemu.",
+        "Each season consisted of four months.",
+        "The Egyptian year had 360 days with no extra days.",
+        "It was based on the rising of Sirius (Dog Star)."
+      ],
+      "answer": 2,
+      "explanation": "The Egyptian year had 365 days — 12 months of 30 days plus 5 extra days. The calendar had three seasons of four months each — Inundation, Peret and shemu — and was based on the rising of Sirius, the Dog Star.",
+      "fact": "The Egyptian calendar has three seasons, each consisting of four months; it is based on the rising of Sirius (Dog Star), where Year = 365 days (12 months x 30 days + 5 extra days)."
+    },
+    {
+      "id": "hist4-087",
+      "type": "match",
+      "topic": "Egyptian Terms",
+      "difficulty": "medium",
+      "q": "Match each Egyptian term with its correct meaning.",
+      "pairs": [
+        {"l": "Pharaoh", "r": "Powerful ruler of Egypt"},
+        {"l": "Mastaba", "r": "Rectangular structure placed over the burial chamber"},
+        {"l": "Ka", "r": "Spiritual double that lived on after death"},
+        {"l": "Kemet", "r": "'The black', the Egyptians' name for their land"},
+        {"l": "Sistrum", "r": "Musical instrument played at festivals"}
+      ],
+      "explanation": "Pharaohs were the powerful rulers of Egypt; a mastaba was a rectangular structure placed over the burial chamber; the ka was a spiritual double believed to live on after death; Kemet ('the black') was the Egyptians' name for their land; and the sistrum was a musical instrument played at festivals.",
+      "fact": "Powerful individuals called 'Pharaohs' emerged as rulers of Egypt; a rectangular structure called a mastaba was placed over the burial chamber; each person had a ka (a spiritual double); Egyptians referred to their land as Kemet; music was played on instruments such as the 'sistrum'."
+    },
+    {
+      "id": "hist4-088",
+      "type": "mcq",
+      "topic": "Rosetta Stone",
+      "difficulty": "hard",
+      "q": "Who finally deciphered the Egyptian script in 1822?",
+      "options": ["Pierre Bouchard", "Jean-Francois Champollion", "Herodotus", "Hammurabi"],
+      "answer": 1,
+      "explanation": "Pierre Bouchard, a French army engineer, found the Rosetta Stone in 1799, but it was the French linguist Jean-Francois Champollion who finally deciphered the script in 1822. The stone carried three types of writing, including Greek, which acted like a bilingual dictionary.",
+      "fact": "In 1822, a French linguist, Jean-Francois Champollion, finally deciphered the script of the Rosetta Stone found by Pierre Bouchard in 1799.",
+      "hint": "He was a French linguist."
+    },
+    {
+      "id": "hist4-089",
+      "type": "wrongstatement",
+      "topic": "Egyptian Festivals",
+      "difficulty": "medium",
+      "q": "Which of these statements about early Egyptian life is INCORRECT?",
+      "options": [
+        "The Sed festival was held to mark a king's 5th year on the throne.",
+        "Early Egyptians swam, canoed and played board games.",
+        "Festivals were dedicated to gods and the pharaoh's rule.",
+        "Each god had a festival in which their statue was paraded."
+      ],
+      "answer": 0,
+      "explanation": "The Sed festival was held to mark a king's 30th year on the throne, not the 5th year. The other statements about Egyptian leisure activities and festivals are correct.",
+      "fact": "The Sed festival was held to mark a king's 30th year on the throne; festivals were central to early Egyptian culture, dedicated to gods and the pharaoh's rule."
+    },
+    {
+      "id": "hist4-090",
+      "type": "wrongstatement",
+      "topic": "Egyptian Records",
+      "difficulty": "hard",
+      "q": "Which of these statements about ancient Egyptian records is INCORRECT?",
+      "options": [
+        "The script used in ancient Egypt was hieroglyphic.",
+        "One library jar contained the oldest version of the story of 'Sindbad the Sailor'.",
+        "Short stories from this period include the oldest known form of 'Cinderella'.",
+        "The Papyrus Ebers was named after the river in which it was discovered."
+      ],
+      "answer": 3,
+      "explanation": "The Papyrus Ebers was named after its discoverer, not after a river; it lists more than 700 cures and spells of Egyptian medicine. The other statements about Egypt's hieroglyphic script and its stories are correct.",
+      "fact": "The papyrus was named after its discoverers; for example, the Papyrus Ebers, named after its discoverer, lists more than 700 cures and spells of Egyptian medicine."
+    },
+    {
+      "id": "hist4-091",
+      "type": "fillblank",
+      "topic": "Mummification",
+      "difficulty": "easy",
+      "q": "The Egyptian process of preserving the body after death is known as ___.",
+      "answerVariants": ["mummification", "Mummification"],
+      "explanation": "Mummification involved removing the internal organs (except the heart), drying the body with natron, oiling it, and wrapping it in linen strips before it was placed in a coffin and buried with rituals.",
+      "fact": "Mummification: the process involved removing the internal organs (except the heart) and drying the body with natron; the body was then oiled, wrapped in linen strips, placed in a coffin, and buried with rituals.",
+      "hint": "The body was preserved rather than destroyed."
+    },
+    {
+      "id": "hist4-092",
+      "type": "assertion",
+      "topic": "Egyptian Pyramids",
+      "difficulty": "medium",
+      "q": "Assertion (A): The pyramids were built primarily because of the Egyptian belief in the ka.\nReason (R): Egyptians believed that the ka, a spiritual double, lived on after death if the body was preserved through mummification.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both A and R are true, and R explains A. Because Egyptians believed each person had a ka that lived on after death if the body was preserved, pharaohs were buried with great care — mastabas placed one on top of the other formed pyramids, like the step pyramid at Saqqara.",
+      "fact": "The pyramids were built primarily because the Egyptians believed that each person had a ka (a spiritual double) that lived on after death if the body was preserved through mummification."
+    },
+    {
+      "id": "hist4-093",
+      "type": "multiselect",
+      "topic": "Mummification Steps",
+      "difficulty": "easy",
+      "q": "Select all correct steps of Egyptian mummification.",
+      "options": [
+        "Removing the internal organs except the heart",
+        "Drying the body with natron",
+        "Wrapping the body in linen strips",
+        "Burning the body to ashes"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Mummification involved removing the internal organs (except the heart), drying the body with natron, oiling it, wrapping it in linen strips, and burying it in a coffin with rituals. Bodies were never burnt to ashes.",
+      "fact": "The process involved removing the internal organs (except the heart) and drying the body with natron; the body was then oiled, wrapped in linen strips, placed in a coffin, and buried with rituals."
+    },
+    {
+      "id": "hist4-094",
+      "type": "mcq",
+      "topic": "Chinese Public Officials",
+      "difficulty": "hard",
+      "q": "In early China, public officials were chosen with great care after being examined in:",
+      "options": ["Only military skills", "Religious rituals alone", "Archery, horsemanship, calculations, writing and music", "Farming and pottery"],
+      "answer": 2,
+      "explanation": "Public officials in early China were chosen with great care, after being examined in archery, horsemanship, calculations, writing and music. China was also the first to develop civil services through public examination.",
+      "fact": "Public officials were chosen with great care, after being examined in archery, horsemanship, calculations, writing, and music."
+    },
+    {
+      "id": "hist4-095",
+      "type": "assertion",
+      "topic": "Egyptian Calendar Origin",
+      "difficulty": "easy",
+      "q": "Assertion (A): The Egyptians developed a calendar.\nReason (R): They counted the days between the floods of the Nile.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both A and R are true, and R explains A. By counting the days between Nile floods, the Egyptians developed a calendar with three seasons and a 365-day year.",
+      "fact": "By counting the days between Nile floods, the Egyptians developed a calendar."
+    },
+    {
+      "id": "hist4-096",
+      "type": "order",
+      "topic": "Egyptian Kingdoms",
+      "difficulty": "easy",
+      "q": "Arrange these periods of ancient Egyptian history in the correct order.",
+      "orderItems": ["Old Kingdom", "Middle Kingdom", "New Kingdom"],
+      "explanation": "Egyptian history moved from the Old Kingdom (2686-2181 BCE) to the Middle Kingdom (2030-1650 BCE) and then the New Kingdom (1570-1069 BCE).",
+      "fact": "The Egyptian timeline shows the Old Kingdom (2686-2181 BCE), the Middle Kingdom (2030-1650 BCE) and the New Kingdom (1570-1069 BCE)."
+    },
+    {
+      "id": "hist4-097",
+      "type": "order",
+      "topic": "Chinese Dynasties",
+      "difficulty": "hard",
+      "q": "Arrange these Chinese dynasties in the correct chronological order.",
+      "orderItems": ["Shang", "Zhou", "Qin", "Han"],
+      "explanation": "The Shang dynasty (1600-1046 BCE) came first, followed by the Zhou (1046-256 BCE), then the Qin (221-206 BCE), the first imperial dynasty credited with unifying China, and finally the Han (206 BCE-220 CE).",
+      "fact": "The Shang dynasty (1600-1046 BCE) and the Zhou dynasty (1046-256 BCE) were two well-known Bronze Age dynasties; the Qin (Ch'in) dynasty (221-206 BCE) was the first imperial dynasty; the Han dynasty lasted from 206 BCE to 220 CE."
+    },
+    {
+      "id": "hist4-098",
+      "type": "match",
+      "topic": "Chinese Culture and Innovations",
+      "difficulty": "hard",
+      "q": "Match each item of early Chinese culture with its correct detail.",
+      "pairs": [
+        {"l": "Jade", "r": "Prestige material obtained from outside China"},
+        {"l": "Oracles", "r": "Symbols on bones and tortoise shells used to foretell the future"},
+        {"l": "Great Wall", "r": "Built from 680 BCE onwards against nomadic raids"},
+        {"l": "Money economy", "r": "Developed by the 5th century BCE"},
+        {"l": "Bronze Age society", "r": "Highly stratified by 1500 BCE"}
+      ],
+      "explanation": "Jade was not locally available and came from outside China; oracles were symbols on animal bones and tortoise shells that were heated until they cracked; the Great Wall was first built from 680 BCE onwards as protection against nomadic tribes; a money economy developed by the 5th century BCE; and Chinese Bronze Age society was highly stratified by 1500 BCE.",
+      "fact": "Jade was not locally available and was obtained from outside China; oracles were symbols made on animal bones and tortoise shells often used to foretell the future; walls were built from 680 BCE onwards as protection against the violent raids of nomadic tribes; a money economy developed by the 5th century BCE; by 1500 BCE, Chinese Bronze Age society was highly stratified."
+    },
+    {
+      "id": "hist4-099",
+      "type": "assertion",
+      "topic": "Silk Route",
+      "difficulty": "medium",
+      "q": "Assertion (A): The entire route on which silk was traded came to be known as the 'Silk Route'.\nReason (R): Around the 2nd century BCE, during the Han dynasty, silk became a major item of external trade.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both A and R are true, and R explains A. Silk became such a major item of external trade during the Han dynasty that the entire trade route was named the 'Silk Route'.",
+      "fact": "Around the 2nd century BCE, during the time of the Han dynasty, silk became a major item of external trade, so much so that the entire route on which it was traded came to be known as the 'Silk Route'."
+    },
+    {
+      "id": "hist4-100",
+      "type": "wrongstatement",
+      "topic": "Chinese Civilisation Facts",
+      "difficulty": "hard",
+      "q": "Which of these statements about the Chinese civilisation is INCORRECT?",
+      "options": [
+        "The Shang and the Zhou were two well-known dynasties of the Chinese Bronze Age.",
+        "The name 'China' probably comes from the Qin (Ch'in) dynasty.",
+        "Silk was unknown to the Chinese until the Han dynasty.",
+        "China was the first country to introduce paper currency to the world."
+      ],
+      "answer": 2,
+      "explanation": "Silk was known to the Chinese from the Neolithic period (4000-3000 BCE) onwards, long before the Han dynasty, though it became a major item of external trade only around the 2nd century BCE. The other statements are correct.",
+      "fact": "Silk was known to the Chinese from the Neolithic period (4000-3000 BCE) onwards; the name 'China' probably comes from the Qin (Ch'in) dynasty; China was also the first country to introduce paper currency to the world.",
+      "hint": "Silk is much older than the Han dynasty."
+    }
+  ]
+}

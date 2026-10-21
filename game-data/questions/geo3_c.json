@@ -1,0 +1,291 @@
+{
+  "chapterId": "geo3",
+  "fragment": "c",
+  "questions": [
+    {
+      "id": "geo3-051",
+      "type": "mcq",
+      "topic": "Climate of India",
+      "difficulty": "easy",
+      "q": "The climate of India can be broadly classified as which type?",
+      "options": ["Equatorial desert", "Polar tundra", "Tropical monsoon", "Mediterranean"],
+      "answer": 2,
+      "explanation": "The climate of India is broadly classified as tropical monsoon, because it is strongly influenced by the seasonal monsoon winds.",
+      "fact": "The climate of India can be broadly classified as tropical monsoon."
+    },
+    {
+      "id": "geo3-052",
+      "type": "mcq",
+      "topic": "Seasons in India",
+      "difficulty": "easy",
+      "q": "How many distinct seasons in India has the Indian Meteorological Department (IMD) recognised?",
+      "options": ["Two", "Three", "Four", "Six"],
+      "answer": 2,
+      "explanation": "The IMD has recognised four distinct seasons in India — winter, summer or pre-monsoon, monsoon, and post-monsoon. The six-season count belongs to the traditional Indian calendar.",
+      "fact": "The Indian Meteorological Department (IMD) has recognised four distinct seasons in India.",
+      "hint": "Count the seasons the IMD names — winter through post-monsoon."
+    },
+    {
+      "id": "geo3-053",
+      "type": "wrongstatement",
+      "topic": "Seasons in India",
+      "difficulty": "medium",
+      "q": "Which of these statements about the seasons of India is INCORRECT?",
+      "options": ["The winter season generally lasts from December to early April", "The summer or pre-monsoon season spans from April to June, or up to July in north-western India", "The post-monsoon season lasts from October to December", "The monsoon season generally spans from March to May"],
+      "answer": 3,
+      "explanation": "The monsoon season actually spans June to September, not March to May. The other three statements give the correct durations of the winter, summer and post-monsoon seasons.",
+      "fact": "The monsoon season generally spans from June to September."
+    },
+    {
+      "id": "geo3-054",
+      "type": "fillblank",
+      "topic": "Seasons in India",
+      "difficulty": "medium",
+      "q": "April is the hottest month in the western and southern regions of India, but in the northern regions the hottest month is ___.",
+      "answerVariants": ["may", "the month of may"],
+      "explanation": "In western and southern India the hottest month is April, while in the northern regions it is May.",
+      "fact": "In western and southern regions, the hottest month is April; in northern regions, it is May."
+    },
+    {
+      "id": "geo3-055",
+      "type": "truefalse",
+      "topic": "Seasons in India",
+      "difficulty": "easy",
+      "q": "During the summer season, the average temperature across most of inland India ranges from 10–15°C.",
+      "answer": "false",
+      "explanation": "Summer temperatures across most of inland India range from 32–40°C. The 10–15°C average belongs to winter in the north-west of India.",
+      "fact": "The average temperature across most of inland India ranges from 32–40°C.",
+      "hint": "Indian summers are famously hot — think 30-plus."
+    },
+    {
+      "id": "geo3-056",
+      "type": "mcq",
+      "topic": "Seasons in India",
+      "difficulty": "easy",
+      "q": "Which are the coldest months of the year in India?",
+      "options": ["December and January", "June and July", "March and April", "September and October"],
+      "answer": 0,
+      "explanation": "December and January are the coldest months of the year, falling within the winter season that generally lasts from December to early April.",
+      "fact": "The coldest months of the year are December and January.",
+      "hint": "Think of the months right after the December chill begins."
+    },
+    {
+      "id": "geo3-057",
+      "type": "truefalse",
+      "topic": "Seasons in India",
+      "difficulty": "easy",
+      "q": "The Himalayan states, being more temperate, experience two additional seasons — autumn and spring.",
+      "answer": "true",
+      "explanation": "Because they are more temperate, the Himalayan states experience autumn and spring in addition to the four seasons recognised for the rest of India.",
+      "fact": "The Himalayan states, being more temperate, experience two additional seasons, autumn and spring."
+    },
+    {
+      "id": "geo3-058",
+      "type": "multiselect",
+      "topic": "Seasons in India",
+      "difficulty": "easy",
+      "q": "Select all correct names of the four seasons recognised by the IMD.",
+      "options": ["Winter", "Spring", "Monsoon", "Post-monsoon"],
+      "answerIndices": [0, 2, 3],
+      "explanation": "The four IMD seasons are winter, summer or pre-monsoon, monsoon, and post-monsoon. Spring is an additional season experienced only by the temperate Himalayan states.",
+      "fact": "The IMD has recognised four distinct seasons in India: Winter, Summer or pre-monsoon, Monsoon, and Post-monsoon."
+    },
+    {
+      "id": "geo3-059",
+      "type": "mcq",
+      "topic": "Seasons in India",
+      "difficulty": "medium",
+      "q": "In December and January, the average temperature in the north-west of India is around 10–15°C. What does it reach in mainland India's south-east?",
+      "options": ["Around 0–5°C", "Around 20–25°C", "Around 35–40°C", "Around 45–50°C"],
+      "answer": 1,
+      "explanation": "Winter temperatures increase towards the equator — from around 10–15°C in the north-west to around 20–25°C in mainland India's south-east.",
+      "fact": "The average temperature in the north-west is around 10–15°C. Temperatures increase towards the equator, reaching around 20–25°C in mainland India's south-east.",
+      "hint": "Temperatures rise as you move towards the equator."
+    },
+    {
+      "id": "geo3-060",
+      "type": "wrongstatement",
+      "topic": "Traditional Indian Seasons",
+      "difficulty": "medium",
+      "q": "Which of these statements about the traditional seasons of India is INCORRECT?",
+      "options": ["Traditionally, India experiences six seasons, each about two months long", "These seasons are based on the astronomical division of the 12 months into six parts", "The traditional Indian calendar reflects these seasons through its arrangement of months", "Vasanta, falling in March–April, is the traditional monsoon season"],
+      "answer": 3,
+      "explanation": "Vasanta is the spring season of March–April; the traditional monsoon season is Varṣhā (July–August). India traditionally has six seasons of about two months each, based on the astronomical division of the year and reflected in the Indian calendar.",
+      "fact": "Traditionally, India experiences six seasons, each about two months long—spring, summer, monsoon, early autumn, late autumn, and winter."
+    },
+    {
+      "id": "geo3-061",
+      "type": "match",
+      "topic": "Traditional Indian Seasons",
+      "difficulty": "hard",
+      "q": "Match each traditional season (ṛtu) with its months in the Gregorian calendar.",
+      "pairs": [
+        {"l": "Vasanta", "r": "March–April"},
+        {"l": "Grīṣhma", "r": "May–June"},
+        {"l": "Varṣhā", "r": "July–August"},
+        {"l": "Śharad", "r": "September–October"},
+        {"l": "Hemanta", "r": "November–December"}
+      ],
+      "explanation": "The traditional year runs through Vasanta (March–April), Grīṣhma (May–June), Varṣhā (July–August), Śharad (September–October), Hemanta (November–December) and Śhiśhira (January–February).",
+      "fact": "Table 3.2 Traditional Indian seasons: Vasanta March–April, Grīṣhma May–June, Varṣhā July–August, Śharad September–October, Hemanta November–December, Śhiśhira January–February."
+    },
+    {
+      "id": "geo3-062",
+      "type": "fillblank",
+      "topic": "Origin of Monsoon",
+      "difficulty": "easy",
+      "q": "The word 'monsoon' comes from the Arabic word 'mausim', which literally means ___.",
+      "answerVariants": ["season", "a season"],
+      "explanation": "Arab traders named the seasonal reversal of the wind system 'monsoon', derived from the Arabic word mausim, which literally means season.",
+      "fact": "The Arabs... named this seasonal reversal of the wind system 'monsoon', derived from the Arabic word mausim, which literally means season.",
+      "hint": "The Arabic word is close to the Hindi word for season, mausam."
+    },
+    {
+      "id": "geo3-063",
+      "type": "mcq",
+      "topic": "Discovery of Monsoon",
+      "difficulty": "medium",
+      "q": "Who were among the first to notice the phenomenon of the monsoon, benefiting from the reversal of the wind system?",
+      "options": ["Pilots of modern airlines", "Farmers of northern Europe", "Astronomers of ancient China", "Sailors who came to India during ancient times"],
+      "answer": 3,
+      "explanation": "Sailors who came to India in ancient times travelled in sailing ships at the mercy of the winds, so they were among the first to notice — and benefit from — the reversal of the wind system.",
+      "fact": "The sailors who came to India during ancient times were among the first to notice the phenomenon of monsoon.",
+      "hint": "They sailed ships that depended entirely on winds."
+    },
+    {
+      "id": "geo3-064",
+      "type": "fillblank",
+      "topic": "Meaning of Monsoon",
+      "difficulty": "easy",
+      "q": "Monsoon refers to the seasonal ___ in the wind direction during a year.",
+      "answerVariants": ["reversal"],
+      "explanation": "Monsoon is the seasonal reversal in wind direction during a year — winds that blow one way in summer reverse their direction in winter.",
+      "fact": "Monsoon: It refers to the seasonal reversal in the wind direction during a year."
+    },
+    {
+      "id": "geo3-065",
+      "type": "multiselect",
+      "topic": "South-west Monsoon",
+      "difficulty": "medium",
+      "q": "Select all the water bodies across which the south-west monsoon winds blow from sea to land.",
+      "options": ["The Red Sea", "The Indian Ocean", "The Arabian Sea", "The Bay of Bengal"],
+      "answerIndices": [1, 2, 3],
+      "explanation": "The south-west or summer monsoon is characterised by winds blowing from sea to land across the Indian Ocean, the Arabian Sea and the Bay of Bengal between June and September.",
+      "fact": "Winds blowing from sea to land across the Indian Ocean, the Arabian Sea, and the Bay of Bengal between June and September."
+    },
+    {
+      "id": "geo3-066",
+      "type": "truefalse",
+      "topic": "South-west Monsoon",
+      "difficulty": "easy",
+      "q": "The south-west monsoon accounts for most of the rainfall in the country throughout the year.",
+      "answer": "true",
+      "explanation": "The humid south-west summer monsoon brings most of India's annual rainfall, as its moist winds blow from the ocean towards the land.",
+      "fact": "It accounts for most of the rainfall in the country throughout the year."
+    },
+    {
+      "id": "geo3-067",
+      "type": "mcq",
+      "topic": "North-east Monsoon",
+      "difficulty": "medium",
+      "q": "What happens when the north-east monsoon winds pass over the Bay of Bengal?",
+      "options": ["They pick up moisture and cause rainfall on the eastern coast of India", "They dry up completely and bring no rain anywhere", "They change direction and flow back towards Africa", "They create snowfall over the Himalayas"],
+      "answer": 0,
+      "explanation": "The north-east monsoon winds are generally dry, but as they pass over the Bay of Bengal they pick up moisture and cause rainfall on India's eastern coast — especially Tamil Nadu, Andhra Pradesh and parts of Karnataka.",
+      "fact": "When the north-east monsoon winds pass over the Bay of Bengal, they pick up moisture and cause rainfall in the eastern coast of India.",
+      "hint": "What can winds collect while crossing a large water body?"
+    },
+    {
+      "id": "geo3-068",
+      "type": "match",
+      "topic": "Ancient Rainfall Knowledge",
+      "difficulty": "medium",
+      "q": "Match each ancient author or text with its contribution to rainfall knowledge.",
+      "pairs": [
+        {"l": "Kauṭilya's Arthaśhāstra", "r": "Contains records of scientific measurements of rainfall used in revenue and relief efforts"},
+        {"l": "Kṛiṣhiparāśhara", "r": "Its main rainfall prediction technique used the positions of the Moon and the Sun"},
+        {"l": "Varāhamihira", "r": "Considered lunar mansions (nakṣhatras) in predicting seasonal rainfall"},
+        {"l": "Bṛihatsaṁhitā", "r": "The text in which methods of predicting rainfall are described for every season"},
+        {"l": "Meghadūtam", "r": "Kālidāsa's poem mentioning the date of the onset of the monsoon over central India"}
+      ],
+      "explanation": "Ancient Indians closely studied rainfall: the Arthaśhāstra recorded scientific rainfall measurements, Kṛiṣhiparāśhara used the positions of the Moon and Sun, Varāhamihira's Bṛihatsaṁhitā used nakṣhatras, and Kālidāsa's Meghadūtam noted the monsoon's onset over central India.",
+      "fact": "Kauṭilya's Arthaśhāstra contains records of scientific measurements of rainfall... Kṛiṣhiparāśhara and the Bṛihatsaṁhitā describe such methods in every season."
+    },
+    {
+      "id": "geo3-069",
+      "type": "order",
+      "topic": "Seasons in India",
+      "difficulty": "easy",
+      "q": "Arrange the four seasons recognised by the IMD in the order they occur during the year, starting with winter.",
+      "orderItems": ["Winter", "Summer or pre-monsoon", "Monsoon", "Post-monsoon"],
+      "explanation": "The IMD year runs from winter (December to early April), through summer or pre-monsoon (April to June) and monsoon (June to September), to post-monsoon (October to December).",
+      "fact": "Winter, Summer or pre-monsoon, Monsoon or rainy, and Post-monsoon — the four seasons recognised by the IMD."
+    },
+    {
+      "id": "geo3-070",
+      "type": "wrongstatement",
+      "topic": "Monsoon Winds",
+      "difficulty": "medium",
+      "q": "Which of these statements about the monsoon winds of India is INCORRECT?",
+      "options": ["The south-west monsoon blows from sea to land between June and September", "The north-east monsoon occurs in India from October to February", "The south-west monsoon winds are cold and dry winds blowing from land to sea", "The north-east monsoon winds generally do not bring rainfall to most parts of India"],
+      "answer": 2,
+      "explanation": "The south-west monsoon winds are moist winds blowing from sea to land — it is the north-east monsoon that brings cold and dry winds from land to sea. The other statements are correct.",
+      "fact": "During this season... As a result, cold and dry winds blow from land to sea."
+    },
+    {
+      "id": "geo3-071",
+      "type": "assertion",
+      "topic": "South-west Monsoon",
+      "difficulty": "hard",
+      "q": "Assertion (A): During summer, moist winds blow from the ocean towards the Indian landmass.\nReason (R): The landmass of India heats up faster than the surrounding oceans, creating a low-pressure area over the subcontinent.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 0,
+      "explanation": "Both statements are true, and the reason explains the assertion — because the land heats faster than the sea in summer, low pressure forms over the subcontinent while the Indian Ocean stays relatively cooler with high pressure, so moist winds are drawn from the ocean towards the land, bringing rainfall.",
+      "fact": "During summer, the landmass of India heats up faster than the surrounding oceans. This creates a low-pressure area over the Indian subcontinent, while the Indian Ocean remains relatively cooler and has high pressure."
+    },
+    {
+      "id": "geo3-072",
+      "type": "order",
+      "topic": "Advancing Monsoon Dates",
+      "difficulty": "hard",
+      "q": "Arrange these normal dates of the advancing south-west monsoon in the order they occur during the year.",
+      "orderItems": ["22 May", "1 June", "10 June", "25 June", "8 July"],
+      "explanation": "The south-west monsoon normally advances across the country from late May — 22 May, then 1 June, 10 June, 25 June and finally 8 July in the far north-west, as shown in the map of normal dates.",
+      "fact": "Fig. 3.10 Normal dates of advancing of south-west monsoon: 22 May, 26 May, 1 June, 5 June, 10 June, 15 June, 20 June, 25 June, 30 June, 5 July, 8 July."
+    },
+    {
+      "id": "geo3-073",
+      "type": "mcq",
+      "topic": "Lunar Mansions (Nakshatras)",
+      "difficulty": "hard",
+      "q": "The nakṣhatras divide the sky into how many equal parts along the path the Moon travels?",
+      "options": ["12", "27", "30", "360"],
+      "answer": 1,
+      "explanation": "Nakṣhatras divide the sky into 27 equal parts along the Moon's path. Since the Moon takes about 27 days to go around the Earth relative to the stars, it moves through one nakṣhatra each day.",
+      "fact": "Nakṣhatras are a way of dividing the sky into 27 equal parts along the path the Moon travels.",
+      "hint": "It matches roughly the Moon's journey around the Earth in days."
+    },
+    {
+      "id": "geo3-074",
+      "type": "mcq",
+      "topic": "Monsoon and Life",
+      "difficulty": "medium",
+      "q": "According to the chapter, besides agriculture, which of these does the monsoon affect in India?",
+      "options": ["Only the tides in the oceans", "Only the growth of coral reefs", "The rotation of the Earth", "Daily life, transport, festivals and employment"],
+      "answer": 3,
+      "explanation": "The monsoon greatly influences the economy, lifestyle and livelihoods of people — it affects daily life, transport, festivals and employment, especially in rural areas.",
+      "fact": "Monsoon also affects daily life, transport, festivals, and employment, especially in rural areas."
+    },
+    {
+      "id": "geo3-075",
+      "type": "assertion",
+      "topic": "Ancient Rainfall Knowledge",
+      "difficulty": "hard",
+      "q": "Assertion (A): Kālidāsa's Meghadūtam traces the path of monsoon clouds.\nReason (R): Meghadūtam was written around the 5th century CE.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 1,
+      "explanation": "Both statements are true — the Meghadūtam, written around the 5th century CE, mentions the date of the monsoon's onset over central India and traces the path of monsoon clouds. But the date of writing does not explain why the poem traces the clouds' path.",
+      "fact": "Kālidāsa, in Meghadūtam written around the 5th century CE, mentions the date of the onset of the monsoon over central India and also traces the path of monsoon clouds."
+    }
+  ]
+}

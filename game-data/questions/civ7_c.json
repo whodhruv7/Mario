@@ -1,0 +1,367 @@
+{
+  "chapterId": "civ7",
+  "fragment": "c",
+  "questions": [
+    {
+      "id": "civ7-051",
+      "type": "mcq",
+      "topic": "Election Commission of India",
+      "difficulty": "easy",
+      "q": "When was the Election Commission of India established?",
+      "options": [
+        "26 January 1950",
+        "25 January 1950",
+        "15 August 1947",
+        "26 November 1949"
+      ],
+      "answer": 1,
+      "explanation": "The ECI, an autonomous permanent constitutional body, was established on 25 January 1950, the date now celebrated every year as National Voters' Day.",
+      "fact": "The ECI is an autonomous permanent constitutional body that was established on 25 January 1950."
+    },
+    {
+      "id": "civ7-052",
+      "type": "mcq",
+      "topic": "ECI Functions",
+      "difficulty": "easy",
+      "q": "The ECI conducts elections to which of the following?",
+      "options": [
+        "Only Lok Sabha and Vidhan Sabha elections",
+        "Only local body elections",
+        "The Lok Sabha, Rajya Sabha, Vidhan Sabha, Vidhan Parishad, President and Vice President",
+        "Only Rajya Sabha and Presidential elections"
+      ],
+      "answer": 2,
+      "explanation": "The ECI conducts elections to the Lok Sabha, the Rajya Sabha, the Vidhan Sabha, the Vidhan Parishad, and the offices of the President and the Vice President of India.",
+      "fact": "It conducts elections to the Lok Sabha, the Rajya Sabha, the Vidhan Sabha, the Vidhan Parishad, the President, and the Vice President of India."
+    },
+    {
+      "id": "civ7-053",
+      "type": "mcq",
+      "topic": "ECI International Cooperation",
+      "difficulty": "medium",
+      "q": "The International Election Visitors' Programme (IEVP) is the ECI's flagship programme for:",
+      "options": [
+        "Training Indian police personnel for polling duty",
+        "Funding political parties during elections",
+        "International cooperation with Election Management Bodies of other countries",
+        "Conducting elections in schools and colleges"
+      ],
+      "answer": 2,
+      "explanation": "The IEVP is the ECI's flagship programme for international cooperation and engagement with Election Management Bodies of other countries and international organisations; the ECI has even signed MoUs with 28 such bodies.",
+      "fact": "The International Election Visitors' Programme (IEVP) is a flagship programme of the ECI for international cooperation and engagement with Election Management Bodies (EMBs) of other countries and international organisations."
+    },
+    {
+      "id": "civ7-054",
+      "type": "mcq",
+      "topic": "Electoral Roll",
+      "difficulty": "easy",
+      "q": "Who is allowed to vote in a constituency?",
+      "options": [
+        "Anyone who is 18 years old and present on polling day",
+        "Only those whose names appear on the electoral roll",
+        "Only government employees",
+        "Anyone carrying any identity card"
+      ],
+      "answer": 1,
+      "explanation": "Electoral rolls are prepared for each constituency and organised polling station-wise, and only those whose names appear on the roll are allowed to vote.",
+      "fact": "Only those whose names appear on the roll are allowed to vote."
+    },
+    {
+      "id": "civ7-055",
+      "type": "mcq",
+      "topic": "Special Intensive Revision",
+      "difficulty": "easy",
+      "q": "The ECI's Special Intensive Revision (SIR) mainly involves:",
+      "options": [
+        "Updating, verifying and correcting the electoral rolls",
+        "Conducting the counting of votes on polling day",
+        "Registering political parties with the ECI",
+        "Preparing the weather forecast for election day"
+      ],
+      "answer": 0,
+      "explanation": "SIR is the ECI's exercise of updating, verifying and correcting electoral rolls so that no eligible citizen is left out and no ineligible person is included.",
+      "fact": "The ECI also conducts Special Intensive Revision (SIR), which involves updating, verifying, and correcting the electoral rolls."
+    },
+    {
+      "id": "civ7-056",
+      "type": "mcq",
+      "topic": "ECI Election Schedule",
+      "difficulty": "easy",
+      "q": "Which of the following is NOT a factor the ECI considers while deciding the election schedule?",
+      "options": [
+        "Weather conditions",
+        "The agricultural cycle",
+        "School and university examination schedules",
+        "The convenience of the ruling party"
+      ],
+      "answer": 3,
+      "explanation": "For a country as large and diverse as India, the ECI considers weather conditions, the agricultural cycle, examination schedules and festivals, not the convenience of any ruling party.",
+      "fact": "The ECI must consider several factors, such as weather conditions, agricultural cycle, school and university examination schedules, festivals, etc.",
+      "hint": "Three of these options are explicitly listed in the chapter; one is an outside interference."
+    },
+    {
+      "id": "civ7-057",
+      "type": "mcq",
+      "topic": "ECI Digital Ecosystem",
+      "difficulty": "easy",
+      "q": "With which app can voters report Model Code of Conduct violations within minutes of witnessing them?",
+      "options": [
+        "Sugam",
+        "Suvidha",
+        "cVIGIL",
+        "ERONET"
+      ],
+      "answer": 2,
+      "explanation": "cVIGIL lets voters report Model Code of Conduct violations and election misconduct, and flying squads navigate to the spot using auto-location to take prompt action.",
+      "fact": "With the cVIGIL app, voters can report any Model Code of Conduct violations and election misconducts within minutes of witnessing them."
+    },
+    {
+      "id": "civ7-058",
+      "type": "mcq",
+      "topic": "ECI Inclusive Voting",
+      "difficulty": "medium",
+      "q": "Voting from home was extended across India for the first time during the 2024 General Elections for:",
+      "options": [
+        "All voters living in cities",
+        "All government employees",
+        "Only first-time voters",
+        "Senior citizens above 85 and PwDs with a benchmark disability of 40%"
+      ],
+      "answer": 3,
+      "explanation": "Home voting was extended across India for the first time in the 2024 General Elections for senior citizens above 85 years of age and PwDs with a benchmark disability of 40%.",
+      "fact": "Voting from home for senior citizens above 85 years of age and persons with disabilities (PwDs) with a benchmark disability of 40% was extended across India for the first time during the 2024 General Elections."
+    },
+    {
+      "id": "civ7-059",
+      "type": "truefalse",
+      "topic": "State Election Machinery",
+      "difficulty": "easy",
+      "q": "The Chief Electoral Officer of a state is appointed by the ECI in consultation with the concerned State Government.",
+      "answer": "true",
+      "explanation": "At the state level, election work is supervised by the Chief Electoral Officer, who is appointed by the ECI from among civil servants in consultation with the state government concerned.",
+      "fact": "The Chief Electoral Officer of the State is appointed by the ECI from among the civil servants in consultation with the concerned State Government."
+    },
+    {
+      "id": "civ7-060",
+      "type": "truefalse",
+      "topic": "ECI Party Registration",
+      "difficulty": "easy",
+      "q": "Only candidates affiliated to political parties registered with the ECI can contest elections in India.",
+      "answer": "false",
+      "explanation": "Along with candidates of registered political parties, independent candidates, meaning those not affiliated to any political party, can also contest elections.",
+      "fact": "Apart from the candidates affiliated to the political parties, independent candidates can also contest elections."
+    },
+    {
+      "id": "civ7-061",
+      "type": "truefalse",
+      "topic": "ECI Party Registration",
+      "difficulty": "easy",
+      "q": "The ECI insists that political parties hold their organisational elections periodically to ensure inner-party democracy.",
+      "answer": "true",
+      "explanation": "One of the ECI's roles is to promote inner-party democracy by insisting that political parties periodically hold their organisational elections.",
+      "fact": "The ECI ensures inner party democracy by insisting upon the political parties to hold their organisational elections periodically."
+    },
+    {
+      "id": "civ7-062",
+      "type": "truefalse",
+      "topic": "Voters' Pledge",
+      "difficulty": "medium",
+      "q": "According to the voters' pledge, citizens should vote while being influenced by considerations of religion, race, caste or community.",
+      "answer": "false",
+      "explanation": "The pledge asks citizens to vote in every election fearlessly and WITHOUT being influenced by considerations of religion, race, caste, community, language or any inducement.",
+      "fact": "The voters' pledge is to vote fearlessly and without being influenced by considerations of religion, race, caste, community, language or any inducement."
+    },
+    {
+      "id": "civ7-063",
+      "type": "fillblank",
+      "topic": "ECI Quasi-Judicial Role",
+      "difficulty": "medium",
+      "q": "The ECI acts as a ___ body in addressing disputes regarding the recognition of political parties and the allotment of symbols.",
+      "answerVariants": ["quasi-judicial", "quasi judicial", "quasijudicial", "Quasi-judicial"],
+      "explanation": "Besides its administrative functions, the ECI plays a quasi-judicial role, settling disputes about the recognition of political parties and the allotment of election symbols.",
+      "fact": "The ECI also acts as a quasi-judicial body in addressing disputes regarding the recognition of political parties and the allotment of symbols."
+    },
+    {
+      "id": "civ7-064",
+      "type": "fillblank",
+      "topic": "Electoral Roll",
+      "difficulty": "medium",
+      "q": "The ECI sends official ___ to every household to collect data about the eligible electors.",
+      "answerVariants": ["enumerators", "enumerator"],
+      "explanation": "Official enumerators visit every household to collect details of eligible electors, and this data is used to prepare the electoral rolls for each constituency.",
+      "fact": "The ECI sends official enumerators to every household to collect data about the eligible electors."
+    },
+    {
+      "id": "civ7-065",
+      "type": "fillblank",
+      "topic": "Special Intensive Revision",
+      "difficulty": "easy",
+      "q": "The ECI's exercise of updating, verifying and correcting electoral rolls is called Special ___ Revision (SIR).",
+      "answerVariants": ["Intensive", "intensive"],
+      "explanation": "SIR stands for Special Intensive Revision, the ECI's drive to update, verify and correct electoral rolls so that every eligible voter is correctly listed.",
+      "fact": "The ECI also conducts Special Intensive Revision (SIR), which involves updating, verifying, and correcting the electoral rolls."
+    },
+    {
+      "id": "civ7-066",
+      "type": "match",
+      "topic": "ECI Digital Ecosystem",
+      "difficulty": "medium",
+      "q": "Match each ECI app with its purpose.",
+      "pairs": [
+        {"l": "ETPBS", "r": "Service voters cast postal ballots electronically"},
+        {"l": "cVIGIL", "r": "Reporting Model Code of Conduct violations"},
+        {"l": "Saksham", "r": "Customised services for voters with disabilities"},
+        {"l": "Suvidha", "r": "Nomination forms and permissions for candidates"},
+        {"l": "Sugam", "r": "Managing vehicles requisitioned for election work"}
+      ],
+      "explanation": "Each app serves a different user group: ETPBS serves service voters, cVIGIL helps citizens report violations, Saksham assists PwDs, Suvidha serves candidates and parties, and Sugam manages election vehicles.",
+      "fact": "The ECI's digital ecosystem includes ETPBS, cVIGIL, Saksham, Suvidha and Sugam for different electoral services."
+    },
+    {
+      "id": "civ7-067",
+      "type": "match",
+      "topic": "Election Terms and Meanings",
+      "difficulty": "easy",
+      "q": "Match each election term with its correct meaning.",
+      "pairs": [
+        {"l": "Indirect election", "r": "Citizens vote for representatives who then elect the leaders"},
+        {"l": "Quota", "r": "Minimum votes required to win in the STV system"},
+        {"l": "Electoral roll", "r": "List of eligible voters of a constituency"},
+        {"l": "Independent candidate", "r": "Candidate not affiliated to any political party"},
+        {"l": "Coalition government", "r": "Government formed by an alliance of political parties"}
+      ],
+      "explanation": "These core terms describe how leaders are chosen, how STV winners are decided, who may vote, who may contest, and how alliances govern together.",
+      "fact": "Key election terms from the chapter include indirect election, quota, electoral roll, independent candidate and coalition government."
+    },
+    {
+      "id": "civ7-068",
+      "type": "order",
+      "topic": "Electoral Roll Finalisation",
+      "difficulty": "hard",
+      "q": "Arrange the steps of preparing and finalising the electoral roll in the correct order.",
+      "orderItems": [
+        "Enumerators collect data about eligible electors from every household",
+        "Electoral rolls are prepared for each constituency",
+        "Special Intensive Revision updates and verifies the rolls",
+        "Time is given to raise claims and objections",
+        "The final electoral roll is published"
+      ],
+      "explanation": "The roll-making sequence runs from household data collection to constituency-wise rolls, then SIR verification, followed by a window for claims and objections before the final roll is published.",
+      "fact": "The ECI collects household data, prepares rolls, conducts SIR, gives time to raise claims or objections, and settles them before publishing the final electoral roll.",
+      "hint": "Claims and objections are settled only before the very last step."
+    },
+    {
+      "id": "civ7-069",
+      "type": "multiselect",
+      "topic": "ECI Inclusive Voting",
+      "difficulty": "medium",
+      "q": "Select all correct: the ECI has taken initiatives to make elections more inclusive for —",
+      "options": [
+        "Foreign tourists",
+        "Persons with Disabilities (PwDs)",
+        "Senior citizens and transgender persons",
+        "Particularly Vulnerable Tribal Groups"
+      ],
+      "answerIndices": [1, 2, 3],
+      "explanation": "The ECI's inclusion initiatives focus on infrastructure accessibility and technology-assisted inclusion for PwDs, senior citizens, transgender persons and PVTGs.",
+      "fact": "These initiatives focus on infrastructure accessibility as well as technology-assisted inclusion, particularly for PwDs, Senior Citizens, transgender persons, and PVTGs."
+    },
+    {
+      "id": "civ7-070",
+      "type": "multiselect",
+      "topic": "ECI Functions",
+      "difficulty": "medium",
+      "q": "Select all correct: which of these are functions of the ECI mentioned in the chapter?",
+      "options": [
+        "Updating electoral rolls",
+        "Collecting income tax from candidates",
+        "Regulating campaigns",
+        "Counting of votes and declaring results"
+      ],
+      "answerIndices": [0, 2, 3],
+      "explanation": "The ECI's functions include updating electoral rolls, candidate nominations, regulating campaigns, security arrangements, counting of votes, declaring results and dispute resolution, but not tax collection.",
+      "fact": "The ECI's functions include updating electoral rolls, candidate nominations, regulating campaigns, counting of votes, declaration of election results, and dispute resolution."
+    },
+    {
+      "id": "civ7-071",
+      "type": "wrongstatement",
+      "topic": "Election Commission of India",
+      "difficulty": "medium",
+      "q": "Which of these statements about the Election Commission of India is INCORRECT?",
+      "options": [
+        "The ECI is an autonomous permanent constitutional body.",
+        "The ECI was established on 25 January 1950.",
+        "Articles 324 to 329 of the Constitution provide for the ECI.",
+        "The ECI conducts elections only to the Lok Sabha and the Vidhan Sabha."
+      ],
+      "answer": 3,
+      "explanation": "The ECI conducts elections not only to the Lok Sabha and Vidhan Sabha but also to the Rajya Sabha, the Vidhan Parishad, and the offices of the President and Vice President.",
+      "fact": "It conducts elections to the Lok Sabha, the Rajya Sabha, the Vidhan Sabha, the Vidhan Parishad, the President, and the Vice President of India."
+    },
+    {
+      "id": "civ7-072",
+      "type": "wrongstatement",
+      "topic": "ECI Digital Ecosystem",
+      "difficulty": "hard",
+      "q": "Which of these statements about the ECI's apps is INCORRECT?",
+      "options": [
+        "cVIGIL lets voters report Model Code of Conduct violations.",
+        "Saksham offers customised services for voters with disabilities.",
+        "Suvidha is an app used by voters to report fake news to the police.",
+        "ETPBS enables service voters to cast postal ballots electronically."
+      ],
+      "answer": 2,
+      "explanation": "Suvidha is an exclusive app for contesting candidates and political parties, providing nomination forms and permission requests; reporting violations is done through cVIGIL, not Suvidha.",
+      "fact": "Suvidha is an exclusive app for contesting candidates and political parties for nomination-related forms, updates and permissions.",
+      "hint": "Think about who each app is designed for: voters, candidates, or officials."
+    },
+    {
+      "id": "civ7-073",
+      "type": "assertion",
+      "topic": "Election Commission of India",
+      "difficulty": "medium",
+      "q": "Assertion (A): The Election Commission of India manages India's electoral exercise autonomously.\nReason (R): The Constitution has vested in the ECI the superintendence, direction and control of the entire process for the conduct of elections.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true: because the Constitution gives the ECI full superintendence, direction and control of elections, the Commission can run India's elections autonomously, free from outside interference.",
+      "fact": "The Constitution of India has vested in the ECI the superintendence, direction, and control of the entire process for the conduct of elections; the ECI manages this exercise autonomously."
+    },
+    {
+      "id": "civ7-074",
+      "type": "assertion",
+      "topic": "Voter Rights and Duties",
+      "difficulty": "hard",
+      "q": "Assertion (A): Casting a vote is only a constitutional right, not a duty.\nReason (R): Casting a vote is a constitutional right as well as a duty of every citizen.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "A is false because voting is not merely a right; the chapter's summary calls it both a constitutional right and a duty of every citizen, which is exactly what R correctly states.",
+      "fact": "Casting a vote is a constitutional right as well as a duty of every citizen."
+    },
+    {
+      "id": "civ7-075",
+      "type": "mcq",
+      "topic": "VVPAT",
+      "difficulty": "easy",
+      "q": "After casting her vote, first-time voter Ishani was able to see the:",
+      "options": [
+        "VVPAT slip",
+        "ballot paper",
+        "cash receipt",
+        "electoral roll"
+      ],
+      "answer": 0,
+      "explanation": "After casting her vote, Ishani could see the VVPAT slip, the Voter Verifiable Paper Audit Trail, which gives voters a printed confirmation of the vote they cast.",
+      "fact": "After casting her vote, she was also able to see the VVPAT slip."
+    }
+  ]
+}

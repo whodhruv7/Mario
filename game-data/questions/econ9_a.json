@@ -1,0 +1,305 @@
+{
+  "chapterId": "econ9",
+  "fragment": "a",
+  "questions": [
+    {
+      "id": "econ9-001",
+      "type": "mcq",
+      "topic": "Demand",
+      "difficulty": "easy",
+      "q": "According to the chapter, the demand for a product is...",
+      "options": ["just the desire to buy something", "the quantity people are willing and able to buy at a particular price", "the quantity sellers offer at every price", "the money saved in a bank account"],
+      "answer": 1,
+      "explanation": "Demand is the quantity of a product that people are willing and able to buy at a particular price — desire alone is not demand without the purchasing power to buy.",
+      "fact": "The quantity of a product that people are willing and able to buy at a particular price... is called the demand for the product. Demand is not just the desire to buy something; it is the willingness complemented by the ability or purchasing power to buy it."
+    },
+    {
+      "id": "econ9-002",
+      "type": "mcq",
+      "topic": "Law of Demand",
+      "difficulty": "easy",
+      "q": "According to the Law of Demand, when the price of a product rises, the quantity demanded...",
+      "options": ["increases", "decreases", "stays the same", "becomes infinite"],
+      "answer": 1,
+      "explanation": "The Law of Demand highlights the inverse relationship between price and quantity demanded — a higher price reduces the quantity demanded.",
+      "fact": "As with mangoes, when the price of any product rises, the quantity demanded decreases, and when the price falls, the quantity demanded increases. This phenomenon is called the Law of Demand."
+    },
+    {
+      "id": "econ9-003",
+      "type": "mcq",
+      "topic": "Demand",
+      "difficulty": "easy",
+      "q": "As the mango season approaches, the prices of mangoes are generally high, so people tend to...",
+      "options": ["buy them in larger quantities", "buy them in smaller quantities", "stop visiting the market", "buy only mangoes"],
+      "answer": 1,
+      "explanation": "When prices are high, people respond by buying smaller quantities; as prices start falling, they prefer to buy larger quantities.",
+      "fact": "As the mango season approaches, the prices of mangoes are generally high, so people tend to buy them in smaller quantities. But when prices start falling, people prefer to buy larger quantities."
+    },
+    {
+      "id": "econ9-004",
+      "type": "mcq",
+      "topic": "Demand Schedule and Curve",
+      "difficulty": "easy",
+      "q": "At the beginning of the mango season, the price of mangoes was ₹150 per kg. How much did Srivalli buy?",
+      "options": ["1 kg", "2 kg", "3 kg", "4 kg"],
+      "answer": 0,
+      "explanation": "At the high price of ₹150 per kg, Srivalli bought only 1 kg; as the price later fell to ₹100 and then ₹50, she bought 2 kg and 3 kg respectively.",
+      "fact": "At the beginning of the mango season, the price of mangoes was very high (₹150 per kg). Srivalli, a consumer, bought only 1 kg."
+    },
+    {
+      "id": "econ9-005",
+      "type": "mcq",
+      "topic": "Demand Schedule and Curve",
+      "difficulty": "easy",
+      "q": "The table showing the quantities of a good that an individual consumer wants to buy at different prices is called a...",
+      "options": ["supply schedule", "demand schedule", "production schedule", "price list"],
+      "answer": 1,
+      "explanation": "A demand schedule lists the quantities demanded at different prices; when represented graphically, it becomes the demand curve.",
+      "fact": "For Srivalli, the individual demand is shown in the table below, which is also known as the 'demand schedule'."
+    },
+    {
+      "id": "econ9-006",
+      "type": "mcq",
+      "topic": "Demand Schedule and Curve",
+      "difficulty": "medium",
+      "q": "In the individual demand curve graph (Fig. 9.2b), what does the y-axis represent?",
+      "options": ["Price of mangoes (in ₹)", "Quantity of mangoes (in kg)", "Number of consumers", "Number of sellers"],
+      "answer": 0,
+      "explanation": "In Fig. 9.2(b), the y-axis shows the price of mangoes in rupees and the x-axis shows the quantity demanded of mangoes in kg.",
+      "fact": "The y-axis in the Fig. 9.2 (b) represents the price of mangoes (in ₹), and the x-axis shows the quantity demanded of mangoes (in kg)."
+    },
+    {
+      "id": "econ9-007",
+      "type": "mcq",
+      "topic": "Demand Schedule and Curve",
+      "difficulty": "easy",
+      "q": "The individual demand curve of a buyer is...",
+      "options": ["a vertical line", "an upward sloping line", "a downward sloping line", "a horizontal line"],
+      "answer": 2,
+      "explanation": "When points like A, B and C are connected, the demand curve slopes downward, showing that more is bought at lower prices.",
+      "fact": "When the points of intersection, such as A, B, and C, are connected, the downward sloping line DD' is called the demand curve."
+    },
+    {
+      "id": "econ9-008",
+      "type": "mcq",
+      "topic": "Individual and Market Demand",
+      "difficulty": "easy",
+      "q": "Market demand is obtained by...",
+      "options": ["multiplying all the prices together", "summing all individual demands", "averaging the sellers' profits", "dividing supply by demand"],
+      "answer": 1,
+      "explanation": "Market demand is the sum of all individual demands — for mangoes, adding Srivalli's, Alex's and Israt's demands gives the market demand at each price.",
+      "fact": "The total quantity of mangoes demanded by all potential buyers at different prices is known as market demand, that is, the sum of all individual demand."
+    },
+    {
+      "id": "econ9-009",
+      "type": "mcq",
+      "topic": "Individual and Market Demand",
+      "difficulty": "hard",
+      "q": "Using Table 9.1, what is the market demand for mangoes at ₹100 per kg (Srivalli + Alex + Israt)?",
+      "options": ["6 kg", "10 kg", "12 kg", "18 kg"],
+      "answer": 2,
+      "explanation": "At ₹100, Srivalli demands 2 kg, Alex 4 kg and Israt 6 kg; summing them gives the market demand of 2 + 4 + 6 = 12 kg.",
+      "fact": "Table 9.1: at ₹100, Q1 (Srivalli) = 2 kg, Q2 (Alex) = 4 kg, Q3 (Israt) = 6 kg, Market Demand (QD) = 12 kg.",
+      "hint": "Add up all three individual demands at that price."
+    },
+    {
+      "id": "econ9-010",
+      "type": "truefalse",
+      "topic": "Demand",
+      "difficulty": "easy",
+      "q": "Demand is not just the desire to buy something; it is the willingness complemented by the ability or purchasing power to buy it.",
+      "answer": "true",
+      "explanation": "Willingness alone does not create demand — the buyer must also have the purchasing power to actually buy the product.",
+      "fact": "Demand is not just the desire to buy something; it is the willingness complemented by the ability or purchasing power to buy it."
+    },
+    {
+      "id": "econ9-011",
+      "type": "truefalse",
+      "topic": "Law of Demand",
+      "difficulty": "easy",
+      "q": "When the price of a product falls, the quantity demanded increases.",
+      "answer": "true",
+      "explanation": "This is the Law of Demand in action — lower prices make buyers purchase larger quantities, other factors remaining constant.",
+      "fact": "...when the price falls, the quantity demanded increases. This phenomenon is called the Law of Demand..."
+    },
+    {
+      "id": "econ9-012",
+      "type": "truefalse",
+      "topic": "Law of Demand",
+      "difficulty": "medium",
+      "q": "The Law of Demand highlights a direct relationship between price and quantity demanded.",
+      "answer": "false",
+      "explanation": "The Law of Demand shows an inverse relationship — price and quantity demanded move in opposite directions.",
+      "fact": "This phenomenon is called the Law of Demand, which highlights the inverse relationship between the price of a product or service and its quantity demanded."
+    },
+    {
+      "id": "econ9-013",
+      "type": "truefalse",
+      "topic": "Demand Schedule and Curve",
+      "difficulty": "easy",
+      "q": "The demand curve assumes other factors like income and taste to be constant.",
+      "answer": "true",
+      "explanation": "The downward-sloping demand curve shows the price-quantity relationship assuming other factors like income and taste remain constant.",
+      "fact": "The downward-sloping individual demand curve represents the inverse relationship between price and the quantity of a product demanded by the buyer, assuming other factors like income, taste, etc., to be constant."
+    },
+    {
+      "id": "econ9-014",
+      "type": "fillblank",
+      "topic": "Demand",
+      "difficulty": "easy",
+      "q": "The quantity of a product that people are willing and able to buy at a particular price is called ___.",
+      "answerVariants": ["demand"],
+      "explanation": "Demand is the quantity buyers are willing and able to purchase at a particular price, depending on their needs, preferences, season, trend and income.",
+      "fact": "The quantity of a product that people are willing and able to buy at a particular price... is called the demand for the product."
+    },
+    {
+      "id": "econ9-015",
+      "type": "fillblank",
+      "topic": "Law of Demand",
+      "difficulty": "easy",
+      "q": "The Law of Demand highlights the ___ relationship between the price of a product and its quantity demanded.",
+      "answerVariants": ["inverse"],
+      "explanation": "Price and quantity demanded move in opposite directions — this inverse relationship is the Law of Demand.",
+      "fact": "This phenomenon is called the Law of Demand, which highlights the inverse relationship between the price of a product or service and its quantity demanded."
+    },
+    {
+      "id": "econ9-016",
+      "type": "fillblank",
+      "topic": "Demand Schedule and Curve",
+      "difficulty": "medium",
+      "q": "When the points of intersection A, B and C on the price-quantity graph are connected, the downward sloping line DD' is called the ___ curve.",
+      "answerVariants": ["demand"],
+      "explanation": "Joining the price-quantity points gives the downward sloping demand curve DD', which graphically represents the demand schedule.",
+      "fact": "When the points of intersection, such as A, B, and C, are connected, the downward sloping line DD' is called the demand curve."
+    },
+    {
+      "id": "econ9-017",
+      "type": "match",
+      "topic": "Demand Basics Terms",
+      "difficulty": "medium",
+      "q": "Match each demand-related term with its correct meaning.",
+      "pairs": [
+        {"l": "Demand", "r": "Quantity buyers are willing and able to buy at a price"},
+        {"l": "Law of Demand", "r": "Inverse relationship between price and quantity demanded"},
+        {"l": "Individual demand", "r": "Quantity one consumer wants to buy at different prices"},
+        {"l": "Market demand", "r": "Sum of all individual demands"},
+        {"l": "Purchasing power", "r": "Measure of how much one unit of currency can buy"}
+      ],
+      "explanation": "Demand needs willingness plus ability; the Law of Demand ties price and quantity inversely; individual demand is one buyer's schedule, market demand adds all buyers, and purchasing power measures what money can buy.",
+      "fact": "Definitions of demand, Law of Demand, individual demand, market demand and purchasing power from Chapter 9."
+    },
+    {
+      "id": "econ9-018",
+      "type": "order",
+      "topic": "Demand Schedule and Curve",
+      "difficulty": "easy",
+      "q": "Arrange Srivalli's mango purchases in the order they happened during the season.",
+      "orderItems": ["Price ₹150 per kg — she buys 1 kg", "Price falls to ₹100 per kg — she buys 2 kg", "Price falls to ₹50 per kg — she buys 3 kg"],
+      "explanation": "As the season progressed, more mangoes reached the market and the price fell step by step from ₹150 to ₹100 to ₹50, while Srivalli's purchases rose from 1 kg to 3 kg.",
+      "fact": "...the price of mangoes was very high (₹150 per kg). Srivalli... bought only 1 kg. As more mangoes became available... the price fell to ₹100, so she bought 2 kg, and later, when the price dropped to ₹50 per kg, she bought 3 kg."
+    },
+    {
+      "id": "econ9-019",
+      "type": "multiselect",
+      "topic": "Individual and Market Demand",
+      "difficulty": "medium",
+      "q": "Select all correct statements about individual and market demand.",
+      "options": ["Individual demand is the quantity a single consumer wants to buy at different prices", "Market demand is the sum of all individual demands", "Srivalli's, Alex's and Israt's demands together give the market demand", "Market demand is always smaller than each individual demand"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Individual demand refers to one consumer; market demand adds up all consumers like Srivalli, Alex and Israt, so it is always larger than any single individual demand.",
+      "fact": "The quantity of a good or service that an individual consumer wants to buy at different prices... is known as individual demand... market demand, that is, the sum of all individual demand."
+    },
+    {
+      "id": "econ9-020",
+      "type": "multiselect",
+      "topic": "Demand Determinants",
+      "difficulty": "easy",
+      "q": "Select all correct factors, mentioned in the definition of demand, on which demand depends.",
+      "options": ["Needs of buyers", "Season and trend", "Income", "The seller's shop colour"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Demand depends on buyers' needs, preferences, season, trend and income — not on irrelevant details like a shop's colour.",
+      "fact": "The quantity of a product that people are willing and able to buy at a particular price, depending on their needs, preferences, season, trend, and income, is called the demand for the product."
+    },
+    {
+      "id": "econ9-021",
+      "type": "wrongstatement",
+      "topic": "Demand",
+      "difficulty": "easy",
+      "q": "Which of these statements about demand is INCORRECT?",
+      "options": [
+        "When the price of a product falls, the quantity demanded increases.",
+        "The demand curve slopes downward.",
+        "Demand depends on needs, preferences, season, trend and income.",
+        "Demand is the quantity that sellers are willing to offer at a particular price."
+      ],
+      "answer": 3,
+      "explanation": "That statement describes supply, not demand — demand comes from buyers, while supply is what sellers offer.",
+      "fact": "Supply is the quantity of a product that sellers are willing and able to offer at a particular price."
+    },
+    {
+      "id": "econ9-022",
+      "type": "wrongstatement",
+      "topic": "Individual and Market Demand",
+      "difficulty": "medium",
+      "q": "Which of these statements about market demand is INCORRECT?",
+      "options": [
+        "Market demand is the total quantity demanded by all potential buyers at different prices.",
+        "The market demand curve is obtained by plotting market demand at different prices.",
+        "At ₹50 per kg, the market demand in Table 9.1 is 18 kg.",
+        "Market demand is always less than individual demand."
+      ],
+      "answer": 3,
+      "explanation": "Market demand adds up many buyers, so it is larger than any individual demand — at ₹50 it totals 18 kg (3 + 6 + 9), far above Srivalli's 3 kg.",
+      "fact": "By summing the demand of all three consumers, Q1+Q2+Q3, the market demand QD is derived... at ₹50: Q1 = 3 kg, Q2 = 6 kg, Q3 = 9 kg, QD = 18 kg."
+    },
+    {
+      "id": "econ9-023",
+      "type": "assertion",
+      "topic": "Law of Demand",
+      "difficulty": "easy",
+      "q": "Assertion (A): When the price of mangoes falls, people prefer to buy larger quantities.\nReason (R): The Law of Demand highlights an inverse relationship between price and quantity demanded.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both A and R are true, and R explains A — because price and quantity demanded are inversely related, a fall in price raises the quantity people buy.",
+      "fact": "But when prices start falling, people prefer to buy larger quantities... the Law of Demand... highlights the inverse relationship between the price of a product or service and its quantity demanded."
+    },
+    {
+      "id": "econ9-024",
+      "type": "assertion",
+      "topic": "Individual and Market Demand",
+      "difficulty": "hard",
+      "q": "Assertion (A): The market demand curve is flatter than Srivalli's individual demand curve.\nReason (R): Market demand aggregates many consumers, so the same price change creates a larger total quantity response.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true and R explains A — when the price fell from ₹150 to ₹50, Srivalli's demand rose by only 2 kg but market demand rose by 12 kg, making the market curve flatter.",
+      "fact": "Did you notice that the market demand curve is flatter than Srivalli's individual demand curve? ... When the price falls from ₹150 to ₹50, Srivalli's demand increases by 2 kg, but market demand increases by 12 kg, making the market curve flatter and more responsive."
+    },
+    {
+      "id": "econ9-025",
+      "type": "assertion",
+      "topic": "Individual and Market Demand",
+      "difficulty": "medium",
+      "q": "Assertion (A): Srivalli's individual demand for mangoes at ₹100 per kg is 2 kg.\nReason (R): Market demand is calculated by summing the demand of all consumers.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both statements are true, but R does not explain A — Srivalli's 2 kg comes from her own demand schedule, not from the process of summing all consumers.",
+      "fact": "As more mangoes became available in the market, over time, the price fell to ₹100, so she bought 2 kg... By summing the demand of all three consumers, Q1+Q2+Q3, the market demand QD is derived.",
+      "hint": "Where does Srivalli's own quantity come from?"
+    }
+  ]
+}

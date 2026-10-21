@@ -1,0 +1,371 @@
+{
+  "chapterId": "civ7",
+  "fragment": "d",
+  "questions": [
+    {
+      "id": "civ7-076",
+      "type": "mcq",
+      "topic": "Role of Political Parties",
+      "difficulty": "easy",
+      "q": "During election campaigns, political parties present and elaborate on their:",
+      "options": [
+        "agenda and promises",
+        "candidates' educational certificates only",
+        "court judgments",
+        "annual budget documents"
+      ],
+      "answer": 0,
+      "explanation": "Parties present their agenda and elaborate on their promises in election rallies, and discuss issues through various media platforms, helping voters understand what each party stands for.",
+      "fact": "They present their agenda, elaborate on their promises in election rallies, and discuss and debate on issues through various media platforms."
+    },
+    {
+      "id": "civ7-077",
+      "type": "mcq",
+      "topic": "Challenges to Free Elections",
+      "difficulty": "medium",
+      "q": "Which of the following is mentioned in the chapter as a challenge to free and fair elections?",
+      "options": [
+        "Excessive rainfall on polling day",
+        "Misinformation and fake news",
+        "Too many polling stations in cities",
+        "Very long parliamentary terms"
+      ],
+      "answer": 1,
+      "explanation": "Misinformation, fake news and intimidation are listed among the challenges that the ECI addresses through the RPAs, the Model Code of Conduct, EVMs, VVPAT and awareness campaigns.",
+      "fact": "For challenges such as misinformation, fake news, intimidation, etc., the ECI addresses them through RPA 1950 and 1951, the Model Code of Conduct, EVMs, VVPAT, and voters' awareness campaigns."
+    },
+    {
+      "id": "civ7-078",
+      "type": "mcq",
+      "topic": "Anti-Defection Law",
+      "difficulty": "medium",
+      "q": "Under the Anti-Defection Law, what can happen to a member who voluntarily gives up their party membership?",
+      "options": [
+        "The member must pay a heavy fine",
+        "The member can be disqualified from the House",
+        "The member loses citizenship",
+        "Nothing, as the law is only advisory"
+      ],
+      "answer": 1,
+      "explanation": "The Anti-Defection Law allows the disqualification of a member of Parliament or a State Assembly who voluntarily gives up party membership or votes against the party's whip.",
+      "fact": "If a member of the Parliament or a State Assembly voluntarily gives up their party membership or votes against the party's instructions (whip), the member can be disqualified from the respective House."
+    },
+    {
+      "id": "civ7-079",
+      "type": "mcq",
+      "topic": "Party Recognition Criteria",
+      "difficulty": "hard",
+      "q": "Which of the following is a condition for recognition as a NATIONAL party?",
+      "options": [
+        "Winning at least one seat in the Lok Sabha",
+        "Securing 6% of votes in one state",
+        "Being recognised as a State Party in at least four states",
+        "Contesting elections in at least two states"
+      ],
+      "answer": 2,
+      "explanation": "One criterion for national party status is being recognised as a State Party in at least four states; other routes include 6% of votes in four or more states plus four Lok Sabha seats, or 2% of Lok Sabha seats from at least three states.",
+      "fact": "It is recognised as a State Party at least in four states (a criterion for national party recognition).",
+      "hint": "National recognition is linked to a party's presence across several states."
+    },
+    {
+      "id": "civ7-080",
+      "type": "mcq",
+      "topic": "Party Recognition Criteria",
+      "difficulty": "hard",
+      "q": "A party can be recognised as a state party by securing not less than a certain percentage of the valid votes polled in the State, without any additional seat condition. What is this percentage?",
+      "options": [
+        "6%",
+        "8%",
+        "3%",
+        "2%"
+      ],
+      "answer": 1,
+      "explanation": "Under the state party recognition criteria, securing not less than 8% of the valid votes polled in the State, in a Lok Sabha or Legislative Assembly general election, is itself sufficient; the 6% criteria additionally require winning seats.",
+      "fact": "Secures not less than 8% of the valid votes polled in the State at a General Election to the Lok Sabha from the State or to the Legislative Assembly of the State.",
+      "hint": "This is the highest vote-share percentage among the state party criteria."
+    },
+    {
+      "id": "civ7-081",
+      "type": "mcq",
+      "topic": "Coalition Governments",
+      "difficulty": "medium",
+      "q": "Against the backdrop of which event did various parties unite as the Janata Party in 1977?",
+      "options": [
+        "The National Emergency",
+        "The Kargil War",
+        "The Non-Cooperation Movement",
+        "The Quit India Movement"
+      ],
+      "answer": 0,
+      "explanation": "In 1977, against the backdrop of the National Emergency of 1975-77, various political parties came together as the Janata Party, which formed the first coalition government at the national level.",
+      "fact": "It was in 1977 that various political parties formed an alliance as the Janata Party against the backdrop of the National Emergency (1975-77)."
+    },
+    {
+      "id": "civ7-082",
+      "type": "mcq",
+      "topic": "Model Code of Conduct",
+      "difficulty": "medium",
+      "q": "In the chapter's case study, the wall writings and campaign posters pasted the day before the assembly elections are examples of violations of:",
+      "options": [
+        "The Anti-Defection Law",
+        "The Model Code of Conduct",
+        "The Representation of the People Act, 1950",
+        "The Delimitation Commission's orders"
+      ],
+      "answer": 1,
+      "explanation": "Ishani's case study asks readers to spot Model Code of Conduct violations; wall writings, posters and pamphlets put up right before polling day are such violations, which can be reported through the cVIGIL app.",
+      "fact": "The case study shows wall writing and campaign posters pasted everywhere the day before the elections and cites them as examples of violations of the Model Code of Conduct."
+    },
+    {
+      "id": "civ7-083",
+      "type": "truefalse",
+      "topic": "Multi-Party System",
+      "difficulty": "easy",
+      "q": "India's multi-party system reflects the country's rich diversity of languages, cultures, religions and regions.",
+      "answer": "true",
+      "explanation": "India has a multi-party system in which many parties exist and compete in elections, and this plurality mirrors the country's social and regional diversity.",
+      "fact": "India has a multi-party system, which means that many political parties exist and compete in elections. This system reflects the country's rich diversity of languages, cultures, religions, and regions."
+    },
+    {
+      "id": "civ7-084",
+      "type": "truefalse",
+      "topic": "Defection",
+      "difficulty": "medium",
+      "q": "Defection is always viewed as political opportunism and can never be seen as upholding conscience.",
+      "answer": "false",
+      "explanation": "While defection is often seen as political opportunism that harms party discipline and stability, the chapter notes it can also be viewed as a way to uphold conscience or respond to changing public expectations.",
+      "fact": "On the contrary, defection can also be viewed as a way to uphold conscience or respond to changing public expectations."
+    },
+    {
+      "id": "civ7-085",
+      "type": "truefalse",
+      "topic": "Anti-Defection Law",
+      "difficulty": "easy",
+      "q": "Under the Anti-Defection Law, the Speaker or Chairman of the House decides what needs to be done in defection cases.",
+      "answer": "true",
+      "explanation": "When a member is accused of defection, it is the Speaker or the Chairman of the concerned House who decides what needs to be done in the matter.",
+      "fact": "The Speaker or Chairman of the House decides what needs to be done in such cases."
+    },
+    {
+      "id": "civ7-086",
+      "type": "fillblank",
+      "topic": "Anti-Defection Law",
+      "difficulty": "medium",
+      "q": "A member who votes against the party's instructions in the legislature is said to have defied the ___.",
+      "answerVariants": ["whip", "Whip"],
+      "explanation": "The whip is the party's instruction on how its members should vote in the legislature; voting against it can lead to disqualification under the Anti-Defection Law.",
+      "fact": "If a member votes against the party's instructions (whip), the member can be disqualified from the respective House."
+    },
+    {
+      "id": "civ7-087",
+      "type": "fillblank",
+      "topic": "Defection",
+      "difficulty": "medium",
+      "q": "Abandoning or switching from the political party under whose banner a candidate was elected is called ___.",
+      "answerVariants": ["defection", "Defection"],
+      "explanation": "Defection means leaving the party on whose ticket a legislator was elected, either by joining another party or by acting independently of the party's decisions in the legislature.",
+      "fact": "Defection refers to abandoning or switching from the political party under whose banner the candidate was elected."
+    },
+    {
+      "id": "civ7-088",
+      "type": "fillblank",
+      "topic": "Multi-Party System",
+      "difficulty": "easy",
+      "q": "India has a ___-party system in which many political parties exist and compete in elections.",
+      "answerVariants": ["multi", "Multi"],
+      "explanation": "In a multi-party system like India's, many parties contest elections, offering voters a wide range of choices and reflecting the country's diversity.",
+      "fact": "India has a multi-party system, which means that many political parties exist and compete in elections."
+    },
+    {
+      "id": "civ7-089",
+      "type": "match",
+      "topic": "Parties and Alliances",
+      "difficulty": "medium",
+      "q": "Match each party or alliance with its description.",
+      "pairs": [
+        {"l": "Janata Party", "r": "Formed the first coalition government at the national level"},
+        {"l": "National Democratic Alliance (NDA)", "r": "Alliance led by the Bharatiya Janata Party"},
+        {"l": "United Progressive Alliance (UPA)", "r": "Alliance led by the Indian National Congress until its 2023 dissolution"},
+        {"l": "Registered Unrecognised Political Parties (RUPP)", "r": "Parties lacking vote share or that never contested after registration"},
+        {"l": "State party", "r": "Recognised on the basis of its performance within one state"}
+      ],
+      "explanation": "The Janata Party of 1977 was the first national coalition; the NDA is BJP-led and the UPA was INC-led until 2023; RUPPs are registered but unrecognised, while state parties earn recognition through performance in one state.",
+      "fact": "The Janata Party formed the first coalition government at the national level; since the late 1990s the NDA (led by BJP) and the UPA (led by INC until 2023) have been the major alliances."
+    },
+    {
+      "id": "civ7-090",
+      "type": "match",
+      "topic": "Constitutional Provisions and Machinery",
+      "difficulty": "medium",
+      "q": "Match each provision or officer with its role.",
+      "pairs": [
+        {"l": "Article 82", "r": "Mandates the establishment of a Delimitation Commission"},
+        {"l": "Articles 324 to 329", "r": "Provide for the ECI and define its powers and duties"},
+        {"l": "Chief Electoral Officer", "r": "Supervises election work at the State level"},
+        {"l": "District Magistrate", "r": "State Government officer who can be assigned election duties"},
+        {"l": "National Voters' Day", "r": "Celebrated every year on 25 January"}
+      ],
+      "explanation": "Article 82 sets up delimitation, Articles 324-329 create the ECI, the CEO supervises state-level election work, officers like District Magistrates are drafted for election duty, and 25 January is National Voters' Day.",
+      "fact": "Article 82 mandates a Delimitation Commission; Articles 324 to 329 provide for the ECI; the CEO supervises state election work; officers like DMs are assigned election duties; 25 January is National Voters' Day."
+    },
+    {
+      "id": "civ7-091",
+      "type": "order",
+      "topic": "Coalition Era Chronology",
+      "difficulty": "medium",
+      "q": "Arrange these events in the correct chronological order.",
+      "orderItems": [
+        "End of the era of single-party dominated elections (1967)",
+        "Janata Party alliance formed against the National Emergency (1977)",
+        "NDA and UPA became major alliances (late 1990s)",
+        "UPA dissolved and reconstituted under a new name (2023)"
+      ],
+      "explanation": "Single-party dominance ended in 1967, the Janata alliance came together in 1977, the NDA and UPA dominated from the late 1990s, and the UPA was dissolved and reconstituted in 2023.",
+      "fact": "The year 1967 witnessed an end to single-party dominated elections; the Janata alliance came in 1977; NDA and UPA have been major alliances since the late 1990s; the UPA was dissolved in 2023."
+    },
+    {
+      "id": "civ7-092",
+      "type": "order",
+      "topic": "Case Study: First-Time Voter",
+      "difficulty": "easy",
+      "q": "Arrange the events of Ishani's first voting experience in the correct order.",
+      "orderItems": [
+        "Ishani registers to vote through the ECI's online portal",
+        "She goes to the polling station with her mother and brother",
+        "A wheelchair is made available for her disabled brother",
+        "She casts her vote",
+        "She sees the VVPAT slip"
+      ],
+      "explanation": "Ishani first registered online, then reached the polling station where a wheelchair was arranged for her brother, after which she cast her vote and finally saw the VVPAT slip.",
+      "fact": "Ishani registered to vote through the ECI's online portal; at the polling station a wheelchair was made available; after casting her vote she was able to see the VVPAT slip."
+    },
+    {
+      "id": "civ7-093",
+      "type": "multiselect",
+      "topic": "Role of Political Parties",
+      "difficulty": "medium",
+      "q": "Select all correct: what do political parties do in a democracy, according to the chapter?",
+      "options": [
+        "Appointing the Election Commissioners",
+        "Organising public opinion",
+        "Campaigning on specific issues",
+        "Offering voters meaningful choices"
+      ],
+      "answerIndices": [1, 2, 3],
+      "explanation": "Political parties organise public opinion, campaign on specific issues, offer voters meaningful choices and enable informed decisions; they do not appoint Election Commissioners.",
+      "fact": "Political parties organise public opinion, campaign on specific issues, offer voters meaningful choices, and enable voters to make informed decisions."
+    },
+    {
+      "id": "civ7-094",
+      "type": "multiselect",
+      "topic": "Challenges to Free Elections",
+      "difficulty": "medium",
+      "q": "Select all correct: the ECI addresses challenges to free and fair elections through —",
+      "options": [
+        "The Model Code of Conduct",
+        "Banning all political parties",
+        "EVMs and VVPAT",
+        "Voters' awareness campaigns"
+      ],
+      "answerIndices": [0, 2, 3],
+      "explanation": "The chapter lists the RPAs, the Model Code of Conduct, EVMs, VVPAT and voters' awareness campaigns as the ECI's tools against challenges like misinformation and intimidation; banning parties is not among them.",
+      "fact": "The ECI addresses challenges through RPA 1950 and 1951, the Model Code of Conduct, EVMs, Voter Verifiable Paper Audit Trail (VVPAT), voters' awareness campaigns, and other measures."
+    },
+    {
+      "id": "civ7-095",
+      "type": "multiselect",
+      "topic": "Registered Unrecognised Parties",
+      "difficulty": "hard",
+      "q": "Select all correct: which statements describe Registered Unrecognised Political Parties (RUPP)?",
+      "options": [
+        "Parties that have not secured enough percentage of votes in elections",
+        "Parties that have never contested elections since their registration",
+        "Parties recognised as national parties in four states",
+        "Parties appointed by the Supreme Court"
+      ],
+      "answerIndices": [0, 1],
+      "explanation": "RUPPs are registered parties that either failed to secure enough vote percentage in Legislative Assembly or General Elections, or have never contested elections since their registration.",
+      "fact": "RUPP are the parties that have not secured enough percentage of votes in the Legislative Assembly or the General Elections, and parties that have never contested elections since their registration."
+    },
+    {
+      "id": "civ7-096",
+      "type": "wrongstatement",
+      "topic": "Anti-Defection Law",
+      "difficulty": "hard",
+      "q": "Which of these statements about the Anti-Defection Law is INCORRECT?",
+      "options": [
+        "The Anti-Defection Law was passed in 1985 through the 52nd Constitutional Amendment Act.",
+        "Under the law, the President of India personally decides defection cases.",
+        "The purpose of the law is to prevent defection and provide stability to the elected government.",
+        "A member who votes against the party's whip can be disqualified from the House."
+      ],
+      "answer": 1,
+      "explanation": "Defection cases are decided by the Speaker or the Chairman of the House, not by the President; the other statements correctly describe the law passed in 1985 through the 52nd Constitutional Amendment Act.",
+      "fact": "The Speaker or Chairman of the House decides what needs to be done in defection cases."
+    },
+    {
+      "id": "civ7-097",
+      "type": "wrongstatement",
+      "topic": "Party Recognition Criteria",
+      "difficulty": "hard",
+      "q": "Which of these statements about party recognition is INCORRECT?",
+      "options": [
+        "Every party that registers with the ECI is automatically recognised as a national party.",
+        "A party recognised as a State Party in at least four states can gain national party status.",
+        "One national party criterion is winning at least 2% of Lok Sabha seats from at least three states.",
+        "A party can be recognised as a state party by securing not less than 8% of valid votes polled in the state."
+      ],
+      "answer": 0,
+      "explanation": "Registration with the ECI does not automatically bring recognition; parties that fail the vote and seat criteria remain Registered Unrecognised Political Parties (RUPP).",
+      "fact": "Registered Unrecognised Political Parties are those that have not secured enough percentage of votes or have never contested elections since registration."
+    },
+    {
+      "id": "civ7-098",
+      "type": "wrongstatement",
+      "topic": "Coalition Governments",
+      "difficulty": "medium",
+      "q": "Which of these statements about coalition politics is INCORRECT?",
+      "options": [
+        "In 1977, parties united as the Janata Party against the backdrop of the National Emergency.",
+        "The Janata Party formed the first coalition government at the national level.",
+        "The era of single-party dominated elections in India ended in 1989.",
+        "Since the late 1990s, the NDA and the UPA have been major political alliances."
+      ],
+      "answer": 2,
+      "explanation": "The era of single-party dominated elections ended in 1967, when the era of alliances began, not in 1989; the Janata Government of 1977 was the first national coalition.",
+      "fact": "The year 1967 witnessed an end to the era of single-party dominated elections in India and an era of alliances began."
+    },
+    {
+      "id": "civ7-099",
+      "type": "assertion",
+      "topic": "Anti-Defection Law",
+      "difficulty": "medium",
+      "q": "Assertion (A): The Anti-Defection Law provides stability to the elected government.\nReason (R): A member who voluntarily gives up party membership or votes against the whip can be disqualified from the House.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true, and R explains A: the possibility of disqualification discourages members from abandoning their parties, which prevents defection and stabilises the elected government.",
+      "fact": "The purpose of the law is to prevent defection, thereby providing stability to the elected government; a member who defects can be disqualified from the House."
+    },
+    {
+      "id": "civ7-100",
+      "type": "assertion",
+      "topic": "Role of Political Parties",
+      "difficulty": "hard",
+      "q": "Assertion (A): Voters learn about candidates and their policies primarily through political parties.\nReason (R): Most candidates in elections contest as independents without any party affiliation.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "A is true because parties are the main source of information about candidates' policies and visions, but R is false, since most candidates belong to a political party and only some contest independently.",
+      "fact": "Voters learn about candidates, their policies and their vision primarily through the political parties; most candidates belong to a political party, though some contest independently."
+    }
+  ]
+}

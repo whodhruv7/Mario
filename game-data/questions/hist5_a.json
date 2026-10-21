@@ -1,0 +1,315 @@
+{
+  "chapterId": "hist5",
+  "fragment": "a",
+  "questions": [
+    {
+      "id": "hist5-001",
+      "type": "mcq",
+      "topic": "Nature of society",
+      "difficulty": "easy",
+      "q": "As defined in the chapter, a society is primarily regulated by:",
+      "options": ["Formal laws enacted by rulers", "Customs and practices", "Written constitutions", "Court judgments"],
+      "answer": 1,
+      "explanation": "Society is a system of social relationships among people who share a territory, culture and a sense of belonging. The chapter stresses that it is regulated primarily by customs and practices rather than formal laws, which is what distinguishes it from a State.",
+      "fact": "Most importantly, society is primarily regulated by customs and practices rather than formal laws.",
+      "hint": "Families, marriage and shared traditions hold a society together, not parliaments."
+    },
+    {
+      "id": "hist5-002",
+      "type": "truefalse",
+      "topic": "Definition of State",
+      "difficulty": "easy",
+      "q": "A 'State' refers to an organised political system based on rules and laws, with well-defined rights and duties of rulers and subjects.",
+      "answer": "true",
+      "explanation": "The chapter defines a State as an organised political system based on rules and laws, including well-defined rights and duties of rulers and subjects, mechanisms of governance, and institutions for enforcing law and order.",
+      "fact": "A 'State' refers to an organised political system based on rules and laws. It includes well-defined rights and duties of rulers and subjects, mechanisms of governance, and institutions for enforcing law and order."
+    },
+    {
+      "id": "hist5-003",
+      "type": "mcq",
+      "topic": "Vedic literature",
+      "difficulty": "easy",
+      "q": "Which of these constitutes the earliest known corpus of Indian literature?",
+      "options": ["The Mahābhārata epic", "The Arthaśhāstra", "The Vedas", "The Sangam poems"],
+      "answer": 2,
+      "explanation": "The Vedas form the earliest known corpus of Indian literature, especially because the Harappan script has not yet been deciphered. Vedic literature existed in oral form for several centuries before it was written down.",
+      "fact": "The Vedas constitute the earliest known corpus of Indian literature, especially since the script used by the Harappans of the Sindhu–Sarasvatí civilisation has not yet been deciphered."
+    },
+    {
+      "id": "hist5-004",
+      "type": "truefalse",
+      "topic": "Harappan script",
+      "difficulty": "easy",
+      "q": "The script used by the Harappans of the Sindhu–Sarasvatí civilisation has not yet been deciphered.",
+      "answer": "true",
+      "explanation": "Because the Harappan script remains undeciphered, the Vedas, and not Harappan writing, are the earliest known corpus of Indian literature available to us.",
+      "fact": "The script used by the Harappans of the Sindhu–Sarasvatí civilisation has not yet been deciphered."
+    },
+    {
+      "id": "hist5-005",
+      "type": "mcq",
+      "topic": "Sapta–Sindhu region",
+      "difficulty": "medium",
+      "q": "The earliest sections of the Ṛig Veda were composed in which region?",
+      "options": ["The Ganga plains", "Sapta–Sindhu", "The Kaveri delta", "The Deccan plateau"],
+      "answer": 1,
+      "explanation": "The earliest sections of the Ṛig Veda were composed in Sapta–Sindhu, the region including the Indus River, its five tributaries and the Sarasvatí. The Ganga plains became the main centre only in the later Vedic period.",
+      "fact": "The earliest sections of the Ṛig Veda were composed in the region known as Sapta–Sindhu—including the Indus River, its five tributaries, and the Sarasvatí."
+    },
+    {
+      "id": "hist5-006",
+      "type": "mcq",
+      "topic": "Sāma Veda",
+      "difficulty": "easy",
+      "q": "The chanting tradition of which Veda forms an important foundation for the seven svaras (notes) of Indian music?",
+      "options": ["The Yajur Veda", "The Atharva Veda", "The Sāma Veda", "The Ṛig Veda"],
+      "answer": 2,
+      "explanation": "The Sāma Veda comprises hymns drawn from the Ṛig Veda, carefully arranged for musical recitation. Its chanting tradition lies at the foundation of the system of the seven svaras of Indian music.",
+      "fact": "Its chanting tradition forms an important foundation for the system of the seven svaras (notes) that lie at the heart of Indian music."
+    },
+    {
+      "id": "hist5-007",
+      "type": "truefalse",
+      "topic": "The four Vedas",
+      "difficulty": "medium",
+      "q": "The Sāma Veda elaborates the performative aspects of yajñas and includes explanations in prose.",
+      "answer": "false",
+      "explanation": "It is the Yajur Veda that elaborates the performative aspects of yajñas with explanations in prose. The Sāma Veda instead contains hymns drawn from the Ṛig Veda arranged for musical recitation.",
+      "fact": "The Yajur Veda elaborates the performative aspects of yajñas and the hymns referred to in the Ṛig Veda. It includes explanations in prose."
+    },
+    {
+      "id": "hist5-008",
+      "type": "fillblank",
+      "topic": "Ṛig Veda hymns",
+      "difficulty": "easy",
+      "q": "The Ṛig Veda consists of 1,028 hymns known as ___.",
+      "answerVariants": ["sūktas", "suktas"],
+      "explanation": "The Ṛig Veda, the earliest veda, contains 1,028 hymns called sūktas. Some praise various deities while others reflect on universal themes such as creation, birth and death.",
+      "fact": "It consists of 1,028 hymns (sūktas), some in praise of various deities while others reflect on universal thoughts."
+    },
+    {
+      "id": "hist5-009",
+      "type": "match",
+      "topic": "The four Vedas",
+      "difficulty": "medium",
+      "q": "Match each Vedic text with its content as described in the chapter.",
+      "pairs": [
+        {"l": "Ṛig Veda", "r": "Earliest veda with 1,028 hymns"},
+        {"l": "Sāma Veda", "r": "Hymns arranged for musical recitation"},
+        {"l": "Yajur Veda", "r": "Performative aspects of yajñas in prose"},
+        {"l": "Atharva Veda", "r": "Hymns to ward off evil and treat ailments"},
+        {"l": "Upaniṣhads", "r": "The Self (Ātman) and the Universal Being"}
+      ],
+      "explanation": "Each Veda has a distinct character: the Ṛig Veda is the earliest collection of hymns, the Sāma Veda is arranged for music, the Yajur Veda explains yajña performances, the Atharva Veda contains hymns against evil and ailments, and the Upaniṣhads discuss the Self (Ātman) and the Ultimate Universal Being (Brāhmaṇ).",
+      "fact": "Each text of the Veda has the following four parts: samhitā, brāhmaṇa, āraṇyaka, and upaniṣhad; the Upaniṣhads delve into issues like the Self (Ātman) and the Ultimate Universal Being (Brāhmaṇ)."
+    },
+    {
+      "id": "hist5-010",
+      "type": "mcq",
+      "topic": "Early Vedic rājā",
+      "difficulty": "easy",
+      "q": "In early Vedic society, the rājā functioned primarily as:",
+      "options": ["A hereditary emperor with absolute power", "A clan chief who led the group in warfare", "A priest who performed yajñas", "A merchant who led a trade guild"],
+      "answer": 1,
+      "explanation": "In the early Vedic period, the rājā was essentially a clan chief who led the jana in warfare and ensured the protection of its members, not an absolute monarch.",
+      "fact": "During this period, the rājā functioned primarily as a clan chief who led the group in warfare and ensured the protection of its members."
+    },
+    {
+      "id": "hist5-011",
+      "type": "multiselect",
+      "topic": "Vedic assemblies",
+      "difficulty": "medium",
+      "q": "Select all correct statements about the assemblies of the early Vedic period.",
+      "options": [
+        "The sabhā was a smaller body that primarily served a judicial function",
+        "The samiti was a larger assembly focused on policy decisions and political affairs",
+        "The sabhā was composed of select elites",
+        "These assemblies are mentioned only in the Sāma Veda"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "The Ṛig Veda and Atharva Veda mention three assemblies — sabhā, samiti and vidhata. The sabhā was a smaller, elite body with a mainly judicial function, while the samiti was a larger assembly for policy decisions and political affairs.",
+      "fact": "The Vedic texts, particularly the Ṛig Veda and Atharva Veda, refer to three assemblies. These were called the sabhā, samiti, and vidhata."
+    },
+    {
+      "id": "hist5-012",
+      "type": "truefalse",
+      "topic": "Vedic clans",
+      "difficulty": "easy",
+      "q": "The Yadu, Turvaśha, Puru, Anu and Druhyu were collectively known as the pañchajana or 'five peoples'.",
+      "answer": "true",
+      "explanation": "The Ṛig Veda mentions about thirty janas, five of which — the Yadu, Turvaśha, Puru, Anu and Druhyu — were together called the pañchajana, meaning 'five peoples'.",
+      "fact": "The Ṛig Veda alone mentions about thirty janas, five of which—the Yadu, Turvaśha, Puru, Anu, and Druhyu—were collectively known as the pañchajana ('five peoples')."
+    },
+    {
+      "id": "hist5-013",
+      "type": "fillblank",
+      "topic": "Bharata jana",
+      "difficulty": "easy",
+      "q": "The name 'Bharata' first appears in the Ṛig Veda, in reference to the 'Bharata ___', the people ruled by the family of the Bharatas.",
+      "answerVariants": ["jana"],
+      "explanation": "The name Bharata first appears in the Ṛig Veda for the Bharata jana, the people ruled by the family of the Bharatas, showing how early communities identified themselves through their ruling families.",
+      "fact": "The name 'Bharata' first appears in the Ṛig Veda. It is used in reference to the 'Bharata jana', or the people who were ruled by the family of the Bharatas."
+    },
+    {
+      "id": "hist5-014",
+      "type": "order",
+      "topic": "Evolution of polity",
+      "difficulty": "medium",
+      "q": "Arrange these stages of political organisation in the correct order of their emergence.",
+      "orderItems": [
+        "Kin-based polities of the Ṛig Veda (janas)",
+        "Janapadas (territorial political units)",
+        "Mahājanapadas (bigger political units)",
+        "Empires such as those of the Mauryas and the Guptas"
+      ],
+      "explanation": "Political organisation evolved from kin-based janas to territory-based janapadas, then to the bigger mahājanapadas, and eventually into empires like those of the Mauryas and the Guptas in northern India and the Cholas in southern India.",
+      "fact": "We will study their development into more complex and bigger, territory-based political units like janapadas and mahājanapadas, and eventually into empires during the time of the Mauryas and the Guptas in northern India, and the Cholas in southern India."
+    },
+    {
+      "id": "hist5-015",
+      "type": "mcq",
+      "topic": "NBPW pottery",
+      "difficulty": "hard",
+      "q": "In the middle Gangetic region, archaeologists found a refined 'deluxe ware' known for its smooth, glossy black surface. What is it called?",
+      "options": ["PGW (Painted Grey Ware)", "Megalithic pottery", "NBPW (Northern Black Polished Ware)", "Sindhu–Sarasvatí seals"],
+      "answer": 2,
+      "explanation": "The middle Gangetic region, from present-day Prayagraj to eastern Bihar, has yielded a refined 'deluxe ware' called NBPW, known for its smooth, glossy black surface, marking a richer and more advanced material culture. PGW was the characteristic pottery of an earlier phase.",
+      "fact": "In the middle Gangetic region (from present-day Prayagraj to eastern Bihar), there is evidence of a refined 'deluxe ware' called NBPW, known for its smooth, glossy black surface.",
+      "hint": "One abbreviation stands for Northern Black Polished Ware."
+    },
+    {
+      "id": "hist5-016",
+      "type": "order",
+      "topic": "Early India timeline",
+      "difficulty": "hard",
+      "q": "According to the chapter's broad timeline of early India (Fig. 5.1), arrange these cultural phases in chronological order.",
+      "orderItems": [
+        "Neolithic–Chalcolithic phase",
+        "PGW (Painted Grey Ware) phase",
+        "NBPW (Northern Black Polished Ware) phase"
+      ],
+      "explanation": "The chapter's timeline places Neolithic–Chalcolithic cultures around 2000 BCE, the Painted Grey Ware (Iron) phase around 800 BCE, and the Iron-NBPW phase around 300 BCE, in that order.",
+      "fact": "Fig. 5.1 broad timeline of early India: 2000 BCE Neolithic–Chalcolithic; 800 BCE PGW (Iron); 300 BCE Iron-NBPW.",
+      "hint": "Stone-age cultures come before painted grey pottery, which comes before the glossy black deluxe ware."
+    },
+    {
+      "id": "hist5-017",
+      "type": "mcq",
+      "topic": "Meaning of janapada",
+      "difficulty": "medium",
+      "q": "The term 'janapada' literally means:",
+      "options": ["The land of many kings", "A fortified city", "An assembly of elders", "Where a people (jana) first set its feet"],
+      "answer": 3,
+      "explanation": "Janapada literally means the place where a jana first set its feet, marking the shift from kinship-based identity to territorial identity between roughly 1000 BCE and 600 BCE.",
+      "fact": "The term janapada literally means where a people (jana) first set its feet, indicating a transition from kinship-based identity to territorial identity."
+    },
+    {
+      "id": "hist5-018",
+      "type": "assertion",
+      "topic": "Janapada transition",
+      "difficulty": "medium",
+      "q": "Assertion (A): The rise of janapadas marked a transition from kinship-based identity to territorial identity.\nReason (R): People were now connected not only by kinship ties but also by a sense of belonging to a land that gave them a more concrete sense of identity.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true, and R explains A: belonging to a shared territory is exactly what made identity territorial rather than purely kinship-based. This transition happened between approximately 1000 BCE and 600 BCE.",
+      "fact": "The term janapada literally means where a people (jana) first set its feet, indicating a transition from kinship-based identity to territorial identity... people were not only connected solely by kinship ties but also by a sense of belonging to a land."
+    },
+    {
+      "id": "hist5-019",
+      "type": "mcq",
+      "topic": "Sixteen mahājanapadas",
+      "difficulty": "easy",
+      "q": "Historical sources for the period usually speak of how many mahājanapadas?",
+      "options": ["Twelve", "Sixteen", "Eighteen", "Twenty-four"],
+      "answer": 1,
+      "explanation": "Contemporary sources usually speak of sixteen mahājanapadas, the bigger political units that rose between about 600 BCE and 300 CE, among which Magadha gradually emerged as the most powerful.",
+      "fact": "Historical sources for the period usually speak of sixteen mahājanapadas."
+    },
+    {
+      "id": "hist5-020",
+      "type": "wrongstatement",
+      "topic": "Rise of Magadha",
+      "difficulty": "medium",
+      "q": "Which of these statements about Magadha is INCORRECT?",
+      "options": [
+        "Magadha was located in present-day Bihar",
+        "Magadha's strategic location, fertile plains and strong rulers enabled its expansion",
+        "Magadha became a powerful mahājanapada only after the fall of the Mauryan Empire",
+        "Magadha's expansion eventually led to the rise of the Mauryan Empire"
+      ],
+      "answer": 2,
+      "explanation": "Magadha rose to power among the sixteen mahājanapadas long before the Mauryan Empire, and its expansion over neighbouring regions actually led to the rise of that empire. The other statements match the chapter.",
+      "fact": "Among these, Magadha, located in present-day Bihar, gradually emerged as the most powerful. Its strategic location, fertile plains, and strong rulers enabled it to expand its control over neighbouring regions. This expansion eventually led to the rise of the Mauryan Empire."
+    },
+    {
+      "id": "hist5-021",
+      "type": "multiselect",
+      "topic": "Rise of Magadha",
+      "difficulty": "easy",
+      "q": "Select all factors that enabled Magadha to emerge as the most powerful mahājanapada.",
+      "options": ["Strategic location", "Control of the seas", "Fertile plains", "Strong rulers"],
+      "answerIndices": [0, 2, 3],
+      "explanation": "The chapter credits Magadha's rise to its strategic location, fertile plains and strong rulers, which enabled it to expand control over neighbouring regions.",
+      "fact": "Its strategic location, fertile plains, and strong rulers enabled it to expand its control over neighbouring regions.",
+      "hint": "Magadha was an inland power in present-day Bihar, so think about what it actually controlled."
+    },
+    {
+      "id": "hist5-022",
+      "type": "mcq",
+      "topic": "Kingdoms and republics",
+      "difficulty": "easy",
+      "q": "By about 600 BCE, northern India had monarchical states (rājyas) as well as republican states called:",
+      "options": ["bhuktis and viṣhayas", "sabhā and samiti", "āhāras and grāmas", "gaṇas or saṁghas"],
+      "answer": 3,
+      "explanation": "The political landscape of northern India had evolved to include two forms of political organisation: monarchical states (rājyas) and republican states (gaṇas or saṁghas).",
+      "fact": "The political landscape of northern India had evolved to include different forms of political organisation. These comprised monarchical states (rājyas) and republican states (gaṇas or saṁghas)."
+    },
+    {
+      "id": "hist5-023",
+      "type": "fillblank",
+      "topic": "Satavāhana empire",
+      "difficulty": "easy",
+      "q": "In the Deccan, the Mauryan Empire was succeeded by the ___ Empire, which lasted nearly 500 years, from the 2nd century BCE to the 3rd century CE.",
+      "answerVariants": ["Satavāhana", "Satavahana"],
+      "explanation": "The Satavāhana Empire succeeded the Mauryas in the Deccan and endured for nearly five centuries, from the 2nd century BCE to the 3rd century CE.",
+      "fact": "In southern India, particularly in the Deccan, the Mauryan Empire was succeeded by the Satavāhana Empire, which lasted nearly 500 years, from the 2nd century BCE to the 3rd century CE."
+    },
+    {
+      "id": "hist5-024",
+      "type": "order",
+      "topic": "Dynasties chronology",
+      "difficulty": "hard",
+      "q": "Arrange these dynasties in the order in which they were founded.",
+      "orderItems": [
+        "Mauryan Empire (321 BCE)",
+        "Śhunga Empire (185 BCE)",
+        "Gupta Empire (320 CE)",
+        "Chālukya dynasty of Badami (543 CE)"
+      ],
+      "explanation": "Chandragupta Maurya founded the Mauryan Empire in 321 BCE, Pushyamitra Śhunga founded the Śhunga empire in 185 BCE, the Guptas ruled from 320 CE, and Pulakeśhin I founded the Chālukya dynasty in 543 CE.",
+      "fact": "321 BCE: Foundation of Mauryan Empire by Chandragupta Maurya; 185 BCE: Foundation of Śhunga empire by Puṣhyamitra Śhunga; 320–550 CE: Guptas; 543 CE: Foundation of Chālukyan dynasty by Pulakeśhin I.",
+      "hint": "Two foundations are BCE and two are CE, so order the older pair first."
+    },
+    {
+      "id": "hist5-025",
+      "type": "assertion",
+      "topic": "Literary sources",
+      "difficulty": "hard",
+      "q": "Assertion (A): Our understanding of the period from at least the second millennium BCE is more detailed and qualitatively enriched.\nReason (R): From the second millennium BCE, literary sources such as the Ṛig Veda supplement archaeological evidence and provide insights into the social, political, cultural and moral dimensions of the past.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true and R explains A: it is the appearance of literary sources, beginning with the Ṛig Veda, that supplements archaeology and enriches our picture of the past from the second millennium BCE onwards.",
+      "fact": "From at least the second millennium BCE, we begin to find literary sources—the Ṛig Veda being the earliest—that supplement archaeological evidence and provide insights into the social, political, cultural, and moral dimensions of the past."
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "chapterId": "geo3",
+  "fragment": "b",
+  "questions": [
+    {
+      "id": "geo3-026",
+      "type": "mcq",
+      "topic": "Weather and Climate",
+      "difficulty": "easy",
+      "q": "The term 'weather' refers to which of the following?",
+      "options": ["The average conditions of a place over thirty years", "The hour-to-hour and day-to-day conditions of the atmosphere", "The long-term pattern of winds across the whole planet", "The conditions at the centre of the Earth"],
+      "answer": 1,
+      "explanation": "Weather refers to the hour-to-hour and day-to-day conditions of the atmosphere, and it can vary significantly from day to day. Conditions averaged over a long period, instead, describe the climate.",
+      "fact": "The term weather refers to the hour-to-hour and day-to-day conditions of the atmosphere.",
+      "hint": "Think about whether you could describe it for today and tomorrow."
+    },
+    {
+      "id": "geo3-027",
+      "type": "fillblank",
+      "topic": "Weather and Climate",
+      "difficulty": "medium",
+      "q": "Climate refers to the sum total of weather conditions and variations over a large area for an extended period, usually ___ years or more.",
+      "answerVariants": ["thirty", "30"],
+      "explanation": "Climate is the average weather of a place over a long period — the sum total of weather conditions and variations over a large area, usually thirty years or more.",
+      "fact": "Climate refers to the sum total of weather conditions and variations over a large area for an extended period of time, usually thirty years or more.",
+      "hint": "It takes decades of records to define a climate."
+    },
+    {
+      "id": "geo3-028",
+      "type": "multiselect",
+      "topic": "Elements of Weather",
+      "difficulty": "medium",
+      "q": "Select all the elements of weather and climate from the following list.",
+      "options": ["Soil texture", "Temperature", "Precipitation", "Humidity"],
+      "answerIndices": [1, 2, 3],
+      "explanation": "The major elements of the atmosphere that impact human life on the Earth are temperature, precipitation, humidity, wind and atmospheric pressure. Soil texture is not one of them.",
+      "fact": "The major elements of atmosphere that impact human life on the Earth are temperature, precipitation, humidity, wind, and atmospheric pressure."
+    },
+    {
+      "id": "geo3-029",
+      "type": "mcq",
+      "topic": "Insolation and Temperature",
+      "difficulty": "easy",
+      "q": "What is 'insolation'?",
+      "options": ["The incoming solar energy from the Sun that is intercepted by the Earth", "The heat released by volcanoes", "The pressure exerted by the weight of air", "The amount of water vapour in the air"],
+      "answer": 0,
+      "explanation": "Insolation is the incoming solar energy from the Sun that is intercepted by the Earth. It is an important factor affecting the distribution of temperature.",
+      "fact": "Insolation: The incoming solar energy from the Sun that is intercepted by the Earth.",
+      "hint": "The word starts like 'solar'."
+    },
+    {
+      "id": "geo3-030",
+      "type": "truefalse",
+      "topic": "Insolation and Temperature",
+      "difficulty": "easy",
+      "q": "The amount of insolation decreases from the equator towards the poles, and so does the temperature.",
+      "answer": "true",
+      "explanation": "Because the Sun's rays strike the equator most directly and the poles at a low angle, the amount of insolation decreases from the equator towards the poles — and temperature decreases in the same direction.",
+      "fact": "The amount of insolation decreases from the equator towards the poles. Hence, the temperature decreases from the equator towards the poles."
+    },
+    {
+      "id": "geo3-031",
+      "type": "mcq",
+      "topic": "Humidity in Air",
+      "difficulty": "easy",
+      "q": "Humidity refers to which of the following?",
+      "options": ["The falling of snow and hail from clouds", "The movement of air from sea to land", "The presence of water vapour in the air, creating moisture", "The heating of the Earth by the Sun"],
+      "answer": 2,
+      "explanation": "Humidity is the presence of water vapour in the air, creating moisture. It rises when water evaporates from land and different water bodies.",
+      "fact": "Humidity refers to the presence of water vapour in the air, creating moisture.",
+      "hint": "It is why sweaty clothes dry slowly on moist days."
+    },
+    {
+      "id": "geo3-032",
+      "type": "truefalse",
+      "topic": "Humidity in Air",
+      "difficulty": "medium",
+      "q": "As the air gets warmer, its capacity to hold water vapour decreases.",
+      "answer": "false",
+      "explanation": "It is the opposite — as the air gets warmer, its capacity to hold water vapour increases, leading to higher humidity levels.",
+      "fact": "As the air gets warmer, its capacity to hold water vapour increases, leading to higher humidity levels."
+    },
+    {
+      "id": "geo3-033",
+      "type": "truefalse",
+      "topic": "Humidity in Air",
+      "difficulty": "medium",
+      "q": "On a day with high humidity, clothes take longer to dry and sweat evaporates more slowly.",
+      "answer": "true",
+      "explanation": "When humidity is high, the air already holds a lot of water vapour, so wet clothes take longer to dry and sweat evaporates more slowly, leaving us feeling very uncomfortable.",
+      "fact": "On such a day, clothes take longer to dry, and sweat evaporates more slowly, leaving us feeling very uncomfortable."
+    },
+    {
+      "id": "geo3-034",
+      "type": "mcq",
+      "topic": "Precipitation Process",
+      "difficulty": "medium",
+      "q": "Precipitation occurs when a part of the atmosphere becomes saturated with water vapour. What happens then?",
+      "options": ["The water vapour condenses and falls on the Earth due to gravity", "The water vapour escapes into space", "The water vapour turns into dust particles", "The air stops moving completely"],
+      "answer": 0,
+      "explanation": "Precipitation happens when part of the atmosphere is saturated with water vapour — the vapour condenses and 'precipitates', or falls on the Earth due to gravity, as drizzle, rain, snow, sleet or hail.",
+      "fact": "It occurs when a part of the atmosphere becomes saturated with water vapour, which condenses and 'precipitates', or falls on the Earth due to gravity."
+    },
+    {
+      "id": "geo3-035",
+      "type": "multiselect",
+      "topic": "Forms of Precipitation",
+      "difficulty": "easy",
+      "q": "Select all correct forms of precipitation mentioned in the chapter.",
+      "options": ["Drizzle", "Snow", "Sunshine", "Sleet"],
+      "answerIndices": [0, 1, 3],
+      "explanation": "Precipitation includes drizzle, rain, snow, sleet and hail. Sunshine is not a form of precipitation.",
+      "fact": "This includes drizzle, rain, snow, sleet, and hail."
+    },
+    {
+      "id": "geo3-036",
+      "type": "fillblank",
+      "topic": "Forms of Precipitation",
+      "difficulty": "easy",
+      "q": "When precipitation falls on the Earth in liquid form, it is called ___.",
+      "answerVariants": ["rain"],
+      "explanation": "Precipitation in liquid form is called rain. Rain is the most common form of precipitation and it lowers the temperature of a place.",
+      "fact": "When precipitation falls on the Earth in liquid form, it is called rain."
+    },
+    {
+      "id": "geo3-037",
+      "type": "wrongstatement",
+      "topic": "Precipitation Process",
+      "difficulty": "medium",
+      "q": "Which of these statements about precipitation is INCORRECT?",
+      "options": ["The main factors affecting precipitation include prevailing winds, mountains and seasons", "Snow is the most common form of precipitation", "A long absence of rainfall results in a dry climate", "Most of the groundwater is collected from rainwater"],
+      "answer": 1,
+      "explanation": "Rain, not snow, is the most common form of precipitation. Prevailing winds, mountains and seasons affect precipitation, long dry spells give a dry climate, and most groundwater is collected from rainwater.",
+      "fact": "Rain is the most common form of precipitation and lowers the temperature of a place."
+    },
+    {
+      "id": "geo3-038",
+      "type": "match",
+      "topic": "Temperature Zones of Earth",
+      "difficulty": "hard",
+      "q": "Match each temperature zone or line of the Earth with its correct description.",
+      "pairs": [
+        {"l": "Torrid Zone", "r": "The zone near the equator where sunlight strikes most directly"},
+        {"l": "North Temperate Zone", "r": "Lies between the Tropic of Cancer and the Arctic Circle"},
+        {"l": "Frigid Zone", "r": "The polar zone that receives sunlight at a low angle"},
+        {"l": "Tropic of Cancer", "r": "The line at 23½°N latitude"},
+        {"l": "Tropic of Capricorn", "r": "The line at 23½°S latitude"}
+      ],
+      "explanation": "Sunlight strikes the equator most directly, forming the Torrid Zone; the temperate zones lie between the tropics and the polar circles; the Frigid Zones near the poles receive low-angle sunlight. The Tropic of Cancer is at 23½°N and the Tropic of Capricorn at 23½°S.",
+      "fact": "Fig. 3.6 Temperature zones of the Earth: Torrid Zone, North and South Temperate Zones, Frigid Zones, Tropic of Cancer 23½°N, Tropic of Capricorn 23½°S."
+    },
+    {
+      "id": "geo3-039",
+      "type": "mcq",
+      "topic": "Atmospheric Pressure",
+      "difficulty": "easy",
+      "q": "At what location is atmospheric pressure the highest?",
+      "options": ["At the top of a high mountain", "In the mesosphere", "In the exosphere", "At sea level"],
+      "answer": 3,
+      "explanation": "Air pressure is highest at sea level and decreases with altitude — as we go higher in the atmosphere, pressure falls rapidly.",
+      "fact": "It is highest at sea level and decreases with altitude.",
+      "hint": "There is more air weighing down above you at lower heights."
+    },
+    {
+      "id": "geo3-040",
+      "type": "truefalse",
+      "topic": "Atmospheric Pressure",
+      "difficulty": "medium",
+      "q": "High pressure is associated with cloudy skies and wet weather, while low pressure is associated with clear and sunny skies.",
+      "answer": "false",
+      "explanation": "The association is reversed: low pressure is associated with cloudy skies and wet weather, while high pressure is associated with clear and sunny skies.",
+      "fact": "Low pressure is associated with cloudy skies and wet weather... High pressure is associated with clear and sunny skies."
+    },
+    {
+      "id": "geo3-041",
+      "type": "mcq",
+      "topic": "Atmospheric Pressure",
+      "difficulty": "medium",
+      "q": "In an area with high temperatures, the air heats up and rises. What does this create?",
+      "options": ["A high-pressure area", "A low-pressure area", "A region of completely still air", "A permanent desert"],
+      "answer": 1,
+      "explanation": "Where temperatures are high, air heats up and rises, creating a low-pressure area. Horizontally, the distribution of air pressure is influenced by the air's temperature at a given place.",
+      "fact": "In areas with high temperatures, air heats up and rises. This creates a low-pressure area.",
+      "hint": "Warm air becomes lighter — what does it do?"
+    },
+    {
+      "id": "geo3-042",
+      "type": "fillblank",
+      "topic": "Wind Basics",
+      "difficulty": "hard",
+      "q": "Winds are named after the direction they blow from; for example, a wind blowing from the west is called a ___.",
+      "answerVariants": ["westerly", "westerly wind"],
+      "explanation": "Winds take their name from the direction they blow FROM — so a wind blowing from the west is called a westerly, not an easterly.",
+      "fact": "Winds are named after the direction they blow from, for example, the wind blowing from the west is called westerly."
+    },
+    {
+      "id": "geo3-043",
+      "type": "mcq",
+      "topic": "Wind Basics",
+      "difficulty": "easy",
+      "q": "The movement of air from a high-pressure area to a low-pressure area is called what?",
+      "options": ["Wind", "Precipitation", "Insolation", "Condensation"],
+      "answer": 0,
+      "explanation": "Wind is the movement of air from a high-pressure area to a low-pressure area. It can be gentle or strong.",
+      "fact": "The movement of air from a high-pressure area to a low-pressure area is called wind."
+    },
+    {
+      "id": "geo3-044",
+      "type": "truefalse",
+      "topic": "Wind Basics",
+      "difficulty": "easy",
+      "q": "The direction of wind is influenced by the Earth's rotation.",
+      "answer": "true",
+      "explanation": "Wind is caused by air flowing from high-pressure to low-pressure areas, and its direction is influenced by the Earth's rotation.",
+      "fact": "Wind is caused by air flowing from high-pressure to low-pressure areas. Its direction is influenced by the Earth's rotation."
+    },
+    {
+      "id": "geo3-045",
+      "type": "mcq",
+      "topic": "Wind Speeds",
+      "difficulty": "hard",
+      "q": "According to Table 3.1, at which wind speed do large branches sway and umbrellas become difficult to use?",
+      "options": ["0–1 km/hr", "6–11 km/hr", "39–49 km/hr", "103–117 km/hr"],
+      "answer": 2,
+      "explanation": "A strong breeze blows at 39–49 km/hr, when large branches sway in the wind and umbrellas are difficult to use. Calm is 0–1 km/hr, a light breeze is 6–11 km/hr, and a storm is 103–117 km/hr.",
+      "fact": "Strong breeze 39–49 km/hr: Large branches sway in the wind. Umbrellas are difficult to use.",
+      "hint": "Umbrellas failing suggests fairly strong winds."
+    },
+    {
+      "id": "geo3-046",
+      "type": "mcq",
+      "topic": "Land and Sea Breeze",
+      "difficulty": "easy",
+      "q": "When and in which direction does the land breeze blow?",
+      "options": ["From sea to land during the night", "From land to sea during the afternoon", "From sea to land at sunrise", "From land to sea during the night"],
+      "answer": 3,
+      "explanation": "The land breeze is a local wind that blows from land to sea during the night, resulting from differential surface cooling between the land and the sea.",
+      "fact": "It is a local wind that blows from land to sea during the night, resulting from differential surface cooling between the land and the sea.",
+      "hint": "Which surface cools faster after sunset?"
+    },
+    {
+      "id": "geo3-047",
+      "type": "assertion",
+      "topic": "Land and Sea Breeze",
+      "difficulty": "medium",
+      "q": "Assertion (A): The sea breeze blows from the land to the sea during the afternoon.\nReason (R): During the day, the land becomes relatively warmer than the sea, creating a low-pressure region over the land.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 3,
+      "explanation": "The reason is true — the land does become warmer than the sea by the afternoon, creating a low-pressure region over land. But because of this, the sea breeze blows from the sea to the land, so the assertion is false.",
+      "fact": "It is a local wind that blows from sea to land during the day, especially in the afternoon, when the land becomes relatively warmer than the sea."
+    },
+    {
+      "id": "geo3-048",
+      "type": "assertion",
+      "topic": "Land and Sea Breeze",
+      "difficulty": "hard",
+      "q": "Assertion (A): The land breeze is a gentle wind with a low speed.\nReason (R): Land cools faster than the sea at night.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 1,
+      "explanation": "Both statements are true — the land breeze is gentle, and land does cool faster than the sea at night. But its low speed is due to the small difference in temperatures and air pressure between sea and land, so the reason does not fully explain the assertion.",
+      "fact": "Since the difference in temperatures and air pressure between the sea and the land is low, the wind speed is low."
+    },
+    {
+      "id": "geo3-049",
+      "type": "wrongstatement",
+      "topic": "Local Winds",
+      "difficulty": "medium",
+      "q": "Which of these statements about local winds is INCORRECT?",
+      "options": ["Local winds such as the land breeze and sea breeze affect the weather and climate of a place", "They are essential in creating moderate climatic conditions in coastal regions", "The land breeze blows from land to sea during the night", "The sea breeze blows from land to sea during the afternoon"],
+      "answer": 3,
+      "explanation": "The sea breeze blows from sea to land during the day, especially in the afternoon — not from land to sea. The other statements correctly describe local winds.",
+      "fact": "It is a local wind that blows from sea to land during the day, especially in the afternoon."
+    },
+    {
+      "id": "geo3-050",
+      "type": "order",
+      "topic": "Wind Speeds",
+      "difficulty": "hard",
+      "q": "Arrange these wind categories in increasing order of their speed (slowest first).",
+      "orderItems": ["Calm (0–1 km/hr)", "Light breeze (6–11 km/hr)", "Strong breeze (39–49 km/hr)", "Storm (103–117 km/hr)"],
+      "explanation": "The speeds rise from calm (0–1 km/hr, when smoke rises vertically) through light breeze (6–11 km/hr) and strong breeze (39–49 km/hr) to storm (103–117 km/hr, which is usually accompanied by widespread damage).",
+      "fact": "Table 3.1 Wind speeds and their common effects: Calm 0–1, Light breeze 6–11, Strong breeze 39–49, Storm 103–117 km/hr."
+    }
+  ]
+}

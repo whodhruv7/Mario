@@ -1,0 +1,309 @@
+{
+  "chapterId": "hist5",
+  "fragment": "b",
+  "questions": [
+    {
+      "id": "hist5-026",
+      "type": "mcq",
+      "topic": "Titles of rulers",
+      "difficulty": "easy",
+      "q": "From the 6th century BCE onwards, rulers came to be known by various titles such as:",
+      "options": ["swāmi, amātya and mitra", "bhukti, viṣhaya and vithi", "rājā, mahārāja and samrāṭ", "sabhā, samiti and vidhata"],
+      "answer": 2,
+      "explanation": "From the 6th century BCE onwards, rulers across different regions bore titles such as rājā, mahārāja or samrāṭ, reflecting regional political traditions.",
+      "fact": "From the 6th century BCE onwards, rulers came to be known by various titles, such as rājā, mahārāja, or samrāṭ, across different regions, reflecting regional political traditions."
+    },
+    {
+      "id": "hist5-027",
+      "type": "fillblank",
+      "topic": "Arthaśhāstra",
+      "difficulty": "medium",
+      "q": "The Arthaśhāstra, one of the earliest and most systematic treatises on statecraft, is attributed to ___.",
+      "answerVariants": ["Kauṭilya", "Kautilya"],
+      "explanation": "The Arthaśhāstra, attributed to Kauṭilya, is one of the earliest and most systematic treatises on statecraft. It presents a detailed picture of administration and stresses the training of kings in governance.",
+      "fact": "Kauṭilya's Arthaśhāstra is one of the earliest and most systematic treatises on statecraft. It presents a detailed picture of administration."
+    },
+    {
+      "id": "hist5-028",
+      "type": "mcq",
+      "topic": "King's coronation oath",
+      "difficulty": "easy",
+      "q": "According to the coronation oath in the Yajur Veda, the king is advised to:",
+      "options": ["Grant land only to brāhmaṇas", "Judge the strong and weak impartially and fairly", "Keep the treasury secret from the ministers", "Perform the aśhvamedha yajña every year"],
+      "answer": 1,
+      "explanation": "The Yajur Veda's coronation oath advises the king to judge the strong and weak impartially and fairly, to protect the country from all calamities, and to do good to the people.",
+      "fact": "With reference to the oath of coronation in the Yajur Veda, the king is advised to judge the strong and weak impartially and fairly in addition to protecting the country from all calamities and do good to the people."
+    },
+    {
+      "id": "hist5-029",
+      "type": "truefalse",
+      "topic": "Nature of kingship",
+      "difficulty": "easy",
+      "q": "In early India, kingship was always strictly hereditary, and no king was ever elected or expelled.",
+      "answer": "false",
+      "explanation": "Although kingship was generally hereditary, early Indian texts contain references to kings being elected or even expelled, showing that royal authority was not always absolute and succession was not entirely hereditary in practice.",
+      "fact": "While kingship was generally hereditary, there are references to kings being elected or even expelled. This suggests that royal authority was not always absolute and that succession was not entirely hereditary in practice."
+    },
+    {
+      "id": "hist5-030",
+      "type": "wrongstatement",
+      "topic": "Duties of the king",
+      "difficulty": "medium",
+      "q": "Which of these statements about the early Indian king's duties is INCORRECT?",
+      "options": [
+        "The king was primarily responsible for protecting his subjects from external threats and internal disorder",
+        "The king was expected to administer justice in cases such as abduction, robbery, theft and adultery",
+        "The Śhānti Parva of the Mahābhārata provides guidance to rulers on ethical conduct and justice",
+        "Punishments for serious offences like treachery were always limited to mild fines"
+      ],
+      "answer": 3,
+      "explanation": "Punishments for serious offences such as killing a cow, acts of treachery and consuming intoxicating liquor were severe and could even include capital punishment, not mild fines.",
+      "fact": "Punishments for serious offences—including the killing of a cow, acts of treachery, and the consumption of intoxicating liquor—were severe and could include harsh penalties, sometimes even capital punishment."
+    },
+    {
+      "id": "hist5-031",
+      "type": "mcq",
+      "topic": "Chakravarti kśhetra",
+      "difficulty": "hard",
+      "q": "The Arthaśhāstra defines 'prithivi' as the area lying between the Himavat (Himalayas) and the sea, and equates it with:",
+      "options": ["The city of Pāṭaliputra", "The sixteen mahājanapadas", "The Sapta–Sindhu region", "The chakravarti kśhetra, the domain of a universal paramount ruler"],
+      "answer": 3,
+      "explanation": "The Arthaśhāstra equates prithivi, the land between the Himalayas and the sea, with the chakravarti kśhetra, the domain of a universal paramount ruler, expressing the ideal of sovereignty over the subcontinent.",
+      "fact": "The Arthaśhāstra further equates the term prithivi with the chakravarti kśhetra, or the 'domain of a universal paramount ruler.'",
+      "hint": "The answer is an ideal of universal rule, not a single city or region."
+    },
+    {
+      "id": "hist5-032",
+      "type": "assertion",
+      "topic": "Aśhoka's edicts",
+      "difficulty": "medium",
+      "q": "Assertion (A): Aśhoka's geopolitical awareness was not limited to the boundaries of his own kingdom.\nReason (R): In one edict, Aśhoka states that his 'energetic exertions' (parākrama) led to significant changes in the spiritual life of Jambudvīpa.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true and R explains A: by speaking of Jambudvīpa, a term for the whole Indian subcontinent, Aśhoka showed that his awareness extended far beyond his own kingdom's borders.",
+      "fact": "The Mauryan ruler Aśhoka, for instance, in one of his edicts, states that his 'energetic exertions' (pakama; parākrama in Sanskrit) led to 'significant changes in the spiritual life in Jambudvīpa.'"
+    },
+    {
+      "id": "hist5-033",
+      "type": "multiselect",
+      "topic": "Pan-Indian political terms",
+      "difficulty": "medium",
+      "q": "Select all the terms through which pan-Indian geopolitical awareness was expressed.",
+      "options": ["grāmika, the village headman", "Jambudvīpa", "Bhāratavarṣha", "chakravarti kśhetra"],
+      "answerIndices": [1, 2, 3],
+      "explanation": "Terms such as Jambudvīpa, Bhāratavarṣha, Aśhvamedha and Rājasūya yajña, Prithivi and chakravarti kśhetra expressed ideas of sovereignty over the Indian subcontinent. Grāmika is only a village headman, not a pan-Indian concept.",
+      "fact": "This pan-Indian geopolitical awareness was expressed through terms such as Jambudvīpa, Bhāratavarṣha, Aśhvamedha and Rājasūya yajña, Prithivi, and chakravarti kśhetra."
+    },
+    {
+      "id": "hist5-034",
+      "type": "mcq",
+      "topic": "Rajendra I's title",
+      "difficulty": "hard",
+      "q": "In the 11th century CE, which Chola ruler adopted the title 'Gangaikonda' to commemorate his conquest of regions along the Ganga?",
+      "options": ["Rajendra I", "Karikala", "Rajarāja I", "Nedunjeral Adan"],
+      "answer": 0,
+      "explanation": "The Chola ruler Rajendra I adopted the title Gangaikonda in the 11th century CE to commemorate his conquest of regions along the Ganga, echoing the recurring aspiration to exercise authority over the subcontinent.",
+      "fact": "In the 11th century CE, the Chola ruler Rajendra I adopted the title Gangaikonda to commemorate his conquest of regions along the Ganga.",
+      "hint": "This ruler came after Rajarāja I, under whom the Brihadeeshwara Temple at Thanjavur was built in 985–1014 CE."
+    },
+    {
+      "id": "hist5-035",
+      "type": "fillblank",
+      "topic": "Saptāṁga",
+      "difficulty": "medium",
+      "q": "Kauṭilya identified the seven constituents of the state, together called the ___.",
+      "answerVariants": ["Saptāṁga", "Saptanga"],
+      "explanation": "Kauṭilya described the state as an organic whole of seven constituents, the Saptāṁga: the king, the ministers, the territory, the forts, the treasury, the army and the allies.",
+      "fact": "The state was regarded as an organic whole composed of seven constituents. Kauṭilya identified the seven constituents (Saptāṁga) as follows—the king, the ministers, the territory, the forts, the treasury, the army, and the allies."
+    },
+    {
+      "id": "hist5-036",
+      "type": "multiselect",
+      "topic": "Saptāṁga",
+      "difficulty": "hard",
+      "q": "Select all the constituents of the state listed in Kauṭilya's Saptāṁga.",
+      "options": ["The king (swāmi)", "The treasury (kośha)", "The allies (mitra)", "The village assemblies (variyams)"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "The Saptāṁga are the king, the ministers, the territory, the forts, the treasury, the army and the allies. Village assemblies or variyams belong to village administration, not to Kauṭilya's seven limbs of the state.",
+      "fact": "Kauṭilya's Saptāṁga: the king (swāmi), the fortified towns and cities (durga), the forces of defence and law and order (daṇḍa), the councillors and ministers (amātya), the treasury (kośha), the allies (mitra), the territory (janapada).",
+      "hint": "Count the seven limbs of the state, a village committee is not one of them."
+    },
+    {
+      "id": "hist5-037",
+      "type": "truefalse",
+      "topic": "Arthaśhāstra on governance",
+      "difficulty": "easy",
+      "q": "The Arthaśhāstra statement 'one wheel does not move the carriage' captures the belief that effective governance requires cooperation and a well-organised administrative machinery.",
+      "answer": "true",
+      "explanation": "Kauṭilya used this image to stress that a king alone cannot run the state; effective governance requires cooperation and a well-organised administrative machinery, with the king governing through a multi-layered system.",
+      "fact": "The Arthaśhāstra states that 'one wheel does not move the carriage'. This statement captures the belief that effective governance requires cooperation and a well-organised administrative machinery."
+    },
+    {
+      "id": "hist5-038",
+      "type": "mcq",
+      "topic": "Council of ministers",
+      "difficulty": "medium",
+      "q": "The council of ministers (mantri–pariṣhad) generally included:",
+      "options": ["The grāmika and the village elders", "The treasurer, chief tax collector, chief legal advisor and commander-in-chief", "The five members of the Damodarpur district office", "The queen and the royal priests"],
+      "answer": 1,
+      "explanation": "The mantri–pariṣhad was a small body of elder statesmen whose primary role was to advise and support the king, and it generally included the treasurer, the chief tax collector, the chief legal advisor and the commander-in-chief of the army.",
+      "fact": "The council of ministers generally included the treasurer, the chief tax collector, the chief legal advisor, and the commander-in-chief of the army."
+    },
+    {
+      "id": "hist5-039",
+      "type": "truefalse",
+      "topic": "Council of ministers",
+      "difficulty": "hard",
+      "q": "An Aśhokan inscription refers to decisions taken by the council of ministers during the emperor's absence.",
+      "answer": "true",
+      "explanation": "This inscription shows that in exceptional circumstances the council of ministers could take decisions independently in the public interest, even when the emperor was away.",
+      "fact": "An Aśhokan inscription refers to decisions taken by the council of ministers during the emperor's absence, showing that, in exceptional circumstances, the council could take decisions independently in public interest.",
+      "hint": "The chapter cites this inscription as proof that the king did not rule alone."
+    },
+    {
+      "id": "hist5-040",
+      "type": "wrongstatement",
+      "topic": "Junagadh inscription",
+      "difficulty": "hard",
+      "q": "Which of these statements about the Junagadh Rock Inscription is INCORRECT?",
+      "options": [
+        "The Junagadh Rock Inscription is located near Girnar in Gujarat",
+        "The site preserves records of only the Maurya and Gupta dynasties",
+        "Rudradaman I's inscription there describes his military achievements and the repair of the Sudarshana Lake",
+        "Aśhoka's Major Rock Edicts there are in Prakrit"
+      ],
+      "answer": 1,
+      "explanation": "The Junagadh rock actually preserves the records of three dynasties, the Maurya (Aśhoka), the Western Satrap (Rudradaman I) and the Gupta (Skandagupta), spanning about 700 years.",
+      "fact": "This single rock inscription site preserves the records of the Maurya, Western Satrap, and Gupta dynasties, spanning about 700 years and providing valuable information about administration, public works, and political history in India.",
+      "hint": "Remember that three rulers from different periods used this same rock."
+    },
+    {
+      "id": "hist5-041",
+      "type": "order",
+      "topic": "Junagadh inscription",
+      "difficulty": "easy",
+      "q": "Arrange the rulers who inscribed records on the Junagadh rock in chronological order.",
+      "orderItems": [
+        "Aśhoka (3rd century BCE)",
+        "Rudradaman I (c. 150 CE)",
+        "Skandagupta (5th century CE)"
+      ],
+      "explanation": "Aśhoka's Prakrit Major Rock Edicts came first in the 3rd century BCE, Rudradaman I's long Sanskrit inscription followed around 150 CE, and Skandagupta's record of the lake's restoration came in the 5th century CE.",
+      "fact": "The earliest inscriptions belong to the Mauryan emperor Aśhoka (3rd century BCE)... the Western Satrap ruler Rudradaman I (c. 150 CE)... the Gupta emperor Skandagupta (5th century CE) engraved another record on the same rock."
+    },
+    {
+      "id": "hist5-042",
+      "type": "mcq",
+      "topic": "Satavāhana administration",
+      "difficulty": "hard",
+      "q": "In the Satavāhana empire, the administrative divisions called āhāras each had their own ministers, known as:",
+      "options": ["amātyas", "kumārāmātyas", "pradeśhikas", "variyams"],
+      "answer": 0,
+      "explanation": "The Satavāhana empire was divided into āhāras, administrative divisions that each had ministers called amātyas. Below the āhāras were villages led by a village headman, the grāmika.",
+      "fact": "The Satavāhana empire comprised āhāras (administrative divisions), each with its respective ministers (amātyas). Below the āhāras were villages, each led by a village headman known as grāmika.",
+      "hint": "The Guptas later broadened this same word into kumārāmātyas, so what was the original term?"
+    },
+    {
+      "id": "hist5-043",
+      "type": "fillblank",
+      "topic": "Village administration",
+      "difficulty": "easy",
+      "q": "In the Satavāhana empire, each village was led by a village headman known as ___.",
+      "answerVariants": ["grāmika", "gramika"],
+      "explanation": "Below the āhāras, the villages of the Satavāhana empire were each led by a village headman called the grāmika.",
+      "fact": "Below the āhāras were villages, each led by a village headman known as grāmika."
+    },
+    {
+      "id": "hist5-044",
+      "type": "match",
+      "topic": "Administrative divisions",
+      "difficulty": "hard",
+      "q": "Match each administrative level (c. 300–800 CE) with its name in the north or the south.",
+      "pairs": [
+        {"l": "Province in the north", "r": "bhukti"},
+        {"l": "Province in the south", "r": "manḍalam"},
+        {"l": "Division in the north", "r": "viṣhaya"},
+        {"l": "District in the south", "r": "nāḍu"},
+        {"l": "Group of villages in the north", "r": "vithi"}
+      ],
+      "explanation": "Between about 300 and 800 CE, provinces were called bhuktis in the north and manḍalams in the south; the divisions were viṣhayas; the districts in the south were nāḍus; and groups of villages in the north were vithis.",
+      "fact": "The kingdom (rājya) was divided into several provinces, known as bhuktis in the north and manḍalas or manḍalams in the south. The provinces were further subdivided into divisions—viṣhaya or bhoga in the north... districts—adhiṣhṭhāna or paṭṭana in the north and nāḍu in the south; groups of villages... were called vithis in the north.",
+      "hint": "Each level had a northern and a southern name, and the question asks for one of each."
+    },
+    {
+      "id": "hist5-045",
+      "type": "truefalse",
+      "topic": "District governors",
+      "difficulty": "medium",
+      "q": "District governors or pradeśhikas were responsible only for collecting taxes and had no judicial functions.",
+      "answer": "false",
+      "explanation": "Pradeśhikas were responsible for both judicial and administrative functions. They often made decisions after consulting important residents such as bankers, caravan leaders, artisans and scribes.",
+      "fact": "District governors or pradeśhikas were responsible for judicial and administrative functions. District officers often made decisions after consulting important residents such as bankers, caravan leaders, artisans, and scribes."
+    },
+    {
+      "id": "hist5-046",
+      "type": "mcq",
+      "topic": "Gupta administration",
+      "difficulty": "medium",
+      "q": "Which new officer, the 'minister of peace and war', was introduced during the Gupta period?",
+      "options": ["mantri", "grāmika", "sāndhivigrahika", "amātya"],
+      "answer": 2,
+      "explanation": "The Guptas retained much of the earlier administration but introduced a new 'minister of peace and war', the sāndhivigrahika. The amātyas of Kauṭilya's time evolved into a broader category that included kumārāmātyas.",
+      "fact": "A new 'minister of peace and war' (sāndhivigrahika) was introduced during the Gupta period. The amātyas of Kauṭilya's time also evolved into a broader category that included kumārāmātyas."
+    },
+    {
+      "id": "hist5-047",
+      "type": "multiselect",
+      "topic": "Gupta district office",
+      "difficulty": "hard",
+      "q": "Select all members of the district office recorded in the Damodarpur copper plates of Kumaragupta I.",
+      "options": ["Head district officer", "Chief of the palace guards", "Chief banker", "Chief artisan"],
+      "answerIndices": [0, 2, 3],
+      "explanation": "The Damodarpur copper plates record a five-member district office: the head district officer, the chief banker, the chief caravan trader, the chief artisan and the chief of revenue collection. The chief of the palace guards was a central officer, not part of this district office.",
+      "fact": "The Damodarpur copper plates during the period of Kumaragupta I record that the district office comprised the following five members: the head district officer, the chief banker, the chief caravan trader, the chief artisan, and the chief of revenue collection.",
+      "hint": "Think of who mattered in a district's economy (bankers, traders, artisans) plus its top officials."
+    },
+    {
+      "id": "hist5-048",
+      "type": "mcq",
+      "topic": "Pallava land grants",
+      "difficulty": "easy",
+      "q": "The tax-free land grants made by the Pallavas to villages were known as:",
+      "options": ["agrahārams", "variyams", "valanāḍus", "Brahmadeya villages"],
+      "answer": 3,
+      "explanation": "One of the most striking features of the Pallavas (c. 275–897 CE) was their tax-free land grants to villages, called Brahmadeya villages. The agrahārams were the Chālukyas' grants to Brahmin settlements.",
+      "fact": "One of the most striking features of the Pallavas was the tax-free land grants to villages. These were known as Brahmadeya villages."
+    },
+    {
+      "id": "hist5-049",
+      "type": "fillblank",
+      "topic": "Chālukya land grants",
+      "difficulty": "medium",
+      "q": "The Chālukyas of Badami gave land grants to Brahmin settlements known as ___.",
+      "answerVariants": ["agrahārams", "agraharams"],
+      "explanation": "Instead of the Pallavas' Brahmadeya villages, the Chālukyas gave land grants to Brahmin settlements called agrahārams, some of which, like those at Aihole and Badami, developed into prominent centres of learning.",
+      "fact": "Instead of the Brahmadeya villages of the Pallava dynasty, the Chālukyas gave land grants to Brahmin settlements known as agrahārams. Some of these agrahārams, such as those at Aihole and Badami, gradually developed into prominent centres of learning."
+    },
+    {
+      "id": "hist5-050",
+      "type": "assertion",
+      "topic": "Chālukya administration",
+      "difficulty": "medium",
+      "q": "Assertion (A): The Chālukyas of Badami followed a monarchical system along with a decentralised administration.\nReason (R): Instead of the Pallavas' Brahmadeya villages, the Chālukyas gave land grants to Brahmin settlements known as agrahārams.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both statements are true, but R does not explain A: the agrahāram grants describe the Chālukyas' pattern of land grants, not why their system combined monarchy with decentralised administration.",
+      "fact": "Like their contemporaries, the Chālukyas (c. 543–753 CE) of Badami followed a monarchical system along with a decentralised administration... the Chālukyas gave land grants to Brahmin settlements known as agrahārams."
+    }
+  ]
+}

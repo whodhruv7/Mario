@@ -1,0 +1,354 @@
+{
+  "chapterId": "p2ent6",
+  "fragment": "a",
+  "questions": [
+    {
+      "id": "p2ent6-001",
+      "type": "mcq",
+      "topic": "Meaning of Entrepreneurship",
+      "difficulty": "easy",
+      "q": "According to the chapter, how is entrepreneurship best defined?",
+      "options": [
+        "A government programme for collecting taxes from shops",
+        "A process through which individuals convert a potential idea into a business venture",
+        "A method of mass-producing goods in large factories",
+        "A system of borrowing money from banks at low interest"
+      ],
+      "answer": 1,
+      "explanation": "Entrepreneurship is the process through which individuals, or a group of individuals, convert a potential idea into a business venture. Every great business starts with an idea, a need, or a desire to innovate.",
+      "fact": "This is entrepreneurship, a process through which individuals, or a group of individuals, convert a potential idea into a business venture.",
+      "hint": "Think about what an entrepreneur actually does with an idea."
+    },
+    {
+      "id": "p2ent6-002",
+      "type": "mcq",
+      "topic": "Entrepreneur's Mindset",
+      "difficulty": "easy",
+      "q": "Which statement best captures how entrepreneurs view challenges, according to the chapter?",
+      "options": [
+        "They see challenges as reasons to give up quickly",
+        "They wait for others to solve problems first",
+        "They see opportunities where others see challenges",
+        "They believe challenges can never be solved"
+      ],
+      "answer": 2,
+      "explanation": "Entrepreneurs are curious individuals who see opportunities where others see challenges, and they turn that spark into action.",
+      "fact": "Entrepreneurs are curious individuals who see opportunities where others see challenges and turn that spark into action."
+    },
+    {
+      "id": "p2ent6-003",
+      "type": "mcq",
+      "topic": "Examples of Entrepreneurship",
+      "difficulty": "easy",
+      "q": "Which of the following is cited in the chapter as an example of entrepreneurial work?",
+      "options": [
+        "Creating eco-friendly jute bags that can replace plastic",
+        "Selling antiques to museums at auctions",
+        "Publishing government weather reports",
+        "Repairing public roads for the municipality"
+      ],
+      "answer": 0,
+      "explanation": "The chapter mentions creating eco-friendly jute bags that can replace plastic, and leading a business manufacturing drones for traffic surveillance, as examples of entrepreneurial ventures.",
+      "fact": "Whether it is leading a business that manufactures drones for traffic surveillance or creating eco-friendly jute bags that can replace plastic, an entrepreneur works hard."
+    },
+    {
+      "id": "p2ent6-004",
+      "type": "truefalse",
+      "topic": "Tasks of an Entrepreneur",
+      "difficulty": "easy",
+      "q": "Combining various factors of production is one of the tasks performed by an entrepreneur.",
+      "answer": "true",
+      "explanation": "As shown in Fig. 6.2, an entrepreneur combines various factors of production, along with taking risks, making key decisions and contributing to society's welfare.",
+      "fact": "Tasks performed by an entrepreneur: combines various factors of production."
+    },
+    {
+      "id": "p2ent6-005",
+      "type": "truefalse",
+      "topic": "Starting a Business",
+      "difficulty": "easy",
+      "q": "According to the chapter, every great business starts with a large bank loan rather than an idea.",
+      "answer": "false",
+      "explanation": "Every great business actually starts with an idea, a need, or a desire to innovate — entrepreneurs then turn that spark into action to meet the needs of society.",
+      "fact": "Every great business starts with an idea, a need, or a desire to innovate and meet the needs of society."
+    },
+    {
+      "id": "p2ent6-006",
+      "type": "fillblank",
+      "topic": "Meaning of Profit",
+      "difficulty": "easy",
+      "q": "___ is the money that is earned in trade or business after paying the costs of producing and selling goods and services.",
+      "answerVariants": ["Profit", "profit"],
+      "explanation": "Profit is what remains after a business pays all the costs of producing and selling its goods and services; it is the earning of a successful business.",
+      "fact": "Profit: Money that is earned in trade or business after paying the costs of producing and selling goods and services."
+    },
+    {
+      "id": "p2ent6-007",
+      "type": "fillblank",
+      "topic": "Jataka Tale",
+      "difficulty": "medium",
+      "q": "The story 'From a Dead Mouse to Riches', told in this chapter, comes from the famous ___.",
+      "answerVariants": ["Jataka Tales", "Jataka tales", "the Jataka Tales", "Jatakas"],
+      "explanation": "The tale of the poor young man who built a fortune starting from a dead mouse is taken from the famous Jataka Tales.",
+      "fact": "The story above is from the famous Jataka Tales.",
+      "hint": "It is a well-known collection of ancient Indian stories."
+    },
+    {
+      "id": "p2ent6-008",
+      "type": "mcq",
+      "topic": "Jataka Tale",
+      "difficulty": "medium",
+      "q": "In the 'dead mouse' story, what did the poor young man do with the two coins he earned by selling the dead mouse?",
+      "options": [
+        "He deposited them in a bank to earn interest",
+        "He bought fruits and water, which he sold to a tired flower picker",
+        "He bought a horse for delivering goods",
+        "He paid the rich merchant for business advice"
+      ],
+      "answer": 1,
+      "explanation": "The young man used his two coins to buy fruits and water, sold them to a tired flower picker in exchange for flowers, and then sold the flowers in the city.",
+      "fact": "With those coins, the young man bought fruits and water, which he sold to a tired flower picker in exchange for flowers."
+    },
+    {
+      "id": "p2ent6-009",
+      "type": "order",
+      "topic": "Jataka Tale Sequence",
+      "difficulty": "hard",
+      "q": "Arrange the steps of the young man's journey in the 'dead mouse' tale, from his first act to his later ventures.",
+      "orderItems": [
+        "Sold the dead mouse to a shopkeeper for two coins",
+        "Bought fruits and water and sold them to a tired flower picker",
+        "Sold the flowers in the city",
+        "Cleared fallen branches after a storm and sold them as firewood",
+        "Opened a refreshment shop"
+      ],
+      "explanation": "The young man began by selling the dead mouse for two coins, then traded fruits and water for flowers, sold the flowers in the city, sold storm branches as firewood, and finally opened a refreshment shop, growing his wealth step by step.",
+      "fact": "He sold the dead mouse for two coins, bought fruits and water for a flower picker, sold flowers in the city, sold firewood from fallen branches, and later opened a refreshment shop.",
+      "hint": "Recall how each small trade funded the next, bigger one."
+    },
+    {
+      "id": "p2ent6-010",
+      "type": "mcq",
+      "topic": "Lijjat Papad Founding",
+      "difficulty": "easy",
+      "q": "With how much money did the seven homemakers start Lijjat Papad in 1959?",
+      "options": ["₹800", "₹8,000", "₹80", "₹80,000"],
+      "answer": 2,
+      "explanation": "In 1959, seven ordinary homemakers from a Mumbai chawl gathered on a rooftop with borrowed equipment, a recipe, and just ₹80 to start making papads.",
+      "fact": "In 1959, seven ordinary homemakers from a Mumbai chawl gathered on a rooftop with borrowed equipment, a recipe, and ₹80."
+    },
+    {
+      "id": "p2ent6-011",
+      "type": "mcq",
+      "topic": "Lijjat Papad Name",
+      "difficulty": "easy",
+      "q": "The word 'lijjat' in the name of the Lijjat Papad cooperative means 'tasty' in which language?",
+      "options": ["Marathi", "Hindi", "Tamil", "Gujarati"],
+      "answer": 3,
+      "explanation": "When the venture was registered in 1962 as Shri Mahila Griha Udyog Lijjat Papad, 'lijjat' was chosen because it means tasty in Gujarati.",
+      "fact": "'lijjat' means tasty in Gujarati."
+    },
+    {
+      "id": "p2ent6-012",
+      "type": "truefalse",
+      "topic": "Lijjat Cooperative",
+      "difficulty": "medium",
+      "q": "In the Lijjat cooperative society, profits are shared equally regardless of seniority.",
+      "answer": "true",
+      "explanation": "Lijjat was started as a cooperative society where every member is an equal owner and profits are shared equally, no matter how senior the member is.",
+      "fact": "They decided to start a cooperative society where every member who joined would be an equal owner, and profits would be shared equally regardless of seniority."
+    },
+    {
+      "id": "p2ent6-013",
+      "type": "fillblank",
+      "topic": "Lijjat Registration",
+      "difficulty": "medium",
+      "q": "In 1962, the papad venture was registered as Shri Mahila Griha Udyog Lijjat Papad, a ___.",
+      "answerVariants": ["cooperative society", "cooperative", "co-operative society", "co-operative"],
+      "explanation": "The women registered their venture in 1962 as Shri Mahila Griha Udyog Lijjat Papad, a cooperative society in which every member is an equal owner.",
+      "fact": "In 1962, they registered the venture as Shri Mahila Griha Udyog Lijjat Papad, a cooperative society."
+    },
+    {
+      "id": "p2ent6-014",
+      "type": "mcq",
+      "topic": "Lijjat Growth",
+      "difficulty": "hard",
+      "q": "By 2023, what had the Lijjat Papad cooperative achieved?",
+      "options": [
+        "Over 45,000 women members and a turnover of ₹100 crore",
+        "45 branches and a turnover of ₹16 crore",
+        "830 branches and 4,500 members",
+        "Over 45,000 women members, 83 branches and an annual turnover of ₹1,600 crore"
+      ],
+      "answer": 3,
+      "explanation": "By 2023, Lijjat had grown to over 45,000 women members, 83 branches, and an annual turnover of ₹1,600 crore — a huge leap from its ₹80 beginning.",
+      "fact": "By 2023, the cooperative had over 45,000 women members, 83 branches, and an annual turnover of ₹1,600 crore.",
+      "hint": "Remember both the member count and the turnover figure for 2023."
+    },
+    {
+      "id": "p2ent6-015",
+      "type": "match",
+      "topic": "Business Plan Considerations",
+      "difficulty": "medium",
+      "q": "Match each consideration of a business plan with the question it helps answer.",
+      "pairs": [
+        {"l": "Needs and idea", "r": "What do people need and what problem does it solve?"},
+        {"l": "Location", "r": "Where will it be made and where will it be sold?"},
+        {"l": "Pricing and profits", "r": "What will the price be and how much profit can be made?"},
+        {"l": "Potential customers", "r": "Who will use the product or service?"},
+        {"l": "Promotion or marketing", "r": "How will the product or service be advertised?"}
+      ],
+      "explanation": "Fig. 6.6 lists key considerations for a business plan: needs and idea, location, pricing and profits, potential customers, and promotion or marketing, along with human resources, money and costs, and challenges and risks.",
+      "fact": "Key considerations in making a business plan include Needs and Idea, Location, Pricing and Profits, Potential Customers, and Promotion or Marketing."
+    },
+    {
+      "id": "p2ent6-016",
+      "type": "match",
+      "topic": "Businesses and Society",
+      "difficulty": "easy",
+      "q": "Match each way businesses contribute to society and the economy with what it involves.",
+      "pairs": [
+        {"l": "Improving quality of life", "r": "Medicines, transportation, technology and innovations"},
+        {"l": "Creating jobs and income", "r": "Employment for households"},
+        {"l": "Paying taxes to the government", "r": "Funding roads, schools and hospitals"},
+        {"l": "Producing goods and services", "r": "Boosting economic activity"},
+        {"l": "Corporate social responsibility", "r": "Education, environment and healthcare"}
+      ],
+      "explanation": "Fig. 6.13 shows that businesses improve quality of life, create jobs and income, pay taxes that fund public services, produce goods and services, and take up corporate social responsibility.",
+      "fact": "Contribution of businesses to society and economy: improving quality of life, creating jobs and income, paying taxes, producing goods and services, and corporate social responsibility."
+    },
+    {
+      "id": "p2ent6-017",
+      "type": "mcq",
+      "topic": "Jataka Tale",
+      "difficulty": "medium",
+      "q": "What did the rich merchant tell his king in the Jataka tale?",
+      "options": [
+        "A king should never allow poor people to trade in the city",
+        "Even a dead mouse can be the start of a fortune if someone works hard and uses their brain",
+        "Fortunes can only be built with a large inheritance",
+        "Merchants should avoid giving advice to young men"
+      ],
+      "answer": 1,
+      "explanation": "The merchant's remark that even a dead mouse can start a fortune, if someone works hard and uses their brain, inspired the poor young man to test it — and he succeeded.",
+      "fact": "One day, a rich merchant told his king, 'Even a dead mouse can be the start of a fortune, if someone works hard and uses their brain.'"
+    },
+    {
+      "id": "p2ent6-018",
+      "type": "truefalse",
+      "topic": "Jataka Tale",
+      "difficulty": "hard",
+      "q": "At the end of the Jataka tale, the young man gave the rich merchant half his fortune out of gratitude.",
+      "answer": "true",
+      "explanation": "The young man did not forget that his wealth began with the merchant's words, so out of gratitude he gave the merchant half his fortune, and he also used his wealth to help communities in the city.",
+      "fact": "Out of gratitude, he gave the merchant half his fortune."
+    },
+    {
+      "id": "p2ent6-019",
+      "type": "fillblank",
+      "topic": "Lijjat Founders",
+      "difficulty": "medium",
+      "q": "In 1959, seven ordinary ___ from a Mumbai chawl gathered on a rooftop to start Lijjat Papad.",
+      "answerVariants": ["homemakers", "home makers"],
+      "explanation": "Lijjat Papad was started by seven ordinary homemakers who wanted to earn some extra income; they had no business degrees, no investors and no master plan.",
+      "fact": "In 1959, seven ordinary homemakers from a Mumbai chawl gathered on a rooftop with borrowed equipment, a recipe, and ₹80."
+    },
+    {
+      "id": "p2ent6-020",
+      "type": "multiselect",
+      "topic": "Tasks of an Entrepreneur",
+      "difficulty": "medium",
+      "q": "Select all correct tasks that an entrepreneur performs, as shown in Fig. 6.2.",
+      "options": [
+        "Identifies a problem and is resolute to solve it with an innovative solution",
+        "Takes risks by investing money and time",
+        "Contributes to the welfare of society with their innovation",
+        "Lets the government make all key decisions for the business",
+        "Earns a fixed monthly salary without taking any risk"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "An entrepreneur identifies a problem and resolves to solve it innovatively, takes risks by investing money and time, and contributes to society's welfare — key decisions are the entrepreneur's own, not the government's.",
+      "fact": "An entrepreneur identifies a problem and is resolute to solve it with an innovative solution, takes risks by investing money and time, and contributes to the welfare of society with their innovation."
+    },
+    {
+      "id": "p2ent6-021",
+      "type": "multiselect",
+      "topic": "Lijjat Papad Facts",
+      "difficulty": "hard",
+      "q": "Select all correct statements about Lijjat Papad.",
+      "options": [
+        "It was started in 1959 by seven homemakers from a Mumbai chawl",
+        "It began with borrowed equipment, a recipe and only ₹80",
+        "It was registered in 1962 as a private limited company",
+        "It offers scholarships to the school-going children of its members"
+      ],
+      "answerIndices": [0, 1, 3],
+      "explanation": "Lijjat began in 1959 with seven homemakers, borrowed equipment and ₹80; it was registered in 1962 as a cooperative society (not a private limited company), and it offers scholarships to members' children.",
+      "fact": "Registered in 1962 as a cooperative society; Lijjat also provides scholarships to the school-going children of the members.",
+      "hint": "Check carefully what kind of organisation Lijjat was registered as."
+    },
+    {
+      "id": "p2ent6-022",
+      "type": "wrongstatement",
+      "topic": "Lijjat Papad Founding",
+      "difficulty": "hard",
+      "q": "Which of these statements about the founding of Lijjat Papad is INCORRECT?",
+      "options": [
+        "Seven ordinary homemakers from a Mumbai chawl started it in 1959 on a rooftop",
+        "The founders had grit and unity but no business degrees or investors",
+        "The founders began with a large bank loan and a detailed master plan",
+        "Every member who joined the cooperative became an equal owner"
+      ],
+      "answer": 2,
+      "explanation": "Lijjat's founders actually had no business degrees, no investors and no master plan — they began with just ₹80, borrowed equipment, and their grit and unity.",
+      "fact": "They had no business degrees, no investors, and no master plan; instead, what they had was grit and unity."
+    },
+    {
+      "id": "p2ent6-023",
+      "type": "wrongstatement",
+      "topic": "Elements of Entrepreneurship",
+      "difficulty": "easy",
+      "q": "Which of these statements about the elements of entrepreneurship shown in Fig. 6.1 is INCORRECT?",
+      "options": [
+        "Innovation is one of the elements of entrepreneurship",
+        "Team is one of the elements of entrepreneurship",
+        "Strategy is one of the elements of entrepreneurship",
+        "Taxation is one of the elements of entrepreneurship"
+      ],
+      "answer": 3,
+      "explanation": "Fig. 6.1 shows elements like opportunities, innovation, analysis, performance, market, team, AI, goal, strategy and activities — taxation is not among them.",
+      "fact": "Fig. 6.1 lists elements of entrepreneurship: Opportunities, Innovation, Analysis, Performance, Market, Team, AI, Goal, Strategy, Activities."
+    },
+    {
+      "id": "p2ent6-024",
+      "type": "assertion",
+      "topic": "Entrepreneur's Risks",
+      "difficulty": "medium",
+      "q": "Assertion (A): Entrepreneurship involves taking risks by investing money and time.\nReason (R): Entrepreneurs work hard and are driven by passion and a commitment to creating value for society.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both statements are true — entrepreneurs do invest money and time at risk, and they are driven by passion — but their passion does not explain why investing involves risk.",
+      "fact": "Takes risks by investing money and time; an entrepreneur works hard, and is driven by passion and a commitment to creating value for society."
+    },
+    {
+      "id": "p2ent6-025",
+      "type": "assertion",
+      "topic": "Lijjat Impact",
+      "difficulty": "medium",
+      "q": "Assertion (A): Lijjat Papad helped thousands of women become financially independent.\nReason (R): It functioned as a cooperative where every member was an equal owner and profits were shared equally.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true, and the cooperative structure — equal ownership and equal sharing of profits — is exactly what enabled thousands of women to become financially independent.",
+      "fact": "The organisation has helped thousands of women become financially independent; every member would be an equal owner, and profits would be shared equally."
+    }
+  ]
+}

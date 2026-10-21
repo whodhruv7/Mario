@@ -1,0 +1,300 @@
+{
+  "chapterId": "econ9",
+  "fragment": "c",
+  "questions": [
+    {
+      "id": "econ9-051",
+      "type": "mcq",
+      "topic": "Supply",
+      "difficulty": "easy",
+      "q": "Supply is the quantity of a product that...",
+      "options": ["buyers wish to buy at a particular price", "sellers are willing and able to offer at a particular price", "the government stores in granaries", "is left unsold in shops"],
+      "answer": 1,
+      "explanation": "Supply is defined by sellers' willingness and ability to offer a product at a particular price, just as demand is defined by buyers.",
+      "fact": "Supply is the quantity of a product that sellers are willing and able to offer at a particular price."
+    },
+    {
+      "id": "econ9-052",
+      "type": "mcq",
+      "topic": "Law of Supply",
+      "difficulty": "easy",
+      "q": "The price of mangoes rises from ₹50 per kg to ₹150 per kg. According to the law of supply, a seller's quantity supplied will...",
+      "options": ["fall", "rise", "stay constant", "become zero"],
+      "answer": 1,
+      "explanation": "By the law of supply, as price increases, quantity supplied increases — the chapter's seller supplies 1 kg at ₹50 but 3 kg at ₹150.",
+      "fact": "As price increases, quantity supplied increases, and as price decreases, quantity supplied falls... when mango prices are ₹50/kg, a seller supplies 1 kg; at ₹100/kg, he supplies 2 kg; at ₹150/kg, the seller supplies 3 kg."
+    },
+    {
+      "id": "econ9-053",
+      "type": "mcq",
+      "topic": "Law of Supply",
+      "difficulty": "medium",
+      "q": "Why do higher prices lead to a greater quantity supplied?",
+      "options": ["They increase profitability, incentivising producers to increase output", "They force the government to produce more", "They automatically reduce costs", "They reduce the number of firms"],
+      "answer": 0,
+      "explanation": "Higher prices make production more profitable, which pushes existing producers to raise output and also attracts new firms to the market.",
+      "fact": "This is because higher prices increase profitability, incentivising producers to increase output, and also attract new firms to the market."
+    },
+    {
+      "id": "econ9-054",
+      "type": "mcq",
+      "topic": "Market Equilibrium",
+      "difficulty": "medium",
+      "q": "From Table 9.3, the equilibrium price of mangoes is...",
+      "options": ["₹40", "₹50", "₹100", "₹150"],
+      "answer": 2,
+      "explanation": "At ₹100 the quantity demanded equals the quantity supplied (12 kg each), so ₹100 is the equilibrium price where the market clears.",
+      "fact": "At a price of ₹100, the quantity demanded equals the quantity supplied. This point is known as the market equilibrium... Equilibrium Price = ₹100."
+    },
+    {
+      "id": "econ9-055",
+      "type": "mcq",
+      "topic": "Supply",
+      "difficulty": "easy",
+      "q": "According to the individual supply schedule, seller A supplies 3 kg of mangoes at...",
+      "options": ["₹50 per kg", "₹100 per kg", "₹150 per kg", "₹200 per kg"],
+      "answer": 2,
+      "explanation": "Seller A supplies 1 kg at ₹50, 2 kg at ₹100 and 3 kg at ₹150 per kg — quantity supplied rises with price.",
+      "fact": "Fig. 9.4 individual supply schedule: ₹50 — 1 kg; ₹100 — 2 kg; ₹150 — 3 kg (seller A)."
+    },
+    {
+      "id": "econ9-056",
+      "type": "mcq",
+      "topic": "Market Supply",
+      "difficulty": "hard",
+      "q": "Using the supply schedule of sellers A, B and C, the market supply of mangoes at ₹50 per kg is...",
+      "options": ["6 kg", "12 kg", "18 kg", "9 kg"],
+      "answer": 0,
+      "explanation": "At ₹50, seller A supplies 1 kg, seller B 3 kg and seller C 2 kg; the market supply is 1 + 3 + 2 = 6 kg.",
+      "fact": "Table 9.2: at ₹50, Seller A = 1 kg, Seller B = 3 kg, Seller C = 2 kg, Market supply (A+B+C = QS) = 6 kg.",
+      "hint": "Add the quantities offered by all three sellers at that price."
+    },
+    {
+      "id": "econ9-057",
+      "type": "mcq",
+      "topic": "Supply Determinants",
+      "difficulty": "medium",
+      "q": "A farmer decides to grow more chickpeas next season. According to the chapter, this is because...",
+      "options": ["chickpea prices are high while wheat prices are low", "chickpeas need no water", "wheat has been banned", "the government ordered it"],
+      "answer": 0,
+      "explanation": "The supply of one good depends on the profitability of other alternatives — high chickpea prices and low wheat prices make chickpeas more profitable to grow.",
+      "fact": "Suppose a farmer faces two choices. If wheat prices are low but chickpea prices are high, he will grow more chickpeas in the next season. Therefore, the supply of one good depends on the profitability of other alternatives for the supplier."
+    },
+    {
+      "id": "econ9-058",
+      "type": "mcq",
+      "topic": "Supply Determinants",
+      "difficulty": "medium",
+      "q": "If there are fewer sellers in the market, then...",
+      "options": ["supply exceeds demand and prices fall", "supply is lower than demand and prices rise", "demand becomes zero", "the equilibrium never changes"],
+      "answer": 1,
+      "explanation": "Fewer sellers mean lower market supply relative to demand, so prices rise — the reverse happens when more sellers increase supply and prices fall.",
+      "fact": "Likewise, if there are fewer sellers in the market, supply would be lower than demand, and prices would rise."
+    },
+    {
+      "id": "econ9-059",
+      "type": "truefalse",
+      "topic": "Market Supply",
+      "difficulty": "easy",
+      "q": "Market supply is the sum of all individual supplies.",
+      "answer": "true",
+      "explanation": "Just as market demand adds all buyers, market supply adds up the quantities offered by all sellers at each price.",
+      "fact": "Market supply is the sum of all individual supplies."
+    },
+    {
+      "id": "econ9-060",
+      "type": "truefalse",
+      "topic": "Supply Determinants",
+      "difficulty": "medium",
+      "q": "Improvement in technology reduces the cost of production, allowing producers to produce more and supply more.",
+      "answer": "true",
+      "explanation": "Better technology such as drip irrigation, weather sensors or cold storage cuts costs and raises output, increasing market supply.",
+      "fact": "Improvement in technology reduces the cost of production, allowing producers to produce more and supply more and vice versa."
+    },
+    {
+      "id": "econ9-061",
+      "type": "truefalse",
+      "topic": "Supply Determinants",
+      "difficulty": "medium",
+      "q": "If potato wholesalers expect prices to rise during the peak season, they might hold back supply now to sell later at higher prices.",
+      "answer": "true",
+      "explanation": "Future expectations shape supply — expecting higher prices, wholesalers delay selling, which reduces current supply.",
+      "fact": "For instance, if potato wholesalers expect prices to rise during the peak season, they might hold back supply now to sell later at higher prices."
+    },
+    {
+      "id": "econ9-062",
+      "type": "truefalse",
+      "topic": "Market Equilibrium",
+      "difficulty": "hard",
+      "q": "At a price of ₹40 in Table 9.3, the quantity demanded of mangoes is 38 kg and the quantity supplied is 6 kg.",
+      "answer": "true",
+      "explanation": "Table 9.3 shows that at the low price of ₹40, buyers want 38 kg but sellers offer only 6 kg, which creates excess demand.",
+      "fact": "Table 9.3: at ₹40, quantity demanded (Qd) = 38 kg, quantity supplied (Qs) = 6 kg, outcome — Excess Demand.",
+      "hint": "Recall the lower price row of the equilibrium table."
+    },
+    {
+      "id": "econ9-063",
+      "type": "fillblank",
+      "topic": "Supply",
+      "difficulty": "easy",
+      "q": "The upward-sloping line obtained by plotting the quantities supplied at different prices is called the ___ curve.",
+      "answerVariants": ["supply"],
+      "explanation": "Higher prices lead to greater quantity supplied, which gives an upward-sloping supply curve when plotted.",
+      "fact": "This pattern of higher prices leads to greater quantity supplied, which gives an upward-sloping supply curve as shown in Fig. 9.4."
+    },
+    {
+      "id": "econ9-064",
+      "type": "fillblank",
+      "topic": "Law of Supply",
+      "difficulty": "medium",
+      "q": "Higher prices increase ___, incentivising producers to increase output and attracting new firms to the market.",
+      "answerVariants": ["profitability"],
+      "explanation": "The law of supply works through profitability — when prices rise, producing becomes more rewarding, so output increases and new firms enter.",
+      "fact": "This is because higher prices increase profitability, incentivising producers to increase output, and also attract new firms to the market."
+    },
+    {
+      "id": "econ9-065",
+      "type": "fillblank",
+      "topic": "Market Equilibrium",
+      "difficulty": "medium",
+      "q": "The point where the quantity demanded equals the quantity supplied is called market ___.",
+      "answerVariants": ["equilibrium"],
+      "explanation": "At market equilibrium there is no pressure for prices to change because the market is cleared of both shortage and surplus.",
+      "fact": "Market equilibrium is the point where supply of goods and services equals demand, meaning there is no excess supply (surplus) or excess demand (shortage) in the market."
+    },
+    {
+      "id": "econ9-066",
+      "type": "fillblank",
+      "topic": "Excess Demand and Supply",
+      "difficulty": "hard",
+      "q": "At a price of ₹150 in Table 9.3, quantity supplied is 43 kg and quantity demanded is 8 kg, creating excess ___.",
+      "answerVariants": ["supply"],
+      "explanation": "At the high price of ₹150, sellers offer far more (43 kg) than buyers want (8 kg), creating a surplus known as excess supply.",
+      "fact": "Table 9.3: at ₹150, Qd = 8 kg, Qs = 43 kg, outcome — Excess Supply.",
+      "hint": "Sellers offer much more than buyers want at this high price."
+    },
+    {
+      "id": "econ9-067",
+      "type": "match",
+      "topic": "Excess Demand and Supply",
+      "difficulty": "medium",
+      "q": "Match each market situation with its correct outcome.",
+      "pairs": [
+        {"l": "Supply less than demand", "r": "Prices rise"},
+        {"l": "Supply exceeds demand", "r": "Prices fall"},
+        {"l": "Quantity demanded equals quantity supplied", "r": "Market equilibrium"},
+        {"l": "Shortage", "r": "Another term for excess demand"},
+        {"l": "Surplus", "r": "Another term for excess supply"}
+      ],
+      "explanation": "When supply falls short of demand prices rise, when supply exceeds demand prices fall, equality gives equilibrium, a shortage is excess demand, and a surplus is excess supply.",
+      "fact": "When supply is less than demand, prices rise; when supply exceeds demand, prices fall... At this point, there is no pressure for prices to change, and the market is 'cleared', which means that there is neither a shortage (excess demand) nor a surplus (excess supply)."
+    },
+    {
+      "id": "econ9-068",
+      "type": "order",
+      "topic": "Market Equilibrium",
+      "difficulty": "hard",
+      "q": "Arrange the steps through which the market reaches the equilibrium price.",
+      "orderItems": ["Buyers and sellers interact in the market", "At a lower price, excess demand (shortage) appears", "At a higher price, excess supply (surplus) appears", "Price adjusts through this interaction", "Quantity demanded equals quantity supplied at equilibrium"],
+      "explanation": "Prices are determined by the interaction between demand and supply: too low a price creates excess demand, too high a price creates excess supply, and through adjustment the market settles where quantity demanded equals quantity supplied.",
+      "fact": "Every market involves negotiation between what buyers are willing to pay and what sellers are willing to accept. Thus, prices are determined by the interaction between demand and supply. At a lower price, there is excess demand, whereas at a higher price, there is excess supply... At a price of ₹100, the quantity demanded equals the quantity supplied."
+    },
+    {
+      "id": "econ9-069",
+      "type": "order",
+      "topic": "COVID-19 Price Example",
+      "difficulty": "hard",
+      "q": "Arrange the events of the face mask market during COVID-19 in the correct order.",
+      "orderItems": ["Demand for face masks surged rapidly", "Supply could not catch up immediately", "Prices of masks rose significantly", "Suppliers adjusted to the increased demand", "Prices fell over time"],
+      "explanation": "Surging demand met slow supply, so prices rose; as suppliers adjusted and the pandemic ended, prices fell back to pre-pandemic levels.",
+      "fact": "During the COVID-19 pandemic in 2020, the demand for face masks surged rapidly. As a result, the supply could not catch up immediately, and the price of masks rose significantly. Over time, suppliers adjusted to the increased demand and prices fell."
+    },
+    {
+      "id": "econ9-070",
+      "type": "multiselect",
+      "topic": "Law of Supply",
+      "difficulty": "easy",
+      "q": "Select all correct statements about the law of supply.",
+      "options": ["As price increases, quantity supplied increases", "Higher prices attract new firms to the market", "As price decreases, quantity supplied falls", "The supply curve slopes downward"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "The law of supply shows a direct relationship between price and quantity supplied — higher prices raise output and attract new firms, so the supply curve slopes upward, not downward.",
+      "fact": "As price increases, quantity supplied increases... higher prices increase profitability, incentivising producers to increase output, and also attract new firms to the market... which gives an upward-sloping supply curve."
+    },
+    {
+      "id": "econ9-071",
+      "type": "multiselect",
+      "topic": "Supply Determinants",
+      "difficulty": "medium",
+      "q": "Select all correct determinants of supply from the chapter.",
+      "options": ["Price of related goods", "Number of sellers in the market", "Technology", "The age composition of the population"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Supply depends on prices of related goods, the number of sellers and technology, among other factors; the population's age composition determines demand, not supply.",
+      "fact": "Other Determinants of Supply: price of related goods, number of sellers in the market, technology, future expectations."
+    },
+    {
+      "id": "econ9-072",
+      "type": "wrongstatement",
+      "topic": "Market Equilibrium",
+      "difficulty": "medium",
+      "q": "Which of these statements about market equilibrium is INCORRECT?",
+      "options": [
+        "At the equilibrium price, there is no pressure for prices to change.",
+        "At equilibrium, the market is 'cleared' — there is neither a shortage nor a surplus.",
+        "The equilibrium quantity of mangoes in Table 9.3 is 12 kg.",
+        "At a price higher than the equilibrium price, there is excess demand."
+      ],
+      "answer": 3,
+      "explanation": "At a higher price, quantity supplied exceeds quantity demanded, creating excess supply — not excess demand.",
+      "fact": "At a lower price, there is excess demand, whereas at a higher price, there is excess supply... Equilibrium Quantity = 12 kg."
+    },
+    {
+      "id": "econ9-073",
+      "type": "wrongstatement",
+      "topic": "Supply Determinants",
+      "difficulty": "hard",
+      "q": "Which of these statements about the determinants of supply is INCORRECT?",
+      "options": [
+        "With improved techniques such as drip irrigation and weather sensors, crop production may rise.",
+        "The adoption of cold storage facilities in transporting mangoes increases market supply.",
+        "The supply of one good depends on the profitability of other alternatives for the supplier.",
+        "More sellers in the market reduce the market supply."
+      ],
+      "answer": 3,
+      "explanation": "More sellers bring higher competition and increased production, so market supply grows and can exceed demand — it does not fall.",
+      "fact": "If there are more sellers in a market due to higher competition and increased production, the market supply of the product would exceed the demand."
+    },
+    {
+      "id": "econ9-074",
+      "type": "assertion",
+      "topic": "Market Equilibrium",
+      "difficulty": "hard",
+      "q": "Assertion (A): The equilibrium price of mangoes in Table 9.3 is ₹40.\nReason (R): At ₹40, the quantity demanded is 38 kg while the quantity supplied is only 6 kg.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "A is false — ₹40 is not the equilibrium; it is the price of excess demand. R is true and actually shows why ₹40 cannot be the equilibrium, since demand far exceeds supply there.",
+      "fact": "Table 9.3: at ₹40, Qd = 38 kg, Qs = 6 kg — Excess Demand. Equilibrium Price = ₹100, where Qs = Qd = 12 kg.",
+      "hint": "Check whether demand equals supply at ₹40."
+    },
+    {
+      "id": "econ9-075",
+      "type": "assertion",
+      "topic": "Dynamic Markets",
+      "difficulty": "hard",
+      "q": "Assertion (A): In the real world, market equilibrium is never stable and moves all the time.\nReason (R): Changes in technology, wages, wars, pandemics, weather and natural disasters constantly alter demand and supply.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true and R explains A — because so many conditions keep changing demand and supply, the market is always adjusting towards a new equilibrium and never settles at the previous one.",
+      "fact": "In the real world, markets are dynamic with constantly changing conditions... changes in technology, wages, interest rates, as well as wars, political events, pandemics, weather, and natural disasters alter demand and supply. Therefore, 'equilibrium' in the real world is never stable and moves all the time."
+    }
+  ]
+}

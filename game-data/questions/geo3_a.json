@@ -1,0 +1,291 @@
+{
+  "chapterId": "geo3",
+  "fragment": "a",
+  "questions": [
+    {
+      "id": "geo3-001",
+      "type": "mcq",
+      "topic": "Atmosphere Basics",
+      "difficulty": "easy",
+      "q": "Why does the atmosphere stay pulled down around the Earth instead of drifting off into space?",
+      "options": ["The Moon's gravity traps it in place", "The oceans hold it down with water pressure", "The Earth's gravity pulls it down", "It is too cold to move"],
+      "answer": 2,
+      "explanation": "The atmosphere is a blanket of air surrounding the Earth that is pulled down around it by gravity — the force of attraction that the Earth's mass exerts on objects on or close to its surface.",
+      "fact": "It is pulled down around the Earth by gravity.",
+      "hint": "The same force that makes an apple fall to the ground."
+    },
+    {
+      "id": "geo3-002",
+      "type": "mcq",
+      "topic": "Composition of Atmosphere",
+      "difficulty": "easy",
+      "q": "Which gas is the most abundant in the Earth's atmosphere?",
+      "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Argon"],
+      "answer": 1,
+      "explanation": "Nitrogen makes up about 78% of the atmosphere, making it the most abundant gas. Oxygen is second at about 21%, while carbon dioxide and argon are present in much smaller shares.",
+      "fact": "Nitrogen 78%; Oxygen 21%.",
+      "hint": "Its share is nearly four-fifths of all the air."
+    },
+    {
+      "id": "geo3-003",
+      "type": "truefalse",
+      "topic": "Composition of Atmosphere",
+      "difficulty": "easy",
+      "q": "Oxygen forms about 21 per cent of the Earth's atmosphere.",
+      "answer": "true",
+      "explanation": "Oxygen makes up about 21% of the atmosphere and, along with nitrogen (78%), is one of the two primary and most abundant gases essential to life on the Earth.",
+      "fact": "Nitrogen and oxygen are the two primary and most abundant gases that are essential to life on the Earth."
+    },
+    {
+      "id": "geo3-004",
+      "type": "truefalse",
+      "topic": "Water Vapour in Atmosphere",
+      "difficulty": "medium",
+      "q": "The amount of water vapour in the atmosphere generally ranges from 10 per cent to 40 per cent.",
+      "answer": "false",
+      "explanation": "Water vapour generally ranges only from 0.1% to 0.4% of the atmosphere, not 10–40%. Even in this small share it plays a significant role in cloud formation and precipitation.",
+      "fact": "The amount of water vapour in the atmosphere varies, but it generally ranges from 0.1 per cent to 0.4 per cent.",
+      "hint": "The real range is far less than one per cent."
+    },
+    {
+      "id": "geo3-005",
+      "type": "fillblank",
+      "topic": "Composition of Atmosphere",
+      "difficulty": "easy",
+      "q": "Besides gases, the atmosphere also consists of water vapour and tiny ___ particles.",
+      "answerVariants": ["dust"],
+      "explanation": "The atmosphere is a mixture of gases, but it also contains water vapour and tiny dust particles, which play a role in cloud formation and weather.",
+      "fact": "Besides these, the atmosphere also consists of water vapour and tiny dust particles."
+    },
+    {
+      "id": "geo3-006",
+      "type": "fillblank",
+      "topic": "Stratosphere Features",
+      "difficulty": "medium",
+      "q": "The stratosphere lies above the troposphere and extends up to ___ kilometres.",
+      "answerVariants": ["50", "fifty"],
+      "explanation": "The stratosphere extends up to 50 kilometres above the troposphere. It is free of clouds and weather disturbances, which makes it ideal for flying aeroplanes.",
+      "fact": "Above the troposphere lies the stratosphere, extending up to 50 kilometres."
+    },
+    {
+      "id": "geo3-007",
+      "type": "multiselect",
+      "topic": "Atmosphere Basics",
+      "difficulty": "medium",
+      "q": "Select all correct ways in which the atmosphere supports and protects life on the Earth.",
+      "options": ["It shields us from the Sun's harmful radiation, including ultraviolet radiation", "It makes the Earth the centre of the solar system", "It regulates the Earth's temperature by trapping some of the Sun's energy", "It acts as a key component of the Earth's weather and climate systems"],
+      "answerIndices": [0, 2, 3],
+      "explanation": "The atmosphere shields us from harmful radiation including ultraviolet radiation, regulates the Earth's temperature by trapping some of the Sun's energy, and is a key component of the weather and climate systems. It has nothing to do with the Earth's position in the solar system.",
+      "fact": "The atmosphere shields us from the harmful radiation coming from the Sun... It regulates the Earth's temperature by trapping some of the Sun's energy... The atmosphere is a key component of the Earth's weather and climate systems."
+    },
+    {
+      "id": "geo3-008",
+      "type": "mcq",
+      "topic": "Composition of Atmosphere",
+      "difficulty": "hard",
+      "q": "According to the composition chart of the atmosphere (Fig. 3.2), what percentage of the atmosphere is made up of carbon dioxide?",
+      "options": ["0.93%", "21%", "78%", "0.04%"],
+      "answer": 3,
+      "explanation": "Carbon dioxide makes up only about 0.04% of the atmosphere. Argon accounts for 0.93%, oxygen 21% and nitrogen 78%.",
+      "fact": "Carbon Dioxide 0.04%.",
+      "hint": "It is an even smaller share than argon's 0.93%."
+    },
+    {
+      "id": "geo3-009",
+      "type": "wrongstatement",
+      "topic": "Composition of Atmosphere",
+      "difficulty": "medium",
+      "q": "Which of these statements about the composition of the atmosphere is INCORRECT?",
+      "options": ["Nitrogen and oxygen are the two primary and most abundant gases in the atmosphere", "Water vapour in the atmosphere plays a significant role in cloud formation and precipitation", "The proportion of gases in the atmosphere stays exactly the same at every altitude", "Argon is present in the atmosphere in a larger share than carbon dioxide"],
+      "answer": 2,
+      "explanation": "The composition of the atmosphere varies with altitude — it does not stay exactly the same. Nitrogen and oxygen are the primary gases, water vapour helps in cloud formation, and argon (0.93%) has a larger share than carbon dioxide (0.04%).",
+      "fact": "The composition of the atmosphere also varies with altitude."
+    },
+    {
+      "id": "geo3-010",
+      "type": "match",
+      "topic": "Layers of Atmosphere",
+      "difficulty": "medium",
+      "q": "Match each layer of the atmosphere with its well-known feature.",
+      "pairs": [
+        {"l": "Troposphere", "r": "Nearly all weather phenomena like rainfall, fog and hail occur here"},
+        {"l": "Stratosphere", "r": "Contains the ozone layer and is ideal for flying aeroplanes"},
+        {"l": "Mesosphere", "r": "Most meteorites entering from space burn up here"},
+        {"l": "Thermosphere", "r": "Auroras occur here and radio waves are reflected back to the Earth"},
+        {"l": "Exosphere", "r": "Light gases like helium and hydrogen float into space from here"}
+      ],
+      "explanation": "Each layer has a defining feature — weather happens in the troposphere, the stratosphere holds the ozone layer and aeroplane traffic, meteorites burn up in the mesosphere, auroras and radio reflection belong to the thermosphere, and light gases escape from the exosphere.",
+      "fact": "The atmosphere has a layered structure, and all of these layers play a vital role in the Earth's atmospheric processes."
+    },
+    {
+      "id": "geo3-011",
+      "type": "order",
+      "topic": "Layers of Atmosphere",
+      "difficulty": "easy",
+      "q": "Arrange the layers of the atmosphere in order, starting from the Earth's surface and moving upward.",
+      "orderItems": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere", "Exosphere"],
+      "explanation": "From the ground upward, the layers are the troposphere, stratosphere, mesosphere, thermosphere and exosphere. They are defined by changes in temperature and density with increasing altitude.",
+      "fact": "The major layers extending from the Earth's surface to outer space are the troposphere, stratosphere, mesosphere, thermosphere and exosphere."
+    },
+    {
+      "id": "geo3-012",
+      "type": "mcq",
+      "topic": "Troposphere Characteristics",
+      "difficulty": "easy",
+      "q": "What is the average height of the troposphere?",
+      "options": ["About 50 kilometres", "About 80 kilometres", "About 700 kilometres", "About 12 kilometres"],
+      "answer": 3,
+      "explanation": "The troposphere has an average height of about 12 kilometres. It is the most important layer, holding the air we breathe along with most of the water vapour and clouds.",
+      "fact": "The troposphere is the most important layer of the atmosphere, with an average height of about 12 kilometres.",
+      "hint": "This lowest layer is only about a dozen km thick."
+    },
+    {
+      "id": "geo3-013",
+      "type": "mcq",
+      "topic": "Troposphere Characteristics",
+      "difficulty": "medium",
+      "q": "What is the transition zone that separates the troposphere from the stratosphere called?",
+      "options": ["Stratopause", "Tropopause", "Mesopause", "Ionosphere"],
+      "answer": 1,
+      "explanation": "The tropopause is the transition zone separating the troposphere from the stratosphere above it. Similarly, the stratopause marks the boundary between the stratosphere and the mesosphere.",
+      "fact": "The troposphere is separated from the stratosphere by a transition zone known as the tropopause.",
+      "hint": "The zone's name combines 'tropo-' with a familiar ending."
+    },
+    {
+      "id": "geo3-014",
+      "type": "mcq",
+      "topic": "Stratosphere Features",
+      "difficulty": "easy",
+      "q": "Why is the stratosphere considered ideal for flying aeroplanes?",
+      "options": ["It has the highest air pressure of all layers", "It contains most of the atmosphere's water vapour", "It is free of clouds and other weather disturbances", "It is the layer closest to the Earth"],
+      "answer": 2,
+      "explanation": "The stratosphere is free of clouds and other weather disturbances, which is why it is considered ideal for flying aeroplanes.",
+      "fact": "This layer is ideal for flying aeroplanes because it is free of clouds and other weather disturbances."
+    },
+    {
+      "id": "geo3-015",
+      "type": "truefalse",
+      "topic": "Stratosphere Features",
+      "difficulty": "easy",
+      "q": "The layer of ozone gas in the stratosphere shields us by filtering the Sun's harmful ultraviolet radiation.",
+      "answer": "true",
+      "explanation": "A notable feature of the stratosphere is its layer of ozone gas, which shields life on the Earth by filtering the Sun's harmful radiation, including ultraviolet radiation.",
+      "fact": "A notable feature of the stratosphere is that it contains a layer of ozone gas, which shields us by filtering the Sun's harmful radiation, including ultraviolet radiation."
+    },
+    {
+      "id": "geo3-016",
+      "type": "mcq",
+      "topic": "Mesosphere Features",
+      "difficulty": "easy",
+      "q": "The mesosphere, the third layer of the atmosphere, extends up to what height?",
+      "options": ["12 km", "50 km", "80 km", "700 km"],
+      "answer": 2,
+      "explanation": "The mesosphere is the third layer of the atmosphere and extends up to a height of 80 kilometres. In this layer, temperature decreases with increasing altitude.",
+      "fact": "Above the stratosphere lies the third layer of the atmosphere, the mesosphere. It extends up to a height of 80 kilometres.",
+      "hint": "It lies above the stratosphere's 50 km."
+    },
+    {
+      "id": "geo3-017",
+      "type": "truefalse",
+      "topic": "Layers of Atmosphere",
+      "difficulty": "hard",
+      "q": "Temperature decreases with increasing altitude only in the troposphere and the mesosphere.",
+      "answer": "true",
+      "explanation": "This is a special point about the atmosphere — temperature falls as we go higher only in the troposphere and the mesosphere. In the thermosphere, for example, temperature rises very rapidly with altitude.",
+      "fact": "Temperature decreases with altitude only in the troposphere and mesosphere.",
+      "hint": "Remember the two layers where the air chills as you climb."
+    },
+    {
+      "id": "geo3-018",
+      "type": "mcq",
+      "topic": "Thermosphere Features",
+      "difficulty": "medium",
+      "q": "Why does the temperature rise very rapidly with altitude in the thermosphere?",
+      "options": ["The gas molecules there absorb the Sun's X-rays and short-wave ultraviolet radiation", "The air there is pressed down by the layers above it", "Meteors keep falling and heating the layer", "It lies closest to the Earth's surface"],
+      "answer": 0,
+      "explanation": "In the thermosphere, gas molecules absorb the Sun's X-rays and short-wave ultraviolet radiation, so temperature rises very rapidly with increasing altitude in this layer.",
+      "fact": "In the thermosphere, temperature rises very rapidly with increasing altitude, as the gas molecules in this layer absorb the X-rays and short-wave ultraviolet radiation of the Sun.",
+      "hint": "Think about what the thin gases up there can absorb from the Sun."
+    },
+    {
+      "id": "geo3-019",
+      "type": "mcq",
+      "topic": "Thermosphere Features",
+      "difficulty": "medium",
+      "q": "The ionosphere is a part of which layer of the atmosphere?",
+      "options": ["The troposphere", "The stratosphere", "The mesosphere", "The thermosphere"],
+      "answer": 3,
+      "explanation": "The ionosphere is a part of the thermosphere, the layer that also helps with radio transmission by reflecting radio waves transmitted from the Earth back towards it.",
+      "fact": "Ionosphere is a part of the thermosphere.",
+      "hint": "Auroras and radio reflection also happen in this layer."
+    },
+    {
+      "id": "geo3-020",
+      "type": "fillblank",
+      "topic": "Mesosphere Features",
+      "difficulty": "easy",
+      "q": "Most meteorites entering from space burn up in the ___.",
+      "answerVariants": ["mesosphere"],
+      "explanation": "The mesosphere protects the Earth by burning up most of the meteorites that enter from space, which is why we see them as streaks of light.",
+      "fact": "Most meteorites entering from space burn up in the mesosphere."
+    },
+    {
+      "id": "geo3-021",
+      "type": "fillblank",
+      "topic": "Exosphere Features",
+      "difficulty": "medium",
+      "q": "The uppermost layer of the atmosphere, characterised by very thin air, is called the ___.",
+      "answerVariants": ["exosphere"],
+      "explanation": "The exosphere is the uppermost layer of the atmosphere and has very thin air. Light gases like helium and hydrogen float into space from this layer due to weak gravity.",
+      "fact": "The uppermost layer of the atmosphere is known as the exosphere, characterised by very thin air."
+    },
+    {
+      "id": "geo3-022",
+      "type": "truefalse",
+      "topic": "Thermosphere Features",
+      "difficulty": "medium",
+      "q": "The mesosphere helps with radio transmission by reflecting radio waves transmitted from the Earth back towards it.",
+      "answer": "false",
+      "explanation": "It is the thermosphere, not the mesosphere, that helps with radio transmission by reflecting radio waves back towards the Earth. The mesosphere is the layer where most meteorites burn up.",
+      "fact": "It also helps with radio transmission by reflecting radio waves transmitted from the Earth back towards it."
+    },
+    {
+      "id": "geo3-023",
+      "type": "match",
+      "topic": "Aurora Phenomenon",
+      "difficulty": "hard",
+      "q": "Match each term about the aurora with its correct detail.",
+      "pairs": [
+        {"l": "The word 'aurora'", "r": "Comes from Latin, meaning 'dawn' or 'morning light'"},
+        {"l": "Roman goddess Aurora", "r": "The goddess of dawn, after whom the aurora is named"},
+        {"l": "Aurora Borealis", "r": "The aurora seen in the Northern Hemisphere"},
+        {"l": "Aurora Australis", "r": "The aurora seen in the Southern Hemisphere"},
+        {"l": "Solar wind", "r": "Charged particles emitted by the Sun, directed towards the magnetic poles"}
+      ],
+      "explanation": "The word 'aurora' comes from Latin for 'dawn' and is linked to the Roman goddess of dawn. The Aurora Borealis lights the Northern Hemisphere and the Aurora Australis the Southern, both caused by the solar wind reaching the Earth's atmosphere near the magnetic poles.",
+      "fact": "The word 'aurora' originates from Latin, meaning 'dawn' or 'morning light.'... known as the Aurora Borealis in the Northern Hemisphere and the Aurora Australis in the Southern Hemisphere."
+    },
+    {
+      "id": "geo3-024",
+      "type": "assertion",
+      "topic": "Troposphere Characteristics",
+      "difficulty": "hard",
+      "q": "Assertion (A): The troposphere is the most important layer of the atmosphere.\nReason (R): The troposphere is separated from the stratosphere by a transition zone known as the tropopause.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 1,
+      "explanation": "Both statements are true — the troposphere is called the most important layer, and it is separated from the stratosphere by the tropopause. But the tropopause does not explain why the troposphere matters most; that is because the air we breathe and nearly all weather phenomena are found here.",
+      "fact": "The troposphere is the most important layer of the atmosphere... separated from the stratosphere by a transition zone known as the tropopause."
+    },
+    {
+      "id": "geo3-025",
+      "type": "assertion",
+      "topic": "Air Pressure on Bodies",
+      "difficulty": "hard",
+      "q": "Assertion (A): We do not feel the significant force that the air above us exerts on our bodies.\nReason (R): Air presses on us from all sides, and our bodies exert an equal counter-pressure in response.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 0,
+      "explanation": "Both statements are true, and the reason explains the assertion — the pressure inside our bodies is equal to the atmospheric pressure and cancels the pressure from outside, so we do not feel the air's force.",
+      "fact": "Air presses on us from all sides, and our bodies exert a counter-pressure in response. The pressure inside our bodies is also equal to the atmospheric pressure and cancels the pressure from outside."
+    }
+  ]
+}

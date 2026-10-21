@@ -1,0 +1,422 @@
+{
+  "chapterId": "p2geo2",
+  "fragment": "d",
+  "questions": [
+    {
+      "id": "p2geo2-076",
+      "type": "mcq",
+      "topic": "Forest Rights Act",
+      "difficulty": "easy",
+      "q": "What does the Forest Rights Act (FRA), 2006 recognise?",
+      "options": [
+        "The right of companies to mine in forests",
+        "The rights of eligible communities over forest land and resources they have traditionally depended upon",
+        "The right of cities to expand into forests",
+        "The right to hunt wild animals"
+      ],
+      "answer": 1,
+      "explanation": "The Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006, commonly called the Forest Rights Act, recognises the rights of eligible communities over the forest land and resources they have traditionally depended upon.",
+      "fact": "The Forest Rights Act (FRA) 2006 recognises the rights of eligible communities over the forest land and forest resources that they have traditionally depended upon."
+    },
+    {
+      "id": "p2geo2-077",
+      "type": "mcq",
+      "topic": "Bishnoi Movement",
+      "difficulty": "medium",
+      "q": "The Bishnoi Movement, a forest protection movement led by Amrita Devi, took place in which state?",
+      "options": [
+        "Assam",
+        "Keralam",
+        "Rajasthan",
+        "Punjab"
+      ],
+      "answer": 2,
+      "explanation": "The Bishnoi Movement took place in Rajasthan and was led by Amrita Devi. It later influenced the Chipko Movement in Uttarakhand.",
+      "fact": "Forest dwellers have been at the forefront of forest protection movements, such as the Bishnoi Movement in Rajasthan led by Amrita Devi."
+    },
+    {
+      "id": "p2geo2-078",
+      "type": "assertion",
+      "topic": "Forest movements",
+      "difficulty": "medium",
+      "q": "Assertion (A): The Bishnoi Movement influenced the Chipko Movement.\nReason (R): The Chipko Movement took place in Uttarakhand.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both are true: the Bishnoi Movement influenced the Chipko Movement, and the Chipko Movement happened in Uttarakhand. But the location of the movement does not explain the influence, so R does not explain A.",
+      "fact": "The Bishnoi Movement in Rajasthan also influenced the Chipko Movement in Uttarakhand, where village women hugged trees to prevent deforestation."
+    },
+    {
+      "id": "p2geo2-079",
+      "type": "mcq",
+      "topic": "Chipko Movement",
+      "difficulty": "easy",
+      "q": "In the Chipko Movement of Uttarakhand, village women ___ to prevent deforestation.",
+      "options": [
+        "stopped eating food",
+        "burnt factories",
+        "blocked roads with vehicles",
+        "hugged trees"
+      ],
+      "answer": 3,
+      "explanation": "In the Chipko Movement in Uttarakhand, village women hugged trees to prevent deforestation. The movement was influenced by the Bishnoi Movement of Rajasthan.",
+      "fact": "The Chipko Movement in Uttarakhand saw village women hugging trees to prevent deforestation."
+    },
+    {
+      "id": "p2geo2-080",
+      "type": "mcq",
+      "topic": "Mendha Lekha",
+      "difficulty": "medium",
+      "q": "Mendha Lekha became the first village in India to...",
+      "options": [
+        "gain rights over its forest resources under the Forest Rights Act",
+        "build a railway station",
+        "start a space programme",
+        "win a national cricket tournament"
+      ],
+      "answer": 0,
+      "explanation": "Mendha Lekha, a small tribal village in Maharashtra, became the first in India to gain rights over its forest resources under the Forest Rights Act (2006).",
+      "fact": "Mendha Lekha became the first village in India to gain rights over its forest resources under the Forest Rights Act (2006)."
+    },
+    {
+      "id": "p2geo2-081",
+      "type": "fillblank",
+      "topic": "Mendha Lekha",
+      "difficulty": "medium",
+      "q": "Mendha Lekha is a small tribal village in the ___ district of Maharashtra.",
+      "answerVariants": [
+        "Gadchiroli",
+        "gadchiroli"
+      ],
+      "explanation": "Mendha Lekha is a small tribal village located in the Gadchiroli district of Maharashtra, known for its effective community-based forest management and self-governance.",
+      "fact": "Mendha Lekha is a small tribal village located in the Gadchiroli district of Maharashtra."
+    },
+    {
+      "id": "p2geo2-082",
+      "type": "mcq",
+      "topic": "Mendha Lekha",
+      "difficulty": "medium",
+      "q": "Mendha Lekha is inhabited mainly by which tribe?",
+      "options": [
+        "Santhal",
+        "Bhil",
+        "Gond",
+        "Munda"
+      ],
+      "answer": 2,
+      "explanation": "Mendha Lekha is inhabited mainly by the Gond tribe, which manages its forest through community-based self-governance.",
+      "fact": "Mendha Lekha is inhabited mainly by the Gond tribe."
+    },
+    {
+      "id": "p2geo2-083",
+      "type": "fillblank",
+      "topic": "Mendha Lekha",
+      "difficulty": "medium",
+      "q": "Mendha Lekha follows the principle 'Mawa Nate Mawa Raj', which means 'our village, our ___'.",
+      "answerVariants": [
+        "rule",
+        "Rule"
+      ],
+      "explanation": "The people of Mendha Lekha follow the principle of Mawa Nate Mawa Raj, meaning 'our village, our rule', ensuring that all decisions are made collectively through the Gram Sabha.",
+      "fact": "The people of Mendha Lekha follow the principle of Mawa Nate Mawa Raj (our village, our rule), with decisions made collectively through the Gram Sabha."
+    },
+    {
+      "id": "p2geo2-084",
+      "type": "fillblank",
+      "topic": "Mendha Lekha",
+      "difficulty": "hard",
+      "q": "The people of Mendha Lekha protect and sustainably utilise ___ hectares of forest.",
+      "answerVariants": [
+        "1,800",
+        "1800"
+      ],
+      "explanation": "The villagers of Mendha Lekha protect and sustainably utilise their 1,800 hectares of forest by regulating tree cutting, preventing forest fires and promoting bamboo harvesting.",
+      "fact": "The people of Mendha Lekha protect and sustainably utilise their 1,800 hectares of forest."
+    },
+    {
+      "id": "p2geo2-085",
+      "type": "wrongstatement",
+      "topic": "Mendha Lekha",
+      "difficulty": "medium",
+      "q": "Which of these statements about Mendha Lekha is INCORRECT?",
+      "options": [
+        "In Mendha Lekha, all decisions are made collectively through the Gram Sabha.",
+        "The villagers promote bamboo harvesting as a renewable resource.",
+        "In Mendha Lekha, a single powerful chief takes all the decisions.",
+        "Revenue from forest produce is used for community welfare such as education and infrastructure."
+      ],
+      "answer": 2,
+      "explanation": "Mendha Lekha follows 'Mawa Nate Mawa Raj' (our village, our rule), where ALL decisions are made collectively through the Gram Sabha, not by one chief. Bamboo harvesting and community welfare funding are real practices there.",
+      "fact": "In Mendha Lekha, all decisions are made collectively through the Gram Sabha; bamboo is harvested as a renewable resource, and forest revenue funds community welfare."
+    },
+    {
+      "id": "p2geo2-086",
+      "type": "assertion",
+      "topic": "Mendha Lekha",
+      "difficulty": "hard",
+      "q": "Assertion (A): The people of Mendha Lekha fulfil their fundamental duties.\nReason (R): They protect biodiversity and prevent illegal exploitation of forests.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "The villagers of Mendha Lekha fulfil their fundamental duties by protecting biodiversity and preventing illegal exploitation. These very actions show how they perform their duties, so R explains A.",
+      "fact": "The villagers of Mendha Lekha fulfil their fundamental duties by protecting biodiversity and preventing illegal exploitation."
+    },
+    {
+      "id": "p2geo2-087",
+      "type": "mcq",
+      "topic": "Ecological commons",
+      "difficulty": "medium",
+      "q": "What are ecological commons?",
+      "options": [
+        "Shopping malls in cities",
+        "Private gardens of wealthy families",
+        "Factories owned by the government",
+        "Natural resources like forests, rivers and grazing lands shared by a community and used collectively"
+      ],
+      "answer": 3,
+      "explanation": "Ecological commons are natural resources like forests, rivers, lakes, grazing lands, air and biodiversity that are shared by a community and used collectively for its survival and well-being, not owned by any single individual.",
+      "fact": "Ecological commons are natural resources like forests, rivers, lakes, grazing lands, air, and biodiversity that are shared by a community and used collectively."
+    },
+    {
+      "id": "p2geo2-088",
+      "type": "assertion",
+      "topic": "Ecological commons",
+      "difficulty": "medium",
+      "q": "Assertion (A): Many ecological commons are shrinking or degrading.\nReason (R): Population growth, industrial use and privatisation put pressure on them.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "With population growth, industrial use and privatisation, many ecological commons are shrinking or degrading. These pressures are the cause, so R explains A.",
+      "fact": "With population growth, industrial use, and privatisation, many ecological commons are shrinking or degrading."
+    },
+    {
+      "id": "p2geo2-089",
+      "type": "mcq",
+      "topic": "Bihar fisheries",
+      "difficulty": "easy",
+      "q": "The Bihar Fish Jalkar Management Act, which promoted commons-based fisheries management, was introduced in which year?",
+      "options": [
+        "2006",
+        "1897",
+        "1947",
+        "2020"
+      ],
+      "answer": 0,
+      "explanation": "The Bihar Fish Jalkar Management Act, 2006, and its subsequent amendments, introduced commons-based management with community-led solutions, legal safeguards for public access and cooperative resource stewardship.",
+      "fact": "The Bihar Fish Jalkar Management Act, 2006, and its subsequent amendments, were introduced to promote community-led management and cooperative resource stewardship."
+    },
+    {
+      "id": "p2geo2-090",
+      "type": "order",
+      "topic": "Bihar fisheries",
+      "difficulty": "hard",
+      "q": "Arrange the events in the history of fisheries management in Bihar in the correct order.",
+      "orderItems": [
+        "Large landowners control perennial water bodies and marginalise the fishing community",
+        "The Indian Fisheries Act, 1897 remains the basis of inland fisheries governance",
+        "The Bihar Fish Jalkar Management Act, 2006 introduces commons-based management",
+        "Fish production in the region shows persistent growth"
+      ],
+      "explanation": "Historically, large landowners controlled the water bodies and marginalised fishers; after independence the Indian Fisheries Act, 1897 remained the basis of governance; then the 2006 Act brought commons-based management, whose success is reflected in persistent growth of fish production.",
+      "fact": "After independence, the Indian Fisheries Act, 1897, remained the basis of inland fisheries governance; the Bihar Fish Jalkar Management Act, 2006, later introduced commons-based management, reflected in persistent growth of fish production."
+    },
+    {
+      "id": "p2geo2-091",
+      "type": "mcq",
+      "topic": "Traditional water tanks",
+      "difficulty": "medium",
+      "q": "Between 800 and 1200 CE, which kings built around 8,000 tanks in the Bundelkhand region?",
+      "options": [
+        "Gond and Bhil",
+        "Chandella and Bundela",
+        "Maurya and Gupta",
+        "Chola and Pandya"
+      ],
+      "answer": 1,
+      "explanation": "Between 800 and 1200 CE, the Chandella and Bundela kings built around 8,000 tanks in the Bundelkhand region to manage water as a collective concern.",
+      "fact": "Between 800 and 1200 CE, the Chandella and Bundela kings built around 8,000 tanks in the Bundelkhand region."
+    },
+    {
+      "id": "p2geo2-092",
+      "type": "fillblank",
+      "topic": "Traditional water tanks",
+      "difficulty": "hard",
+      "q": "Between 800 and 1200 CE, the Chandella and Bundela kings built around ___ tanks in the Bundelkhand region.",
+      "answerVariants": [
+        "8,000",
+        "8000"
+      ],
+      "explanation": "The Chandella and Bundela kings built around 8,000 tanks in Bundelkhand between 800 and 1200 CE, showing how communities historically managed water collectively.",
+      "fact": "Between 800 and 1200 CE, the Chandella and Bundela kings built around 8,000 tanks in the Bundelkhand region."
+    },
+    {
+      "id": "p2geo2-093",
+      "type": "order",
+      "topic": "Conservation history",
+      "difficulty": "hard",
+      "q": "Arrange these events from India's water and forest governance history in the correct chronological order.",
+      "orderItems": [
+        "Chandella and Bundela kings build tanks in Bundelkhand (800-1200 CE)",
+        "The Indian Fisheries Act becomes the basis of inland fisheries governance (1897)",
+        "The Forest Rights Act recognises forest dwellers' rights (2006)"
+      ],
+      "explanation": "The Bundelkhand tanks came first (800-1200 CE), then the Indian Fisheries Act of 1897, and finally the Forest Rights Act of 2006, which recognised communities' rights over forest resources.",
+      "fact": "Bundelkhand tanks date from 800-1200 CE, the Indian Fisheries Act from 1897, and the Forest Rights Act from 2006."
+    },
+    {
+      "id": "p2geo2-094",
+      "type": "match",
+      "topic": "Traditional water structures",
+      "difficulty": "hard",
+      "q": "Match each traditional water structure with its region or description.",
+      "pairs": [
+        {
+          "l": "Keres",
+          "r": "Water tanks built in Karnataka"
+        },
+        {
+          "l": "Eri tanks",
+          "r": "Water tanks built in Tamil Nadu"
+        },
+        {
+          "l": "Chevuru tanks",
+          "r": "Water tanks of Andhra Pradesh and Odisha"
+        },
+        {
+          "l": "Ahar pynes",
+          "r": "Water structures of Bihar"
+        },
+        {
+          "l": "Katas",
+          "r": "Three-sided reservoirs funded by the Gond kings"
+        }
+      ],
+      "explanation": "Keres were built in Karnataka, eri tanks in Tamil Nadu, chevuru tanks in Andhra Pradesh and Odisha, Bihar had the famous ahar pynes, and the Gond kings funded huge katas, three-sided reservoirs, in the Gondwana region.",
+      "fact": "Keres were built in Karnataka, eri tanks in Tamil Nadu, chevuru tanks in Andhra Pradesh and Odisha, Bihar had ahar pynes, and Gond kings funded katas in Gondwana."
+    },
+    {
+      "id": "p2geo2-095",
+      "type": "fillblank",
+      "topic": "Forest fires",
+      "difficulty": "hard",
+      "q": "According to the Forest Survey of India, about ___ per cent of India's forest cover is estimated to be prone to forest fires.",
+      "answerVariants": [
+        "36",
+        "36%"
+      ],
+      "explanation": "According to the Forest Survey of India (FSI), about 36 per cent of the country's forest cover is prone to forest fires, of which nearly 4 per cent is extremely prone. Climate change and human-induced factors are the main reasons.",
+      "fact": "According to the Forest Survey of India (FSI), about 36 per cent of the country's forest cover is estimated to be prone to forest fires, of which nearly 4 per cent is extremely prone."
+    },
+    {
+      "id": "p2geo2-096",
+      "type": "match",
+      "topic": "Government initiatives",
+      "difficulty": "hard",
+      "q": "Match each government initiative abbreviation with its correct full form.",
+      "pairs": [
+        {
+          "l": "JFM",
+          "r": "Joint Forest Management"
+        },
+        {
+          "l": "PESA",
+          "r": "Panchayats (Extension to Scheduled Areas) Act"
+        },
+        {
+          "l": "DAJGUA",
+          "r": "Dharti Aaba Janjatiya Gram Utkarsh Abhiyan"
+        },
+        {
+          "l": "PM JANMAN",
+          "r": "Pradhan Mantri Janjati Adivasi Nyaya Maha Abhiyan"
+        },
+        {
+          "l": "FSI",
+          "r": "Forest Survey of India"
+        }
+      ],
+      "explanation": "JFM is Joint Forest Management; PESA is the Panchayats (Extension to Scheduled Areas) Act; DAJGUA is the Dharti Aaba Janjatiya Gram Utkarsh Abhiyan; PM JANMAN is the Pradhan Mantri Janjati Adivasi Nyaya Maha Abhiyan; and FSI is the Forest Survey of India.",
+      "fact": "Initiatives for tribal and forest communities include JFM, PESA, DAJGUA and PM JANMAN; the FSI monitors forest fires."
+    },
+    {
+      "id": "p2geo2-097",
+      "type": "multiselect",
+      "topic": "Tribal welfare initiatives",
+      "difficulty": "hard",
+      "q": "Select all correct: which of these initiatives aim to promote the welfare of tribal and forest communities?",
+      "options": [
+        "Swadesh Darshan 2.0",
+        "PESA",
+        "DAJGUA",
+        "PM JANMAN"
+      ],
+      "answerIndices": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "PESA, DAJGUA and PM JANMAN aim to promote the welfare of tribal communities. Swadesh Darshan 2.0 is a tourism scheme of the Ministry of Tourism, not a tribal welfare initiative.",
+      "fact": "Initiatives such as PESA, DAJGUA, and PM JANMAN aim to promote the welfare of tribal and forest communities."
+    },
+    {
+      "id": "p2geo2-098",
+      "type": "assertion",
+      "topic": "Traditional knowledge",
+      "difficulty": "easy",
+      "q": "Assertion (A): Forest dwellers possess rich traditional knowledge.\nReason (R): This knowledge is passed down through generations and helps in biodiversity conservation.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Forest dwellers are knowledge holders: they possess rich traditional knowledge of using herbs, plants and forest resources, passed down through generations, which helps in biodiversity conservation. R explains A.",
+      "fact": "Forest dwellers possess rich traditional knowledge of using herbs, plants, and forest resources; this knowledge is passed down through generations and helps in biodiversity conservation."
+    },
+    {
+      "id": "p2geo2-099",
+      "type": "assertion",
+      "topic": "Bihar fisheries",
+      "difficulty": "hard",
+      "q": "Assertion (A): The Bihar Fish Jalkar Management Act, 2006 promoted community-led management of fisheries.\nReason (R): Before the Act, small fishing cooperatives owned and controlled all the water bodies.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "The Act truly promoted community-led management of fisheries. But R is false: historically, control over perennial water bodies in Bihar was held by LARGE LANDOWNERS, who marginalised the fishing community.",
+      "fact": "Under the Bihar Fish Jalkar Management Act, local communities develop context-specific solutions; the success of this model is reflected in the persistent growth of fish production in the region."
+    },
+    {
+      "id": "p2geo2-100",
+      "type": "assertion",
+      "topic": "Desert ecosystems",
+      "difficulty": "medium",
+      "q": "Assertion (A): Deserts are home to unique ecosystems.\nReason (R): Many deserts provide valuable resources such as minerals and oil.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both are true: despite their harshness, deserts host unique ecosystems, and many provide valuable resources such as minerals and oil. But having resources does not explain why unique ecosystems exist there, so R does not explain A.",
+      "fact": "Despite their harshness, deserts are home to unique ecosystems, and many of them also provide valuable resources such as minerals and oil."
+    }
+  ]
+}

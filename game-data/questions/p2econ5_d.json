@@ -1,0 +1,381 @@
+{
+  "chapterId": "p2econ5",
+  "fragment": "d",
+  "questions": [
+    {
+      "id": "p2econ5-076",
+      "type": "fillblank",
+      "topic": "Financial Year",
+      "difficulty": "medium",
+      "q": "The year on which a person's income tax is calculated, running from 1 April to 31 March, is called a ___.",
+      "answerVariants": ["financial year", "Financial Year", "financial yr"],
+      "explanation": "Personal income tax is paid on the income a person earns in a financial year, such as 1 April 2001 to 31 March 2002.",
+      "fact": "Personal income tax is a tax paid on the income a person earns in a year (called a financial year, say 1 April 2001 to 31 March 2002)."
+    },
+    {
+      "id": "p2econ5-077",
+      "type": "mcq",
+      "topic": "Income Tax Administration",
+      "difficulty": "hard",
+      "q": "The tax slabs are proposed by the Ministry of Finance as part of which document presented to the Parliament every year?",
+      "options": [
+        "The Union Budget",
+        "The BSE SENSEX index",
+        "An insurance policy",
+        "A fixed deposit receipt"
+      ],
+      "answer": 0,
+      "explanation": "Tax slabs are proposed by the Ministry of Finance as part of the Union Budget, which is presented to the Parliament every year.",
+      "fact": "The tax slabs are proposed by the Ministry of Finance as part of the Union Budget presented to the Parliament every year."
+    },
+    {
+      "id": "p2econ5-078",
+      "type": "mcq",
+      "topic": "Income Tax Administration",
+      "difficulty": "hard",
+      "q": "Which body, under the Ministry of Finance, is responsible for administering the laws relating to direct taxes in India?",
+      "options": [
+        "The Bombay Stock Exchange",
+        "The Central Board of Direct Taxes (CBDT)",
+        "The Ayushman Bharat Yojana",
+        "The Sukanya Samriddhi Yojana"
+      ],
+      "answer": 1,
+      "explanation": "The Central Board of Direct Taxes (CBDT), under the Ministry of Finance, administers the laws relating to direct taxes in India.",
+      "fact": "The Central Board of Direct Taxes (CBDT), under the Ministry of Finance, is responsible for administering the laws relating to direct taxes in India."
+    },
+    {
+      "id": "p2econ5-079",
+      "type": "order",
+      "topic": "Income Tax Slabs",
+      "difficulty": "hard",
+      "q": "Arrange these new-regime tax rates for FY 2025–26 from the lowest income slab to the highest.",
+      "orderItems": [
+        "Nil",
+        "5%",
+        "10%",
+        "15%",
+        "20%"
+      ],
+      "explanation": "Under the new regime, income up to ₹4 lakh is taxed at Nil, ₹4–8 lakh at 5%, ₹8–12 lakh at 10%, ₹12–16 lakh at 15%, and ₹16–20 lakh at 20%, rising further to 25% and 30% for higher slabs.",
+      "fact": "Table 5.1 New Tax Regime (FY 2025–26): Up to ₹4 lakh—Nil; ₹4–8 lakh—5%; ₹8–12 lakh—10%; ₹12–16 lakh—15%; ₹16–20 lakh—20%; ₹20–24 lakh—25%; above ₹24 lakh—30%."
+    },
+    {
+      "id": "p2econ5-080",
+      "type": "mcq",
+      "topic": "Income Tax Slabs",
+      "difficulty": "medium",
+      "q": "At what rate is annual income between ₹8 lakh and ₹12 lakh taxed under the new tax regime for FY 2025–26?",
+      "options": [
+        "5%",
+        "10%",
+        "15%",
+        "20%"
+      ],
+      "answer": 1,
+      "explanation": "Table 5.1 shows the ₹8 lakh–₹12 lakh slab is taxed at 10%; the ₹4–8 lakh slab is at 5% and the ₹12–16 lakh slab at 15%.",
+      "fact": "New Tax Regime (Applicable for FY 2025–26): ₹8 lakh–₹12 lakh — 10%."
+    },
+    {
+      "id": "p2econ5-081",
+      "type": "mcq",
+      "topic": "Income Tax Slabs",
+      "difficulty": "hard",
+      "q": "Under the new tax regime for FY 2025–26, annual income above ₹24,00,000 is taxed at—",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "Nil"
+      ],
+      "answer": 2,
+      "explanation": "The top slab, covering income above ₹24,00,000, carries the highest rate of 30% under the new regime for FY 2025–26.",
+      "fact": "New Tax Regime (Applicable for FY 2025–26): Above ₹24,00,000 — 30%."
+    },
+    {
+      "id": "p2econ5-082",
+      "type": "mcq",
+      "topic": "Income Tax Calculation",
+      "difficulty": "hard",
+      "q": "Priya, a business analyst, earns ₹14 lakh per year. After subtracting the standard deduction of ₹75,000, what is her taxable income?",
+      "options": [
+        "₹14,00,000",
+        "₹13,25,000",
+        "₹13,75,000",
+        "₹12,25,000"
+      ],
+      "answer": 1,
+      "explanation": "Her annual salary of ₹14,00,000 minus the standard deduction of ₹75,000 (allowed under the Income-tax Act, 2025) gives a taxable income of ₹13,25,000, the figure on which the tax slabs are applied.",
+      "fact": "Annual Salary 14,00,000; Standard Deduction 75,000; Taxable Income 13,25,000."
+    },
+    {
+      "id": "p2econ5-083",
+      "type": "fillblank",
+      "topic": "Income Tax Slabs",
+      "difficulty": "medium",
+      "q": "Under the new tax regime for FY 2025–26, annual income up to ₹___ is taxed at Nil.",
+      "answerVariants": ["4 lakh", "₹4 lakh", "4,00,000", "400000", "4", "four lakh"],
+      "explanation": "The first slab of the new regime taxes income up to ₹4 lakh at Nil, which is why individuals earning below this limit are exempt from income tax.",
+      "fact": "New Tax Regime (Applicable for FY 2025–26): Up to ₹4 lakh — Nil."
+    },
+    {
+      "id": "p2econ5-084",
+      "type": "mcq",
+      "topic": "Income Tax Calculation",
+      "difficulty": "hard",
+      "q": "Using the new-regime slabs on her taxable income of ₹13,25,000, what is Priya's total income tax?",
+      "options": [
+        "₹75,000",
+        "₹78,750",
+        "₹1,32,500",
+        "₹40,000"
+      ],
+      "answer": 1,
+      "explanation": "Her tax adds up as ₹20,000 (5% slab) + ₹40,000 (10% slab) + ₹18,750 (15% on the remaining ₹1,25,000) = ₹78,750 in total.",
+      "fact": "Total Tax ₹78,750."
+    },
+    {
+      "id": "p2econ5-085",
+      "type": "mcq",
+      "topic": "Income Tax Calculation",
+      "difficulty": "hard",
+      "q": "How much of Priya's taxable income of ₹13,25,000 falls in the 15% tax slab?",
+      "options": [
+        "₹4,00,000",
+        "₹75,000",
+        "₹1,25,000",
+        "₹13,25,000"
+      ],
+      "answer": 2,
+      "explanation": "After the first ₹4 lakh (Nil), the next ₹4 lakh (5%) and the next ₹4 lakh (10%), the remaining ₹1,25,000 of her income falls in the ₹12,00,001–₹13,25,000 range taxed at 15%.",
+      "fact": "₹12,00,001–₹13,25,000 (remaining ₹1,25,000) — 15% of ₹1,25,000 = ₹18,750."
+    },
+    {
+      "id": "p2econ5-086",
+      "type": "wrongstatement",
+      "topic": "Income Tax Slabs",
+      "difficulty": "hard",
+      "q": "Which of these statements about the new tax regime for FY 2025–26 is INCORRECT?",
+      "options": [
+        "Income up to ₹4 lakh is taxed at Nil",
+        "Income between ₹4 lakh and ₹8 lakh is taxed at 5%",
+        "Income between ₹8 lakh and ₹12 lakh is taxed at 20%",
+        "Income above ₹24,00,000 is taxed at 30%"
+      ],
+      "answer": 2,
+      "explanation": "The ₹8–12 lakh slab is taxed at 10%, not 20%; the 20% rate applies to the ₹16,00,001–₹20,00,000 slab. The other statements match Table 5.1.",
+      "fact": "New Tax Regime (FY 2025–26): ₹8 lakh–₹12 lakh — 10%; ₹16,00,001–₹20,00,000 — 20%."
+    },
+    {
+      "id": "p2econ5-087",
+      "type": "assertion",
+      "topic": "Progressive Taxation",
+      "difficulty": "hard",
+      "q": "Assertion (A): Under progressive taxation, everyone pays tax at the same flat rate regardless of income.\nReason (R): As income increases, the tax payable to the government also increases.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "A is false: progressive taxation charges higher tax rates on higher incomes through slabs, not a flat rate for all. R is true and describes exactly how tax payable rises with income.",
+      "fact": "As income increases, the tax payable to the government also increases. This system is known as progressive taxation, which aims to reduce income inequality by imposing higher tax rates on individuals with higher incomes."
+    },
+    {
+      "id": "p2econ5-088",
+      "type": "multiselect",
+      "topic": "Income Tax Calculation",
+      "difficulty": "hard",
+      "q": "Select all correct figures from Priya's income tax calculation.",
+      "options": [
+        "Tax on the income in the 5% slab: ₹20,000",
+        "Tax on the income in the 10% slab: ₹40,000",
+        "Tax on the income in the 15% slab: ₹50,000",
+        "Total tax: ₹78,750"
+      ],
+      "answerIndices": [0, 1, 3],
+      "explanation": "Priya's tax is ₹20,000 on the second ₹4 lakh (at 5%), ₹40,000 on the third ₹4 lakh (at 10%), and ₹18,750—not ₹50,000—on the remaining ₹1,25,000 (at 15%), for a total of ₹78,750.",
+      "fact": "5% of ₹4,00,000 = ₹20,000; 10% of ₹4,00,000 = ₹40,000; 15% of ₹1,25,000 = ₹18,750; Total Tax ₹78,750."
+    },
+    {
+      "id": "p2econ5-089",
+      "type": "mcq",
+      "topic": "Income Tax Calculation",
+      "difficulty": "hard",
+      "q": "Sai's taxable income is ₹3,80,000 in a financial year. How much income tax does he pay under the new-regime slabs?",
+      "options": [
+        "Nil, because income up to ₹4 lakh is not taxed",
+        "₹19,000, which is 5% of his income",
+        "₹38,000, which is 10% of his income",
+        "₹3,800, which is 1% of his income"
+      ],
+      "answer": 0,
+      "explanation": "Since Sai's income of ₹3,80,000 is below ₹4 lakh, it falls entirely in the Nil slab, so he pays no income tax under the new regime.",
+      "fact": "Sai's taxable income is ₹3,80,000 in a financial year... Up to ₹4 lakh — Nil."
+    },
+    {
+      "id": "p2econ5-090",
+      "type": "wrongstatement",
+      "topic": "Personal Income Tax",
+      "difficulty": "medium",
+      "q": "Which of these statements about personal income tax is INCORRECT?",
+      "options": [
+        "It is a tax paid on the income a person earns in a year",
+        "Individuals who earn below a certain limit are exempt from paying it",
+        "It is calculated using a slab system",
+        "Every citizen must pay the same fixed amount of tax regardless of income"
+      ],
+      "answer": 3,
+      "explanation": "Income tax is not a fixed amount for all: under progressive taxation, the tax payable rises with income, and those earning below the limit are exempt. The other statements are correct.",
+      "fact": "All citizens of India with a personal income are required to pay income tax, with the sole exception of individuals who earn below a certain limit and are exempt from paying the tax."
+    },
+    {
+      "id": "p2econ5-091",
+      "type": "mcq",
+      "topic": "Managing Money Wisely",
+      "difficulty": "easy",
+      "q": "According to the chapter's conclusion, managing money wisely is—",
+      "options": [
+        "only about earning more income",
+        "about making careful financial decisions at every stage, from spending to paying taxes",
+        "a skill needed only by business analysts like Priya",
+        "something to start only after retirement"
+      ],
+      "answer": 1,
+      "explanation": "The chapter concludes that managing money wisely is not just about earning more—it is about making careful financial decisions at every stage: spending, saving, investing, protecting against risks, borrowing responsibly, and paying taxes.",
+      "fact": "Managing money wisely is not just about earning more—it is about making careful financial decisions at every stage, whether it involves spending, saving, investing, protecting against risks, borrowing responsibly, or paying taxes."
+    },
+    {
+      "id": "p2econ5-092",
+      "type": "match",
+      "topic": "Income Tax Terms",
+      "difficulty": "hard",
+      "q": "Match each income tax term with its meaning.",
+      "pairs": [
+        { "l": "Direct tax", "r": "A tax paid directly on a person's or organisation's income or profits" },
+        { "l": "Progressive taxation", "r": "Higher tax rates imposed on individuals with higher incomes" },
+        { "l": "Standard deduction", "r": "A fixed amount salaried employees can deduct before calculating tax" },
+        { "l": "Tax slab", "r": "A range of income taxed at a specified rate" },
+        { "l": "Taxable income", "r": "The income on which tax is calculated after deductions" }
+      ],
+      "explanation": "Direct taxes like income tax are paid on income or profits; progressive taxation charges higher rates at higher incomes; the standard deduction is a fixed deduction for salaried employees and pensioners; slabs are income ranges taxed at specified rates; and taxable income is what remains after deductions.",
+      "fact": "Direct taxes, which are paid directly on a person's or organisation's income or profits... progressive taxation... imposing higher tax rates on individuals with higher incomes... Standard deduction: A fixed amount that salaried employees and pensioners can deduct... taxable income is divided into different ranges, called tax slabs, and each slab is taxed at a specified rate."
+    },
+    {
+      "id": "p2econ5-093",
+      "type": "assertion",
+      "topic": "Investing and Inflation",
+      "difficulty": "medium",
+      "q": "Assertion (A): Investing helps protect the value of money.\nReason (R): Investing guarantees fixed returns that never change, regardless of market conditions.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "A is true: investing increases wealth and lets money grow faster than inflation, protecting its value. R is false: returns are not guaranteed—they vary with the investment option and its risks.",
+      "fact": "While keeping savings in cash provides greater liquidity, investing helps increase wealth and protects the value of money. It also allows money to grow faster than the rate of inflation."
+    },
+    {
+      "id": "p2econ5-094",
+      "type": "truefalse",
+      "topic": "Financial Habits",
+      "difficulty": "easy",
+      "q": "Making informed financial decisions from a young age builds financial security, independence, and confidence for the future.",
+      "answer": "true",
+      "explanation": "The chapter's summary stresses that informed money decisions made early in life build financial security, independence, and confidence for the future.",
+      "fact": "Making informed financial decisions from a young age builds financial security, independence, and confidence for the future."
+    },
+    {
+      "id": "p2econ5-095",
+      "type": "order",
+      "topic": "Pillars of Personal Finance",
+      "difficulty": "easy",
+      "q": "Arrange the five pillars of personal finance in the order they appear in the chapter.",
+      "orderItems": [
+        "Income",
+        "Budgeting",
+        "Saving",
+        "Investing",
+        "Protection and risk management"
+      ],
+      "explanation": "The chapter presents the pillars in this order—income, budgeting, saving, investing, and protection—which together ensure financial security for individuals.",
+      "fact": "Personal finance rests on the five pillars—income, budgeting, saving, investing, and protection—to ensure financial security for individuals."
+    },
+    {
+      "id": "p2econ5-096",
+      "type": "mcq",
+      "topic": "Save First Spend Later",
+      "difficulty": "medium",
+      "q": "Following 'save first, spend later', a family receives ₹1,00,000 and saves ₹20,000 first. How much is available for spending?",
+      "options": [
+        "₹1,00,000",
+        "₹80,000",
+        "₹20,000",
+        "₹1,20,000"
+      ],
+      "answer": 1,
+      "explanation": "Expenses = Income – Savings, so with ₹1,00,000 received and ₹20,000 saved first, ₹80,000 remains for spending, keeping future needs and emergencies covered.",
+      "fact": "If your family receives ₹1,00,000 and saves ₹20,000 first, only ₹80,000 is available for spending."
+    },
+    {
+      "id": "p2econ5-097",
+      "type": "multiselect",
+      "topic": "Financial Goals",
+      "difficulty": "easy",
+      "q": "Select all examples of financial goals mentioned in the chapter.",
+      "options": [
+        "Saving for a school trip next month",
+        "Buying sports equipment after six months",
+        "Impulse shopping during a sale",
+        "Saving for higher education in the future"
+      ],
+      "answerIndices": [0, 1, 3],
+      "explanation": "The chapter's examples of financial goals include saving for a school trip next month, buying sports equipment after six months, saving for higher education, and setting aside money for emergencies—impulse shopping is the kind of spending budgeting helps control.",
+      "fact": "Other examples include: Saving for a school trip next month. Buying sports equipment after six months. Saving for higher education in the future. Setting aside money for emergencies."
+    },
+    {
+      "id": "p2econ5-098",
+      "type": "order",
+      "topic": "Setting Financial Goals",
+      "difficulty": "medium",
+      "q": "Arrange the four goal-setting questions in the order the chapter lists them.",
+      "orderItems": [
+        "What do I want to achieve?",
+        "How much money will I need?",
+        "By when do I want to achieve it?",
+        "What steps can help me reach this goal?"
+      ],
+      "explanation": "The chapter suggests asking, in order: what you want to achieve, how much money you will need, by when you want to achieve it, and what steps can help you reach the goal.",
+      "fact": "One simple way to set goals is to ask: What do I want to achieve? How much money will I need? By when do I want to achieve it? What steps can help me reach this goal?"
+    },
+    {
+      "id": "p2econ5-099",
+      "type": "fillblank",
+      "topic": "Save First Spend Later",
+      "difficulty": "easy",
+      "q": "Complete the 'save first, spend later' rule recommended by financial experts: Expenses = Income – ___.",
+      "answerVariants": ["savings", "Savings", "saving"],
+      "explanation": "The rule 'Expenses = Income – Savings' means saving is done first, and only what remains after saving is available for spending.",
+      "fact": "Many financial experts recommend: Expenses = Income – Savings."
+    },
+    {
+      "id": "p2econ5-100",
+      "type": "wrongstatement",
+      "topic": "Managing Money Wisely",
+      "difficulty": "easy",
+      "q": "Which of these statements about managing money is INCORRECT?",
+      "options": [
+        "Money is an important resource that should be utilised efficiently",
+        "The choices individuals make today shape their financial future",
+        "Managing money wisely is only about earning more and more income",
+        "Personal finance involves decisions about spending, saving, investing and protecting money"
+      ],
+      "answer": 2,
+      "explanation": "The chapter stresses that managing money wisely is NOT just about earning more—it is about careful financial decisions at every stage. The other statements reflect the chapter's key ideas.",
+      "fact": "Managing money wisely is not just about earning more—it is about making careful financial decisions at every stage. The choices individuals make today shape their financial future."
+    }
+  ]
+}

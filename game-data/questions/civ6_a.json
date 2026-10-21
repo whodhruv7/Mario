@@ -1,0 +1,316 @@
+{
+  "chapterId": "civ6",
+  "fragment": "a",
+  "questions": [
+    {
+      "id": "civ6-001",
+      "type": "mcq",
+      "topic": "Meaning of democracy",
+      "difficulty": "easy",
+      "q": "In a democracy, where does the ultimate source of power and authority lie?",
+      "options": ["With the citizens of the country", "With the army", "With a single political party", "With the king or ruler"],
+      "answer": 0,
+      "explanation": "Democracy is a form of government in which the source of power and authority lies with the citizens, who elect their representatives through free and fair elections.",
+      "fact": "Democracy is a form of government in which the source of power and authority lies with the citizens of the country."
+    },
+    {
+      "id": "civ6-002",
+      "type": "mcq",
+      "topic": "Constitution of India",
+      "difficulty": "easy",
+      "q": "When did the Constitution of India come into force?",
+      "options": ["26 November 1949", "26 January 1950", "15 August 1947", "26 January 1949"],
+      "answer": 1,
+      "explanation": "The Constitution was adopted on 26 November 1949 but came into force only on 26 January 1950, the day celebrated as Republic Day.",
+      "fact": "The Constitution of India was adopted on 26 November 1949 and came into force on 26 January 1950."
+    },
+    {
+      "id": "civ6-003",
+      "type": "mcq",
+      "topic": "Vedic assemblies",
+      "difficulty": "easy",
+      "q": "Which of these were assemblies of the Vedic period that involved collective decision-making?",
+      "options": ["Lok Sabha and Rajya Sabha", "Sabha, Samiti and Vidhata", "Gram Sabha and Mahila Sabha", "Panchayat and Municipality"],
+      "answer": 1,
+      "explanation": "The Sabha, Samiti and Vidhata were assemblies of the Vedic period that practised collective decision-making, showing democracy's early roots in India.",
+      "fact": "Assemblies of the Vedic period such as Sabha, Samiti, and Vidhata involved collective decision-making."
+    },
+    {
+      "id": "civ6-004",
+      "type": "mcq",
+      "topic": "Vedic democratic values",
+      "difficulty": "easy",
+      "q": "The verse from the Aikyamatya Suktam of the Rig Veda emphasises the importance of:",
+      "options": ["The king's absolute authority", "Collective thinking, shared discussion and unity of purpose", "Hereditary succession to the throne", "Wealth and military power"],
+      "answer": 1,
+      "explanation": "The verse values collective thinking, shared discussion and unity of purpose, showing that consultation, consensus and shared responsibility have deep roots in India's intellectual and cultural traditions.",
+      "fact": "A verse from the Aikyamatya Suktam of the Rig Veda emphasises the importance of collective thinking, shared discussion, and unity of purpose."
+    },
+    {
+      "id": "civ6-005",
+      "type": "mcq",
+      "topic": "Constituent Assembly",
+      "difficulty": "easy",
+      "q": "In which year was the Constituent Assembly formed to draft India's Constitution?",
+      "options": ["1946", "1947", "1949", "1950"],
+      "answer": 0,
+      "explanation": "The Constituent Assembly was formed in 1946, before India attained independence in 1947, to draft a constitution for the country.",
+      "fact": "Before India attained independence in 1947, the Constituent Assembly was formed in 1946 to draft a constitution for the country."
+    },
+    {
+      "id": "civ6-006",
+      "type": "mcq",
+      "topic": "Constitution drafting time",
+      "difficulty": "medium",
+      "q": "How long did the Constituent Assembly take to draft the Constitution?",
+      "options": ["1 year and 6 months", "2 years, 11 months and 18 days", "3 years and 5 months", "11 months and 18 days"],
+      "answer": 1,
+      "explanation": "It took the Constituent Assembly 2 years, 11 months and 18 days to draft the world's longest written Constitution.",
+      "fact": "It took the Assembly 2 years, 11 months, and 18 days to draft the world's longest written Constitution."
+    },
+    {
+      "id": "civ6-007",
+      "type": "mcq",
+      "topic": "Strength of democracy",
+      "difficulty": "easy",
+      "q": "According to the chapter, what is the real strength of a democracy?",
+      "options": ["A powerful army", "Wealth and natural resources", "Its citizens—their participation, awareness of rights and duties, and commitment to honesty and fairness", "A single strong leader"],
+      "answer": 2,
+      "explanation": "The real strength of democracy lies in its citizens—their participation, awareness of duties and rights, and commitment to honesty and fairness; without these, no democratic institution can function effectively.",
+      "fact": "The real strength of democracy lies in its citizens—their participation, awareness of duties and rights, and commitment to honesty and fairness."
+    },
+    {
+      "id": "civ6-008",
+      "type": "mcq",
+      "topic": "Universal Adult Franchise",
+      "difficulty": "easy",
+      "q": "Every citizen aged 18 years and above has the right to vote through a secret ballot. What is this right called?",
+      "options": ["Universal Adult Franchise", "Right to Property", "Right Against Exploitation", "Directive Principles of State Policy"],
+      "answer": 0,
+      "explanation": "The right of every citizen aged 18 years and above to vote through a secret ballot is known as Universal Adult Franchise.",
+      "fact": "Every citizen, 18 years of age and above, has the right to vote through a secret ballot. This right is known as the Universal Adult Franchise."
+    },
+    {
+      "id": "civ6-009",
+      "type": "truefalse",
+      "topic": "India largest democracy",
+      "difficulty": "easy",
+      "q": "India is the world's largest democracy, with a voter base of over 96.8 crore (in 2024).",
+      "answer": "true",
+      "explanation": "With a population of over 140 crore and over 96.8 crore registered voters in 2024, India represents the largest participatory democracy in the world.",
+      "fact": "India is the world's largest democracy... with a population of over 140 crore and a voter base of over 96.8 crore (in 2024)."
+    },
+    {
+      "id": "civ6-010",
+      "type": "truefalse",
+      "topic": "Early Indian kingship",
+      "difficulty": "easy",
+      "q": "In early India, the king was an independent ruler who never consulted assemblies or ministers.",
+      "answer": "false",
+      "explanation": "From the earliest times, the king was not an independent ruler; he worked in consultation with assemblies, ministers and officers of various capacities.",
+      "fact": "The king was not an independent ruler but rather worked in consultation with assemblies, ministers and officers of various capacities."
+    },
+    {
+      "id": "civ6-011",
+      "type": "truefalse",
+      "topic": "Constitution flexibility",
+      "difficulty": "medium",
+      "q": "The Constituent Assembly's Debates reflect the belief that the Constitution should be a rigid legal code that never changes.",
+      "answer": "false",
+      "explanation": "The Debates reflect the members' belief that the Constitution should not be a rigid legal code but a dynamic document capable of evolving through lawful amendments without compromising its fundamental values.",
+      "fact": "The CAD reflects the members' belief that the constitution should not be a rigid legal code, but a dynamic document capable of evolving through lawful amendments without compromising its fundamental values."
+    },
+    {
+      "id": "civ6-012",
+      "type": "truefalse",
+      "topic": "Influences on Constitution",
+      "difficulty": "medium",
+      "q": "Only indigenous traditions shaped the Constitution; the global spread of democratic values had no influence on the Constituent Assembly's Debates.",
+      "answer": "false",
+      "explanation": "Apart from indigenous democratic traditions, the global spread of democratic values also influenced the Constituent Assembly's Debates, contributing to a robust, flexible, transformative and responsive constitution.",
+      "fact": "Apart from the indigenous democratic traditions, the global spread of democratic values also influenced the Constituent Assembly's Debates (CAD)."
+    },
+    {
+      "id": "civ6-013",
+      "type": "fillblank",
+      "topic": "Constitution adoption date",
+      "difficulty": "easy",
+      "q": "The Constitution of India was adopted on 26 November ___ and came into force on 26 January 1950.",
+      "answerVariants": ["1949"],
+      "explanation": "The Constitution was adopted on 26 November 1949 and came into force on 26 January 1950, which is celebrated as Republic Day.",
+      "fact": "The Constitution of India was adopted on 26 November 1949 and came into force on 26 January 1950."
+    },
+    {
+      "id": "civ6-014",
+      "type": "fillblank",
+      "topic": "Media in democracy",
+      "difficulty": "easy",
+      "q": "Owing to its critical role in safeguarding people's voices, the media is often referred to as the '___ pillar of democracy'.",
+      "answerVariants": ["fourth", "4th"],
+      "explanation": "Media is called the fourth pillar of democracy because it keeps people informed, raises public issues and serves as a voice of the masses.",
+      "fact": "Owing to its critical role in safeguarding people's voices and upholding democratic principles, media is often referred to as the 'fourth pillar of democracy'."
+    },
+    {
+      "id": "civ6-015",
+      "type": "fillblank",
+      "topic": "India that is Bharat",
+      "difficulty": "medium",
+      "q": "In the chapter, 'India, that is, ___', represents the largest participatory democracy in the world.",
+      "answerVariants": ["Bharat"],
+      "explanation": "The chapter uses the phrase 'India, that is, Bharat' while describing the largest participatory democracy, where people choose their government by electing their representatives.",
+      "fact": "India, that is, Bharat, represents the largest participatory democracy, where people choose their government by electing their representatives.",
+      "hint": "The chapter uses India's ancient Sanskrit name."
+    },
+    {
+      "id": "civ6-016",
+      "type": "match",
+      "topic": "Democratic leaders",
+      "difficulty": "medium",
+      "q": "Match each leader with what the chapter associates them with.",
+      "pairs": [
+        {"l": "Dr. B.R. Ambedkar", "r": "Chairman of the Drafting Committee of the Constitution"},
+        {"l": "Gautama Buddha", "r": "Founded the Bauddha Sangha, where members chose their leader through voting"},
+        {"l": "Jayaprakash Narayan", "r": "Popularly known as Lok Nayak"},
+        {"l": "Indira Gandhi", "r": "Led the government when the Emergency was imposed"},
+        {"l": "Chaudhary Charan Singh", "r": "Advocated for the rights of the rural poor"}
+      ],
+      "explanation": "Each leader is linked to a specific contribution—Ambedkar chaired the Drafting Committee, Buddha founded the voting Sangha, Narayan was the Lok Nayak, the Emergency came during Indira Gandhi's government, and Charan Singh championed the rural poor.",
+      "fact": "Dr. B.R. Ambedkar was Chairman of the Drafting Committee; the Bauddha Sangha was established by Gautama Buddha; Jayaprakash Narayan was popularly known as Lok Nayak; the Emergency was imposed during the government led by Indira Gandhi; Charan Singh advocated for the rights of the rural poor."
+    },
+    {
+      "id": "civ6-017",
+      "type": "order",
+      "topic": "Evolution of democracy",
+      "difficulty": "medium",
+      "q": "Arrange the stages in the evolution of democratic ideas in India in the correct order.",
+      "orderItems": [
+        "Assemblies like the Sabha and Samiti practised collective decision-making",
+        "The Bauddha Sangha chose its leaders through voting",
+        "British rule limited people's participation in governance",
+        "The independence struggle revived and strengthened democratic ideas",
+        "The Constituent Assembly drafted the Constitution"
+      ],
+      "explanation": "India's democratic ethos evolved from Vedic assemblies and the Bauddha Sangha, was disrupted by British colonial rule, revived by the freedom struggle, and finally took constitutional form in the Constituent Assembly.",
+      "fact": "The democratic ethos in India did not emerge suddenly; rather, it evolved through a long historical process."
+    },
+    {
+      "id": "civ6-018",
+      "type": "multiselect",
+      "topic": "Fundamental Rights",
+      "difficulty": "easy",
+      "q": "Select all rights that are among the six Fundamental Rights in the Indian Constitution.",
+      "options": ["Right to Equality", "Right to Property", "Right to Freedom of Religion", "Right to Constitutional Remedies"],
+      "answerIndices": [0, 2, 3],
+      "explanation": "The six Fundamental Rights are the Right to Equality, Right to Freedom, Right Against Exploitation, Right to Freedom of Religion, Cultural and Educational Rights, and the Right to Constitutional Remedies; the Right to Property is not among them.",
+      "fact": "There are six Fundamental Rights—the Right to Equality (Articles 14-18); the Right to Freedom (Articles 19-22); the Right Against Exploitation (Articles 23-24); the Right to Freedom of Religion (Articles 25-28); Cultural and Educational Rights (Articles 29-30); and the Right to Constitutional Remedies (Article 32)."
+    },
+    {
+      "id": "civ6-019",
+      "type": "multiselect",
+      "topic": "Challenges to democracy",
+      "difficulty": "medium",
+      "q": "Select all correct challenges that Indian democracy continues to face, according to the chapter.",
+      "options": ["Illiteracy", "Spread of fake news through social media", "Universal Adult Franchise", "Poverty and gender inequality"],
+      "answerIndices": [0, 1, 3],
+      "explanation": "The chapter lists illiteracy, misinformation such as fake news, inequality, poverty, regionalism, gender inequality and social discrimination as challenges; Universal Adult Franchise is a democratic strength, not a challenge.",
+      "fact": "India continues to face several challenges, such as illiteracy, misinformation, and inequality... poverty, regionalism, gender inequality, and social discrimination also create barriers to equal participation."
+    },
+    {
+      "id": "civ6-020",
+      "type": "wrongstatement",
+      "topic": "Democratic participation",
+      "difficulty": "easy",
+      "q": "Which of these statements about democracy is INCORRECT?",
+      "options": [
+        "In a democracy, the source of power and authority lies with the citizens.",
+        "In a democracy, only educated citizens have the right to participate in decision-making.",
+        "Democracy is founded on the principles of freedom, equality, justice, rights and duties.",
+        "In a democracy, citizens elect their representatives through free and fair elections."
+      ],
+      "answer": 1,
+      "explanation": "Democracy guarantees every citizen the right to vote, express opinions and participate in decision-making—education is never a condition for participation.",
+      "fact": "Democracy is founded on the principles of freedom, equality, justice, rights and duties, ensuring that citizens have the right to vote, express their opinions, and participate in the decision-making processes."
+    },
+    {
+      "id": "civ6-021",
+      "type": "wrongstatement",
+      "topic": "Constitution and equality",
+      "difficulty": "medium",
+      "q": "Which of these statements about the Constitution is INCORRECT?",
+      "options": [
+        "The Constitution of India was adopted on 26 November 1949 and came into force on 26 January 1950.",
+        "The Constitution guarantees and protects the Fundamental Rights of all citizens.",
+        "The Constitution permits discrimination on the basis of religion, race, caste, sex or place of birth.",
+        "The Constitution encourages active citizen participation at the national, state and local levels through elections."
+      ],
+      "answer": 2,
+      "explanation": "The Constitution ensures that no citizen is discriminated against on the basis of religion, race, caste, sex or place of birth.",
+      "fact": "It ensures that no citizen is discriminated against on the basis of religion, race, caste, sex, or place of birth."
+    },
+    {
+      "id": "civ6-022",
+      "type": "wrongstatement",
+      "topic": "Types of democracy",
+      "difficulty": "hard",
+      "q": "Which of these statements about types of democracy is INCORRECT?",
+      "options": [
+        "Direct democracy is easy to practise in large countries like India.",
+        "In a direct democracy, citizens directly participate in most decision-making processes.",
+        "In a representative democracy, people elect their representatives and do not directly govern.",
+        "A representative democracy holds periodic elections and the government is accountable to the people."
+      ],
+      "answer": 0,
+      "explanation": "Direct democracy is difficult to follow in large countries, which is why large democracies like India practise representative democracy instead.",
+      "fact": "Direct Democracy: Citizens directly participate in most decision-making processes... Difficult to follow in large countries. e.g. Switzerland.",
+      "hint": "Think about how practical it is for over 140 crore people to vote on every single decision."
+    },
+    {
+      "id": "civ6-023",
+      "type": "assertion",
+      "topic": "Media as fourth pillar",
+      "difficulty": "medium",
+      "q": "Assertion (A): The media is often referred to as the 'fourth pillar of democracy'.\nReason (R): Media plays a critical role in safeguarding people's voices and upholding democratic principles.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true, and the media's role in safeguarding people's voices and upholding democratic principles is exactly why it earns the title of the fourth pillar of democracy.",
+      "fact": "Owing to its critical role in safeguarding people's voices and upholding democratic principles, media is often referred to as the 'fourth pillar of democracy'."
+    },
+    {
+      "id": "civ6-024",
+      "type": "assertion",
+      "topic": "Parliamentary democracy",
+      "difficulty": "medium",
+      "q": "Assertion (A): In a parliamentary democracy, the people directly elect the executive.\nReason (R): In a parliamentary democracy, members of the executive are also part of the legislature.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "In a parliamentary democracy, people elect the legislature but not the executive; since members of the executive come from the legislature, A is false while R is true.",
+      "fact": "Parliamentary Democracy: Members of the Executive are also part of the legislature... People elect the legislature but not the executive."
+    },
+    {
+      "id": "civ6-025",
+      "type": "assertion",
+      "topic": "Constitution safeguards rights",
+      "difficulty": "easy",
+      "q": "Assertion (A): A constitution plays a crucial role in safeguarding the rights of the people in a democracy.\nReason (R): The Constitution of India not only guarantees but also protects the Fundamental Rights of all citizens.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true, and the Constitution's guarantee and protection of Fundamental Rights illustrates exactly how a constitution safeguards people's rights in a democracy.",
+      "fact": "A constitution plays a crucial role in safeguarding the rights of the people in a democracy... The Constitution not only guarantees but also protects the Fundamental Rights of all citizens."
+    }
+  ]
+}

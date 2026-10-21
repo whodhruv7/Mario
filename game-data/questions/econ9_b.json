@@ -1,0 +1,304 @@
+{
+  "chapterId": "econ9",
+  "fragment": "b",
+  "questions": [
+    {
+      "id": "econ9-026",
+      "type": "mcq",
+      "topic": "Substitute Goods",
+      "difficulty": "easy",
+      "q": "Tea and coffee are examples of...",
+      "options": ["complementary goods", "substitute goods", "public goods", "luxury goods"],
+      "answer": 1,
+      "explanation": "Substitute goods can replace each other — if one becomes expensive, consumers can switch to the other, as with tea and coffee.",
+      "fact": "Substitute goods – These goods can replace each other, like tea and coffee."
+    },
+    {
+      "id": "econ9-027",
+      "type": "mcq",
+      "topic": "Substitute Goods",
+      "difficulty": "medium",
+      "q": "The price of tea remains the same while coffee becomes more expensive. What is likely to happen?",
+      "options": ["Demand for tea will decrease", "Demand for tea will increase", "Demand for coffee will increase", "Nothing will change"],
+      "answer": 1,
+      "explanation": "When coffee becomes costlier, coffee drinkers switch to the relatively cheaper tea, increasing tea's demand even though tea's own price is unchanged.",
+      "fact": "If tea's price remains the same while coffee becomes more expensive, people who consume coffee may switch to tea, thereby increasing its demand."
+    },
+    {
+      "id": "econ9-028",
+      "type": "mcq",
+      "topic": "Complementary Goods",
+      "difficulty": "medium",
+      "q": "If movie tickets become more expensive, the demand for popcorn sold in cinema halls may...",
+      "options": ["rise", "fall", "remain unchanged", "become infinite"],
+      "answer": 1,
+      "explanation": "Movie tickets and popcorn are complementary goods used together — costlier tickets keep people away from cinemas, so popcorn demand also falls.",
+      "fact": "Similarly, if movie tickets become more expensive, people may refrain from going to the cinema, so demand for popcorn sold in cinema halls may also fall."
+    },
+    {
+      "id": "econ9-029",
+      "type": "mcq",
+      "topic": "Complementary Goods",
+      "difficulty": "easy",
+      "q": "Which of the following pairs is an example of complementary goods?",
+      "options": ["Tea and coffee", "Cars and petrol", "Apples and bananas", "Laptops and computers"],
+      "answer": 1,
+      "explanation": "Cars and petrol are generally used together to provide utility to the consumer, which makes them complementary goods; the other pairs can replace each other.",
+      "fact": "Complementary goods – These goods are generally used together to provide utility to the consumer, for instance, smartphones and earphones, or cars and petrol."
+    },
+    {
+      "id": "econ9-030",
+      "type": "mcq",
+      "topic": "Diminishing Marginal Utility",
+      "difficulty": "easy",
+      "q": "The additional utility derived from a product declines as more of it is consumed. This is known as the principle of...",
+      "options": ["diminishing marginal utility", "increasing marginal supply", "market equilibrium", "the law of supply"],
+      "answer": 0,
+      "explanation": "The first mango tastes delicious but later ones interest you less — as additional utility falls, willingness to pay falls too, so demand falls.",
+      "fact": "This is because the additional utility or usefulness derived from a product declines as more of it is consumed. This is known as the diminishing marginal utility principle in economics."
+    },
+    {
+      "id": "econ9-031",
+      "type": "mcq",
+      "topic": "Seasonality of Demand",
+      "difficulty": "medium",
+      "q": "Crowded bookshops at the beginning of a new academic session illustrate demand influenced by...",
+      "options": ["income changes", "seasonality", "a fall in population", "hoarding"],
+      "answer": 1,
+      "explanation": "Seasonal demand depends on weather, festivals and cultural habits rather than price — bookshops crowd when the academic session begins, just as sweet shops fill up during the festive season.",
+      "fact": "Have you seen crowded bookshops at the beginning of the new academic session? ... individuals may demand different products at different times of the year, and these changes often depend on weather, festivals, and cultural habits rather than the price of the good."
+    },
+    {
+      "id": "econ9-032",
+      "type": "mcq",
+      "topic": "Future Price Expectations",
+      "difficulty": "medium",
+      "q": "If consumers expect prices to fall in the future, they will...",
+      "options": ["buy immediately in large quantities", "postpone purchases, decreasing present demand", "demand more of the good now", "stop saving money"],
+      "answer": 1,
+      "explanation": "Expectation of lower prices makes buyers wait — purchases are postponed and present demand decreases, even though today's price has not changed.",
+      "fact": "If consumers expect prices to fall, they postpone purchases, decreasing present demand. If they expect prices to rise, they buy immediately, increasing present demand."
+    },
+    {
+      "id": "econ9-033",
+      "type": "mcq",
+      "topic": "Demand Determinants",
+      "difficulty": "easy",
+      "q": "According to the chapter, more elderly people in a population imply a higher demand for...",
+      "options": ["sports shoes", "formal shoes", "comfortable or orthopaedic shoes", "school bags"],
+      "answer": 2,
+      "explanation": "Population composition shapes demand — more children mean more sports shoes, more working adults mean more formal shoes, and more elderly people mean more comfortable or orthopaedic shoes.",
+      "fact": "More children indicate increased demand for sports shoes, more working adults means a higher demand for formal shoes, and more elderly people imply a higher demand for comfortable or orthopaedic shoes."
+    },
+    {
+      "id": "econ9-034",
+      "type": "mcq",
+      "topic": "Demand Determinants",
+      "difficulty": "medium",
+      "q": "When household income rises, what generally happens?",
+      "options": ["Consumers can afford to buy more or choose higher-quality products", "Demand for several goods falls", "Prices automatically crash", "Supply decreases"],
+      "answer": 0,
+      "explanation": "Higher incomes make people feel more confident about spending, so the quantity demanded for several goods rises even if prices stay the same.",
+      "fact": "When household income rises, consumers can afford to buy more or choose higher-quality products. A rise in income generally makes people feel more confident about their ability to spend, so the quantity demanded for several goods rises, even if prices remain the same."
+    },
+    {
+      "id": "econ9-035",
+      "type": "truefalse",
+      "topic": "Complementary Goods",
+      "difficulty": "easy",
+      "q": "If the demand for printers increases, the demand for printer cartridges may also rise, even though the price of cartridges is unchanged.",
+      "answer": "true",
+      "explanation": "Printers and cartridges are complementary goods — when a complement's demand rises, the paired good's demand rises too, regardless of its own price.",
+      "fact": "If the demand for printers increases, the demand for printer cartridges may also rise, even though the price of cartridges remains unchanged."
+    },
+    {
+      "id": "econ9-036",
+      "type": "truefalse",
+      "topic": "Substitute Goods",
+      "difficulty": "easy",
+      "q": "If the price of a substitute good increases, the demand for the other related good will increase.",
+      "answer": "true",
+      "explanation": "When a substitute becomes costlier, buyers shift to the relatively cheaper alternative, raising its demand.",
+      "fact": "Hence, if the price of the substitute good increases, the demand for the other related good will increase."
+    },
+    {
+      "id": "econ9-037",
+      "type": "truefalse",
+      "topic": "Demand Determinants",
+      "difficulty": "medium",
+      "q": "According to the chapter, Srivalli can easily substitute mangoes with oranges because oranges are cheaper.",
+      "answer": "false",
+      "explanation": "Srivalli likes mangoes and cannot substitute them with oranges even if oranges are cheaper — taste and preference strongly determine demand.",
+      "fact": "For example, Srivalli likes mangoes and cannot substitute them by oranges, even if oranges are cheaper than mangoes."
+    },
+    {
+      "id": "econ9-038",
+      "type": "truefalse",
+      "topic": "Future Price Expectations",
+      "difficulty": "medium",
+      "q": "If consumers expect prices to rise, they buy immediately, increasing present demand.",
+      "answer": "true",
+      "explanation": "Expected future price rises push buyers to purchase now rather than later, which increases present demand.",
+      "fact": "If they expect prices to rise, they buy immediately, increasing present demand."
+    },
+    {
+      "id": "econ9-039",
+      "type": "fillblank",
+      "topic": "Substitute Goods",
+      "difficulty": "easy",
+      "q": "Goods that can replace each other, like tea and coffee, are called ___ goods.",
+      "answerVariants": ["substitute", "substitute goods", "substitutes"],
+      "explanation": "Substitute goods satisfy the same need and can replace one another, so a price rise in one raises demand for the other.",
+      "fact": "Substitute goods – These goods can replace each other, like tea and coffee."
+    },
+    {
+      "id": "econ9-040",
+      "type": "fillblank",
+      "topic": "Complementary Goods",
+      "difficulty": "medium",
+      "q": "Goods that are generally used together, like smartphones and earphones or cars and petrol, are called ___ goods.",
+      "answerVariants": ["complementary", "complementary goods", "complements", "complement"],
+      "explanation": "Complementary goods are consumed together, so the demand for one moves with the demand for the other.",
+      "fact": "Complementary goods – These goods are generally used together to provide utility to the consumer, for instance, smartphones and earphones, or cars and petrol."
+    },
+    {
+      "id": "econ9-041",
+      "type": "fillblank",
+      "topic": "Diminishing Marginal Utility",
+      "difficulty": "medium",
+      "q": "As the utility derived from successive quantities of a product falls, the willingness to pay also decreases, so demand falls. This is the diminishing ___ utility principle.",
+      "answerVariants": ["marginal"],
+      "explanation": "Each extra unit gives less additional utility than the previous one, so buyers are willing to pay less for further units and demand falls.",
+      "fact": "This is known as the diminishing marginal utility principle in economics. As the utility derived from a successive quantity of products falls, the willingness to pay for the products also decreases, so demand falls."
+    },
+    {
+      "id": "econ9-042",
+      "type": "match",
+      "topic": "Demand Determinants",
+      "difficulty": "medium",
+      "q": "Match each concept that influences demand with its correct example from the chapter.",
+      "pairs": [
+        {"l": "Substitute goods", "r": "Tea and coffee"},
+        {"l": "Complementary goods", "r": "Cars and petrol"},
+        {"l": "Seasonality", "r": "Sweaters and jackets demanded in winter"},
+        {"l": "Future price expectations", "r": "Delaying durables before Diwali for festival discounts"},
+        {"l": "Diminishing marginal utility", "r": "Enjoying each extra mango less than the first"}
+      ],
+      "explanation": "Substitutes replace each other, complements are used together, seasonality shifts demand by the time of year, expected discounts delay purchases, and marginal utility falls with each extra unit consumed.",
+      "fact": "Chapter 9 examples: tea and coffee (substitutes); cars and petrol (complements); sweaters and jackets demanded during the winter season (seasonality); people delay buying durables before Diwali or the New Year, expecting festival discounts; the first mango tastes delicious but interest fades (diminishing marginal utility)."
+    },
+    {
+      "id": "econ9-043",
+      "type": "match",
+      "topic": "Market Terms",
+      "difficulty": "hard",
+      "q": "Match each market term with its correct meaning.",
+      "pairs": [
+        {"l": "Revenue", "r": "Total money earned from sales before expenses are deducted"},
+        {"l": "Hoarding", "r": "Accumulating goods beyond immediate necessity"},
+        {"l": "Black marketing", "r": "Illegal trade of goods that are banned or regulated"},
+        {"l": "Monopoly", "r": "Single seller controlling the entire supply of a unique product"},
+        {"l": "Price ceiling", "r": "Maximum amount a seller can charge for a product"}
+      ],
+      "explanation": "Revenue is pre-expense earnings, hoarding is excess accumulation driven by fear of shortages, black marketing is illegal trade, monopoly is single-seller control, and a price ceiling caps the chargeable price.",
+      "fact": "Definitions of revenue, hoarding, black marketing, monopoly and price ceiling from Chapter 9."
+    },
+    {
+      "id": "econ9-044",
+      "type": "order",
+      "topic": "Supply",
+      "difficulty": "easy",
+      "q": "Arrange the mango market stages of the season in the correct order.",
+      "orderItems": ["Start of season: supply is low and mangoes are costly", "Mid-season: supply increases", "Prices fall as supply grows"],
+      "explanation": "At the season's start low supply keeps prices high; as supply increases mid-season, prices fall — showing how prices depend on the interaction between demand and supply.",
+      "fact": "At the start of mango season, supply is low, making mangoes costly. Mid-season, the supply increases and prices fall."
+    },
+    {
+      "id": "econ9-045",
+      "type": "multiselect",
+      "topic": "Complementary Goods",
+      "difficulty": "medium",
+      "q": "Select all correct pairs of complementary goods from the chapter.",
+      "options": ["Smartphones and earphones", "Cars and petrol", "Tea and coffee", "Mangoes and bananas"],
+      "answerIndices": [0, 1],
+      "explanation": "Smartphones and earphones, and cars and petrol, are used together; tea-coffee and mangoes-bananas are substitute pairs that can replace each other.",
+      "fact": "Complementary goods – These goods are generally used together to provide utility to the consumer, for instance, smartphones and earphones, or cars and petrol. If Srivalli cannot afford to buy mangoes at the market price, she may buy bananas."
+    },
+    {
+      "id": "econ9-046",
+      "type": "multiselect",
+      "topic": "Demand Determinants",
+      "difficulty": "medium",
+      "q": "Select all correct factors, other than the product's own price, that influence demand.",
+      "options": ["Price of related goods", "Taste and preference of the buyer", "Future price expectations", "The seller's cost of production"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Prices of related goods, tastes, income, population, seasonality and future expectations shift demand; the seller's production cost affects supply, not demand.",
+      "fact": "Many other factors influence how much people want to buy, even when the price of the good or service remains the same — the price of related goods, income of the consumer, taste and preference of the buyer, population, seasonality, and future price expectations."
+    },
+    {
+      "id": "econ9-047",
+      "type": "wrongstatement",
+      "topic": "Demand Determinants",
+      "difficulty": "medium",
+      "q": "Which of these statements about the determinants of demand is INCORRECT?",
+      "options": [
+        "A rise in income generally increases the quantity demanded for several goods.",
+        "Taste and preferences of consumers determine their demand.",
+        "India's domestic consumer demand contributes to its economic growth.",
+        "Seasonal changes in demand depend mainly on the price of the good."
+      ],
+      "answer": 3,
+      "explanation": "Seasonal demand changes depend on weather, festivals and cultural habits rather than the price of the good.",
+      "fact": "...individuals may demand different products at different times of the year, and these changes often depend on weather, festivals, and cultural habits rather than the price of the good."
+    },
+    {
+      "id": "econ9-048",
+      "type": "wrongstatement",
+      "topic": "Substitute and Complementary Goods",
+      "difficulty": "easy",
+      "q": "Which of these statements about substitute and complementary goods is INCORRECT?",
+      "options": [
+        "Substitute goods can replace each other.",
+        "If Srivalli cannot afford mangoes, she may buy bananas.",
+        "Complementary goods are generally used together.",
+        "Substitute goods are always used together with each other."
+      ],
+      "answer": 3,
+      "explanation": "Substitutes replace each other, like tea for coffee; they are not used together — it is complementary goods like cars and petrol that are used together.",
+      "fact": "Substitute goods – These goods can replace each other... Complementary goods – These goods are generally used together to provide utility to the consumer."
+    },
+    {
+      "id": "econ9-049",
+      "type": "assertion",
+      "topic": "Complementary Goods",
+      "difficulty": "medium",
+      "q": "Assertion (A): The demand for printer cartridges may rise even when the price of cartridges is unchanged.\nReason (R): Printers and cartridges are complementary goods that are generally used together.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true and R explains A — because printers and cartridges are used together, a rise in the demand for printers pulls up cartridge demand regardless of cartridge prices.",
+      "fact": "If the demand for printers increases, the demand for printer cartridges may also rise, even though the price of cartridges remains unchanged."
+    },
+    {
+      "id": "econ9-050",
+      "type": "assertion",
+      "topic": "Future Price Expectations",
+      "difficulty": "hard",
+      "q": "Assertion (A): People delay buying durables before Diwali or the New Year.\nReason (R): They expect prices to rise sharply during the festival season.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "A is true — people do delay such purchases, but R is false: they wait because they expect festival discounts, that is, prices to fall, not rise.",
+      "fact": "For example, people delay buying durables before Diwali or the New Year, expecting festival discounts.",
+      "hint": "Why would anyone postpone a purchase until a festival?"
+    }
+  ]
+}

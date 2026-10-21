@@ -1,0 +1,296 @@
+{
+  "chapterId": "p2hist3",
+  "fragment": "a",
+  "questions": [
+    {
+      "id": "p2hist3-001",
+      "type": "mcq",
+      "topic": "Meaning of Resilience",
+      "difficulty": "easy",
+      "q": "In this chapter, what does 'resilience' refer to?",
+      "options": ["The capacity to survive and adapt in challenging situations", "The act of surrendering to a stronger power", "The policy of expanding territory through war", "The system of collecting land revenue"],
+      "answer": 0,
+      "explanation": "Resilience is the capacity to survive and adapt in challenging situations, including times of political unrest and instability. It also describes how communities absorb hardship while preserving their inherited socio-cultural and spiritual traditions.",
+      "fact": "Resilience refers to the capacity to survive and adapt in challenging situations, including times of political unrest and instability.",
+      "hint": "Think of the quality that lets a society recover and adapt after a shock."
+    },
+    {
+      "id": "p2hist3-002",
+      "type": "multiselect",
+      "topic": "Forms of Resistance",
+      "difficulty": "easy",
+      "q": "Select all correct forms that resistance may take, according to the chapter.",
+      "options": ["Warfare", "Unconditional surrender to invaders", "Alliances", "Diplomacy"],
+      "answerIndices": [0, 2, 3],
+      "explanation": "Resistance means actively opposing a force, authority or threat, and it may take the form of warfare, alliances, diplomacy, negotiation, or other political actions. Surrender is the very opposite of resistance.",
+      "fact": "Resistance may take the form of warfare, alliances, diplomacy, negotiation, or other political actions."
+    },
+    {
+      "id": "p2hist3-003",
+      "type": "assertion",
+      "topic": "Resistance and Resilience",
+      "difficulty": "easy",
+      "q": "Assertion (A): Resistance and resilience are closely linked.\nReason (R): Resilience is the backbone of resistance — the ability to endure comes from resilience.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 0,
+      "explanation": "The chapter states that resilience is the backbone of resistance: while a political cause or leadership provides the condition for resistance, the ability to endure comes from resilience. So R correctly explains A.",
+      "fact": "Resilience is the backbone of resistance. While a political cause or leadership provides the condition for resistance, the ability to endure comes from resilience."
+    },
+    {
+      "id": "p2hist3-004",
+      "type": "mcq",
+      "topic": "Mahmud of Ghazni's Invasions",
+      "difficulty": "easy",
+      "q": "Mahmūd of Ghaznī launched his first invasion in 1001 against which ruler?",
+      "options": ["Prithvīrāj Chauhān of Delhi", "Rāṇā Sāngā of Mewar", "Jayapāla of the Hindu Shāhi dynasty", "Kṛiṣhṇadevarāya of Vijayanagara"],
+      "answer": 2,
+      "explanation": "Mahmūd, the Sultan of Ghaznī (in present-day Afghanistan and northeastern Iran), launched his first invasion in 1001 against Jayapāla of the Hindu Shāhi dynasty.",
+      "fact": "Mahmūd, the Sultan of Ghaznī, launched his first invasion in 1001 against Jayapāla of the Hindu Shāhi dynasty."
+    },
+    {
+      "id": "p2hist3-005",
+      "type": "mcq",
+      "topic": "Second Battle of Tarain",
+      "difficulty": "easy",
+      "q": "Who won the Second Battle of Tarain in 1192?",
+      "options": ["Prithvīrāj Chauhān", "Mahmūd of Ghaznī", "Queen Nāikī Devī", "Muhammad Ghūrī"],
+      "answer": 3,
+      "explanation": "In the Second Battle of Tarain (1192), Muhammad Ghūrī defeated Prithvīrāj Chauhān. This victory opened the way for Turkish power over northern India.",
+      "fact": "1192: Second Battle of Tarain — Muhammad Ghūrī defeats Prithvīrāj Chauhān."
+    },
+    {
+      "id": "p2hist3-006",
+      "type": "mcq",
+      "topic": "Battle of Kasahrada",
+      "difficulty": "easy",
+      "q": "In 1178, who defeated Muhammad Ghūrī at Kasahrada, near Mount Abu?",
+      "options": ["Rāṇā Hammīr of Mewar", "Queen Nāikī Devī of the Chaulukya kingdom", "Jayapāla of the Hindu Shāhi dynasty", "Bhoja Paramāra of Dhārā"],
+      "answer": 1,
+      "explanation": "In 1178, Queen Nāikī Devī of the Chaulukya kingdom defeated Muhammad Ghūrī at Kasahrada, near Mount Abu — a celebrated example of regional resistance to invasion.",
+      "fact": "In 1178, Queen Nāikī Devī of the Chaulukya kingdom defeated Muhammad Ghūrī at Kasahrada, near Mount Abu.",
+      "hint": "She was a queen of the Chaulukya kingdom."
+    },
+    {
+      "id": "p2hist3-007",
+      "type": "mcq",
+      "topic": "Turkish Invasions",
+      "difficulty": "medium",
+      "q": "Which regions did the Turks fail to conquer?",
+      "options": ["Present-day Kerala and Tamil Nadu", "Gujarat and Malwa", "Present-day Odisha and parts of present-day Assam", "Bengal and Bihar"],
+      "answer": 2,
+      "explanation": "The Turks failed to conquer present-day Odisha and parts of present-day Assam, even though they overran much of northern India by the end of the 12th century.",
+      "fact": "The Turks failed to conquer present-day Odisha, and parts of present-day Assam."
+    },
+    {
+      "id": "p2hist3-008",
+      "type": "mcq",
+      "topic": "Causes of Invasions",
+      "difficulty": "hard",
+      "q": "Besides territorial expansion and religious motives, what does the chapter give as a major reason for the invasions of the Indian subcontinent?",
+      "options": ["The desire to learn Indian languages and sciences", "Invitations from rival Indian kings", "The search for iron and coal deposits", "The surplus agrarian produce of fertile plains fed by perennial rivers"],
+      "answer": 3,
+      "explanation": "The surplus agrarian produce of the fertile plains, fed by perennial river systems, contributed to the people's economic well-being and became a major reason for the invasions.",
+      "fact": "The surplus agrarian produce of the fertile plains fed by perennial river systems became a major reason for the invasions."
+    },
+    {
+      "id": "p2hist3-009",
+      "type": "truefalse",
+      "topic": "Turkish Invasions",
+      "difficulty": "easy",
+      "q": "During the 11th and 12th centuries, peninsular India remained free from Turkic control.",
+      "answer": "true",
+      "explanation": "Northern and western India bore the brunt of the Turkish invasions, while peninsular India remained free from Turkic control during the 11th and 12th centuries.",
+      "fact": "Northern and western India bore the brunt of Turkish invasions, while peninsular India remained free from Turkic control."
+    },
+    {
+      "id": "p2hist3-010",
+      "type": "fillblank",
+      "topic": "Delhi Sultanate",
+      "difficulty": "easy",
+      "q": "The Delhi Sultanate, a turning point in Indian history, was established in the year ___.",
+      "answerVariants": ["1206", "1206 CE"],
+      "explanation": "The Delhi Sultanate was established in 1206. The new state introduced administrative practices that led to greater centralisation of authority.",
+      "fact": "1206: Delhi Sultanate established."
+    },
+    {
+      "id": "p2hist3-011",
+      "type": "fillblank",
+      "topic": "Iqta System",
+      "difficulty": "easy",
+      "q": "Under the iqta system, territories were assigned to military commanders in lieu of ___.",
+      "answerVariants": ["salaries", "salary"],
+      "explanation": "Under the iqta system, territories were assigned to military commanders in lieu of salaries. It became a mechanism for land revenue collection and increased the burden on the peasantry.",
+      "fact": "The iqta system assigned territories to military commanders in lieu of salaries."
+    },
+    {
+      "id": "p2hist3-012",
+      "type": "match",
+      "topic": "Rulers and Dynasties",
+      "difficulty": "easy",
+      "q": "Match each ruler with the kingdom or dynasty they belonged to.",
+      "pairs": [
+        {"l": "Jayapāla", "r": "Hindu Shāhi dynasty"},
+        {"l": "Nāikī Devī", "r": "Chaulukya kingdom"},
+        {"l": "Bhoja Paramāra", "r": "Kingdom of Dhārā"},
+        {"l": "Vīra Ballāla III", "r": "Hoysāla kingdom"},
+        {"l": "Kṛiṣhṇadevarāya", "r": "Vijayanagara Empire"}
+      ],
+      "explanation": "Jayapāla was a Hindu Shāhi ruler, Nāikī Devī belonged to the Chaulukya kingdom, Bhoja Paramāra ruled Dhārā, Vīra Ballāla III was a Hoysāla king, and Kṛiṣhṇadevarāya was the celebrated Vijayanagara ruler.",
+      "fact": "Rulers of this period included Jayapāla (Hindu Shāhi), Nāikī Devī (Chaulukya), Bhoja Paramāra of Dhārā, Vīra Ballāla III (Hoysāla) and Kṛiṣhṇadevarāya (Vijayanagara)."
+    },
+    {
+      "id": "p2hist3-013",
+      "type": "order",
+      "topic": "Early Medieval Chronology",
+      "difficulty": "medium",
+      "q": "Arrange these events in the correct chronological order (earliest first).",
+      "orderItems": [
+        "Mahmūd of Ghaznī's first invasion against Jayapāla (1001)",
+        "Battle of Kasahrada — Nāikī Devī defeats Muhammad Ghūrī (1178)",
+        "Second Battle of Tarain — Muhammad Ghūrī defeats Prithvīrāj Chauhān (1192)",
+        "Establishment of the Delhi Sultanate (1206)"
+      ],
+      "explanation": "The correct sequence is Mahmūd's first invasion (1001), Nāikī Devī's victory at Kasahrada (1178), the Second Battle of Tarain (1192), and finally the establishment of the Delhi Sultanate (1206).",
+      "fact": "1001: Mahmūd of Ghaznī's first invasion; 1178: Battle of Kasahrada; 1192: Second Battle of Tarain; 1206: Delhi Sultanate established."
+    },
+    {
+      "id": "p2hist3-014",
+      "type": "mcq",
+      "topic": "Delhi Sultanate",
+      "difficulty": "medium",
+      "q": "Why is the establishment of the Delhi Sultanate in 1206 described as a turning point in Indian history?",
+      "options": ["It united all Indian rulers into one confederacy", "It introduced administrative practices that led to greater centralisation of authority", "It ended all forms of resistance in the subcontinent", "It shifted the capital of India to the Deccan"],
+      "answer": 1,
+      "explanation": "The new Sultanate state introduced administrative practices, such as the iqta system, that led to greater centralisation of authority and increased the burden on the peasantry.",
+      "fact": "The new state introduced administrative practices that led to greater centralisation of authority."
+    },
+    {
+      "id": "p2hist3-015",
+      "type": "mcq",
+      "topic": "Kakatiya Resistance",
+      "difficulty": "medium",
+      "q": "Rūdramā Devī, who reigned from 1262 to 1289, was a queen of which dynasty?",
+      "options": ["Yādava", "Kākatīya", "Hoysāla", "Chaulukya"],
+      "answer": 1,
+      "explanation": "Rūdramā Devī was the Kākatīya queen of the eastern Deccan, with her seat at Warangal, reigning from 1262 to 1289. The Kākatīyas repeatedly resisted the Sultans of Delhi.",
+      "fact": "1262–1289: Reign of Kākatīya Queen Rūdramā Devī."
+    },
+    {
+      "id": "p2hist3-016",
+      "type": "fillblank",
+      "topic": "Mewar's Recovery",
+      "difficulty": "hard",
+      "q": "Around 1325, the Sisodiā ruler Rāṇā Hammīr took possession of ___ from the Delhi Sultanate's tributaries.",
+      "answerVariants": ["Mewar", "Mewār"],
+      "explanation": "Around 1325, the Sisodiā ruler Rāṇā Hammīr took possession of Mewar from the Delhi Sultanate's tributaries, restoring Rajput control over the region.",
+      "fact": "c. 1325: The Sisodiā ruler Rāṇā Hammīr takes possession of Mewar from the Delhi Sultanate's tributaries."
+    },
+    {
+      "id": "p2hist3-017",
+      "type": "truefalse",
+      "topic": "Regional Resistance",
+      "difficulty": "medium",
+      "q": "Gujarat, Malwa, and Bundelkhand under the Chandellas put up stiff resistance to the Turks for about a hundred years.",
+      "answer": "true",
+      "explanation": "Even after some northern powers were subdued towards the end of the 12th century, Gujarat, Malwa and Bundelkhand under the Chandellas put up stiff resistance for about a hundred years thereafter.",
+      "fact": "Gujarat, Malwa, and Bundelkhand under the Chandellas put up stiff resistance for about a hundred years."
+    },
+    {
+      "id": "p2hist3-018",
+      "type": "multiselect",
+      "topic": "Resistance to the Sultanate",
+      "difficulty": "easy",
+      "q": "Select all correct dynasties that repeatedly resisted the Sultans of Delhi.",
+      "options": ["Ghurids of Ghazni", "Yādavas of Devagiri", "Kākatīyas of Warangal", "Hoysālas of present-day Karnataka"],
+      "answerIndices": [1, 2, 3],
+      "explanation": "The Yādavas of western Deccan (Devagiri), the Kākatīyas of eastern Deccan (Warangal) and the Hoysālas of present-day Karnataka repeatedly resisted the Sultans of Delhi. The Ghurids were themselves invaders.",
+      "fact": "The Yādava dynasty of western Deccan, the Kākatīya rulers of eastern Deccan, and the Hoysālas repeatedly resisted the Sultans of Delhi."
+    },
+    {
+      "id": "p2hist3-019",
+      "type": "wrongstatement",
+      "topic": "Delhi Sultanate",
+      "difficulty": "medium",
+      "q": "Which of these statements about the Delhi Sultanate is INCORRECT?",
+      "options": ["Sultanate forces demolished sites sacred to local communities during their military campaigns", "Resistance to the Sultanate was fuelled by political factors and the determination to preserve socio-cultural continuity", "The Sultanate faced opposition from regions including Mewar, Gwalior, Ajmer and Kannauj", "The Chauhāns, Gahaḍavālas and Senas never came under Turkic control"],
+      "answer": 3,
+      "explanation": "The Chauhāns, Gahaḍavālas and Senas did come under Turkic control towards the end of the 12th century. The other three statements match the textbook.",
+      "fact": "Some powers, such as the Chauhāns, Gahaḍavālas, and Senas, came under Turkic control towards the end of the 12th century."
+    },
+    {
+      "id": "p2hist3-020",
+      "type": "order",
+      "topic": "Khilji Campaigns",
+      "difficulty": "hard",
+      "q": "Arrange these campaigns of the Delhi Sultanate era in the correct chronological order.",
+      "orderItems": [
+        "Alauddin Khiljī captures Anhilwara and plunders the Somnath temple (1298)",
+        "Siege of Ranthambore by Alauddin Khiljī (1301)",
+        "Siege of Chittor by Alauddin Khiljī (1303)",
+        "Malik Kāfūr's expedition against the Yādavas of Devagiri (1307)"
+      ],
+      "explanation": "The order is Anhilwara and the Somnath plunder (1298), then the siege of Ranthambore (1301), then the siege of Chittor (1303), and finally Malik Kāfūr's expedition against the Yādavas of Devagiri (1307).",
+      "fact": "1298: Anhilwara captured and Somnath plundered; 1301: Ranthambore; 1303: Chittor; 1307: Malik Kāfūr against the Yādavas of Devagiri."
+    },
+    {
+      "id": "p2hist3-021",
+      "type": "assertion",
+      "topic": "Iqta System",
+      "difficulty": "medium",
+      "q": "Assertion (A): The iqta system increased the burden on the peasantry.\nReason (R): The iqta system abolished all land revenue collection in the Sultanate.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 2,
+      "explanation": "The iqta system did increase the peasantry's burden, but it did not abolish revenue collection — it actually became a mechanism for land revenue collection under the Delhi Sultanate. So A is true and R is false.",
+      "fact": "The iqta system became a mechanism for land revenue collection and a system that increased the burden on the peasantry."
+    },
+    {
+      "id": "p2hist3-022",
+      "type": "match",
+      "topic": "Kingdoms and Capitals",
+      "difficulty": "medium",
+      "q": "Match each kingdom with its capital or region.",
+      "pairs": [
+        {"l": "Yādavas of western Deccan", "r": "Devagiri"},
+        {"l": "Kākatīyas of eastern Deccan", "r": "Warangal"},
+        {"l": "Hoysālas", "r": "Present-day Karnataka"},
+        {"l": "Vijayanagara Empire", "r": "Near present-day Hampi"},
+        {"l": "Ahom kingdom", "r": "Garhgaon"}
+      ],
+      "explanation": "The Yādavas were based at Devagiri, the Kākatīyas at Warangal, the Hoysālas ruled in present-day Karnataka, Vijayanagara was located near present-day Hampi, and the Ahom capital was Garhgaon.",
+      "fact": "The Yādava dynasty (Devagiri), Kākatīya rulers (Warangal), Hoysālas (present-day Karnataka), Vijayanagara (near present-day Hampi), Ahom capital Garhgaon."
+    },
+    {
+      "id": "p2hist3-023",
+      "type": "wrongstatement",
+      "topic": "Turkish Invasions",
+      "difficulty": "easy",
+      "q": "Which of these statements about the Turkish invasions is INCORRECT?",
+      "options": ["Mahmūd was the Sultan of Ghaznī, in present-day Afghanistan and northeastern Iran", "Several states of Rajputana remained centres of sustained resistance", "The Delhi Sultanate was established by Mahmūd of Ghaznī after his invasion of 1001", "Arab forces from the mid-7th century were confronted and repulsed by Indian rulers across the Deccan, Malwa, Kashmir and Rajasthan"],
+      "answer": 2,
+      "explanation": "The Delhi Sultanate was established in 1206, long after Mahmūd of Ghaznī's raids; his 1001 invasion was against Jayapāla of the Hindu Shāhi dynasty. The other statements are correct.",
+      "fact": "Mahmūd of Ghaznī invaded in the 11th century, while the Delhi Sultanate was established in 1206."
+    },
+    {
+      "id": "p2hist3-024",
+      "type": "mcq",
+      "topic": "First Battle of Panipat",
+      "difficulty": "easy",
+      "q": "In the First Battle of Panipat (1526), Bābur defeated the forces of which ruler?",
+      "options": ["Rāṇā Sāngā of Mewar", "Ibrāhim Lodī", "Akbar", "Sher Shāh Sūrī"],
+      "answer": 1,
+      "explanation": "In 1526, Bābur defeated the Lodi forces in the First Battle of Panipat, bringing the Sultanate to an end. Ibrāhim Lodī was the last ruler of the Delhi Sultanate.",
+      "fact": "In 1526, Bābur defeated the Lodi forces in the First Battle of Panipat, bringing the Sultanate to an end."
+    },
+    {
+      "id": "p2hist3-025",
+      "type": "mcq",
+      "topic": "Battle of Khanua",
+      "difficulty": "medium",
+      "q": "Who led the Rajput confederacy against Bābur in the Battle of Khanua (1527)?",
+      "options": ["Mahārāṇā Pratāp", "Rāṇā Udai Singh", "Rāṇā Sangrām Singh I (Rāṇā Sāngā)", "Mahārāṇā Amar Singh"],
+      "answer": 2,
+      "explanation": "In 1527, Rāṇā Sangrām Singh I, popularly known as Rāṇā Sāngā of Mewar, led a Rajput confederacy against Bābur in the Battle of Khanua. The battle ended in favour of Bābur.",
+      "fact": "In 1527, Rāṇā Sāngā of Mewar led a Rajput confederacy against Bābur in the Battle of Khanua."
+    }
+  ]
+}

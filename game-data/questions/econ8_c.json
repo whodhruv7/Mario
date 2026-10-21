@@ -1,0 +1,299 @@
+{
+  "chapterId": "econ8",
+  "fragment": "c",
+  "questions": [
+    {
+      "id": "econ8-051",
+      "type": "mcq",
+      "topic": "For Whom to Produce",
+      "difficulty": "easy",
+      "q": "School shoes are primarily produced for...",
+      "options": ["athletes and fitness enthusiasts", "students", "office-goers", "factory workers"],
+      "answer": 1,
+      "explanation": "School shoes are made for students — they are usually simple in design, durable and affordable.",
+      "fact": "School shoes are produced for students. They are usually simple in design, durable, and affordable."
+    },
+    {
+      "id": "econ8-052",
+      "type": "mcq",
+      "topic": "For Whom to Produce",
+      "difficulty": "easy",
+      "q": "Sports shoes, as described in the chapter, are designed using...",
+      "options": ["leather and polished materials", "special rubber soles and lightweight materials", "wooden soles", "silk fabrics"],
+      "answer": 1,
+      "explanation": "Sports shoes use special rubber soles and lightweight materials to provide grip, flexibility and support to athletes and fitness enthusiasts.",
+      "fact": "Sports shoes are produced for athletes and fitness enthusiasts. They are designed using special rubber soles and lightweight materials to provide grip, flexibility, and support."
+    },
+    {
+      "id": "econ8-053",
+      "type": "mcq",
+      "topic": "For Whom to Produce",
+      "difficulty": "medium",
+      "q": "Leather shoes are generally targeted at...",
+      "options": ["school students", "athletes only", "office-goers and high-income customers", "daily-wage workers"],
+      "answer": 2,
+      "explanation": "Producers target leather shoes at office-goers and high-income customers, while rubber or synthetic shoes aim at sports players, factory workers or people needing affordable, durable footwear.",
+      "fact": "Leather shoes are generally targeted at office-goers and high-income customers, whereas rubber or synthetic shoes are aimed at sports players, factory workers, or people who need affordable and durable footwear."
+    },
+    {
+      "id": "econ8-054",
+      "type": "mcq",
+      "topic": "How to Produce",
+      "difficulty": "easy",
+      "q": "Production using more workers and less machinery is called...",
+      "options": ["capital-intensive production", "labour-intensive production", "technology-intensive production", "land-intensive production"],
+      "answer": 1,
+      "explanation": "Labour-intensive production relies more on workers and less on machinery, typical of activities like agriculture and handicrafts.",
+      "fact": "Production can be labour-intensive (using more workers and less machinery) or capital-intensive (using more machines and technology and less workers)."
+    },
+    {
+      "id": "econ8-055",
+      "type": "mcq",
+      "topic": "How to Produce",
+      "difficulty": "medium",
+      "q": "Which of the following usually depends MORE on machinery than labour?",
+      "options": ["Handicrafts", "Agriculture", "Steel and automobile manufacturing", "Basket weaving"],
+      "answer": 2,
+      "explanation": "Economic activities like agriculture and handicrafts rely more on labour, whereas industries such as steel and automobile manufacturing depend more on machinery.",
+      "fact": "Usually, economic activities related to agriculture and handicrafts rely more on labour, whereas industries such as steel and automobile manufacturing depend more on machinery."
+    },
+    {
+      "id": "econ8-056",
+      "type": "mcq",
+      "topic": "How to Produce",
+      "difficulty": "hard",
+      "q": "A garment manufacturer finds that machines are expensive. According to the chapter, the firm will...",
+      "options": ["rely more on labour", "immediately automate all processes", "shut down permanently", "produce only designer clothes"],
+      "answer": 0,
+      "explanation": "If machines are expensive, the firm relies more on labour; if machines become affordable, it may shift towards automation.",
+      "fact": "If machines are expensive, the firm will rely more on labour, but if machines become affordable, it may shift to automation.",
+      "hint": "The firm picks the cheaper option between machines and workers."
+    },
+    {
+      "id": "econ8-057",
+      "type": "mcq",
+      "topic": "Planned Economy",
+      "difficulty": "medium",
+      "q": "In a planned economy, who makes all the major economic decisions?",
+      "options": ["A central planning authority of the government", "Individual consumers through voting", "Foreign companies", "The largest private bank"],
+      "answer": 0,
+      "explanation": "In a planned economy, a central planning authority such as a planning commission decides what and how much will be produced, how, and at what prices.",
+      "fact": "In a planned economy, a central planning authority of the government, such as the planning commission, makes all major economic decisions in the market."
+    },
+    {
+      "id": "econ8-058",
+      "type": "mcq",
+      "topic": "Market Economy",
+      "difficulty": "medium",
+      "q": "In a market economy, the questions of what, how and how much to produce are addressed mainly by...",
+      "options": ["the forces of demand and supply", "a central planning authority", "international treaties", "religious institutions"],
+      "answer": 0,
+      "explanation": "Market economies answer the key questions mainly through demand and supply forces, with little government intervention.",
+      "fact": "In a market economy, the questions of what, how, and how much to produce are addressed mainly by the forces of demand and supply with little government intervention."
+    },
+    {
+      "id": "econ8-059",
+      "type": "truefalse",
+      "topic": "Planned Economy",
+      "difficulty": "easy",
+      "q": "In a planned economy, the government has ownership in most resources and sectors like land, factories, banks and transport.",
+      "answer": "true",
+      "explanation": "Planned economies feature government ownership of most resources and sectors, with only limited private ownership under strict regulation.",
+      "fact": "The government has ownership in most resources and sectors like land, factories, banks, and transport."
+    },
+    {
+      "id": "econ8-060",
+      "type": "truefalse",
+      "topic": "Market Economy",
+      "difficulty": "medium",
+      "q": "In a market economy, the government controls prices and production.",
+      "answer": "false",
+      "explanation": "In a market economy the government acts like a referee — it ensures safety and law and order but does not control prices or production.",
+      "fact": "Often, the government acts like a referee in a football match. It ensures safety and law and order, and it does not control prices or production."
+    },
+    {
+      "id": "econ8-061",
+      "type": "truefalse",
+      "topic": "Market Economy",
+      "difficulty": "easy",
+      "q": "The United States of America, Japan and Hong Kong are prominent examples of market economies.",
+      "answer": "true",
+      "explanation": "The chapter lists the USA, Japan and Hong Kong as prominent examples of market economies where demand and supply drive decisions.",
+      "fact": "Some of the prominent examples include the United States of America, Japan, and Hong Kong."
+    },
+    {
+      "id": "econ8-062",
+      "type": "truefalse",
+      "topic": "Planned Economy",
+      "difficulty": "medium",
+      "q": "In planned economies, strict permits and licenses restrict competition among private enterprises.",
+      "answer": "true",
+      "explanation": "Heavy regulation through permits and licenses prevents a large number of enterprises from operating, which restricts competition in planned economies.",
+      "fact": "Enterprises... are heavily regulated by the government through strict permits and licenses... this prevents a large number of enterprises to operate in the market and thus restricts competition among private enterprises."
+    },
+    {
+      "id": "econ8-063",
+      "type": "fillblank",
+      "topic": "Factors of Production",
+      "difficulty": "easy",
+      "q": "The four factors of production are land, labour, capital and ___.",
+      "answerVariants": ["technology", "Technology"],
+      "explanation": "The chapter lists land, labour, capital and technology as the factors of production used to produce goods and services.",
+      "fact": "You have learnt about factors of production—land, labour, capital, and technology—which are used for the production of goods and services. (Fig. 8.6)"
+    },
+    {
+      "id": "econ8-064",
+      "type": "fillblank",
+      "topic": "What to Produce",
+      "difficulty": "medium",
+      "q": "Choosing between water-intensive crops like sugarcane and drought-resistant crops like millets answers the question '___ to produce'.",
+      "answerVariants": ["what", "What"],
+      "explanation": "The question of what to produce concerns which goods and services, and in what quantities, should be produced to meet the economy's needs.",
+      "fact": "This fundamental question concerns which goods and services, and in what quantities, should be produced... should farmers produce water-intensive crops such as sugarcane and paddy, or drought-resistant crops such as millets and pulses?"
+    },
+    {
+      "id": "econ8-065",
+      "type": "fillblank",
+      "topic": "How to Produce",
+      "difficulty": "medium",
+      "q": "Production using more machines and technology and less labour is called ___-intensive production.",
+      "answerVariants": ["capital"],
+      "explanation": "Capital-intensive production uses more machines and technology and fewer workers, common in industries like steel and automobiles.",
+      "fact": "Production can be labour-intensive (using more workers and less machinery) or capital-intensive (using more machines and technology and less workers)."
+    },
+    {
+      "id": "econ8-066",
+      "type": "fillblank",
+      "topic": "Planned Economy",
+      "difficulty": "hard",
+      "q": "In a planned economy, enterprises are heavily regulated by the government through strict ___ and licenses.",
+      "answerVariants": ["permits"],
+      "explanation": "Planned economies regulate enterprises through strict permits and licenses, which limits how many firms can operate in the market.",
+      "fact": "Enterprises... are heavily regulated by the government through strict permits and licenses to produce goods and services.",
+      "hint": "An official paper giving permission to produce."
+    },
+    {
+      "id": "econ8-067",
+      "type": "match",
+      "topic": "Economic Systems",
+      "difficulty": "hard",
+      "q": "Match each concept related to economic systems with its correct description.",
+      "pairs": [
+        {"l": "Planned economy", "r": "A central planning authority makes all major decisions"},
+        {"l": "Market economy", "r": "Demand and supply address key questions with little intervention"},
+        {"l": "Mixed economy", "r": "Government and private sector coexist and compete"},
+        {"l": "Public goods", "r": "Available to all without anyone being excluded"},
+        {"l": "Government as referee", "r": "Ensures safety and law and order without controlling prices"}
+      ],
+      "explanation": "Planned economies centralise decisions, market economies leave them to demand and supply, mixed economies combine both, public goods are non-excludable, and the market-economy government works like a referee.",
+      "fact": "Planned economy: an economic system in which the allocation of resources and prices are determined by the government. Market economy: determined primarily by market forces. Mixed economy: the government and private sector coexist and compete. Public goods: available to all individuals without anyone being excluded."
+    },
+    {
+      "id": "econ8-068",
+      "type": "order",
+      "topic": "India's 1991 Reforms",
+      "difficulty": "hard",
+      "q": "Arrange the stages of India's economic system from earliest to latest.",
+      "orderItems": ["State-led approach after Independence, similar to a planned economy", "Production regulated through licenses and permits", "Serious economic difficulties by 1991", "Major economic reforms introduced", "Shift towards a market-oriented system with a government role"],
+      "explanation": "After Independence India was state-led; licenses and permits controlled production; by 1991 difficulties forced major reforms, which opened up the economy and moved it towards markets while keeping a government role.",
+      "fact": "In the decades after Independence, India followed a more state-led approach similar to a planned economy... by 1991 the country faced serious economic difficulties. As a result, the government introduced major economic reforms... gradually shifted India towards a more market-oriented system while still retaining an important role for the government.",
+      "hint": "Start from Independence and end with today's system."
+    },
+    {
+      "id": "econ8-069",
+      "type": "order",
+      "topic": "Needs and Wants",
+      "difficulty": "easy",
+      "q": "Arrange the vehicles in the upgrade sequence used in the chapter to show changing wants.",
+      "orderItems": ["Bicycle", "Motorbike", "Car"],
+      "explanation": "The chapter uses the sequence bicycle, then motorbike, then car to show that wants keep rising — as one want is satisfied, a bigger one appears.",
+      "fact": "Human wants are unlimited and keep changing; for instance, people may want to upgrade from a bicycle to a motorbike and then to a car."
+    },
+    {
+      "id": "econ8-070",
+      "type": "multiselect",
+      "topic": "Planned Economy",
+      "difficulty": "hard",
+      "q": "Select all correct features of a planned economy.",
+      "options": ["A central planning authority makes major economic decisions", "The government has ownership in most resources and sectors", "Enterprises are regulated through strict permits and licenses", "Prices are determined mainly by demand and supply"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Planned economies centralise decisions and ownership and regulate firms through permits and licenses; prices are set by the government, not by demand and supply.",
+      "fact": "In a planned economy, a central planning authority... makes all major economic decisions... The government has ownership in most resources and sectors... heavily regulated by the government through strict permits and licenses."
+    },
+    {
+      "id": "econ8-071",
+      "type": "multiselect",
+      "topic": "Market Economy",
+      "difficulty": "hard",
+      "q": "Select all correct features of a market economy.",
+      "options": ["Ownership of factories, shops and land largely rests with individuals and private companies", "Many producers offer similar products", "The government does not control prices or production", "A central authority sets production targets for firms"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Market economies feature private ownership, many competing producers and no government control of prices or production; production targets are a feature of planned economies.",
+      "fact": "The ownership of factories, shops, land, and other resources, largely rests with individuals and private companies. Many producers offer similar products... It ensures safety and law and order, and it does not control prices or production."
+    },
+    {
+      "id": "econ8-072",
+      "type": "wrongstatement",
+      "topic": "Market Economy",
+      "difficulty": "medium",
+      "q": "Which of these statements about the market economy is INCORRECT?",
+      "options": [
+        "In a market economy, ownership of factories, shops and land largely rests with individuals and private companies.",
+        "Many producers offer similar products, encouraging better quality and lower prices.",
+        "The government acts like a referee, ensuring safety and law and order.",
+        "In a market economy, the government decides what and how much to produce."
+      ],
+      "answer": 3,
+      "explanation": "In a market economy it is demand and supply, not the government, that addresses what and how much to produce; the government only ensures safety and law and order.",
+      "fact": "In a market economy, the questions of what, how, and how much to produce are addressed mainly by the forces of demand and supply with little government intervention."
+    },
+    {
+      "id": "econ8-073",
+      "type": "wrongstatement",
+      "topic": "Planned Economy",
+      "difficulty": "hard",
+      "q": "Which of these statements about the planned economy is INCORRECT?",
+      "options": [
+        "The former Soviet Union, North Korea and Cuba are examples of planned economies.",
+        "In a planned economy, enterprises usually follow the central authority's targets rather than market demand.",
+        "Planned economies restrict competition among private enterprises.",
+        "Planned economies give enterprises strong motivation to improve quality and innovate."
+      ],
+      "answer": 3,
+      "explanation": "The chapter states the opposite — restricted competition leaves little motivation among enterprises in planned economies to improve quality or innovate.",
+      "fact": "This... restricts competition among private enterprises. As a result, there is little motivation among enterprises to improve quality or innovate. Some examples of planned economies are the former Soviet Union, North Korea, and Cuba."
+    },
+    {
+      "id": "econ8-074",
+      "type": "assertion",
+      "topic": "What to Produce",
+      "difficulty": "medium",
+      "q": "Assertion (A): A farmer may choose to produce millets and pulses instead of sugarcane.\nReason (R): Producing millets and pulses saves water, improves soil health and promotes sustainable agriculture.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true and R explains A — the water savings and soil benefits are exactly why a farmer might choose millets and pulses over sugarcane despite sugarcane's high profits.",
+      "fact": "Producing sugarcane yields high profits... whereas producing millets and pulses saves water, improves soil health, and promotes sustainable agriculture."
+    },
+    {
+      "id": "econ8-075",
+      "type": "assertion",
+      "topic": "Market Economy",
+      "difficulty": "hard",
+      "q": "Assertion (A): Market economies have no role for the government at all.\nReason (R): In a market economy, the government acts like a referee in a football match, ensuring safety and law and order.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "A is false — even market economies need a government to ensure safety and law and order. R is true and describes that referee role.",
+      "fact": "Often, the government acts like a referee in a football match. It ensures safety and law and order, and it does not control prices or production. However, governments play an important role even in these economies."
+    }
+  ]
+}

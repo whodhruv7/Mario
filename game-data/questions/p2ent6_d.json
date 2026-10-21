@@ -1,0 +1,351 @@
+{
+  "chapterId": "p2ent6",
+  "fragment": "d",
+  "questions": [
+    {
+      "id": "p2ent6-076",
+      "type": "mcq",
+      "topic": "Functional Areas Scenario",
+      "difficulty": "easy",
+      "q": "Managing employee benefits and handling workplace conflict resolution in a company fall under which functional area?",
+      "options": ["Marketing and sales", "Finance and accounting", "Management and operations", "Human resources"],
+      "answer": 3,
+      "explanation": "Hiring new staff, managing employee benefits and handling workplace conflict resolution are human resources functions — the area focused on the right people and skills.",
+      "fact": "Examples: Hiring new staff, managing employee benefits, and handling workplace conflict resolution, etc."
+    },
+    {
+      "id": "p2ent6-077",
+      "type": "mcq",
+      "topic": "Marketing Plan",
+      "difficulty": "easy",
+      "q": "According to the business plan template, which of these is a way for customers to learn about your business?",
+      "options": ["Word of mouth", "Government tax notices", "Court announcements", "Weather bulletins"],
+      "answer": 0,
+      "explanation": "The template suggests posters, social media, word of mouth, school events, local markets and newspapers as ways customers can learn about a business.",
+      "fact": "How will customers learn about your business? Posters, Social media, Word of mouth, School events, Local market, Newspapers."
+    },
+    {
+      "id": "p2ent6-078",
+      "type": "mcq",
+      "topic": "ABC Bakery Accounts",
+      "difficulty": "easy",
+      "q": "What were ABC bakery's total expenses for the month ended March 2026?",
+      "options": ["₹2,95,000", "₹73,000", "₹2,22,000", "₹60,000"],
+      "answer": 2,
+      "explanation": "ABC bakery's expenses — raw materials, packaging, rent, salaries, utilities, advertising, miscellaneous costs and interest on loan — totalled ₹2,22,000 for the month.",
+      "fact": "Total Expenses ₹2,22,000."
+    },
+    {
+      "id": "p2ent6-079",
+      "type": "mcq",
+      "topic": "ABC Bakery Accounts",
+      "difficulty": "easy",
+      "q": "Which income head contributed the most to ABC bakery's total income for the month?",
+      "options": [
+        "Pastries and cookies (₹75,000)",
+        "Bread and buns (₹1,20,000)",
+        "Cake orders (₹85,000)",
+        "Delivery charges (₹15,000)"
+      ],
+      "answer": 1,
+      "explanation": "Bread and buns brought in ₹1,20,000 — more than cake orders (₹85,000), pastries and cookies (₹75,000) or delivery charges (₹15,000).",
+      "fact": "Bread and buns ₹1,20,000; Pastries and cookies ₹75,000; Cake orders ₹85,000; Delivery charges ₹15,000."
+    },
+    {
+      "id": "p2ent6-080",
+      "type": "mcq",
+      "topic": "Future Entrepreneurs",
+      "difficulty": "easy",
+      "q": "What does the chapter suggest about the next generation of entrepreneurs?",
+      "options": [
+        "They will all come from abroad to start businesses in India",
+        "They may well be sitting in your classroom today, ready to transform ideas into solutions",
+        "They will only work in large foreign companies",
+        "They no longer need to study any subjects"
+      ],
+      "answer": 1,
+      "explanation": "The chapter closes by saying the next generation of entrepreneurs may well be sitting in your classroom today, ready to transform ideas into solutions that make a meaningful difference to society.",
+      "fact": "The next generation of entrepreneurs may well be sitting in your classroom today, ready to transform ideas into solutions that make a meaningful difference to society."
+    },
+    {
+      "id": "p2ent6-081",
+      "type": "truefalse",
+      "topic": "Swami Vivekananda Quote",
+      "difficulty": "easy",
+      "q": "The chapter quotes Swami Vivekananda's words: 'Arise, awake and stop not till the goal is reached.'",
+      "answer": "true",
+      "explanation": "The chapter quotes Swami Vivekananda's famous call — 'Arise, awake and stop not till the goal is reached' — to describe consistent hard work and perseverance.",
+      "fact": "As was famously said by Swami Vivekananda: Arise, awake and stop not till the goal is reached."
+    },
+    {
+      "id": "p2ent6-082",
+      "type": "truefalse",
+      "topic": "Lijjat Member Services",
+      "difficulty": "easy",
+      "q": "Lijjat Papad facilitates its members' work with pick-up and drop-off bus services.",
+      "answer": "true",
+      "explanation": "The women begin work early in the morning, facilitated by pick-up and drop-off bus services provided by the organisation.",
+      "fact": "The women begin work early in the morning, facilitated by pick-up and drop-off bus services."
+    },
+    {
+      "id": "p2ent6-083",
+      "type": "fillblank",
+      "topic": "Viksit Bharat 2047",
+      "difficulty": "easy",
+      "q": "The Government of India's vision to transform India into a fully developed nation by 2047 is called Viksit ___ 2047.",
+      "answerVariants": ["Bharat"],
+      "explanation": "Viksit Bharat 2047 is the Government of India's vision of a fully developed nation by 2047, marking 100 years of independence.",
+      "fact": "Viksit Bharat 2047: The Government of India's vision to transform India into a fully developed nation by 2047, marking 100 years of independence."
+    },
+    {
+      "id": "p2ent6-084",
+      "type": "mcq",
+      "topic": "Oberoi Work Ethic",
+      "difficulty": "easy",
+      "q": "How did Mohan Singh Oberoi approach his job as a hotel desk clerk?",
+      "options": [
+        "He learned every aspect of hotel operations, from guest service to billing and administration",
+        "He did only what was written in his job description",
+        "He spent his time applying for government jobs",
+        "He refused to interact with hotel guests"
+      ],
+      "answer": 0,
+      "explanation": "Rather than limiting himself to his assigned duties, Oberoi learned every aspect of hotel operations; his dedication, curiosity and willingness to take initiative set him apart.",
+      "fact": "Rather than limiting himself to his assigned duties, Mohan learned every aspect of hotel operations, from guest service to billing and administration."
+    },
+    {
+      "id": "p2ent6-085",
+      "type": "multiselect",
+      "topic": "Sources of Funds",
+      "difficulty": "easy",
+      "q": "Select all correct sources from which funds for a business can be arranged, as per the chapter.",
+      "options": [
+        "Free monthly grants from foreign governments",
+        "Savings",
+        "Loans from banks, friends or relatives",
+        "Investors"
+      ],
+      "answerIndices": [1, 2, 3],
+      "explanation": "The chapter lists savings, loans from banks, friends, relatives, and investors as the funding sources for starting a business.",
+      "fact": "How should funds be arranged? (through savings, loans from banks, friends, relatives, or investors)?"
+    },
+    {
+      "id": "p2ent6-086",
+      "type": "mcq",
+      "topic": "Business Plan Template",
+      "difficulty": "medium",
+      "q": "Under which heads does the business plan template ask you to list the resources required?",
+      "options": [
+        "Land, labour and capital only",
+        "Posters, social media and word of mouth",
+        "Fixed costs and variable costs only",
+        "Human resources, finance, materials, technology and infrastructure"
+      ],
+      "answer": 3,
+      "explanation": "The template's 'Resources required' table lists human resources, finance, materials, technology and infrastructure, noting what is needed and how much.",
+      "fact": "Resources required: Human Resources, Finance, Materials, Technology, Infrastructure."
+    },
+    {
+      "id": "p2ent6-087",
+      "type": "mcq",
+      "topic": "Dandekar Brothers",
+      "difficulty": "medium",
+      "q": "What opportunity did the Dandekar brothers identify as their business grew?",
+      "options": [
+        "Artists in India did not have access to good art materials",
+        "Indians wanted to import ink from Britain",
+        "Recycled glass bottles were in great demand",
+        "Schools needed more geometry boxes than paints"
+      ],
+      "answer": 0,
+      "explanation": "As their stationery business grew, the brothers noticed that artists in India did not have access to good art materials, and they saw this as an opportunity to serve them.",
+      "fact": "As the business grew, they noticed that artists in India did not have access to good art materials. Seeing this as an opportunity..."
+    },
+    {
+      "id": "p2ent6-088",
+      "type": "mcq",
+      "topic": "Tracking Business Performance",
+      "difficulty": "medium",
+      "q": "According to 'Before we move on', what helps businesses track performance and remain financially sustainable?",
+      "options": [
+        "Catchy brand names and taglines",
+        "Understanding revenue, expenses, profit and cash flow",
+        "Counting the number of employees every month",
+        "Comparing prices with foreign competitors"
+      ],
+      "answer": 1,
+      "explanation": "Understanding revenue, expenses, profit and cash flow helps businesses track performance and remain financially sustainable.",
+      "fact": "Understanding revenue, expenses, profit, and cash flow helps businesses track performance and remain financially sustainable."
+    },
+    {
+      "id": "p2ent6-089",
+      "type": "truefalse",
+      "topic": "Atmanirbhar Bharat",
+      "difficulty": "medium",
+      "q": "Atmanirbhar Bharat was launched to increase India's dependence on imports.",
+      "answer": "false",
+      "explanation": "Atmanirbhar Bharat, launched in 2020, is a national policy framework to make India self-sustaining, boost domestic manufacturing and reduce — not increase — import dependency.",
+      "fact": "Atmanirbhar Bharat: A national policy framework launched by the government in 2020 to make the country self-sustaining, boost domestic manufacturing, and reduce import dependency."
+    },
+    {
+      "id": "p2ent6-090",
+      "type": "truefalse",
+      "topic": "Business Risks",
+      "difficulty": "medium",
+      "q": "According to the chapter, challenges and risks are an inevitable part of every business venture.",
+      "answer": "true",
+      "explanation": "Threats that disrupt operations or cause losses — like competition, rising costs and changing preferences — are an inevitable part of every business venture.",
+      "fact": "These are an inevitable part of every business venture."
+    },
+    {
+      "id": "p2ent6-091",
+      "type": "fillblank",
+      "topic": "Chettiar Community",
+      "difficulty": "medium",
+      "q": "The Nattukottai Chettiar community, a well-known traditional entrepreneurial community, comes from ___.",
+      "answerVariants": ["Tamil Nadu", "TamilNadu"],
+      "explanation": "The Chettiar (Nattukottai Chettiar) community from Tamil Nadu is a well-known traditional entrepreneurial community of traders, bankers and moneylenders.",
+      "fact": "The Chettiar (Nattukottai Chettiar) community from Tamil Nadu is a well-known traditional entrepreneurial community."
+    },
+    {
+      "id": "p2ent6-092",
+      "type": "fillblank",
+      "topic": "Meaning of Chawl",
+      "difficulty": "medium",
+      "q": "A traditional, multi-storey residential tenement building consisting of dense, single-room units is called a ___.",
+      "answerVariants": ["chawl"],
+      "explanation": "A chawl is a traditional, multi-storey residential tenement building typically consisting of dense, single-room units — like the one where Lijjat's founders lived in Mumbai.",
+      "fact": "Chawl: A traditional, multi-storey residential tenement building, typically consisting of dense, single-room units."
+    },
+    {
+      "id": "p2ent6-093",
+      "type": "order",
+      "topic": "Oberoi Chronology",
+      "difficulty": "medium",
+      "q": "Arrange the events of Mohan Singh Oberoi's life in chronological order.",
+      "orderItems": [
+        "He is born in Punjab",
+        "He works as a hotel desk clerk in Shimla, earning ₹50 a month",
+        "He mortgages his wife's jewellery to buy a small hotel",
+        "He receives the Padma Bhushan",
+        "He passes away"
+      ],
+      "explanation": "Oberoi was born in Punjab in 1898, worked as a desk clerk in Shimla, bought his first hotel in 1934 by mortgaging his wife's jewellery, received the Padma Bhushan in 2001, and passed away in 2002.",
+      "fact": "Born in Punjab in 1898... desk clerk earning ₹50 a month... In 1934... mortgaging his wife's jewellery... Padma Bhushan in 2001... He passed away in 2002."
+    },
+    {
+      "id": "p2ent6-094",
+      "type": "order",
+      "topic": "Dandekar Journey",
+      "difficulty": "medium",
+      "q": "Arrange the events of the Dandekar brothers' business journey in the correct order.",
+      "orderItems": [
+        "They start selling ink powder in South Mumbai",
+        "They sell liquid ink in recycled glass bottles",
+        "They notice that artists lack good art materials",
+        "They travel to Glasgow to study colour chemistry",
+        "They set up a laboratory and expand into pencils, crayons and paints"
+      ],
+      "explanation": "The brothers began with ink powder in 1931, used recycled glass bottles for liquid ink, spotted the gap in art materials, studied colour chemistry in Glasgow, and then set up a laboratory and expanded their product range.",
+      "fact": "Started selling ink powder in South Mumbai... recycled glass bottles to sell liquid ink... artists did not have access to good art materials... travelled to Glasgow to study colour chemistry... set up a laboratory... expanded into pencils, crayons, geometry boxes, and paints."
+    },
+    {
+      "id": "p2ent6-095",
+      "type": "assertion",
+      "topic": "Startup India",
+      "difficulty": "medium",
+      "q": "Assertion (A): The Startup India scheme supports the vision of Atmanirbhar Bharat.\nReason (R): Atmanirbhar Bharat focuses on making India self-reliant through innovation and local solutions.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true, and R explains A — Startup India supports Atmanirbhar Bharat precisely because that vision is about self-reliance through innovation and local solutions.",
+      "fact": "The government has introduced many schemes, such as Startup India, which supports the vision of Atmanirbhar Bharat, focusing on making India self-reliant through innovation and local solutions."
+    },
+    {
+      "id": "p2ent6-096",
+      "type": "match",
+      "topic": "Barriers to Growth",
+      "difficulty": "hard",
+      "q": "Match each type of barrier to a business's growth with its example.",
+      "pairs": [
+        {"l": "Financial barriers", "r": "Lack of capital and difficulty obtaining loans or credit"},
+        {"l": "Technical barriers", "r": "Outdated machinery and limited access to technology"},
+        {"l": "Human resource barriers", "r": "Skill shortages and difficulty hiring or retaining workers"},
+        {"l": "Market barriers", "r": "Competition and limited access to suppliers or customers"},
+        {"l": "Regulatory barriers", "r": "Complex procedures, licences, approvals or paperwork"}
+      ],
+      "explanation": "The chapter identifies five types of barriers to growth — financial, technical, human resource, market and regulatory — each with its own typical examples.",
+      "fact": "Financial Barriers: Lack of capital...; Technical Barriers: Outdated machinery...; Human Resource Barriers: Skill shortages...; Market Barriers: Competition...; Regulatory Barriers: Complex procedures, licences, approvals, or paperwork.",
+      "hint": "Match each barrier to the kind of resource or rule it blocks."
+    },
+    {
+      "id": "p2ent6-097",
+      "type": "multiselect",
+      "topic": "Marketing Strategies",
+      "difficulty": "hard",
+      "q": "Select all correct simple strategies of a bakery's marketing and sales team mentioned in the chapter.",
+      "options": [
+        "Shutting the shop on weekends to avoid customers",
+        "Creating unique or seasonal items like mango-flavoured cake",
+        "Providing easy online ordering and delivery",
+        "Ignoring customer preferences entirely",
+        "Using social media to share photos and videos for awareness"
+      ],
+      "answerIndices": [1, 2, 4],
+      "explanation": "The marketing strategies listed include seasonal items like mango-flavoured cake, easy online ordering and delivery, and social media photos and videos — along with discounts, deals and eco-friendly packaging.",
+      "fact": "Creating unique or seasonal items and customised desserts like mango-flavoured cake; Providing easy online ordering and delivery; Using social media to share photos and videos for awareness among people."
+    },
+    {
+      "id": "p2ent6-098",
+      "type": "wrongstatement",
+      "topic": "India's Startup Ecosystem",
+      "difficulty": "hard",
+      "q": "Which of these statements about India's startup ecosystem is INCORRECT?",
+      "options": [
+        "India had around 120 unicorns in 2025",
+        "India's startup ecosystem is powered entirely by foreign investors",
+        "Bengaluru, Hyderabad, Mumbai and Delhi NCR have become major startup hubs",
+        "India is the third-largest startup ecosystem in the world"
+      ],
+      "answer": 1,
+      "explanation": "India's startup ecosystem is powered by its own young and talented population, not by foreign investors; the other statements match the chapter.",
+      "fact": "India is the third-largest startup ecosystem in the world, powered by its young and talented population... around 120 unicorns in 2025... Cities like Bengaluru, Hyderabad, Mumbai, and Delhi NCR have become major startup hubs."
+    },
+    {
+      "id": "p2ent6-099",
+      "type": "wrongstatement",
+      "topic": "Chettiar Community",
+      "difficulty": "hard",
+      "q": "Which of these statements about the Chettiar community is INCORRECT?",
+      "options": [
+        "The Chettiars refused to reinvest their profits into temples, education or community welfare",
+        "The Chettiars are also known as Nattukottai Chettiars",
+        "Historically, they were traders, bankers and moneylenders",
+        "They operated in Sri Lanka, Burma (now Myanmar), Malaysia and other parts of Southeast Asia"
+      ],
+      "answer": 0,
+      "explanation": "The Chettiars actually reinvested their profits into trade, temples, education and community welfare; the other statements about them are correct.",
+      "fact": "They were known for... Reinvesting profits into trade, temples, education, and community welfare."
+    },
+    {
+      "id": "p2ent6-100",
+      "type": "assertion",
+      "topic": "Viksit Bharat 2047",
+      "difficulty": "hard",
+      "q": "Assertion (A): Entrepreneurship will play no role in the vision of Viksit Bharat 2047.\nReason (R): Viksit Bharat 2047 is the Government of India's vision to transform India into a fully developed nation by 2047, marking 100 years of independence.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "A is false — the chapter says entrepreneurship will continue to play a vital role in employment, innovation and empowerment towards Viksit Bharat 2047; R correctly describes the vision.",
+      "fact": "As India moves towards the vision of Viksit Bharat 2047, entrepreneurship will continue to play a vital role in creating employment, driving innovation, empowering communities..."
+    }
+  ]
+}

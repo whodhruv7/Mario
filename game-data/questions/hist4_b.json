@@ -1,0 +1,309 @@
+{
+  "chapterId": "hist4",
+  "fragment": "b",
+  "questions": [
+    {
+      "id": "hist4-026",
+      "type": "mcq",
+      "topic": "Early Settlements in India",
+      "difficulty": "medium",
+      "q": "In the Indian subcontinent, the oldest human settlement dates back to about:",
+      "options": ["12,000 years ago", "7000 BCE", "2 million years ago", "125,000 years ago"],
+      "answer": 2,
+      "explanation": "The oldest human settlement in the Indian subcontinent dates back to about 2 million years ago. Sites like Attirampakkam (about 1.5-1.7 million years ago) and Isampur (1.2 million years ago) are among the earliest known.",
+      "fact": "In the Indian subcontinent, the oldest human settlement dates back to about 2 million years ago."
+    },
+    {
+      "id": "hist4-027",
+      "type": "truefalse",
+      "topic": "Upper Palaeolithic Tools",
+      "difficulty": "medium",
+      "q": "Later Palaeolithic humans invented the bow and arrow and made blade and microblade tools from rocks with a glassy texture.",
+      "answer": "true",
+      "explanation": "Humans invented the bow and arrow along with parallel-sided blade and microblade tools made from rocks with a glassy texture, which were very sharp when freshly made. They also hunted small game animals.",
+      "fact": "Humans invented the bow and arrow, as well as parallel-sided blade and microblade tools made from rocks with glassy texture (very sharp when freshly made)."
+    },
+    {
+      "id": "hist4-028",
+      "type": "fillblank",
+      "topic": "Palaeolithic Tool Materials",
+      "difficulty": "medium",
+      "q": "At early Indian sites such as Attirampakkam and Isampur, scrapers and choppers were made of quartzite and ___.",
+      "answerVariants": ["limestone", "Limestone", "lime stone"],
+      "explanation": "At these sites, large cutting tools including handaxes and cleavers, and other tools such as stone scrapers and choppers, were made of quartzite and limestone.",
+      "fact": "Tools such as stone scrapers and choppers made of quartzite and limestone have been found at Attirampakkam and Isampur."
+    },
+    {
+      "id": "hist4-029",
+      "type": "multiselect",
+      "topic": "Palaeolithic Tool Uses",
+      "difficulty": "easy",
+      "q": "Select all correct uses of early Palaeolithic tools like handaxes and cleavers.",
+      "options": [
+        "Chopping animal meat",
+        "Digging out tubers",
+        "Scraping animal skins",
+        "Making iron weapons"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "These tools were used to chop animal meat, dig out tubers, scrape animal skin, and cleave animal bones to extract protein-rich marrow. Iron weapons belong to the much later Iron Age.",
+      "fact": "These tools were used to chop animal meat, dig out tubers, scrape animal skin, and cleave animal bones to extract protein-rich marrow."
+    },
+    {
+      "id": "hist4-030",
+      "type": "mcq",
+      "topic": "Middle Palaeolithic Tools",
+      "difficulty": "hard",
+      "q": "The main types of Middle Palaeolithic stone tools, which indicate improved hunting efficiency, were:",
+      "options": ["Microliths and bone points", "Scrapers, borers and points", "Copper axes and chisels", "Polished stone tools"],
+      "answer": 1,
+      "explanation": "The main types of Middle Palaeolithic stone tools were scrapers, borers and points. They indicate improved efficiency in hunting by developing projectiles which were tipped with sharp points.",
+      "fact": "The main types of stone tools included scrapers, borers, and points, indicating improved efficiency in hunting by developing projectiles tipped with sharp points."
+    },
+    {
+      "id": "hist4-031",
+      "type": "truefalse",
+      "topic": "The Burin",
+      "difficulty": "medium",
+      "q": "The burin, a distinctive stone tool, was used to engrave symbolic features on bones and shells such as ostrich eggs.",
+      "answer": "true",
+      "explanation": "A distinctive type of stone tool, known as a burin or engraver, was used to engrave symbolic features on bones and shells, such as ostrich eggs. These developments are associated with Homo sapiens.",
+      "fact": "A distinctive type of stone tool, known as a burin or engraver, was used to engrave symbolic features on bones and shells (such as ostrich eggs)."
+    },
+    {
+      "id": "hist4-032",
+      "type": "mcq",
+      "topic": "First Beads",
+      "difficulty": "medium",
+      "q": "Which humans were the first to produce beads of stone, bone and shell?",
+      "options": ["Homo erectus", "Australopithecines", "Homo neanderthalensis", "Homo sapiens"],
+      "answer": 3,
+      "explanation": "The humans who decorated cave walls with paintings, used pigments on their bodies and hunted small game were the first to produce beads of stone, bone and shell. These developments are associated with Homo sapiens.",
+      "fact": "They were the first to produce beads of stone, bone, and shell; these developments are associated with our immediate ancestors, Homo sapiens."
+    },
+    {
+      "id": "hist4-033",
+      "type": "mcq",
+      "topic": "Mesolithic Habitats",
+      "difficulty": "easy",
+      "q": "During the Mesolithic period, which new habitats were frequently occupied by humans?",
+      "options": ["Iron forts", "Brick-built towns", "Caves and rock shelters", "Walled cities"],
+      "answer": 2,
+      "explanation": "In the Mesolithic period, new habitats such as caves and rock shelters were frequently occupied, and art activity flourished. Bhimbetka in Madhya Pradesh is a famous example with hundreds of painted rock shelters.",
+      "fact": "Art activity also flourished during this time, and new habitats such as caves and rock shelters were frequently occupied."
+    },
+    {
+      "id": "hist4-034",
+      "type": "truefalse",
+      "topic": "Mesolithic Transition",
+      "difficulty": "easy",
+      "q": "The Mesolithic period was a transitional phase between hunting-gathering and agriculture.",
+      "answer": "true",
+      "explanation": "The Mesolithic period, with its microlithic (tiny stone) tools, is described as a transitional phase between the hunting-gathering of the Palaeolithic and the agriculture of the Neolithic period.",
+      "fact": "The Mesolithic period is marked by the use of microlithic (tiny stone) tools and is a transitional phase between hunting-gathering and agriculture."
+    },
+    {
+      "id": "hist4-035",
+      "type": "fillblank",
+      "topic": "Mesolithic Food",
+      "difficulty": "medium",
+      "q": "A variety of microlithic tools enabled Mesolithic people to gather ___ food, both marine and freshwater.",
+      "answerVariants": ["aquatic", "Aquatic"],
+      "explanation": "Microlithic tools let Mesolithic people gather aquatic food from both marine and freshwater sources, and fishing was the mainstay of their subsistence economy.",
+      "fact": "A variety of microlithic tools enabled the people to gather aquatic food—both marine and freshwater—and fishing was the mainstay of their subsistence economy."
+    },
+    {
+      "id": "hist4-036",
+      "type": "mcq",
+      "topic": "Bhimbetka",
+      "difficulty": "easy",
+      "q": "Bhimbetka, a World Heritage Site with hundreds of painted rock shelters, is located in:",
+      "options": ["Madhya Pradesh", "Tamil Nadu", "Karnataka", "Gujarat"],
+      "answer": 0,
+      "explanation": "The World Heritage Site of Bhimbetka is in Madhya Pradesh. It contains hundreds of painted rock shelters with Mesolithic and earlier human occupation.",
+      "fact": "The World Heritage Site of Bhimbetka in Madhya Pradesh contains hundreds of painted rock shelters with Mesolithic and earlier human occupation.",
+      "hint": "This state lies in central India."
+    },
+    {
+      "id": "hist4-037",
+      "type": "multiselect",
+      "topic": "Bhimbetka Rock Shelters",
+      "difficulty": "easy",
+      "q": "Select all correct statements about Bhimbetka.",
+      "options": [
+        "It is a World Heritage Site.",
+        "It contains hundreds of painted rock shelters.",
+        "It shows Mesolithic and earlier human occupation.",
+        "Its paintings were made with oil paints on canvas."
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Bhimbetka in Madhya Pradesh is a World Heritage Site with hundreds of painted rock shelters showing Mesolithic and earlier occupation. Oil paints and canvas did not exist in prehistoric times; prehistoric artists used pigments.",
+      "fact": "The World Heritage Site of Bhimbetka in Madhya Pradesh contains hundreds of painted rock shelters with Mesolithic and earlier human occupation."
+    },
+    {
+      "id": "hist4-038",
+      "type": "mcq",
+      "topic": "Mesolithic Subsistence",
+      "difficulty": "easy",
+      "q": "What was the mainstay of the Mesolithic subsistence economy?",
+      "options": ["Rice cultivation", "Fishing", "Cattle herding", "Long-distance trade"],
+      "answer": 1,
+      "explanation": "Fishing was the mainstay of the Mesolithic subsistence economy. A variety of microlithic tools enabled people to gather aquatic food, both marine and freshwater.",
+      "fact": "Fishing was the mainstay of their subsistence economy."
+    },
+    {
+      "id": "hist4-039",
+      "type": "order",
+      "topic": "Path to Civilisation",
+      "difficulty": "medium",
+      "q": "Arrange these stages in the correct order, from the earliest human way of life to the emergence of civilisation.",
+      "orderItems": [
+        "Hunting and gathering food",
+        "Domestication of plants and animals",
+        "First village settlements",
+        "Use of copper tools",
+        "Emergence of urban centres"
+      ],
+      "explanation": "Humans first lived by hunting and gathering; then came domestication and farming, the first village settlements, the use of copper tools in the Chalcolithic stage, and finally urban centres and civilisations.",
+      "fact": "Over time, human ways of life changed from hunting and gathering to agriculture and food production; the ability to produce surplus food laid the foundation for the emergence of civilisation."
+    },
+    {
+      "id": "hist4-040",
+      "type": "mcq",
+      "topic": "Neolithic Food Production",
+      "difficulty": "easy",
+      "q": "Unlike hunter-gatherers who made tools for procuring food, Neolithic farmers made tools for:",
+      "options": ["Waging wars", "Building pyramids", "Writing on clay tablets", "Food production and processing"],
+      "answer": 3,
+      "explanation": "Hunter-gatherers produced tools for procuring food, while Neolithic farmers made tools for food production and processing. They also developed a variety of earthenware pottery in various shapes and sizes.",
+      "fact": "While hunter-gatherers produced tools for procuring food, Neolithic farmers made tools for food production and processing."
+    },
+    {
+      "id": "hist4-041",
+      "type": "assertion",
+      "topic": "Neolithic Revolution",
+      "difficulty": "medium",
+      "q": "Assertion (A): The shift from hunting-gathering to a food-producing way of life is called the Neolithic revolution.\nReason (R): The hallmark of this revolution was the domestication of select animals and plants, bringing them under human control.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both A and R are true, and R explains A. The transition to a food-producing way of life is called a revolution precisely because domestication transformed human life, creating new breeds through cultivation and husbandry.",
+      "fact": "There was a gradual transition to a food-producing way of life, also known as the Neolithic revolution; the hallmark of this revolution was the domestication of select animals and plants."
+    },
+    {
+      "id": "hist4-042",
+      "type": "match",
+      "topic": "Early Sites of India",
+      "difficulty": "hard",
+      "q": "Match each early human site with its correct detail.",
+      "pairs": [
+        {"l": "Attirampakkam", "r": "Tamil Nadu site dated to 1.5-1.7 million years ago"},
+        {"l": "Isampur", "r": "Karnataka site dated to 1.2 million years ago"},
+        {"l": "Mehrgarh", "r": "On the Bolan River in present-day Pakistan"},
+        {"l": "Sanganakallu", "r": "Neolithic site on top of a granite hill, dating 2000 BCE"},
+        {"l": "Eastern African Rift Valley", "r": "Region where Homo erectus lived 2 million years ago"}
+      ],
+      "explanation": "Attirampakkam (Tamil Nadu) is dated to about 1.5-1.7 million years ago and Isampur (Karnataka) to 1.2 million years ago; Mehrgarh lies on the Bolan River in present-day Pakistan; Sanganakallu is a Neolithic site on a granite hill dating to 2000 BCE; and Homo erectus lived in the Eastern African Rift Valley 2 million years ago.",
+      "fact": "Attirampakkam in Tamil Nadu is dated to about 1.5-1.7 million years ago; Isampur in Karnataka is dated to 1.2 million years ago; Mehrgarh is on the Bolan River; Sanganakallu is a Neolithic site on top of a granite hill dating 2000 BCE."
+    },
+    {
+      "id": "hist4-043",
+      "type": "mcq",
+      "topic": "Mehrgarh",
+      "difficulty": "easy",
+      "q": "Which is the oldest Neolithic site and the earliest agricultural village in the Indian subcontinent?",
+      "options": ["Bhimbetka", "Lothal", "Mehrgarh", "Kalibangan"],
+      "answer": 2,
+      "explanation": "Mehrgarh on the Bolan River in present-day Pakistan is the oldest Neolithic site of the subcontinent and its earliest agricultural village, dating back to about 7000 BCE.",
+      "fact": "The site of Mehrgarh on the Bolan River (in present-day Pakistan) is the oldest Neolithic site; it was also the earliest agricultural village, dating back to about 7000 BCE.",
+      "hint": "Think of a site on the Bolan River."
+    },
+    {
+      "id": "hist4-044",
+      "type": "truefalse",
+      "topic": "Mehrgarh Houses",
+      "difficulty": "easy",
+      "q": "The people of Mehrgarh built handmade sun-dried brick houses and granaries.",
+      "answer": "true",
+      "explanation": "Mehrgarh's people built houses and granaries of handmade sun-dried bricks. They also buried their dead in graves and made ornaments from semi-precious stones.",
+      "fact": "Its people built handmade sun-dried brick houses and granaries, and buried their dead in graves."
+    },
+    {
+      "id": "hist4-045",
+      "type": "truefalse",
+      "topic": "Palaeolithic Art",
+      "difficulty": "easy",
+      "q": "Later Palaeolithic humans decorated the walls of caves and rock shelters with paintings and used pigments to decorate their bodies.",
+      "answer": "true",
+      "explanation": "These humans developed symbolic communication, decorated the walls of caves and rock shelters with paintings, and used pigments to decorate their bodies. They were also the first to make beads of stone, bone and shell.",
+      "fact": "They developed symbolic communication, decorated the walls of caves and rock shelters with paintings, and used pigments to decorate their bodies."
+    },
+    {
+      "id": "hist4-046",
+      "type": "fillblank",
+      "topic": "Mehrgarh Crops",
+      "difficulty": "easy",
+      "q": "The people of Mehrgarh cultivated wheat and ___.",
+      "answerVariants": ["barley", "Barley"],
+      "explanation": "Mehrgarh's people cultivated wheat and barley. They also raised sheep, goats and Indian cattle, especially the zebu humped bull.",
+      "fact": "They cultivated wheat and barley, and raised sheep, goats, and Indian cattle—the zebu humped bull in particular."
+    },
+    {
+      "id": "hist4-047",
+      "type": "wrongstatement",
+      "topic": "Mehrgarh Life",
+      "difficulty": "medium",
+      "q": "Which of these statements about the people of Mehrgarh is INCORRECT?",
+      "options": [
+        "They were purely hunter-gatherers who never produced food.",
+        "They buried their dead in graves.",
+        "They made ornaments from semi-precious stones such as lapis lazuli and carnelian.",
+        "They raised sheep, goats and the zebu humped bull."
+      ],
+      "answer": 0,
+      "explanation": "Mehrgarh was the earliest agricultural village of the subcontinent (about 7000 BCE); its people cultivated wheat and barley and raised animals. The other statements about graves, ornaments and herding are all correct.",
+      "fact": "Mehrgarh was the earliest agricultural village, dating back to about 7000 BCE; its people cultivated wheat and barley and raised sheep, goats, and Indian cattle."
+    },
+    {
+      "id": "hist4-048",
+      "type": "mcq",
+      "topic": "Mehrgarh Copper",
+      "difficulty": "medium",
+      "q": "By being the first to make copper objects, the people of Mehrgarh became popularly known by about 4000 BCE as:",
+      "options": ["Iron Age people", "Mesolithic people", "Harappan people", "Chalcolithic people"],
+      "answer": 3,
+      "explanation": "The people of Mehrgarh were the first to make copper objects, thus entering the metal age and becoming popularly known as Chalcolithic people by about 4000 BCE. This laid the basis for the Bronze Age Sindhu-Sarasvati civilisation around 3500 BCE.",
+      "fact": "They were also the first to make copper objects, thus entering the metal age and becoming popularly known as the Chalcolithic people by about 4000 BCE."
+    },
+    {
+      "id": "hist4-049",
+      "type": "truefalse",
+      "topic": "Neolithic Communities",
+      "difficulty": "easy",
+      "q": "By 2500 BCE, most of the Indian subcontinent was occupied by Neolithic agricultural communities.",
+      "answer": "true",
+      "explanation": "By 2500 BCE, most of the Indian subcontinent was occupied by Neolithic agricultural communities. Cattle, sheep and goat herding, along with the cultivation of cereals, millets and pulses, characterised their way of life.",
+      "fact": "By 2500 BCE, most of the Indian subcontinent was occupied by Neolithic agricultural communities."
+    },
+    {
+      "id": "hist4-050",
+      "type": "assertion",
+      "topic": "Spread of Agriculture",
+      "difficulty": "hard",
+      "q": "Assertion (A): The transition to the agricultural way of life took place at the same time all over the world.\nReason (R): Different regions domesticated different crops, such as wheat and barley in West Asia and rice in the Ganga plains.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "A is false but R is true. The transition did not occur at the same time everywhere; it took place at different periods in different areas, with each region domesticating its own crops.",
+      "fact": "This transition did not occur at the same time everywhere, but took place at different periods in different areas."
+    }
+  ]
+}

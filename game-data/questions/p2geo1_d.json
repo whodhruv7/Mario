@@ -1,0 +1,417 @@
+{
+  "chapterId": "p2geo1",
+  "fragment": "d",
+  "questions": [
+    {
+      "id": "p2geo1-076",
+      "type": "mcq",
+      "topic": "Contiguous zone",
+      "difficulty": "medium",
+      "q": "In the contiguous zone, a country has limited control over which matters?",
+      "options": [
+        "All matters, just as on its land",
+        "Customs, fiscal matters and illegal immigration",
+        "Only fishing rights",
+        "Only tourism"
+      ],
+      "answer": 1,
+      "explanation": "The contiguous zone extends from the baseline up to 24 nautical miles, where the country has limited control over customs, fiscal matters and illegal immigration.",
+      "fact": "The contiguous zone extends from the baseline up to 24 nautical miles, where the country has limited control over customs, fiscal matters, and illegal immigration."
+    },
+    {
+      "id": "p2geo1-077",
+      "type": "mcq",
+      "topic": "EEZ",
+      "difficulty": "medium",
+      "q": "What can ships from other countries do within a country's Exclusive Economic Zone (EEZ)?",
+      "options": [
+        "They must pay a fee to cross it",
+        "They are completely banned from entering",
+        "They may still pass through peacefully",
+        "They can only cross during low tide"
+      ],
+      "answer": 2,
+      "explanation": "In the EEZ, a country has special rights to use ocean resources such as fish, oil and gas, although ships from other countries may still pass through peacefully.",
+      "fact": "In EEZs, a country has special rights to use ocean resources, such as fish, oil, and gas, although ships from other countries may still pass through peacefully."
+    },
+    {
+      "id": "p2geo1-078",
+      "type": "match",
+      "topic": "Maritime zones",
+      "difficulty": "easy",
+      "q": "Match each maritime zone or term with its correct extent or meaning.",
+      "pairs": [
+        {
+          "l": "Territorial sea",
+          "r": "Extends up to 12 nautical miles from the baseline"
+        },
+        {
+          "l": "Contiguous zone",
+          "r": "Extends up to 24 nautical miles from the baseline"
+        },
+        {
+          "l": "Exclusive Economic Zone",
+          "r": "Extends up to 200 nautical miles from the baseline"
+        },
+        {
+          "l": "High seas",
+          "r": "International waters beyond the EEZs of all countries"
+        },
+        {
+          "l": "Innocent passage",
+          "r": "Right of foreign ships to pass peacefully through territorial waters"
+        }
+      ],
+      "explanation": "The territorial sea extends up to 12 NM, the contiguous zone up to 24 NM, and the EEZ up to 200 NM from the baseline. Beyond all EEZs lie the high seas, while innocent passage is the right of foreign ships to pass peacefully through territorial waters.",
+      "fact": "The territorial sea extends 12 NM, the contiguous zone 24 NM and the EEZ 200 NM from the baseline; beyond the EEZs lie the high seas."
+    },
+    {
+      "id": "p2geo1-079",
+      "type": "order",
+      "topic": "Maritime zones",
+      "difficulty": "easy",
+      "q": "Arrange these maritime zones from the coast towards the open sea.",
+      "orderItems": [
+        "Internal waters",
+        "Territorial sea",
+        "Contiguous zone",
+        "Exclusive Economic Zone (EEZ)",
+        "The high seas"
+      ],
+      "explanation": "From the coast outward, a country first has internal waters, then the territorial sea, then the contiguous zone, then its EEZ, and finally the high seas begin beyond the EEZs of all countries.",
+      "fact": "Maritime zones from the coast are: internal waters, territorial sea, contiguous zone, EEZ and the high seas."
+    },
+    {
+      "id": "p2geo1-080",
+      "type": "truefalse",
+      "topic": "High seas",
+      "difficulty": "easy",
+      "q": "The high seas are also known as international waters.",
+      "answer": "true",
+      "explanation": "Beyond the EEZs of all countries lie the high seas, also known as international waters. They do not belong to any single country and are considered part of the global commons.",
+      "fact": "Beyond the EEZs of all countries lie the high seas, also known as international waters."
+    },
+    {
+      "id": "p2geo1-081",
+      "type": "mcq",
+      "topic": "High seas",
+      "difficulty": "hard",
+      "q": "The high seas cover about what share of the world's oceans?",
+      "options": [
+        "99 per cent",
+        "25 per cent",
+        "10 per cent",
+        "64 per cent"
+      ],
+      "answer": 3,
+      "explanation": "The high seas cover about 64 per cent of the world's oceans. They do not belong to any single country and are considered part of the global commons.",
+      "fact": "The high seas cover about 64 per cent of the world's oceans and are considered part of the global commons."
+    },
+    {
+      "id": "p2geo1-082",
+      "type": "wrongstatement",
+      "topic": "High seas",
+      "difficulty": "medium",
+      "q": "Which of these statements about the high seas is INCORRECT?",
+      "options": [
+        "Issues like overfishing and illegal fishing often arise on the high seas.",
+        "Conflicts over resources occur because no single country controls the high seas.",
+        "The high seas are owned and governed by the United Nations.",
+        "On the high seas, the laws of the flag state apply."
+      ],
+      "answer": 2,
+      "explanation": "The high seas do not belong to any single country or organisation; they are part of the global commons where all countries enjoy equal rights. On them, the laws of the flag state, the country where a ship is registered, apply.",
+      "fact": "The high seas do not belong to any single country; on them, the laws of the flag state (the country in which a ship is registered) apply."
+    },
+    {
+      "id": "p2geo1-083",
+      "type": "multiselect",
+      "topic": "High seas rights",
+      "difficulty": "medium",
+      "q": "Select all correct: which rights do all countries enjoy on the high seas?",
+      "options": [
+        "Claiming the high seas as national territory",
+        "Navigation",
+        "Fishing",
+        "Laying undersea cables"
+      ],
+      "answerIndices": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "On the high seas, all countries enjoy equal rights, including navigation, fishing, flying over them, laying undersea cables, building lawful structures such as artificial lands, and exploring for minerals. No country can claim them as its own territory.",
+      "fact": "All countries enjoy equal rights on the high seas, including navigation, fishing, flying over them, laying undersea cables, building lawful structures and exploring for minerals."
+    },
+    {
+      "id": "p2geo1-084",
+      "type": "wrongstatement",
+      "topic": "Innocent passage",
+      "difficulty": "medium",
+      "q": "Which of these statements about innocent passage is INCORRECT?",
+      "options": [
+        "Innocent passage permits foreign ships to fish in territorial waters.",
+        "Ships exercising innocent passage must move continuously without stopping, except in emergencies.",
+        "Ships must not threaten the peace, good order or security of the coastal country.",
+        "Innocent passage allows foreign ships to pass through a country's territorial waters."
+      ],
+      "answer": 0,
+      "explanation": "The right of innocent passage does NOT permit activities such as fishing, military operations or other non-peaceful actions. Foreign ships may pass through as long as they do not threaten peace, good order or security.",
+      "fact": "Innocent Passage allows foreign ships to pass through territorial waters if they do not threaten peace, good order or security; it does not permit fishing or military operations."
+    },
+    {
+      "id": "p2geo1-085",
+      "type": "mcq",
+      "topic": "Flag state",
+      "difficulty": "hard",
+      "q": "On the high seas, the laws of the 'flag state' apply. What is a flag state?",
+      "options": [
+        "The country in which a ship is registered",
+        "The nearest coastal country",
+        "The country that owns the cargo",
+        "The first country the ship ever visited"
+      ],
+      "answer": 0,
+      "explanation": "On the high seas, the laws of the flag state, which is the country in which a ship is registered, apply to that ship.",
+      "fact": "On the high seas, the laws of the flag state, the country in which a ship is registered, apply."
+    },
+    {
+      "id": "p2geo1-086",
+      "type": "wrongstatement",
+      "topic": "Maritime zones",
+      "difficulty": "medium",
+      "q": "Which of these statements about maritime zones is INCORRECT?",
+      "options": [
+        "Maritime zones are different areas of the ocean defined by international law.",
+        "In territorial waters, the government can make laws relating to customs, immigration and pollution control.",
+        "The EEZ is defined under UNCLOS by global agreement.",
+        "A country has near-complete control over the high seas."
+      ],
+      "answer": 3,
+      "explanation": "No country controls the high seas; they are part of the global commons. Near-complete control applies to territorial waters, while the EEZ gives only special resource rights under UNCLOS.",
+      "fact": "Maritime zones are defined by international law; territorial waters allow law-making, the EEZ is defined under UNCLOS, and the high seas belong to no single country."
+    },
+    {
+      "id": "p2geo1-087",
+      "type": "mcq",
+      "topic": "Nautical mile",
+      "difficulty": "easy",
+      "q": "One nautical mile is defined as exactly...",
+      "options": [
+        "1,609 metres",
+        "1,000 metres",
+        "1,852 metres",
+        "100 metres"
+      ],
+      "answer": 2,
+      "explanation": "A nautical mile is a unit used in maritime and air navigation, defined as exactly 1,852 metres (about 6,076 feet). It corresponds to one minute of latitude.",
+      "fact": "A nautical mile is defined as exactly 1,852 metres (about 6,076 feet); it corresponds to one minute of latitude."
+    },
+    {
+      "id": "p2geo1-088",
+      "type": "mcq",
+      "topic": "COLREGs",
+      "difficulty": "medium",
+      "q": "What do the COLREGs regulate?",
+      "options": [
+        "The routes of aeroplanes",
+        "The price of goods traded by ships",
+        "The names given to ships",
+        "Preventing collisions at sea through 'rules of the road at sea'"
+      ],
+      "answer": 3,
+      "explanation": "COLREGs (Convention on the International Regulations for Preventing Collisions at Sea) are the 'rules of the road at sea' covering lookouts, passing sides, safe speed and signals to avoid accidents.",
+      "fact": "COLREGs (Convention on the International Regulations for Preventing Collisions at Sea) are the 'rules of the road at sea' that ships must follow to avoid accidents."
+    },
+    {
+      "id": "p2geo1-089",
+      "type": "mcq",
+      "topic": "MARPOL",
+      "difficulty": "medium",
+      "q": "The MARPOL Convention is an important international agreement aimed at...",
+      "options": [
+        "reducing pollution from ships",
+        "increasing the speed of ships",
+        "building new ports",
+        "naming cyclones"
+      ],
+      "answer": 0,
+      "explanation": "MARPOL (International Convention for the Prevention of Pollution from Ships) is an important international agreement aimed at reducing pollution from ships. Ships are prohibited from polluting the seas.",
+      "fact": "The MARPOL (International Convention for the Prevention of Pollution from Ships) Convention is aimed at reducing pollution from ships."
+    },
+    {
+      "id": "p2geo1-090",
+      "type": "assertion",
+      "topic": "EEZ",
+      "difficulty": "hard",
+      "q": "Assertion (A): In its EEZ, a country has special rights to use ocean resources like fish, oil and gas.\nReason (R): The EEZ extends from the baseline up to 200 nautical miles from the coast.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both statements are true: the EEZ gives special resource rights and extends up to 200 nautical miles. But the distance of the zone does not explain WHY the country gets resource rights, so R does not explain A.",
+      "fact": "EEZs extend from the baseline up to 200 nautical miles and give a country special rights to use ocean resources such as fish, oil and gas."
+    },
+    {
+      "id": "p2geo1-091",
+      "type": "assertion",
+      "topic": "High seas",
+      "difficulty": "easy",
+      "q": "Assertion (A): The high seas do not belong to any single country.\nReason (R): They are considered part of the global commons.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "The high seas are international waters that belong to no single country because they are part of the global commons, where all countries enjoy equal rights. R explains A.",
+      "fact": "The high seas do not belong to any single country and are therefore considered part of the global commons."
+    },
+    {
+      "id": "p2geo1-092",
+      "type": "truefalse",
+      "topic": "Seamount",
+      "difficulty": "medium",
+      "q": "A seamount is an underwater mountain that rises from the ocean floor but does not reach the sea surface.",
+      "answer": "true",
+      "explanation": "A seamount is an underwater mountain, usually of volcanic origin, that rises from the ocean floor but does not reach the sea surface. Some are flattened by wave action over millennia to form guyots.",
+      "fact": "A seamount is an underwater mountain, usually of volcanic origin, that rises from the ocean floor but does not reach the sea surface."
+    },
+    {
+      "id": "p2geo1-093",
+      "type": "truefalse",
+      "topic": "Oceans coverage",
+      "difficulty": "easy",
+      "q": "Oceans cover most of our planet.",
+      "answer": "true",
+      "explanation": "Oceans cover most of our planet and conceal many secrets beneath their waters, from hidden landscapes to valuable resources.",
+      "fact": "Oceans cover most of our planet and conceal many secrets beneath their waters."
+    },
+    {
+      "id": "p2geo1-094",
+      "type": "assertion",
+      "topic": "Ocean currents",
+      "difficulty": "easy",
+      "q": "Assertion (A): Ocean currents flow across the ocean surface in definite directions.\nReason (R): Ocean currents change their directions randomly every day.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "Ocean currents are continuous streams of water that flow across the ocean surface in definite directions, so A is true. R is false because their directions are definite, not random.",
+      "fact": "Ocean currents are continuous streams of water that flow across the ocean surface in definite directions."
+    },
+    {
+      "id": "p2geo1-095",
+      "type": "assertion",
+      "topic": "Coastal architects",
+      "difficulty": "medium",
+      "q": "Assertion (A): Waves are often called 'coastal architects'.\nReason (R): Waves shape the shoreline through erosion and sediment transport.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Waves are called coastal architects because they shape the shoreline through erosion and sediment transport, creating features like caves, arches, stacks and beaches. R explains A.",
+      "fact": "Waves are often called coastal architects as they shape the shoreline through erosion and sediment transport."
+    },
+    {
+      "id": "p2geo1-096",
+      "type": "assertion",
+      "topic": "Bhadkeshwar Temple",
+      "difficulty": "medium",
+      "q": "Assertion (A): The Bhadkeshwar Mahadev Temple in Dwarka can be reached only during high tide.\nReason (R): The stone pathway leading to the temple is completely submerged during high tide.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "The temple can be reached only during LOW tide, because the stone pathway is completely submerged during high tide. So A is false, while R is true.",
+      "fact": "The Bhadkeshwar Mahadev Temple in Dwarka can be reached only during low tide, as the stone pathway leading to it is completely submerged during high tide."
+    },
+    {
+      "id": "p2geo1-097",
+      "type": "multiselect",
+      "topic": "NCRMP",
+      "difficulty": "easy",
+      "q": "Select all correct: what does the National Cyclone Risk Mitigation Project (NCRMP) focus on?",
+      "options": [
+        "Improving emergency response mechanisms",
+        "Conducting national elections",
+        "Building cyclone shelters",
+        "Strengthening warning systems"
+      ],
+      "answerIndices": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "The NCRMP builds cyclone shelters, strengthens warning systems and improves emergency response mechanisms in cyclone-prone States and Union Territories, and includes a Decision Support System (DSS) for disaster management authorities.",
+      "fact": "The National Cyclone Risk Mitigation Project (NCRMP) builds cyclone shelters, strengthens warning systems and improves emergency response mechanisms, and includes a Decision Support System (DSS)."
+    },
+    {
+      "id": "p2geo1-098",
+      "type": "match",
+      "topic": "Ocean organisations",
+      "difficulty": "hard",
+      "q": "Match each ocean organisation abbreviation with its correct full form.",
+      "pairs": [
+        {
+          "l": "INCOIS",
+          "r": "Indian National Centre for Ocean Information Services"
+        },
+        {
+          "l": "ITEWC",
+          "r": "Indian Tsunami Early Warning Centre"
+        },
+        {
+          "l": "NCRMP",
+          "r": "National Cyclone Risk Mitigation Project"
+        },
+        {
+          "l": "SSEWS",
+          "r": "Storm Surge Early Warning System"
+        },
+        {
+          "l": "GEMINI",
+          "r": "GAGAN-Enabled Mariner's Instrument for Navigation and Information"
+        }
+      ],
+      "explanation": "INCOIS is the Indian National Centre for Ocean Information Services; ITEWC is the Indian Tsunami Early Warning Centre; NCRMP is the National Cyclone Risk Mitigation Project; SSEWS is the Storm Surge Early Warning System; GEMINI is the GAGAN-Enabled Mariner's Instrument for Navigation and Information.",
+      "fact": "INCOIS, IMD, ITEWC, NCRMP, SSEWS and GEMINI are key organisations and systems dealing with ocean information and warnings in India."
+    },
+    {
+      "id": "p2geo1-099",
+      "type": "fillblank",
+      "topic": "Bathymetry",
+      "difficulty": "medium",
+      "q": "The study and mapping of the underwater topography of water bodies such as oceans, rivers and lakes is called ___.",
+      "answerVariants": [
+        "bathymetry",
+        "Bathymetry"
+      ],
+      "explanation": "Bathymetry is the study and mapping of the underwater topography of water bodies such as oceans, rivers, lakes and streams. Fishermen can even access bathymetry data through GEMINI.",
+      "fact": "Bathymetry is the study and mapping of the underwater topography of water bodies, such as oceans, rivers, lakes, and streams."
+    },
+    {
+      "id": "p2geo1-100",
+      "type": "truefalse",
+      "topic": "Territorial waters",
+      "difficulty": "easy",
+      "q": "The sea area closest to a country is called its territorial waters.",
+      "answer": "true",
+      "explanation": "The sea area closest to a country is called its territorial waters, over which the country has near-complete control subject to the right of innocent passage for foreign ships.",
+      "fact": "The sea area closest to a country is called its territorial waters."
+    }
+  ]
+}

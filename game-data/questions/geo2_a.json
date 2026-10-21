@@ -1,0 +1,322 @@
+{
+  "chapterId": "geo2",
+  "fragment": "a",
+  "questions": [
+    {
+      "id": "geo2-001",
+      "type": "mcq",
+      "topic": "Plate Tectonics Theory",
+      "difficulty": "easy",
+      "q": "Who gave the important theory of plate tectonics in Earth science?",
+      "options": ["W.J. Morgan", "Isaac Newton", "Charles Darwin", "Albert Einstein"],
+      "answer": 0,
+      "explanation": "The theory of plate tectonics was given by W.J. Morgan. It explains how the Earth's crust is broken into plates that move slowly over the semi-molten layer beneath them.",
+      "fact": "Plate tectonics is an important theory, given by W.J. Morgan, in earth science, that explains the movement of the Earth's crust.",
+      "hint": "Think of the scientist whose name appears right where the chapter introduces plate tectonics."
+    },
+    {
+      "id": "geo2-002",
+      "type": "truefalse",
+      "topic": "Tectonic Plates",
+      "difficulty": "easy",
+      "q": "According to the theory of plate tectonics, the outermost layer of the Earth is one single unbroken piece of rock.",
+      "answer": "false",
+      "explanation": "The outermost layer of the Earth is NOT one single piece; it is broken into several large and small pieces called tectonic plates.",
+      "fact": "The outermost layer of the Earth is not one single piece but is broken into several large and small pieces called tectonic plates."
+    },
+    {
+      "id": "geo2-003",
+      "type": "mcq",
+      "topic": "Earth's Interior Layers",
+      "difficulty": "easy",
+      "q": "What is the correct order of the Earth's three main layers from the outside to the inside?",
+      "options": ["Crust, mantle, core", "Mantle, crust, core", "Core, mantle, crust", "Crust, core, mantle"],
+      "answer": 0,
+      "explanation": "The Earth is made up of three main layers: the crust on which we live, then the very thick and hot mantle, and finally the extremely hot and heavy core at the centre.",
+      "fact": "The Earth is made up of three main layers: crust, mantle, and core."
+    },
+    {
+      "id": "geo2-004",
+      "type": "multiselect",
+      "topic": "Earth's Interior Layers",
+      "difficulty": "easy",
+      "q": "Select all correct statements about the layers of the Earth's interior.",
+      "options": [
+        "The crust is the outermost layer on which we live",
+        "The core is the innermost layer and is extremely hot and heavy",
+        "The lithosphere includes the crust along with the upper part of the mantle",
+        "The mantle is located inside the core",
+        "The asthenosphere is a completely solid and frozen layer"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "The crust is the outermost layer, the core is the innermost, and the lithosphere is made of the crust plus the upper mantle. The mantle lies between the crust and the core, and the asthenosphere is semi-molten, not frozen.",
+      "fact": "The crust along with the upper part of the mantle forms the lithosphere. Beneath the lithosphere lies the asthenosphere, which is semi-molten and allows the plates to move."
+    },
+    {
+      "id": "geo2-005",
+      "type": "match",
+      "topic": "Earth's Interior Terms",
+      "difficulty": "medium",
+      "q": "Match each layer or zone of the Earth's interior with its correct description.",
+      "pairs": [
+        {"l": "Crust", "r": "The outermost layer of the Earth on which we live"},
+        {"l": "Mantle", "r": "The very thick and hot layer between the crust and the core"},
+        {"l": "Outer core", "r": "A fluid layer mainly consisting of iron and nickel"},
+        {"l": "Inner core", "r": "A solid, hot, spinning metal ball that is the densest part of the Earth"},
+        {"l": "Asthenosphere", "r": "The semi-molten layer that allows the plates to move"}
+      ],
+      "explanation": "The crust is outermost, the mantle is thick and hot, the outer core is fluid iron and nickel, the inner core is the densest solid metal ball, and the semi-molten asthenosphere lets the plates move over it.",
+      "fact": "The mantle, which is very thick and hot... the core is the innermost layer and is extremely hot and heavy... the asthenosphere, which is semi-molten and allows the plates to move.",
+      "hint": "Remember: only the asthenosphere is semi-molten, and only the inner core is the densest part."
+    },
+    {
+      "id": "geo2-006",
+      "type": "truefalse",
+      "topic": "Earth's Mantle",
+      "difficulty": "easy",
+      "q": "The mantle is the innermost layer of the Earth.",
+      "answer": "false",
+      "explanation": "The mantle lies between the crust and the core; the innermost layer is the extremely hot and heavy core.",
+      "fact": "Below the crust lies the mantle, which is very thick and hot. The core is the innermost layer."
+    },
+    {
+      "id": "geo2-007",
+      "type": "assertion",
+      "topic": "Lithosphere and Asthenosphere",
+      "difficulty": "hard",
+      "q": "Assertion (A): The lithosphere is broken into different tectonic plates.\nReason (R): Beneath the lithosphere lies the asthenosphere, which is semi-molten and allows the plates to move.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both statements are true, but the semi-molten asthenosphere explains how the plates are able to move, not why the lithosphere is broken into plates.",
+      "fact": "This lithosphere is broken into different tectonic plates. Beneath the lithosphere lies the asthenosphere, which is semi-molten and allows the plates to move."
+    },
+    {
+      "id": "geo2-008",
+      "type": "mcq",
+      "topic": "Plate Movement Speed",
+      "difficulty": "easy",
+      "q": "How fast do tectonic plates usually move?",
+      "options": ["A few centimetres per year", "A few kilometres per year", "A few metres per day", "They do not move at all"],
+      "answer": 0,
+      "explanation": "Tectonic plates are massive slabs of solid rock that move very slowly, usually only a few centimetres per year.",
+      "fact": "Tectonic plates are massive slabs of solid rock that move very slowly, usually a few centimetres per year."
+    },
+    {
+      "id": "geo2-009",
+      "type": "assertion",
+      "topic": "Convection Currents",
+      "difficulty": "medium",
+      "q": "Assertion (A): The movement of tectonic plates is caused by convection currents in the mantle.\nReason (R): Heat from the Earth's core causes molten material in the mantle to rise, while cooler material sinks.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true, and the continuous rising and sinking of molten material creates exactly the convection currents that push and pull the plates, so R explains A.",
+      "fact": "The movement of tectonic plates is caused by convection currents in the mantle. Heat from the Earth's core causes molten material in the mantle to rise, while cooler material sinks."
+    },
+    {
+      "id": "geo2-010",
+      "type": "mcq",
+      "topic": "Types of Tectonic Plates",
+      "difficulty": "medium",
+      "q": "Which type of tectonic plate carries both continents and oceans?",
+      "options": ["Mixed plates", "Continental plates", "Oceanic plates", "Antarctic plates"],
+      "answer": 0,
+      "explanation": "Continental plates carry continents, oceanic plates carry ocean floors, and mixed plates carry both continents and oceans.",
+      "fact": "There are three main types of tectonic plates: continental plates, which carry continents; oceanic plates, which carry ocean floors; and mixed plates, which carry both."
+    },
+    {
+      "id": "geo2-011",
+      "type": "multiselect",
+      "topic": "Major Tectonic Plates",
+      "difficulty": "medium",
+      "q": "Select all correct names of major tectonic plates of the world.",
+      "options": ["Pacific Plate", "Eurasian Plate", "Indo-Australian Plate", "Himalayan Plate", "Deccan Plate"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "The major plates of the world include the Pacific, Eurasian, African, North American, South American, Indo-Australian, and Antarctic plates. There is no Himalayan plate or Deccan plate.",
+      "fact": "Some of the major tectonic plates of the world include the Pacific Plate, Eurasian Plate, African Plate, North American Plate, South American Plate, Indo-Australian Plate, and Antarctic Plate.",
+      "hint": "Two of the options are famous Indian land regions, not plates."
+    },
+    {
+      "id": "geo2-012",
+      "type": "wrongstatement",
+      "topic": "Plate Tectonics Basics",
+      "difficulty": "medium",
+      "q": "Which of these statements about plate tectonics is INCORRECT?",
+      "options": [
+        "Tectonic plates are responsible for major physical features such as mountains, earthquakes, and volcanoes",
+        "The movement of plates leads to the formation of mountains, valleys, ocean basins, volcanoes, and earthquakes",
+        "The theory of plate tectonics helps in identifying earthquake and volcano-prone regions",
+        "Tectonic plates move quickly, covering hundreds of kilometres in a single year"
+      ],
+      "answer": 3,
+      "explanation": "Tectonic plates actually move very slowly, usually only a few centimetres per year. The other three statements correctly describe the role and importance of plate tectonics.",
+      "fact": "Tectonic plates are massive slabs of solid rock that move very slowly, usually a few centimetres per year."
+    },
+    {
+      "id": "geo2-013",
+      "type": "mcq",
+      "topic": "Convergent Boundary",
+      "difficulty": "easy",
+      "q": "At which type of plate boundary do two plates move towards each other?",
+      "options": ["Convergent boundary", "Divergent boundary", "Transform boundary", "Static boundary"],
+      "answer": 0,
+      "explanation": "At a convergent boundary two plates move towards each other; at divergent boundaries they move apart, and at transform boundaries they slide past each other.",
+      "fact": "The first is the convergent boundary, where two plates move towards each other."
+    },
+    {
+      "id": "geo2-014",
+      "type": "mcq",
+      "topic": "Fold Mountains",
+      "difficulty": "medium",
+      "q": "Which landforms are created when two continental plates collide at a convergent boundary?",
+      "options": ["Fold mountains, such as the Himalaya", "Mid-ocean ridges", "Deep narrow fjords", "Crescent-shaped dunes"],
+      "answer": 0,
+      "explanation": "When continental plates collide, they form fold mountains; the Himalaya is the example given in the text. Mid-ocean ridges form at divergent boundaries instead.",
+      "fact": "When continental plates collide, they form fold mountains, such as the Himalaya."
+    },
+    {
+      "id": "geo2-015",
+      "type": "truefalse",
+      "topic": "Oceanic-Continental Collision",
+      "difficulty": "medium",
+      "q": "When an oceanic plate collides with a continental plate, the oceanic plate sinks beneath the continental plate, leading to volcanic activity and earthquakes.",
+      "answer": "true",
+      "explanation": "At such a convergent boundary the oceanic plate sinks beneath the continental plate, and this process leads to volcanic activity and earthquakes.",
+      "fact": "When an oceanic plate collides with a continental plate, the oceanic plate sinks beneath the continental plate, leading to volcanic activity and earthquakes."
+    },
+    {
+      "id": "geo2-016",
+      "type": "multiselect",
+      "topic": "Divergent Boundary",
+      "difficulty": "medium",
+      "q": "Select all correct statements about divergent plate boundaries.",
+      "options": [
+        "The plates move away from each other",
+        "Magma rises from below and forms new crust",
+        "Features such as mid-ocean ridges are created",
+        "The plates slide past each other without creating or destroying crust",
+        "One plate always sinks beneath the other"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "At divergent boundaries plates move apart, magma rises to form new crust, and mid-ocean ridges such as the Mid-Atlantic Ridge are created. Sliding past each other describes transform boundaries, and sinking beneath describes convergent boundaries.",
+      "fact": "The divergent boundary is where plates move away from each other. In this case, magma rises from below and forms new crust, creating features, such as mid-ocean ridges."
+    },
+    {
+      "id": "geo2-017",
+      "type": "mcq",
+      "topic": "Transform Boundary",
+      "difficulty": "easy",
+      "q": "What happens at a transform plate boundary?",
+      "options": [
+        "Plates slide past each other without creating or destroying crust",
+        "Plates move towards each other forming fold mountains",
+        "Magma rises from below and forms new crust",
+        "A new ocean basin opens up instantly"
+      ],
+      "answer": 0,
+      "explanation": "At transform boundaries plates slide past each other without creating or destroying crust, and this type of movement mainly causes earthquakes.",
+      "fact": "The third type is the transform boundary, where plates slide past each other without creating or destroying crust."
+    },
+    {
+      "id": "geo2-018",
+      "type": "mcq",
+      "topic": "San Andreas Fault",
+      "difficulty": "easy",
+      "q": "The San Andreas Fault in the United States is an example of which type of plate boundary?",
+      "options": ["Transform boundary", "Convergent boundary", "Divergent boundary", "Mixed boundary"],
+      "answer": 0,
+      "explanation": "The San Andreas Fault is the example given for a transform boundary, where plates slide past each other and mainly cause earthquakes.",
+      "fact": "This type of movement mainly causes earthquakes, such as along the San Andreas Fault in the United States."
+    },
+    {
+      "id": "geo2-019",
+      "type": "truefalse",
+      "topic": "Transform Boundary",
+      "difficulty": "medium",
+      "q": "At a transform boundary, the sliding of plates past each other creates new crust.",
+      "answer": "false",
+      "explanation": "At a transform boundary plates slide past each other WITHOUT creating or destroying crust; this movement mainly causes earthquakes. New crust is created at divergent boundaries.",
+      "fact": "The transform boundary is where plates slide past each other without creating or destroying crust."
+    },
+    {
+      "id": "geo2-020",
+      "type": "mcq",
+      "topic": "Ring of Fire",
+      "difficulty": "easy",
+      "q": "The Ring of Fire, where most earthquakes and volcanoes occur, is located around which ocean?",
+      "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+      "answer": 0,
+      "explanation": "Most earthquakes and volcanoes occur along plate boundaries, especially around the Pacific Ocean, an area known as the Ring of Fire.",
+      "fact": "Most earthquakes and volcanoes occur along plate boundaries, especially around the Pacific Ocean, an area known as the Ring of Fire."
+    },
+    {
+      "id": "geo2-021",
+      "type": "assertion",
+      "topic": "Plate Tectonics and Disasters",
+      "difficulty": "hard",
+      "q": "Assertion (A): The theory of plate tectonics is very important for managing disasters.\nReason (R): This theory helps in the identification of earthquake and volcano-prone regions.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true, and because the theory identifies prone regions, it directly helps in managing disasters arising from earthquakes and volcanoes, so R explains A.",
+      "fact": "This theory is very important for identification of earthquake and volcano-prone regions and managing disasters arising from them."
+    },
+    {
+      "id": "geo2-022",
+      "type": "fillblank",
+      "topic": "Early Word for Earthquakes",
+      "difficulty": "medium",
+      "q": "In early times, earthquakes were known as '___', meaning the shaking of the Earth.",
+      "answerVariants": ["bhūkampa", "bhukampa", "bhukamp"],
+      "explanation": "The early Indian word for earthquake was 'bhūkampa', which literally means the shaking of the Earth.",
+      "fact": "In early times too, earthquakes were known as 'bhūkampa', meaning the shaking of the Earth.",
+      "hint": "The word combines 'bhū' (earth) with 'kampa' (shaking)."
+    },
+    {
+      "id": "geo2-023",
+      "type": "mcq",
+      "topic": "Baratang Mud Volcano",
+      "difficulty": "easy",
+      "q": "India's only mud volcano is found at Baratang Island in which group of islands?",
+      "options": ["Andaman and Nicobar Islands", "Lakshadweep Islands", "Andhra coast", "Gulf of Khambhat"],
+      "answer": 0,
+      "explanation": "The mud volcano at Baratang Island is a rare natural wonder in India and a unique attraction of the Andaman and Nicobar Islands, where mud bubbles out due to natural underground gases and pressure.",
+      "fact": "The mud volcano at Baratang Island is a rare natural wonder in India and a unique attraction of the Andaman and Nicobar Islands."
+    },
+    {
+      "id": "geo2-024",
+      "type": "multiselect",
+      "topic": "Varāhamihira's Elemental Forces",
+      "difficulty": "hard",
+      "q": "In the Bṛihatsaṁhitā, Varāhamihira attributed earthquakes to four elemental forces. Select all that are among them.",
+      "options": ["Vāyu (wind)", "Agni (fire)", "Varuṇa (water)", "Sūrya (the Sun)", "Pṛthvī (the soil)"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Varāhamihira attributed earthquakes to four elemental forces: Vāyu (wind), Agni (fire), Indra (heaven/thunder), and Varuṇa (water), each linked to specific constellations and regions.",
+      "fact": "He attributed earthquakes to four elemental forces: Vāyu (wind), Agni (fire), Indra (heaven/thunder), and Varuṇa (water).",
+      "hint": "The fourth force in his list was Indra, associated with heaven and thunder."
+    },
+    {
+      "id": "geo2-025",
+      "type": "order",
+      "topic": "Earth's Layers Order",
+      "difficulty": "easy",
+      "q": "Arrange the layers of the Earth's interior in the correct order from the surface to the centre.",
+      "orderItems": ["Crust", "Mantle", "Outer core", "Inner core"],
+      "explanation": "Moving from the surface inward, we pass through the crust, then the thick hot mantle, then the fluid outer core, and finally the solid inner core at the very centre.",
+      "fact": "The Earth is made up of three main layers: crust, mantle, and core... the outer core is a fluid layer... the inner core is a solid, hot spinning metal ball."
+    }
+  ]
+}

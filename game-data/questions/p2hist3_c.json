@@ -1,0 +1,282 @@
+{
+  "chapterId": "p2hist3",
+  "fragment": "c",
+  "questions": [
+    {
+      "id": "p2hist3-051",
+      "type": "fillblank",
+      "topic": "Vijayanagara Empire",
+      "difficulty": "easy",
+      "q": "The kingdom of Vijayanagara, established in 1336, means 'City of ___'.",
+      "answerVariants": ["Victory", "victory"],
+      "explanation": "Vijayanagara means 'City of Victory'. Located near present-day Hampi in Karnataka, it became one of the richest and most influential states of its time.",
+      "fact": "Vijayanagara—meaning 'City of Victory'—was located near present-day Hampi, Karnataka."
+    },
+    {
+      "id": "p2hist3-052",
+      "type": "mcq",
+      "topic": "End of Madurai Sultanate",
+      "difficulty": "hard",
+      "q": "Who killed the Sultan and brought the Sultanate of Madurai to an end?",
+      "options": ["Kumāra Kampana", "Vīra Ballāla III of the Hoysālas", "Harihara, founder of Vijayanagara", "Mahārāṇā Kumbhā of Mewar"],
+      "answer": 0,
+      "explanation": "The campaign against the Madurai Sultanate was led by Kumāra Kampana. He killed the Sultan and brought the Sultanate of Madurai to an end.",
+      "fact": "The campaign against Madurai Sultanate was led by Kumāra Kampana; he killed the Sultan and brought the Sultanate of Madurai to an end."
+    },
+    {
+      "id": "p2hist3-053",
+      "type": "mcq",
+      "topic": "Battle of Talikota",
+      "difficulty": "easy",
+      "q": "In the Battle of Talikota (1565), the Vijayanagara army was defeated by whom?",
+      "options": ["The Mughal army under Akbar", "The Portuguese navy", "The Ahom kingdom", "An alliance of the Deccan sultanates"],
+      "answer": 3,
+      "explanation": "In 1565, the Vijayanagara army was defeated at the Battle of Talikota by an alliance of the Deccan sultanates. The city of Vijayanagara was sacked and largely abandoned, and the empire gradually fragmented.",
+      "fact": "The Vijayanagara army was defeated at the Battle of Talikota in 1565 by an alliance of the Deccan sultanates."
+    },
+    {
+      "id": "p2hist3-054",
+      "type": "mcq",
+      "topic": "Battle of Kannanur",
+      "difficulty": "hard",
+      "q": "What happened to the Hoysāla king Vīra Ballāla III after the Battle of Kannanur (1342)?",
+      "options": ["He annexed the Madurai Sultanate", "He became an ally of the Delhi Sultanate", "He was executed after the Sultan's surprise counter-attack", "He moved his capital to Hampi"],
+      "answer": 2,
+      "explanation": "Vīra Ballāla III fought the Madurai Sultanate, resulting in the Battle of Kannanur; however, the Sultan launched a surprise counter-attack and executed the Hoysāla ruler.",
+      "fact": "The Sultan launched a surprise counter-attack and executed the Hoysāla ruler Vīra Ballāla III."
+    },
+    {
+      "id": "p2hist3-055",
+      "type": "truefalse",
+      "topic": "Nayaka Defiance",
+      "difficulty": "hard",
+      "q": "Muthu Vīrappa Nāyak III of Madurai ceremonially received the Mughal royal slipper at the borders of his territory.",
+      "answer": "false",
+      "explanation": "Muthu Vīrappa Nāyak refused to observe the protocol. He refused to meet the procession at the border, forced the Mughal representatives to place the slipper on the floor, put his own foot inside it mockingly, and had the messengers expelled from his kingdom.",
+      "fact": "Muthu Vīrappa Nāyak refused to bow before the slipper and had the messengers expelled from his kingdom."
+    },
+    {
+      "id": "p2hist3-056",
+      "type": "wrongstatement",
+      "topic": "Vijayanagara Empire",
+      "difficulty": "medium",
+      "q": "Which of these statements about the Vijayanagara Empire is INCORRECT?",
+      "options": ["Vijayanagara encouraged the flourishing of literature in Kannada, Telugu, Tamil and Sanskrit", "Kumāra Kampana, who ended the Madurai Sultanate, was the son of Rāṇā Sāngā", "During Bukkā's reign, Vijayanagara subjugated the Madurai Sultanate and annexed Arcot", "After Talikota, several Vijayanagara territories came under smaller Nāyaka kingdoms"],
+      "answer": 1,
+      "explanation": "Kumāra Kampana was the son of Bukkā, not of Rāṇā Sāngā of Mewar. The other three statements match the textbook.",
+      "fact": "The campaign against Madurai Sultanate was led by Kumāra Kampana, the son of Bukkā."
+    },
+    {
+      "id": "p2hist3-057",
+      "type": "order",
+      "topic": "Vijayanagara Chronology",
+      "difficulty": "medium",
+      "q": "Arrange these events of the Vijayanagara Empire in the correct chronological order.",
+      "orderItems": [
+        "Establishment of the Vijayanagara Empire (1336)",
+        "Battle of Kannanur — Vīra Ballāla III fights the Madurai Sultanate (1342)",
+        "Death of Kṛiṣhṇadevarāya (1529)",
+        "Battle of Talikota (1565)"
+      ],
+      "explanation": "Vijayanagara was established in 1336, the Battle of Kannanur followed in 1342, Kṛiṣhṇadevarāya died of illness in 1529, and the Battle of Talikota took place in 1565.",
+      "fact": "1336: Vijayanagara established; 1342: Battle of Kannanur; 1529: Kṛiṣhṇadevarāya died of illness; 1565: Battle of Talikota."
+    },
+    {
+      "id": "p2hist3-058",
+      "type": "assertion",
+      "topic": "Vijayanagara Geography",
+      "difficulty": "easy",
+      "q": "Assertion (A): Vijayanagara's geography provided it with a strong natural defence.\nReason (R): The region had a formidable river and rugged, rocky terrain.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 0,
+      "explanation": "The region's geography, including a formidable river and rugged, rocky terrain, gave Vijayanagara a strong natural defence and a secure base for military operations — so R explains A.",
+      "fact": "The region's geography, including a formidable river and rugged, rocky terrain, provided Vijayanagara with a strong natural defence."
+    },
+    {
+      "id": "p2hist3-059",
+      "type": "mcq",
+      "topic": "Rise of the Marathas",
+      "difficulty": "easy",
+      "q": "The establishment of an independent Maratha state in 1674 is closely associated with the rise of which ruler?",
+      "options": ["Mahārāṇā Pratāp", "Chhatrapati Śhivājī", "Bābur", "Rāṇā Sāngā"],
+      "answer": 1,
+      "explanation": "The establishment of an independent Maratha state in 1674 is closely associated with the rise of Chhatrapati Śhivājī, who was coronated as the sovereign Maratha ruler.",
+      "fact": "The establishment of an independent Maratha state in 1674 is closely associated with the rise of Chhatrapati Śhivājī."
+    },
+    {
+      "id": "p2hist3-060",
+      "type": "mcq",
+      "topic": "Maratha Forts",
+      "difficulty": "easy",
+      "q": "Which forts were strategically built by the Marathas and played a crucial role in their resistance against the Mughals?",
+      "options": ["Raigad and Sinhagad", "Chittor and Ranthambore", "Gingee and Gwalior", "Agra and Lahore"],
+      "answer": 0,
+      "explanation": "The Marathas strategically built forts such as Raigad and Sinhagad, which functioned as strategic nuclei for guerrilla warfare in their terrain of hills and deep valleys.",
+      "fact": "The Marathas strategically built forts such as Raigad and Sinhagad which played a crucial role in resistance against the Mughals."
+    },
+    {
+      "id": "p2hist3-061",
+      "type": "mcq",
+      "topic": "Battle of Pratapgarh",
+      "difficulty": "easy",
+      "q": "What happened at the Battle of Pratapgarh in 1659?",
+      "options": ["The Marathas were defeated by the Mughals", "Śhivājī was coronated as Chhatrapati", "The Marathas lost the fort of Raigad", "Chhatrapati Śhivājī killed Afzal Khan"],
+      "answer": 3,
+      "explanation": "At the Battle of Pratapgarh (1659), Chhatrapati Śhivājī killed Afzal Khan. The key to Maratha success was their bravery and military skills.",
+      "fact": "1659: Battle of Pratapgarh — Chhatrapati Śhivājī kills Afzal Khan."
+    },
+    {
+      "id": "p2hist3-062",
+      "type": "mcq",
+      "topic": "Gingee Fort",
+      "difficulty": "hard",
+      "q": "According to the chapter, one gateway of the Gingee (Senji) Fort was designed so that it could be defended by what force?",
+      "options": ["A single ruler against his entire army", "A small contingent of soldiers against an army of ten thousand", "Ten thousand soldiers against a hundred", "Elephants trained for war"],
+      "answer": 1,
+      "explanation": "One of Gingee's gateways is said to have been designed so that a small contingent of soldiers could defend it against an army of ten thousand — a marvel of military engineering.",
+      "fact": "One of its gateways is said to have been designed so that a small contingent of soldiers could defend it against an army of ten thousand."
+    },
+    {
+      "id": "p2hist3-063",
+      "type": "truefalse",
+      "topic": "Gingee Fort",
+      "difficulty": "easy",
+      "q": "In 2025, the Gingee Fort was declared a UNESCO World Heritage Site during the 47th session of the World Heritage Committee in Paris.",
+      "answer": "true",
+      "explanation": "In 2025, the Gingee (Senji) Fort, situated in the Villupuram district of Tamil Nadu, was declared a UNESCO World Heritage Site during the 47th session of the World Heritage Committee in Paris.",
+      "fact": "In 2025, the Fort was declared a UNESCO World Heritage Site during the 47th session of the World Heritage Committee in Paris."
+    },
+    {
+      "id": "p2hist3-064",
+      "type": "fillblank",
+      "topic": "Maratha Swarajya",
+      "difficulty": "easy",
+      "q": "In the Maratha state, territorial control and sovereignty were closely linked to the idea of ___, or self-rule.",
+      "answerVariants": ["swarajya", "swarājya", "swaraj"],
+      "explanation": "In the Maratha state, sovereignty was closely linked to swarājya, or self-rule — the idea of an independent, self-governing territory free from external control. Śhivājī was one of its earliest proponents.",
+      "fact": "Territorial control and sovereignty were closely linked to the idea of swarājya, or self-rule."
+    },
+    {
+      "id": "p2hist3-065",
+      "type": "multiselect",
+      "topic": "Maratha Forts",
+      "difficulty": "medium",
+      "q": "Select all correct functions of Maratha forts.",
+      "options": ["Centres of administration and judicial authority", "Ports for transoceanic maritime trade", "Strategic nuclei for guerrilla warfare", "Fallback capitals on the frontiers to avoid total defeat"],
+      "answerIndices": [0, 2, 3],
+      "explanation": "Maratha forts were strategic nuclei for guerrilla warfare, served as centres of administration and judicial authority, and frontier forts acted as fallback capitals to avoid total defeat — but they were not ports for sea trade.",
+      "fact": "Maratha forts functioned as strategic nuclei for guerrilla warfare and centres of administration and judicial authority; frontier forts served as fallback capitals."
+    },
+    {
+      "id": "p2hist3-066",
+      "type": "assertion",
+      "topic": "Maratha Resistance",
+      "difficulty": "medium",
+      "q": "Assertion (A): The prolonged warfare with the Marathas exhausted the Mughal Empire economically and politically.\nReason (R): Aurangzeb spent more than two decades in the Deccan trying to control the region and subdue Maratha resistance.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 0,
+      "explanation": "The Marathas fought many battles against the Mughals, and Aurangzeb spent more than two decades in the Deccan in his attempt to subdue them. This prolonged warfare exhausted the empire economically and politically, so R explains A.",
+      "fact": "The prolonged warfare exhausted the Mughal Empire economically and politically; Aurangzeb spent more than two decades in the Deccan."
+    },
+    {
+      "id": "p2hist3-067",
+      "type": "mcq",
+      "topic": "Sikhism's Foundation",
+      "difficulty": "easy",
+      "q": "A major spiritual movement that later came to be known as Sikhism was founded by Guru Nānak in which period?",
+      "options": ["The early 13th century", "The 17th century", "The late 15th century", "The 8th century"],
+      "answer": 2,
+      "explanation": "Guru Nānak founded this major spiritual movement in the late 15th century. It emphasised devotion to one God, social equality, and the rejection of rituals.",
+      "fact": "A major spiritual movement was founded by Guru Nānak in the late 15th century which later came to be known as Sikhism."
+    },
+    {
+      "id": "p2hist3-068",
+      "type": "mcq",
+      "topic": "Martyrdom of the Gurus",
+      "difficulty": "easy",
+      "q": "Which Mughal emperor ordered the execution of Guru Arjan Dev, the fifth Sikh Guru?",
+      "options": ["Akbar", "Bābur", "Shah Jahān", "Jahāngīr"],
+      "answer": 3,
+      "explanation": "Jahāngīr ordered the execution of Guru Arjan Dev on the pretext of the Guru's alleged support to Jahāngīr's rebellious son, Khusrau Mirza. The martyrdom marked a turning point in Sikh history.",
+      "fact": "Jahāngīr ordered the execution of Guru Arjan Dev (the fifth Sikh guru) on the pretext of the Guru's alleged support to Khusrau Mirza."
+    },
+    {
+      "id": "p2hist3-069",
+      "type": "mcq",
+      "topic": "Akal Takht",
+      "difficulty": "medium",
+      "q": "Who established the Akāl Takht, a seat of temporal authority?",
+      "options": ["Guru Nānak", "Guru Arjan Dev", "Guru Tegh Bahādur", "Guru Hargobind"],
+      "answer": 3,
+      "explanation": "Guru Hargobind, the sixth Sikh Guru, established the Akāl Takht to administer justice and address matters of governance — intended in part to counter Mughal political dominance.",
+      "fact": "Guru Hargobind established the Akāl Takht, a seat of temporal authority, to administer justice and address matters of governance."
+    },
+    {
+      "id": "p2hist3-070",
+      "type": "truefalse",
+      "topic": "Sikh Gurus",
+      "difficulty": "medium",
+      "q": "Guru Hargobind, the sixth Sikh Guru, was detained by Jahāngīr in Gwalior Fort.",
+      "answer": "true",
+      "explanation": "Guru Hargobind was detained by Jahāngīr in Gwalior Fort. During this period, the Sikhs visited Gwalior in large numbers and paid their respects to the Guru from outside the fortress.",
+      "fact": "Guru Hargobind (the sixth Sikh Guru) was detained by Jahāngīr in Gwalior Fort."
+    },
+    {
+      "id": "p2hist3-071",
+      "type": "truefalse",
+      "topic": "Martyrdom of the Gurus",
+      "difficulty": "easy",
+      "q": "In 1675, Aurangzeb ordered the execution of Guru Tegh Bahādur, the ninth Sikh Guru.",
+      "answer": "true",
+      "explanation": "In 1675, Aurangzeb ordered the execution of Guru Tegh Bahādur, the ninth Sikh Guru. The martyrdom proved a turning point in Indian history.",
+      "fact": "In 1675, Aurangzeb ordered the execution of Guru Tegh Bahādur, the ninth Sikh Guru."
+    },
+    {
+      "id": "p2hist3-072",
+      "type": "fillblank",
+      "topic": "The Khalsa",
+      "difficulty": "easy",
+      "q": "In 1699, Guru Gobind Singh established a Sikh order known as the ___.",
+      "answerVariants": ["Khalsa", "the Khalsa"],
+      "explanation": "In 1699, Guru Gobind Singh established and developed the Sikh order known as the Khalsa, which adopted a distinct martial code in response to the changing socio-political environment.",
+      "fact": "In 1699, Guru Gobind Singh established and developed a Sikh order known as the Khalsa."
+    },
+    {
+      "id": "p2hist3-073",
+      "type": "order",
+      "topic": "Sikh Chronology",
+      "difficulty": "medium",
+      "q": "Arrange these events of Sikh history in the correct chronological order.",
+      "orderItems": [
+        "Guru Nānak founds the spiritual movement (late 15th century)",
+        "Execution of Guru Arjan Dev under Jahāngīr",
+        "Execution of Guru Tegh Bahādur (1675)",
+        "Establishment of the Khalsa (1699)"
+      ],
+      "explanation": "Guru Nānak's movement came first (late 15th century), followed by the execution of Guru Arjan Dev under Jahāngīr, then the execution of Guru Tegh Bahādur in 1675, and finally the establishment of the Khalsa in 1699.",
+      "fact": "Guru Nānak founded the movement in the late 15th century; Guru Arjan Dev was executed under Jahāngīr; Guru Tegh Bahādur in 1675; the Khalsa was established in 1699."
+    },
+    {
+      "id": "p2hist3-074",
+      "type": "wrongstatement",
+      "topic": "Sikh Resilience",
+      "difficulty": "medium",
+      "q": "Which of these statements about the Sikhs is INCORRECT?",
+      "options": ["Sikhism emphasised devotion to one God, social equality, and the rejection of rituals", "Punjab, where the Sikh community flourished, was largely under the Lodī Sultans and later the Mughals", "Guru Arjan Dev, executed under Jahāngīr, was the ninth Sikh Guru", "The martyrdom of the Gurus firmed the Sikhs' conviction that persecution had to be met with firm resistance"],
+      "answer": 2,
+      "explanation": "Guru Arjan Dev was the fifth Sikh Guru, not the ninth — the ninth was Guru Tegh Bahādur. The other three statements are correct.",
+      "fact": "Jahāngīr ordered the execution of Guru Arjan Dev (the fifth Sikh guru)."
+    },
+    {
+      "id": "p2hist3-075",
+      "type": "mcq",
+      "topic": "Jat Resistance",
+      "difficulty": "medium",
+      "q": "Who led the Jat rebellion against the Mughal Empire in 1669?",
+      "options": ["The zamindars of Sinsani and Sogar", "Niccolao Manucci", "Gokul Jat", "Mahārāṇā Amar Singh"],
+      "answer": 2,
+      "explanation": "In 1669, under the leadership of Gokul Jat, the Jats of the Ganga–Yamuna Doab rebelled against the Mughal Empire, and Mughal forces struggled for many months to suppress the uprising.",
+      "fact": "In 1669, under the leadership of Gokul Jat, they rebelled against the Mughal Empire."
+    }
+  ]
+}

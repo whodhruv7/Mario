@@ -1,0 +1,344 @@
+{
+  "chapterId": "geo2",
+  "fragment": "c",
+  "questions": [
+    {
+      "id": "geo2-051",
+      "type": "mcq",
+      "topic": "Waterfall Formation",
+      "difficulty": "medium",
+      "q": "How do waterfalls form in the upper course of rivers?",
+      "options": [
+        "Hard rocks resist erosion while softer rocks below are worn away, creating a sudden drop",
+        "Glaciers deposit till in a fan shape",
+        "Wind carves streamlined rock ridges",
+        "Sea waves undercut the base of the coast"
+      ],
+      "answer": 0,
+      "explanation": "Waterfalls form where hard rocks resist erosion while the softer rocks below them are worn away; this difference creates the sudden vertical drop.",
+      "fact": "Waterfalls form in the upper course of rivers, where hard rocks resist erosion, while softer rocks below are worn away, creating a sudden drop."
+    },
+    {
+      "id": "geo2-052",
+      "type": "fillblank",
+      "topic": "Meander Definition",
+      "difficulty": "easy",
+      "q": "A ___ is a winding curve or bend in the middle or lower course of a river.",
+      "answerVariants": ["meander", "a meander"],
+      "explanation": "A meander is a winding curve or bend that forms in the middle or lower course of a river due to lateral erosion and deposition of sediments.",
+      "fact": "A meander is a winding curve or bend in the middle or lower course of a river formed due to the lateral erosion and deposition of sediments."
+    },
+    {
+      "id": "geo2-053",
+      "type": "wrongstatement",
+      "topic": "Meander Formation",
+      "difficulty": "medium",
+      "q": "Which of these statements about meanders is INCORRECT?",
+      "options": [
+        "Meanders are formed due to lateral erosion and deposition of sediments",
+        "In a meander, the river erodes the outer banks and deposits sediment on the inner banks",
+        "Meandering rivers can be used for navigation, irrigation, and tourism",
+        "In a meander, the river deposits sediment on the outer banks and erodes the inner banks"
+      ],
+      "answer": 3,
+      "explanation": "It is the opposite: the river erodes the OUTER banks and deposits sediment on the INNER banks of bends, gradually creating large loops.",
+      "fact": "As the river flows, it erodes the outer banks of bends and deposits sediment on the inner banks, gradually creating large loops."
+    },
+    {
+      "id": "geo2-054",
+      "type": "mcq",
+      "topic": "Grand Anicut",
+      "difficulty": "medium",
+      "q": "The Grand Anicut, also known as Kallanai, is an example of the use of rivers for which purpose?",
+      "options": ["Irrigation", "Mining", "Sand dune stabilisation", "Volcano monitoring"],
+      "answer": 0,
+      "explanation": "The Grand Anicut (Kallanai) in Tamil Nadu is cited as an example of the use of rivers for irrigation.",
+      "fact": "The Grand Anicut, also known as Kallanai in Tamil Nadu, is an example of the use of rivers for irrigation."
+    },
+    {
+      "id": "geo2-055",
+      "type": "mcq",
+      "topic": "Delta Location",
+      "difficulty": "easy",
+      "q": "Where is a delta formed?",
+      "options": [
+        "At the mouth of a river, where it flows into a sea, ocean, or lake",
+        "At the source of a river",
+        "On steep mountain cliffs",
+        "Under desert sand"
+      ],
+      "answer": 0,
+      "explanation": "A delta forms at the mouth of a river, where it flows into a sea, ocean, or lake and deposits the sediments it has carried from upstream.",
+      "fact": "A delta is a landform formed at the mouth of a river, where it flows into a sea, ocean, or lake, and deposits the sediments it has carried from upstream."
+    },
+    {
+      "id": "geo2-056",
+      "type": "truefalse",
+      "topic": "Delta Fertility",
+      "difficulty": "easy",
+      "q": "Deltas are highly fertile due to their rich alluvial soil.",
+      "answer": "true",
+      "explanation": "The sediments dropped by the river make deltas rich in alluvial soil, which is highly fertile and ideal for agriculture.",
+      "fact": "Deltas are highly fertile due to their rich alluvial soil, making them ideal for agriculture."
+    },
+    {
+      "id": "geo2-057",
+      "type": "fillblank",
+      "topic": "Delta Crops",
+      "difficulty": "easy",
+      "q": "The fertile soil of deltas supports crops such as rice and ___.",
+      "answerVariants": ["jute"],
+      "explanation": "Delta regions are ideal for agriculture and support crops such as rice and jute.",
+      "fact": "Deltas... are ideal for agriculture and supporting crops, such as rice and jute."
+    },
+    {
+      "id": "geo2-058",
+      "type": "multiselect",
+      "topic": "Delta Facts",
+      "difficulty": "medium",
+      "q": "Select all correct statements about deltas.",
+      "options": [
+        "Deltas are prone to flooding",
+        "The mix of fresh and saltwater in deltas creates diverse aquatic life important for fishing",
+        "Deltas often support dense human settlements and are centres of trade and transportation",
+        "Deltas are formed at the source of the river",
+        "Deltas are built from solid volcanic rock"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Deltas are fertile and busy places but are flood-prone; fishing thrives because of the mix of fresh and saltwater; and settlements and trade grow around navigable river routes. Deltas form at the MOUTH of a river from deposited sediment, not from volcanic rock.",
+      "fact": "They are also important for fishing, as the mix of fresh and saltwater creates diverse aquatic life. Many deltas support dense human settlements and are centres of trade and transportation... they can also be prone to flooding."
+    },
+    {
+      "id": "geo2-059",
+      "type": "wrongstatement",
+      "topic": "River Landforms",
+      "difficulty": "hard",
+      "q": "Which of these statements about river landforms is INCORRECT?",
+      "options": [
+        "In the lower course, the river slows further and deposits large amounts of sediment, forming deltas, levees, and alluvial fans",
+        "Meanders influence settlement patterns, as villages and towns often develop on gentle slopes near them",
+        "The fertile soil deposited along meander banks makes these areas ideal for farming",
+        "V-shaped valleys and rapids are features of the lower course of a river"
+      ],
+      "answer": 3,
+      "explanation": "V-shaped valleys and rapids are features of the UPPER course, where gradients are steep; the lower course is dominated by deposition landforms such as deltas and levees.",
+      "fact": "At the upper course, rivers often form V-shaped valleys, waterfalls, and rapids... In the lower course, the river slows further and deposits large amounts of sediment, forming deltas, levees, and alluvial fans."
+    },
+    {
+      "id": "geo2-060",
+      "type": "order",
+      "topic": "Delta Formation",
+      "difficulty": "hard",
+      "q": "Arrange the steps of delta formation in the correct order.",
+      "orderItems": [
+        "River carries sediments from upstream",
+        "River reaches the sea, ocean, or lake at its mouth",
+        "River slows down and loses energy",
+        "Sediments are deposited and accumulate over time",
+        "A fan-shaped or triangular area of land forms"
+      ],
+      "explanation": "The river first carries sediment downstream; at its mouth it slows down, drops the sediment, and over time these deposits accumulate into a fan-shaped or triangular delta.",
+      "fact": "A delta is a landform formed at the mouth of a river... deposits the sediments it has carried from upstream. Over time, these deposits accumulate to form a fan-shaped or triangular area of land."
+    },
+    {
+      "id": "geo2-061",
+      "type": "mcq",
+      "topic": "Beach Formation",
+      "difficulty": "easy",
+      "q": "A beach is created by which process?",
+      "options": [
+        "Deposition of sediments by waves along the shoreline",
+        "Erosion of caves by groundwater",
+        "Deposition of till by glaciers",
+        "Carving of yardangs by wind"
+      ],
+      "answer": 0,
+      "explanation": "A beach is a landform made up of sand, pebbles, or rocks along the shoreline, created by the deposition of sediments by waves.",
+      "fact": "A beach is a landform made up of sand, pebbles, or rocks along the shoreline of a sea, ocean, or lake, created by the deposition of sediments by waves."
+    },
+    {
+      "id": "geo2-062",
+      "type": "assertion",
+      "topic": "Beaches as Barriers",
+      "difficulty": "medium",
+      "q": "Assertion (A): Beaches help safeguard human settlements near the coast.\nReason (R): Beaches are made up of sand, pebbles, or rocks along the shoreline.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both statements are true, but the material a beach is made of does not explain its protective role; beaches safeguard settlements because they act as natural barriers against strong waves and coastal erosion.",
+      "fact": "Additionally, beaches act as natural barriers against strong waves and coastal erosion, helping safeguard human settlements near the coast."
+    },
+    {
+      "id": "geo2-063",
+      "type": "order",
+      "topic": "Coastal Erosion Sequence",
+      "difficulty": "medium",
+      "q": "Arrange these coastal erosion landforms in the order they typically form at a headland.",
+      "orderItems": ["Sea cave", "Sea arch", "Sea stack"],
+      "explanation": "Waves first erode weak parts of the rock to form caves; when caves on opposite sides of a headland meet, an arch forms; and when the arch collapses, an isolated stack is left standing.",
+      "fact": "caves (formed when waves erode weak parts of the rock), arches (created when caves on opposite sides of a headland meet), and stacks (isolated pillars of rock left standing after the arches collapse)."
+    },
+    {
+      "id": "geo2-064",
+      "type": "mcq",
+      "topic": "Sea Stack",
+      "difficulty": "easy",
+      "q": "What is a sea stack?",
+      "options": [
+        "An isolated pillar of rock left standing after an arch collapses",
+        "A crescent-shaped sand dune",
+        "A bowl-shaped glacial depression",
+        "An icicle-shaped cave formation"
+      ],
+      "answer": 0,
+      "explanation": "Stacks are isolated pillars of rock left standing after sea arches collapse.",
+      "fact": "stacks (isolated pillars of rock left standing after the arches collapse)."
+    },
+    {
+      "id": "geo2-065",
+      "type": "truefalse",
+      "topic": "Wave-Cut Platform",
+      "difficulty": "easy",
+      "q": "A wave-cut platform is a flat area left behind as cliffs retreat.",
+      "answer": "true",
+      "explanation": "As waves undercut the base of the coast and cliffs retreat, flat wave-cut platforms are left behind.",
+      "fact": "wave-cut platforms (flat areas left behind as cliffs retreat)."
+    },
+    {
+      "id": "geo2-066",
+      "type": "wrongstatement",
+      "topic": "Coastal Landforms",
+      "difficulty": "medium",
+      "q": "Which of these statements about coastal landforms is INCORRECT?",
+      "options": [
+        "Cliffs are steep rock faces formed as waves undercut the base of the coast",
+        "Sea caves form when waves erode weak parts of the rock",
+        "Coastal erosion occurs when waves, tides, and currents wear away the land along the coast",
+        "A sea arch is a crescent-shaped ridge of sand formed by wind"
+      ],
+      "answer": 3,
+      "explanation": "A sea arch is created when caves on opposite sides of a headland meet; it has nothing to do with wind-blown sand. Crescent-shaped sand features are barchan dunes.",
+      "fact": "arches (created when caves on opposite sides of a headland meet)."
+    },
+    {
+      "id": "geo2-067",
+      "type": "match",
+      "topic": "Glacial Landforms",
+      "difficulty": "medium",
+      "q": "Match each glacial landform with its correct description.",
+      "pairs": [
+        {"l": "U-shaped valley", "r": "Formed as glaciers widen and deepen river valleys"},
+        {"l": "Cirque", "r": "A bowl-shaped depression at the head of a glacier"},
+        {"l": "Arete", "r": "A sharp ridge between valleys"},
+        {"l": "Hanging valley", "r": "Occurs where smaller glaciers meet larger ones"},
+        {"l": "Fjord", "r": "A deep, narrow inlet created when the sea floods glacial valleys"}
+      ],
+      "explanation": "Glaciers widen and deepen river valleys into U shapes, carve bowl-shaped cirques at their heads, leave sharp aretes between valleys, form hanging valleys where small glaciers join large ones, and create fjords where the sea floods glacial valleys.",
+      "fact": "Common landforms made from glacial erosion include U-shaped valleys..., cirques..., aretes..., hanging valleys..., and fjords...."
+    },
+    {
+      "id": "geo2-068",
+      "type": "mcq",
+      "topic": "Cirque Landform",
+      "difficulty": "easy",
+      "q": "What is a cirque?",
+      "options": [
+        "A bowl-shaped depression at the head of a glacier",
+        "A hill of sand in a desert",
+        "A winding bend in a river",
+        "A flat area left by retreating cliffs"
+      ],
+      "answer": 0,
+      "explanation": "A cirque is a bowl-shaped depression found at the head of a glacier.",
+      "fact": "cirques (bowl-shaped depressions at the head of a glacier)."
+    },
+    {
+      "id": "geo2-069",
+      "type": "fillblank",
+      "topic": "Fjord Landform",
+      "difficulty": "hard",
+      "q": "A ___ is a deep, narrow inlet created when the sea floods glacial valleys.",
+      "answerVariants": ["fjord", "Fjord", "fiord"],
+      "explanation": "Fjords are deep, narrow inlets formed when the sea floods glacial valleys; they are often used as harbours and for fishing.",
+      "fact": "fjords (deep, narrow inlets created when the sea floods glacial valleys)."
+    },
+    {
+      "id": "geo2-070",
+      "type": "truefalse",
+      "topic": "Arete Landform",
+      "difficulty": "medium",
+      "q": "An arete is a bowl-shaped depression at the head of a glacier.",
+      "answer": "false",
+      "explanation": "An arete is a sharp ridge between valleys; the bowl-shaped depression at the head of a glacier is a cirque.",
+      "fact": "aretes (sharp ridges between valleys)."
+    },
+    {
+      "id": "geo2-071",
+      "type": "mcq",
+      "topic": "Hanging Valley",
+      "difficulty": "hard",
+      "q": "Where do hanging valleys occur?",
+      "options": [
+        "Where smaller glaciers meet larger ones",
+        "Where rivers deposit deltas",
+        "Where wind blows sand into dunes",
+        "Where waves meet a headland"
+      ],
+      "answer": 0,
+      "explanation": "Hanging valleys occur where smaller glaciers meet larger ones, leaving the smaller valley floor hanging above the main valley.",
+      "fact": "hanging valleys (which occur where smaller glaciers meet larger ones)."
+    },
+    {
+      "id": "geo2-072",
+      "type": "assertion",
+      "topic": "Glaciers and Fresh Water",
+      "difficulty": "medium",
+      "q": "Assertion (A): Glaciers are a major source of salt water.\nReason (R): Glaciers feed rivers that sustain human populations downstream.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "A is false because glaciers are crucial sources of FRESH water; R is true because glaciers feed rivers that sustain human populations downstream.",
+      "fact": "Additionally, glaciers are crucial sources of fresh water, feeding rivers that sustain human populations downstream."
+    },
+    {
+      "id": "geo2-073",
+      "type": "mcq",
+      "topic": "Terminal Moraine",
+      "difficulty": "easy",
+      "q": "What marks the furthest advance of a glacier?",
+      "options": ["Terminal moraine", "Barchan dune", "Wave-cut platform", "Deflation hollow"],
+      "answer": 0,
+      "explanation": "Terminal moraines are found at the end of glaciers and mark their furthest advance.",
+      "fact": "terminal moraines (found at the end of glaciers, marking their furthest advance)."
+    },
+    {
+      "id": "geo2-074",
+      "type": "fillblank",
+      "topic": "Glacial Till",
+      "difficulty": "medium",
+      "q": "The rocks, soil, and debris carried along and left behind by glaciers are called ___.",
+      "answerVariants": ["till"],
+      "explanation": "Glaciers carry rocks, soil, and debris known as till; when the glacier melts, this till is deposited to form moraines.",
+      "fact": "Moraines are landforms created by the deposition of rocks, soil, and debris (called till) carried along and left behind by glaciers."
+    },
+    {
+      "id": "geo2-075",
+      "type": "multiselect",
+      "topic": "Moraine Types",
+      "difficulty": "medium",
+      "q": "Select all correct types of moraines.",
+      "options": ["Lateral moraines", "Terminal moraines", "Medial moraines", "Coastal moraines", "Vertical moraines"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "The types of moraines are lateral moraines (along the sides of glaciers), terminal moraines (at the end, marking furthest advance), and medial moraines (formed when two glaciers meet and their lateral moraines join in the middle).",
+      "fact": "There are different types of moraines: lateral moraines (which form along the sides of glaciers), terminal moraines (found at the end of glaciers, marking their furthest advance), and medial moraines (formed when two glaciers meet and their lateral moraines join in the middle)."
+    }
+  ]
+}

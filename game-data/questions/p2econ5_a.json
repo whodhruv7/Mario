@@ -1,0 +1,345 @@
+{
+  "chapterId": "p2econ5",
+  "fragment": "a",
+  "questions": [
+    {
+      "id": "p2econ5-001",
+      "type": "mcq",
+      "topic": "Meaning of Personal Finance",
+      "difficulty": "easy",
+      "q": "What does 'personal finance' refer to?",
+      "options": [
+        "The planning and management of an individual's money to meet their needs and wants",
+        "The study of how governments prepare their annual budgets",
+        "The method banks use to calculate interest on loans",
+        "The way companies fix the prices of their shares"
+      ],
+      "answer": 0,
+      "explanation": "Personal finance is defined as the planning and management of an individual's money to meet their needs and wants. It covers decisions such as how much to spend, how much to save, where to invest, and how to prepare for future financial needs.",
+      "fact": "Personal finance refers to the planning and management of an individual's money to meet their needs and wants."
+    },
+    {
+      "id": "p2econ5-002",
+      "type": "mcq",
+      "topic": "Pillars of Personal Finance",
+      "difficulty": "easy",
+      "q": "Which of these is NOT one of the five pillars of personal finance?",
+      "options": [
+        "Income",
+        "Budgeting",
+        "Speculation",
+        "Protection and risk management"
+      ],
+      "answer": 2,
+      "explanation": "The five pillars of personal finance are income, budgeting, saving, investing, and protection and risk management. Speculation is nowhere listed as a pillar.",
+      "fact": "Personal finance rests on the five pillars—income, budgeting, saving, investing, and protection—to ensure financial security for individuals."
+    },
+    {
+      "id": "p2econ5-003",
+      "type": "truefalse",
+      "topic": "Income in Personal Finance",
+      "difficulty": "easy",
+      "q": "Income is the starting point of personal finance because without income, it is not possible to spend, save, or invest.",
+      "answer": "true",
+      "explanation": "The chapter calls income the starting point of personal finance: a person first receives money in return for products sold or services rendered, and only then can spend, save, or invest it.",
+      "fact": "Income is the starting point of personal finance because without income, it is not possible to spend, save, or invest."
+    },
+    {
+      "id": "p2econ5-004",
+      "type": "match",
+      "topic": "Sources of Income",
+      "difficulty": "easy",
+      "q": "Match each source of income with the correct example.",
+      "pairs": [
+        { "l": "Monthly salary", "r": "A teacher's regular earnings" },
+        { "l": "Business profits", "r": "A shopkeeper's earnings from a business" },
+        { "l": "Rent", "r": "Money earned from letting out property" },
+        { "l": "Interest", "r": "Earnings from bank deposits" },
+        { "l": "Dividends", "r": "Returns received by a shareholder" }
+      ],
+      "explanation": "The chapter lists these examples of income: a teacher earns a monthly salary, a shopkeeper earns profits from a business, a person earns rent from letting out property, an investor earns interest from bank deposits, and a shareholder receives dividends and interest from securities.",
+      "fact": "A teacher earns a monthly salary. A shopkeeper earns profits from a business. A person earns rent from letting out property. An investor earns interest from bank deposits. A shareholder receives dividends and interest from securities."
+    },
+    {
+      "id": "p2econ5-005",
+      "type": "fillblank",
+      "topic": "Savings in Childhood",
+      "difficulty": "easy",
+      "q": "In many Indian homes, a piggy bank is traditionally called a ___.",
+      "answerVariants": ["gullak", "Gullak", "gulak"],
+      "explanation": "The chapter opens by asking whether you keep your savings in a piggy bank (gullak), showing that our journey into managing money begins in childhood.",
+      "fact": "Do you keep your savings in a piggy bank (gullak) or somewhere else?"
+    },
+    {
+      "id": "p2econ5-006",
+      "type": "mcq",
+      "topic": "Meaning of Budgeting",
+      "difficulty": "easy",
+      "q": "What does budgeting mean?",
+      "options": [
+        "Spending all income immediately on wants",
+        "Borrowing money whenever expenses exceed income",
+        "Planning in advance how income will be spent",
+        "Buying shares of companies for long-term growth"
+      ],
+      "answer": 2,
+      "explanation": "Budgeting means planning in advance how income will be spent, and a budget is a written plan that aims to balance income and expenses.",
+      "fact": "Budgeting means planning in advance how income will be spent. A budget is a written plan that aims to balance income and expenses."
+    },
+    {
+      "id": "p2econ5-007",
+      "type": "truefalse",
+      "topic": "Meaning of Budgeting",
+      "difficulty": "easy",
+      "q": "A budget is a written plan that aims to balance income and expenses.",
+      "answer": "true",
+      "explanation": "The chapter defines a budget exactly this way: a written plan that aims to balance income and expenses, helping people live within their means.",
+      "fact": "A budget is a written plan that aims to balance income and expenses."
+    },
+    {
+      "id": "p2econ5-008",
+      "type": "mcq",
+      "topic": "Steps in Budgeting",
+      "difficulty": "medium",
+      "q": "Every month, Meena compares her actual spending with her budget to spot where she is overspending. Which step of budgeting is she practising?",
+      "options": [
+        "Identify your expenses",
+        "Set a savings goal",
+        "Track your spending",
+        "Review and adjust your budget"
+      ],
+      "answer": 2,
+      "explanation": "Tracking your spending means regularly comparing actual spending with the budget, which helps identify areas of overspending and allows corrections if needed.",
+      "fact": "Regularly compare your actual spending with your budget. This helps you identify areas where you may be overspending and make corrections if needed."
+    },
+    {
+      "id": "p2econ5-009",
+      "type": "order",
+      "topic": "Steps in Budgeting",
+      "difficulty": "medium",
+      "q": "Arrange the four steps of budgeting in the correct order.",
+      "orderItems": [
+        "Identify your expenses",
+        "Set a savings goal",
+        "Track your spending",
+        "Review and adjust your budget"
+      ],
+      "explanation": "The steps in budgeting are: first identify your expenses, then set a savings goal, then track your spending, and finally review and adjust your budget to keep it realistic.",
+      "fact": "Steps in Budgeting: 1) Identify your expenses 2) Set a savings goal 3) Track your spending 4) Review and adjust your budget"
+    },
+    {
+      "id": "p2econ5-010",
+      "type": "mcq",
+      "topic": "Setting Savings Goals",
+      "difficulty": "medium",
+      "q": "You want to save ₹3,000 in six months to buy a new bicycle. How much must you save each month?",
+      "options": [
+        "₹300",
+        "₹500",
+        "₹1,000",
+        "₹3,000"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's example says that to save ₹3,000 in six months for a new bicycle, you would need to save ₹500 each month. A clear goal makes saving easier.",
+      "fact": "To save ₹3,000 in six months for a new bicycle, you would need to save ₹500 each month."
+    },
+    {
+      "id": "p2econ5-011",
+      "type": "fillblank",
+      "topic": "Meaning of Saving",
+      "difficulty": "easy",
+      "q": "Keeping aside a part of one's income for future use is called ___.",
+      "answerVariants": ["saving", "savings", "Saving"],
+      "explanation": "Saving means keeping aside a part of one's income for future use and represents a financial surplus accumulated over time.",
+      "fact": "Saving means keeping aside a part of one's income for future use and represents a financial surplus accumulated over time."
+    },
+    {
+      "id": "p2econ5-012",
+      "type": "truefalse",
+      "topic": "Purpose of Savings",
+      "difficulty": "easy",
+      "q": "People also save to make future investments in assets such as fixed deposits, stocks, mutual funds, and real estate.",
+      "answer": "true",
+      "explanation": "The chapter states that people save not only for comfortable living and emergencies but also to make future investments in assets like fixed deposits, stocks, mutual funds, and real estate.",
+      "fact": "People also save to make future investments in assets, such as fixed deposits, stocks, mutual funds, and real estate."
+    },
+    {
+      "id": "p2econ5-013",
+      "type": "match",
+      "topic": "Pillars of Personal Finance",
+      "difficulty": "medium",
+      "q": "Match each pillar of personal finance with what it involves.",
+      "pairs": [
+        { "l": "Income", "r": "The money you receive, such as salary or business income" },
+        { "l": "Budgeting", "r": "Deciding how much to save and how much to spend on needs and wants" },
+        { "l": "Saving", "r": "Setting aside money for future needs or emergencies" },
+        { "l": "Investing", "r": "Deploying your savings in assets like stocks and mutual funds" },
+        { "l": "Protection and risk management", "r": "Safeguarding your money and assets through insurance and debt management" }
+      ],
+      "explanation": "Fig. 5.2 describes each pillar: income is the money received; budgeting decides how to save and spend; saving sets money aside; investing deploys savings in assets; protection safeguards money through insurance and debt management.",
+      "fact": "Fig. 5.2 Pillars of personal finance: Income, Budgeting, Saving, Investing, Protection and risk management."
+    },
+    {
+      "id": "p2econ5-014",
+      "type": "assertion",
+      "topic": "Save First Principle",
+      "difficulty": "medium",
+      "q": "Assertion (A): Individuals should first spend on all their wants and then save whatever money happens to be left.\nReason (R): Financial experts often suggest saving first and spending what is left.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "A is false because it reverses the advice: experts suggest saving first and spending only what is left, so that future needs and emergencies can be met. R correctly states this principle.",
+      "fact": "Financial experts often suggest saving first and spending what is left."
+    },
+    {
+      "id": "p2econ5-015",
+      "type": "truefalse",
+      "topic": "Liquidity of Cash",
+      "difficulty": "medium",
+      "q": "While keeping savings in cash provides greater liquidity, investing helps increase wealth and protects the value of money.",
+      "answer": "true",
+      "explanation": "Cash can be spent immediately, so it is highly liquid; investing gives up some of that immediacy but helps money grow and holds its value against inflation.",
+      "fact": "While keeping savings in cash provides greater liquidity, investing helps increase wealth and protects the value of money."
+    },
+    {
+      "id": "p2econ5-016",
+      "type": "mcq",
+      "topic": "Investing vs Keeping Cash",
+      "difficulty": "medium",
+      "q": "Sameer puts his ₹500 birthday gift into a savings scheme that earns 8% interest a year. How much does he have after one year?",
+      "options": [
+        "₹500",
+        "₹508",
+        "₹580",
+        "₹540"
+      ],
+      "answer": 3,
+      "explanation": "At 8% annual interest, ₹500 earns ₹40 in a year, so Sameer has ₹540. Priya, who kept her ₹500 in a piggy bank at home, still has only ₹500.",
+      "fact": "Sameer puts his ₹500 into a savings scheme that earns 8% interest a year. One year later, he has ₹540."
+    },
+    {
+      "id": "p2econ5-017",
+      "type": "truefalse",
+      "topic": "Investing vs Keeping Cash",
+      "difficulty": "easy",
+      "q": "Priya, who kept her birthday money in a piggy bank, and Sameer, who put his in a savings scheme, were both being responsible with money.",
+      "answer": "true",
+      "explanation": "The chapter says both are being responsible with money, but they are not doing the same thing—only Sameer's money grows over the year.",
+      "fact": "Both are being responsible with money, but are they doing the same thing?"
+    },
+    {
+      "id": "p2econ5-018",
+      "type": "fillblank",
+      "topic": "Inflation",
+      "difficulty": "medium",
+      "q": "The increase in the prices of goods and services over time, which reduces the purchasing power of money, is called ___.",
+      "answerVariants": ["inflation", "Inflation"],
+      "explanation": "Inflation is the rise in prices of goods and services over time. As prices rise, the same amount of money can buy fewer goods and services than before.",
+      "fact": "Inflation: The increase in the prices of goods and services over time, which reduces the purchasing power of money."
+    },
+    {
+      "id": "p2econ5-019",
+      "type": "mcq",
+      "topic": "Inflation",
+      "difficulty": "medium",
+      "q": "A school bag costs ₹1,000 today and inflation is 6% per year. About how much may the same bag cost next year?",
+      "options": [
+        "₹940",
+        "₹1,006",
+        "₹1,600",
+        "₹1,060"
+      ],
+      "answer": 3,
+      "explanation": "With 6% inflation, a ₹1,000 bag may cost about ₹1,060 next year. If your money is simply kept at home and does not grow, your purchasing power falls over time.",
+      "fact": "If a school bag costs ₹1,000 today, and inflation is 6% per year, the same bag may cost about ₹1,060 next year."
+    },
+    {
+      "id": "p2econ5-020",
+      "type": "truefalse",
+      "topic": "Investing Analogy",
+      "difficulty": "easy",
+      "q": "The chapter compares investing to planting a mango tree, because the fruit does not come immediately but keeps coming for many years once it does.",
+      "answer": "true",
+      "explanation": "Investing is like planting a mango tree—you do not get fruit immediately, but once you do, it continues to provide fruit for many years, just as investments keep generating returns.",
+      "fact": "It is like planting a mango tree—you do not get fruit immediately, but once you do, it continues to provide fruit for many years."
+    },
+    {
+      "id": "p2econ5-021",
+      "type": "mcq",
+      "topic": "Liquidity",
+      "difficulty": "hard",
+      "q": "In personal finance, liquidity refers to how quickly and easily an asset can be converted into cash or a cash equivalent—",
+      "options": [
+        "without affecting its value",
+        "after paying a penalty to the insurance company",
+        "only during a financial year",
+        "only after the asset matures"
+      ],
+      "answer": 0,
+      "explanation": "Liquidity measures how quickly and easily an asset can be converted into cash without affecting its value. Cash itself is the most liquid form of money.",
+      "fact": "Liquidity: Refers to how quickly and easily an asset can be converted into cash or cash equivalent without affecting its value."
+    },
+    {
+      "id": "p2econ5-022",
+      "type": "assertion",
+      "topic": "Power of Compounding",
+      "difficulty": "medium",
+      "q": "Assertion (A): By the age of 65, Dhruv, who starts saving at 35, accumulates only about 40% as much money as Bhavisha, who starts at 25.\nReason (R): Compounding allows earlier investments to earn returns for a longer period, and those returns continue to generate additional returns over time.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both A and R are true, and R explains A: because Bhavisha's early investments compound for ten extra years, her returns themselves earn further returns, leaving Dhruv far behind even though both save the same amount each year.",
+      "fact": "Since Dhruv invested much later, by the age of 65, he accumulates only about 40% as much money as Bhavisha."
+    },
+    {
+      "id": "p2econ5-023",
+      "type": "mcq",
+      "topic": "Power of Compounding",
+      "difficulty": "hard",
+      "q": "Bhavisha and Dhruv each save ₹1,000 every year at 7% annual interest—Bhavisha from age 25 and Dhruv from age 35. According to Fig. 5.4, how much does Bhavisha end up with by age 65?",
+      "options": [
+        "₹94,460",
+        "₹1,40,000",
+        "₹7,000",
+        "₹1,99,635"
+      ],
+      "answer": 3,
+      "explanation": "Fig. 5.4 shows Bhavisha ends up with ₹1,99,635, while Dhruv ends up with only ₹94,460—starting ten years earlier more than doubles the final amount.",
+      "fact": "Bhavisha ends up with ₹1,99,635; Dhruv ends up with ₹94,460."
+    },
+    {
+      "id": "p2econ5-024",
+      "type": "fillblank",
+      "topic": "Compounding Terms",
+      "difficulty": "hard",
+      "q": "In compounding, returns are earned not only on the returns already earned but also on the original investment, which is called the ___.",
+      "answerVariants": ["principal", "Principal"],
+      "explanation": "The original amount of money invested or lent is called the principal. Compounding earns returns on the principal as well as on the returns already earned.",
+      "fact": "Returns are earned not only on the original investment (the principal) but also on the returns already earned."
+    },
+    {
+      "id": "p2econ5-025",
+      "type": "assertion",
+      "topic": "Purchasing Power",
+      "difficulty": "hard",
+      "q": "Assertion (A): Purchasing power determines your standard of living.\nReason (R): Higher purchasing power means you get more goods and services with the same amount of money, while a decrease means you can afford less with the same cash.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both A and R are true, and R explains A: purchasing power measures how much your money can buy, so a higher purchasing power means more goods and services—and a better standard of living.",
+      "fact": "Purchasing power... determines your standard of living, as higher purchasing power means you get more goods and services with the same amount of money."
+    }
+  ]
+}

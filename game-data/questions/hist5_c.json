@@ -1,0 +1,331 @@
+{
+  "chapterId": "hist5",
+  "fragment": "c",
+  "questions": [
+    {
+      "id": "hist5-051",
+      "type": "mcq",
+      "topic": "Tripartite struggle",
+      "difficulty": "easy",
+      "q": "The 'tri-partite struggle' of this period was the struggle to control which city?",
+      "options": ["Kannauj", "Pāṭaliputra", "Mathurā", "Ujjayinī"],
+      "answer": 0,
+      "explanation": "Kannauj, the main capital of the Gurjara–Pratihāras in modern-day Uttar Pradesh, became such a coveted site that the struggle to control it became known as the tri-partite struggle.",
+      "fact": "The main capital of this dynasty, Kannauj (in modern-day Uttar Pradesh), became a coveted site for various political kingdoms of the period. The 'struggle' to control Kannauj later came to be known as the 'tri-partite struggle'."
+    },
+    {
+      "id": "hist5-052",
+      "type": "multiselect",
+      "topic": "Tripartite struggle",
+      "difficulty": "easy",
+      "q": "Select all the three major powers involved in the tri-partite struggle.",
+      "options": ["Imperial Cholas", "Gurjara–Pratihāras", "Pālas", "Rāṣhṭrakūṭas"],
+      "answerIndices": [1, 2, 3],
+      "explanation": "The tri-partite struggle involved the Gurjara–Pratihāras, the Pālas and the Rāṣhṭrakūṭas, who competed to control Kannauj. The Cholas were a southern power and not part of this contest.",
+      "fact": "The 'struggle' to control Kannauj later came to be known as the 'tri-partite struggle' because of the involvement of three major powers, namely the Gurjara–Pratihāras, Pālas, and Rāṣhṭrakūṭas."
+    },
+    {
+      "id": "hist5-053",
+      "type": "match",
+      "topic": "Kingdoms of Tamilakam",
+      "difficulty": "easy",
+      "q": "Match each kingdom or term of the Tamilakam region with what it refers to.",
+      "pairs": [
+        {"l": "Cholas", "r": "Tiger emblem"},
+        {"l": "Cheras", "r": "Bow emblem"},
+        {"l": "Pandyas", "r": "Fish emblem"},
+        {"l": "Satiyaputras", "r": "Polity of the northern part of Tamil Nadu"},
+        {"l": "Vendar", "r": "The three crowned kings of Tamilakam"}
+      ],
+      "explanation": "The tiger, bow and fish were the royal emblems of the Cholas, Cheras and Pandyas respectively; the Satiyaputras held the northern part of Tamil Nadu; and the Chera, Chola and Pandya rulers were together known as the Vendar, the three crowned kings of Tamilakam.",
+      "fact": "The tiger was the emblem of the Cholas, the bow represented the Cheras, and the fish symbolised the Pandyas... the Satiyaputras (in the northern part of Tamil Nadu)... The Chera, Chola, and Pandya rulers were known as the three crowned kings or 'Vendar of Tamilakam'."
+    },
+    {
+      "id": "hist5-054",
+      "type": "mcq",
+      "topic": "Chola administration",
+      "difficulty": "medium",
+      "q": "In the Chola empire, the manḍalams (provinces) were further subdivided into:",
+      "options": ["bhuktis", "valanāḍus", "āhāras", "taluks"],
+      "answer": 1,
+      "explanation": "The Chola empire was divided into manḍalams (provinces), then valanāḍus (districts), then nāḍus (groups of villages), and finally Urs (individual villages).",
+      "fact": "The Chola empire was divided into manḍalams (provinces), which were further subdivided into valanāḍus (districts), nāḍus (groups of villages), and finally Urs (individual villages)."
+    },
+    {
+      "id": "hist5-055",
+      "type": "order",
+      "topic": "Chola administration",
+      "difficulty": "hard",
+      "q": "Arrange the Chola administrative units from the largest to the smallest.",
+      "orderItems": [
+        "manḍalam (province)",
+        "valanāḍu (district)",
+        "nāḍu (group of villages)",
+        "Ur (individual village)"
+      ],
+      "explanation": "The Chola hierarchy ran from the manḍalam (province) to the valanāḍu (district), then the nāḍu (group of villages), and finally the Ur, the individual village, which was the smallest unit within a district.",
+      "fact": "The Chola empire was divided into manḍalams (provinces), which were further subdivided into valanāḍus (districts), nāḍus (groups of villages), and finally Urs (individual villages).",
+      "hint": "Start at the province and step down one level at a time until you reach a single village."
+    },
+    {
+      "id": "hist5-056",
+      "type": "truefalse",
+      "topic": "Chola village assemblies",
+      "difficulty": "medium",
+      "q": "The village assemblies of the Chola empire were dependent on the government for patronage to carry out their local functions.",
+      "answer": "false",
+      "explanation": "Chola village assemblies handled revenue collection, land management, irrigation, road construction and record maintenance, functioning as independent, self-reliant institutions that were not dependent on the government for patronage.",
+      "fact": "The village assemblies were responsible for all local administrative functions, including revenue collection, land management, irrigation, road construction, record maintenance, and so on. Thus, the village assemblies functioned as independent, self-reliant institutions and were not dependent on the government for patronage."
+    },
+    {
+      "id": "hist5-057",
+      "type": "mcq",
+      "topic": "Uttaramerur inscription",
+      "difficulty": "medium",
+      "q": "The Uttaramerur inscription, which gives a vivid description of village governance, belongs to the reign of which Chola ruler?",
+      "options": ["Rajendra I", "Karikala", "Rajarāja I", "Parantaka I"],
+      "answer": 3,
+      "explanation": "The Uttaramerur inscription of Parantaka I (10th century) of the Chola period describes village governance and the Kudavolai ballot-pot system used in village elections.",
+      "fact": "The Uttaramerur inscription of Parantaka I (10th century) of the Chola period provides a vivid description of village governance."
+    },
+    {
+      "id": "hist5-058",
+      "type": "fillblank",
+      "topic": "Kudavolai system",
+      "difficulty": "hard",
+      "q": "The Uttaramerur inscriptions inform us about the ___, the 'ballot pot' system used in village elections.",
+      "answerVariants": ["Kudavolai"],
+      "explanation": "The Kudavolai, or 'ballot pot' system, was used to choose village assembly members: candidate names written on palm leaves were drawn from a large pot by a young child in front of the community.",
+      "fact": "These Tamil inscriptions furnish details about the functioning of village assemblies, and inform us about the Kudavolai, or the 'ballot pot' system used in village elections.",
+      "hint": "It is a Tamil term that the chapter translates as 'ballot pot'."
+    },
+    {
+      "id": "hist5-059",
+      "type": "multiselect",
+      "topic": "Kudavolai system",
+      "difficulty": "medium",
+      "q": "Select all correct statements about the Kudavolai system of village elections.",
+      "options": [
+        "Names of eligible candidates were written on palm leaves and placed inside a large pot",
+        "A young child was asked to draw the leaves one by one during a public gathering",
+        "The draw was kept secret from the community",
+        "The elected members were divided into specialised committees (variyams)"
+      ],
+      "answerIndices": [0, 1, 3],
+      "explanation": "In the Kudavolai system, names on palm leaves were placed in a large pot and drawn one by one by a young child in full view of the community, often at a temple; the elected members then served on specialised committees called variyams.",
+      "fact": "The names of eligible candidates were written on palm leaves and placed inside a large pot. During a public gathering, a young child was asked to draw the leaves, one by one... The draw took place in full view of the community... The elected members were then divided into specialised committees (variyams)."
+    },
+    {
+      "id": "hist5-060",
+      "type": "wrongstatement",
+      "topic": "Ethics in early India",
+      "difficulty": "medium",
+      "q": "Which of these statements is INCORRECT?",
+      "options": [
+        "Samatva is the principle of sameness, according to which all bodies are made of the same matter",
+        "Ṛita is described in the Ṛig Veda as an all-pervading cosmic order representing harmony and balance",
+        "The Bhagavada Gītā emphasises knowledge, faith, action, virtue and an ethical way of life",
+        "In the chapter's discussion, dharma means belonging to one religion"
+      ],
+      "answer": 3,
+      "explanation": "Dharma in this context does not mean religion; it refers to duty, obligation, righteousness and moral conduct. The other statements about samatva, ṛita and the Bhagavada Gītā match the chapter.",
+      "fact": "The idea of justice is closely linked to dharma. Here, dharma does not mean religion; rather, it refers to duty, obligation, righteousness, and moral conduct."
+    },
+    {
+      "id": "hist5-061",
+      "type": "assertion",
+      "topic": "Dharma and justice",
+      "difficulty": "hard",
+      "q": "Assertion (A): The idea of justice is closely linked to dharma.\nReason (R): In this context, dharma means belonging to one particular religion.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "A is true because the idea of justice is closely linked to dharma. But R is false, since dharma here means duty, obligation, righteousness and moral conduct, not religion.",
+      "fact": "The idea of justice is closely linked to dharma. Here, dharma does not mean religion; rather, it refers to duty, obligation, righteousness, and moral conduct."
+    },
+    {
+      "id": "hist5-062",
+      "type": "mcq",
+      "topic": "Meaning of dharma",
+      "difficulty": "medium",
+      "q": "From which Sanskrit root is the word 'dharma' derived?",
+      "options": ["ṛita", "satya", "dhri", "kāma"],
+      "answer": 2,
+      "explanation": "Dharma is derived from the Sanskrit root dhri, which is also the root of dharati (the earth). That is why Bhishma says in the Mahābhārata that dharma 'is that which upholds beings'.",
+      "fact": "The word 'dharma' is derived from the Sanskrit root dhri, which is also the root of dharati (the earth). In the Mahābhārata, Bhishma says that dharma 'is that which upholds beings; whatever upholds all beings is dharma.'"
+    },
+    {
+      "id": "hist5-063",
+      "type": "truefalse",
+      "topic": "Dhamma in Buddhism",
+      "difficulty": "easy",
+      "q": "In Buddhism, the term 'dhamma' is the Pāli equivalent of the Sanskrit word 'dharma'.",
+      "answer": "true",
+      "explanation": "Dhamma is the Pāli form of the Sanskrit word dharma, and Buddhism uses it to express similar ethical principles.",
+      "fact": "In Buddhism, the term 'dhamma'—the Pāli equivalent of the Sanskrit word dharma—is used to express similar ethical principles."
+    },
+    {
+      "id": "hist5-064",
+      "type": "mcq",
+      "topic": "Puruṣhasūkta",
+      "difficulty": "easy",
+      "q": "The earliest reference to the four social categories (varṇa) appears in:",
+      "options": ["The Puruṣhasūkta, a hymn in Book 10 of the Ṛig Veda", "The Sutta Nipāta", "The Tolkappiyam", "The Arthaśhāstra"],
+      "answer": 0,
+      "explanation": "The earliest reference to the four social categories, understood by historians as varṇa, appears in the Puruṣhasūkta, a hymn in Book 10 of the Ṛig Veda.",
+      "fact": "The earliest reference to the four social categories, understood by historians as varṇa, appears in the Puruṣhasūkta, a hymn in Book 10 of the Ṛig Veda."
+    },
+    {
+      "id": "hist5-065",
+      "type": "match",
+      "topic": "Varṇa roles",
+      "difficulty": "easy",
+      "q": "Match each term of early Indian society with its main expected role or meaning.",
+      "pairs": [
+        {"l": "brāhmaṇas", "r": "Study and teach the Vedas; officiate at yajñas"},
+        {"l": "Rajanya (Kṣhatriyas)", "r": "Warfare, protecting people, administering justice"},
+        {"l": "Vaiśhyas", "r": "Agriculture, pastoralism and trade"},
+        {"l": "Śhūdras", "r": "Assisting the other varṇas"},
+        {"l": "gotra", "r": "A kinship-based subgroup or clan"}
+      ],
+      "explanation": "The varṇas were associated with specific roles: brāhmaṇas with study, teaching and rituals; Kṣhatriyas with warfare and justice; Vaiśhyas with economic activities; and Śhūdras with assisting the other varṇas, while gotra was a kinship-based subgroup.",
+      "fact": "The brāhmaņas were mainly expected to study and teach the Vedas... Rajanya (Kṣhatriyas) were tasked with warfare, protecting people, and administering justice... Vaiśhyas were associated with economic activities, such as agriculture, pastoralism, and trade... Śhūdras were expected to assist the other varṇas... gotra (a kinship-based subgroup)."
+    },
+    {
+      "id": "hist5-066",
+      "type": "truefalse",
+      "topic": "Varṇa value system",
+      "difficulty": "easy",
+      "q": "In the varṇa system of values, knowledge was given the highest status, followed by political power and wealth.",
+      "answer": "true",
+      "explanation": "The concept of varṇa rested on a hierarchy of values in which knowledge came first, then political power, and then wealth, which is why the division of the four varṇas is described as functional.",
+      "fact": "The concept of varṇa was based on a system of values in which knowledge was given the highest status, followed by political power and wealth."
+    },
+    {
+      "id": "hist5-067",
+      "type": "assertion",
+      "topic": "Sutta Nipāta",
+      "difficulty": "hard",
+      "q": "Assertion (A): The Buddhist text Sutta Nipāta rejects the idea that a brāhmaṇa is such by birth.\nReason (R): The text states that a brāhmaṇa is such only by his deeds.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true and R explains A: the Sutta Nipāta says 'No brāhmaṇa is such by birth... A brāhmaṇa is such by his deeds', which directly rejects birth as the basis of being a brāhmaṇa.",
+      "fact": "The Buddhist text Sutta Nipāta states that, 'No brāhmaņa is such by birth. No outcaste is such by birth but only by his deeds. A brāhmaņa is such by his deeds.'"
+    },
+    {
+      "id": "hist5-068",
+      "type": "mcq",
+      "topic": "Emergence of jāti",
+      "difficulty": "medium",
+      "q": "Which of the following was NOT a factor behind the emergence of jātis?",
+      "options": ["Intermarriage among the varṇas", "Migrating communities becoming endogamous", "Territorial differences", "A royal decree fixing the number of jātis"],
+      "answer": 3,
+      "explanation": "Jātis emerged through intermarriage among the varṇas, migrating communities becoming endogamous, and territorial differences. Their number was never fixed by decree; only the varṇas were fixed at four.",
+      "fact": "A distinct social structure called jāti emerged due to various factors, including intermarriage among the varṇas, migrating communities becoming endogamous, and territorial differences."
+    },
+    {
+      "id": "hist5-069",
+      "type": "fillblank",
+      "topic": "Varṇa and jāti",
+      "difficulty": "easy",
+      "q": "While the number of varṇas was fixed at four, there was no restriction on the number of ___.",
+      "answerVariants": ["jātis", "jatis"],
+      "explanation": "The four varṇas were fixed, but there was no restriction on the number of jātis, which kept growing as new social groups and occupations developed.",
+      "fact": "While the number of varṇas was fixed at four, there was no restriction on the number of jātis. As new social groups and occupations developed, the number of jātis continued to grow."
+    },
+    {
+      "id": "hist5-070",
+      "type": "multiselect",
+      "topic": "Social mobility",
+      "difficulty": "medium",
+      "q": "Select all correct statements about social mobility in early India.",
+      "options": [
+        "Several rulers came from diverse social backgrounds, including the Nandas, Mauryas and Guptas",
+        "The Mandsaur Stone Inscription (473 CE) mentions a guild of silk weavers who migrated from Lata to Dashapura",
+        "Social mobility across varṇa and jāti categories was impossible in early India",
+        "The Karitalai copper-plate inscriptions record brāhmaṇas as land managers"
+      ],
+      "answerIndices": [0, 1, 3],
+      "explanation": "Varṇa and jāti were not always rigid: rulers like the Nandas, Mauryas and Guptas came from diverse backgrounds, the Mandsaur inscription records migrant silk weavers skilled in several occupations, and the Karitalai plates record brāhmaṇas as land managers.",
+      "fact": "There was considerable social mobility within and across these categories. For example, several rulers came from diverse social backgrounds including the Nandas, Mauryas, Śhungas, Satavāhanas, Vākāṭakas, Guptas, and Puṣhyabhutis."
+    },
+    {
+      "id": "hist5-071",
+      "type": "wrongstatement",
+      "topic": "Sangam social divisions",
+      "difficulty": "medium",
+      "q": "Which of these statements about Sangam society is INCORRECT?",
+      "options": [
+        "The varṇa classification in the Tolkappiyam was rigid and strictly hereditary",
+        "The Tolkappiyam refers to a four-fold division of society",
+        "In the Tolkappiyam, Arasar were kings, Vanigar were traders and Velar were farmers",
+        "The Pattinappalai describes a prosperous, trade-oriented society with many interacting occupational groups"
+      ],
+      "answer": 0,
+      "explanation": "The varṇa classification in the Tolkappiyam was premised on occupation and marked by fluidity, not rigid heredity. The Pattinappalai indeed describes merchants, salt-makers, fishermen, artisans, agriculturists and warriors interacting actively.",
+      "fact": "The varṇa classification mentioned in the Tolkappiyam seems to be premised on occupation, and the four-fold varṇa classification was marked by fluidity."
+    },
+    {
+      "id": "hist5-072",
+      "type": "order",
+      "topic": "Four āśhramas",
+      "difficulty": "easy",
+      "q": "Arrange the four āśhramas (stages of life) in the correct order.",
+      "orderItems": [
+        "Brahmacharya (stage of studentship)",
+        "Gṛihastha (stage of the householder)",
+        "Vānaprastha (life in the forest)",
+        "Saṁnyāsa (renunciation)"
+      ],
+      "explanation": "Life was divided into four āśhramas in this order: brahmacharya as a student, gṛihastha as a householder, vānaprastha as life in the forest, and finally saṁnyāsa, renunciation.",
+      "fact": "The four āśhramas: Brahmacharya, stage of studentship; Gṛihastha, stage of the householder; Vānaprastha, life in the forest; Saṁnyāsa, renunciation."
+    },
+    {
+      "id": "hist5-073",
+      "type": "mcq",
+      "topic": "Vedic occupations",
+      "difficulty": "medium",
+      "q": "A verse of the Ṛig Veda describes a family in which the seer is a poet, the father is a physician and the mother is a grinder of corn. What does the chapter cite this verse as evidence of?",
+      "options": ["The decline of trade in the Vedic age", "Occupational flexibility within a single family", "Strict hereditary occupations", "The beginning of iron use"],
+      "answer": 1,
+      "explanation": "The chapter uses this verse of the Ṛig Veda (9.112.3) as evidence that in early Vedic times occupations were flexible and mobile, with occupational diversity even within a single family, since strict hereditary occupations had not yet been established.",
+      "fact": "Evidence of this flexibility is often drawn from a verse of the Ṛig Veda in which the seer refers to occupational diversity within a single family: 'I am a poet; my father is a physician, my mother is a grinder of corn.'"
+    },
+    {
+      "id": "hist5-074",
+      "type": "assertion",
+      "topic": "Puruṣhārthas",
+      "difficulty": "medium",
+      "q": "Assertion (A): Among the puruṣhārthas, artha stands for liberation from all worldly ties.\nReason (R): Mokṣha is the puruṣhārtha that means liberation from all worldly ties.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "A is false because artha means material well-being, not liberation; it is mokṣha that means liberation from all worldly ties, so R is true. The four goals of life are dharma, artha, kāma and mokṣha.",
+      "fact": "These were (1) righteousness (dharma); (2) material well-being (artha); (3) fulfilment of desires (kāma); and (4) liberation from all worldly ties (mokṣha)."
+    },
+    {
+      "id": "hist5-075",
+      "type": "mcq",
+      "topic": "Vedic goddesses",
+      "difficulty": "easy",
+      "q": "Which goddess is described in the chapter as the mother of the gods in Vedic culture?",
+      "options": ["Uṣhā, goddess of dawn", "Sarasvatí", "Aditi", "Śhakti"],
+      "answer": 2,
+      "explanation": "Aditi was revered as the mother of the gods, while Uṣhā was the goddess of dawn; both goddesses occupied significant and revered positions in Vedic culture.",
+      "fact": "Goddesses such as Uṣhā, the goddess of dawn, and Aditi, the mother of the gods, occupied significant and revered positions in Vedic culture."
+    }
+  ]
+}

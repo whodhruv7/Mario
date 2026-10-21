@@ -1,0 +1,346 @@
+{
+  "chapterId": "geo2",
+  "fragment": "d",
+  "questions": [
+    {
+      "id": "geo2-076",
+      "type": "mcq",
+      "topic": "Chamoli Flood 2021",
+      "difficulty": "hard",
+      "q": "In February 2021, a devastating flood struck which district of Uttarakhand?",
+      "options": ["Chamoli", "Kachchh", "Baratang", "Jaisalmer"],
+      "answer": 0,
+      "explanation": "The devastating flood struck the Chamoli district of Uttarakhand in February 2021, killing many people and livestock and damaging buildings, roads, bridges, and hydel projects.",
+      "fact": "A devastating flood struck the Chamoli district in Uttarakhand in February 2021 in which many people and livestock lost their lives."
+    },
+    {
+      "id": "geo2-077",
+      "type": "mcq",
+      "topic": "Yardang Landform",
+      "difficulty": "medium",
+      "q": "What is a yardang?",
+      "options": [
+        "A streamlined rock ridge carved by wind",
+        "A U-shaped valley carved by ice",
+        "A pile of rocks left by a glacier",
+        "A fertile island in a delta"
+      ],
+      "answer": 0,
+      "explanation": "Yardangs are streamlined rock ridges carved by wind, a distinctive landform of wind erosion in deserts.",
+      "fact": "yardangs (which are streamlined rock ridges carved by wind)."
+    },
+    {
+      "id": "geo2-078",
+      "type": "mcq",
+      "topic": "Ventifact Landform",
+      "difficulty": "hard",
+      "q": "Which term describes rocks that are polished and shaped by sandblasting?",
+      "options": ["Ventifacts", "Stalagmites", "Cirques", "Levees"],
+      "answer": 0,
+      "explanation": "Ventifacts are rocks polished and shaped by the sandblasting action of wind-blown sand.",
+      "fact": "ventifacts (which are rocks polished and shaped by sandblasting)."
+    },
+    {
+      "id": "geo2-079",
+      "type": "fillblank",
+      "topic": "Deflation Hollows",
+      "difficulty": "medium",
+      "q": "Shallow depressions formed where wind removes loose material are called deflation hollows or ___.",
+      "answerVariants": ["blowouts", "blowouts or blow outs", "blow outs"],
+      "explanation": "Deflation hollows, also called blowouts, are shallow depressions left where wind has removed loose material from the land.",
+      "fact": "deflation hollows or blowouts (shallow depressions formed where loose material is removed)."
+    },
+    {
+      "id": "geo2-080",
+      "type": "truefalse",
+      "topic": "Desert Pavement",
+      "difficulty": "hard",
+      "q": "A desert pavement is a flat surface left behind after finer particles are blown away by wind.",
+      "answer": "true",
+      "explanation": "When wind blows away the finer particles of soil, the coarser material that remains forms a flat surface called a desert pavement.",
+      "fact": "desert pavements (flat surfaces left behind after finer particles are blown away)."
+    },
+    {
+      "id": "geo2-081",
+      "type": "truefalse",
+      "topic": "Star Dunes",
+      "difficulty": "hard",
+      "q": "Star dunes form only where the wind blows from a single direction.",
+      "answer": "false",
+      "explanation": "Star dunes have multiple arms and form where winds come from DIFFERENT directions; dunes of areas with limited sand and a single wind direction are the crescent-shaped barchans.",
+      "fact": "star dunes (which have multiple arms and form where winds come from different directions)."
+    },
+    {
+      "id": "geo2-082",
+      "type": "mcq",
+      "topic": "Barchan Dunes",
+      "difficulty": "medium",
+      "q": "Barchan dunes are crescent-shaped dunes that form in areas with what conditions?",
+      "options": [
+        "Limited sand and a single wind direction",
+        "Heavy sand supply and winds from many directions",
+        "Thick vegetation cover",
+        "Permanent snow cover"
+      ],
+      "answer": 0,
+      "explanation": "Barchan dunes are crescent-shaped and form in areas with limited sand and a single wind direction.",
+      "fact": "barchan dunes (which are crescent-shaped and form in areas with limited sand and a single wind direction)."
+    },
+    {
+      "id": "geo2-083",
+      "type": "match",
+      "topic": "Dune Types",
+      "difficulty": "hard",
+      "q": "Match each type of dune with its correct description.",
+      "pairs": [
+        {"l": "Barchan dune", "r": "Crescent-shaped; forms with limited sand and a single wind direction"},
+        {"l": "Longitudinal dune", "r": "A long ridge formed parallel to the prevailing wind"},
+        {"l": "Star dune", "r": "Has multiple arms; forms where winds come from different directions"},
+        {"l": "Parabolic dune", "r": "U-shaped dune often stabilised by vegetation"},
+        {"l": "Dune", "r": "A hill or ridge of sand formed by wind in deserts or along sandy coasts"}
+      ],
+      "explanation": "Barchans are crescents of limited sand, longitudinal dunes run parallel to the prevailing wind, star dunes have multiple arms from shifting winds, parabolic dunes are U-shaped and vegetation-stabilised, and a dune in general is any wind-built hill or ridge of sand.",
+      "fact": "There are several types of dunes, including barchan dunes..., longitudinal dunes..., star dunes..., and parabolic dunes (U-shaped dunes often stabilised by vegetation)."
+    },
+    {
+      "id": "geo2-084",
+      "type": "mcq",
+      "topic": "Stalactite Formation",
+      "difficulty": "easy",
+      "q": "What is a stalactite?",
+      "options": [
+        "An icicle-shaped formation hanging from the ceiling of a cave",
+        "A formation rising from the floor of a cave",
+        "A depression formed when the ground collapses",
+        "An isolated pillar of rock on a coast"
+      ],
+      "answer": 0,
+      "explanation": "Stalactites are icicle-shaped formations that hang from the ceilings of caves; the formations rising from the floor are stalagmites.",
+      "fact": "stalactites (icicle-shaped formations hanging from the ceiling of caves).",
+      "hint": "Stalactites hold tight to the ceiling; stalagmites might one day reach up from the floor."
+    },
+    {
+      "id": "geo2-085",
+      "type": "truefalse",
+      "topic": "Stalagmite Formation",
+      "difficulty": "easy",
+      "q": "Stalagmites are formations rising from the floor of caves.",
+      "answer": "true",
+      "explanation": "Stalagmites rise from the cave floor, while stalactites hang down from the ceiling.",
+      "fact": "stalagmites (formations rising from the floor of caves)."
+    },
+    {
+      "id": "geo2-086",
+      "type": "fillblank",
+      "topic": "Karst Topography",
+      "difficulty": "medium",
+      "q": "Underground water in limestone areas creates unique landforms called ___ topography.",
+      "answerVariants": ["karst", "Karst"],
+      "explanation": "Karst topography is created by underground water through chemical weathering and erosion in areas of limestone or soluble rocks.",
+      "fact": "Underground water, especially in areas of limestone or soluble rocks, creates unique landforms called Karst topography through chemical weathering and erosion."
+    },
+    {
+      "id": "geo2-087",
+      "type": "match",
+      "topic": "Karst Landforms",
+      "difficulty": "hard",
+      "q": "Match each landform made by underground water with its correct description.",
+      "pairs": [
+        {"l": "Cave", "r": "A hollow space formed as acidic water dissolves rock"},
+        {"l": "Stalactite", "r": "An icicle-shaped formation hanging from the cave ceiling"},
+        {"l": "Stalagmite", "r": "A formation rising from the floor of a cave"},
+        {"l": "Sinkhole", "r": "A depression formed when the ground collapses into an underground cavity"},
+        {"l": "Underground river", "r": "A river that flows through cave systems"}
+      ],
+      "explanation": "Acidic groundwater dissolves rock to form caves; dripping mineral deposits build stalactites on ceilings and stalagmites on floors; collapsed cavities create sinkholes; and some rivers flow right through cave systems.",
+      "fact": "Common landforms of underground water include caves..., stalactites..., stalagmites..., sinkholes or dolines..., and underground rivers (which flow through cave systems)."
+    },
+    {
+      "id": "geo2-088",
+      "type": "multiselect",
+      "topic": "Landslide Causes",
+      "difficulty": "medium",
+      "q": "Select all correct causes of landslides.",
+      "options": [
+        "Heavy and continuous rainfall",
+        "Earthquakes and volcanic eruptions",
+        "Deforestation, mining, and road construction",
+        "Earthworms loosening the soil",
+        "Thick forest cover with deep roots"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Landslides are caused by heavy rainfall, earthquakes and volcanic eruptions, and human activities like deforestation, mining, and unplanned construction on hillsides, not by earthworms or thick forests.",
+      "fact": "Heavy and continuous rainfall is one of the main natural causes... Earthquakes and volcanic eruptions can also trigger landslides... Human activities, such as deforestation, mining, road construction, and unplanned construction on hillsides disturb the natural balance of slopes."
+    },
+    {
+      "id": "geo2-089",
+      "type": "mcq",
+      "topic": "Landslide Natural Causes",
+      "difficulty": "easy",
+      "q": "Which is one of the main natural causes of landslides?",
+      "options": [
+        "Heavy and continuous rainfall",
+        "Strong sea waves",
+        "Burning of fossil fuels",
+        "Volcanic gases turning into rain"
+      ],
+      "answer": 0,
+      "explanation": "Heavy and continuous rainfall is a main natural cause, as water seeps into the soil and rocks, increasing their weight and reducing friction until the slope fails.",
+      "fact": "Heavy and continuous rainfall is one of the main natural causes, as water seeps into the soil and rocks, increasing their weight and reducing friction."
+    },
+    {
+      "id": "geo2-090",
+      "type": "order",
+      "topic": "GLOF Sequence",
+      "difficulty": "hard",
+      "q": "Arrange the events of a Glacial Lake Outburst Flood (GLOF) in the correct order.",
+      "orderItems": [
+        "Rapid melting makes the glacial lake grow and its water level rise",
+        "Pressure builds on the natural dam made of ice or loose moraines",
+        "An earthquake, avalanche, or landslide strikes the lake or weakens the dam",
+        "The dam collapses suddenly",
+        "Destructive floods hit downstream areas"
+      ],
+      "explanation": "Rising temperatures melt glaciers and enlarge the lake; pressure builds on the natural dam; a shock such as an earthquake or avalanche weakens it; the dam collapses; and the stored water is released abruptly, causing destructive downstream floods.",
+      "fact": "Rapid melting of glaciers... increases the size and water level of glacial lakes, putting pressure on their natural dams made of ice or loose moraines... Earthquakes, avalanches, or landslides may strike the lake or weaken the dam, leading to its sudden collapse... the stored water is released abruptly, causing destructive floods in downstream areas."
+    },
+    {
+      "id": "geo2-091",
+      "type": "mcq",
+      "topic": "Avalanche Snow Layers",
+      "difficulty": "medium",
+      "q": "Besides heavy snowfall, what else piles up snow unevenly on mountain slopes and creates fragile layers?",
+      "options": ["Strong winds", "Sea waves", "River currents", "Groundwater"],
+      "answer": 0,
+      "explanation": "Strong winds may pile up snow unevenly, creating fragile layers in the snowpack that can suddenly slide.",
+      "fact": "Strong winds may also pile up snow unevenly, creating fragile layers."
+    },
+    {
+      "id": "geo2-092",
+      "type": "truefalse",
+      "topic": "Avalanche Temperature Trigger",
+      "difficulty": "hard",
+      "q": "A sudden rise in temperature can trigger an avalanche by causing partial melting that reduces the friction holding the snow together.",
+      "answer": "true",
+      "explanation": "A sudden rise in temperature causes partial melting of the snowpack, which reduces the friction that holds the snow together and makes avalanches more likely.",
+      "fact": "A sudden rise in temperature can cause partial melting, reducing the friction that holds the snow together."
+    },
+    {
+      "id": "geo2-093",
+      "type": "fillblank",
+      "topic": "GLOF Full Form",
+      "difficulty": "hard",
+      "q": "GLOF stands for Glacial Lake ___ Floods.",
+      "answerVariants": ["Outburst", "outburst"],
+      "explanation": "GLOF means Glacial Lake Outburst Flood: the sudden release of large volumes of water from glacial lakes, causing destructive floods downstream.",
+      "fact": "Glacial Lake Outburst Floods (GLOFs) are caused by the sudden release of large volumes of water from glacial lakes due to natural and climatic factors."
+    },
+    {
+      "id": "geo2-094",
+      "type": "assertion",
+      "topic": "Dust Storms",
+      "difficulty": "medium",
+      "q": "Assertion (A): Dust storms are common in desert and semi-arid regions.\nReason (R): In these regions the soil is loose and dry, so wind can easily pick up the fine particles.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true, and the loose, dry soil of desert and semi-arid regions is exactly why winds there can lift fine particles into dust storms, so R explains A.",
+      "fact": "Dust storms are common in desert and semi-arid regions where the soil is loose and dry."
+    },
+    {
+      "id": "geo2-095",
+      "type": "match",
+      "topic": "Landform Disasters",
+      "difficulty": "hard",
+      "q": "Match each landform-associated disaster with its correct description.",
+      "pairs": [
+        {"l": "Landslide", "r": "Slope failure when unstable soil and rocks move down a hillside"},
+        {"l": "Avalanche", "r": "Sudden sliding of snow down steep mountain slopes"},
+        {"l": "GLOF", "r": "Sudden release of large volumes of water from a glacial lake"},
+        {"l": "Dust storm", "r": "Strong winds lifting large amounts of loose, dry soil and sand into the air"},
+        {"l": "Chamoli flood (2021)", "r": "Devastated Uttarakhand, damaging hydel projects, roads, and bridges"}
+      ],
+      "explanation": "Landslides involve soil and rock on unstable slopes, avalanches involve sudden snow instability on steep slopes, GLOFs release glacial lake water suddenly, dust storms lift dry loose soil, and the 2021 Chamoli flood devastated Uttarakhand.",
+      "fact": "Landslides are caused by a combination of natural and human factors that make slopes unstable... Avalanches are caused by the sudden instability of snow on steep mountain slopes... GLOFs... sudden release of large volumes of water... Dust storms are caused by strong winds lifting large amounts of loose, dry soil and sand."
+    },
+    {
+      "id": "geo2-096",
+      "type": "mcq",
+      "topic": "Dust Storm Causes",
+      "difficulty": "medium",
+      "q": "Which condition dries out the soil, making it easier for wind to pick up fine particles and cause dust storms?",
+      "options": [
+        "Prolonged drought and low rainfall",
+        "Continuous heavy rainfall",
+        "Dense forest cover",
+        "Thick snow cover"
+      ],
+      "answer": 0,
+      "explanation": "Prolonged drought and low rainfall dry out the soil, so wind can easily pick up its fine particles and carry them into dust storms.",
+      "fact": "Prolonged drought and low rainfall dry out the soil, making it easier for wind to pick up the fine particles."
+    },
+    {
+      "id": "geo2-097",
+      "type": "multiselect",
+      "topic": "Avalanche Triggers",
+      "difficulty": "hard",
+      "q": "Select all correct triggers of avalanches.",
+      "options": [
+        "Heavy snowfall within a short period",
+        "Earthquakes and vibrations",
+        "Skiing, trekking, or construction in mountainous areas",
+        "A thick layer of tightly bonded snow",
+        "Flat, gentle plains"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Heavy snowfall adds extra weight to the snowpack, earthquakes and vibrations disturb it, and human activities like skiing, trekking, or construction can set off avalanches. Tightly bonded snow and flat terrain do not trigger them.",
+      "fact": "Heavy snowfall within a short period adds extra weight to the snowpack... Natural disturbances, such as earthquakes and vibrations, as well as human activities like skiing, trekking, or construction in mountainous areas, can trigger avalanches."
+    },
+    {
+      "id": "geo2-098",
+      "type": "order",
+      "topic": "Landslide Sequence",
+      "difficulty": "medium",
+      "q": "Arrange the events leading to a landslide during heavy rainfall in the correct order.",
+      "orderItems": [
+        "Heavy and continuous rainfall occurs",
+        "Water seeps into the soil and rocks",
+        "The weight of the soil increases and friction is reduced",
+        "The slope suddenly fails"
+      ],
+      "explanation": "Rainwater first seeps into the slope material, making it heavier and reducing friction, until the slope finally gives way in a sudden failure.",
+      "fact": "Heavy and continuous rainfall is one of the main natural causes, as water seeps into the soil and rocks, increasing their weight and reducing friction... leading to sudden slope failure."
+    },
+    {
+      "id": "geo2-099",
+      "type": "assertion",
+      "topic": "Internal and External Forces",
+      "difficulty": "hard",
+      "q": "Assertion (A): Internal forces of the Earth create mountains, valleys, and ocean basins.\nReason (R): External forces like weathering, erosion, and deposition slowly wear them down and reshape them.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both statements are true, but R describes external forces, which wear down and reshape landforms; it does not explain how internal forces create them.",
+      "fact": "Internal forces, such as earthquakes, volcanic eruptions, folding, and faulting create mountains, valleys, and ocean basins, while external forces like weathering, erosion, and deposition slowly wear them down and reshape them."
+    },
+    {
+      "id": "geo2-100",
+      "type": "mcq",
+      "topic": "Sundarbans Delta",
+      "difficulty": "easy",
+      "q": "The Sundarbans, popular with tourists, is an example of which landform?",
+      "options": ["Delta", "Cirque", "Yardang", "Sea stack"],
+      "answer": 0,
+      "explanation": "The Sundarbans is a famous delta, a fan-shaped or triangular landform created where a river deposits sediment at its mouth.",
+      "fact": "Have you heard about the Sundarbans delta? Try and explore its uniqueness and find out why it is popular with tourists."
+    }
+  ]
+}

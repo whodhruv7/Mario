@@ -1,0 +1,407 @@
+{
+  "chapterId": "p2geo1",
+  "fragment": "c",
+  "questions": [
+    {
+      "id": "p2geo1-051",
+      "type": "mcq",
+      "topic": "2004 Indian Ocean tsunami",
+      "difficulty": "easy",
+      "q": "On which date did the Indian Ocean Tsunami cause unprecedented devastation?",
+      "options": [
+        "26 January 2004",
+        "26 December 2004",
+        "15 August 2005",
+        "31 December 2004"
+      ],
+      "answer": 1,
+      "explanation": "On 26 December 2004, the world witnessed unprecedented devastation caused by the Indian Ocean Tsunami, which affected many countries bordering the Indian Ocean.",
+      "fact": "On 26 December 2004, the world witnessed unprecedented devastation caused by the Indian Ocean Tsunami."
+    },
+    {
+      "id": "p2geo1-052",
+      "type": "fillblank",
+      "topic": "2004 Indian Ocean tsunami",
+      "difficulty": "medium",
+      "q": "The 2004 Indian Ocean Tsunami claimed around ___ lives and caused severe environmental damage across many countries.",
+      "answerVariants": [
+        "2,30,000",
+        "230000",
+        "230,000"
+      ],
+      "explanation": "The 2004 Indian Ocean Tsunami claimed around 2,30,000 lives and caused severe environmental damage across many countries bordering the Indian Ocean.",
+      "fact": "The 2004 Indian Ocean Tsunami claimed around 2,30,000 lives and caused severe environmental damage across many countries bordering the Indian Ocean."
+    },
+    {
+      "id": "p2geo1-053",
+      "type": "multiselect",
+      "topic": "2004 Indian Ocean tsunami",
+      "difficulty": "medium",
+      "q": "Select all correct: which of these parts of India suffered extensive damage during the 2004 Indian Ocean tsunami?",
+      "options": [
+        "Gujarat",
+        "Tamil Nadu",
+        "Puducherry",
+        "Andaman & Nicobar Islands"
+      ],
+      "answerIndices": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "India was among the worst-affected countries: Tamil Nadu, Puducherry, Andhra Pradesh, Keralam and the Andaman & Nicobar Islands suffered extensive damage. Gujarat was not listed among the worst-affected coasts.",
+      "fact": "Tamil Nadu, Puducherry, Andhra Pradesh, Keralam, and the Andaman & Nicobar Islands especially suffered extensive damage in the 2004 tsunami."
+    },
+    {
+      "id": "p2geo1-054",
+      "type": "truefalse",
+      "topic": "2004 Indian Ocean tsunami",
+      "difficulty": "easy",
+      "q": "Most deaths during the 2004 Indian Ocean tsunami occurred in Indonesia.",
+      "answer": "true",
+      "explanation": "Most deaths during the 2004 Indian Ocean tsunami occurred in Indonesia, although the island of Simeulue was largely spared thanks to local folklore about tsunami warning signs.",
+      "fact": "Most deaths during the 2004 Indian Ocean tsunami occurred in Indonesia."
+    },
+    {
+      "id": "p2geo1-055",
+      "type": "mcq",
+      "topic": "ITEWC",
+      "difficulty": "medium",
+      "q": "Under an initiative of the Indian Tsunami Early Warning Centre (ITEWC), the Government of India set up a real-time network of...",
+      "options": [
+        "coastal hotels",
+        "weather balloons",
+        "tsunami detection buoys",
+        "fishing boats"
+      ],
+      "answer": 2,
+      "explanation": "Under the ITEWC initiative, the Government of India set up a real-time network of tsunami detection buoys designed to detect, measure and monitor tsunamis.",
+      "fact": "Under an initiative of the Indian Tsunami Early Warning Centre (ITEWC), the Government of India set up a real-time network of tsunami detection buoys."
+    },
+    {
+      "id": "p2geo1-056",
+      "type": "order",
+      "topic": "Tsunami warning stages",
+      "difficulty": "medium",
+      "q": "Arrange the four stages of the tsunami early warning system in the correct order.",
+      "orderItems": [
+        "Detection: a network of seismic stations detects undersea earthquakes",
+        "Tracking: coastal tide gauges and radars monitor changes in sea level",
+        "Warning dissemination: alerts are sent via satellite, SMS and other channels",
+        "Confirmation: Ocean Bottom Pressure Recorders detect the passage of tsunami waves"
+      ],
+      "explanation": "The system first detects undersea earthquakes using seismic stations, then tracks tsunami waves with tide gauges and radars, disseminates warnings to agencies and the public, and finally confirms the threat using Ocean Bottom Pressure Recorders on the seafloor.",
+      "fact": "The tsunami early warning system works through detection, tracking, warning dissemination and confirmation."
+    },
+    {
+      "id": "p2geo1-057",
+      "type": "wrongstatement",
+      "topic": "Tsunami warning system",
+      "difficulty": "hard",
+      "q": "Which of these statements about the tsunami early warning system is INCORRECT?",
+      "options": [
+        "A network of seismic stations detects undersea earthquakes in real time.",
+        "Coastal tide gauges and radars monitor changes in sea level to track tsunami waves.",
+        "Tsunami waves are first detected from passenger aeroplanes flying over the sea.",
+        "Alerts are transmitted via satellite to government agencies and also sent through SMS."
+      ],
+      "answer": 2,
+      "explanation": "Tsunamis are detected by seismic stations, tracked by tide gauges and radars, and confirmed by Ocean Bottom Pressure Recorders on the seafloor, not by aeroplanes.",
+      "fact": "The tsunami warning system uses seismic stations, coastal tide gauges, radars, satellites and Ocean Bottom Pressure Recorders (OBPRs)."
+    },
+    {
+      "id": "p2geo1-058",
+      "type": "mcq",
+      "topic": "OBPR",
+      "difficulty": "hard",
+      "q": "In the tsunami early warning system, which instruments placed on the seafloor detect the passage of tsunami waves to confirm the threat?",
+      "options": [
+        "Seismic stations",
+        "Coastal tide gauges",
+        "Weather radars",
+        "Ocean Bottom Pressure Recorders (OBPRs)"
+      ],
+      "answer": 3,
+      "explanation": "Ocean Bottom Pressure Recorders (OBPRs) are placed on the seafloor to detect the passage of tsunami waves, confirming the threat in the warning system.",
+      "fact": "Ocean Bottom Pressure Recorders (OBPRs) placed on the seafloor detect the passage of tsunami waves, confirming the threat."
+    },
+    {
+      "id": "p2geo1-059",
+      "type": "order",
+      "topic": "Tsunami alert flow",
+      "difficulty": "hard",
+      "q": "Arrange the flow of a tsunami alert, from where it starts to where it reaches the public.",
+      "orderItems": [
+        "The ITEWC issues a tsunami alert",
+        "The Government of India is informed",
+        "State governments are informed",
+        "Emergency response teams and the public receive the warning"
+      ],
+      "explanation": "The ITEWC is tasked with sending alerts to the Government of India, which then informs state governments and emergency response teams. Reliable communication is ensured through satellite-based networks, SMS, emails and coastal display boards.",
+      "fact": "The ITEWC sends alerts to the Government of India, which then informs state governments and emergency response teams."
+    },
+    {
+      "id": "p2geo1-060",
+      "type": "multiselect",
+      "topic": "Warning communication",
+      "difficulty": "easy",
+      "q": "Select all correct: through which channels are tsunami and cyclone alerts communicated to officials and the public?",
+      "options": [
+        "Coastal display boards",
+        "Letters sent by post",
+        "SMS",
+        "Emails"
+      ],
+      "answerIndices": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Reliable communication is ensured through satellite-based communication networks, SMS, emails and coastal display boards, so that information reaches the public quickly and effectively.",
+      "fact": "Reliable communication is ensured through satellite-based communication networks, SMS, emails, and coastal display boards."
+    },
+    {
+      "id": "p2geo1-061",
+      "type": "truefalse",
+      "topic": "Early warning systems",
+      "difficulty": "easy",
+      "q": "Besides technology, public awareness and training programmes are equally important for an effective early warning system.",
+      "answer": "true",
+      "explanation": "Along with technology, public awareness and training matter: educating officials and coastal communities on how to interpret warnings ensures that people know how to respond when disasters are predicted.",
+      "fact": "Besides technology, public awareness and training programmes are equally important for an effective early warning system."
+    },
+    {
+      "id": "p2geo1-062",
+      "type": "mcq",
+      "topic": "Early warning systems",
+      "difficulty": "medium",
+      "q": "What do Early Warning Systems do to protect people from cyclones and tsunamis?",
+      "options": [
+        "They detect hazards, predict disasters and issue timely warnings so people can evacuate",
+        "They stop storms from forming",
+        "They increase the speed of cyclones",
+        "They rebuild houses after disasters"
+      ],
+      "answer": 0,
+      "explanation": "Early Warning Systems work like giant alarm systems for coastal areas: they detect cyclones and tsunamis, predict disasters and issue timely warnings so that people can evacuate and stay safe.",
+      "fact": "Early Warning Systems help detect cyclones and tsunamis, predict disasters and issue timely warnings so that people can evacuate and stay safe."
+    },
+    {
+      "id": "p2geo1-063",
+      "type": "mcq",
+      "topic": "Marine resources",
+      "difficulty": "easy",
+      "q": "What are marine resources?",
+      "options": [
+        "Ships and boats used at sea",
+        "Only the fish caught by fishermen",
+        "The materials and features found in oceans that have intrinsic or economic value",
+        "Ports and harbours along the coast"
+      ],
+      "answer": 2,
+      "explanation": "Marine resources are the materials and features found in oceans that have intrinsic or economic value. They include fish, oil and natural gas, minerals, blue energy sources and unique ecosystems like coral reefs.",
+      "fact": "The materials and features found in oceans that have intrinsic or economic value are called marine resources."
+    },
+    {
+      "id": "p2geo1-064",
+      "type": "match",
+      "topic": "Marine resource types",
+      "difficulty": "medium",
+      "q": "Match each marine resource term with its correct description.",
+      "pairs": [
+        {
+          "l": "Conventional energy resources",
+          "r": "Oil and natural gas"
+        },
+        {
+          "l": "Ocean mechanical energy",
+          "r": "Tidal energy, wave energy and current energy"
+        },
+        {
+          "l": "OTEC",
+          "r": "Ocean Thermal Energy Conversion"
+        },
+        {
+          "l": "Coastal (neritic) fish",
+          "r": "Live within the continental shelf at depths of 0-200 m"
+        },
+        {
+          "l": "Oceanic fish",
+          "r": "Live beyond the continental shelf at depths of more than 200 m"
+        }
+      ],
+      "explanation": "Marine resources are classified into living and non-living resources. Conventional energy includes oil and natural gas; ocean mechanical energy includes tidal, wave and current energy; OTEC uses ocean heat; neritic fish live on the shelf while oceanic fish live beyond it.",
+      "fact": "Marine resources include conventional energy (oil, natural gas), non-conventional ocean energy (tidal, wave, current, OTEC, offshore wind), and fish classified as coastal/neritic (0-200 m) and oceanic (beyond 200 m)."
+    },
+    {
+      "id": "p2geo1-065",
+      "type": "multiselect",
+      "topic": "Marine living resources",
+      "difficulty": "medium",
+      "q": "Select all correct: which of these are MARINE LIVING resources?",
+      "options": [
+        "Submerged aquatic vegetation (SAV)",
+        "Offshore wind",
+        "Sand and gravel",
+        "Fish and seafood",
+        "Marine bio-organisms"
+      ],
+      "answerIndices": [
+        0,
+        3,
+        4
+      ],
+      "explanation": "Living marine resources include fish, marine bio-organisms such as those yielding bioactive natural products, and submerged aquatic vegetation (SAV). Offshore wind and sand and gravel are non-living resources.",
+      "fact": "Marine living resources include fish, marine bio-organisms (including bioactive natural products and submerged aquatic vegetation), while non-living resources include minerals, sand and gravel."
+    },
+    {
+      "id": "p2geo1-066",
+      "type": "mcq",
+      "topic": "Blue Economy",
+      "difficulty": "easy",
+      "q": "Which of these best describes the Blue Economy, as defined by the World Bank?",
+      "options": [
+        "Selling ocean water to other countries",
+        "Building large ports on every coastline",
+        "Extracting all ocean resources as fast as possible",
+        "The sustainable use of ocean resources to promote economic growth, improved livelihoods and jobs while preserving marine ecosystem health"
+      ],
+      "answer": 3,
+      "explanation": "The World Bank defines the Blue Economy as the sustainable use of ocean resources to promote economic growth, improved livelihoods and jobs, while preserving the health of the marine ecosystem.",
+      "fact": "The World Bank defines Blue Economy as the sustainable use of ocean resources to promote economic growth, improved livelihoods and jobs, while preserving the health of the marine ecosystem."
+    },
+    {
+      "id": "p2geo1-067",
+      "type": "fillblank",
+      "topic": "Blue Economy",
+      "difficulty": "medium",
+      "q": "The World Bank defines the ___ Economy as the sustainable use of ocean resources to promote economic growth, improved livelihoods and jobs.",
+      "answerVariants": [
+        "Blue",
+        "blue"
+      ],
+      "explanation": "The World Bank defines the Blue Economy as the sustainable use of ocean resources for growth, livelihoods and jobs while preserving the health of the marine ecosystem. It stands for sustainable growth powered by healthy oceans.",
+      "fact": "The World Bank defines Blue Economy as the sustainable use of ocean resources to promote economic growth, improved livelihoods and jobs, while preserving the health of the marine ecosystem."
+    },
+    {
+      "id": "p2geo1-068",
+      "type": "mcq",
+      "topic": "SDG 14",
+      "difficulty": "easy",
+      "q": "Which UN Sustainable Development Goal focuses on the oceans?",
+      "options": [
+        "SDG 14: Life Below Water",
+        "SDG 1: No Poverty",
+        "SDG 4: Quality Education",
+        "SDG 13: Climate Action"
+      ],
+      "answer": 0,
+      "explanation": "SDG 14, called Life Below Water, focuses on the oceans. Its aims include reducing marine pollution, protecting marine ecosystems and addressing ocean acidification.",
+      "fact": "The UN's Sustainable Development Goal (SDG) 14 is called Life Below Water."
+    },
+    {
+      "id": "p2geo1-069",
+      "type": "multiselect",
+      "topic": "SDG 14 aims",
+      "difficulty": "hard",
+      "q": "Select all correct: which of these are key aims of SDG 14 (Life Below Water)?",
+      "options": [
+        "Regulate fishing",
+        "Increase deep-sea oil drilling",
+        "Reduce marine pollution",
+        "Address ocean acidification"
+      ],
+      "answerIndices": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "SDG 14 aims to reduce marine pollution, protect marine ecosystems, address ocean acidification, regulate fishing, conserve marine areas, eliminate harmful subsidies and increase economic benefits. Increasing oil drilling is not one of its aims.",
+      "fact": "SDG 14 (Life Below Water) aims to reduce marine pollution, protect marine ecosystems, address ocean acidification, regulate fishing, conserve marine areas, eliminate harmful subsidies and increase economic benefits."
+    },
+    {
+      "id": "p2geo1-070",
+      "type": "wrongstatement",
+      "topic": "Marine resources significance",
+      "difficulty": "easy",
+      "q": "Which of these statements about marine resources is INCORRECT?",
+      "options": [
+        "Marine resources include only living things like fish and seafood.",
+        "90 per cent of global trade by volume is carried by sea.",
+        "Marine resources must be used responsibly without disturbing marine ecosystems.",
+        "Fish are a major source of protein."
+      ],
+      "answer": 0,
+      "explanation": "Marine resources include BOTH living resources (like fish) and non-living resources (like oil, natural gas, minerals, sand and gravel), so they are not limited to living things.",
+      "fact": "Marine resources are broadly classified into Marine Living Resources and Marine Non-living Resources."
+    },
+    {
+      "id": "p2geo1-071",
+      "type": "fillblank",
+      "topic": "Samudra Manthana",
+      "difficulty": "hard",
+      "q": "The sacred shankha (conch) and kapardika (cowrie shells), once used as currency, are regarded as divine treasures from the mythological ___.",
+      "answerVariants": [
+        "Samudra Manthana",
+        "Samudra Manthan",
+        "samudra manthana"
+      ],
+      "explanation": "The shankha (conch) and kapardika (cowrie shells), once used as currency, are regarded as divine treasures from the mythological Samudra Manthana, reflecting the link among the sea, prosperity and culture.",
+      "fact": "The sacred shankha (conch) and kapardika (cowrie shells) are regarded as divine treasures from the mythological Samudra Manthana."
+    },
+    {
+      "id": "p2geo1-072",
+      "type": "assertion",
+      "topic": "Ocean livelihoods",
+      "difficulty": "easy",
+      "q": "Assertion (A): Fishing, trade and tourism provide livelihoods to millions of people in India.\nReason (R): India is a country with a long coastline.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Countries with long coastlines, such as India, benefit greatly from the sea, and fishing, trade and tourism provide livelihoods to millions. The long coastline explains why India gains so much from the sea, so R explains A.",
+      "fact": "Countries with long coastlines, such as India, benefit greatly from the sea; fishing, trade and tourism provide livelihoods to millions of people."
+    },
+    {
+      "id": "p2geo1-073",
+      "type": "mcq",
+      "topic": "Territorial waters",
+      "difficulty": "easy",
+      "q": "Over which maritime zone does a country have near-complete control, subject to the right of innocent passage?",
+      "options": [
+        "The high seas",
+        "Territorial waters",
+        "The contiguous zone",
+        "The EEZ"
+      ],
+      "answer": 1,
+      "explanation": "The sea area closest to a country is called its territorial waters, over which the country has near-complete control, subject to the right of innocent passage for foreign ships. Here it can make laws on customs, immigration and pollution control.",
+      "fact": "The sea area closest to a country is called its territorial waters, over which the country has near-complete control, subject to the right of innocent passage."
+    },
+    {
+      "id": "p2geo1-074",
+      "type": "truefalse",
+      "topic": "Mariana Trench",
+      "difficulty": "easy",
+      "q": "The Mariana Trench is located in the Atlantic Ocean.",
+      "answer": "false",
+      "explanation": "The Mariana Trench, the deepest place on Earth, is located in the Pacific Ocean, not the Atlantic.",
+      "fact": "The Mariana Trench in the Pacific Ocean is the deepest place on Earth."
+    },
+    {
+      "id": "p2geo1-075",
+      "type": "fillblank",
+      "topic": "UNCLOS",
+      "difficulty": "easy",
+      "q": "Exclusive Economic Zones are defined under the United Nations Convention on the Law of the Sea, which is abbreviated as ___.",
+      "answerVariants": [
+        "UNCLOS"
+      ],
+      "explanation": "EEZs are defined under the United Nations Convention on the Law of the Sea (UNCLOS) by global agreement. UNCLOS helps define maritime zones and settle disputes among countries.",
+      "fact": "EEZs are defined under the United Nations Convention on the Law of the Sea (UNCLOS) by global agreement."
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "chapterId": "hist4",
+  "fragment": "c",
+  "questions": [
+    {
+      "id": "hist4-051",
+      "type": "mcq",
+      "topic": "Harappan Emergence",
+      "difficulty": "medium",
+      "q": "The early stages in the Sindhu-Sarasvati region led to the emergence of the mature civilisation by about:",
+      "options": ["7000 BCE", "2600 BCE", "1900 BCE", "12000 BCE"],
+      "answer": 1,
+      "explanation": "The Neolithic way of life that began at Mehrgarh around 7000 BCE developed through Chalcolithic and Early Harappan stages, leading to the emergence of the civilisation in its Mature Harappan phase by 2600 BCE.",
+      "fact": "We will look at the early stages that led to the emergence of the civilisation by 2600 BCE; the timeline shows the Mature Harappan phase from 2600 BCE."
+    },
+    {
+      "id": "hist4-052",
+      "type": "mcq",
+      "topic": "Pre-Harappan Sites",
+      "difficulty": "hard",
+      "q": "At which sites in the dried river belt of Sarasvati did the Pre-Harappan phase begin between 7000 and 5500 BCE?",
+      "options": ["Harappa and Mohenjo-Daro", "Lothal and Dholavira", "Bhirrana and Kunal", "Kalibangan and Bhirrana"],
+      "answer": 2,
+      "explanation": "Some radio-carbon dates suggest that at sites in the dried river belt of Sarasvati, such as Bhirrana and Kunal, the Pre-Harappan phase began between 7000 and 5500 BCE.",
+      "fact": "Some radio-carbon dates suggest that at some sites in the dried river belt of Sarasvati, such as at Bhirrana and Kunal, the Pre-Harappan phase began between 7000 and 5500 BCE."
+    },
+    {
+      "id": "hist4-053",
+      "type": "truefalse",
+      "topic": "Early Harappan Beginnings",
+      "difficulty": "easy",
+      "q": "Developments such as building a perimeter wall around the settlement, the use of seals, and even the Harappan script probably had their beginnings in the Early Harappan stage.",
+      "answer": "true",
+      "explanation": "Since Early Harappan sites show cultural continuity, developments like the perimeter wall, the use of seals and the Harappan writings/script probably began in the Early Harappan stage itself.",
+      "fact": "Some other developments, such as building a perimeter wall around the settlement, the use of seals, and even the Harappan writings/script, probably had their beginnings in the Early Harappan stage."
+    },
+    {
+      "id": "hist4-054",
+      "type": "multiselect",
+      "topic": "Early Harappan Crafts",
+      "difficulty": "medium",
+      "q": "Select all crafts practised by the early Harappans.",
+      "options": [
+        "Copper working",
+        "Shell work and shell bangles",
+        "Production of semi-precious stone beads",
+        "Iron smelting"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Early Harappan crafts included copper working, shell work, and the production of semi-precious stone beads, along with pottery. Iron smelting belongs to the much later Iron Age.",
+      "fact": "We see continuity in pottery traditions, semi-precious stone beads, shell bangles, terracotta objects, and copper working; some other crafts that show gradual development include copper work, shell work, and the production of semi-precious stone beads."
+    },
+    {
+      "id": "hist4-055",
+      "type": "mcq",
+      "topic": "Harappan Weights",
+      "difficulty": "hard",
+      "q": "For weighing smaller units, the Harappans followed a system of:",
+      "options": ["Multiples of sixty", "Multiples of twelve", "Decimal multiples only", "Binary multiples (1, 2, 4, 8, 16)"],
+      "answer": 3,
+      "explanation": "The Harappans followed a binary multiple system (1, 2, 4, 8, 16, etc.) for weighing smaller units and used multiples of ten for larger denominations. Such cubical stone weights have been reported from several sites.",
+      "fact": "They followed a binary multiple (1, 2, 4, 8, 16, etc.) system for weighing smaller units and used multiples of ten for larger denominations.",
+      "hint": "Think about how their small weights increased step by step."
+    },
+    {
+      "id": "hist4-056",
+      "type": "truefalse",
+      "topic": "Kalibangan Fields",
+      "difficulty": "medium",
+      "q": "The ploughed fields found at Kalibangan show horizontal and vertical furrows, indicating double crop cultivation like today's Rabi and Kharif seasons.",
+      "answer": "true",
+      "explanation": "The Early Harappans ploughed fields at Kalibangan with horizontal and vertical furrows, showing double crop cultivation. This is like the seasonal Rabi and Kharif cultivation practised even today — a tradition nearly 5,000 years old.",
+      "fact": "The Early Harappans ploughed fields at Kalibangan showing horizontal and vertical furrows indicating double crop cultivation, like the seasonal Rabi and Kharif cultivation that is practised even today."
+    },
+    {
+      "id": "hist4-057",
+      "type": "fillblank",
+      "topic": "Gabarbands",
+      "difficulty": "medium",
+      "q": "Early Harappans in the foothills of Baluchistan built check dams known as '___' across small streams to enhance irrigation.",
+      "answerVariants": ["gabarbands", "Gabarbands", "gabarband"],
+      "explanation": "While the Sumerians developed canal irrigation, the Early Harappans in Baluchistan built check dams known as 'gabarbands' across small streams. A much evolved form of these water management skills can be seen at Dholavira.",
+      "fact": "The Early Harappans in the foothills of Baluchistan and neighbouring regions were also building check dams known as 'gabarbands' across small streams to enhance irrigation."
+    },
+    {
+      "id": "hist4-058",
+      "type": "mcq",
+      "topic": "Dholavira Water System",
+      "difficulty": "medium",
+      "q": "In the elaborate water harvesting system at Dholavira in Kachchh, water from two nearby streams was diverted into:",
+      "options": ["A single giant well", "A series of deep tanks", "Underground clay pipes", "The river Indus"],
+      "answer": 1,
+      "explanation": "At Dholavira, water from two nearby streams was diverted by building dams and canals into a series of deep tanks to conserve it within the site boundary. The interconnected tanks were built from stone and mud-bricks, and some were cut deeper into the bedrock.",
+      "fact": "Water from the two nearby streams was diverted by building dams and canals into a series of deep tanks to conserve it within the site boundary."
+    },
+    {
+      "id": "hist4-059",
+      "type": "fillblank",
+      "topic": "Lothal Dockyard",
+      "difficulty": "hard",
+      "q": "The huge dockyard at ___, built entirely of burnt bricks, is a marvel of Harappan water management and architectural skills.",
+      "answerVariants": ["Lothal", "lothal"],
+      "explanation": "The huge dockyard at Lothal, built entirely of burnt bricks, is a marvel of Harappan water management and architectural skills, alongside the deep tanks of Dholavira.",
+      "fact": "The huge dockyard at Lothal, built entirely of burnt bricks, is another marvel of the Harappan water management and architectural skills."
+    },
+    {
+      "id": "hist4-060",
+      "type": "order",
+      "topic": "Harappan Phases",
+      "difficulty": "hard",
+      "q": "Arrange the stages in the growth of the Sindhu-Sarasvati civilisation in the correct order.",
+      "orderItems": [
+        "Neolithic beginnings at Mehrgarh",
+        "Chalcolithic copper working",
+        "Early Harappan stage",
+        "Mature Harappan phase",
+        "Late Harappan phase"
+      ],
+      "explanation": "The sequence began with the Neolithic at Mehrgarh (7000 BCE), followed by Chalcolithic copper working (by about 4000 BCE), the Early Harappan stage, the Mature Harappan phase (2600 BCE), and finally the Late Harappan phase (1900 BCE).",
+      "fact": "The Harappan timeline runs: Neolithic (7000 BCE), Chalcolithic (4500 BCE), Bronze Age (3300 BCE), Early Harappan, Mature Harappan (2600 BCE) and Late Harappan (1900 BCE)."
+    },
+    {
+      "id": "hist4-061",
+      "type": "wrongstatement",
+      "topic": "Harappan Crafts",
+      "difficulty": "medium",
+      "q": "Which of these statements about the Harappans is INCORRECT?",
+      "options": [
+        "Pottery was one of the major craft products that boosted their economy.",
+        "Graffiti on pottery and seals with geometric and simple animal motifs were forerunners of their script.",
+        "They practised only pottery and no other crafts.",
+        "Evidence of Early Harappan bead production is found from Harappa, Kunal and Datrana."
+      ],
+      "answer": 2,
+      "explanation": "The Harappans practised many crafts — pottery, copper work, shell work and the production of semi-precious stone beads — so the statement that they practised only pottery is wrong. The other statements correctly describe Harappan crafts and the forerunners of their script.",
+      "fact": "The Harappans practised a number of arts and crafts; besides pottery, other crafts include copper work, shell work, and the production of semi-precious stone beads."
+    },
+    {
+      "id": "hist4-062",
+      "type": "mcq",
+      "topic": "River Valley Civilisations",
+      "difficulty": "easy",
+      "q": "The four early world civilisations — Harappan, Mesopotamian, Egyptian and Chinese — all emerged in:",
+      "options": ["High mountain passes", "Coastal deserts", "Dense rainforests", "Fertile river plains"],
+      "answer": 3,
+      "explanation": "Four early world civilisations emerged in river plains: the Harappan along the Sindhu and Sarasvati, Mesopotamia around the Euphrates and Tigris, Egypt along the Nile, and China in the Huang He basin. Rivers provided water and fertile soil for farming.",
+      "fact": "Four early world civilisations emerged in river plains—the Harappan along the Sindhu and Sarasvati rivers, the Mesopotamian in the region around the Euphrates and Tigris, the Egyptian along the Nile, and the Chinese in the Huang He basin."
+    },
+    {
+      "id": "hist4-063",
+      "type": "match",
+      "topic": "Chapter Key Terms",
+      "difficulty": "hard",
+      "q": "Match each term from the chapter on early humans with its correct meaning.",
+      "pairs": [
+        {"l": "Ziggurat", "r": "A tower-like stepped pyramid-shaped temple"},
+        {"l": "Papyrus", "r": "Sheets made from the inner trunk of a plant"},
+        {"l": "Oracle", "r": "Symbols on animal bones and tortoise shells"},
+        {"l": "City-state", "r": "A sovereign state centred around a city"},
+        {"l": "Hominin", "r": "A group including modern humans and early human-like ancestors"}
+      ],
+      "explanation": "A ziggurat is a tower-like stepped pyramid-shaped Sumerian temple; papyrus sheets were made from the inner trunk of the papyrus plant; oracles were symbols on animal bones and tortoise shells used in early China; a city-state is a sovereign state centred around a city; and hominins include modern humans and our early human-like ancestors.",
+      "fact": "Ziggurat: a tower-like stepped pyramid-shaped temple; papyrus was made by cutting the inner trunk of the papyrus plant into strips; oracles were symbols made on pieces of animal bones and tortoise shells; a city-state is a sovereign state centred around a city; hominins are a group that includes modern humans and our early human-like ancestors."
+    },
+    {
+      "id": "hist4-064",
+      "type": "mcq",
+      "topic": "Egyptian Civilisation",
+      "difficulty": "easy",
+      "q": "The Egyptian civilisation flourished along which river?",
+      "options": ["The Nile", "The Huang He", "The Tigris", "The Sindhu"],
+      "answer": 0,
+      "explanation": "The Egyptian civilisation flourished along the river Nile. The river watered the land along its banks, and every summer it flooded, leaving rich mud that was excellent for growing crops.",
+      "fact": "The Egyptian civilisation along the Nile River; the river Nile watered the land along its banks, and every summer the river flooded."
+    },
+    {
+      "id": "hist4-065",
+      "type": "mcq",
+      "topic": "Chinese Rivers",
+      "difficulty": "easy",
+      "q": "The Chinese civilisation flourished along which rivers?",
+      "options": ["The Nile and the Congo", "The Huang He and the Yangtze", "The Euphrates and the Tigris", "The Sindhu and the Sarasvati"],
+      "answer": 1,
+      "explanation": "The Chinese civilisation flourished along the Huang He (Yellow River) and the Yangtze. These two river valleys were also centres of early Chinese Neolithic cultures dating to around 7000 BCE.",
+      "fact": "The Chinese civilisation flourished along the rivers—the Huang He (Yellow River) and the Yangtze; these two river valleys were also centres of early Chinese Neolithic cultures dating to around 7000 BCE."
+    },
+    {
+      "id": "hist4-066",
+      "type": "mcq",
+      "topic": "Mesopotamia Meaning",
+      "difficulty": "easy",
+      "q": "The word 'Mesopotamia' is the Greek name meaning:",
+      "options": ["Land of rivers", "Black land", "Land in between", "Land of the rising sun"],
+      "answer": 2,
+      "explanation": "Mesopotamia, meaning the 'land in between', is the Greek name for the land drained by the Euphrates and Tigris rivers in West Asia — the land lying between the two rivers.",
+      "fact": "Mesopotamia, meaning the 'land in between,' is the Greek name for the land drained by the Euphrates and Tigris rivers in West Asia.",
+      "hint": "The name describes the land's position between two rivers."
+    },
+    {
+      "id": "hist4-067",
+      "type": "fillblank",
+      "topic": "Mesopotamian Rivers",
+      "difficulty": "medium",
+      "q": "Mesopotamia is the land drained by the ___ and Tigris rivers in West Asia.",
+      "answerVariants": ["Euphrates", "euphrates", "Euphrates River"],
+      "explanation": "Mesopotamia, meaning 'land in between', is drained by the Euphrates and Tigris rivers in West Asia. In modern times this region includes mainly Iraq and Kuwait.",
+      "fact": "Mesopotamia is the Greek name for the land drained by the Euphrates and Tigris rivers in West Asia."
+    },
+    {
+      "id": "hist4-068",
+      "type": "mcq",
+      "topic": "Fertile Crescent",
+      "difficulty": "hard",
+      "q": "The 'fertile crescent' refers to the crescent-shaped foothills of which mountain ranges?",
+      "options": ["The Himalayas and the Karakoram", "The Alps and the Pyrenees", "The Aravalli and the Vindhya", "The Zagros and the Taurus"],
+      "answer": 3,
+      "explanation": "The crescent-shaped foothills of the Zagros and Taurus, stretching from the Mediterranean in the west to the Persian Gulf in the east, are known as the 'fertile crescent' due to their high agricultural potential.",
+      "fact": "The crescent-shaped foothills of the Zagros and Taurus, stretching from the Mediterranean in the west to the Persian Gulf in the east, are known as the 'fertile crescent'."
+    },
+    {
+      "id": "hist4-069",
+      "type": "wrongstatement",
+      "topic": "Mesopotamia Basics",
+      "difficulty": "easy",
+      "q": "Which of these statements about Mesopotamia is INCORRECT?",
+      "options": [
+        "In modern times, this region includes mainly Iraq and Kuwait.",
+        "Farming began in this region 12000 years before present.",
+        "Copper tools arrived here around 4500 BCE.",
+        "The Egyptian civilisation emerged in Mesopotamia."
+      ],
+      "answer": 3,
+      "explanation": "The Egyptian civilisation emerged along the Nile in Egypt, not in Mesopotamia. The other statements correctly describe Mesopotamia: the modern region of Iraq and Kuwait, farming from 12000 years before present, and copper tools from around 4500 BCE.",
+      "fact": "In modern times, this region includes mainly Iraq and Kuwait; farming began in this region 12000 years before present; copper tools arrived here around 4500 BCE."
+    },
+    {
+      "id": "hist4-070",
+      "type": "order",
+      "topic": "Mesopotamian Civilisations",
+      "difficulty": "medium",
+      "q": "Arrange these Mesopotamian civilisations in the order in which they rose to prominence.",
+      "orderItems": ["Sumerians", "Akkadians", "Assyrians", "Babylonians"],
+      "explanation": "The Sumerians flourished first from 3500 BCE, the Akkadian power rose in 2334 BCE, the Assyrians gained supremacy around 2154 BCE, and the Babylonians dominated from 1900 BCE onwards.",
+      "fact": "The four major city-based civilisations that flourished from 3500 BCE onwards in Mesopotamia are the Sumerian, Akkadian, Assyrian, and Babylonian."
+    },
+    {
+      "id": "hist4-071",
+      "type": "mcq",
+      "topic": "Sumer",
+      "difficulty": "medium",
+      "q": "The Sumerian civilisation evolved at Ur and other cities in Sumer, which today lies in:",
+      "options": ["Northern Egypt", "Southern Iraq", "Western Turkey", "Eastern Iran"],
+      "answer": 1,
+      "explanation": "The Sumerian civilisation was the earliest to evolve into a city-based civilisation at Ur and several other cities in Sumer, which is present-day southern Iraq in southern Mesopotamia.",
+      "fact": "The Sumerian civilisation was the earliest to evolve into a city-based civilisation at Ur and several other cities in Sumer (present-day southern Iraq) in southern Mesopotamia."
+    },
+    {
+      "id": "hist4-072",
+      "type": "mcq",
+      "topic": "Ziggurat",
+      "difficulty": "medium",
+      "q": "Besides being a temple, the ziggurat also served as:",
+      "options": ["The city's treasury", "The king's palace", "A granary for farmers", "A school for scribes"],
+      "answer": 0,
+      "explanation": "The ziggurat was a tower-like stepped pyramid-shaped temple whose top was a holy place. The area around it contained palaces and royal storehouses, and its surrounding walls had only one entrance because it also served as the city's treasury.",
+      "fact": "The surrounding walls had only one entrance as the ziggurat also served as the city's treasury."
+    },
+    {
+      "id": "hist4-073",
+      "type": "truefalse",
+      "topic": "Sumerian Irrigation",
+      "difficulty": "easy",
+      "q": "The Sumerians were the first to build a system of dams and canals for irrigation.",
+      "answer": "true",
+      "explanation": "The Sumerians were the first to build a system of dams and canals for irrigation, and also the first to use mud bricks and burnt bricks in the construction of houses, defensive walls and other structures.",
+      "fact": "The Sumerians were the first to build a system of dams and canals for irrigation."
+    },
+    {
+      "id": "hist4-074",
+      "type": "assertion",
+      "topic": "Mesopotamia-Harappan Contact",
+      "difficulty": "medium",
+      "q": "Assertion (A): There were strong contacts and trade between the Mesopotamian and Harappan civilisations.\nReason (R): Geographically, Mesopotamia and the Indus and Ghaggar-Sarasvati valleys are closer to each other.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both A and R are true, and R explains A. The geographical proximity of Mesopotamia and the Indus region facilitated strong contacts and trade between the two civilisations.",
+      "fact": "Geographically, Mesopotamia and the Indus and Ghaggar-Sarasvati valleys are closer to each other; this proximity facilitated strong contacts and trade between the Mesopotamian and Harappan civilisations."
+    },
+    {
+      "id": "hist4-075",
+      "type": "multiselect",
+      "topic": "Sumerian Inventions",
+      "difficulty": "easy",
+      "q": "Select all inventions of the Sumerians.",
+      "options": [
+        "The wheeled cart",
+        "The sailboat",
+        "A number system based on 60",
+        "Paper currency"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "The Sumerians invented the wheeled cart and the sailboat, and their number system was based on 60, giving us the 60-minute hour, the 60-second minute and the 360-degree circle. Paper currency was a later Chinese innovation.",
+      "fact": "The Sumerians invented the wheeled cart and sailboat; their number system was based on the number 60, and the concepts of the 60-minute hour, 60-second minute, and the 360-degree circle were invented by the Sumerians."
+    }
+  ]
+}

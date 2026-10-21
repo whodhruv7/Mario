@@ -1,0 +1,327 @@
+{
+  "chapterId": "p2ent6",
+  "fragment": "b",
+  "questions": [
+    {
+      "id": "p2ent6-026",
+      "type": "mcq",
+      "topic": "Oberoi Early Career",
+      "difficulty": "easy",
+      "q": "What monthly salary did Mohan Singh Oberoi earn in his first job as a hotel desk clerk in Shimla?",
+      "options": ["₹5", "₹500", "₹50,000", "₹50"],
+      "answer": 3,
+      "explanation": "After somehow completing his education, Oberoi moved to Shimla and took a job as a hotel desk clerk, earning just ₹50 a month.",
+      "fact": "He moved to Shimla and took a job as a hotel desk clerk, earning just ₹50 a month."
+    },
+    {
+      "id": "p2ent6-027",
+      "type": "mcq",
+      "topic": "Oberoi First Hotel",
+      "difficulty": "medium",
+      "q": "In 1934, how did Mohan Singh Oberoi manage to buy his first small hotel?",
+      "options": [
+        "By winning a government grant for hoteliers",
+        "By inheriting it from his father",
+        "By mortgaging his wife's jewellery and investing all his savings",
+        "By partnering with foreign merchants"
+      ],
+      "answer": 2,
+      "explanation": "In 1934, Oberoi took the bold step of mortgaging his wife's jewellery and investing all his savings to buy a small hotel, believing in his vision despite the risks.",
+      "fact": "In 1934, he took a bold step by mortgaging his wife's jewellery and investing all his savings to buy a small hotel."
+    },
+    {
+      "id": "p2ent6-028",
+      "type": "truefalse",
+      "topic": "Oberoi Early Career",
+      "difficulty": "easy",
+      "q": "Mohan Singh Oberoi started his career by taking a job as a hotel desk clerk in Shimla.",
+      "answer": "true",
+      "explanation": "Rather than starting as an owner, Oberoi began as a hotel desk clerk in Shimla and learned every aspect of hotel operations from there.",
+      "fact": "He moved to Shimla and took a job as a hotel desk clerk."
+    },
+    {
+      "id": "p2ent6-029",
+      "type": "mcq",
+      "topic": "Oberoi Honours",
+      "difficulty": "easy",
+      "q": "Which honour did the Government of India accord Mohan Singh Oberoi in 2001?",
+      "options": ["Bharat Ratna", "Padma Bhushan", "Padma Shri", "Nobel Peace Prize"],
+      "answer": 1,
+      "explanation": "In 2001, the Government of India accorded Mohan Singh Oberoi the Padma Bhushan in recognition of his contribution to the hospitality industry.",
+      "fact": "In 2001, the Government of India accorded him the Padma Bhushan."
+    },
+    {
+      "id": "p2ent6-030",
+      "type": "fillblank",
+      "topic": "Oberoi Early Life",
+      "difficulty": "easy",
+      "q": "Mohan Singh Oberoi, who transformed the hospitality industry, was born in Punjab in the year ___.",
+      "answerVariants": ["1898"],
+      "explanation": "Mohan Singh Oberoi was born in Punjab in 1898 and faced hardships early in life when his father passed away while he was still an infant.",
+      "fact": "Born in Punjab in 1898, Mohan Singh Oberoi faced hardships early in life when his father passed away while he was still an infant."
+    },
+    {
+      "id": "p2ent6-031",
+      "type": "mcq",
+      "topic": "Business Plan Meaning",
+      "difficulty": "easy",
+      "q": "How does the chapter describe a business plan?",
+      "options": [
+        "A written document that explains the goals of the business and the steps to achieve them",
+        "An oral agreement between business partners",
+        "A bank passbook recording daily transactions",
+        "A government licence required to open any shop"
+      ],
+      "answer": 0,
+      "explanation": "A business plan is a written document, a blueprint explaining the goals of the business and the steps to achieve them, guiding the entrepreneur from the idea stage to running the business.",
+      "fact": "It is a written document, a blueprint explaining the goals of the business and the steps to achieve them."
+    },
+    {
+      "id": "p2ent6-032",
+      "type": "truefalse",
+      "topic": "Running a Stall",
+      "difficulty": "easy",
+      "q": "According to the chapter, the lemonade stall activity required no planning of expenses or pricing at all.",
+      "answer": "false",
+      "explanation": "Running the stall required deciding how much to spend on lemons and sugar, where to procure glasses, and how much to charge for each glass — capturing planning, organising, and learning by doing.",
+      "fact": "You will have to decide how much to spend on lemons and sugar, where to procure glasses, how much to charge for each glass... planning, organising, and learning by doing."
+    },
+    {
+      "id": "p2ent6-033",
+      "type": "mcq",
+      "topic": "Functional Areas Scenario",
+      "difficulty": "easy",
+      "q": "A bakery owner decides to hire bakers, helpers and a cashier, and trains the staff in hygiene and baking standards. Which functional area does this activity belong to?",
+      "options": ["Marketing and sales", "Human resources", "Finance and accounting", "Management and operations"],
+      "answer": 1,
+      "explanation": "Hiring bakers, helpers and cleaners, and training staff in hygiene and baking standards, are human resources functions — they deal with managing people and skills.",
+      "fact": "Functions, such as hiring bakers, helpers, cleaners, and a cashier; training staff in hygiene and baking standards... fall under the human resources department."
+    },
+    {
+      "id": "p2ent6-034",
+      "type": "mcq",
+      "topic": "Functional Areas Scenario",
+      "difficulty": "easy",
+      "q": "The owner of ABC bakery chooses a catchy name, promotes the business on social media and offers discounts to customers. Which functional area is this?",
+      "options": ["Human resources", "Finance and accounting", "Management and operations", "Marketing and sales"],
+      "answer": 3,
+      "explanation": "Choosing a catchy name, promoting the business on social media and offering discounts are marketing and sales activities, which attract customers and convince them to buy.",
+      "fact": "In a bakery, this includes choosing a catchy name, promoting the business on social media, and offering discounts."
+    },
+    {
+      "id": "p2ent6-035",
+      "type": "truefalse",
+      "topic": "Functional Areas",
+      "difficulty": "medium",
+      "q": "The functional areas of a business improve decision making and ensure that resources are used properly.",
+      "answer": "true",
+      "explanation": "Each functional area has a specific function and helps the business run smoothly; together they improve decision making, ensure proper use of resources, and provide structure and coordination.",
+      "fact": "They improve decision making and ensure resources are used properly. Together, they provide structure, better coordination, and help the business grow successfully."
+    },
+    {
+      "id": "p2ent6-036",
+      "type": "order",
+      "topic": "Lijjat Milestones",
+      "difficulty": "medium",
+      "q": "Arrange the milestones of Lijjat Papad's growth from the earliest to the latest.",
+      "orderItems": [
+        "Seven homemakers start making papads on a Mumbai rooftop with ₹80",
+        "The venture is registered as Shri Mahila Griha Udyog Lijjat Papad",
+        "Lijjat expands into flour, masalas and soaps, and exports begin",
+        "The cooperative reaches an annual turnover of ₹1,600 crore"
+      ],
+      "explanation": "Lijjat started in 1959 with ₹80, was registered as a cooperative society in 1962, expanded into new products and exports in the 1980s and 90s, and by 2023 reached a turnover of ₹1,600 crore.",
+      "fact": "1959 start with ₹80; 1962 registration as a cooperative; 1980s and 90s expansion and exports; by 2023 a turnover of ₹1,600 crore.",
+      "hint": "Think about which event happened before the venture even had an official name."
+    },
+    {
+      "id": "p2ent6-037",
+      "type": "order",
+      "topic": "Entrepreneurial Journey",
+      "difficulty": "hard",
+      "q": "Arrange the typical journey of an entrepreneurial venture, as described in the chapter, in the correct order.",
+      "orderItems": [
+        "Spot a need or problem worth solving",
+        "Prepare a business plan as a roadmap",
+        "Arrange money, people and other resources",
+        "Start and run the business operations",
+        "Learn from challenges and failures to improve"
+      ],
+      "explanation": "The chapter shows that a venture begins with spotting a need, is shaped into a plan, resourced, launched and run, and keeps improving through lessons from challenges and even failure.",
+      "fact": "Every great business starts with an idea; a business plan guides from the initial idea stage to starting and running the business; every unsuccessful attempt offers lessons."
+    },
+    {
+      "id": "p2ent6-038",
+      "type": "fillblank",
+      "topic": "Fixed Costs",
+      "difficulty": "medium",
+      "q": "Rent, salaries and ___ are examples of fixed costs that act as indirect or overhead costs.",
+      "answerVariants": ["insurance"],
+      "explanation": "Fixed costs are business expenses that remain constant regardless of production volume or sales levels — rent, salaries and insurance are given as examples.",
+      "fact": "Fixed cost: Business expenses that remain constant regardless of production volume or sales levels... such as rent, salaries, or insurance."
+    },
+    {
+      "id": "p2ent6-039",
+      "type": "match",
+      "topic": "Functional Areas",
+      "difficulty": "medium",
+      "q": "Match each business role or functional area with what it involves, as described in the chapter.",
+      "pairs": [
+        {"l": "An entrepreneur", "r": "Identifies a problem and is resolute to solve it with an innovative solution"},
+        {"l": "Management and operations", "r": "Producing and delivering goods or services efficiently and on time"},
+        {"l": "Finance and accounting", "r": "Planning, obtaining and using funds for the business"},
+        {"l": "Human resources", "r": "Hiring, training and managing the people employed"},
+        {"l": "Marketing and sales", "r": "Attracting customers and convincing them to buy the products"}
+      ],
+      "explanation": "Each role has a distinct function: the entrepreneur solves problems innovatively, operations delivers efficiently, finance manages funds, human resources manages people, and marketing drives sales.",
+      "fact": "Management involves planning, organising...; Operations focuses on producing and delivering...; Finance is the management of money...; The marketing and sales team helps attract customers and convinces them to buy the products."
+    },
+    {
+      "id": "p2ent6-040",
+      "type": "mcq",
+      "topic": "Functional Areas Scenario",
+      "difficulty": "medium",
+      "q": "In a bakery, choosing the right equipment, arranging ingredients, monitoring quality and planning daily production fall under which functional area?",
+      "options": ["Management and operations", "Human resources", "Finance and accounting", "Marketing and sales"],
+      "answer": 0,
+      "explanation": "These tasks are about efficient processes and smooth operations — producing fresh, high-quality products regularly without delay or wastage — which is management and operations.",
+      "fact": "In a bakery, you must choose the right equipment, arrange ingredients, monitor quality, and plan daily production to ensure fresh and high-quality products are made regularly without delay or wastage."
+    },
+    {
+      "id": "p2ent6-041",
+      "type": "mcq",
+      "topic": "Functional Areas Scenario",
+      "difficulty": "medium",
+      "q": "For a bakery, planning the budget, managing cash flow and investing in growth opportunities fall under which functional area?",
+      "options": ["Marketing and sales", "Management and operations", "Finance and accounting", "Human resources"],
+      "answer": 2,
+      "explanation": "Budgeting, reporting and cash flow are finance and accounting functions — they involve managing money wisely to support the business's growth.",
+      "fact": "For the bakery, you would have to plan for... investing in growth opportunities, managing profits and cash flow."
+    },
+    {
+      "id": "p2ent6-042",
+      "type": "truefalse",
+      "topic": "Meaning of Startup",
+      "difficulty": "easy",
+      "q": "A startup is a young, early-stage company founded by entrepreneurs offering an innovative product or service.",
+      "answer": "true",
+      "explanation": "The chapter defines a startup as a young, early-stage company founded by entrepreneurs that offers an innovative product or service.",
+      "fact": "Startup: A young, early-stage company founded by entrepreneurs offering an innovative product or service."
+    },
+    {
+      "id": "p2ent6-043",
+      "type": "fillblank",
+      "topic": "Lijjat Work Model",
+      "difficulty": "medium",
+      "q": "In the early days of Lijjat, each woman took raw ___ home every morning, rolled papads through the day, and returned the finished pieces by evening.",
+      "answerVariants": ["dough"],
+      "explanation": "There were no factories at first — each woman took raw dough home, rolled papads between household tasks, and returned the finished pieces by evening, provided the quality was consistent.",
+      "fact": "Each woman took raw dough home every morning, rolled papads through the day between household tasks, and returned the finished pieces by evening."
+    },
+    {
+      "id": "p2ent6-044",
+      "type": "multiselect",
+      "topic": "Startup Fields",
+      "difficulty": "easy",
+      "q": "Select all correct fields in which India's unicorns are working, as mentioned in the chapter.",
+      "options": [
+        "E-commerce (online shopping)",
+        "Fin-tech (digital payments)",
+        "Health-tech (online healthcare)",
+        "Ship-tech (submarine tourism)",
+        "War-tech (weapons manufacturing)"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "India's unicorns work in exciting fields like e-commerce, fin-tech, health-tech and agri-tech — submarine tourism and weapons manufacturing are not mentioned in the chapter.",
+      "fact": "These are working in exciting fields, like e-commerce (online shopping), fin-tech (digital payments), health-tech (online healthcare), and agri-tech (farming technology)."
+    },
+    {
+      "id": "p2ent6-045",
+      "type": "multiselect",
+      "topic": "Startup Hubs",
+      "difficulty": "medium",
+      "q": "Select all correct cities that have become major startup hubs of India, as per the chapter.",
+      "options": ["Bengaluru", "Hyderabad", "Mumbai", "Colombo"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Bengaluru, Hyderabad, Mumbai and Delhi NCR have become major startup hubs of India; Colombo is not an Indian city.",
+      "fact": "Cities like Bengaluru, Hyderabad, Mumbai, and Delhi NCR have become major startup hubs."
+    },
+    {
+      "id": "p2ent6-046",
+      "type": "wrongstatement",
+      "topic": "Business Plan",
+      "difficulty": "hard",
+      "q": "Which of these statements about the business plan discussed in this chapter is INCORRECT?",
+      "options": [
+        "It serves as a guide and roadmap for decision making",
+        "A business plan can only be written after the business has run for at least five years",
+        "It helps the entrepreneur stay organised and set priorities",
+        "It is a written document that explains the goals of the business and the steps to achieve them"
+      ],
+      "answer": 1,
+      "explanation": "A business plan guides the entrepreneur from the initial idea stage itself — it is prepared before and while starting the business, not years after it begins running.",
+      "fact": "It guides the entrepreneur from the initial idea stage to successfully starting and running the business."
+    },
+    {
+      "id": "p2ent6-047",
+      "type": "wrongstatement",
+      "topic": "Mohan Singh Oberoi",
+      "difficulty": "hard",
+      "q": "Which of these statements about Mohan Singh Oberoi is INCORRECT?",
+      "options": [
+        "He was born in Shimla in 1898 into a wealthy hotel-owning family",
+        "He moved to Shimla and took a job as a hotel desk clerk",
+        "He transformed struggling hotels into successful businesses and built one of India's largest hotel chains",
+        "He founded a hotel management school and expanded his business across the world"
+      ],
+      "answer": 0,
+      "explanation": "Oberoi was actually born in Punjab in 1898 and faced hardships early in life; he built his hotel career starting from a desk clerk's job in Shimla.",
+      "fact": "Born in Punjab in 1898, Mohan Singh Oberoi faced hardships early in life when his father passed away while he was still an infant."
+    },
+    {
+      "id": "p2ent6-048",
+      "type": "assertion",
+      "topic": "Business Plan",
+      "difficulty": "medium",
+      "q": "Assertion (A): A business plan helps an entrepreneur stay organised, set priorities and work systematically.\nReason (R): It guides the entrepreneur from the initial idea stage to successfully starting and running the business.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true, and because the plan guides every stage from idea to running the business, it helps the entrepreneur stay organised, set priorities and work systematically.",
+      "fact": "It guides the entrepreneur from the initial idea stage to successfully starting and running the business... helping them stay organised, set priorities, and work systematically."
+    },
+    {
+      "id": "p2ent6-049",
+      "type": "assertion",
+      "topic": "Oberoi Work Ethic",
+      "difficulty": "hard",
+      "q": "Assertion (A): Mohan Singh Oberoi earned just ₹50 a month as a hotel desk clerk in Shimla.\nReason (R): He strictly limited himself to his assigned duties and learned nothing beyond them.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "A is true — he earned ₹50 a month as a desk clerk; R is false, because rather than limiting himself to his duties, he learned every aspect of hotel operations from guest service to billing.",
+      "fact": "Rather than limiting himself to his assigned duties, Mohan learned every aspect of hotel operations, from guest service to billing and administration.",
+      "hint": "Recall how Oberoi treated his duties as a young clerk."
+    },
+    {
+      "id": "p2ent6-050",
+      "type": "mcq",
+      "topic": "Profit Before Tax",
+      "difficulty": "hard",
+      "q": "What was ABC bakery's profit before tax (PBT) for the month ended March 2026?",
+      "options": ["₹73,000", "₹60,000", "₹13,000", "₹2,22,000"],
+      "answer": 0,
+      "explanation": "ABC bakery's total sales of ₹2,95,000 minus total expenses of ₹2,22,000 gives a profit before tax of ₹73,000; after paying ₹13,000 as tax, the PAT is ₹60,000.",
+      "fact": "Total sales ₹2,95,000 – Total expenses ₹2,22,000 = Profit before tax (PBT) ₹73,000.",
+      "hint": "PBT comes before the tax amount is subtracted."
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "chapterId": "econ9",
+  "fragment": "d",
+  "questions": [
+    {
+      "id": "econ9-076",
+      "type": "mcq",
+      "topic": "COVID-19 Price Example",
+      "difficulty": "medium",
+      "q": "Why did the price of face masks rise significantly during the COVID-19 pandemic in 2020?",
+      "options": ["Demand surged and supply could not catch up immediately", "The government banned mask production", "Mask-making technology was lost", "Hospitals stopped buying masks"],
+      "answer": 0,
+      "explanation": "The pandemic made the demand for masks surge rapidly; since supply could not catch up immediately, prices rose significantly until suppliers adjusted.",
+      "fact": "During the COVID-19 pandemic in 2020, the demand for face masks surged rapidly. As a result, the supply could not catch up immediately, and the price of masks rose significantly."
+    },
+    {
+      "id": "econ9-077",
+      "type": "mcq",
+      "topic": "Dynamic Markets",
+      "difficulty": "hard",
+      "q": "Once the COVID-19 pandemic was over, what happened to the demand and prices of masks?",
+      "options": ["Demand reduced further and prices fell to pre-pandemic levels", "Demand rose and prices stayed high", "Prices rose even higher", "Masks were banned everywhere"],
+      "answer": 0,
+      "explanation": "When the pandemic ended, demand reduced further and prices came down to pre-pandemic levels, showing how markets constantly adjust to changing conditions.",
+      "fact": "Once the pandemic was over, demand reduced further, and the prices reduced to pre-pandemic levels."
+    },
+    {
+      "id": "econ9-078",
+      "type": "mcq",
+      "topic": "Hotel Tariffs",
+      "difficulty": "easy",
+      "q": "Which of the following affects how a hotel changes its room tariffs, as per the chapter?",
+      "options": ["How fast rooms are getting booked", "The founder's birthday", "The colour of the hotel's walls", "The number of windows"],
+      "answer": 0,
+      "explanation": "Hotels adjust tariffs based on how fast rooms are booking, nearby hotels' tariffs, festivals or events in the area, weather forecasts, days left before arrival and past booking trends.",
+      "fact": "These tariff changes depend on other factors such as: how fast rooms are getting booked; tariff charged by nearby hotels; festivals, conferences, or events in the area; weather forecasts; number of days left before arrival; past booking trends."
+    },
+    {
+      "id": "econ9-079",
+      "type": "mcq",
+      "topic": "Price Ceiling",
+      "difficulty": "easy",
+      "q": "A price ceiling is an imposed price control that sets...",
+      "options": ["the maximum amount a seller can charge for a product or service", "the minimum amount a buyer must pay", "a tax on imported goods", "a subsidy for producers"],
+      "answer": 0,
+      "explanation": "A price ceiling caps the maximum chargeable price, for example on essential goods like medicines, to prevent overcharging.",
+      "fact": "Price ceiling: An imposed price control that sets the maximum amount a seller can charge for a product or service."
+    },
+    {
+      "id": "econ9-080",
+      "type": "mcq",
+      "topic": "Price Floor",
+      "difficulty": "easy",
+      "q": "The government sets a minimum wage to ensure workers earn enough for their hard work. This lower limit is known as the...",
+      "options": ["price ceiling", "price floor", "equilibrium price", "market tariff"],
+      "answer": 1,
+      "explanation": "A price floor is a limit on how low a price (or wage) can go; the minimum wage is the chapter's example of a price floor.",
+      "fact": "Similarly, the government sets a minimum wage to ensure workers earn enough for their hard work. This lower limit is known as the price floor."
+    },
+    {
+      "id": "econ9-081",
+      "type": "mcq",
+      "topic": "Monopoly",
+      "difficulty": "easy",
+      "q": "A monopoly is a market structure in which...",
+      "options": ["many sellers sell identical products", "a single seller controls the entire supply of a unique product", "two governments trade with each other", "prices are always zero"],
+      "answer": 1,
+      "explanation": "A monopoly has one seller of a unique product with no close substitutes, giving the seller significant power to set prices and output.",
+      "fact": "Monopoly: A market structure with a single seller or producer controlling the entire supply of a unique product or service, facing no close substitutes, allowing them significant power to set prices and output."
+    },
+    {
+      "id": "econ9-082",
+      "type": "mcq",
+      "topic": "Limits of Intervention",
+      "difficulty": "hard",
+      "q": "The government fixes the maximum price of wheat at ₹20 per kg while market forces set it at ₹30 per kg. According to the chapter, this may lead to...",
+      "options": ["increased production of wheat", "reduced production and shortages", "a permanent surplus of wheat", "no change for farmers"],
+      "answer": 1,
+      "explanation": "Fixing prices below market levels leaves farmers receiving less than in a free market, which reduces their motivation to produce and can cause shortages.",
+      "fact": "For instance, if the government sets a maximum price for wheat at ₹20 per kg while the market forces set it at ₹30 per kg, farmers receive less than what they would in a free market. This may lead to reduced production and shortages.",
+      "hint": "How would farmers feel about receiving less than the market price?"
+    },
+    {
+      "id": "econ9-083",
+      "type": "mcq",
+      "topic": "COVID-19 Price Example",
+      "difficulty": "medium",
+      "q": "During COVID-19, sanitisers were declared essential commodities under which law?",
+      "options": ["The Essential Commodities Act, 1955", "The Consumer Rights Act, 1986", "The Fair Pricing Act, 1971", "The Market Protection Act, 1999"],
+      "answer": 0,
+      "explanation": "The government declared sanitisers essential commodities under the Essential Commodities Act, 1955, and capped the maximum retail price at ₹100 for 200 ml bottles.",
+      "fact": "The government intervened by declaring sanitisers essential commodities under the Essential Commodities Act, 1955, capping the maximum retail price at ₹100 for 200 ml bottles."
+    },
+    {
+      "id": "econ9-084",
+      "type": "truefalse",
+      "topic": "Price Floor",
+      "difficulty": "medium",
+      "q": "For a price floor to be effective, it must be set below the market equilibrium price.",
+      "answer": "false",
+      "explanation": "A price floor must be set above the market equilibrium price to be effective; setting it below would leave the market price untouched.",
+      "fact": "Price floor: An imposed limit on how low a price can be charged for a product, good, or service. For a price floor to be effective, it must be set above the market equilibrium price."
+    },
+    {
+      "id": "econ9-085",
+      "type": "truefalse",
+      "topic": "Public Goods Provision",
+      "difficulty": "easy",
+      "q": "Public goods are usually not provided by private companies because they do not generate direct profit.",
+      "answer": "true",
+      "explanation": "Roads, bridges, parks and streetlighting benefit everyone but earn no direct profit, so the government provides them for public welfare.",
+      "fact": "These goods are usually not provided by private companies because they do not generate direct profit."
+    },
+    {
+      "id": "econ9-086",
+      "type": "truefalse",
+      "topic": "Government Intervention",
+      "difficulty": "medium",
+      "q": "During COVID-19, the government capped the maximum retail price of sanitisers at ₹100 for 200 ml bottles.",
+      "answer": "true",
+      "explanation": "To stop overcharging after hoarding and black marketing appeared, the government capped the sanitiser MRP at ₹100 for 200 ml bottles.",
+      "fact": "...capping the maximum retail price at ₹100 for 200 ml bottles."
+    },
+    {
+      "id": "econ9-087",
+      "type": "truefalse",
+      "topic": "Government Intervention",
+      "difficulty": "easy",
+      "q": "Today, India is the fourth-largest economy in the world.",
+      "answer": "true",
+      "explanation": "The chapter states that India is today the fourth-largest economy in the world and is a market-based, regulated economy where prices depend on demand and supply.",
+      "fact": "Today, India is the fourth-largest economy in the world. It is a market-based, regulated economy in which prices depend on demand and supply."
+    },
+    {
+      "id": "econ9-088",
+      "type": "fillblank",
+      "topic": "Hoarding and Black Marketing",
+      "difficulty": "easy",
+      "q": "The illegal trade of goods and services that are banned or regulated is called ___.",
+      "answerVariants": ["black marketing", "black-marketing", "blackmarketing"],
+      "explanation": "Black marketing is the illegal trade of regulated goods; during COVID-19 some shopkeepers resorted to it when sanitiser demand surged.",
+      "fact": "Black marketing: The illegal trade of goods and services that are banned or regulated."
+    },
+    {
+      "id": "econ9-089",
+      "type": "fillblank",
+      "topic": "Hoarding and Black Marketing",
+      "difficulty": "easy",
+      "q": "Accumulation of goods beyond what is immediately necessary, driven by fear of shortages or anticipated price increases, is called ___.",
+      "answerVariants": ["hoarding"],
+      "explanation": "Hoarding means stocking goods beyond immediate needs, usually out of fear of future shortages or expected price rises.",
+      "fact": "Hoarding: Accumulation of goods, commodities, or money by individuals, or firms beyond what is immediately necessary, typically driven by fear of future shortages, anticipated price increases, or speculative motives."
+    },
+    {
+      "id": "econ9-090",
+      "type": "fillblank",
+      "topic": "Monopoly",
+      "difficulty": "hard",
+      "q": "A market structure with a single seller controlling the entire supply of a unique product, facing no close substitutes, is called a ___.",
+      "answerVariants": ["monopoly"],
+      "explanation": "A monopoly's single seller faces no close substitutes and therefore has significant power to set prices and output, which is why the government regulates it.",
+      "fact": "Monopoly: A market structure with a single seller or producer controlling the entire supply of a unique product or service, facing no close substitutes..."
+    },
+    {
+      "id": "econ9-091",
+      "type": "match",
+      "topic": "Market Regulators",
+      "difficulty": "medium",
+      "q": "Match each regulator or law with what it relates to.",
+      "pairs": [
+        {"l": "Reserve Bank of India (RBI)", "r": "Banking"},
+        {"l": "TRAI", "r": "Telecommunications sector"},
+        {"l": "SEBI", "r": "Securities market"},
+        {"l": "Central Consumer Protection Authority", "r": "Consumer rights and unfair trade practices"},
+        {"l": "Essential Commodities Act, 1955", "r": "Declaring sanitisers essential commodities"}
+      ],
+      "explanation": "The chapter lists regulators like RBI for banking, TRAI for telecom, SEBI for the securities market and the CCPA for consumer rights, while the Essential Commodities Act, 1955 was used to regulate sanitiser prices.",
+      "fact": "Many regulators such as the Reserve Bank of India (RBI) for banking, the Central Consumer Protection Authority for violation of consumer rights and unfair trade practices, the Telecom Regulatory Authority of India (TRAI) for the telecommunications sector, the Securities and Exchange Board of India (SEBI) for the securities market... ensure transparency in the market."
+    },
+    {
+      "id": "econ9-092",
+      "type": "match",
+      "topic": "Hotel Tariffs",
+      "difficulty": "hard",
+      "q": "Match each situation in the Goa hotel example with the correct tariff detail.",
+      "pairs": [
+        {"l": "Off-season weekday (Monday in July)", "r": "₹1,500 per night"},
+        {"l": "Weekend during tourist season (Saturday in December)", "r": "₹8,000 per night"},
+        {"l": "New Year's Eve", "r": "₹25,000 per night"},
+        {"l": "A group tour cancels its booking", "r": "Tariff may be reduced by 40 per cent overnight"},
+        {"l": "Total rooms in the hotel", "r": "100 rooms"}
+      ],
+      "explanation": "The Goa hotel's tariffs rise with demand — ₹1,500 on an off-season weekday, ₹8,000 on a December weekend and ₹25,000 on New Year's Eve — and the tariff can be cut by 40 per cent overnight if a group booking cancels.",
+      "fact": "Suppose a hotel in Goa has 100 rooms. The room tariff changes as follows: Off-season weekday (Monday in July): ₹1,500 per night; Weekend during tourist season (Saturday in December): ₹8,000 per night; New Year's Eve (very high demand): ₹25,000 per night. If a group tour cancels its booking, the hotel may reduce tariff by 40 per cent overnight."
+    },
+    {
+      "id": "econ9-093",
+      "type": "order",
+      "topic": "Government Intervention",
+      "difficulty": "hard",
+      "q": "Arrange the logic behind government intervention in the market in the correct order.",
+      "orderItems": ["Markets do not always work fairly", "Essential goods become unaffordable for vulnerable groups", "The government intervenes with price controls and regulation", "Fairness, equity and consumer welfare are protected"],
+      "explanation": "Markets allocate goods by willingness and ability to pay; when essentials become unaffordable, the government steps in with ceilings, floors and regulation to protect welfare and equity.",
+      "fact": "However, markets do not always work fairly. Markets allocate goods and services based on willingness and ability to pay... In such cases, fairness and equity in allocation are required, particularly to ensure the welfare of vulnerable and low-income groups. So, the government plays an important role in the economy..."
+    },
+    {
+      "id": "econ9-094",
+      "type": "order",
+      "topic": "COVID-19 Price Example",
+      "difficulty": "hard",
+      "q": "Arrange the events of the sanitiser market during COVID-19 in the correct order.",
+      "orderItems": ["Demand for sanitisers surged, leading to stockouts", "Some shopkeepers began hoarding and black-marketing", "The government declared sanitisers essential commodities and capped the MRP", "Many companies started production", "Sanitisers became widely available at fair prices"],
+      "explanation": "Surging demand caused stockouts and black marketing; the government then capped prices under the Essential Commodities Act, 1955, and as many companies began producing, sanitisers became available at fair prices.",
+      "fact": "During COVID-19, the demand for sanitisers surged, leading to stockouts and sharp price increases. Some shopkeepers began hoarding and black-marketing. The government intervened by declaring sanitisers essential commodities... capping the maximum retail price at ₹100 for 200 ml bottles. Meanwhile, many companies started production, and sanitisers soon became widely available at fair prices."
+    },
+    {
+      "id": "econ9-095",
+      "type": "multiselect",
+      "topic": "Public Goods Provision",
+      "difficulty": "easy",
+      "q": "Select all correct public goods provided by the government, as mentioned in the chapter.",
+      "options": ["Roads", "National defence", "Streetlighting", "Private yachts"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Roads, bridges, public parks, streetlighting, national defence, sanitation and drainage are public goods provided by the government for the benefit of all citizens.",
+      "fact": "Public goods are goods and services that are provided by the government for the benefit of all citizens, for example, roads, bridges, public parks, and streetlighting... national defence protects the country from external threats."
+    },
+    {
+      "id": "econ9-096",
+      "type": "multiselect",
+      "topic": "Government Intervention",
+      "difficulty": "medium",
+      "q": "Select all correct reasons why the government intervenes in the market.",
+      "options": ["To prevent overcharging for essential goods", "To ensure the welfare of vulnerable and low-income groups", "To keep monopolies in check", "To make every citizen a business owner"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "The government intervenes to prevent overcharging of essentials, to protect the welfare of vulnerable groups and to regulate monopolies that harm consumers.",
+      "fact": "...the government sets maximum prices (price ceiling) for essential goods like medicines to prevent overcharging... fairness and equity in allocation are required, particularly to ensure the welfare of vulnerable and low-income groups... This form of monopoly would be detrimental to consumer welfare..."
+    },
+    {
+      "id": "econ9-097",
+      "type": "wrongstatement",
+      "topic": "Government Intervention",
+      "difficulty": "medium",
+      "q": "Which of these statements about government intervention is INCORRECT?",
+      "options": [
+        "The government regulates unfair practices to protect consumers, workers and producers.",
+        "The government sets maximum prices for essential goods like medicines to prevent overcharging.",
+        "Regulators such as RBI, TRAI and SEBI ensure transparency in the market.",
+        "Excessive government intervention can never have adverse effects."
+      ],
+      "answer": 3,
+      "explanation": "The chapter warns that excessive intervention can cause price distortions, compliance burdens and reduced incentives to innovate — so it must be implemented carefully.",
+      "fact": "Although government regulations are required when markets are inefficient, they must be implemented carefully, as excessive government intervention can have adverse effects."
+    },
+    {
+      "id": "econ9-098",
+      "type": "wrongstatement",
+      "topic": "Limits of Intervention",
+      "difficulty": "medium",
+      "q": "Which of these statements about the limitations of government intervention is INCORRECT?",
+      "options": [
+        "Fixing prices below market levels may reduce producers' motivation to supply goods.",
+        "Extensive regulations, licenses and permits can hurt small enterprises.",
+        "Heavy regulation and price controls can reduce incentives to invest in new ideas or better technology.",
+        "A small restaurant needs no permissions to operate its business."
+      ],
+      "answer": 3,
+      "explanation": "The chapter gives the example of a small restaurant needing multiple permissions — food safety, fire safety, pollution control and local clearances — which shows that compliance burdens are real.",
+      "fact": "For instance, a small restaurant may need multiple permissions related to food safety, fire safety, pollution control, and local clearances. The time and cost involved can discourage small entrepreneurs from starting or expanding businesses."
+    },
+    {
+      "id": "econ9-099",
+      "type": "assertion",
+      "topic": "Price Ceiling",
+      "difficulty": "hard",
+      "q": "Assertion (A): The government sets price ceilings for essential goods like medicines.\nReason (R): Markets allocate goods based on willingness and ability to pay, which can make essential goods unaffordable for many.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true and R explains A — because markets ration goods by ability to pay, the government caps prices of essentials so they remain accessible to all.",
+      "fact": "Markets allocate goods and services based on willingness and ability to pay. Suppose essential goods like medicines become very expensive, will they be accessible to all? ... the government sets maximum prices (price ceiling) for essential goods like medicines to prevent overcharging."
+    },
+    {
+      "id": "econ9-100",
+      "type": "assertion",
+      "topic": "Monopoly",
+      "difficulty": "hard",
+      "q": "Assertion (A): A monopoly benefits consumers by charging the lowest possible prices.\nReason (R): A monopoly can charge higher prices, provide poorer quality and restrict supply, which is detrimental to consumer welfare.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "A is false — monopolies harm rather than benefit consumers; R is true and states exactly why the government regulates them.",
+      "fact": "This form of monopoly would be detrimental to consumer welfare as it may charge higher prices, provide poorer quality of goods and services, restrict supply, and so on. The government regulates such practices by keeping the prices and quantity supplied in check."
+    }
+  ]
+}

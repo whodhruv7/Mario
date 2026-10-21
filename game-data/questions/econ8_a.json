@@ -1,0 +1,313 @@
+{
+  "chapterId": "econ8",
+  "fragment": "a",
+  "questions": [
+    {
+      "id": "econ8-001",
+      "type": "mcq",
+      "topic": "Needs and Wants",
+      "difficulty": "easy",
+      "q": "Which of the following is described as a WANT (rather than a need) in the chapter?",
+      "options": ["Food", "Water", "Shelter", "A vacation abroad"],
+      "answer": 3,
+      "explanation": "Needs are essentials like food, water and shelter, while wants are things like gadgets, vacations or luxury items that we desire beyond the essentials.",
+      "fact": "Some of our preferences are needs, such as essentials like food, water, and shelter, while others are wants, like gadgets, vacations, or luxury items.",
+      "hint": "Ask yourself: can a person manage without this item?"
+    },
+    {
+      "id": "econ8-002",
+      "type": "mcq",
+      "topic": "Scarcity and Choice",
+      "difficulty": "easy",
+      "q": "What arises when unlimited wants meet limited resources, as shown in Fig. 8.5?",
+      "options": ["Scarcity", "Surplus", "Equilibrium", "Abundance"],
+      "answer": 0,
+      "explanation": "Unlimited wants combined with limited resources create scarcity, and scarcity is what forces individuals, enterprises and governments to make choices.",
+      "fact": "Fig. 8.5 shows Unlimited Wants and Limited Resources leading to SCARCITY and then CHOICES.",
+      "hint": "It is the root cause of the problem of choice."
+    },
+    {
+      "id": "econ8-003",
+      "type": "mcq",
+      "topic": "Opportunity Cost",
+      "difficulty": "easy",
+      "q": "Riya spends all her pocket money on snacks and gives up saving the same money for a new pair of shoes. In economic terms, the shoes she gave up represent her...",
+      "options": ["demand", "opportunity cost", "savings target", "fixed income"],
+      "answer": 1,
+      "explanation": "The opportunity cost of a choice is the value of the option given up. By choosing snacks, Riya gave up saving for the shoes, which is her opportunity cost.",
+      "fact": "Would you spend your pocket money on snacks or save it for a new pair of shoes? When one alternative is chosen, the other options are given up. The value of what is given up is known as the opportunity cost.",
+      "hint": "Think about what she had to give up."
+    },
+    {
+      "id": "econ8-004",
+      "type": "mcq",
+      "topic": "Scarcity and Choice",
+      "difficulty": "medium",
+      "q": "A school library has only five copies of a new storybook, but 20 students want to read it. This situation best illustrates...",
+      "options": ["market equilibrium", "scarcity and the need for choice", "the law of demand", "unlimited supply"],
+      "answer": 1,
+      "explanation": "With only five copies for 20 students, the book is scarce, so a choice must be made about who gets it first, whether to share it, or whether to buy more copies.",
+      "fact": "If your school library had only five copies of a new storybook but 20 students wanted to read it, who should get the book first? Can the students share them or should the school buy more copies?",
+      "hint": "There are fewer copies than students, so the resource is limited."
+    },
+    {
+      "id": "econ8-005",
+      "type": "mcq",
+      "topic": "Opportunity Cost",
+      "difficulty": "easy",
+      "q": "When one alternative is chosen, the value of the other options given up is known as...",
+      "options": ["marginal cost", "opportunity cost", "production cost", "selling cost"],
+      "answer": 1,
+      "explanation": "Opportunity cost is the value of what is given up when we choose one alternative over the others. Every economic choice carries an opportunity cost.",
+      "fact": "When one alternative is chosen, the other options are given up. The value of what is given up is known as the opportunity cost."
+    },
+    {
+      "id": "econ8-006",
+      "type": "mcq",
+      "topic": "Resources and Alternative Uses",
+      "difficulty": "easy",
+      "q": "Steel can be used for making medical equipment, refrigerators or aircraft. This shows that resources have...",
+      "options": ["unlimited quantity", "alternative uses", "zero value", "only one use"],
+      "answer": 1,
+      "explanation": "Resources can be put to many alternative uses. Choosing one use of steel means giving up the other possible uses, which is why allocation decisions matter.",
+      "fact": "They can be put to many alternative uses... pictures in Fig. 8.2 show the alternative uses of steel: medical equipment, refrigerator manufacturing, aircraft manufacturing.",
+      "hint": "One resource, many possible destinations."
+    },
+    {
+      "id": "econ8-007",
+      "type": "mcq",
+      "topic": "Production Possibility Curve",
+      "difficulty": "hard",
+      "q": "According to the farmer's PPC table, at combination C the farmer produces...",
+      "options": ["25 kg barley and 90 kg wheat", "50 kg barley and 70 kg wheat", "75 kg barley and 40 kg wheat", "100 kg barley and 0 kg wheat"],
+      "answer": 1,
+      "explanation": "The PPC table lists combination C as 50 kg of barley and 70 kg of wheat. Each combination shows a possible output mix using all available resources.",
+      "fact": "PPC table: A—0 barley, 100 wheat; B—25, 90; C—50, 70; D—75, 40; E—100, 0 (all in kg).",
+      "hint": "Remember barley rises from 0 to 100 as you move from A to E."
+    },
+    {
+      "id": "econ8-008",
+      "type": "mcq",
+      "topic": "Markets",
+      "difficulty": "easy",
+      "q": "As defined in the chapter, a market is a place where...",
+      "options": ["goods are only stored safely", "buying and selling of products and services takes place", "only producers meet each other", "the government fixes all wages"],
+      "answer": 1,
+      "explanation": "A market is where buying and selling of products and services takes place, and it can be a physical market or a virtual one on the internet.",
+      "fact": "Market: A place where buying and selling of products and services takes place. It could be a physical market or a virtual one on the internet."
+    },
+    {
+      "id": "econ8-009",
+      "type": "mcq",
+      "topic": "Production Possibility Curve",
+      "difficulty": "medium",
+      "q": "When barley is plotted on the x-axis and wheat on the y-axis, the farmer's production combinations give a curve that is...",
+      "options": ["vertical", "upward sloping", "downward sloping", "circular"],
+      "answer": 2,
+      "explanation": "Plotting the barley-wheat combinations produces a downward sloping curve, because producing more barley always means producing less wheat with the same limited resources.",
+      "fact": "When these combinations are plotted on a graph... where the x-axis represents the quantity (in kg) of barley grown, and the y-axis represents the quantity (in kg) of wheat grown, a downward sloping curve is derived.",
+      "hint": "More of one crop means less of the other."
+    },
+    {
+      "id": "econ8-010",
+      "type": "truefalse",
+      "topic": "Needs and Wants",
+      "difficulty": "easy",
+      "q": "Human wants are unlimited and keep changing.",
+      "answer": "true",
+      "explanation": "The chapter states that human wants are unlimited and keep changing, for example people may want to upgrade from a bicycle to a motorbike and then to a car.",
+      "fact": "Human wants are unlimited and keep changing; for instance, people may want to upgrade from a bicycle to a motorbike and then to a car."
+    },
+    {
+      "id": "econ8-011",
+      "type": "truefalse",
+      "topic": "Needs and Wants",
+      "difficulty": "easy",
+      "q": "Food, water and shelter are described as needs in the chapter.",
+      "answer": "true",
+      "explanation": "Needs are essentials such as food, water and shelter which people require to live, unlike wants such as gadgets or luxury items.",
+      "fact": "Some of our preferences are needs, such as essentials like food, water, and shelter, while others are wants, like gadgets, vacations, or luxury items."
+    },
+    {
+      "id": "econ8-012",
+      "type": "truefalse",
+      "topic": "Resources and Alternative Uses",
+      "difficulty": "medium",
+      "q": "Both natural and human-made resources are limited in quantity.",
+      "answer": "true",
+      "explanation": "Whether natural like water and coal, or human-made like capital and technology, all resources are limited, which is why economies must allocate them carefully.",
+      "fact": "However, both natural and human-made resources are limited in quantity."
+    },
+    {
+      "id": "econ8-013",
+      "type": "truefalse",
+      "topic": "Resources and Alternative Uses",
+      "difficulty": "easy",
+      "q": "According to the chapter, human-made resources are available in unlimited quantity.",
+      "answer": "false",
+      "explanation": "This is incorrect because both natural resources like water and coal and human-made resources like capital and technology are limited in quantity.",
+      "fact": "However, both natural and human-made resources are limited in quantity."
+    },
+    {
+      "id": "econ8-014",
+      "type": "fillblank",
+      "topic": "Needs and Wants",
+      "difficulty": "easy",
+      "q": "Essentials like food, water and shelter are called ___, while gadgets and vacations are wants.",
+      "answerVariants": ["needs", "need"],
+      "explanation": "Needs are the essentials required for living, such as food, water and shelter; wants go beyond these essentials.",
+      "fact": "Some of our preferences are needs, such as essentials like food, water, and shelter, while others are wants, like gadgets, vacations, or luxury items."
+    },
+    {
+      "id": "econ8-015",
+      "type": "fillblank",
+      "topic": "Production Possibility Curve",
+      "difficulty": "medium",
+      "q": "To grow more barley on the PPC, some ___ must be sacrificed — this is the opportunity cost of growing barley.",
+      "answerVariants": ["wheat"],
+      "explanation": "On the farmer's PPC, increasing barley output always requires sacrificing some wheat because land, water and labour are limited.",
+      "fact": "However, to grow more barley, some wheat must be sacrificed—this is the opportunity cost of growing barley.",
+      "hint": "It is the other crop on the y-axis."
+    },
+    {
+      "id": "econ8-016",
+      "type": "fillblank",
+      "topic": "Needs and Wants",
+      "difficulty": "easy",
+      "q": "People may want to upgrade from a bicycle to a motorbike and then to a car. This shows that human wants are ___.",
+      "answerVariants": ["unlimited"],
+      "explanation": "Human wants are unlimited and keep changing — as soon as one want is satisfied, people desire something bigger or better.",
+      "fact": "Human wants are unlimited and keep changing; for instance, people may want to upgrade from a bicycle to a motorbike and then to a car."
+    },
+    {
+      "id": "econ8-017",
+      "type": "match",
+      "topic": "Basic Economic Terms",
+      "difficulty": "easy",
+      "q": "Match each economic term from Chapter 8 with its correct meaning.",
+      "pairs": [
+        {"l": "Needs", "r": "Essentials like food, water and shelter"},
+        {"l": "Wants", "r": "Gadgets, vacations or luxury items"},
+        {"l": "Resources", "r": "Factors used to produce goods and services"},
+        {"l": "Opportunity cost", "r": "Value of what is given up when choosing"},
+        {"l": "Market", "r": "Place where buying and selling takes place"}
+      ],
+      "explanation": "Needs are essentials, wants are desires beyond essentials, resources are the factors used in production, opportunity cost is the value of the forgone option, and a market is where buying and selling happens.",
+      "fact": "Key definitions from Chapter 8: Market is a place where buying and selling takes place; Resources are factors used for the production of goods and services."
+    },
+    {
+      "id": "econ8-018",
+      "type": "order",
+      "topic": "Scarcity and Choice",
+      "difficulty": "medium",
+      "q": "Arrange the steps of economic decision-making in the correct order.",
+      "orderItems": ["Unlimited wants meet limited resources", "Scarcity forces a choice among alternatives", "One alternative is selected", "The value of the options given up becomes the opportunity cost"],
+      "explanation": "Scarcity arises from limited resources facing unlimited wants; scarcity forces choices; a choice is made; and the value of what is given up is the opportunity cost.",
+      "fact": "Unlimited Wants and Limited Resources lead to SCARCITY and then CHOICES; when one alternative is chosen, the other options are given up, and their value is the opportunity cost.",
+      "hint": "Start with the basic problem before the decision and its result."
+    },
+    {
+      "id": "econ8-019",
+      "type": "multiselect",
+      "topic": "Resources and Alternative Uses",
+      "difficulty": "medium",
+      "q": "Select all correct alternative uses of steel shown in the chapter.",
+      "options": ["Medical equipment", "Refrigerator manufacturing", "Aircraft manufacturing", "Rainwater harvesting"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Fig. 8.2 shows steel being used for medical equipment, refrigerator manufacturing and aircraft manufacturing — one resource with many alternative uses.",
+      "fact": "Fig. 8.2 shows the alternative uses of steel: medical equipment, refrigerator manufacturing, aircraft manufacturing."
+    },
+    {
+      "id": "econ8-020",
+      "type": "multiselect",
+      "topic": "Needs and Wants",
+      "difficulty": "easy",
+      "q": "Select all correct examples of NEEDS from the chapter.",
+      "options": ["Food", "Water", "Shelter", "Luxury items"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Food, water and shelter are essentials, that is, needs. Luxury items, gadgets and vacations are wants.",
+      "fact": "Some of our preferences are needs, such as essentials like food, water, and shelter, while others are wants, like gadgets, vacations, or luxury items."
+    },
+    {
+      "id": "econ8-021",
+      "type": "wrongstatement",
+      "topic": "Needs and Wants",
+      "difficulty": "easy",
+      "q": "Which of these statements about needs and wants is INCORRECT?",
+      "options": [
+        "Needs include essentials like food, water and shelter.",
+        "Wants include gadgets, vacations and luxury items.",
+        "Human wants keep changing over time.",
+        "Human wants are limited and can be fully satisfied."
+      ],
+      "answer": 3,
+      "explanation": "The chapter clearly states that human wants are unlimited and keep changing, so they can never be fully satisfied with limited resources.",
+      "fact": "Human wants are unlimited and keep changing; for instance, people may want to upgrade from a bicycle to a motorbike and then to a car."
+    },
+    {
+      "id": "econ8-022",
+      "type": "wrongstatement",
+      "topic": "Opportunity Cost",
+      "difficulty": "medium",
+      "q": "Which of these statements about opportunity cost is INCORRECT?",
+      "options": [
+        "When one alternative is chosen, the other options are given up.",
+        "The value of what is given up is the opportunity cost.",
+        "Resources can be put to many alternative uses.",
+        "Opportunity cost applies only to governments, not individuals."
+      ],
+      "answer": 3,
+      "explanation": "Opportunity cost applies to every economic decision-maker — individuals, households, enterprises and governments alike — because everyone faces limited resources.",
+      "fact": "Not just households, economies also have to decide how to use their scarce resources in the best possible way to meet unlimited wants."
+    },
+    {
+      "id": "econ8-023",
+      "type": "assertion",
+      "topic": "Opportunity Cost",
+      "difficulty": "medium",
+      "q": "Assertion (A): Every economic choice involves an opportunity cost.\nReason (R): When one alternative is chosen, the other options are given up, and the value of what is given up is the opportunity cost.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both A and R are true, and R correctly explains A: because choosing means giving up alternatives, every choice carries an opportunity cost.",
+      "fact": "When one alternative is chosen, the other options are given up. The value of what is given up is known as the opportunity cost."
+    },
+    {
+      "id": "econ8-024",
+      "type": "assertion",
+      "topic": "Scarcity and Choice",
+      "difficulty": "medium",
+      "q": "Assertion (A): Only households face economic choices; governments do not.\nReason (R): Governments must decide how to use scarce resources in the best possible way to meet unlimited wants and improve people's quality of life.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "A is false because governments also make economic choices, such as spending more on highways or hospitals. R is true and actually describes the government's economic problem.",
+      "fact": "Not just households, economies also have to decide how to use their scarce resources in the best possible way to meet unlimited wants and improve people's quality of life. Should the government spend more on building highways or hospitals?"
+    },
+    {
+      "id": "econ8-025",
+      "type": "assertion",
+      "topic": "Opportunity Cost",
+      "difficulty": "hard",
+      "q": "Assertion (A): The opportunity cost of growing barley is the wheat that must be sacrificed.\nReason (R): The PPC helps in better planning and decision-making by enterprises and the governments.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both statements are true, but R does not explain A. Barley has an opportunity cost in wheat because limited resources force a trade-off, not because the PPC helps in planning.",
+      "fact": "However, to grow more barley, some wheat must be sacrificed—this is the opportunity cost of growing barley... This helps in better planning and decision-making by enterprises and the governments.",
+      "hint": "Ask whether the reason actually causes the assertion."
+    }
+  ]
+}

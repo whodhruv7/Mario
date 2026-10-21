@@ -1,0 +1,404 @@
+{
+  "chapterId": "p2geo2",
+  "fragment": "c",
+  "questions": [
+    {
+      "id": "p2geo2-051",
+      "type": "mcq",
+      "topic": "Thenmala ecotourism",
+      "difficulty": "hard",
+      "q": "The name 'Thenmala' means...",
+      "options": [
+        "Sun City",
+        "Honey Hill",
+        "Green Valley",
+        "River Bank"
+      ],
+      "answer": 1,
+      "explanation": "The name Thenmala means 'Honey Hill', reflecting the area's natural richness and biodiversity within the Western Ghats.",
+      "fact": "The name Thenmala means 'Honey Hill', reflecting the area's natural richness and biodiversity within the Western Ghats."
+    },
+    {
+      "id": "p2geo2-052",
+      "type": "mcq",
+      "topic": "Thenmala ecotourism",
+      "difficulty": "hard",
+      "q": "Thenmala was developed jointly by which departments of Keralam?",
+      "options": [
+        "Health, Education and Sports",
+        "Police, Railways and Posts",
+        "Tourism, Forest and Irrigation",
+        "Agriculture, Mining and Textiles"
+      ],
+      "answer": 2,
+      "explanation": "Thenmala was developed jointly by the Tourism Department, the Forest Department and the Irrigation Department of Keralam to promote sustainable tourism while conserving forests.",
+      "fact": "Thenmala was developed jointly by the Tourism Department, the Forest Department, and the Irrigation Department of Keralam."
+    },
+    {
+      "id": "p2geo2-053",
+      "type": "truefalse",
+      "topic": "Thenmala ecotourism",
+      "difficulty": "easy",
+      "q": "Thenmala is located in the Kollam district of Keralam.",
+      "answer": "true",
+      "explanation": "Thenmala is located in the Kollam district of Keralam. It is India's first planned ecotourism destination, set within the Western Ghats.",
+      "fact": "Thenmala, located in the Kollam district of Keralam, is India's first planned ecotourism destination."
+    },
+    {
+      "id": "p2geo2-054",
+      "type": "fillblank",
+      "topic": "Western Ghats",
+      "difficulty": "easy",
+      "q": "Thenmala lies in the Western Ghats, which is a ___ World Heritage Site.",
+      "answerVariants": [
+        "UNESCO",
+        "Unesco"
+      ],
+      "explanation": "Thenmala lies within the Western Ghats, a UNESCO World Heritage Site, reflecting its rich natural heritage and biodiversity.",
+      "fact": "Thenmala reflects the natural richness and biodiversity within the Western Ghats, a UNESCO World Heritage Site."
+    },
+    {
+      "id": "p2geo2-055",
+      "type": "truefalse",
+      "topic": "Thenmala ecotourism",
+      "difficulty": "medium",
+      "q": "Thenmala's success lies in its balanced approach, combining recreation, environmental education and conservation.",
+      "answer": "true",
+      "explanation": "Thenmala's success lies in combining recreation, environmental education and conservation, making it a model for responsible forest-based ecotourism in India. It employs local people as guides, eco-guards and service providers.",
+      "fact": "Thenmala's success lies in its balanced approach, combining recreation, environmental education, and conservation, making it a model for responsible forest-based ecotourism in India."
+    },
+    {
+      "id": "p2geo2-056",
+      "type": "mcq",
+      "topic": "Swadesh Darshan Scheme",
+      "difficulty": "easy",
+      "q": "The Swadesh Darshan 2.0 Scheme was launched by which ministry of the Government of India?",
+      "options": [
+        "Ministry of Finance",
+        "Ministry of Defence",
+        "Ministry of Home Affairs",
+        "Ministry of Tourism"
+      ],
+      "answer": 3,
+      "explanation": "The Swadesh Darshan 2.0 Scheme was launched by the Ministry of Tourism, Government of India, to develop sustainable tourism destinations.",
+      "fact": "The Swadesh Darshan 2.0 Scheme was launched by the Ministry of Tourism, Government of India."
+    },
+    {
+      "id": "p2geo2-057",
+      "type": "truefalse",
+      "topic": "Swadesh Darshan Scheme",
+      "difficulty": "easy",
+      "q": "The Swadesh Darshan 2.0 Scheme focuses on sustainable development, conservation and local community involvement.",
+      "answer": "true",
+      "explanation": "Swadesh Darshan 2.0 aims to develop sustainable tourism destinations with a tourist- and destination-centric approach, focusing on sustainable development, conservation and local community involvement.",
+      "fact": "The Swadesh Darshan 2.0 Scheme aims to develop sustainable tourism destinations with a focus on sustainable development, conservation, and local community involvement."
+    },
+    {
+      "id": "p2geo2-058",
+      "type": "mcq",
+      "topic": "Sacred groves",
+      "difficulty": "medium",
+      "q": "Across India, there are over how many sacred groves?",
+      "options": [
+        "1,00,000",
+        "1,000",
+        "500",
+        "10,00,000"
+      ],
+      "answer": 0,
+      "explanation": "Across India, there are over 1,00,000 sacred groves, though many are not officially recorded. They are known by different names such as Devrai, Devarakadu, Kavu and Sarna.",
+      "fact": "Across India, there are over 1,00,000 sacred groves, though many are not officially recorded."
+    },
+    {
+      "id": "p2geo2-059",
+      "type": "wrongstatement",
+      "topic": "Sacred groves",
+      "difficulty": "easy",
+      "q": "Which of these statements about sacred groves is INCORRECT?",
+      "options": [
+        "Sacred groves are small forest patches protected by local communities for religious and cultural purposes.",
+        "They are rich biodiversity hotspots that often preserve rare plants and medicinal species.",
+        "All sacred groves in India are officially recorded.",
+        "They are known by different names in different regions of India."
+      ],
+      "answer": 2,
+      "explanation": "There are over 1,00,000 sacred groves in India, but many are NOT officially recorded. They are community-protected patches that preserve rare plants, medicinal species and wildlife.",
+      "fact": "Across India, there are over 1,00,000 sacred groves, though many are not officially recorded."
+    },
+    {
+      "id": "p2geo2-060",
+      "type": "mcq",
+      "topic": "Sacred groves",
+      "difficulty": "hard",
+      "q": "Some sacred groves are linked to water sources and help to...",
+      "options": [
+        "dry up rivers",
+        "increase air pollution",
+        "maintain streams and groundwater",
+        "cause floods"
+      ],
+      "answer": 2,
+      "explanation": "Some sacred groves are even linked to water sources and help to maintain streams and groundwater, apart from preserving rare plants, medicinal species and wildlife.",
+      "fact": "Some sacred groves are even linked to water sources and help to maintain streams and groundwater."
+    },
+    {
+      "id": "p2geo2-061",
+      "type": "multiselect",
+      "topic": "Sacred grove names",
+      "difficulty": "hard",
+      "q": "Select all correct: which of these are names used for sacred groves in India?",
+      "options": [
+        "Rann",
+        "Devrai",
+        "Kavu",
+        "Sarna"
+      ],
+      "answerIndices": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "Sacred groves are known by different names such as Devrai, Devarakadu, Kavu and Sarna. 'Rann' refers to the salt desert of Kutch, not a sacred grove.",
+      "fact": "Sacred groves are known by different names, such as Devrai, Devarakadu, Kavu, and Sarna."
+    },
+    {
+      "id": "p2geo2-062",
+      "type": "truefalse",
+      "topic": "Forest communities",
+      "difficulty": "medium",
+      "q": "The Gonds and Bhils perform rituals to honour the forest deities before collecting forest resources.",
+      "answer": "true",
+      "explanation": "Several communities, including the Gonds and Bhils, perform rituals to honour the forest deities before collecting resources, reflecting sustainable cultural practices and deep respect for nature.",
+      "fact": "Several communities including the Gonds and Bhils perform rituals to honour the forest deities before collecting resources."
+    },
+    {
+      "id": "p2geo2-063",
+      "type": "fillblank",
+      "topic": "Protected areas",
+      "difficulty": "medium",
+      "q": "National parks, wildlife sanctuaries, ___ reserves and World Heritage Sites are protected areas chosen based on geography.",
+      "answerVariants": [
+        "biosphere",
+        "Biosphere"
+      ],
+      "explanation": "Protected areas include national parks, wildlife sanctuaries, biosphere reserves and World Heritage Sites, chosen based on geography to preserve critical habitats and prevent habitat fragmentation.",
+      "fact": "National parks, wildlife sanctuaries, biosphere reserves, and World Heritage Sites are chosen based on geography to preserve critical habitats and prevent habitat fragmentation."
+    },
+    {
+      "id": "p2geo2-064",
+      "type": "mcq",
+      "topic": "GI tag",
+      "difficulty": "medium",
+      "q": "What is a Geographical Indication (GI) tag?",
+      "options": [
+        "A certificate for passing an exam",
+        "A permit to cut forest trees",
+        "A visa for international travellers",
+        "A type of intellectual property right that identifies a product as originating from a specific place"
+      ],
+      "answer": 3,
+      "explanation": "A GI tag is a type of intellectual property right that identifies a product as originating from a specific place, where its quality, reputation or other characteristics are essentially linked to its geographic origin.",
+      "fact": "A Geographical Indication (GI) tag is a type of intellectual property right that identifies a product as originating from a specific place."
+    },
+    {
+      "id": "p2geo2-065",
+      "type": "match",
+      "topic": "GI-tagged products",
+      "difficulty": "easy",
+      "q": "Match each GI-tagged forest product with its region.",
+      "pairs": [
+        {
+          "l": "Ramban Sulai Honey",
+          "r": "Jammu and Kashmir"
+        },
+        {
+          "l": "Tezpur Litchi",
+          "r": "Assam"
+        },
+        {
+          "l": "Channapatna Toys",
+          "r": "Karnataka"
+        },
+        {
+          "l": "Kandhamal Haldi",
+          "r": "Odisha"
+        },
+        {
+          "l": "Khasi Mandarin",
+          "r": "Meghalaya"
+        }
+      ],
+      "explanation": "Ramban Sulai Honey comes from Jammu and Kashmir, Tezpur Litchi from Assam, Channapatna Toys from Karnataka, Kandhamal Haldi from Odisha and Khasi Mandarin from Meghalaya — all GI-tagged forest-based products.",
+      "fact": "GI-tagged forest products of India include Ramban Sulai Honey (J&K), Tezpur Litchi (Assam), Channapatna Toys (Karnataka), Kandhamal Haldi (Odisha) and Khasi Mandarin (Meghalaya)."
+    },
+    {
+      "id": "p2geo2-066",
+      "type": "wrongstatement",
+      "topic": "GI tag",
+      "difficulty": "medium",
+      "q": "Which of these statements about GI tags is INCORRECT?",
+      "options": [
+        "A GI tag can be given to any product regardless of where it comes from.",
+        "GI tagging helps protect region-specific products.",
+        "GI tagging promotes cultural heritage and generates economic benefits for local communities.",
+        "A GI tag is a type of intellectual property right."
+      ],
+      "answer": 0,
+      "explanation": "A GI tag identifies a product as originating from a SPECIFIC place, where its quality, reputation or characteristics are essentially linked to that geographic origin. It cannot be given to just any product from anywhere.",
+      "fact": "A GI tag identifies a product as originating from a specific place, where a given quality, reputation, or other characteristics are essentially linked to its geographic origin."
+    },
+    {
+      "id": "p2geo2-067",
+      "type": "mcq",
+      "topic": "Channapatna Toys",
+      "difficulty": "hard",
+      "q": "Channapatna Toys are made from which forest tree, locally known as 'Aale mara'?",
+      "options": [
+        "Wrightia tinctoria",
+        "Neem",
+        "Banyan",
+        "Teak"
+      ],
+      "answer": 0,
+      "explanation": "The notable aspect of Channapatna Toys, a forest-based craft from Karnataka, is that they are made from Wrightia tinctoria, a forest tree locally known as 'Aale mara'.",
+      "fact": "Channapatna Toys are made from Wrightia tinctoria, a forest tree locally known as 'Aale mara'."
+    },
+    {
+      "id": "p2geo2-068",
+      "type": "mcq",
+      "topic": "Kandhamal Haldi",
+      "difficulty": "medium",
+      "q": "Kandhamal Haldi, a GI-tagged product of Odisha, is known for...",
+      "options": [
+        "its bright blue colour",
+        "its high curcumin content and medicinal value",
+        "its sweet taste",
+        "its use in making paper"
+      ],
+      "answer": 1,
+      "explanation": "Kandhamal Haldi is a variety of turmeric grown by tribal communities in the forest regions of Kandhamal. It is known for its high curcumin content and medicinal value.",
+      "fact": "Kandhamal Haldi is grown by tribal communities in the forest regions of Kandhamal and is known for its high curcumin content and medicinal value."
+    },
+    {
+      "id": "p2geo2-069",
+      "type": "multiselect",
+      "topic": "GI-tagged products",
+      "difficulty": "hard",
+      "q": "Select all correct: which of these are GI-tagged products mentioned in the chapter?",
+      "options": [
+        "Tripura Queen Pineapple",
+        "Swiss watches",
+        "Erode Turmeric (Erode Manjal)",
+        "Nilgiri Tea"
+      ],
+      "answerIndices": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Erode Manjal (Erode Turmeric) of Tamil Nadu, Nilgiri Tea of the Western Ghats region and Tripura Queen Pineapple are all GI-tagged products mentioned in the chapter. Swiss watches are not.",
+      "fact": "GI-tagged products mentioned in the chapter include Erode Manjal (Tamil Nadu), Nilgiri Tea (Tamil Nadu, Keralam, Karnataka) and Tripura Queen Pineapple (Tripura)."
+    },
+    {
+      "id": "p2geo2-070",
+      "type": "assertion",
+      "topic": "GI-tagged products",
+      "difficulty": "hard",
+      "q": "Assertion (A): Kandhamal Haldi is known for its high pulp content.\nReason (R): Tezpur Litchi has a distinctive bright colour and high pulp content.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "Kandhamal Haldi is known for its high CURCUMIN content and medicinal value, not pulp, so A is false. Tezpur Litchi from Assam truly has a distinctive bright colour and high pulp content, so R is true.",
+      "fact": "Kandhamal Haldi is known for its high curcumin content; Tezpur Litchi has a distinctive bright colour and high pulp content."
+    },
+    {
+      "id": "p2geo2-071",
+      "type": "match",
+      "topic": "Forest produces",
+      "difficulty": "hard",
+      "q": "Match each forest produce with the Indian states it is associated with.",
+      "pairs": [
+        {
+          "l": "Timber and bamboo",
+          "r": "Assam, Tripura, Keralam"
+        },
+        {
+          "l": "Tendu leaves, mahua flowers, sal seeds, gums",
+          "r": "Madhya Pradesh, Chhattisgarh"
+        },
+        {
+          "l": "Herbs like ashwagandha, neem and tulsi",
+          "r": "Himalayan region, Western Ghats"
+        },
+        {
+          "l": "Wild fruits, honey, mushrooms and roots",
+          "r": "Jharkhand, Odisha"
+        },
+        {
+          "l": "Handicrafts and cottage industries",
+          "r": "Rajasthan, Keralam"
+        }
+      ],
+      "explanation": "Different states are known for different forest produces: timber and bamboo from Assam, Tripura and Keralam; tendu leaves and mahua from Madhya Pradesh and Chhattisgarh; medicinal herbs from the Himalayan region and Western Ghats; wild fruits and honey from Jharkhand and Odisha; handicrafts from Rajasthan and Keralam.",
+      "fact": "Forest produces from different Indian states include timber and bamboo (Assam, Tripura, Keralam), tendu leaves and mahua flowers (MP, Chhattisgarh), herbs (Himalayan region, Western Ghats), wild fruits and honey (Jharkhand, Odisha) and handicrafts (Rajasthan, Keralam)."
+    },
+    {
+      "id": "p2geo2-072",
+      "type": "truefalse",
+      "topic": "Forest dwellers",
+      "difficulty": "easy",
+      "q": "Women play a vital role in collecting and managing forest resources for household needs.",
+      "answer": "true",
+      "explanation": "Women, in particular, play a vital role in collecting and managing forest resources for household needs, sustaining traditional knowledge and practices, and contributing to livelihoods.",
+      "fact": "Women play a vital role in collecting and managing forest resources for household needs, sustaining traditional knowledge and practices, and contributing to the livelihoods."
+    },
+    {
+      "id": "p2geo2-073",
+      "type": "multiselect",
+      "topic": "Forest products",
+      "difficulty": "easy",
+      "q": "Select all correct: which of these are non-timber forest products (NTFPs)?",
+      "options": [
+        "Mahua flowers",
+        "Honey",
+        "Timber wood",
+        "Tendu leaves"
+      ],
+      "answerIndices": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Non-timber forest products include tendu leaves, mahua flowers, honey, lac and bamboo, which provide income for households. Timber wood is not an NTFP.",
+      "fact": "Forest dwellers gather and process non-timber forest products (NTFPs) such as tendu leaves, mahua flowers, honey, lac, and bamboo."
+    },
+    {
+      "id": "p2geo2-074",
+      "type": "truefalse",
+      "topic": "Forest Rights Act",
+      "difficulty": "medium",
+      "q": "Under the Forest Rights Act 2006, eligible communities can gain ownership of small patches of land cultivated by them.",
+      "answer": "true",
+      "explanation": "The Forest Rights Act (FRA) 2006 recognises the rights of eligible communities over forest land and resources they have traditionally depended upon, allows them to collect minor forest produce, and grants ownership of small patches of land cultivated by them.",
+      "fact": "The FRA allows communities to collect minor forest produce such as bamboo, honey, and medicinal plants, and grants ownership of small patches of land cultivated by them."
+    },
+    {
+      "id": "p2geo2-075",
+      "type": "fillblank",
+      "topic": "Bishnoi Movement",
+      "difficulty": "medium",
+      "q": "The Bishnoi Movement in Rajasthan was led by ___.",
+      "answerVariants": [
+        "Amrita Devi",
+        "Amrita",
+        "Amritadevi"
+      ],
+      "explanation": "The Bishnoi Movement in Rajasthan was led by Amrita Devi. This movement later influenced the Chipko Movement in Uttarakhand.",
+      "fact": "The Bishnoi Movement in Rajasthan was led by Amrita Devi."
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "chapterId": "hist4",
+  "fragment": "a",
+  "questions": [
+    {
+      "id": "hist4-001",
+      "type": "mcq",
+      "topic": "Human History Before Writing",
+      "difficulty": "easy",
+      "q": "What percentage of human history falls in the period BEFORE the invention of writing (from about 3 million years ago to 5000 years ago)?",
+      "options": ["About 50 per cent", "About 75 per cent", "More than 99 per cent", "Less than 10 per cent"],
+      "answer": 2,
+      "explanation": "More than 99 per cent of human history belongs to the period before writing, from about 3 million years ago to 5000 years ago. Only the last 5000 years, less than 1 per cent of human history, is covered by written records.",
+      "fact": "More than 99 per cent of human history falls under the period before writing (from about 3 million years ago to 5000 years ago).",
+      "hint": "Writing began only about 5000 years ago, but human history is millions of years old."
+    },
+    {
+      "id": "hist4-002",
+      "type": "truefalse",
+      "topic": "Harappan Script",
+      "difficulty": "easy",
+      "q": "The Harappan script, found on objects such as seals and pottery, has not yet been deciphered.",
+      "answer": "true",
+      "explanation": "The Harappans used a pictographic script, but it has not yet been deciphered. As a result, we still do not understand the Harappan script, also referred to as Sindhu lipi.",
+      "fact": "Writings and engravings found on objects such as seals and pottery indicate that the Harappans used a pictographic script; however, it has not yet been deciphered."
+    },
+    {
+      "id": "hist4-003",
+      "type": "fillblank",
+      "topic": "Harappan Script",
+      "difficulty": "easy",
+      "q": "The Harappan script, which has not yet been deciphered, is also referred to as Sindhu ___.",
+      "answerVariants": ["lipi", "Lipi"],
+      "explanation": "The undeciphered Harappan script is also referred to as Sindhu lipi. Writings and engravings on seals and pottery show that the Harappans used a pictographic script.",
+      "fact": "We still do not understand the Harappan script, also referred to as Sindhu lipi.",
+      "hint": "The word means 'script' or 'writing'."
+    },
+    {
+      "id": "hist4-004",
+      "type": "mcq",
+      "topic": "Brahmi Script",
+      "difficulty": "medium",
+      "q": "The Brahmi script, used from about 400 BCE in parts of southern India and the Ganga Valley, was later formalised by which emperor?",
+      "options": ["Chandragupta Maurya", "Ashoka", "Akbar", "Krishnadevaraya"],
+      "answer": 1,
+      "explanation": "From about 400 BCE, Brahmi was used in parts of southern India and in the Ganga Valley. It was later formalised by the Emperor Ashoka in the 3rd century BCE and by contemporary Iron Age people all over southern India.",
+      "fact": "From about 400 BCE, a script known as Brahmi was used in parts of southern India and in the Ganga Valley; it was later formalised by the Emperor Ashoka (3rd century BCE)."
+    },
+    {
+      "id": "hist4-005",
+      "type": "match",
+      "topic": "Periods of Early History",
+      "difficulty": "medium",
+      "q": "Match each period of early human history with its main characteristic.",
+      "pairs": [
+        {"l": "Palaeolithic", "r": "Hunting-gathering lifestyle with simple stone tools"},
+        {"l": "Mesolithic", "r": "Use of microlithic (tiny stone) tools"},
+        {"l": "Neolithic", "r": "Agriculture, settled life and polished stone tools"},
+        {"l": "Chalcolithic", "r": "Use of copper along with stone tools"},
+        {"l": "Iron Age", "r": "Widespread use of iron metallurgy"}
+      ],
+      "explanation": "Early human history is divided into periods based on technological progress: Palaeolithic hunter-gatherers used simple stone tools; Mesolithic people used microliths; the Neolithic brought farming, domestication and polished tools; the Chalcolithic added copper; and the Iron Age used iron metallurgy.",
+      "fact": "Early human history is divided into distinct periods based on technological progress, such as the development and use of tools, the beginning of agriculture, and changes in lifestyle and settlement patterns."
+    },
+    {
+      "id": "hist4-006",
+      "type": "mcq",
+      "topic": "Cultural Evolution",
+      "difficulty": "easy",
+      "q": "In this chapter, 'cultural evolution' refers to:",
+      "options": ["The rise and fall of ancient empires", "The decipherment of old scripts", "The gradual physical changes through which apes became humans", "How humans adapted to their surroundings using tools, techniques and technology"],
+      "answer": 3,
+      "explanation": "Cultural evolution explains how humans adapted to their surroundings during the Quaternary Period by developing tools, techniques and other forms of technology to make use of natural resources. Gradual physical and genetic change, by contrast, is biological evolution.",
+      "fact": "Cultural evolution explains how humans adapted to their surroundings during the Quaternary Period, developing tools, techniques and other forms of technology to make use of natural resources."
+    },
+    {
+      "id": "hist4-007",
+      "type": "mcq",
+      "topic": "Quaternary Period",
+      "difficulty": "hard",
+      "q": "The Quaternary Period, during which cultural evolution took place, covers:",
+      "options": ["The last 5,000 years only", "The last 26 lakh years, including the present", "The period between 7000 BCE and 1000 BCE", "The last 2 million years before the present"],
+      "answer": 1,
+      "explanation": "Cultural evolution explains how humans adapted during the Quaternary Period, which covers the last 26 lakh years including the present. This is the span in which humans developed tools and technology to survive changing climatic and environmental conditions.",
+      "fact": "Cultural evolution explains how humans adapted to their surroundings during the Quaternary Period (the last 26 lakh years, including the present)."
+    },
+    {
+      "id": "hist4-008",
+      "type": "truefalse",
+      "topic": "Palaeolithic Meaning",
+      "difficulty": "easy",
+      "q": "The word 'palaeo' means 'old' and 'lithic' means 'stone', so the Palaeolithic period is also known as the Old Stone Age.",
+      "answer": "true",
+      "explanation": "'Palaeo' means old and 'lithic' means stone, so Palaeolithic literally means Old Stone Age. It was the stage of hunting-gathering with simple stone tools.",
+      "fact": "The word palaeo means 'old', and lithic means 'stone', so the Palaeolithic period is also known as the Old Stone Age."
+    },
+    {
+      "id": "hist4-009",
+      "type": "fillblank",
+      "topic": "Fossils",
+      "difficulty": "easy",
+      "q": "The preserved remains, traces or impressions of plants, animals or humans from the distant past are called ___.",
+      "answerVariants": ["fossils", "fossil", "Fossils"],
+      "explanation": "Fossils form when remains get buried under layers of earth and slowly turn into stone over thousands or millions of years. The remains of some of our early ancestors, buried deep underground, also turned into fossils.",
+      "fact": "Fossils are the preserved remains, traces, or impressions of plants, animals, or humans from the distant past."
+    },
+    {
+      "id": "hist4-010",
+      "type": "order",
+      "topic": "Stone Age Sequence",
+      "difficulty": "medium",
+      "q": "Arrange these periods of early human history in the correct chronological order, from the earliest to the most recent.",
+      "orderItems": ["Palaeolithic (Old Stone Age)", "Mesolithic", "Neolithic (New Stone Age)", "Chalcolithic (Copper and Stone Age)", "Bronze Age"],
+      "explanation": "The correct order is Palaeolithic, Mesolithic, Neolithic, Chalcolithic and then Bronze Age. Each stage is defined by its technology: simple stone tools, then microliths, then farming with polished tools, then copper, and finally bronze made by mixing copper and tin.",
+      "fact": "Early human history is divided into Palaeolithic, Mesolithic, Neolithic, Chalcolithic, Bronze Age and Iron Age based on technological progress."
+    },
+    {
+      "id": "hist4-011",
+      "type": "mcq",
+      "topic": "Migration from Africa",
+      "difficulty": "easy",
+      "q": "Which hominin was the FIRST to exit Africa and spread into other continents?",
+      "options": ["Homo habilis", "Homo sapiens", "Homo erectus", "Homo neanderthalensis"],
+      "answer": 2,
+      "explanation": "Homo erectus, an early human ancestor with stone tools such as hand axes and cleavers, was the first hominin to exit Africa, moving out around 2 million years ago. Their tools have been found in other parts of Asia and Europe.",
+      "fact": "Homo erectus, an early human ancestor with stone tools such as hand axes and cleavers, was the first hominin to exit Africa.",
+      "hint": "This ancestor made handaxes and cleavers."
+    },
+    {
+      "id": "hist4-012",
+      "type": "truefalse",
+      "topic": "Homo Sapiens Origins",
+      "difficulty": "easy",
+      "q": "Homo sapiens (modern humans) evolved in Africa around 300,000 years ago and are now spread all over the earth.",
+      "answer": "true",
+      "explanation": "Early Homo sapiens, ourselves, evolved in Africa around 300,000 years ago and are now spread all over the earth. Another major wave of movement out of Africa took place around 125,000 years ago.",
+      "fact": "Early Homo sapiens evolved in Africa around 300,000 years ago and are now spread all over the earth."
+    },
+    {
+      "id": "hist4-013",
+      "type": "wrongstatement",
+      "topic": "Human Ancestor Species",
+      "difficulty": "easy",
+      "q": "Which of these statements about our human ancestors is INCORRECT?",
+      "options": [
+        "Homo habilis lived in Africa, especially in the Olduvai Gorge in Tanzania and Kenya.",
+        "Homo erectus were the inventors of handaxes and cleavers.",
+        "Homo erectus is the only human species living today on earth.",
+        "Homo neanderthalensis made Middle Palaeolithic flake tools."
+      ],
+      "answer": 2,
+      "explanation": "Living humans, or the Homo sapiens, are the only human species living today on earth — not Homo erectus. The other statements are correct: Homo habilis lived at Olduvai Gorge, Homo erectus invented handaxes and cleavers, and Homo neanderthalensis made Middle Palaeolithic flake tools.",
+      "fact": "Living humans, or the Homo sapiens, are the only human species living today on earth."
+    },
+    {
+      "id": "hist4-014",
+      "type": "multiselect",
+      "topic": "Homo Sapiens Facts",
+      "difficulty": "easy",
+      "q": "Select all correct statements about Homo sapiens.",
+      "options": [
+        "While all human ancestors were tool makers, Homo sapiens developed complex technologies.",
+        "Homo sapiens are now spread all over the earth.",
+        "Different kinds of human ancestors co-existed in the Old World.",
+        "Homo sapiens first emerged in Europe and later moved to Africa."
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Homo sapiens evolved in Africa, not Europe, and later spread across the world. They developed complex technologies, lived alongside other kinds of human ancestors in the Old World, and are now found all over the earth.",
+      "fact": "While all human ancestors were tool makers, it was the Homo sapiens that developed complex technologies; different kinds of human ancestors co-existed at this time."
+    },
+    {
+      "id": "hist4-015",
+      "type": "fillblank",
+      "topic": "Homo Erectus",
+      "difficulty": "medium",
+      "q": "Homo erectus refers to an upright or ___ human ancestor.",
+      "answerVariants": ["bipedal", "Bipedal", "two-legged"],
+      "explanation": "Homo erectus means an upright or bipedal human ancestor. Living in the Eastern African Rift Valley about 2 million years ago, they made handaxes and cleavers and were the first hominins to leave Africa.",
+      "fact": "Homo erectus refers to an upright or bipedal human ancestor."
+    },
+    {
+      "id": "hist4-016",
+      "type": "mcq",
+      "topic": "The Old World",
+      "difficulty": "easy",
+      "q": "The 'Old World', which had the earliest human settlements, consists of:",
+      "options": ["North and South America", "Australia and Antarctica", "Only the Indian subcontinent", "Africa, Asia and Europe"],
+      "answer": 3,
+      "explanation": "The earliest human settlements were found in Africa, Asia and Europe, which together constitute what we today call the 'Old World'. It covers the oldest settlements of the earliest Palaeolithic period.",
+      "fact": "The earliest human settlements were found in Africa, Asia, and Europe, and together they constitute what we today call the 'Old World'."
+    },
+    {
+      "id": "hist4-017",
+      "type": "truefalse",
+      "topic": "Earliest Stone Tools",
+      "difficulty": "medium",
+      "q": "One of our ancestors made the earliest stone tools around 3.3 million years ago.",
+      "answer": "true",
+      "explanation": "Around 3.3 million years ago, one of our ancestors made the earliest stone tools. This marked the beginning of so-called 'human behaviour', since animals do not possess the cognitive ability to make such tools.",
+      "fact": "It was around 3.3 million years ago that one of these ancestors made the earliest stone tools."
+    },
+    {
+      "id": "hist4-018",
+      "type": "assertion",
+      "topic": "Mesolithic Population Explosion",
+      "difficulty": "medium",
+      "q": "Assertion (A): Around 12000 years ago, the world witnessed the first-ever population explosion in human history.\nReason (R): The warmer climate expanded forests and grasslands, offering a wider variety of resources including small game animals, fish and edible wild grains.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both A and R are true, and R explains A. As Earth became warmer around 12000 years ago, new landscapes offered many more resources, which supported far more people and caused the first-ever population explosion in human history.",
+      "fact": "Around 12000 years ago, Earth's climate became warmer; the new landscapes offered a wider variety of resources, and the world witnessed the first-ever population explosion in human history."
+    },
+    {
+      "id": "hist4-019",
+      "type": "mcq",
+      "topic": "Homo Habilis",
+      "difficulty": "easy",
+      "q": "Homo habilis, who lived in the Olduvai Gorge in Tanzania and Kenya, is known as the:",
+      "options": ["Upright man", "Cave man", "Handy man", "Wise man"],
+      "answer": 2,
+      "explanation": "Homo habilis is known as the 'handy man'. They lived in Africa, especially in the Olduvai Gorge in Tanzania and Kenya, and made chopper stone tools.",
+      "fact": "Homo habilis (handy man) lived in Africa, especially in the Olduvai Gorge in Tanzania and Kenya.",
+      "hint": "The Latin word 'habilis' gives a clue."
+    },
+    {
+      "id": "hist4-020",
+      "type": "order",
+      "topic": "Hominin Evolution",
+      "difficulty": "medium",
+      "q": "Arrange these human ancestors in their evolutionary sequence, from the earliest to the most recent.",
+      "orderItems": ["Homo habilis", "Homo erectus", "Homo neanderthalensis", "Homo sapiens"],
+      "explanation": "The evolutionary sequence runs from Homo habilis to Homo sapiens. Homo habilis lived 2-6 million years ago, Homo erectus about 2 million years ago, Homo neanderthalensis survived till about 40000 years ago, and Homo sapiens are the only species living today.",
+      "fact": "Fig. 4.6 shows the evolutionary sequence of skulls from Homo habilis to Homo sapiens."
+    },
+    {
+      "id": "hist4-021",
+      "type": "truefalse",
+      "topic": "Extra-corporal Limbs",
+      "difficulty": "easy",
+      "q": "Early stone tools are sometimes called 'extra-corporal limbs' because they functioned as extensions of the human body.",
+      "answer": "true",
+      "explanation": "Tools are called extra-corporal limbs because they worked as extensions of the human body, helping people perform tasks they could not accomplish with their hands alone, such as cutting meat or digging tubers.",
+      "fact": "The tools they created are sometimes called extra-corporal limbs because they functioned as extensions of the human body."
+    },
+    {
+      "id": "hist4-022",
+      "type": "order",
+      "topic": "Out of Africa Timeline",
+      "difficulty": "hard",
+      "q": "Arrange these milestones of early human history in the correct chronological order.",
+      "orderItems": [
+        "Making of the earliest stone tools",
+        "First movement of Homo erectus out of Africa",
+        "Evolution of Homo sapiens in Africa",
+        "Major wave of movement out of Africa",
+        "Spread of humans to Australia and the Americas"
+      ],
+      "explanation": "The earliest stone tools came first (about 3.3 million years ago), then Homo erectus exited Africa (around 2 million years ago), Homo sapiens evolved in Africa (around 300,000 years ago), a major wave of migration left Africa (around 125,000 years ago), and humans finally spread to Australia and the Americas (between 50000 and 12000 years ago).",
+      "fact": "The earliest stone tools were made about 3.3 million years ago; Homo erectus dispersed beyond Africa between 2 and 0.5 million years ago; Homo sapiens evolved around 300,000 years ago; another major wave of movement out of Africa took place around 125,000 years ago; Homo sapiens spread over the world including Australia and the Americas between 50000 and 12000 years ago."
+    },
+    {
+      "id": "hist4-023",
+      "type": "assertion",
+      "topic": "Pre-Writing Sources",
+      "difficulty": "medium",
+      "q": "Assertion (A): It is generally difficult to understand the thoughts and ideas of people who lived before the invention of writing.\nReason (R): Artefacts such as tools and implements are the major sources for reconstructing the ways of living of pre-writing people.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both statements are true, but R does not explain A. The difficulty in knowing people's thoughts comes from the absence of written literature; artefacts help reconstruct ways of living, not thoughts and ideas.",
+      "fact": "Before writing, it is generally difficult to understand the thoughts and ideas of people; tools, implements, and other material objects (artefacts) are the major sources for reconstructing people's ways of living."
+    },
+    {
+      "id": "hist4-024",
+      "type": "multiselect",
+      "topic": "Archaeological Methods",
+      "difficulty": "easy",
+      "q": "Select all correct ways in which archaeologists learn about early humans.",
+      "options": [
+        "Exploring early human sites to uncover tools, bones and objects left behind",
+        "Experimenting by making and using similar tools themselves",
+        "Studying tools and fossils as major sources of evidence",
+        "Depending only on written diaries left by early humans"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Archaeologists explore sites for clues such as tools, bones and objects, and even experiment by making and using similar tools to understand how early humans lived. Written diaries cannot exist because early humans had not yet invented writing.",
+      "fact": "Archaeologists explore early human sites to uncover clues such as tools, bones, and other objects; they also experiment by making and using similar tools."
+    },
+    {
+      "id": "hist4-025",
+      "type": "fillblank",
+      "topic": "Australopithecines",
+      "difficulty": "hard",
+      "q": "Our early ancestors are known as ___, a word in which australis means 'southern' and pithecus means 'primates'; they evolved into modern humans called Homo sapiens.",
+      "answerVariants": ["australopithecines", "Australopithecines", "australopithecus", "Australopithecus"],
+      "explanation": "Biological evolution refers to the gradual physical and genetic changes through which our early ancestors, known as australopithecines, evolved into modern human beings called Homo sapiens.",
+      "fact": "Biological evolution refers to the gradual physical and genetic changes through which our early ancestors, known as australopithecines, evolved into modern human beings, called Homo sapiens.",
+      "hint": "The name combines australis (southern) and pithecus (primates)."
+    }
+  ]
+}

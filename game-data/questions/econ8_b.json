@@ -1,0 +1,306 @@
+{
+  "chapterId": "econ8",
+  "fragment": "b",
+  "questions": [
+    {
+      "id": "econ8-026",
+      "type": "mcq",
+      "topic": "Meaning of Economics",
+      "difficulty": "easy",
+      "q": "The word 'Economics' comes from the Greek word 'oikonomia'. What does 'oikos' usually translate to?",
+      "options": ["Household", "Market", "Government", "Factory"],
+      "answer": 0,
+      "explanation": "'Oikonomia' combines 'oikos' (household) and 'nemein' (management), so economics originally referred to household management.",
+      "fact": "The word Economics comes from the Greek word oikonomia, which in turn is composed of two words: oikos, which is usually translated as 'household'; and nemein, which is best translated as 'management'."
+    },
+    {
+      "id": "econ8-027",
+      "type": "mcq",
+      "topic": "Meaning of Economics",
+      "difficulty": "easy",
+      "q": "The discipline of Economics deals with...",
+      "options": ["how choices are made by optimising the use of limited resources to satisfy needs and wants", "printing of currency notes by central banks", "the study of only agricultural markets", "the winning of elections by parties"],
+      "answer": 0,
+      "explanation": "Economics studies how individuals, enterprises and governments make choices to get the most satisfaction from limited resources, given unlimited needs and wants.",
+      "fact": "The discipline of Economics deals with how choices are made by optimising the use of limited resources to satisfy the needs and wants."
+    },
+    {
+      "id": "econ8-028",
+      "type": "mcq",
+      "topic": "Economic Entities",
+      "difficulty": "easy",
+      "q": "According to the chapter, which of these are economic entities that interact in an economy?",
+      "options": ["Only governments", "Consumers, producers, governments and financial institutions", "Only shopkeepers", "Only banks"],
+      "answer": 1,
+      "explanation": "Economic entities are all participants in economic activity, and the chapter lists consumers, producers, governments, financial institutions and enterprises.",
+      "fact": "It explains how different economic entities—consumers, producers, governments, and financial institutions—interact in an economy. Economic entities: one who participates in an economic activity, for example, producers, consumers, government, and enterprises."
+    },
+    {
+      "id": "econ8-029",
+      "type": "mcq",
+      "topic": "Meaning of Economics",
+      "difficulty": "medium",
+      "q": "Which of the following is given in the chapter as an example of what economics explains?",
+      "options": ["How prices are determined in the market", "How planets orbit the Sun", "How languages evolve", "How mountains are formed"],
+      "answer": 0,
+      "explanation": "Economics explains interactions such as how people work and earn wages, how wealth and resources are distributed, and how prices are determined in the market.",
+      "fact": "For example, how people work and earn wages, how wealth and resources are distributed, how prices are determined in the market..."
+    },
+    {
+      "id": "econ8-030",
+      "type": "mcq",
+      "topic": "Economists and Data",
+      "difficulty": "easy",
+      "q": "As described in the chapter, how do families typically allocate their money?",
+      "options": ["Only on essential items", "On essential items, non-essential items and savings", "Only on restaurant meals", "Only on jewellery"],
+      "answer": 1,
+      "explanation": "Families divide their money between essential items like food and medicines, non-essential items like entertainment, and savings.",
+      "fact": "Families allocate their money for essential items (such as food, medicines, and school supplies), non-essential items (such as jewellery, entertainment, and restaurant meals) and savings."
+    },
+    {
+      "id": "econ8-031",
+      "type": "mcq",
+      "topic": "Economists and Data",
+      "difficulty": "easy",
+      "q": "Which of the following is classified as an essential item for families in the chapter?",
+      "options": ["Jewellery", "Entertainment", "Medicines", "Restaurant meals"],
+      "answer": 2,
+      "explanation": "Essential items include food, medicines and school supplies; jewellery, entertainment and restaurant meals are non-essential items.",
+      "fact": "Families allocate their money for essential items (such as food, medicines, and school supplies), non-essential items (such as jewellery, entertainment, and restaurant meals) and savings."
+    },
+    {
+      "id": "econ8-032",
+      "type": "mcq",
+      "topic": "Economic Survey of India",
+      "difficulty": "medium",
+      "q": "Who prepares the Economic Survey of India?",
+      "options": ["The Reserve Bank of India", "The Ministry of Finance", "The Election Commission of India", "The State planning boards"],
+      "answer": 1,
+      "explanation": "The Economic Survey is an annual document prepared by the Ministry of Finance and presented in Parliament before the Union Budget.",
+      "fact": "The Economic Survey of India is an important annual document prepared by the Ministry of Finance and presented in Parliament before the Union Budget."
+    },
+    {
+      "id": "econ8-033",
+      "type": "mcq",
+      "topic": "Economic Survey of India",
+      "difficulty": "easy",
+      "q": "The Economic Survey of India reviews the country's economic performance during...",
+      "options": ["the past year", "the next five years", "only the harvest season", "the last week of trading"],
+      "answer": 0,
+      "explanation": "The Survey reviews how the Indian economy performed during the past year and analyses various sectors of the economy.",
+      "fact": "It reviews the country's economic performance during the past year and analyses various sectors of the economy."
+    },
+    {
+      "id": "econ8-034",
+      "type": "mcq",
+      "topic": "Economic Survey of India",
+      "difficulty": "hard",
+      "q": "Besides agriculture, industry and services, the Economic Survey also analyses areas such as...",
+      "options": ["employment, inflation, education, health and infrastructure", "cricket rankings and cinema", "only space missions", "weather folklore"],
+      "answer": 0,
+      "explanation": "The Survey covers sectors like agriculture, industry and services, and also areas such as employment, inflation, education, health and infrastructure.",
+      "fact": "It analyses various sectors of the economy such as agriculture, industry, services, and other areas like employment, inflation, education, health, infrastructure, etc.",
+      "hint": "Think of the wide range of issues that affect an economy."
+    },
+    {
+      "id": "econ8-035",
+      "type": "truefalse",
+      "topic": "Meaning of Economics",
+      "difficulty": "easy",
+      "q": "The word 'economics' comes from the Greek word 'oikonomia'.",
+      "answer": "true",
+      "explanation": "'Economics' derives from the Greek 'oikonomia', made of 'oikos' (household) and 'nemein' (management), together meaning household management.",
+      "fact": "The word Economics comes from the Greek word oikonomia, which in turn is composed of two words: oikos, which is usually translated as 'household'; and nemein, which is best translated as 'management'."
+    },
+    {
+      "id": "econ8-036",
+      "type": "truefalse",
+      "topic": "Economists and Data",
+      "difficulty": "medium",
+      "q": "Good decisions in economics rely on guesswork rather than data and analysis.",
+      "answer": "false",
+      "explanation": "The chapter stresses that good decisions rely on data and analysis, not guesswork. Economists study alternatives, opportunity costs and potential outcomes using real data.",
+      "fact": "However, good decisions rely on data and analysis, not guesswork."
+    },
+    {
+      "id": "econ8-037",
+      "type": "truefalse",
+      "topic": "Economists and Data",
+      "difficulty": "medium",
+      "q": "Enterprises study market trends and new innovations to better serve customers and maximise profits.",
+      "answer": "true",
+      "explanation": "Enterprises analyse market trends and innovations so they can serve customers better and maximise their profits.",
+      "fact": "Enterprises study market trends and new innovations to better serve customers and maximise profits."
+    },
+    {
+      "id": "econ8-038",
+      "type": "truefalse",
+      "topic": "Economists and Data",
+      "difficulty": "easy",
+      "q": "Governments use revenue from taxation to plan expenditure on infrastructure and welfare programmes.",
+      "answer": "true",
+      "explanation": "Governments spend tax revenue on infrastructure like roads and on welfare programmes that benefit people.",
+      "fact": "Governments use revenue from taxation to plan expenditure on infrastructure and welfare programmes."
+    },
+    {
+      "id": "econ8-039",
+      "type": "fillblank",
+      "topic": "Economists and Data",
+      "difficulty": "easy",
+      "q": "Economists use data from government reports such as economic ___ and financial statements of companies.",
+      "answerVariants": ["surveys", "survey"],
+      "explanation": "Economists rely on data sources like economic surveys and company financial statements to understand risks and opportunities.",
+      "fact": "They use data from government reports such as economic surveys and financial statements of companies, and their analysis helps to understand the potential risks and opportunities."
+    },
+    {
+      "id": "econ8-040",
+      "type": "fillblank",
+      "topic": "Economic Survey of India",
+      "difficulty": "easy",
+      "q": "The Economic Survey of India is presented in Parliament before the Union ___.",
+      "answerVariants": ["budget", "Budget"],
+      "explanation": "The Economic Survey is presented in Parliament before the Union Budget and acts as a blueprint for it.",
+      "fact": "The Economic Survey of India is an important annual document prepared by the Ministry of Finance and presented in Parliament before the Union Budget."
+    },
+    {
+      "id": "econ8-041",
+      "type": "fillblank",
+      "topic": "Economic Survey of India",
+      "difficulty": "hard",
+      "q": "The Economic Survey acts as a ___ for the upcoming Union Budget by providing crucial insights for policymakers.",
+      "answerVariants": ["blueprint", "blue print"],
+      "explanation": "Because it reviews the past year's performance and analyses every major sector, the Survey serves as a blueprint that guides the upcoming Union Budget.",
+      "fact": "It also acts as a blueprint for the upcoming Union Budget by providing crucial insights for policymakers while making policy-related decisions.",
+      "hint": "A plan that something else is built from."
+    },
+    {
+      "id": "econ8-042",
+      "type": "match",
+      "topic": "Economists and Data",
+      "difficulty": "hard",
+      "q": "Match each area of economists' work with its correct description from Fig. 8.4.",
+      "pairs": [
+        {"l": "Policy-making", "r": "Guiding governments on taxation or welfare spending"},
+        {"l": "Finance", "r": "Advising investors on where to invest"},
+        {"l": "Research and education", "r": "Studying economic trends and teaching others"},
+        {"l": "Business consulting", "r": "Helping firms plan growth or improve efficiency"},
+        {"l": "Data", "r": "Facts and statistics collected for reference or analysis"}
+      ],
+      "explanation": "Fig. 8.4 shows the scope of economists' work: policy-making, finance, research and education, and business consulting — all built on data, that is, facts and statistics collected for analysis.",
+      "fact": "Fig. 8.4 Scope of work of Economists: Policy-making — guiding governments on taxation or welfare spending; Finance — advising investors on where to invest; Research and education — studying economic trends and teaching others; Business consulting — helping firms plan growth or improve efficiency."
+    },
+    {
+      "id": "econ8-043",
+      "type": "match",
+      "topic": "For Whom to Produce",
+      "difficulty": "medium",
+      "q": "Match each type of footwear with its correct description from the chapter.",
+      "pairs": [
+        {"l": "School shoes", "r": "Simple in design, durable and affordable"},
+        {"l": "Office-wear shoes", "r": "Formal shoes for working professionals"},
+        {"l": "Sports shoes", "r": "Special rubber soles and lightweight materials"},
+        {"l": "Casual shoes or slippers", "r": "Comfortable yet affordable daily-use footwear"},
+        {"l": "Leather shoes", "r": "Generally targeted at office-goers and high-income customers"}
+      ],
+      "explanation": "The shoe example shows how 'for whom to produce' works: each type of shoe is designed for a different group of consumers with different needs and purchasing power.",
+      "fact": "School shoes are produced for students — simple in design, durable, and affordable; office-wear shoes focus on comfort, formal appearance and quality; sports shoes use special rubber soles and lightweight materials; casual shoes or slippers are comfortable yet affordable; leather shoes are generally targeted at office-goers and high-income customers."
+    },
+    {
+      "id": "econ8-044",
+      "type": "order",
+      "topic": "Key Economic Questions",
+      "difficulty": "easy",
+      "q": "Arrange the three key questions of economics in the order the chapter presents them.",
+      "orderItems": ["What to produce", "How to produce", "For whom to produce"],
+      "explanation": "Every economy faces these three central questions in this order — what to produce, how to produce, and for whom to produce — to decide how best to use scarce resources.",
+      "fact": "These choices are reflected in the three key economic questions—what to produce, how to produce, and for whom to produce."
+    },
+    {
+      "id": "econ8-045",
+      "type": "multiselect",
+      "topic": "Economists and Data",
+      "difficulty": "medium",
+      "q": "Select all correct areas of economists' work shown in Fig. 8.4.",
+      "options": ["Policy-making", "Finance", "Business consulting", "Shipbuilding"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "The scope of economists' work includes policy-making, finance, research and education, and business consulting — not shipbuilding.",
+      "fact": "Fig. 8.4 Scope of work of Economists: Policy-making, Finance, Research and education, Business consulting."
+    },
+    {
+      "id": "econ8-046",
+      "type": "multiselect",
+      "topic": "Economists and Data",
+      "difficulty": "medium",
+      "q": "Select all correct examples of non-essential items for families.",
+      "options": ["Jewellery", "Entertainment", "Restaurant meals", "Medicines"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Jewellery, entertainment and restaurant meals are non-essential items; food, medicines and school supplies are essential items.",
+      "fact": "Families allocate their money for essential items (such as food, medicines, and school supplies), non-essential items (such as jewellery, entertainment, and restaurant meals) and savings."
+    },
+    {
+      "id": "econ8-047",
+      "type": "wrongstatement",
+      "topic": "Economic Survey of India",
+      "difficulty": "medium",
+      "q": "Which of these statements about the Economic Survey of India is INCORRECT?",
+      "options": [
+        "The Economic Survey of India is an annual document.",
+        "It is presented in Parliament before the Union Budget.",
+        "It reviews the country's economic performance during the past year.",
+        "It is prepared by the Ministry of Defence."
+      ],
+      "answer": 3,
+      "explanation": "The Economic Survey is prepared by the Ministry of Finance, not the Ministry of Defence, and is presented in Parliament before the Union Budget.",
+      "fact": "The Economic Survey of India is an important annual document prepared by the Ministry of Finance and presented in Parliament before the Union Budget."
+    },
+    {
+      "id": "econ8-048",
+      "type": "wrongstatement",
+      "topic": "Meaning of Economics",
+      "difficulty": "medium",
+      "q": "Which of these statements about what economics deals with is INCORRECT?",
+      "options": [
+        "Economics deals with how choices are made using limited resources.",
+        "Consumers, producers, governments and financial institutions interact in an economy.",
+        "Economics examines how wealth and resources are distributed.",
+        "Economics studies only the behaviour of governments."
+      ],
+      "answer": 3,
+      "explanation": "Economics is not limited to governments — it studies the choices and interactions of consumers, producers, governments, financial institutions and enterprises.",
+      "fact": "It explains how different economic entities—consumers, producers, governments, and financial institutions—interact in an economy."
+    },
+    {
+      "id": "econ8-049",
+      "type": "assertion",
+      "topic": "Economic Survey of India",
+      "difficulty": "medium",
+      "q": "Assertion (A): The Economic Survey of India is useful for policymakers.\nReason (R): It provides crucial insights for policy-related decisions and acts as a blueprint for the upcoming Union Budget.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both A and R are true, and R explains A — the Survey's insights and its role as a Budget blueprint are exactly what make it useful to policymakers.",
+      "fact": "It also acts as a blueprint for the upcoming Union Budget by providing crucial insights for policymakers while making policy-related decisions."
+    },
+    {
+      "id": "econ8-050",
+      "type": "assertion",
+      "topic": "Meaning of Economics",
+      "difficulty": "hard",
+      "q": "Assertion (A): Studying economics helps us understand how prices are determined in the market.\nReason (R): In every economy of the world, prices are fixed by a single central authority.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "A is true because economics explains how prices are determined in the market. R is false — only planned economies have government-determined prices, while market economies rely on demand and supply.",
+      "fact": "It explains how different economic entities... interact in an economy. For example, how people work and earn wages... how prices are determined in the market. In a planned economy, a central planning authority... makes all major economic decisions, while in a market economy questions are addressed mainly by the forces of demand and supply.",
+      "hint": "Think about who sets prices in different economic systems."
+    }
+  ]
+}

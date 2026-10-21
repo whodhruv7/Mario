@@ -1,0 +1,321 @@
+{
+  "chapterId": "hist5",
+  "fragment": "d",
+  "questions": [
+    {
+      "id": "hist5-076",
+      "type": "mcq",
+      "topic": "Bhakti",
+      "difficulty": "easy",
+      "q": "The path of Bhakti, which offered a direct connection with the gods, was accessible to:",
+      "options": ["All people, regardless of class or gender", "Only brāhmaṇas and kṣhatriyas", "Only kings and priests", "Only renunciants and sages"],
+      "answer": 0,
+      "explanation": "Bhakti offered a direct connection with the gods without the need for the elaborate rituals prescribed in the Vedas, and it was accessible to all, regardless of class or gender.",
+      "fact": "One such practice was 'Bhakti', a path that offered a direct connection with the gods without the need for elaborate rituals prescribed in the Vedas, and which was accessible to all, regardless of class or gender."
+    },
+    {
+      "id": "hist5-077",
+      "type": "mcq",
+      "topic": "Āḻvārs",
+      "difficulty": "easy",
+      "q": "The Āḻvārs were twelve saint-poets who composed hymns in praise of:",
+      "options": ["Lord Śhiva", "Gautama Buddha", "Mahāvíra", "Lord Viṣhṇu"],
+      "answer": 3,
+      "explanation": "The Āḻvārs were twelve saint-poets devoted to Lord Viṣhṇu, while their contemporaries, the Nāyanmārs, were Śhaiva saint-poets who praised Lord Śhiva.",
+      "fact": "The Āḻvārs were twelve saint-poets who composed hymns in praise of Lord Viṣhṇu."
+    },
+    {
+      "id": "hist5-078",
+      "type": "truefalse",
+      "topic": "Nāyanmārs",
+      "difficulty": "easy",
+      "q": "The Nāyanmārs were twelve saint-poets who composed hymns in praise of Lord Viṣhṇu.",
+      "answer": "false",
+      "explanation": "This describes the Āḻvārs. The Nāyanmārs were sixty-three Śhaiva saint-poets who composed hymns in praise of Lord Śhiva.",
+      "fact": "Alongside the Āḻvārs were the sixty-three Nāyanmārs, the Śhaiva saint-poets, who composed hymns in praise of Lord Śhiva."
+    },
+    {
+      "id": "hist5-079",
+      "type": "fillblank",
+      "topic": "Bhakti tradition",
+      "difficulty": "easy",
+      "q": "The organised Bhakti tradition gained prominence in the 6th century in the ___ region through the devotional activities of the Āḻvārs and Nāyanmārs.",
+      "answerVariants": ["Tamil"],
+      "explanation": "The organised Bhakti tradition rose to prominence in the 6th century Tamil region through the Āḻvārs and Nāyanmārs, whose hymns created a large body of Tamil Bhakti literature.",
+      "fact": "The organised and widespread devotional set of practices known as the Bhakti tradition gained prominence in the 6th century Tamil region through the devotional activities of the Āḻvārs and Nāyanmārs."
+    },
+    {
+      "id": "hist5-080",
+      "type": "match",
+      "topic": "Renunciants and social terms",
+      "difficulty": "medium",
+      "q": "Match each early Indian term with its correct meaning.",
+      "pairs": [
+        {"l": "parivrājaka", "r": "Wanderer"},
+        {"l": "bhikṣhu", "r": "One who lives by begging alms"},
+        {"l": "śhramaṇa", "r": "One who strives"},
+        {"l": "kula", "r": "Family, the basic social unit"},
+        {"l": "grāma", "r": "Village made up of several families"}
+      ],
+      "explanation": "Renunciants of the mid-first millennium BCE were known as parivrājaka (wanderer), bhikṣhu (one who lives by begging alms) or śhramaṇa (one who strives); in society, the kula was the family and the grāma was the village of several families.",
+      "fact": "Contemporary sources refer to them by different terms, such as parivrājaka (wanderer), bhikṣhu (one who lives by begging alms), or śhramaṇa (one who strives)... the kula (family) formed the smallest and the basic social unit... the village, or grāma, which consisted of several families."
+    },
+    {
+      "id": "hist5-081",
+      "type": "mcq",
+      "topic": "Vedic deities",
+      "difficulty": "easy",
+      "q": "In the Vedic faith, each deity was associated with:",
+      "options": ["A particular city or kingdom", "An element of nature, such as the sun, rain, fire, earth or dawn", "A varṇa of society", "A trade guild"],
+      "answer": 1,
+      "explanation": "The faith of the Vedic people was intertwined with the worship of nature: each Vedic deity was associated with an element of nature such as the sun, rain, fire, earth or dawn.",
+      "fact": "The faith of the Vedic people was intertwined with the worship of nature, as each Vedic deity was associated with an element of nature, such as the sun, rain, fire, earth, dawn, etc."
+    },
+    {
+      "id": "hist5-082",
+      "type": "truefalse",
+      "topic": "Nature worship continuity",
+      "difficulty": "easy",
+      "q": "Sun worship during festivals like Chhath and Makar Sankranti reflects the continuity of ancient Vedic practices.",
+      "answer": "true",
+      "explanation": "The chapter notes that some of these ancient practices continue today in the form of festivals celebrated across India, for example sun worship during Chhath and on Makar Sankranti.",
+      "fact": "Some of these ancient practices continue today in the form of festivals celebrated across India, for example, the sun worship during Chhath and on Makar Sankranti."
+    },
+    {
+      "id": "hist5-083",
+      "type": "wrongstatement",
+      "topic": "Gurukula education",
+      "difficulty": "medium",
+      "q": "Which of these statements about education in early India is INCORRECT?",
+      "options": [
+        "Students studied the Vedas along with grammar, logic, philosophy, mathematics, science, medicine and astronomy",
+        "The teacher–student relationship (guru-śhiṣhya paramparā) was regarded as sacred",
+        "Gurukula education involved only memorisation, with no arts, crafts or physical training",
+        "Students living in the gurukula were treated as members of the teacher's family"
+      ],
+      "answer": 2,
+      "explanation": "Education was holistic: along with the Vedas and the sciences, students were trained in music, dance, painting, physical education and martial arts such as archery, and practised yoga and meditation, not just memorisation.",
+      "fact": "Students studied the Vedas, along with grammar, logic, philosophy, ethics, mathematics, science, medicine, and astronomy. They were also trained in various arts and crafts, including music, dance, painting, physical education, and martial arts such as archery."
+    },
+    {
+      "id": "hist5-084",
+      "type": "fillblank",
+      "topic": "Gurukula",
+      "difficulty": "easy",
+      "q": "In early India, the teacher's home served as the centre of the ___, where students led a disciplined life.",
+      "answerVariants": ["gurukula"],
+      "explanation": "The teacher's home was the centre of the gurukula, where the student was treated as a member of the teacher's family and followed a disciplined life marked by self-control, obedience and devotion.",
+      "fact": "The teacher's home served as the centre of the gurukula, and the relationship between the teacher and student was close and mutually supportive, with the student treated as a member of the teacher's family."
+    },
+    {
+      "id": "hist5-085",
+      "type": "order",
+      "topic": "Ancient universities",
+      "difficulty": "medium",
+      "q": "Arrange these centres of learning in the order of their establishment.",
+      "orderItems": [
+        "Vallabhī university (380 CE)",
+        "Nalanda university (427 CE)",
+        "Vikramśhila university (783 CE)"
+      ],
+      "explanation": "According to the chapter's timeline, Vallabhī university was established in 380 CE, Nalanda in 427 CE, and Vikramśhila in 783 CE, so they came up in that order.",
+      "fact": "380 CE: Vallabhī university established; 427 CE: Nalanda university established; 783–820 CE: Vikramśhila university."
+    },
+    {
+      "id": "hist5-086",
+      "type": "assertion",
+      "topic": "Women in Vedic society",
+      "difficulty": "medium",
+      "q": "Assertion (A): Women in the Vedic period participated in scholarly learning and, in certain contexts, performed rituals alongside men.\nReason (R): Several hymns of the Ṛig Veda are traditionally attributed to women sages such as Apālā, Viśhvavārā, Ghoṣhā and Lopāmudrā.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true and R explains A: hymns attributed to women sages are precisely the evidence of women's active engagement in the intellectual and religious life of the Vedic period.",
+      "fact": "Women participated in scholarly learning and, in certain contexts, performed rituals alongside their male counterparts... Several hymns of the Ṛig Veda are traditionally attributed to women sages—most notably Apālā, Viśhvavārā, Ghoṣhā, and Lopāmudrā—highlighting women's active engagement in intellectual and religious life."
+    },
+    {
+      "id": "hist5-087",
+      "type": "match",
+      "topic": "Literary heritage",
+      "difficulty": "hard",
+      "q": "Match each work or author of early India with its field.",
+      "pairs": [
+        {"l": "Kālidāsa's Raghuvaṃśha and Kumārasambhava", "r": "Sanskrit poetry (Kāvya)"},
+        {"l": "Tiruvalluvar's Tirukkural", "r": "Tamil literature"},
+        {"l": "Pāṇini's Aṣhṭādhyāyī", "r": "Foundational text of Sanskrit grammar"},
+        {"l": "Charakasaṁhitā and Suśhrutasaṁhitā", "r": "Classical works on medicine"},
+        {"l": "Manu-smṛiti", "r": "Smṛiti literature on dharma, law and ethics"}
+      ],
+      "explanation": "The chapter classifies Kālidāsa's works as Sanskrit poetry (Kāvya), the Tirukkural and the Tamil epics as Tamil literature, Pāṇini's Aṣhṭādhyāyī as a foundational text of Sanskrit grammar, the Charaka and Suśhruta saṁhitās as works on medicine, and Manu-smṛiti as Smṛiti literature on dharma, law and ethics.",
+      "fact": "Literary Heritage of Early India: Kālidāsa's Raghuvaṃśha and Kumārasambhava (Sanskrit poetry and Kāvya); Tiruvalluvar's Tirukkural (Tamil Literature); Pāṇini's Aṣhṭādhyāyī (Foundational Texts for Sanskrit Grammar); Manu-smṛiti (Smṛiti Literature–Dharma, Law and Ethics); Charakasaṁhitā and Suśhrutasaṁhitā (Classical Works on Medicine).",
+      "hint": "Pāṇini dealt with grammar, while Charaka and Suśhruta dealt with healing."
+    },
+    {
+      "id": "hist5-088",
+      "type": "truefalse",
+      "topic": "Sangam themes",
+      "difficulty": "medium",
+      "q": "In Sangam texts, the theme of love is called puram and the theme of war or public life is called akam.",
+      "answer": "false",
+      "explanation": "It is the other way round: akam is the theme of love and puram is the theme of war or public life in Sangam literature.",
+      "fact": "Sangam texts covering a wide range of themes including love (akam), war or public life (puram), political organisation, social structures, and economic activities."
+    },
+    {
+      "id": "hist5-089",
+      "type": "mcq",
+      "topic": "Mauryan land tax",
+      "difficulty": "easy",
+      "q": "In the Mauryan period, the basic tax on land was generally what proportion of the produce?",
+      "options": ["One-fourth", "One-tenth", "One-sixth", "One-half"],
+      "answer": 2,
+      "explanation": "The basic tax on land was a fixed proportion of the produce, generally one-sixth, and land was classified into different categories for the purpose of revenue assessment.",
+      "fact": "The basic tax on land was a fixed proportion of the produce, generally one-sixth. For the purpose of revenue assessment, land was classified into different categories."
+    },
+    {
+      "id": "hist5-090",
+      "type": "assertion",
+      "topic": "Mauryan agriculture",
+      "difficulty": "medium",
+      "q": "Assertion (A): The Mauryan state encouraged agricultural expansion by clearing forests.\nReason (R): Certain categories of forests were protected by law.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both statements are true, but R does not explain A: the legal protection of certain forests was a limit on expansion, not the reason for clearing forests for agriculture.",
+      "fact": "The state encouraged agricultural expansion by clearing forests, although certain categories of forests were protected by law."
+    },
+    {
+      "id": "hist5-091",
+      "type": "fillblank",
+      "topic": "Milindapañho",
+      "difficulty": "hard",
+      "q": "The Milindapañho, a Buddhist text traditionally attributed to Nāgasena, describes eight stages of ___ operations.",
+      "answerVariants": ["agricultural", "agriculture"],
+      "explanation": "The Milindapañho describes eight stages of agricultural operations, ranging from preparing and weeding the fields to harvesting and winnowing crops, indicating a detailed understanding of farming practices.",
+      "fact": "The Milindapañho, a Buddhist text traditionally attributed to Nāgasena, describes eight stages of agricultural operations, ranging from preparing and weeding the fields to harvesting and winnowing crops.",
+      "hint": "The stages run from preparing and weeding the fields to harvesting and winnowing."
+    },
+    {
+      "id": "hist5-092",
+      "type": "mcq",
+      "topic": "Sudarshana Lake dam",
+      "difficulty": "medium",
+      "q": "According to the Junagadh inscription of Rudradaman I, who constructed the dam on the Sudarshana Lake?",
+      "options": ["Puṣhyagupta, a governor appointed by Chandragupta Maurya", "Rudradaman I himself", "Skandagupta", "Aśhoka"],
+      "answer": 0,
+      "explanation": "The inscription records that Puṣhyagupta, a governor appointed by Chandragupta Maurya, constructed the dam on the Sudarshana Lake near Girnar in Saurāṣhṭra, highlighting the Mauryan state's role in irrigation.",
+      "fact": "This inscription records that Puṣhyagupta, a governor appointed by Chandragupta Maurya, constructed a dam on Sudarshana Lake near Girnar in Saurāṣhṭra (or the Kathiawad region in Gujarat)."
+    },
+    {
+      "id": "hist5-093",
+      "type": "truefalse",
+      "topic": "Chola irrigation",
+      "difficulty": "easy",
+      "q": "The Grand Anicut (Kallanai), built by Karikala Chola, remains in use even today.",
+      "answer": "true",
+      "explanation": "The Grand Anicut built by Karikala Chola continued to be used and repaired by later rulers and administrations over many centuries, and remarkably it remains in use even today.",
+      "fact": "The Grand Anicut (Kallanai) built by Karikala Chola... The Grand Anicut continued to be used and repaired by later rulers and administrations over many centuries... Remarkably, it remains in use even today."
+    },
+    {
+      "id": "hist5-094",
+      "type": "order",
+      "topic": "Trade routes",
+      "difficulty": "medium",
+      "q": "Arrange these developments in the history of Indian trade in chronological order.",
+      "orderItems": [
+        "Trade links between the Harappans and the Mesopotamians",
+        "Emergence of the Dakṣhiṇāpatha and Uttarāpatha land routes (by around the 6th century BCE)",
+        "Significant expansion of India's trade with Rome (early centuries of the Common Era)"
+      ],
+      "explanation": "Trade links with Mesopotamia had existed since Harappan times; the Dakṣhiṇāpatha and Uttarāpatha land routes had emerged by around the 6th century BCE; and India's trade with Rome expanded significantly by the early centuries of the Common Era.",
+      "fact": "Trade links between the Harappans and the Mesopotamians already existed... By around the 6th century BCE, two major land routes—Dakṣhiṇāpatha and Uttarāpatha—had emerged... By the early centuries of the Common Era, India's trade with Rome had expanded significantly."
+    },
+    {
+      "id": "hist5-095",
+      "type": "wrongstatement",
+      "topic": "Ports and maritime trade",
+      "difficulty": "medium",
+      "q": "Which of these statements about early Indian trade is INCORRECT?",
+      "options": [
+        "Muziris was one of the major ports that developed and grew in early India",
+        "By the early centuries of the Common Era, India's trade with Rome had expanded significantly",
+        "Trade links between the Harappans and the Mesopotamians already existed",
+        "Maritime trade used only coastal routes and never long-distance overseas routes"
+      ],
+      "answer": 3,
+      "explanation": "Maritime trade utilised both coastal routes and long-distance overseas routes across the Indian Ocean, so the last statement is wrong. Major ports included Muziris, Kāveripaṭṭinam, Arikamedu and Masulipatnam.",
+      "fact": "Over time, these networks expanded as major ports such as Muziris, Kāveripaṭṭinam, Arikamedu, and Masulipatnam, developed and grew. Maritime trade utilised both coastal routes and long-distance overseas routes across the Indian Ocean."
+    },
+    {
+      "id": "hist5-096",
+      "type": "mcq",
+      "topic": "Magadha's trade",
+      "difficulty": "medium",
+      "q": "According to the Arthaśhāstra, Magadha traded which goods with various parts of northern, central and southern India?",
+      "options": ["Only salt", "Only silk and spices", "Only timber and horses", "Textiles, gems, coral, pearls, metals and minerals"],
+      "answer": 3,
+      "explanation": "The Arthaśhāstra notes that Magadha traded textiles, gems, coral, pearls, metals and minerals with various parts of northern, central and southern India, while salt production was strictly regulated by the state.",
+      "fact": "The Arthaśhāstra identifies trade as one of the major economic activities and notes that Magadha traded textiles, gems, coral, pearls, metals, and minerals with various parts of northern, central, and southern India."
+    },
+    {
+      "id": "hist5-097",
+      "type": "fillblank",
+      "topic": "Guilds",
+      "difficulty": "easy",
+      "q": "Collective organisations of traders, artisans and merchants in early India were known as guilds or ___.",
+      "answerVariants": ["śhreṇīs", "shrenis", "srenis"],
+      "explanation": "Guilds, called śhreṇīs, were associations of people engaged in the same profession, craft or occupation, and they played a significant role in the expansion of trade and commerce.",
+      "fact": "The early Indian economy was supported by collective organisations of traders, artisans, and merchants known as guilds (śhreṇīs), which were associations of people engaged in the same profession, craft, or occupation."
+    },
+    {
+      "id": "hist5-098",
+      "type": "truefalse",
+      "topic": "Nashik cave inscription",
+      "difficulty": "hard",
+      "q": "The Nashik cave inscription records that monetary donations deposited with guilds were obligated to earn a fixed rate of interest, which was used to maintain Buddhist monasteries and caves.",
+      "answer": "true",
+      "explanation": "The 2nd-century CE Nashik cave inscription of the Shaka king Nahapāna and his son-in-law Uṣhavadāta records endowments deposited with guilds that paid a fixed rate of interest, used to maintain Buddhist monasteries and caves, showing that guilds acted as banking and credit institutions.",
+      "fact": "It records that monetary donations were deposited with professional guilds (śhreṇīs), which were obligated to pay a fixed rate of interest on these endowments. The interest generated was used to maintain Buddhist monasteries and caves.",
+      "hint": "The inscription belongs to the Shaka king Nahapāna and his son-in-law Uṣhavadāta."
+    },
+    {
+      "id": "hist5-099",
+      "type": "wrongstatement",
+      "topic": "Guild functions",
+      "difficulty": "hard",
+      "q": "Which of these statements about guilds is INCORRECT?",
+      "options": [
+        "The Jātaka literature refers to eighteen types of guilds",
+        "Guilds functioned only as craft workshops and played no role in banking or finance",
+        "Guilds regulated the quality of goods and often fixed prices",
+        "Guild courts supervised the conduct of members and enforced professional standards"
+      ],
+      "answer": 1,
+      "explanation": "Guilds were far more than workshops: in addition to regulating quality and prices and enforcing discipline through guild courts, they functioned as banks, financiers and trustees.",
+      "fact": "Guilds regulated the quality of goods and often fixed prices to protect both artisans and consumers. The conduct of their members was supervised through guild courts... In addition, guilds functioned as banks, financiers, and trustees. The Jātaka literature refers to eighteen types of guilds."
+    },
+    {
+      "id": "hist5-100",
+      "type": "assertion",
+      "topic": "Guilds and trade",
+      "difficulty": "medium",
+      "q": "Assertion (A): Guilds played a significant role in the expansion of trade and commerce in early India, especially after the rise of the mahājanapadas.\nReason (R): Guilds regulated the quality of goods and often fixed prices to protect both artisans and consumers.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true and R explains A: by regulating quality and fixing fair prices, guilds protected artisans and consumers, which helped trade and commerce expand after the rise of the mahājanapadas in the 6th century BCE.",
+      "fact": "These guilds played a significant role in the expansion of trade and commerce, especially after the rise of territorial states in the form of the mahājanapadas (6th century BCE)... Guilds regulated the quality of goods and often fixed prices to protect both artisans and consumers."
+    }
+  ]
+}

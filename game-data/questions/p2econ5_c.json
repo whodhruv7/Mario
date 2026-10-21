@@ -1,0 +1,370 @@
+{
+  "chapterId": "p2econ5",
+  "fragment": "c",
+  "questions": [
+    {
+      "id": "p2econ5-051",
+      "type": "match",
+      "topic": "Financial Terms",
+      "difficulty": "medium",
+      "q": "Match each financial term with its meaning.",
+      "pairs": [
+        { "l": "EMI", "r": "A fixed amount paid every month to repay a loan" },
+        { "l": "Premium", "r": "A regular payment made to an insurance company" },
+        { "l": "Dividend", "r": "A return that a shareholder may earn" },
+        { "l": "Debt", "r": "An amount of money owed to somebody" },
+        { "l": "Return", "r": "The profit earned from an investment" }
+      ],
+      "explanation": "An EMI is the fixed monthly instalment that repays a loan; a premium is the regular payment to an insurance company; dividends are earned by shareholders; debt is money owed to somebody; and return is the profit earned from an investment.",
+      "fact": "An EMI (equated monthly instalment) is the fixed amount of money a person pays every month to repay a loan... Debt: Amount of money owed to somebody... Return is the profit earned from an investment."
+    },
+    {
+      "id": "p2econ5-052",
+      "type": "mcq",
+      "topic": "Meaning of Insurance",
+      "difficulty": "easy",
+      "q": "What is insurance?",
+      "options": [
+        "A legal contract in which an individual pays a premium and the company compensates for covered losses",
+        "A savings scheme that doubles your money every year",
+        "A tax paid to the government on health expenses",
+        "A loan given by a bank to pay hospital bills"
+      ],
+      "answer": 0,
+      "explanation": "Insurance is a legal contract: the individual pays a regular amount called the premium, and the insurance company agrees to provide financial compensation for specific losses or expenses covered under the policy.",
+      "fact": "Insurance is a legal contract in which an individual pays a regular amount, called a premium, to an insurance company. In return, the company agrees to provide financial compensation for specific losses or expenses covered under the policy."
+    },
+    {
+      "id": "p2econ5-053",
+      "type": "truefalse",
+      "topic": "Principle of Insurance",
+      "difficulty": "easy",
+      "q": "Insurance works on the principle of risk sharing, where many people pay premiums into a common pool.",
+      "answer": "true",
+      "explanation": "Insurance pools premiums from many people; when an unexpected loss occurs, those insured receive financial support from the insurance company. This is the principle of risk sharing.",
+      "fact": "Insurance works on the principle of risk sharing. Many people pay premiums into a common pool. In case of any unexpected loss, those insured receive financial support from the insurance company."
+    },
+    {
+      "id": "p2econ5-054",
+      "type": "mcq",
+      "topic": "Health Insurance Example",
+      "difficulty": "easy",
+      "q": "A family pays ₹500 every month for health insurance, and a family member then needs medical treatment. What does the chapter say happens?",
+      "options": [
+        "The family must pay the entire hospital bill from its savings",
+        "The insurance company covers a large part of the hospital expenses",
+        "The family's premium is returned and the policy is closed",
+        "The government pays the premium for that month"
+      ],
+      "answer": 1,
+      "explanation": "In the chapter's example, if a family member requires medical treatment, the insurance company covers a large part of the hospital expenses—without insurance, the family might have to use a substantial portion of its savings.",
+      "fact": "If a family member requires medical treatment, the insurance company covers a large part of the hospital expenses."
+    },
+    {
+      "id": "p2econ5-055",
+      "type": "multiselect",
+      "topic": "Benefits of Insurance",
+      "difficulty": "easy",
+      "q": "Select all correct statements about the benefits of insurance.",
+      "options": [
+        "It provides financial security during emergencies",
+        "It helps families recover from financial setbacks",
+        "It encourages people to save and plan through regular premium payments",
+        "It guarantees profits on all your investments"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Insurance provides financial security during emergencies, reduces the impact of accidents, illness or property damage, helps families recover from setbacks, and encourages saving through regular premium payments. It does not guarantee investment profits.",
+      "fact": "Insurance provides financial security during emergencies, reduces the impact of accidents, illness, or property damage, helps families recover from financial setbacks, and encourages people to save and plan their finances through regular premium payments."
+    },
+    {
+      "id": "p2econ5-056",
+      "type": "multiselect",
+      "topic": "Health Insurance",
+      "difficulty": "easy",
+      "q": "Select all expenses that health insurance helps cover.",
+      "options": [
+        "Hospitalisation",
+        "Medicines",
+        "Diagnostic tests",
+        "A new cricket bat"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Health insurance helps cover medical expenses such as hospitalisation, medicines, diagnostic tests, and treatments, reducing the financial burden of illness or accidents.",
+      "fact": "Health insurance helps cover medical expenses, such as hospitalisation, medicines, diagnostic tests, and treatments."
+    },
+    {
+      "id": "p2econ5-057",
+      "type": "mcq",
+      "topic": "Health Insurance Schemes",
+      "difficulty": "medium",
+      "q": "Which government scheme provides health insurance coverage to eligible low-income households in India?",
+      "options": [
+        "Sukanya Samriddhi Yojana",
+        "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana",
+        "National Savings Certificate",
+        "BSE SENSEX"
+      ],
+      "answer": 1,
+      "explanation": "In India, the government scheme Ayushman Bharat Pradhan Mantri Jan Arogya Yojana provides health insurance coverage to eligible low-income households.",
+      "fact": "In India, government schemes such as Ayushman Bharat Pradhan Mantri Jan Arogya Yojana provide health insurance coverage to eligible low-income households."
+    },
+    {
+      "id": "p2econ5-058",
+      "type": "truefalse",
+      "topic": "Life Insurance",
+      "difficulty": "easy",
+      "q": "Life insurance provides financial support to a family if the policyholder, who may be the breadwinner, passes away.",
+      "answer": "true",
+      "explanation": "Life insurance supports dependents if the breadwinner dies—it helps them meet daily expenses, continue children's education, and repay loans.",
+      "fact": "Life insurance provides financial support to a family if the policyholder, who may be the breadwinner of the family, passes away."
+    },
+    {
+      "id": "p2econ5-059",
+      "type": "match",
+      "topic": "Types of Insurance",
+      "difficulty": "easy",
+      "q": "Match each type of insurance with what it protects.",
+      "pairs": [
+        { "l": "Health insurance", "r": "Covers medical expenses such as hospitalisation and medicines" },
+        { "l": "Life insurance", "r": "Supports the family if the breadwinner passes away" },
+        { "l": "Motor insurance", "r": "Covers repair costs and damages from vehicle accidents" },
+        { "l": "Property insurance", "r": "Protects homes and businesses against fire, theft, flood and earthquake" },
+        { "l": "Cattle insurance", "r": "Protects farmers against loss from death or disability of animals" }
+      ],
+      "explanation": "Health insurance covers medical costs; life insurance protects dependents after the breadwinner's death; motor insurance covers vehicle accident damage; property insurance covers disasters like fire and theft; and cattle insurance covers farmers' animals.",
+      "fact": "Motor insurance covers repair costs and damages caused by vehicle accidents. Property insurance protects homes and businesses against losses caused by fire, theft, flood, earthquake, and other disasters. Cattle insurance protects farmers and dairy owners against financial loss in case of death or disability of their animals."
+    },
+    {
+      "id": "p2econ5-060",
+      "type": "multiselect",
+      "topic": "General Insurance",
+      "difficulty": "medium",
+      "q": "Select all types of general insurance.",
+      "options": [
+        "Motor insurance",
+        "Crop insurance",
+        "Life insurance",
+        "Health insurance"
+      ],
+      "answerIndices": [0, 1],
+      "explanation": "General insurance protects against losses related to vehicles, homes, businesses and other property—motor, property, crop and cattle insurance are its types. Life and health insurance are listed as separate categories.",
+      "fact": "General insurance protects against losses related to vehicles, homes, businesses, and other property."
+    },
+    {
+      "id": "p2econ5-061",
+      "type": "mcq",
+      "topic": "Crop Insurance",
+      "difficulty": "easy",
+      "q": "Crop insurance protects farmers from financial losses caused by—",
+      "options": [
+        "natural disasters, pests, and market price changes",
+        "their children's school fees",
+        "the purchase of household appliances",
+        "the premium paid on life insurance"
+      ],
+      "answer": 0,
+      "explanation": "Crop insurance covers damages caused by natural disasters, pests, and market price changes, thereby protecting farmers from financial losses.",
+      "fact": "Crop insurance protects farmers from financial losses as it covers damages caused by natural disasters, pests, and market price changes."
+    },
+    {
+      "id": "p2econ5-062",
+      "type": "wrongstatement",
+      "topic": "Insurance",
+      "difficulty": "medium",
+      "q": "Which of these statements about insurance is INCORRECT?",
+      "options": [
+        "Insurance companies collect the entire premium only once in a person's lifetime",
+        "Insurance is a legal contract between an individual and an insurance company",
+        "The regular amount paid for an insurance policy is called the premium",
+        "Without insurance, a family might use a substantial portion of its savings for treatment expenses"
+      ],
+      "answer": 0,
+      "explanation": "The premium is a regular amount—paid every month in the chapter's ₹500 health insurance example—not a one-time lifetime payment.",
+      "fact": "Insurance is a legal contract in which an individual pays a regular amount, called a premium, to an insurance company."
+    },
+    {
+      "id": "p2econ5-063",
+      "type": "mcq",
+      "topic": "Borrowing and Credit",
+      "difficulty": "easy",
+      "q": "According to the chapter, which of these is a productive use of borrowing?",
+      "options": [
+        "Taking an education loan to pursue higher education",
+        "Borrowing to buy unnecessary consumer goods",
+        "Borrowing to spend on impulse shopping",
+        "Taking a loan to gamble on share prices"
+      ],
+      "answer": 0,
+      "explanation": "An education loan helps a student pursue higher education, which is a productive purpose, whereas borrowing for unnecessary consumer goods may lead to a debt burden and financial difficulties.",
+      "fact": "An education loan can help a student pursue higher education, whereas borrowing money to purchase unnecessary consumer goods may lead to a debt burden and financial difficulties."
+    },
+    {
+      "id": "p2econ5-064",
+      "type": "truefalse",
+      "topic": "Responsible Borrowing",
+      "difficulty": "easy",
+      "q": "Responsible borrowing means taking loans only when necessary and ensuring that they can be repaid on time.",
+      "answer": "true",
+      "explanation": "The chapter defines responsible borrowing this way, so that credit remains helpful for productive purposes instead of becoming a burden.",
+      "fact": "Responsible borrowing involves taking loans only when necessary and ensuring that they can be repaid on time."
+    },
+    {
+      "id": "p2econ5-065",
+      "type": "fillblank",
+      "topic": "EMI",
+      "difficulty": "easy",
+      "q": "EMI stands for ___.",
+      "answerVariants": ["equated monthly instalment", "Equated Monthly Instalment", "equated monthly installment"],
+      "explanation": "An EMI (equated monthly instalment) is the fixed amount of money a person pays every month to repay a loan.",
+      "fact": "An EMI (equated monthly instalment) is the fixed amount of money a person pays every month to repay a loan."
+    },
+    {
+      "id": "p2econ5-066",
+      "type": "mcq",
+      "topic": "EMI",
+      "difficulty": "hard",
+      "q": "A family buys a refrigerator costing ₹30,000 and repays the loan through an EMI of ₹3,000 every month for 12 months. What is the total amount repaid over the year?",
+      "options": [
+        "₹30,000",
+        "₹33,000",
+        "₹36,000",
+        "₹39,000"
+      ],
+      "answer": 2,
+      "explanation": "Twelve EMIs of ₹3,000 add up to ₹36,000. The extra ₹6,000 over the price is the interest, because each EMI includes a portion of the principal as well as the interest charged by the lender.",
+      "fact": "They may take a loan and repay it through an EMI of ₹3,000 every month for 12 months. Each EMI includes a portion of the original loan amount (the principal) as well as the interest charged by the lender."
+    },
+    {
+      "id": "p2econ5-067",
+      "type": "wrongstatement",
+      "topic": "EMI",
+      "difficulty": "medium",
+      "q": "Which of these statements about EMIs is INCORRECT?",
+      "options": [
+        "EMIs are commonly used to purchase mobile phones, household appliances, two-wheelers, homes, and cars",
+        "An EMI is a one-time payment made only at the end of a loan",
+        "Each EMI includes a portion of the principal as well as the interest charged by the lender",
+        "Paying through EMIs lets a family spread the cost of a purchase instead of paying the whole amount at once"
+      ],
+      "answer": 1,
+      "explanation": "An EMI (equated monthly instalment) is a fixed amount paid every month, not once at the end—each instalment combines part of the principal with the lender's interest.",
+      "fact": "An EMI (equated monthly instalment) is the fixed amount of money a person pays every month to repay a loan."
+    },
+    {
+      "id": "p2econ5-068",
+      "type": "assertion",
+      "topic": "Borrowing and Credit",
+      "difficulty": "medium",
+      "q": "Assertion (A): Borrowing money to purchase unnecessary consumer goods may lead to a debt burden and financial difficulties.\nReason (R): Responsible borrowing involves taking loans only when necessary and ensuring that they can be repaid on time.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both statements are true, but R states the general rule of responsible borrowing; it does not explain why buying unnecessary consumer goods on credit creates a debt burden.",
+      "fact": "Borrowing or using credit can be helpful when it is used for productive purposes, but it can become harmful if misused."
+    },
+    {
+      "id": "p2econ5-069",
+      "type": "fillblank",
+      "topic": "Investment Risk",
+      "difficulty": "easy",
+      "q": "In personal finance, risk refers to the chance of ___ from an investment.",
+      "answerVariants": ["losing money", "Losing money", "loss of money", "loss"],
+      "explanation": "Risk is the chance of losing money. Lower-risk investments like fixed deposits offer lower returns, while higher-risk investments may offer higher returns.",
+      "fact": "Risk refers to the chance of losing money."
+    },
+    {
+      "id": "p2econ5-070",
+      "type": "mcq",
+      "topic": "Time Horizon",
+      "difficulty": "medium",
+      "q": "What does 'time horizon' mean when choosing an investment?",
+      "options": [
+        "The length of time for which money can remain invested",
+        "The date on which a bond pays its first interest",
+        "The number of years a bank has operated",
+        "The time taken to open a fixed deposit"
+      ],
+      "answer": 0,
+      "explanation": "Time horizon is the length of time for which money can remain invested. It is one of the four factors—along with risk, return and liquidity—to consider before investing.",
+      "fact": "Time horizon is the length of time for which money can remain invested."
+    },
+    {
+      "id": "p2econ5-071",
+      "type": "mcq",
+      "topic": "Meaning of Taxes",
+      "difficulty": "easy",
+      "q": "According to the chapter, what are taxes?",
+      "options": [
+        "Compulsory payments made to the government to fund public services",
+        "Optional donations to insurance companies",
+        "Profits earned by shareholders in a company",
+        "Monthly instalments paid to repay a loan"
+      ],
+      "answer": 0,
+      "explanation": "Taxes are compulsory payments made by individuals and businesses to the government to fund public services such as schools, hospitals, transport, and defence.",
+      "fact": "Taxes are compulsory payments made by individuals and businesses to the government to fund public services, such as schools, hospitals, transport, defence, and other essential facilities."
+    },
+    {
+      "id": "p2econ5-072",
+      "type": "multiselect",
+      "topic": "Public Services",
+      "difficulty": "easy",
+      "q": "Select all public services that taxes help fund.",
+      "options": [
+        "Schools",
+        "Hospitals",
+        "Defence",
+        "Pocket money for children"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Tax money funds public services such as schools, hospitals, transport, defence, and other essential facilities—not private payments like pocket money.",
+      "fact": "Taxes are compulsory payments... to fund public services, such as schools, hospitals, transport, defence, and other essential facilities."
+    },
+    {
+      "id": "p2econ5-073",
+      "type": "mcq",
+      "topic": "Direct and Indirect Taxes",
+      "difficulty": "easy",
+      "q": "Which of these is an example of an indirect tax?",
+      "options": [
+        "Income tax",
+        "Goods and Services Tax (GST)",
+        "Tax on business profits",
+        "Tax on a person's salary"
+      ],
+      "answer": 1,
+      "explanation": "Indirect taxes are added to the price of goods and services, and the GST is the chapter's example. Income tax, by contrast, is a direct tax paid on income or profits.",
+      "fact": "Indirect taxes, which are added to the price of goods and services, such as the Goods and Services Tax (GST)."
+    },
+    {
+      "id": "p2econ5-074",
+      "type": "truefalse",
+      "topic": "Direct and Indirect Taxes",
+      "difficulty": "easy",
+      "q": "Indirect taxes are paid directly on a person's or organisation's income or profits.",
+      "answer": "false",
+      "explanation": "That describes direct taxes, such as income tax. Indirect taxes are instead added to the price of goods and services, like the GST.",
+      "fact": "Direct taxes, which are paid directly on a person's or organisation's income or profits, such as the income tax."
+    },
+    {
+      "id": "p2econ5-075",
+      "type": "assertion",
+      "topic": "Principle of Insurance",
+      "difficulty": "medium",
+      "q": "Assertion (A): Insurance helps reduce the financial impact of accidents, illness, or property damage.\nReason (R): Many people pay premiums into a common pool, and those who face unexpected losses receive financial support from it.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both A and R are true, and R explains A: because premiums are pooled, an individual's loss is shared among many insured people, so the financial impact on any one family is greatly reduced.",
+      "fact": "Insurance works on the principle of risk sharing. Many people pay premiums into a common pool. In case of any unexpected loss, those insured receive financial support from the insurance company."
+    }
+  ]
+}

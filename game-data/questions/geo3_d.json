@@ -1,0 +1,292 @@
+{
+  "chapterId": "geo3",
+  "fragment": "d",
+  "questions": [
+    {
+      "id": "geo3-076",
+      "type": "mcq",
+      "topic": "Monsoon and Agriculture",
+      "difficulty": "easy",
+      "q": "According to the chapter, what does a good monsoon ensure?",
+      "options": ["A permanent end to all future droughts", "Sufficient food production and water supply in rivers, reservoirs and wells", "Snowfall in the Himalayan states", "A fall in the temperature of the oceans"],
+      "answer": 1,
+      "explanation": "A good monsoon ensures sufficient food production and a good water supply in rivers, reservoirs and wells, since most of India's agriculture depends on monsoon rainfall.",
+      "fact": "A good monsoon ensures sufficient food production and water supply in rivers, reservoirs, and wells.",
+      "hint": "Think of both food and water storage."
+    },
+    {
+      "id": "geo3-077",
+      "type": "truefalse",
+      "topic": "Monsoon Extremes",
+      "difficulty": "medium",
+      "q": "Excessive rainfall during the monsoon can cause floods, while weak monsoons can lead to droughts.",
+      "answer": "true",
+      "explanation": "The monsoon's extremes are dangerous on both sides — excessive rainfall causes floods, while weak monsoons lead to droughts, affecting the economy, lifestyle and livelihoods of people in India.",
+      "fact": "However, excessive rainfall can cause floods, while weak monsoons can lead to droughts."
+    },
+    {
+      "id": "geo3-078",
+      "type": "mcq",
+      "topic": "National Monsoon Mission",
+      "difficulty": "medium",
+      "q": "Under the National Monsoon Mission, which ministry has developed state-of-the-art weather and climate prediction models?",
+      "options": ["The Ministry of Earth Sciences", "The Ministry of Defence", "The Ministry of Railways", "The Ministry of Tourism"],
+      "answer": 0,
+      "explanation": "Under the National Monsoon Mission (NMM), the Ministry of Earth Sciences of the Government of India has developed state-of-the-art models to enhance monsoon predictions for India over all time frames.",
+      "fact": "Under the National Monsoon Mission (NMM), Ministry of Earth Sciences (Government of India) has developed state-of-the-art weather and climate prediction models.",
+      "hint": "The mission studies weather of the whole planet we live on."
+    },
+    {
+      "id": "geo3-079",
+      "type": "truefalse",
+      "topic": "Mission Mausam",
+      "difficulty": "easy",
+      "q": "Mission Mausam aims to make India 'Weather Ready' and 'Monsoon Proof'.",
+      "answer": "false",
+      "explanation": "Mission Mausam aims to make the nation 'Weather Ready' and 'Climate Smart', meeting global standards — not 'Monsoon Proof'. It positions India as a global leader in weather and climate sciences.",
+      "fact": "The mission aims to make the nation 'Weather Ready' and 'Climate Smart', meeting the global standards."
+    },
+    {
+      "id": "geo3-080",
+      "type": "multiselect",
+      "topic": "Mission Mausam",
+      "difficulty": "easy",
+      "q": "Select all the sectors that Mission Mausam aims to serve with timely weather and climate forecasting.",
+      "options": ["Agriculture", "Only space research", "Disaster management", "Rural development"],
+      "answerIndices": [0, 2, 3],
+      "explanation": "Mission Mausam aims to improve weather and climate services, ensuring timely and precise observation, modelling and forecasting information for multiple sectors, including agriculture, disaster management and rural development.",
+      "fact": "Forecasting information for multiple sectors, including agriculture, disaster management, and rural development."
+    },
+    {
+      "id": "geo3-081",
+      "type": "mcq",
+      "topic": "Climate Change",
+      "difficulty": "easy",
+      "q": "Climate change refers to which of the following?",
+      "options": ["The hour-to-hour changes in the day's weather", "The seasonal reversal of winds in India", "Long-term changes in weather patterns such as temperature, rainfall and wind", "The daily rise and fall of tides"],
+      "answer": 2,
+      "explanation": "Climate change means long-term changes in weather patterns — temperature, rainfall and wind — caused mainly by human activities. Hour-to-hour changes describe weather, and the seasonal reversal of winds is the monsoon.",
+      "fact": "It refers to long-term changes in weather patterns, such as temperature, rainfall, and wind, caused mainly by human activities.",
+      "hint": "The key idea is 'long-term'."
+    },
+    {
+      "id": "geo3-082",
+      "type": "multiselect",
+      "topic": "Causes of Climate Change",
+      "difficulty": "easy",
+      "q": "Select all the human activities that are mainly responsible for climate change, as described in the chapter.",
+      "options": ["Burning of fossil fuels", "Planting of new forests", "Deforestation", "Industrial pollution that releases gases like carbon dioxide"],
+      "answerIndices": [0, 2, 3],
+      "explanation": "Climate change is caused mainly by human activities — the burning of fossil fuels, deforestation, and industrial pollution that releases gases like carbon dioxide into the atmosphere.",
+      "fact": "Caused mainly by human activities, including the burning of fossil fuels, deforestation, and industrial pollution that releases gases like carbon dioxide into the atmosphere."
+    },
+    {
+      "id": "geo3-083",
+      "type": "mcq",
+      "topic": "Carbon Footprint",
+      "difficulty": "easy",
+      "q": "What is a carbon footprint?",
+      "options": ["The mark that carbon makes on paper", "The total amount of greenhouse gases released into the atmosphere as a result of human activities", "The distance a person travels in a year", "The depth of the ozone layer"],
+      "answer": 1,
+      "explanation": "A carbon footprint is the total amount of greenhouse gases released into the atmosphere as a result of human activities, such as energy use, transportation, or the production of goods and services.",
+      "fact": "Carbon footprint: The total amount of greenhouse gases released into the atmosphere as a result of human activities, such as energy use, transportation, or the production of goods and services.",
+      "hint": "It adds up all the greenhouse gases your activities release."
+    },
+    {
+      "id": "geo3-084",
+      "type": "fillblank",
+      "topic": "Greenhouse Gases",
+      "difficulty": "medium",
+      "q": "Greenhouse gases such as carbon dioxide, methane, nitrous oxide and ___ trap heat and raise global temperatures.",
+      "answerVariants": ["water vapour", "water vapor"],
+      "explanation": "The main greenhouse gases are carbon dioxide, methane, nitrous oxide and water vapour — they trap heat in the atmosphere and raise global temperatures.",
+      "fact": "These actions increase greenhouse gases such as carbon dioxide, methane, nitrous oxide, water vapour in the atmosphere, trapping heat and raising global temperatures.",
+      "hint": "It is water in gas form."
+    },
+    {
+      "id": "geo3-085",
+      "type": "truefalse",
+      "topic": "Effects of Climate Change",
+      "difficulty": "easy",
+      "q": "As a result of climate change, we are witnessing more frequent floods, droughts, melting of glaciers, rising sea levels and loss of biodiversity.",
+      "answer": "true",
+      "explanation": "Greenhouse gases trap heat and raise global temperatures, and as a result we see more frequent floods and droughts, melting glaciers, rising sea levels and loss of biodiversity.",
+      "fact": "As a result, we are witnessing more frequent floods, droughts, melting of glaciers, rising sea levels, and loss of biodiversity."
+    },
+    {
+      "id": "geo3-086",
+      "type": "wrongstatement",
+      "topic": "Effects of Climate Change",
+      "difficulty": "medium",
+      "q": "Which of these statements about climate change is INCORRECT?",
+      "options": ["Melting of glaciers and rising sea levels have no connection with climate change", "Climate change is caused mainly by human activities", "It threatens ecosystems and also impacts human health, agriculture and livelihoods", "It has a great impact on almost all sections of the population, including women and children"],
+      "answer": 0,
+      "explanation": "Melting glaciers and rising sea levels are indeed effects of climate change, so the first statement is wrong. The rest correctly describe its causes and its impacts, including on women and children.",
+      "fact": "As a result, we are witnessing more frequent floods, droughts, melting of glaciers, rising sea levels... It also has great impact on almost all sections of the population including women and children."
+    },
+    {
+      "id": "geo3-087",
+      "type": "assertion",
+      "topic": "Tackling Climate Change",
+      "difficulty": "medium",
+      "q": "Assertion (A): We can tackle climate change by reducing our carbon footprints and using renewable energy.\nReason (R): Every small step counts, and every human being plays a vital role in shaping a healthier and greener future.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 1,
+      "explanation": "Both statements are true — tackling climate change requires collective efforts like reducing carbon footprints and using renewable energy, and every small step counts. But the fact that every step counts does not explain why these specific actions reduce climate change.",
+      "fact": "Tackling this issue requires collective efforts—reducing carbon footprints, using renewable energy, protecting forests, and adopting sustainable lifestyles. Every small step counts."
+    },
+    {
+      "id": "geo3-088",
+      "type": "order",
+      "topic": "Carbon Footprint Activity",
+      "difficulty": "easy",
+      "q": "Arrange these transport habits from the carbon footprint activity from the lowest impact to the highest impact.",
+      "orderItems": ["Walking or using a cycle", "Using public transport or carpool", "Travelling by private cars even for short distances", "Taking flights more than twice a year"],
+      "explanation": "In the 'My Carbon Footprint' activity, walking or cycling has low impact, public transport or carpooling has medium impact, travelling by private cars even for short distances has high impact, and taking flights more than twice a year has very high impact.",
+      "fact": "Transport: I usually walk/use a cycle (Low impact); I use public transport/carpool (Medium impact); I travel by private cars even for short distances (High impact); I take flights more than twice a year (Very high impact)."
+    },
+    {
+      "id": "geo3-089",
+      "type": "fillblank",
+      "topic": "Carbon Footprint Activity",
+      "difficulty": "easy",
+      "q": "In the 'My Carbon Footprint' activity, a medium impact choice is scored as ___ points.",
+      "answerVariants": ["2", "two"],
+      "explanation": "The activity scores low impact choices as 1 point, medium impact as 2 points, high impact as 3 points and very high impact as 4 points — you then add up your total score.",
+      "fact": "Low impact choices = 1 point; Medium impact choices = 2 points; High impact choices = 3 points; Very high impact choices = 4 points."
+    },
+    {
+      "id": "geo3-090",
+      "type": "mcq",
+      "topic": "Punjab Floods 2025",
+      "difficulty": "medium",
+      "q": "In 2025, Punjab experienced severe floods due to heavy monsoon rains and the consecutive swelling of which rivers?",
+      "options": ["The Ganga and the Yamuna", "The Godavari and the Krishna", "The Narmada and the Tapi", "The Satluj, the Beas and the Ravi"],
+      "answer": 3,
+      "explanation": "The Punjab floods of 2025 resulted from very heavy monsoon rains and the consecutive swelling of the rivers Satluj, Beas and Ravi, which damaged villages, agricultural fields, houses and infrastructure.",
+      "fact": "In 2025, Punjab experienced severe floods due to heavy monsoon rains and the consecutive swelling of the rivers Satluj, Beas, and Ravi.",
+      "hint": "These are rivers of north-western India."
+    },
+    {
+      "id": "geo3-091",
+      "type": "mcq",
+      "topic": "Punjab Floods Causes",
+      "difficulty": "hard",
+      "q": "Which natural factor intensified the very heavy monsoon rains that caused the Punjab floods of 2025?",
+      "options": ["A tsunami striking the coast of Gujarat", "The eruption of a volcano in the Himalayas", "A permanent high-pressure area over Punjab", "Western disturbances that brought even more moisture and rain"],
+      "answer": 3,
+      "explanation": "In 2025, Punjab faced very heavy monsoon rains, which were intensified by the western disturbances that brought even more moisture and rain — it also rained in Himachal Pradesh and Jammu & Kashmir.",
+      "fact": "In 2025, Punjab faced very heavy monsoon rains, which were intensified by the western disturbances that brought even more moisture and rain.",
+      "hint": "These are weather systems arriving from the west."
+    },
+    {
+      "id": "geo3-092",
+      "type": "fillblank",
+      "topic": "Punjab Floods Causes",
+      "difficulty": "hard",
+      "q": "The weak and old river embankments of Punjab, which could not stop the rising water, are called ___.",
+      "answerVariants": ["dhusi bandh", "dhūsī bāndh", "dhoosi bandh", "dhūsi bandh", "dhusi baandh"],
+      "explanation": "The floods were aggravated by weak and old river embankments, known as dhūsī bāndh, which could not stop the rising water during the heavy monsoon rains.",
+      "fact": "The floods were further aggravated by weak and old river embankments, or dhūsī bāndh, which could not stop the rising water during heavy monsoon rains.",
+      "hint": "This is a local Punjabi term for embankments."
+    },
+    {
+      "id": "geo3-093",
+      "type": "multiselect",
+      "topic": "Punjab Floods Causes",
+      "difficulty": "medium",
+      "q": "Select all the human-made factors that aggravated the Punjab floods of 2025.",
+      "options": ["Very heavy monsoon rains intensified by western disturbances", "Weak and old river embankments", "Houses and farms built too close to the rivers", "Silt and mud collected in rivers and dams"],
+      "answerIndices": [1, 2, 3],
+      "explanation": "The human-made causes included weak embankments, construction too close to the rivers, collected silt and mud, and late or unclear flood warnings. The very heavy rains intensified by western disturbances were a natural cause.",
+      "fact": "Human-made Causes: The floods were further aggravated by weak and old river embankments... People had also built houses and farms too close to the rivers... silt and mud had collected in rivers and dams, reducing their capacity."
+    },
+    {
+      "id": "geo3-094",
+      "type": "order",
+      "topic": "Punjab Floods 2025",
+      "difficulty": "medium",
+      "q": "Arrange the events of the Punjab floods of 2025 in the correct order.",
+      "orderItems": ["Very heavy monsoon rains, intensified by western disturbances, fell over the region", "The already-high rivers of Punjab overflowed their banks", "Floodwater damaged villages, agricultural fields, houses and infrastructure", "Relief operations were carried out as the water started to recede"],
+      "explanation": "The sequence ran from very heavy rains intensified by western disturbances, to rivers that were already flowing high overflowing their banks, to widespread damage to villages, fields and infrastructure, and finally to relief operations as the water receded.",
+      "fact": "The major rivers of Punjab were already flowing high before the heavy rains began. When additional rain fell, water from the hills and local rainfall caused rivers to overflow... While the water started to recede in some places and relief operations were carried out..."
+    },
+    {
+      "id": "geo3-095",
+      "type": "wrongstatement",
+      "topic": "Punjab Floods Effects",
+      "difficulty": "easy",
+      "q": "Which of these statements about the effects of the Punjab floods of 2025 is INCORRECT?",
+      "options": ["Many people lost their lives in the floods", "The floods left the farmland of Punjab more fertile than ever before", "Crops like paddy were severely damaged", "Murky standing water caused health problems, including waterborne diseases"],
+      "answer": 1,
+      "explanation": "The floods covered large areas of farmland with water and severely damaged crops like paddy — they did not make the land more fertile. Lives were lost, waterborne diseases spread from murky standing water, and roads, bridges and farms were damaged.",
+      "fact": "Large areas of farmland were covered with water, and crops like paddy were severely damaged."
+    },
+    {
+      "id": "geo3-096",
+      "type": "assertion",
+      "topic": "Punjab Floods Effects",
+      "difficulty": "medium",
+      "q": "Assertion (A): Thousands of people had to leave their homes and move to relief camps for safety during the Punjab floods of 2025.\nReason (R): The heavy rains of the floods fell only over Punjab and in no other region.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 2,
+      "explanation": "The assertion is true — thousands of people moved to relief camps for safety. The reason is false: it rained not only in Punjab but also in Himachal Pradesh and Jammu & Kashmir.",
+      "fact": "Thousands of people had to leave their homes and move to relief camps for safety... It rained not only in Punjab but also in Himachal Pradesh and Jammu & Kashmir."
+    },
+    {
+      "id": "geo3-097",
+      "type": "mcq",
+      "topic": "Station Climate Data",
+      "difficulty": "hard",
+      "q": "According to Table 3.3, which of the ten representative stations receives the highest annual rainfall?",
+      "options": ["Mumbai (183.4 cm)", "Kolkata (162.5 cm)", "Shillong (225.3 cm)", "Chennai (128.6 cm)"],
+      "answer": 2,
+      "explanation": "Shillong, at 1,461 metres altitude, records 225.3 cm of annual rainfall — the highest among the ten stations, and more than Kolkata's 162.5 cm.",
+      "fact": "Table 3.3: Shillong annual rainfall 225.3 cm; Mumbai 183.4 cm; Kolkata 162.5 cm; Chennai 128.6 cm.",
+      "hint": "The wettest station is a hill city in the north-east."
+    },
+    {
+      "id": "geo3-098",
+      "type": "mcq",
+      "topic": "Station Climate Data",
+      "difficulty": "hard",
+      "q": "Which station in Table 3.3 lies at the highest altitude and also records the lowest annual rainfall?",
+      "options": ["Leh (3,506 metres, 8.5 cm)", "Shillong (1,461 metres, 225.3 cm)", "Bengaluru (909 metres, 88.9 cm)", "Jodhpur (224 metres, 36.6 cm)"],
+      "answer": 0,
+      "explanation": "Leh lies at 3,506 metres — the highest altitude among the stations — and records only 8.5 cm of annual rainfall, the lowest of all ten.",
+      "fact": "Table 3.3: Leh latitude 34°N, altitude 3,506 metres, annual rainfall 8.5 cm."
+    },
+    {
+      "id": "geo3-099",
+      "type": "match",
+      "topic": "Punjab Floods 2025",
+      "difficulty": "medium",
+      "q": "Match each term from the Punjab floods case study with its correct detail.",
+      "pairs": [
+        {"l": "Himachal Pradesh and Jammu & Kashmir", "r": "Regions where it rained heavily besides Punjab"},
+        {"l": "The Ghaggar", "r": "A major river of Punjab that was already flowing high before the heavy rains"},
+        {"l": "Poultry and dairy farms", "r": "Damaged and destroyed, with many animals falling sick or dying"},
+        {"l": "Border fences", "r": "Structures damaged along with roads, bridges and public buildings"},
+        {"l": "Late flood warnings", "r": "A problem that left some people unprepared in certain areas"}
+      ],
+      "explanation": "The case study lists these details: rain also fell in Himachal Pradesh and Jammu & Kashmir; the Ghaggar was among the rivers already flowing high; poultry and dairy farms were destroyed with many animals sick or dead; border fences were damaged; and in some areas flood warnings came late or were not clearly communicated.",
+      "fact": "It rained not only in Punjab but also in Himachal Pradesh and Jammu & Kashmir. The major rivers of Punjab—the Satluj, the Beas, the Ravi, and the Ghaggar—were already flowing high... flood warnings came late or were not clearly communicated."
+    },
+    {
+      "id": "geo3-100",
+      "type": "match",
+      "topic": "Station Climate Data",
+      "difficulty": "hard",
+      "q": "Match each station of Table 3.3 with what the chapter asks you to find out about it.",
+      "pairs": [
+        {"l": "Shillong", "r": "Experiences more rainfall than Kolkata"},
+        {"l": "Delhi", "r": "Receives more rainfall than Jodhpur"},
+        {"l": "Thiruvananthapuram", "r": "Has an equable climate"},
+        {"l": "Chennai", "r": "Receives more rainfall only after the fury of the monsoon is over"},
+        {"l": "Leh", "r": "Has moderate precipitation almost throughout the year"}
+      ],
+      "explanation": "The end-of-chapter questions highlight these contrasts: Shillong is wetter than Kolkata, Delhi gets more rain than Jodhpur, Thiruvananthapuram has an equable climate, Chennai's rainfall peaks after the monsoon ends elsewhere, and Leh has moderate precipitation almost year-round.",
+      "fact": "Why does Shillong experience more rainfall than Kolkata? Why does Delhi receive more rainfall than Jodhpur? Thiruvananthapuram has an equable climate; Chennai has more rainfall only after the fury of the monsoon is over; Leh has moderate precipitation almost throughout the year."
+    }
+  ]
+}

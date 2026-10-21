@@ -1,0 +1,354 @@
+{
+  "chapterId": "p2econ5",
+  "fragment": "b",
+  "questions": [
+    {
+      "id": "p2econ5-026",
+      "type": "assertion",
+      "topic": "Fixed Deposits",
+      "difficulty": "medium",
+      "q": "Assertion (A): Fixed deposits are among the most common and safest investment options.\nReason (R): They are offered by banks and post offices and provide assured returns.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both A and R are true, and R explains A: fixed deposits offered by banks and post offices pay a fixed rate of interest with assured returns, which is exactly what makes them common and safe.",
+      "fact": "Fixed deposits are among the most common and safest investment options offered by banks and post offices."
+    },
+    {
+      "id": "p2econ5-027",
+      "type": "truefalse",
+      "topic": "Fixed Deposits",
+      "difficulty": "easy",
+      "q": "In a fixed deposit, the rate of interest paid by the bank or post office remains unchanged throughout the investment period.",
+      "answer": "true",
+      "explanation": "In a fixed deposit, a lump sum is deposited for a fixed period, and the bank or post office pays a fixed rate of interest that stays unchanged throughout that period.",
+      "fact": "The bank or post office pays a fixed rate of interest on this amount, which remains unchanged throughout the investment period."
+    },
+    {
+      "id": "p2econ5-028",
+      "type": "mcq",
+      "topic": "Fixed Deposits",
+      "difficulty": "medium",
+      "q": "Ravi prefers safety over high returns and wants assured returns on his investment. Which option suits him best?",
+      "options": [
+        "Shares of companies",
+        "Corporate bonds",
+        "Buying a two-wheeler on EMI",
+        "Fixed deposits"
+      ],
+      "answer": 3,
+      "explanation": "Fixed deposits offer assured returns and are suitable for people who prefer safety over high returns, which matches Ravi's requirement exactly.",
+      "fact": "Fixed deposits offer assured returns and are suitable for people who prefer safety over high returns."
+    },
+    {
+      "id": "p2econ5-029",
+      "type": "multiselect",
+      "topic": "Government-Backed Savings",
+      "difficulty": "medium",
+      "q": "Select all correct statements about government-backed savings options.",
+      "options": [
+        "The Public Provident Fund (PPF) is a government-backed option",
+        "The National Savings Certificate (NSC) is a small savings scheme",
+        "The Sukanya Samriddhi Yojana encourages long-term savings",
+        "Shares of private companies are a government-backed small savings scheme"
+      ],
+      "answerIndices": [0, 1, 2],
+      "explanation": "Besides fixed deposits, government-backed options include the Public Provident Fund (PPF) and small savings schemes such as the National Savings Certificate (NSC) and the Sukanya Samriddhi Yojana. Shares are not a government-backed savings scheme.",
+      "fact": "Other government-backed investment options include the Public Provident Fund (PPF) and small savings schemes, such as the National Savings Certificate (NSC) and the Sukanya Samriddhi Yojana."
+    },
+    {
+      "id": "p2econ5-030",
+      "type": "mcq",
+      "topic": "Bonds",
+      "difficulty": "hard",
+      "q": "You buy a bond worth ₹10,000 that pays 5% interest per year and matures after one year. What total amount do you receive at maturity?",
+      "options": [
+        "₹500",
+        "₹10,000",
+        "₹11,000",
+        "₹10,500"
+      ],
+      "answer": 3,
+      "explanation": "The bond pays ₹500 as interest after one year (5% of ₹10,000), so at maturity you receive ₹10,500 in total—the principal of ₹10,000 plus ₹500 of interest.",
+      "fact": "If you buy a bond worth ₹10,000 that pays 5% interest per year, you will receive ₹500 as interest after one year. If the bond matures after one year, you will receive ₹10,500 in total."
+    },
+    {
+      "id": "p2econ5-031",
+      "type": "truefalse",
+      "topic": "Bonds",
+      "difficulty": "easy",
+      "q": "Government bonds are generally considered safer than corporate bonds.",
+      "answer": "true",
+      "explanation": "The chapter states that government bonds are generally safer than corporate bonds and are suitable for those seeking a stable, predictable income.",
+      "fact": "Government bonds are generally considered safer than corporate bonds and are suitable for those seeking a stable, predictable income."
+    },
+    {
+      "id": "p2econ5-032",
+      "type": "fillblank",
+      "topic": "Bond Terms",
+      "difficulty": "medium",
+      "q": "The duration between a bond's issue date and the point at which the issuer repays the principal amount is called the ___.",
+      "answerVariants": ["maturity period", "Maturity period", "maturity"],
+      "explanation": "The maturity period is the time between a bond's issue and the repayment of its principal by the issuer. For bonds, it can range from 1 day to 30 years or more.",
+      "fact": "Maturity period: The duration between its issue date and the point at which the issuer repays the principal amount."
+    },
+    {
+      "id": "p2econ5-033",
+      "type": "mcq",
+      "topic": "Bonds",
+      "difficulty": "medium",
+      "q": "According to the chapter, why are bonds relatively more liquid?",
+      "options": [
+        "They always pay the highest interest",
+        "The government repays them every month",
+        "Their price never changes",
+        "You may be able to sell a bond before maturity if you need the money earlier"
+      ],
+      "answer": 3,
+      "explanation": "Bonds can often be sold before maturity if the investor needs the money earlier, which makes them more liquid than options that must be held to the end.",
+      "fact": "You may also be able to sell the bond before maturity if you need the money earlier, making them more liquid."
+    },
+    {
+      "id": "p2econ5-034",
+      "type": "wrongstatement",
+      "topic": "Bonds",
+      "difficulty": "medium",
+      "q": "Which of these statements about bonds is INCORRECT?",
+      "options": [
+        "Bondholders earn regular interest",
+        "Bonds are investments through which people lend money to the government or companies",
+        "The maturity period of bonds ranges from 1 day to 30 years or more",
+        "When you buy a corporate bond, you become a part-owner of the company"
+      ],
+      "answer": 3,
+      "explanation": "Buying a corporate bond means lending money to the company—it is a debt security that promises regular interest and repayment of principal. Part-ownership of a company comes from buying shares, not bonds.",
+      "fact": "Corporate bonds: Debt securities issued by companies to raise capital from investors. When you buy a corporate bond, you lend money to the company."
+    },
+    {
+      "id": "p2econ5-035",
+      "type": "fillblank",
+      "topic": "Shares",
+      "difficulty": "easy",
+      "q": "When a person buys shares, they become a ___ of that company.",
+      "answerVariants": ["part-owner", "part owner", "Part-owner", "owner"],
+      "explanation": "Shares represent ownership in a company, so a buyer of shares becomes a part-owner and may earn returns through dividends and an increase in the share price.",
+      "fact": "When a person buys shares, they become a part-owner of that company."
+    },
+    {
+      "id": "p2econ5-036",
+      "type": "wrongstatement",
+      "topic": "Shares",
+      "difficulty": "medium",
+      "q": "Which of these statements about shares (equity) is INCORRECT?",
+      "options": [
+        "Share prices fluctuate due to market conditions, company performance, and broader economic changes",
+        "Shareholders may earn returns through dividends and an increase in the share price",
+        "Shares are the safest investment option because their prices never fall",
+        "Shares have the potential to generate higher returns over the long term"
+      ],
+      "answer": 2,
+      "explanation": "Shares are actually a higher-risk option because their prices fluctuate; they suit investors who are willing to take greater risks for higher long-term returns.",
+      "fact": "Investing in shares involves higher risk because share prices fluctuate due to market conditions, company performance, and broader economic changes."
+    },
+    {
+      "id": "p2econ5-037",
+      "type": "mcq",
+      "topic": "BSE SENSEX",
+      "difficulty": "hard",
+      "q": "The BSE SENSEX tracks the performance of how many large, financially sound, actively traded companies?",
+      "options": [
+        "10",
+        "50",
+        "30",
+        "100"
+      ],
+      "answer": 2,
+      "explanation": "The BSE SENSEX (Stock Exchange Sensitive Index) is the benchmark index of the Bombay Stock Exchange and tracks 30 large, financially sound, actively traded companies from different sectors.",
+      "fact": "It tracks the performance of 30 large, financially sound, and actively traded companies from different sectors of the economy."
+    },
+    {
+      "id": "p2econ5-038",
+      "type": "truefalse",
+      "topic": "BSE SENSEX",
+      "difficulty": "easy",
+      "q": "The BSE SENSEX fluctuates over short time periods, though it can go up significantly in the long run.",
+      "answer": "true",
+      "explanation": "The SENSEX graph moves up and down over short periods because share prices fluctuate, but over the long run it can rise significantly.",
+      "fact": "It fluctuates over short time periods; however, it can go up significantly in the long run."
+    },
+    {
+      "id": "p2econ5-039",
+      "type": "mcq",
+      "topic": "Mutual Funds",
+      "difficulty": "easy",
+      "q": "What do mutual funds do with the money they collect?",
+      "options": [
+        "Keep it locked in a piggy bank",
+        "Pool money from many investors and invest it in a basket of shares, bonds, or other financial assets",
+        "Lend it only to the government for one day",
+        "Deposit it as a single fixed deposit in one bank"
+      ],
+      "answer": 1,
+      "explanation": "Mutual funds pool money from many investors and invest it in a basket of shares, bonds, or other financial assets, with professional fund managers deciding where to invest.",
+      "fact": "Mutual funds pool money from many investors and invest it in a basket of shares, bonds, or other financial assets."
+    },
+    {
+      "id": "p2econ5-040",
+      "type": "multiselect",
+      "topic": "Mutual Funds",
+      "difficulty": "medium",
+      "q": "Select all correct statements about mutual funds.",
+      "options": [
+        "They are managed by professional fund managers who decide where to invest the money",
+        "If the investments perform well, investors earn returns in proportion to the amount they have invested",
+        "They guarantee fixed returns even when markets fall",
+        "They are suitable for people who may not have the time, knowledge, or experience to manage investments on their own"
+      ],
+      "answerIndices": [0, 1, 3],
+      "explanation": "Mutual funds are run by professional fund managers, returns depend on performance and are proportional to the amount invested, and they suit people lacking the time, knowledge, or experience to invest on their own. Returns are never guaranteed.",
+      "fact": "These investments are managed by professional fund managers... If the investments perform well, investors earn returns in proportion to the amount they have invested... suitable for people who may not have the time, knowledge, or experience to manage investments on their own."
+    },
+    {
+      "id": "p2econ5-041",
+      "type": "fillblank",
+      "topic": "Portfolio Diversification",
+      "difficulty": "medium",
+      "q": "Reducing risk by spreading investments across different types of assets is a strategy known as portfolio ___.",
+      "answerVariants": ["diversification", "Diversification"],
+      "explanation": "Mutual funds reduce risk through portfolio diversification—spreading investments across different types of assets so that poor performance of one asset does not sink the whole investment.",
+      "fact": "They reduce risk by spreading investments across different types of assets, a strategy known as portfolio diversification."
+    },
+    {
+      "id": "p2econ5-042",
+      "type": "assertion",
+      "topic": "Mutual Fund Risks",
+      "difficulty": "medium",
+      "q": "Assertion (A): Mutual fund advertisements include the disclaimer 'Mutual fund investments are subject to market risks.'\nReason (R): If a mutual fund's investments perform poorly, its investors may incur losses.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both A and R are true, and R explains A: because mutual fund returns depend on market performance and losses are possible, the advertisement warns investors to read all scheme-related documents carefully before investing.",
+      "fact": "Mutual fund investments are subject to market risks. Please read all scheme-related documents carefully before investing."
+    },
+    {
+      "id": "p2econ5-043",
+      "type": "truefalse",
+      "topic": "Mutual Fund Risks",
+      "difficulty": "easy",
+      "q": "Investors in a mutual fund are guaranteed to get back at least the money they invested, even if the fund's investments perform poorly.",
+      "answer": "false",
+      "explanation": "If a mutual fund's investments perform poorly, investors may incur losses; mutual fund returns are linked to market performance and are not guaranteed.",
+      "fact": "However, if the investments perform poorly, investors may incur losses."
+    },
+    {
+      "id": "p2econ5-044",
+      "type": "wrongstatement",
+      "topic": "Mutual Funds",
+      "difficulty": "medium",
+      "q": "Which of these statements about mutual funds is INCORRECT?",
+      "options": [
+        "Mutual funds pool money from many investors",
+        "They invest in a basket of shares, bonds, or other financial assets",
+        "Mutual funds may offer higher returns than fixed deposits",
+        "Mutual funds guarantee that investors will never lose money"
+      ],
+      "answer": 3,
+      "explanation": "Mutual funds do not guarantee the safety of the invested amount—losses are possible if the investments perform poorly. The other statements match the chapter's description of mutual funds.",
+      "fact": "If the investments perform poorly, investors may incur losses."
+    },
+    {
+      "id": "p2econ5-045",
+      "type": "match",
+      "topic": "Investment Options",
+      "difficulty": "medium",
+      "q": "Match each investment option with its key feature.",
+      "pairs": [
+        { "l": "Fixed deposit", "r": "A lump sum deposited for a fixed period at a fixed rate of interest" },
+        { "l": "Bond", "r": "Lending money to the government or a company for regular interest" },
+        { "l": "Share", "r": "Part-ownership of a company, earning dividends and price gains" },
+        { "l": "Mutual fund", "r": "Pooled money invested in a basket of assets by professional managers" },
+        { "l": "PPF", "r": "A government-backed option encouraging long-term savings" }
+      ],
+      "explanation": "Fixed deposits are lump-sum deposits at a fixed interest rate; bonds are loans to issuers that pay regular interest; shares give part-ownership; mutual funds pool money under professional managers; the PPF is a government-backed long-term savings option.",
+      "fact": "Common investment options: Fixed Deposits (FDs), Bonds, Stocks (Equity or Shares), Mutual funds; other government-backed options include the PPF."
+    },
+    {
+      "id": "p2econ5-046",
+      "type": "order",
+      "topic": "Bond Investment",
+      "difficulty": "medium",
+      "q": "Arrange the events in a bond investment in the correct order.",
+      "orderItems": [
+        "You buy a bond, lending money to the issuer",
+        "The issuer pays you regular interest",
+        "The issuer repays the principal when the bond matures"
+      ],
+      "explanation": "When you buy a bond you lend money to the issuer; during the investment the issuer promises regular interest payments; at maturity the initial principal amount is repaid.",
+      "fact": "In return, the company promises regular interest payments and to repay the initial principal amount when the bond matures."
+    },
+    {
+      "id": "p2econ5-047",
+      "type": "assertion",
+      "topic": "Risk and Return",
+      "difficulty": "hard",
+      "q": "Assertion (A): Shares have the potential to generate the highest returns over the long term.\nReason (R): In general, higher-risk investments may offer higher returns, and shares involve the highest level of risk.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both A and R are true, and R explains A: the risk-return trade-off means shares, which carry the highest level of risk, also carry the potential for the highest long-term returns.",
+      "fact": "Shares (equity) have the potential to generate the highest returns over the long term but also involve the highest level of risk."
+    },
+    {
+      "id": "p2econ5-048",
+      "type": "order",
+      "topic": "Risk and Return",
+      "difficulty": "medium",
+      "q": "Arrange these investment options from the lowest to the highest potential return.",
+      "orderItems": [
+        "Fixed deposit",
+        "Mutual fund",
+        "Shares"
+      ],
+      "explanation": "Fixed deposits give steady but relatively lower returns; mutual funds may offer higher returns; and shares have the potential to generate the highest returns over the long term.",
+      "fact": "Fixed deposits (FDs) are generally low-risk options that provide steady but relatively lower returns. Mutual funds may offer higher returns, while shares (equity) have the potential to generate the highest returns over the long term."
+    },
+    {
+      "id": "p2econ5-049",
+      "type": "mcq",
+      "topic": "Factors Before Investing",
+      "difficulty": "medium",
+      "q": "Along with risk and return, which two factors are important when deciding where to invest?",
+      "options": [
+        "Time horizon and liquidity",
+        "Income and budgeting",
+        "Debt and EMI",
+        "Premium and dividend"
+      ],
+      "answer": 0,
+      "explanation": "The chapter lists four factors to consider before investing: risk, return, time horizon, and liquidity.",
+      "fact": "When deciding where to invest money, it is important to consider four factors—risk, return, time horizon, and liquidity."
+    },
+    {
+      "id": "p2econ5-050",
+      "type": "truefalse",
+      "topic": "Risk and Return",
+      "difficulty": "easy",
+      "q": "In general, lower-risk investments tend to offer lower returns.",
+      "answer": "true",
+      "explanation": "This is the risk-return trade-off: low-risk options like fixed deposits give steady but lower returns, while higher-risk investments may offer higher returns.",
+      "fact": "In general, lower-risk investments tend to offer lower returns, while higher-risk investments may offer higher returns."
+    }
+  ]
+}

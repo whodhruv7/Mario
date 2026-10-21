@@ -1,0 +1,305 @@
+{
+  "chapterId": "econ8",
+  "fragment": "d",
+  "questions": [
+    {
+      "id": "econ8-076",
+      "type": "mcq",
+      "topic": "Mixed Economy",
+      "difficulty": "easy",
+      "q": "A mixed economy combines features of...",
+      "options": ["only planned economies", "both market and planned economies", "only market economies", "neither market nor planned economies"],
+      "answer": 1,
+      "explanation": "A mixed economy blends market and planned features — private individuals, enterprises and the government all play important economic roles.",
+      "fact": "A mixed economy combines features of both market and planned economies. In this system, private individuals, enterprises, and the government play important roles in making economic choices and decisions."
+    },
+    {
+      "id": "econ8-077",
+      "type": "mcq",
+      "topic": "Mixed Economy",
+      "difficulty": "medium",
+      "q": "Which of the following is given as an example of a mixed economy?",
+      "options": ["North Korea", "Cuba", "Sweden", "The former Soviet Union"],
+      "answer": 2,
+      "explanation": "Examples of mixed economies include India (post-1991), China (post-1978), Germany and Sweden; North Korea, Cuba and the former Soviet Union are planned economies.",
+      "fact": "A few examples of mixed economies include India (post-1991), China (post-1978), Germany, and Sweden."
+    },
+    {
+      "id": "econ8-078",
+      "type": "mcq",
+      "topic": "Economic Survey of India",
+      "difficulty": "medium",
+      "q": "The Economic Survey of India is useful for citizens because...",
+      "options": ["it explains economic data in a clear manner", "it gives free loans to readers", "it lists all government holidays", "it fixes market prices"],
+      "answer": 0,
+      "explanation": "The Survey is useful for citizens as it explains economic data in a clear manner, helping people understand how the economy is performing.",
+      "fact": "It is also useful for citizens as it explains economic data in a clear manner."
+    },
+    {
+      "id": "econ8-079",
+      "type": "mcq",
+      "topic": "Public Goods",
+      "difficulty": "easy",
+      "q": "Which of the following is a public good mentioned in the chapter?",
+      "options": ["Street lights", "Designer clothes", "Sports cars", "Jewellery"],
+      "answer": 0,
+      "explanation": "Public goods are available to all without exclusion — examples include parks, roads, police services, street lights and basic education.",
+      "fact": "The use of public goods by some people does not prevent others from using them—for example, parks, roads, police services, street lights, and basic education."
+    },
+    {
+      "id": "econ8-080",
+      "type": "mcq",
+      "topic": "Public Goods",
+      "difficulty": "easy",
+      "q": "According to the chapter, the use of public goods by some people...",
+      "options": ["prevents others from using them", "does not prevent others from using them", "raises their price immediately", "turns them into private property"],
+      "answer": 1,
+      "explanation": "Public goods are non-excludable — one person's use does not reduce or block another person's ability to use them.",
+      "fact": "The use of public goods by some people does not prevent others from using them."
+    },
+    {
+      "id": "econ8-081",
+      "type": "mcq",
+      "topic": "India's 1991 Reforms",
+      "difficulty": "medium",
+      "q": "India's economic reforms of 1991 included...",
+      "options": ["increasing excessive regulations", "nationalising all private companies", "reducing excessive regulations and encouraging private enterprise", "closing the economy to global trade"],
+      "answer": 2,
+      "explanation": "The 1991 reforms reduced excessive regulations, encouraged private enterprise, opened the economy to global trade and investment, and increased competition.",
+      "fact": "...the government introduced major economic reforms that reduced excessive regulations, encouraged private enterprise, opened the economy to global trade and investment, and increased competition."
+    },
+    {
+      "id": "econ8-082",
+      "type": "mcq",
+      "topic": "India's 1991 Reforms",
+      "difficulty": "medium",
+      "q": "In the decades after Independence, which sectors in India were dominated by the public sector?",
+      "options": ["Banking, transport and heavy industries", "Only cinema and entertainment", "Only small retail shops", "Only agriculture"],
+      "answer": 0,
+      "explanation": "After Independence, key sectors like banking, transport and heavy industries were dominated by the public sector under the state-led approach.",
+      "fact": "...many key sectors, such as banking, transport, and heavy industries were dominated by the public sector."
+    },
+    {
+      "id": "econ8-083",
+      "type": "mcq",
+      "topic": "Production Possibility Curve",
+      "difficulty": "hard",
+      "q": "Using the PPC table, when the farmer moves from combination B to combination C, how much wheat is sacrificed?",
+      "options": ["10 kg", "20 kg", "30 kg", "40 kg"],
+      "answer": 1,
+      "explanation": "Combination B has 90 kg of wheat and combination C has 70 kg, so moving from B to C sacrifices 90 minus 70, that is, 20 kg of wheat to gain more barley.",
+      "fact": "PPC table: B—25 barley, 90 wheat; C—50 barley, 70 wheat (all in kg).",
+      "hint": "Subtract the wheat at C from the wheat at B."
+    },
+    {
+      "id": "econ8-084",
+      "type": "truefalse",
+      "topic": "Mixed Economy",
+      "difficulty": "easy",
+      "q": "A mixed economy allows the existence of private ownership with some degree of government regulation.",
+      "answer": "true",
+      "explanation": "Most economies are mixed in reality — private ownership exists but is regulated by the government to some degree.",
+      "fact": "In reality, most economies have features of mixed economic systems that allow the existence of private ownership, with some degree of government regulation."
+    },
+    {
+      "id": "econ8-085",
+      "type": "truefalse",
+      "topic": "Mixed Economy",
+      "difficulty": "easy",
+      "q": "Even market economies like the United States of America and Singapore have significant government involvement in the market.",
+      "answer": "true",
+      "explanation": "The chapter notes that even market economies such as the USA and Singapore have significant government involvement, since pure systems rarely exist.",
+      "fact": "Even market economies like the United States of America and Singapore have significant government involvement in the market."
+    },
+    {
+      "id": "econ8-086",
+      "type": "truefalse",
+      "topic": "India's 1991 Reforms",
+      "difficulty": "medium",
+      "q": "In the decades after Independence, India followed a state-led approach similar to a planned economy.",
+      "answer": "true",
+      "explanation": "Post-Independence India controlled industries, allocated resources and regulated production through licenses and permits, much like a planned economy.",
+      "fact": "In the decades after Independence, India followed a more state-led approach similar to a planned economy."
+    },
+    {
+      "id": "econ8-087",
+      "type": "truefalse",
+      "topic": "Mixed Economy",
+      "difficulty": "easy",
+      "q": "China is cited in the chapter as an example of a mixed economy (post-1978).",
+      "answer": "true",
+      "explanation": "The chapter lists China (post-1978) among mixed economies, along with India (post-1991), Germany and Sweden.",
+      "fact": "A few examples of mixed economies include India (post-1991), China (post-1978), Germany, and Sweden."
+    },
+    {
+      "id": "econ8-088",
+      "type": "fillblank",
+      "topic": "India's 1991 Reforms",
+      "difficulty": "easy",
+      "q": "India introduced major economic reforms in the year ___.",
+      "answerVariants": ["1991"],
+      "explanation": "By 1991 India faced serious economic difficulties, prompting major reforms that opened up and liberalised the economy.",
+      "fact": "However, by 1991 the country faced serious economic difficulties. As a result, the government introduced major economic reforms..."
+    },
+    {
+      "id": "econ8-089",
+      "type": "fillblank",
+      "topic": "Public Goods",
+      "difficulty": "easy",
+      "q": "Goods and services that are available to all individuals without anyone being excluded are called ___ goods.",
+      "answerVariants": ["public"],
+      "explanation": "Public goods like parks, roads, police services, street lights and basic education can be used by everyone without exclusion.",
+      "fact": "Public goods: Goods and services that are available to all individuals without anyone being excluded."
+    },
+    {
+      "id": "econ8-090",
+      "type": "fillblank",
+      "topic": "India's 1991 Reforms",
+      "difficulty": "hard",
+      "q": "The 1991 reforms opened India's economy to global ___ and investment.",
+      "answerVariants": ["trade"],
+      "explanation": "The reforms opened the economy to global trade and investment, encouraging private enterprise and increasing competition.",
+      "fact": "...reforms that reduced excessive regulations, encouraged private enterprise, opened the economy to global trade and investment, and increased competition."
+    },
+    {
+      "id": "econ8-091",
+      "type": "match",
+      "topic": "Production Possibility Curve",
+      "difficulty": "hard",
+      "q": "Match each PPC combination with its correct barley and wheat output (in kg).",
+      "pairs": [
+        {"l": "Combination A", "r": "0 barley, 100 wheat"},
+        {"l": "Combination B", "r": "25 barley, 90 wheat"},
+        {"l": "Combination C", "r": "50 barley, 70 wheat"},
+        {"l": "Combination D", "r": "75 barley, 40 wheat"},
+        {"l": "Combination E", "r": "100 barley, 0 wheat"}
+      ],
+      "explanation": "The PPC runs from all-wheat (A) to all-barley (E); as barley rises step by step, wheat falls, showing the trade-off between the two crops.",
+      "fact": "PPC table: A—0 barley, 100 wheat; B—25, 90; C—50, 70; D—75, 40; E—100, 0 (all in kg).",
+      "hint": "Barley rises from 0 to 100 as you move from A to E."
+    },
+    {
+      "id": "econ8-092",
+      "type": "match",
+      "topic": "Key Economic Questions",
+      "difficulty": "medium",
+      "q": "Match each economic idea with the situation or concept it refers to.",
+      "pairs": [
+        {"l": "What to produce", "r": "Choosing between water-intensive and drought-resistant crops"},
+        {"l": "How to produce", "r": "Choosing between automation and employing more labour"},
+        {"l": "For whom to produce", "r": "Deciding which group of consumers to serve"},
+        {"l": "Scarcity", "r": "Unlimited wants facing limited resources"},
+        {"l": "Mixed economy", "r": "Private sector and government coexist in the market"}
+      ],
+      "explanation": "Each key question maps to a real decision: what to produce is the crop choice, how to produce is the technique choice, and for whom to produce is the choice of target consumers; scarcity is the underlying problem and a mixed economy answers these questions with both state and market.",
+      "fact": "The three key questions—what to produce, how to produce, and for whom to produce—arise from scarcity; mixed economies combine market and planned features."
+    },
+    {
+      "id": "econ8-093",
+      "type": "order",
+      "topic": "How to Produce",
+      "difficulty": "hard",
+      "q": "Arrange the steps a producer follows when deciding how to produce a garment.",
+      "orderItems": ["Compare the cost of machines versus labour", "Consider the level of technology available", "Consider the nature of the product, such as customised or mass-produced", "Choose between labour-intensive and capital-intensive methods"],
+      "explanation": "Producers first weigh machine and labour costs, then look at the technology available and the product's nature, before finally choosing the production technique.",
+      "fact": "The choice of the production technique employed depends on the cost of capital, choice of technology, and the nature of the product... if labour is cheap and easily available, labour-intensive methods are preferred, but if labour is costly or scarce, machines become more efficient."
+    },
+    {
+      "id": "econ8-094",
+      "type": "order",
+      "topic": "Opportunity Cost",
+      "difficulty": "medium",
+      "q": "Arrange the steps of the student's choice from the chapter's ₹100 example.",
+      "orderItems": ["A student has ₹100", "The choice is between buying a notebook and saving for a tennis racket", "The student buys the notebook", "The tennis racket becomes the opportunity cost"],
+      "explanation": "With limited money the student must choose; once the notebook is bought, the given-up tennis racket is the opportunity cost of that decision.",
+      "fact": "A student has ₹100 and must choose between buying a notebook or saving the money for buying a tennis racket later. (Chapter-end question on opportunity cost.)"
+    },
+    {
+      "id": "econ8-095",
+      "type": "multiselect",
+      "topic": "Mixed Economy",
+      "difficulty": "medium",
+      "q": "Select all correct examples of mixed economies from the chapter.",
+      "options": ["India (post-1991)", "China (post-1978)", "Germany", "North Korea"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "India (post-1991), China (post-1978), Germany and Sweden are mixed economies; North Korea is a planned economy.",
+      "fact": "A few examples of mixed economies include India (post-1991), China (post-1978), Germany, and Sweden."
+    },
+    {
+      "id": "econ8-096",
+      "type": "multiselect",
+      "topic": "India's 1991 Reforms",
+      "difficulty": "hard",
+      "q": "Select all correct features of India's 1991 economic reforms.",
+      "options": ["Reduced excessive regulations", "Encouraged private enterprise", "Opened the economy to global trade and investment", "Increased government control over all prices"],
+      "answerIndices": [0, 1, 2],
+      "explanation": "The reforms cut excessive regulation, promoted private enterprise, opened India to global trade and investment and boosted competition — they did not impose price controls.",
+      "fact": "...major economic reforms that reduced excessive regulations, encouraged private enterprise, opened the economy to global trade and investment, and increased competition."
+    },
+    {
+      "id": "econ8-097",
+      "type": "wrongstatement",
+      "topic": "Public Goods",
+      "difficulty": "medium",
+      "q": "Which of these statements about public goods is INCORRECT?",
+      "options": [
+        "Public goods are available to all individuals without anyone being excluded.",
+        "Parks, roads and street lights are examples of public goods.",
+        "Basic education is listed as a public good.",
+        "Public goods exclude people who do not pay for them."
+      ],
+      "answer": 3,
+      "explanation": "Public goods are non-excludable — they are available to all, and one person's use does not prevent others from using them.",
+      "fact": "Public goods: Goods and services that are available to all individuals without anyone being excluded. The use of public goods by some people does not prevent others from using them."
+    },
+    {
+      "id": "econ8-098",
+      "type": "wrongstatement",
+      "topic": "Mixed Economy",
+      "difficulty": "medium",
+      "q": "Which of these statements about the mixed economy is INCORRECT?",
+      "options": [
+        "In a mixed economy, private individuals, enterprises and the government play important roles in making economic choices.",
+        "Large public sector companies play an important role in the market in a mixed economy.",
+        "Almost all economies in the real world are mixed.",
+        "In a mixed economy, the government owns every business."
+      ],
+      "answer": 3,
+      "explanation": "A mixed economy keeps private ownership alongside a public sector; the government regulates private players but does not own every business.",
+      "fact": "In this system, private individuals, enterprises, and the government play important roles in making economic choices and decisions. We also find large public sector companies... Almost all economies are mixed."
+    },
+    {
+      "id": "econ8-099",
+      "type": "assertion",
+      "topic": "Mixed Economy",
+      "difficulty": "medium",
+      "q": "Assertion (A): India (post-1991) is an example of a mixed economy.\nReason (R): After the 1991 reforms, India moved towards a market-oriented system while still retaining an important role for the government.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true and R explains A — retaining a government role while encouraging private enterprise and markets is exactly what makes post-1991 India a mixed economy.",
+      "fact": "These reforms gradually shifted India towards a more market-oriented system while still retaining an important role for the government."
+    },
+    {
+      "id": "econ8-100",
+      "type": "assertion",
+      "topic": "Mixed Economy",
+      "difficulty": "hard",
+      "q": "Assertion (A): Most economies in the world are mixed economies.\nReason (R): The former Soviet Union, North Korea and Cuba are examples of planned economies.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both statements are true, but R does not explain A — examples of planned economies do not explain why most economies are mixed; that is because most combine private ownership with government regulation.",
+      "fact": "In reality, most economies have features of mixed economic systems... Some examples of planned economies are the former Soviet Union, North Korea, and Cuba.",
+      "hint": "Does knowing some planned economies tell us why most economies are mixed?"
+    }
+  ]
+}

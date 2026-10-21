@@ -1,0 +1,297 @@
+{
+  "chapterId": "p2hist3",
+  "fragment": "d",
+  "questions": [
+    {
+      "id": "p2hist3-076",
+      "type": "truefalse",
+      "topic": "Jat Resistance",
+      "difficulty": "medium",
+      "q": "The Jat rebellion of 1669 was led by the zamindars of Sinsani and Sogar.",
+      "answer": "false",
+      "explanation": "The 1669 rebellion was led by Gokul Jat. The zamindars of Sinsani and Sogar led the second rebellion of 1686, taking advantage of Aurangzeb's prolonged military campaigns in the Deccan.",
+      "fact": "In 1686, the Jats rebelled once again under the leadership of the zamindars of Sinsani and Sogar."
+    },
+    {
+      "id": "p2hist3-077",
+      "type": "fillblank",
+      "topic": "Chaitanya Mahaprabhu",
+      "difficulty": "medium",
+      "q": "Chaitanya Mahaprabhu led public ___ in Bengal to protest against restrictions imposed by a Qazi on devotional practices.",
+      "answerVariants": ["sankirtan", "sankīrtan", "san kirtan", "kirtan"],
+      "explanation": "Chaitanya Mahaprabhu led public sankīrtan (community singing) in Bengal to protest against the Qazi's restrictions — in some instances, community singing itself became an act of defiance.",
+      "fact": "Chaitanya Mahaprabhu led public sankīrtan in Bengal to protest against restrictions imposed by a Qazi on devotional practices."
+    },
+    {
+      "id": "p2hist3-078",
+      "type": "truefalse",
+      "topic": "Women Bhakti Saints",
+      "difficulty": "medium",
+      "q": "Akkā Mahādevi and Lāl Ded, both Shaivites, renounced worldly comforts and lived as ascetics.",
+      "answer": "true",
+      "explanation": "Akkā Mahādevi (from present-day Karnataka) and Lāl Ded (from present-day Kashmir) renounced worldly comforts and attachments, living as ascetics. In contrast, Bahinābāi of Maharashtra fulfilled her familial duties while following devotion to Vithoba.",
+      "fact": "Akkā Mahādevi and Lāl Ded, both Shaivites, renounced worldly comforts and attachments, living as ascetics."
+    },
+    {
+      "id": "p2hist3-079",
+      "type": "truefalse",
+      "topic": "Bhakti Streams",
+      "difficulty": "medium",
+      "q": "Nirguṇa bhakti is centred on a divine with attributes.",
+      "answer": "false",
+      "explanation": "Nirguṇa bhakti is devoted to a formless divine, while Saguṇa bhakti is centred on a divine with attributes. These were the two broad streams of the Bhakti tradition.",
+      "fact": "The tradition developed into two broad streams—Nirguṇa bhakti, devoted to a formless divine, and Saguṇa bhakti, centred on a divine with attributes."
+    },
+    {
+      "id": "p2hist3-080",
+      "type": "match",
+      "topic": "Bhakti Saints and Works",
+      "difficulty": "medium",
+      "q": "Match each Bhakti saint with their well-known composition or language.",
+      "pairs": [
+        {"l": "Tulsīdās", "r": "Rāmcharitmānas in Awadhi"},
+        {"l": "Atukuri Molla", "r": "Rāmāyaṇa in Telugu"},
+        {"l": "Sankardev", "r": "Kīrtana Ghosha"},
+        {"l": "Eknāth", "r": "Devotional compositions in Marathi"},
+        {"l": "Raskhān", "r": "Prem Vāṭikā in Braj"}
+      ],
+      "explanation": "Tulsīdās composed the Rāmcharitmānas in Awadhi, Atukuri Molla composed the Rāmāyaṇa in Telugu, Sankardev composed the Kīrtana Ghosha, Eknāth composed in Marathi, and Raskhān wrote works like the Prem Vāṭikā in Braj.",
+      "fact": "Tulsidas composed the Rāmcharitmānas in Awadhi; Molla composed the Rāmāyaṇa in Telugu; Sankardev composed the Kīrtana Ghosha; Eknāth composed in Marathi; Raskhān wrote Prem Vāṭikā."
+    },
+    {
+      "id": "p2hist3-081",
+      "type": "assertion",
+      "topic": "Bhakti Resilience",
+      "difficulty": "medium",
+      "q": "Assertion (A): The Bhakti tradition could continue even when temples were destroyed or their construction was restricted.\nReason (R): Devotees could turn to non-material worship such as nām kīrtan, the recitation of the divine Name.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 0,
+      "explanation": "When the construction of temples faced restrictions or temples were destroyed, devotees turned to non-material forms of worship like nām kīrtan, making devotional practice less dependent on physical structures — so R explains A.",
+      "fact": "Devotees could turn to non-material forms of worship, such as nām kīrtan, making devotional practice less dependent on physical structures that could be destroyed."
+    },
+    {
+      "id": "p2hist3-082",
+      "type": "truefalse",
+      "topic": "Origins of Sufism",
+      "difficulty": "medium",
+      "q": "Sufism emerged in West Asia as a spiritual response to the worldly orientation of some Ulema and the orthodoxy of Shariat.",
+      "answer": "true",
+      "explanation": "Sufism, a mystical dimension of Islam with a comparatively liberal outlook, emerged in West Asia as a spiritual response to the worldly orientation of some Ulema (Islamic theologians and jurists) and the orthodoxy of Shariat.",
+      "fact": "Sufism emerged in West Asia as a form of spiritual response to the worldly orientation of some Ulema and the orthodoxy of Shariat."
+    },
+    {
+      "id": "p2hist3-083",
+      "type": "wrongstatement",
+      "topic": "Sufi Orders",
+      "difficulty": "hard",
+      "q": "Which of these statements about Sufism is INCORRECT?",
+      "options": ["Sufism began to expand in the subcontinent only after the arrival of the Europeans", "Sufism was a mystical dimension of Islam with a comparatively liberal outlook", "Sufi khanqahs (hospices) and shrines developed as centres of popular religious life", "Sufis contributed to the spread of Islam"],
+      "answer": 0,
+      "explanation": "Sufism began to expand in the subcontinent with the arrival of the Turks, long before the Europeans arrived. The other three statements are correct.",
+      "fact": "Sufism began to expand in the subcontinent with the arrival of the Turks."
+    },
+    {
+      "id": "p2hist3-084",
+      "type": "match",
+      "topic": "Sufi Terminology",
+      "difficulty": "hard",
+      "q": "Match each Sufi term with its correct meaning.",
+      "pairs": [
+        {"l": "Silsilah", "r": "A Sufi order"},
+        {"l": "Khanqah", "r": "A Sufi hospice"},
+        {"l": "Habs-i-dam", "r": "Persian name for the yogic practice of prāṇāyāma"},
+        {"l": "Ulema", "r": "Islamic theologians and jurists"},
+        {"l": "Chishtī and Suhrawardi orders", "r": "Became prominent during the Delhi Sultanate"}
+      ],
+      "explanation": "A silsilah is a Sufi order, a khanqah is a Sufi hospice, habs-i-dam is the Persian name for the yogic practice of prāṇāyāma, the Ulema are Islamic theologians and jurists, and the Chishtī and Suhrawardi orders became prominent during the Delhi Sultanate.",
+      "fact": "Sufism spread through orders called silsilahs; khanqahs were hospices; habs-i-dam is prāṇāyāma in Persian; the Chishti and Suhrawardi orders became prominent during the Delhi Sultanate."
+    },
+    {
+      "id": "p2hist3-085",
+      "type": "mcq",
+      "topic": "Sulh-i-Kul Policy",
+      "difficulty": "easy",
+      "q": "The philosophy of Sulh-i-kul, adopted as state policy in the later part of Akbar's reign, stands for what idea?",
+      "options": ["Eternal war against invaders", "Worship of the Sun alone", "'Peace with all' or universal toleration", "The divine right of kings"],
+      "answer": 2,
+      "explanation": "Sulh-i-kul represented 'peace with all', 'universal toleration' or 'absolute peace'. It appears to have been intended to secure the support of political powers other than Muslims.",
+      "fact": "The philosophy of Sulh-i-kul represented 'peace with all', 'universal toleration', or 'absolute peace'."
+    },
+    {
+      "id": "p2hist3-086",
+      "type": "mcq",
+      "topic": "Agrarian Economy",
+      "difficulty": "hard",
+      "q": "During the reigns of Alauddin Khiljī and Mohammad bin Tughlaq, the land tax was raised to as much as what share of total agricultural production?",
+      "options": ["10 per cent", "25 per cent", "50 per cent", "75 per cent"],
+      "answer": 2,
+      "explanation": "During the reigns of Alauddin Khiljī and Mohammad bin Tughlaq, the land tax was raised to as much as 50 per cent of total agricultural production, in addition to other taxes.",
+      "fact": "The land tax was raised to as much as 50 per cent of total agricultural production, in addition to other taxes."
+    },
+    {
+      "id": "p2hist3-087",
+      "type": "multiselect",
+      "topic": "Temple Institutions",
+      "difficulty": "medium",
+      "q": "Select all correct functions of temples described in the chapter.",
+      "options": ["Economic hubs managing extensive land grants", "Training academies for the imperial cavalry", "Centres of education and culture", "Quasi-judicial authority collecting local taxes and administering legal penalties"],
+      "answerIndices": [0, 2, 3],
+      "explanation": "Temples evolved into major economic hubs managing land grants, served as centres of education and culture where art forms like Bharatanatyam were preserved, and exercised quasi-judicial authority — but they were not cavalry training academies.",
+      "fact": "Temples evolved into major economic hubs, served as centres of education and culture, and exercised quasi-judicial authority, collecting local taxes and administering legal penalties."
+    },
+    {
+      "id": "p2hist3-088",
+      "type": "match",
+      "topic": "Temple Patrons",
+      "difficulty": "hard",
+      "q": "Match each temple with its patron or builder mentioned in the chapter.",
+      "pairs": [
+        {"l": "Jagat Shiromani Temple, Amer", "r": "Queen Kanakwati"},
+        {"l": "Govind Devji Temple, Vrindavan", "r": "Rājā Mān Singh"},
+        {"l": "Keshav Dev Temple, Mathura", "r": "Bundela king Vīr Singh"},
+        {"l": "Present Kashi Vishwanath Temple", "r": "Ahilyābāī Holkar"},
+        {"l": "Jagdish Temple, Udaipur", "r": "Jagat Singh"}
+      ],
+      "explanation": "Queen Kanakwati built the Jagat Shiromani Temple in Amer, Rājā Mān Singh patronised the Govind Devji Temple at Vrindavan, Bundela king Vīr Singh patronised the Keshav Dev Temple at Mathura, Ahilyābāī Holkar built the present Kashi Vishwanath Temple in 1780, and Jagat Singh built the Jagdish temple in Udaipur.",
+      "fact": "The Jagat Shiromani Temple was built by Queen Kanakwati; the Govind Devji Temple by Rājā Mān Singh; the Keshav Dev Temple by Vīr Singh; the present Kashi Vishwanath Temple by Ahilyābāī Holkar in 1780; the Jagdish temple by Jagat Singh."
+    },
+    {
+      "id": "p2hist3-089",
+      "type": "truefalse",
+      "topic": "Inland Trade",
+      "difficulty": "easy",
+      "q": "Banjārās were local trading communities who played a crucial role in connecting rural regions with urban centres.",
+      "answer": "true",
+      "explanation": "Local trading communities such as the banjārās, along with revenue-collecting officials, played a crucial role in connecting rural regions with urban centres as inland trade networks expanded alongside urban growth.",
+      "fact": "Local trading communities such as the banjārās played a crucial role in connecting rural regions with urban centres."
+    },
+    {
+      "id": "p2hist3-090",
+      "type": "assertion",
+      "topic": "Temple Restoration",
+      "difficulty": "hard",
+      "q": "Assertion (A): Local rulers, merchant guilds, and religious communities restored temples even as many sacred sites were destroyed.\nReason (R): From the 12th century onwards, mosques were sometimes constructed on the sites of destroyed temples.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 1,
+      "explanation": "Both statements are true, but R describes what happened to destroyed temple sites — it does not explain why local rulers, merchant guilds and religious communities actively maintained and restored temples, which allowed sacred centres to continue functioning.",
+      "fact": "Local rulers, merchant guilds, and religious communities actively maintained and restored temples during this period, allowing sacred centres to continue functioning."
+    },
+    {
+      "id": "p2hist3-091",
+      "type": "wrongstatement",
+      "topic": "Indian Economy",
+      "difficulty": "medium",
+      "q": "Which of these statements about the Indian economy is INCORRECT?",
+      "options": ["The main source of state income was land revenue", "Coastal commerce remained largely in the hands of regional power holders and local communities", "The Sultans of Delhi and the Mughals personally conducted most of India's maritime trade", "Irrigation technologies like rope pulleys and the Persian wheel enhanced agricultural output"],
+      "answer": 2,
+      "explanation": "The Sultans of Delhi, and later the Mughals, had only a limited role in maritime trade — their concerns about coastal areas were largely confined to political and military matters and the collection of customs duties. The other statements are correct.",
+      "fact": "The Sultans of Delhi, and later the Mughals, had limited role in maritime trade."
+    },
+    {
+      "id": "p2hist3-092",
+      "type": "fillblank",
+      "topic": "Hundi System",
+      "difficulty": "easy",
+      "q": "The financial instrument that functioned as a bill of exchange, comparable in some respects to modern bank cheques, was the ___.",
+      "answerVariants": ["hundi", "hunḍī", "hundee"],
+      "explanation": "The hunḍī was widely used as a bill of exchange, facilitating large-scale commercial transactions without the need to carry large amounts of currency, and served as a trusted means of secured long-distance remittance.",
+      "fact": "Hunḍī was widely used as a financial instrument and can be compared in some respects to modern bank cheques."
+    },
+    {
+      "id": "p2hist3-093",
+      "type": "fillblank",
+      "topic": "Amukthamalyada of Krishnadevaraya",
+      "difficulty": "hard",
+      "q": "Kṛiṣhṇadevarāya emphasised the importance of oceanic trade and the maintenance of ports in his work ___.",
+      "answerVariants": ["Amukthamalyada", "Amukthamalada", "Amuktamalyada", "Amukthamālyadā"],
+      "explanation": "In his Amukthamālyadā, the Vijayanagara ruler Kṛiṣhṇadevarāya emphasised the importance of oceanic trade, maintenance of ports, and fair treatment of foreign traders.",
+      "fact": "Kṛiṣhṇadevarāya greatly emphasised in his Amukthamālyadā the importance of oceanic trade, maintenance of ports, and fair treatment of foreign traders."
+    },
+    {
+      "id": "p2hist3-094",
+      "type": "multiselect",
+      "topic": "Indian Merchants",
+      "difficulty": "medium",
+      "q": "Select all correct roles in which Indian merchants functioned.",
+      "options": ["Traders and shippers", "Exclusively landowning zamindars", "Bankers and money-changers", "Diplomats and bureaucrats"],
+      "answerIndices": [0, 2, 3],
+      "explanation": "Indian merchants functioned as traders, shippers, bankers, money-changers, brokers, dubhāshīs (interpreters and translators), diplomats, and bureaucrats — their activities were not limited to landholding.",
+      "fact": "Indian merchants functioned as traders, shippers, bankers, money-changers, brokers, dubhaśhīs (interpreters and translators), diplomats, and bureaucrats."
+    },
+    {
+      "id": "p2hist3-095",
+      "type": "multiselect",
+      "topic": "Indian Ocean Trade",
+      "difficulty": "medium",
+      "q": "Select all correct merchant communities with a huge presence in the Indian Ocean trading network before the 15th century.",
+      "options": ["Arab merchants", "Chinese merchants", "European trading companies", "Indian merchants"],
+      "answerIndices": [0, 1, 3],
+      "explanation": "Before the 15th century, the Indian Ocean trading network had a huge presence of Arab, Chinese, and Indian merchants. European trading companies became involved only in later centuries.",
+      "fact": "Before the 15th century, the Indian Ocean trading network had a huge presence of Arab, Chinese, and Indian merchants."
+    },
+    {
+      "id": "p2hist3-096",
+      "type": "order",
+      "topic": "European Trading Companies",
+      "difficulty": "medium",
+      "q": "Arrange these in the correct chronological order of their arrival or formation.",
+      "orderItems": [
+        "Arrival of the Portuguese for trading ventures",
+        "Formation of the English East India Company (1600)",
+        "Formation of the Dutch East India Company (VOC) (1602)",
+        "Formation of the French East India Company (1664)"
+      ],
+      "explanation": "The Portuguese arrived first, around the turn of the 16th century; then came the English East India Company (1600), the Dutch VOC (1602), and finally the French East India Company (1664).",
+      "fact": "The Portuguese came first; 1600: English East India Company; 1602: Dutch East India Company (VOC); 1664: French East India Company."
+    },
+    {
+      "id": "p2hist3-097",
+      "type": "assertion",
+      "topic": "Economic Resilience",
+      "difficulty": "hard",
+      "q": "Assertion (A): Between 1000 and 1700 CE, the Indian economy remained dynamic despite frequent invasions and unrest.\nReason (R): Economic strength gave people the resources they needed to resist politically and culturally.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 1,
+      "explanation": "Both statements are true, but R explains why economic strength mattered for resistance — it does not explain why the economy stayed dynamic. That dynamism came from agricultural innovations, irrigation, markets, merchant groups, the hunḍī and India's position in Indian Ocean trade.",
+      "fact": "The Indian economy remained dynamic, driven by agricultural innovations, irrigation, markets, merchant groups, the hunḍī, and Indian Ocean trade; this strength gave people resources to resist."
+    },
+    {
+      "id": "p2hist3-098",
+      "type": "assertion",
+      "topic": "European Arrival",
+      "difficulty": "hard",
+      "q": "Assertion (A): The Portuguese and the Mughals entered an empty economic system in India.\nReason (R): They entered an already established economic system in which local institutions and networks played a crucial role.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 3,
+      "explanation": "A is false but R is true — the Europeans, particularly the Portuguese, and the Mughals entered an already established economic system in which local institutions and networks played a crucial role, not an empty one.",
+      "fact": "The Europeans, particularly the Portuguese, and the Mughals entered an already established economic system in which local institutions and networks played a crucial role."
+    },
+    {
+      "id": "p2hist3-099",
+      "type": "mcq",
+      "topic": "Gujarati Merchants",
+      "difficulty": "medium",
+      "q": "In the changing commercial order of the Indian Ocean trade, which merchant group emerged as a significant beneficiary?",
+      "options": ["Bhutia traders of the Himalayas", "European wool merchants", "Gujarati merchants", "Central Asian horse traders only"],
+      "answer": 2,
+      "explanation": "In the centuries after the European arrival, Gujarati merchants in particular emerged as significant beneficiaries of the changing commercial order, alongside merchant groups flourishing in Malabar, Coromandel and Bengal.",
+      "fact": "Gujarati merchants in particular emerged as significant beneficiaries of the changing commercial order."
+    },
+    {
+      "id": "p2hist3-100",
+      "type": "match",
+      "topic": "Trade Terminology",
+      "difficulty": "medium",
+      "q": "Match each term from the world of trade with its correct meaning.",
+      "pairs": [
+        {"l": "Sarrāfs", "r": "Money-changers who operated the hunḍī"},
+        {"l": "Gumasthas", "r": "Agents of the money-changers"},
+        {"l": "Caravans", "r": "Large groups of traders carrying goods overland"},
+        {"l": "Dubhāshīs", "r": "Interpreters and translators"},
+        {"l": "Vellalār", "r": "Agriculturists and pastoralists who joined ocean trade"}
+      ],
+      "explanation": "Sarrāfs were money-changers, gumasthas were their agents, caravans were large groups of traders carrying goods overland, dubhāshīs were interpreters and translators, and the vellalār, traditionally agriculturists and pastoralists, participated in the Indian Ocean trading network.",
+      "fact": "Hunḍīs were operated through networks of money-changers known as sarrāfs and their agents, called gumasthas; caravans carried goods inland; dubhaśhīs were interpreters; the vellalār joined the trading network."
+    }
+  ]
+}

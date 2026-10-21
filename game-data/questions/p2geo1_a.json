@@ -1,0 +1,398 @@
+{
+  "chapterId": "p2geo1",
+  "fragment": "a",
+  "questions": [
+    {
+      "id": "p2geo1-001",
+      "type": "mcq",
+      "topic": "Ocean relief",
+      "difficulty": "easy",
+      "q": "Which of the following is the deepest place on Earth?",
+      "options": [
+        "Mid-Ocean Ridge",
+        "Mariana Trench",
+        "Abyssal Plain",
+        "Continental Shelf"
+      ],
+      "answer": 1,
+      "explanation": "The Mariana Trench in the Pacific Ocean is the deepest place on Earth. It is one of the submarine relief features of the ocean floor.",
+      "fact": "The Mariana Trench in the Pacific Ocean is the deepest place on Earth.",
+      "hint": "Think of the deepest parts of the ocean, called trenches."
+    },
+    {
+      "id": "p2geo1-002",
+      "type": "truefalse",
+      "topic": "Ocean motion",
+      "difficulty": "easy",
+      "q": "The water in the oceans is constantly in motion.",
+      "answer": "true",
+      "explanation": "Ocean water is always moving through waves, tides and currents. These movements shape climate, support marine life and impact travel.",
+      "fact": "Ocean water is always in motion; waves, tides and currents shape our climate, support marine life and impact travel."
+    },
+    {
+      "id": "p2geo1-003",
+      "type": "mcq",
+      "topic": "Mid-Ocean Ridge",
+      "difficulty": "easy",
+      "q": "Which is the world's longest mountain range?",
+      "options": [
+        "The Andes",
+        "The Himalaya",
+        "Mid-Ocean Ridge",
+        "The Alps"
+      ],
+      "answer": 2,
+      "explanation": "The Mid-Ocean Ridge, an immense underwater mountain range formed by volcanic activity, is the world's longest mountain range and is hidden beneath the ocean.",
+      "fact": "The Mid-Ocean Ridge is the world's longest mountain range, hidden beneath the ocean."
+    },
+    {
+      "id": "p2geo1-004",
+      "type": "fillblank",
+      "topic": "Ocean in Indian culture",
+      "difficulty": "easy",
+      "q": "In Indian culture, the ocean is commonly called ___, and is considered powerful and sacred.",
+      "answerVariants": [
+        "Samudra",
+        "samudra"
+      ],
+      "explanation": "In Indian culture, the ocean is commonly called Samudra. It is considered powerful and sacred, and features prominently in stories and rituals.",
+      "fact": "In Indian culture, the ocean—commonly called Samudra—is considered powerful and sacred."
+    },
+    {
+      "id": "p2geo1-005",
+      "type": "mcq",
+      "topic": "Continental shelf",
+      "difficulty": "easy",
+      "q": "Which submarine relief feature is rich in marine life and resources like oil and gas?",
+      "options": [
+        "Mid-Ocean Ridge",
+        "Ocean Trench",
+        "Abyssal Plain",
+        "Continental Shelf"
+      ],
+      "answer": 3,
+      "explanation": "The continental shelf is the submerged, shallow edge of a continent that extends under the ocean. Being shallow and close to land, it is rich in marine life and resources such as oil and gas.",
+      "fact": "The Continental Shelf is the submerged, shallow edge of a continent; it is rich in marine life and resources like oil and gas."
+    },
+    {
+      "id": "p2geo1-006",
+      "type": "match",
+      "topic": "Submarine relief features",
+      "difficulty": "medium",
+      "q": "Match each submarine relief feature with its correct description.",
+      "pairs": [
+        {
+          "l": "Continental Shelf",
+          "r": "The submerged, shallow edge of a continent extending under the ocean"
+        },
+        {
+          "l": "Continental Slope",
+          "r": "The steep slope marking the true edge of a continent"
+        },
+        {
+          "l": "Abyssal Plain",
+          "r": "The vast, flat and deep ocean floor"
+        },
+        {
+          "l": "Mid-Ocean Ridge",
+          "r": "An immense underwater mountain range formed by volcanic activity"
+        },
+        {
+          "l": "Ocean Trench",
+          "r": "The deepest parts of the ocean"
+        }
+      ],
+      "explanation": "The ocean floor is a hidden landscape: the shelf is the shallow submerged edge, the slope is its steep drop, the abyssal plain is the vast deep floor, the mid-ocean ridge is a volcanic mountain range, and trenches are the deepest parts.",
+      "fact": "Important submarine relief features include the continental shelf, continental slope, abyssal plain, mid-ocean ridge and ocean trenches."
+    },
+    {
+      "id": "p2geo1-007",
+      "type": "truefalse",
+      "topic": "Submarine relief",
+      "difficulty": "easy",
+      "q": "Submarine relief includes underwater mountains, valleys, plateaus and trenches.",
+      "answer": "true",
+      "explanation": "Just as land has mountains, valleys and plains, the ocean floor has several landforms together known as submarine relief or ocean relief, including underwater mountains, valleys, plateaus and trenches.",
+      "fact": "The ocean floor has several landforms, together known as submarine relief or ocean relief."
+    },
+    {
+      "id": "p2geo1-008",
+      "type": "order",
+      "topic": "Ocean floor zones",
+      "difficulty": "medium",
+      "q": "Arrange these submarine relief features as you move from the coast towards the deepest ocean floor.",
+      "orderItems": [
+        "Continental shelf",
+        "Continental slope",
+        "Abyssal plain",
+        "Ocean trench"
+      ],
+      "explanation": "From the coast, you first cross the shallow continental shelf, then the steep continental slope, then the vast deep abyssal plain, and finally reach the ocean trench, the deepest part.",
+      "fact": "The continental shelf is the shallow edge, the slope marks the continent's true edge, the abyssal plain is the deep flat floor, and trenches are the deepest parts.",
+      "hint": "Start with the feature closest to land."
+    },
+    {
+      "id": "p2geo1-009",
+      "type": "mcq",
+      "topic": "Guyot",
+      "difficulty": "medium",
+      "q": "What is a guyot?",
+      "options": [
+        "A flat-topped underwater mountain, usually a former seamount whose summit was eroded",
+        "An underwater mountain that rises above the sea surface",
+        "The deepest part of the ocean",
+        "A steep slope at the edge of a continent"
+      ],
+      "answer": 0,
+      "explanation": "A guyot is a flat-topped underwater mountain, usually a former seamount whose summit was eroded by wave action and later submerged.",
+      "fact": "A guyot is a flat-topped underwater mountain, usually a former seamount whose summit was eroded and later submerged."
+    },
+    {
+      "id": "p2geo1-010",
+      "type": "truefalse",
+      "topic": "Underwater mountains",
+      "difficulty": "easy",
+      "q": "Some underwater mountains like Mauna Kea in Hawai'i are even taller than Mount Everest.",
+      "answer": "true",
+      "explanation": "Mauna Kea in Hawai'i is an underwater mountain that is even taller than Mount Everest, showing how dramatic submarine relief can be.",
+      "fact": "Some underwater mountains like Mauna Kea (Hawai'i) are even taller than Mount Everest."
+    },
+    {
+      "id": "p2geo1-011",
+      "type": "mcq",
+      "topic": "Waves",
+      "difficulty": "easy",
+      "q": "Waves are primarily caused by...",
+      "options": [
+        "underwater earthquakes",
+        "the gravitational pull of the Moon",
+        "winds blowing across the water",
+        "ocean currents"
+      ],
+      "answer": 2,
+      "explanation": "When the surface of the ocean rises and falls alternately, it is called a wave. Waves are primarily caused by winds blowing across the water and carry energy across the oceans over long distances.",
+      "fact": "Waves are primarily caused by winds blowing across the water."
+    },
+    {
+      "id": "p2geo1-012",
+      "type": "match",
+      "topic": "Wave anatomy",
+      "difficulty": "medium",
+      "q": "Match each wave term with its correct meaning.",
+      "pairs": [
+        {
+          "l": "Crest",
+          "r": "The high peak of a wave"
+        },
+        {
+          "l": "Trough",
+          "r": "The lower valley of a wave"
+        },
+        {
+          "l": "Wavelength",
+          "r": "Horizontal distance between two consecutive crests or troughs"
+        },
+        {
+          "l": "Wave frequency",
+          "r": "The number of wave crests passing a point each second"
+        },
+        {
+          "l": "Wave period",
+          "r": "The time required for a wave crest to travel from one point to another"
+        }
+      ],
+      "explanation": "A wave has crests (high peaks) and troughs (lower valleys). The wavelength is the distance between consecutive crests or troughs, frequency counts crests passing a point each second, and the period is the time for a crest to move from one point to another.",
+      "fact": "Waves have crests (high peaks), troughs (lower valleys), wavelength, frequency and period."
+    },
+    {
+      "id": "p2geo1-013",
+      "type": "fillblank",
+      "topic": "Hydraulic action",
+      "difficulty": "hard",
+      "q": "The erosion of rock and soil caused by the force of moving water, which loosens and removes material, is called ___ ___.",
+      "answerVariants": [
+        "hydraulic action",
+        "hydraulic"
+      ],
+      "explanation": "Hydraulic action is the erosion of rock and soil caused by the force of moving water, which loosens and removes material. It opens cracks in headlands that waves later turn into caves.",
+      "fact": "Hydraulic action is the erosion of rock and soil caused by the force of moving water.",
+      "hint": "The name comes from the force of water itself."
+    },
+    {
+      "id": "p2geo1-014",
+      "type": "mcq",
+      "topic": "Wave landforms",
+      "difficulty": "medium",
+      "q": "Which of these is an erosional landform created by wave action?",
+      "options": [
+        "Coral island",
+        "Beach",
+        "Delta",
+        "Sea arch"
+      ],
+      "answer": 3,
+      "explanation": "Wave action creates erosional features such as sea cracks, caves, arches, sea stacks and stumps. Beaches, in contrast, are depositional landforms formed by waves.",
+      "fact": "Wave action creates erosional features such as sea cracks, caves, arches, sea stacks and stumps."
+    },
+    {
+      "id": "p2geo1-015",
+      "type": "wrongstatement",
+      "topic": "Waves",
+      "difficulty": "easy",
+      "q": "Which of these statements about waves is INCORRECT?",
+      "options": [
+        "During storms, strong winds can generate huge waves that damage coastlines.",
+        "Waves only erode the coast and never deposit sediments.",
+        "Tidal ranges in some ports can reach 4-5 metres.",
+        "Waves, tides and currents help shape the Earth's surface and influence climate."
+      ],
+      "answer": 1,
+      "explanation": "Waves both erode and deposit: they form erosional features like caves and arches, and depositional features such as beaches. So waves do not only erode.",
+      "fact": "Waves shape the shoreline through erosion and sediment transport, forming both erosional and depositional landforms such as beaches."
+    },
+    {
+      "id": "p2geo1-016",
+      "type": "order",
+      "topic": "Coastal erosion sequence",
+      "difficulty": "medium",
+      "q": "Arrange the stages in the formation of erosional landforms by waves, from the first stage to the last.",
+      "orderItems": [
+        "A large crack opens up in the headland by hydraulic action",
+        "The crack grows into a sea cave",
+        "The back of the cave is eroded through to form a sea arch",
+        "The top of the arch collapses, leaving a sea stack",
+        "The stack is eroded and weathered into a stump"
+      ],
+      "explanation": "Waves first open a crack by hydraulic action, then turn it into a cave, erode through the back to form an arch, the arch top collapses to leave a stack, and finally the stack weathers into a stump.",
+      "fact": "Wave erosion forms sea cracks, then caves, then arches; the arch collapses leaving a stack, which weathers into a stump."
+    },
+    {
+      "id": "p2geo1-017",
+      "type": "mcq",
+      "topic": "Tsunamis",
+      "difficulty": "easy",
+      "q": "Tsunamis are giant waves that are majorly caused by...",
+      "options": [
+        "underwater earthquakes",
+        "strong winds",
+        "the gravitational pull of the Moon",
+        "heavy rain"
+      ],
+      "answer": 0,
+      "explanation": "Tsunamis are giant waves majorly caused by underwater earthquakes. They can be extremely destructive when they reach the shore.",
+      "fact": "The giant waves majorly caused by underwater earthquakes are called tsunamis."
+    },
+    {
+      "id": "p2geo1-018",
+      "type": "fillblank",
+      "topic": "Tsunami run-up height",
+      "difficulty": "medium",
+      "q": "On reaching the shore, tsunamis may attain a maximum vertical height above sea level, known as the run-up height, of up to ___ metres.",
+      "answerVariants": [
+        "30",
+        "thirty"
+      ],
+      "explanation": "The run-up height is the maximum vertical height a tsunami reaches above sea level on hitting the shore. It can be up to 30 metres, or even more in extreme cases.",
+      "fact": "Tsunamis may attain a run-up height of up to 30 metres, or even more in extreme cases."
+    },
+    {
+      "id": "p2geo1-019",
+      "type": "truefalse",
+      "topic": "Tides",
+      "difficulty": "easy",
+      "q": "Tides are the rhythmic rise and fall of ocean water that occur twice a day in most parts of the world.",
+      "answer": "true",
+      "explanation": "Tides are the rhythmic rise and fall of ocean water that occur twice a day in most parts of the world, with high tide (flood tide) and low tide (ebb tide).",
+      "fact": "Tides are the rhythmic rise and fall of ocean water that occur twice a day in most parts of the world."
+    },
+    {
+      "id": "p2geo1-020",
+      "type": "fillblank",
+      "topic": "Tides",
+      "difficulty": "easy",
+      "q": "When ocean water rises to its highest level and covers much of the shore, it is called high tide or ___ tide.",
+      "answerVariants": [
+        "flood",
+        "Flood"
+      ],
+      "explanation": "The highest water level, when water covers much of the shore, is called high tide or flood tide. When water falls to its lowest level, it is called low tide or ebb tide.",
+      "fact": "When the water rises to its highest level it is called high tide (flood tide); when it falls to its lowest level it is called low tide (ebb tide)."
+    },
+    {
+      "id": "p2geo1-021",
+      "type": "mcq",
+      "topic": "Spring tides",
+      "difficulty": "medium",
+      "q": "When the Sun, the Earth and the Moon are aligned in a straight line, which tides occur?",
+      "options": [
+        "Neap tides",
+        "Spring tides",
+        "Flood tides only",
+        "Ebb tides only"
+      ],
+      "answer": 1,
+      "explanation": "When the Sun, the Earth and the Moon are aligned in a straight line, the combined gravitational pull of the Sun and the Moon causes spring tides, with unusually high high-tides and unusually low low-tides.",
+      "fact": "Spring tides occur when the Sun, the Earth and the Moon are aligned in a straight line.",
+      "hint": "These tides happen on full moon and new moon days."
+    },
+    {
+      "id": "p2geo1-022",
+      "type": "mcq",
+      "topic": "Neap tides",
+      "difficulty": "hard",
+      "q": "Why does the difference between high tide and low tide become smaller during neap tides?",
+      "options": [
+        "The Sun moves closer to the Earth",
+        "The gravitational pull of the Sun and the Moon acts in the same direction",
+        "The Moon stops pulling the ocean water",
+        "The gravitational pull of the Sun and the Moon acts in different directions"
+      ],
+      "answer": 3,
+      "explanation": "During neap tides, the gravitational pull of the Sun and the Moon acts in different directions. As a result, the difference between high tide and low tide becomes smaller.",
+      "fact": "During neap tides, the gravitational pull of the Sun and the Moon acts in different directions, so the difference between high and low tide becomes smaller.",
+      "hint": "This happens when the Moon is in its quarter phases."
+    },
+    {
+      "id": "p2geo1-023",
+      "type": "wrongstatement",
+      "topic": "Spring and neap tides",
+      "difficulty": "hard",
+      "q": "Which of these statements about spring and neap tides is INCORRECT?",
+      "options": [
+        "During neap tides, the difference between high and low tides is the largest.",
+        "During spring tides, the combined gravitational pull of the Sun and the Moon causes unusually high tides.",
+        "Neap tides occur when the Moon is in its first- and third-quarter phases.",
+        "Spring tides occur on full moon and new moon days."
+      ],
+      "answer": 0,
+      "explanation": "During neap tides the pulls of the Sun and Moon act in different directions, so the difference between high and low tide becomes SMALLER, not larger. The largest differences happen during spring tides.",
+      "fact": "During neap tides, the difference between high tide and low tide becomes smaller."
+    },
+    {
+      "id": "p2geo1-024",
+      "type": "truefalse",
+      "topic": "Tides",
+      "difficulty": "medium",
+      "q": "Tides are mainly caused by winds blowing across the ocean surface.",
+      "answer": "false",
+      "explanation": "Tides are caused by the gravitational pull of the Sun and the Moon, not by winds. Winds cause waves, while the alignment of the Sun, Earth and Moon creates spring and neap tides.",
+      "fact": "The gravitational pull of the Sun and the Moon creates tides; the daily rise and fall of sea level is crucial for navigation and tidal energy."
+    },
+    {
+      "id": "p2geo1-025",
+      "type": "assertion",
+      "topic": "Tides and navigation",
+      "difficulty": "easy",
+      "q": "Assertion (A): High tides are important for navigation.\nReason (R): High tides raise the water level near the shore, allowing ships to enter harbours more easily.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "High tides raise the water level near the shore, allowing ships to enter harbours more easily. This is exactly why high tides are important for navigation, so R explains A.",
+      "fact": "High tides are important for navigation because they raise the water level near the shore, allowing ships to enter harbours more easily."
+    }
+  ]
+}

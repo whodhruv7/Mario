@@ -1,0 +1,312 @@
+{
+  "chapterId": "p2civ4",
+  "fragment": "c",
+  "questions": [
+    {
+      "id": "p2civ4-051",
+      "type": "match",
+      "topic": "Policy stakeholders",
+      "difficulty": "medium",
+      "q": "Match each contributor to policy-making with the example given in the chapter's table of key stakeholders.",
+      "pairs": [
+        {"l": "Citizens", "r": "Residents request a zebra crossing near a school"},
+        {"l": "Elected representatives", "r": "An MLA raises the issue of drinking water shortage in the Assembly"},
+        {"l": "Government officials and departments", "r": "A district collector coordinates the implementation of a government scheme"},
+        {"l": "Civil society organisations and NGOs", "r": "An NGO conducts a water-conservation campaign"},
+        {"l": "The private sector", "r": "A company installs solar panels in government schools through a public-private partnership"}
+      ],
+      "explanation": "Table 4.1 shows that policy-making needs many contributors — citizens, representatives, officials, civil society, the private sector, and international organisations — each with a different role and example.",
+      "fact": "Key stakeholders in policy-making and implementation include citizens, elected representatives, government officials, civil society organisations, the private sector, and international organisations.",
+      "hint": "Match the level of the actor to the scale of the example."
+    },
+    {
+      "id": "p2civ4-052",
+      "type": "mcq",
+      "topic": "Hospital accessibility case",
+      "difficulty": "easy",
+      "q": "In the hospital case study, which problem did the visually impaired person face?",
+      "options": ["There was no ramp for a wheelchair", "It was difficult to locate different departments because there were no tactile paths or Braille signs", "The hospital remained closed on all days", "The OPD was located on the ground floor"],
+      "answer": 1,
+      "explanation": "A visually impaired person could climb the steps to enter the hospital but found it difficult to locate different hospital departments because there were no tactile paths or Braille signs. This showed the hospital infrastructure was not accessible to everyone.",
+      "fact": "A visually impaired person may be able to climb the steps to enter the hospital but finds it difficult to locate different hospital departments because there are no tactile paths or Braille signs.",
+      "hint": "His difficulty was inside the building, not at the entrance."
+    },
+    {
+      "id": "p2civ4-053",
+      "type": "mcq",
+      "topic": "Hospital accessibility case",
+      "difficulty": "hard",
+      "q": "In the hospital case study, which departments did the district administration ask to inspect the hospital?",
+      "options": ["The Education Department and the Police", "The Public Works Department (PWD) and the Health Department", "The Finance Ministry and the Railways", "The Agriculture Department and the Municipal Corporation"],
+      "answer": 1,
+      "explanation": "After the issue was highlighted, the district administration asked the Public Works Department (PWD) and the Health Department to inspect the hospital. A plan was then prepared to build ramps, lifts, handrails, tactile pathways, and accessible toilets.",
+      "fact": "The district administration takes note of the issue and asks the Public Works Department (PWD) and the Health Department to inspect the hospital.",
+      "hint": "One department builds; the other looks after hospitals."
+    },
+    {
+      "id": "p2civ4-054",
+      "type": "multiselect",
+      "topic": "Hospital accessibility case",
+      "difficulty": "medium",
+      "q": "Select all who were consulted while preparing the plan to make the hospital accessible.",
+      "options": ["Doctors and hospital staff", "Only the hospital's security guards", "Architectural experts", "Organisations working with persons with disabilities"],
+      "answerIndices": [0, 2, 3],
+      "explanation": "The plan was prepared after consulting doctors, hospital staff, architectural experts, organisations working with persons with disabilities, senior citizens, and residents. Consulting stakeholders makes a plan practical and inclusive.",
+      "fact": "After consulting doctors, hospital staff, architectural experts, organisations working with persons with disabilities (PwDs), senior citizens, and residents, a plan is prepared to make the hospital more accessible.",
+      "hint": "Everyone affected or expert was involved — not just guards."
+    },
+    {
+      "id": "p2civ4-055",
+      "type": "order",
+      "topic": "Hospital accessibility case",
+      "difficulty": "medium",
+      "q": "Arrange the events of the hospital accessibility case study in the correct sequence.",
+      "orderItems": ["Patients and family members raise the issue with hospital authorities and local representatives", "A local disability rights organisation highlights the problem through newspapers and social media", "The district administration asks the PWD and the Health Department to inspect the hospital", "A plan is prepared after consulting doctors, experts, and residents", "The government approves funds and the hospital is made accessible"],
+      "explanation": "The case shows a public policy moving from identifying a problem to implementation: the issue was raised, publicised, inspected, planned with stakeholders, and finally funded and implemented.",
+      "fact": "This is an example of how a public policy moves from identifying a problem to implementation.",
+      "hint": "Follow the issue from complaint to construction."
+    },
+    {
+      "id": "p2civ4-056",
+      "type": "mcq",
+      "topic": "Policy monitoring stage",
+      "difficulty": "hard",
+      "q": "Which stage of the policy cycle involves measuring the policy's progress, ensuring accountability, and identifying shortcomings?",
+      "options": ["Policy monitoring", "Policy adoption", "Policy desirability", "Policy formulation"],
+      "answer": 0,
+      "explanation": "Policy monitoring means measuring the policy's progress, ensuring accountability, and identifying shortcomings. Policy evaluation, by contrast, assesses results and impact and generates feedback.",
+      "fact": "Policy Monitoring: Measuring the policy's progress, ensuring accountability, and identifying shortcomings.",
+      "hint": "This stage keeps a continuous watch on progress."
+    },
+    {
+      "id": "p2civ4-057",
+      "type": "match",
+      "topic": "Policy cycle stages",
+      "difficulty": "medium",
+      "q": "Match each stage of the policy cycle with what it involves.",
+      "pairs": [
+        {"l": "Policy desirability", "r": "Deciding what needs and problems are to be addressed"},
+        {"l": "Policy formulation", "r": "Consulting stakeholders, drafting the policy, and assessing financial feasibility"},
+        {"l": "Policy adoption", "r": "Framing the legislation and regulations for the policy"},
+        {"l": "Policy implementation", "r": "Putting the policy into action through officials, local bodies, and citizens"},
+        {"l": "Policy evaluation", "r": "Assessing the results and impact of the policy and generating feedback"}
+      ],
+      "explanation": "The policy cycle moves from identifying problems to evaluating results, with each stage having its own work. Policy monitoring, which measures progress between implementation and evaluation, completes the cycle.",
+      "fact": "The policy process includes the key stages of policy desirability, policy formulation, policy adoption, policy implementation, policy monitoring, and policy evaluation.",
+      "hint": "Each stage's name hints at its work."
+    },
+    {
+      "id": "p2civ4-058",
+      "type": "order",
+      "topic": "Policy cycle stages",
+      "difficulty": "hard",
+      "q": "Arrange these stages of the policy cycle in the order they occur, starting from the identification of the problem.",
+      "orderItems": ["Policy desirability", "Prioritising policy", "Policy formulation", "Policy adoption", "Policy implementation"],
+      "explanation": "The cycle begins with deciding what problems need to be addressed (desirability), then prioritising issues, formulating a draft through consultation, adopting it through legislation, and finally implementing it. Monitoring and evaluation follow implementation.",
+      "fact": "The policy process: key stages — policy desirability, prioritising policy, policy formulation, policy adoption, policy implementation, policy monitoring, policy evaluation.",
+      "hint": "First know the problem, then plan, approve, and act."
+    },
+    {
+      "id": "p2civ4-059",
+      "type": "truefalse",
+      "topic": "Policy evaluation stage",
+      "difficulty": "hard",
+      "q": "Policy evaluation means measuring the policy's progress and identifying its shortcomings.",
+      "answer": "false",
+      "explanation": "Measuring progress, ensuring accountability, and identifying shortcomings is policy monitoring. Policy evaluation means assessing the results and the impact of the policy and generating feedback.",
+      "fact": "Policy Evaluation: Assessing results and the impact of the policy and generating feedback.",
+      "hint": "Watch out — this is the definition of a different stage."
+    },
+    {
+      "id": "p2civ4-060",
+      "type": "order",
+      "topic": "Policy cycle stages",
+      "difficulty": "easy",
+      "q": "Arrange these stages in the order they occur after a policy has been adopted.",
+      "orderItems": ["Policy implementation", "Policy monitoring", "Policy evaluation"],
+      "explanation": "After adoption, a policy is first put into action (implementation), then its progress is measured (monitoring), and finally its results and impact are assessed to generate feedback (evaluation).",
+      "fact": "Putting the policy into action... Measuring the policy's progress... Assessing results and the impact of the policy and generating feedback.",
+      "hint": "First act, then track, then judge."
+    },
+    {
+      "id": "p2civ4-061",
+      "type": "wrongstatement",
+      "topic": "Public policy process",
+      "difficulty": "medium",
+      "q": "Which of these statements about the public policy process is INCORRECT?",
+      "options": ["A public policy is developed through a systematic process rather than a single decision", "Public policy is monitored and evaluated through a feedback loop, and changes are made if required", "The process usually begins when citizens, officials, researchers, or civil society organisations realise that a new need has to be met", "Once approved, a public policy never needs to be reviewed or improved"],
+      "answer": 3,
+      "explanation": "Public policy is a continuous cycle — implementation is monitored and evaluated, and feedback from citizens and stakeholders is used to improve the policy over time. No policy is beyond review.",
+      "fact": "The implementation of any policy is continuously monitored and evaluated to assess whether it is achieving its objectives. Feedback from citizens and other stakeholders is used to improve the policy over time.",
+      "hint": "The chapter calls policy-making a 'continuous cycle'."
+    },
+    {
+      "id": "p2civ4-062",
+      "type": "fillblank",
+      "topic": "NEP 2020",
+      "difficulty": "easy",
+      "q": "India's previous National Policy on Education was introduced in the year ___.",
+      "answerVariants": ["1986"],
+      "explanation": "India's previous National Policy on Education was introduced in 1986. As society changed rapidly over time, a need arose to rethink the education system, which led to the NEP 2020.",
+      "fact": "India's previous National Policy on Education was introduced in 1986.",
+      "hint": "It is a year in the 1980s."
+    },
+    {
+      "id": "p2civ4-063",
+      "type": "assertion",
+      "topic": "Institutions and governance",
+      "difficulty": "hard",
+      "q": "Assertion (A): The government's institutional setup influences the nature of governance.\nReason (R): Governance initiatives require institutional adaptations to implement policies and schemes.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 1,
+      "explanation": "Both statements are true, but R states the reverse relationship rather than explaining A: the chapter says institutions shape governance, and governance initiatives in turn demand institutional changes. Since R does not cause A, the second choice is correct.",
+      "fact": "The government's institutional setup influences the nature of governance, and governance initiatives, in turn, require institutional adaptations to implement policies and schemes.",
+      "hint": "Check the direction of the relationship between the two statements."
+    },
+    {
+      "id": "p2civ4-064",
+      "type": "mcq",
+      "topic": "NEP 2020",
+      "difficulty": "medium",
+      "q": "Who chaired the expert committee set up in 2017 to draft the new education policy?",
+      "options": ["Dr A.P.J. Abdul Kalam", "Dr K. Kasturirangan", "Dr Vikram Sarabhai", "Dr Homi Bhabha"],
+      "answer": 1,
+      "explanation": "The Government of India set up an expert committee in 2017, chaired by the renowned scientist Dr K. Kasturirangan. The committee included experts from education, science, technology, social sciences, and public administration.",
+      "fact": "The government set up an expert committee in 2017, which was chaired by renowned scientist Dr K. Kasturirangan.",
+      "hint": "He is a renowned scientist associated with India's space programme."
+    },
+    {
+      "id": "p2civ4-065",
+      "type": "truefalse",
+      "topic": "NEP 2020",
+      "difficulty": "easy",
+      "q": "A unique feature of the National Education Policy 2020 was the large-scale public consultation during its formulation.",
+      "answer": "true",
+      "explanation": "The draft policy was made available for feedback, and 2.5 lakh Gram Panchayats, 6600 blocks, 6000 Urban Local Bodies, and 676 districts were consulted. Several citizen suggestions were incorporated into the final policy.",
+      "fact": "A unique feature of NEP 2020 was the large-scale public consultation. The draft policy was made available for feedback by citizens and all stakeholders.",
+      "hint": "Think about how many ordinary people were asked."
+    },
+    {
+      "id": "p2civ4-066",
+      "type": "multiselect",
+      "topic": "NEP 2020",
+      "difficulty": "easy",
+      "q": "During the formulation of NEP 2020, select all who were consulted.",
+      "options": ["Foreign universities", "Gram Panchayats", "Urban Local Bodies", "Districts"],
+      "answerIndices": [1, 2, 3],
+      "explanation": "During the policy's formulation, 2.5 lakh Gram Panchayats, 6600 blocks, 6000 Urban Local Bodies, and 676 districts were consulted, and about 2 lakh suggestions were received. Foreign universities were not part of this consultation.",
+      "fact": "During the formulation of the policy, 2.5 lakh Gram Panchayats, 6600 blocks, 6000 Urban Local Bodies, and 676 districts were consulted.",
+      "hint": "The consultation happened within India's own local bodies."
+    },
+    {
+      "id": "p2civ4-067",
+      "type": "mcq",
+      "topic": "NEP 2020",
+      "difficulty": "hard",
+      "q": "About how many suggestions were received during the formulation of the National Education Policy 2020?",
+      "options": ["About 2 lakhs", "About 2 thousands", "About 20 crores", "About 200"],
+      "answer": 0,
+      "explanation": "About 2 lakh suggestions were received from citizens and institutions during the consultations. The expert committee carefully examined them and incorporated several recommendations before the final policy was prepared.",
+      "fact": "About 2 lakhs suggestions were received.",
+      "hint": "The number is in lakhs, not thousands."
+    },
+    {
+      "id": "p2civ4-068",
+      "type": "order",
+      "topic": "NEP 2020",
+      "difficulty": "hard",
+      "q": "Arrange the journey of the National Education Policy 2020 in the correct chronological order.",
+      "orderItems": ["The Government initiates the process of developing a new education policy (2015)", "An expert committee is set up to draft the policy (2017)", "The draft policy is made available for public feedback", "Suggestions from citizens and institutions are examined and incorporated", "The Union Cabinet approves the National Education Policy (July 2020)"],
+      "explanation": "The process began in 2015, the Kasturirangan committee was set up in 2017, the draft was opened for public feedback, suggestions were examined and incorporated, and finally the Union Cabinet approved the policy in July 2020.",
+      "fact": "The Government of India initiated the process of developing a new education policy in 2015... the expert committee in 2017... the draft policy was made available for feedback... the National Education Policy 2020 was approved by the Union Cabinet in July 2020.",
+      "hint": "Follow the years: 2015, 2017, then the approval in 2020."
+    },
+    {
+      "id": "p2civ4-069",
+      "type": "match",
+      "topic": "Policy programme scheme",
+      "difficulty": "hard",
+      "q": "Match each item related to the National Health Policy 2017 with its correct description.",
+      "pairs": [
+        {"l": "Policy", "r": "Sets the direction and the goal"},
+        {"l": "Programme", "r": "Translates policy goals into strategies and action areas"},
+        {"l": "Scheme", "r": "Provides concrete benefits and services to specific target groups"},
+        {"l": "Digital healthcare and information system", "r": "A programme area under the National Health Policy 2017"},
+        {"l": "Janani Suraksha Yojana", "r": "A scheme under the National Health Policy 2017"}
+      ],
+      "explanation": "Using the National Health Policy 2017, the chapter shows that a policy gives direction, programmes turn goals into action areas like digital healthcare, and schemes such as Janani Suraksha Yojana deliver concrete benefits to target groups.",
+      "fact": "Policy: Sets the direction and goal. Programme: Translate policy goals into strategies and action areas. Scheme: Provide concrete benefits and services to specific target groups and locations.",
+      "hint": "Direction, plan, and action — in that order."
+    },
+    {
+      "id": "p2civ4-070",
+      "type": "fillblank",
+      "topic": "Policy programme scheme",
+      "difficulty": "easy",
+      "q": "Policy provides direction, programmes provide the plan, and ___ put the plan into action.",
+      "answerVariants": ["schemes"],
+      "explanation": "In simple terms, policy provides direction, programmes provide the plan, and schemes put the plan into action so that benefits reach the people. Together they ensure that public services reach every citizen.",
+      "fact": "In simple terms, policy provides direction, programmes provide the plan, and schemes put the plan into action.",
+      "hint": "These are the specific initiatives, often called 'Yojana'."
+    },
+    {
+      "id": "p2civ4-071",
+      "type": "mcq",
+      "topic": "Khelo Bharat Niti 2025",
+      "difficulty": "easy",
+      "q": "With what aim did the Government of India launch the Khelo Bharat Niti in 2025?",
+      "options": ["To transform India's sports landscape", "To build new Parliament buildings", "To collect agricultural taxes", "To regulate online shopping"],
+      "answer": 0,
+      "explanation": "Recognising the transformative power of sports in nation-building and holistic development, the Government of India launched the Khelo Bharat Niti in 2025 with the aim of transforming India's sports landscape.",
+      "fact": "The Government of India... launched the Khelo Bharat Niti in 2025 with the aim of transforming India's sports landscape.",
+      "hint": "The name 'Khelo' itself points to sports."
+    },
+    {
+      "id": "p2civ4-072",
+      "type": "wrongstatement",
+      "topic": "Khelo Bharat Niti 2025",
+      "difficulty": "medium",
+      "q": "Which of these statements about the Khelo Bharat Niti 2025 is INCORRECT?",
+      "options": ["The Khelo Bharat Niti was launched by the Government of India in 2025", "Strengthening the sporting culture and ecosystem from the block level to the national level is a key focus of the Niti", "Families need to support a sports career for their children, especially their daughters", "The Khelo Bharat Niti focuses only on international diplomacy and not on sports"],
+      "answer": 3,
+      "explanation": "The Niti is about sports — its policy document says strengthening the sporting culture and ecosystem from the block level to the national level is a key focus. While sports can help international diplomacy, that is not what the Niti is about.",
+      "fact": "'Strengthening the sporting culture and ecosystem from the block level to the national level is a key focus of the Khelo Bharat Niti 2025'.",
+      "hint": "Look at the name of the policy — what is it about?"
+    },
+    {
+      "id": "p2civ4-073",
+      "type": "fillblank",
+      "topic": "Policy desirability stage",
+      "difficulty": "medium",
+      "q": "In the policy cycle, the stage of Policy Desirability is also known as problem ___.",
+      "answerVariants": ["identification"],
+      "explanation": "Policy desirability is the first stage of the policy cycle, where it is decided what needs and problems are to be addressed. That is why it is also called problem identification.",
+      "fact": "Addressing a new need of the people — Policy desirability (problem identification).",
+      "hint": "It is the act of spotting the problem."
+    },
+    {
+      "id": "p2civ4-074",
+      "type": "assertion",
+      "topic": "Good governance and democracy",
+      "difficulty": "medium",
+      "q": "Assertion (A): Good governance is essential to strengthening democracy, promoting sustainable development, and ensuring national progress.\nReason (R): Good governance depends on transparent institutions, accountable leadership, active citizen participation, and a strong commitment to the rule of law.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 0,
+      "explanation": "Both statements are true, and R explains A: it is because governance rests on transparency, accountability, participation, and the rule of law that it can strengthen democracy and drive development. Good governance is thus an ongoing national effort.",
+      "fact": "Good governance is essential to strengthening democracy, promoting sustainable development, and ensuring national progress. It depends on transparent institutions, accountable leadership, active citizen participation, and a strong commitment to the rule of law.",
+      "hint": "Ask what makes good governance capable of these results."
+    },
+    {
+      "id": "p2civ4-075",
+      "type": "assertion",
+      "topic": "Citizen participation",
+      "difficulty": "hard",
+      "q": "Assertion (A): Active citizen participation strengthens democracy and promotes good governance.\nReason (R): Citizens can participate by voting, following laws, raising concerns, and giving feedback on government services.",
+      "options": ["Both A and R are true, and R explains A", "Both A and R are true, but R does not explain A", "A is true, but R is false", "A is false, but R is true"],
+      "answer": 0,
+      "explanation": "Both statements are true, and R explains A: voting, following laws, raising concerns, participating in public affairs, and giving feedback are the very actions through which citizens help improve public institutions and strengthen democracy.",
+      "fact": "By voting, following laws, raising concerns, participating in public affairs, and giving feedback on government services, they can help improve the way public institutions function.",
+      "hint": "The reason lists the actual means of participation."
+    }
+  ]
+}

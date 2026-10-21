@@ -1,0 +1,326 @@
+{
+  "chapterId": "civ6",
+  "fragment": "d",
+  "questions": [
+    {
+      "id": "civ6-076",
+      "type": "mcq",
+      "topic": "Early republics",
+      "difficulty": "easy",
+      "q": "The early republican states of ancient India were known as:",
+      "options": ["Municipalities", "Sabhas and Samitis", "Ganas or Sanghas", "Autonomous District Councils"],
+      "answer": 2,
+      "explanation": "The early republican states were known as ganas or sanghas; together with assemblies like the Sabha and Samiti, they show ancient India's tradition of collective governance.",
+      "fact": "We also read about the functioning of the early republican states (ganas or sanghas)."
+    },
+    {
+      "id": "civ6-077",
+      "type": "mcq",
+      "topic": "Women's reservation",
+      "difficulty": "hard",
+      "q": "Article 243(d) of the Constitution provides for:",
+      "options": ["50 per cent reservation for women in Parliament", "Not less than one-third reservation for women in every Panchayat", "Reservation for women in government jobs", "Abolition of the Panchayati Raj system"],
+      "answer": 1,
+      "explanation": "Article 243(d) reserves not less than one-third of the seats filled by direct election in every Panchayat for women; many States have since raised this to 50 per cent.",
+      "fact": "Article 243(d) of the Constitution of India provides not less than one-third reservation for women out of total number of seats to be filled by direct election in every Panchayat."
+    },
+    {
+      "id": "civ6-078",
+      "type": "mcq",
+      "topic": "Women's reservation",
+      "difficulty": "hard",
+      "q": "As of 2023, how many States and Union Territories have given 50 per cent reservation for women in Urban Local Bodies?",
+      "options": ["17 States and 1 Union Territory", "21 States and 2 Union Territories", "All the States", "5 States and 5 Union Territories"],
+      "answer": 0,
+      "explanation": "As of 2023, 17 States and 1 Union Territory provide 50 per cent reservation for women in Urban Local Bodies; for Panchayats, the figure is 21 States and 2 Union Territories.",
+      "fact": "As of 2023, 17 States and 1 Union Territory have given 50% reservation for women in Urban Local Bodies.",
+      "hint": "The number of States giving 50% in Urban Local Bodies is smaller than the number for Panchayats."
+    },
+    {
+      "id": "civ6-079",
+      "type": "mcq",
+      "topic": "Emergency 1975-77",
+      "difficulty": "easy",
+      "q": "In June 1975, a National Emergency was imposed in India on the grounds of:",
+      "options": ["External aggression", "Financial crisis", "Internal disturbance", "Foreign invasion"],
+      "answer": 2,
+      "explanation": "The Emergency of 1975-77 was imposed on the grounds of internal disturbance, amid widespread protests over unemployment, inflation and misgovernance.",
+      "fact": "In June 1975, a National Emergency was imposed on the grounds of internal disturbance."
+    },
+    {
+      "id": "civ6-080",
+      "type": "mcq",
+      "topic": "Emergency 1975-77",
+      "difficulty": "easy",
+      "q": "Who led the mass movements that mobilised students and citizens during the Emergency, especially in Bihar and Gujarat?",
+      "options": ["Indira Gandhi", "Jayaprakash Narayan", "Dr. B.R. Ambedkar", "Chaudhary Charan Singh"],
+      "answer": 1,
+      "explanation": "Jayaprakash Narayan, a political leader and socialist thinker popularly known as Lok Nayak, mobilised students and citizens during the Emergency.",
+      "fact": "Mass movements led by Jayaprakash Narayan—a political leader and socialist thinker, popularly known as Lok Nayak—mobilised students and citizens, especially in Bihar and Gujarat."
+    },
+    {
+      "id": "civ6-081",
+      "type": "mcq",
+      "topic": "Emergency 1975-77",
+      "difficulty": "easy",
+      "q": "What happened immediately after the Emergency was lifted in 1977?",
+      "options": ["The Constitution was replaced with a new one", "Parliament was dissolved permanently", "All political parties were banned", "General elections were held, in which the ruling government was defeated"],
+      "answer": 3,
+      "explanation": "The Emergency was lifted in 1977 and general elections followed; the ruling government's defeat let the people express their will through the ballot and demonstrated the strength of Indian democracy.",
+      "fact": "The Emergency was lifted in 1977, and general elections were held, allowing people to express their will through the ballot. The defeat of the ruling government demonstrated the strength of Indian democracy."
+    },
+    {
+      "id": "civ6-082",
+      "type": "mcq",
+      "topic": "Democracy and youth",
+      "difficulty": "medium",
+      "q": "According to the chapter, programmes like the National Service Scheme (NSS) and the National Cadet Corps (NCC) are designed to:",
+      "options": ["Train students to join the armed forces", "Conduct school elections", "Instil civic responsibility, social awareness and respect for democratic ideals", "Replace formal school education"],
+      "answer": 2,
+      "explanation": "NSS and NCC build civic responsibility, social awareness and respect for democratic ideals through community service, teamwork and organised activities.",
+      "fact": "Programmes like the National Service Scheme (NSS) and the National Cadet Corps (NCC) are designed to instil civic responsibility, social awareness, and respect for democratic ideals."
+    },
+    {
+      "id": "civ6-083",
+      "type": "mcq",
+      "topic": "Popular sovereignty",
+      "difficulty": "hard",
+      "q": "Which situation best reflects the idea of popular sovereignty?",
+      "options": ["A law is passed without public discussion", "Citizens vote to choose their representatives", "A court gives a final judgement", "A minister takes an independent decision"],
+      "answer": 1,
+      "explanation": "Popular sovereignty means the state derives its authority from the people, which is reflected when citizens vote to choose their representatives.",
+      "fact": "The idea of popular sovereignty means that the state derives its authority from the people... Citizens exercise their right to vote to elect governments and representatives.",
+      "hint": "Sovereignty means power flows from the people—whose action shows this best?"
+    },
+    {
+      "id": "civ6-084",
+      "type": "truefalse",
+      "topic": "Women's political participation",
+      "difficulty": "medium",
+      "q": "The right to vote automatically ensures the equal participation of women in politics.",
+      "answer": "false",
+      "explanation": "Despite voting rights, social prejudices continue to act as barriers and affect women's adequate representation in politics.",
+      "fact": "The right to vote does not automatically ensure equal participation. Social prejudices continue to act as barriers and affect women's adequate representation in politics."
+    },
+    {
+      "id": "civ6-085",
+      "type": "truefalse",
+      "topic": "Emergency 1975-77",
+      "difficulty": "easy",
+      "q": "During the Emergency, a majority of Fundamental Rights were suspended and the press was censored.",
+      "answer": "true",
+      "explanation": "The Emergency suspended most Fundamental Rights, censored the press and led to the arrest of numerous political leaders and activists.",
+      "fact": "During this period, a majority of Fundamental Rights were suspended, the press was censored, and numerous political leaders and activists were arrested."
+    },
+    {
+      "id": "civ6-086",
+      "type": "truefalse",
+      "topic": "British colonial rule",
+      "difficulty": "medium",
+      "q": "Under British colonial rule, people's participation in governance increased.",
+      "answer": "false",
+      "explanation": "Foreign rule altered political structures and limited people's participation in their governance; the independence struggle later revived democratic ideas.",
+      "fact": "Foreign rule altered political structures and limited people's participation in their governance. However, the long struggle for independence... revived and strengthened democratic ideas."
+    },
+    {
+      "id": "civ6-087",
+      "type": "truefalse",
+      "topic": "Duties and Directive Principles",
+      "difficulty": "medium",
+      "q": "Besides Fundamental Rights, the Constitution of India also outlines the Fundamental Duties of citizens and the Directive Principles of State Policy.",
+      "answer": "true",
+      "explanation": "Along with guaranteeing Fundamental Rights, the Constitution outlines citizens' Fundamental Duties and the Directive Principles of State Policy.",
+      "fact": "The Constitution not only guarantees Fundamental Rights to citizens but also outlines their Fundamental Duties and the Directive Principles of State Policy."
+    },
+    {
+      "id": "civ6-088",
+      "type": "fillblank",
+      "topic": "Emergency 1975-77",
+      "difficulty": "easy",
+      "q": "The Emergency imposed in June 1975 was lifted in ___, and general elections were held.",
+      "answerVariants": ["1977"],
+      "explanation": "The Emergency was lifted in 1977, and the general elections that followed allowed people to express their will through the ballot.",
+      "fact": "The Emergency was lifted in 1977, and general elections were held, allowing people to express their will through the ballot."
+    },
+    {
+      "id": "civ6-089",
+      "type": "fillblank",
+      "topic": "Grassroots democracy",
+      "difficulty": "easy",
+      "q": "The village serves as a unit of ___ democracy in India, empowering rural communities to participate in decision-making.",
+      "answerVariants": ["grassroots", "grass-roots", "grass roots"],
+      "explanation": "The village is the unit of grassroots democracy in India; institutions like the Gram Panchayat empower rural communities to participate in decision-making.",
+      "fact": "The village serves as a unit of grassroots democracy in India, empowering rural communities to participate in decision-making processes."
+    },
+    {
+      "id": "civ6-090",
+      "type": "fillblank",
+      "topic": "Representative democracy",
+      "difficulty": "easy",
+      "q": "India is an example of a ___ democracy, in which people elect their representatives and do not directly govern.",
+      "answerVariants": ["representative"],
+      "explanation": "India follows representative (indirect) democracy: citizens elect representatives through periodic elections, and the government is accountable to the people.",
+      "fact": "Representative Democracy (Indirect Democracy): People elect their representatives. People do not directly govern. Periodic elections. Government is accountable to the people. e.g. India."
+    },
+    {
+      "id": "civ6-091",
+      "type": "match",
+      "topic": "Key terms of democracy",
+      "difficulty": "easy",
+      "q": "Match each term with its correct meaning.",
+      "pairs": [
+        {"l": "Sovereignty", "r": "Supreme, final and independent legal authority of a State"},
+        {"l": "Federalism", "r": "Sharing of power between central and state governments"},
+        {"l": "Civil society", "r": "Voluntary groups, NGOs and community associations"},
+        {"l": "Cooperatives", "r": "Groups working together for common benefit, sharing profits and responsibilities equally"},
+        {"l": "Legislation", "r": "Laws made by the government to maintain order and regulate society"}
+      ],
+      "explanation": "These key terms from the chapter define how power, participation and collective action operate in a democracy.",
+      "fact": "Definition boxes in the chapter: Sovereignty, Federalism, Civil Society, Cooperatives and Legislation."
+    },
+    {
+      "id": "civ6-092",
+      "type": "order",
+      "topic": "Constitution timeline",
+      "difficulty": "hard",
+      "q": "Arrange these milestones of the Indian Constitution in chronological order.",
+      "orderItems": [
+        "The Constituent Assembly was formed",
+        "India attained independence",
+        "The Constitution was adopted",
+        "The Constitution came into force"
+      ],
+      "explanation": "The Constituent Assembly was formed in 1946, independence came in 1947, the Constitution was adopted on 26 November 1949, and it came into force on 26 January 1950.",
+      "fact": "The Constituent Assembly was formed in 1946... India attained independence in 1947... adopted on 26 November 1949 and came into force on 26 January 1950.",
+      "hint": "The Assembly began its work before independence, but the Constitution began working after it."
+    },
+    {
+      "id": "civ6-093",
+      "type": "multiselect",
+      "topic": "Democracy beyond government",
+      "difficulty": "medium",
+      "q": "Select all correct statements about the spirit of democracy beyond formal government institutions.",
+      "options": [
+        "Civil society organisations often adopt democratic decision-making methods",
+        "Cooperatives and trade unions often adopt democratic decision-making methods",
+        "Democracy is limited only to formal institutions of the government",
+        "Socio-religious and community institutions often adopt democratic decision-making methods"
+      ],
+      "answerIndices": [0, 1, 3],
+      "explanation": "The spirit of democratic functioning extends into everyday social life—civil society organisations, socio-religious and community institutions, cooperatives and trade unions often decide democratically.",
+      "fact": "The spirit of democratic functioning also extends into everyday social life. Civil society organisations, socio-religious and community institutions, cooperatives, and trade unions often adopt democratic decision-making methods."
+    },
+    {
+      "id": "civ6-094",
+      "type": "multiselect",
+      "topic": "Women's reservation",
+      "difficulty": "medium",
+      "q": "Select all correct statements about women's reservation in local bodies.",
+      "options": [
+        "The Constitution bans women from contesting Panchayat elections",
+        "Empowerment of women starts with their active participation in institutions of decision-making",
+        "Article 243(t) provides not less than one-third reservation for women in every Municipality",
+        "21 States and 2 Union Territories provide 50 per cent reservation for women in Panchayati Raj Institutions"
+      ],
+      "answerIndices": [1, 2, 3],
+      "explanation": "Women's empowerment begins with participation in decision-making; Articles 243(d) and 243(t) guarantee one-third reservation in Panchayats and Municipalities, and 21 States and 2 Union Territories have raised the Panchayat quota to 50 per cent.",
+      "fact": "Empowerment of women starts with their active participation in institutions of decision-making... Article 243(t)... not less than one-third reservation for women... in every Municipality... 21 States and 2 Union Territories have made provisions of 50% reservation for women in Panchayati Raj Institutions."
+    },
+    {
+      "id": "civ6-095",
+      "type": "multiselect",
+      "topic": "Democracy and youth",
+      "difficulty": "medium",
+      "q": "Select all ways in which young citizens can strengthen democracy, according to the chapter.",
+      "options": [
+        "Being media literate and using social media responsibly",
+        "Spreading misinformation on social media",
+        "Understanding the Constitution and following fundamental duties",
+        "Taking leadership in school and community"
+      ],
+      "answerIndices": [0, 2, 3],
+      "explanation": "The chapter urges youth to be media literate, understand the Constitution, follow fundamental duties and take leadership; spreading misinformation weakens democracy.",
+      "fact": "Fig 6.9 on youth and democracy lists: Be media literate; Understand the Constitution; Follow fundamental duties; Take leadership in school and community."
+    },
+    {
+      "id": "civ6-096",
+      "type": "wrongstatement",
+      "topic": "Civic responsibility",
+      "difficulty": "easy",
+      "q": "Which of these statements about civic responsibility is INCORRECT?",
+      "options": [
+        "Damaging public property strengthens democratic values.",
+        "Reading newspapers and watching news programmes helps citizens stay informed.",
+        "Indifference towards public issues can adversely affect the health of a democracy.",
+        "Using social media responsibly is part of civic responsibility."
+      ],
+      "answer": 0,
+      "explanation": "Damaging public property, spreading misinformation and violating public rules weaken democratic values—they do not strengthen them.",
+      "fact": "Actions, such as damaging public property, spreading misinformation, or violating public rules weaken democratic values."
+    },
+    {
+      "id": "civ6-097",
+      "type": "wrongstatement",
+      "topic": "Women's right to vote",
+      "difficulty": "medium",
+      "q": "Which of these statements about women's voting rights is INCORRECT?",
+      "options": [
+        "In a number of countries, women had to launch a long and difficult struggle to secure the right to vote.",
+        "When the Constitution of India came into force in 1950, Universal Adult Franchise was extended to all citizens, men and women alike.",
+        "Indian women did not have to engage in prolonged legal battles or protests to secure voting rights.",
+        "In India, only men were granted the right to vote when the Constitution came into force."
+      ],
+      "answer": 3,
+      "explanation": "The Constitution extended Universal Adult Franchise to all citizens—men and women alike—without discrimination, so Indian women did not need prolonged battles for the vote.",
+      "fact": "Universal Adult Franchise was extended to all citizens—men and women alike—without discrimination, and Indian women did not have to engage in prolonged legal battles or protest to secure voting rights."
+    },
+    {
+      "id": "civ6-098",
+      "type": "wrongstatement",
+      "topic": "Emergency 1975-77",
+      "difficulty": "hard",
+      "q": "Which of these statements about the Emergency is INCORRECT?",
+      "options": [
+        "Democratic institutions came under severe strain during the Emergency.",
+        "The Emergency period showed that India's democratic institutions were never vulnerable.",
+        "Citizens' freedom was restricted during the Emergency.",
+        "The Emergency period highlighted both the vulnerabilities and the resilience of democratic institutions in India."
+      ],
+      "answer": 1,
+      "explanation": "The Emergency highlighted both the vulnerabilities and the resilience of India's democratic institutions—claiming they were never vulnerable misses half the lesson.",
+      "fact": "This period highlighted both the vulnerabilities and the resilience of democratic institutions in India."
+    },
+    {
+      "id": "civ6-099",
+      "type": "assertion",
+      "topic": "Right to Education",
+      "difficulty": "hard",
+      "q": "Assertion (A): The Right to Education (Article 21A) was added to the Constitution in 2009.\nReason (R): It ensures free and compulsory education for children aged 6 to 16.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "The Right to Education under Article 21A was indeed added in 2009, but it covers children aged 6 to 14, not 6 to 16—so A is true while R is false.",
+      "fact": "The Right to Education (Article 21A) was added in 2009, ensuring free and compulsory education for children aged 6 to 14."
+    },
+    {
+      "id": "civ6-100",
+      "type": "assertion",
+      "topic": "Constitutional amendments",
+      "difficulty": "medium",
+      "q": "Assertion (A): The Constitution provides for amendments under Article 368.\nReason (R): Amendments allow the Constitution to abandon its fundamental values completely.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 2,
+      "explanation": "Article 368 does provide for amendments, but their purpose is to let the Constitution evolve through lawful change without compromising its fundamental values—so R is false.",
+      "fact": "The Constitution also provides for amendments under Article 368... a dynamic document capable of evolving through lawful amendments without compromising its fundamental values."
+    }
+  ]
+}

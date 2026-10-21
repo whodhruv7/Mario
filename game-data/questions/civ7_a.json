@@ -1,0 +1,368 @@
+{
+  "chapterId": "civ7",
+  "fragment": "a",
+  "questions": [
+    {
+      "id": "civ7-001",
+      "type": "mcq",
+      "topic": "Why Elections Matter",
+      "difficulty": "easy",
+      "q": "According to the chapter, what lies at the core of democracy?",
+      "options": [
+        "Regular and periodic elections",
+        "A strong judiciary",
+        "A powerful army",
+        "Rapid economic growth"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states that regular and periodic elections lie at the core of democracy, because they let citizens choose their representatives and hold them accountable at fixed intervals.",
+      "fact": "Regular and periodic elections lie at the core of democracy."
+    },
+    {
+      "id": "civ7-002",
+      "type": "mcq",
+      "topic": "Direct and Indirect Elections",
+      "difficulty": "easy",
+      "q": "What happens in an indirect election?",
+      "options": [
+        "Citizens vote for representatives who then choose or elect the leaders",
+        "Citizens directly choose their representatives or leaders",
+        "The courts select the country's leaders",
+        "Leaders are chosen by drawing lots"
+      ],
+      "answer": 0,
+      "explanation": "In an indirect election, citizens first elect representatives, and those representatives then choose the leaders, as happens for India's President, Vice President and Rajya Sabha.",
+      "fact": "Indirect Elections: Elections in which citizens vote for representatives who then choose/elect the leaders."
+    },
+    {
+      "id": "civ7-003",
+      "type": "mcq",
+      "topic": "Why Elections Matter",
+      "difficulty": "medium",
+      "q": "According to the chapter, our vote is the principal means by which we exercise which right?",
+      "options": [
+        "The right to property",
+        "The right to free education",
+        "The right to elect our representatives and hold them accountable",
+        "The right to information"
+      ],
+      "answer": 2,
+      "explanation": "Periodic elections ensure the right to elect representatives and to hold them accountable, and the vote is the principal means by which citizens exercise this right.",
+      "fact": "The right to elect our representatives and holding them accountable is ensured through periodic elections, and our vote is the principal means by which we exercise this right."
+    },
+    {
+      "id": "civ7-004",
+      "type": "mcq",
+      "topic": "Psephology",
+      "difficulty": "medium",
+      "q": "The term 'psephology' comes from the Greek word 'psēphos'. What does 'psēphos' mean?",
+      "options": [
+        "Paper",
+        "Pebble",
+        "Ballot box",
+        "Voter"
+      ],
+      "answer": 1,
+      "explanation": "Psephology, the scientific study of elections, is derived from the Greek word psēphos meaning 'pebble', because pebbles were used for voting in ancient Greece.",
+      "fact": "The term is derived from the Greek word psēphos, meaning 'pebble', and logy, meaning 'systematic study'."
+    },
+    {
+      "id": "civ7-005",
+      "type": "mcq",
+      "topic": "Free and Fair Elections",
+      "difficulty": "easy",
+      "q": "For democracy to be realised, in what manner must elections be conducted?",
+      "options": [
+        "Fast and inexpensive",
+        "Secret and silent",
+        "Free, fair and transparent",
+        "Optional and flexible"
+      ],
+      "answer": 2,
+      "explanation": "The chapter stresses that elections must be conducted in a free, fair and transparent manner; otherwise the democratic value of the exercise is reduced.",
+      "fact": "For democracy to be realised, elections must be conducted in a free, fair, and transparent manner."
+    },
+    {
+      "id": "civ7-006",
+      "type": "mcq",
+      "topic": "Electoral System Basics",
+      "difficulty": "easy",
+      "q": "According to the chapter, what distinguishes one electoral system from another?",
+      "options": [
+        "The colour of the ballot papers used",
+        "The way it allocates seats in the legislature",
+        "The number of voters in the country",
+        "The age of the candidates"
+      ],
+      "answer": 1,
+      "explanation": "Electoral systems differ in how they convert the votes cast into seats in the legislature; this method of seat allocation is the defining feature of each system.",
+      "fact": "The way an electoral system allocates seats is what distinguishes it from other systems.",
+      "hint": "Think about what happens to the votes after they are cast."
+    },
+    {
+      "id": "civ7-007",
+      "type": "mcq",
+      "topic": "First-Past-The-Post System",
+      "difficulty": "easy",
+      "q": "Which electoral system did the framers of India's Constitution ultimately choose?",
+      "options": [
+        "Proportional representation",
+        "First-Past-The-Post (the plurality system)",
+        "The majority system with two rounds",
+        "Single transferable vote"
+      ],
+      "answer": 1,
+      "explanation": "After discussing the two most common electoral systems, the framers chose the plurality system, popularly known as First-Past-The-Post (FPTP), which is used for Lok Sabha and Vidhan Sabha elections.",
+      "fact": "The framers of our Constitution discussed the two most common electoral systems and ultimately chose the plurality system, also known as the 'First-Past-The-Post' (FPTP) system."
+    },
+    {
+      "id": "civ7-008",
+      "type": "mcq",
+      "topic": "Majority System",
+      "difficulty": "hard",
+      "q": "In the imaginary country Ratnadweep, Party X got 45% and Party Y got 40% of the votes in Round 1. What was the final outcome?",
+      "options": [
+        "Party X formed the government with 45% of the votes",
+        "The election was cancelled and held again next year",
+        "Party Y won Round 2 with 55% and formed the government",
+        "All parties formed a joint government"
+      ],
+      "answer": 2,
+      "explanation": "Ratnadweep follows the majority system, in which a candidate needs more than 50% of the votes to win. Since no one crossed 50% in Round 1, the top two competed again, and Party Y won Round 2 with 55%.",
+      "fact": "No one got 50% in Round 1. In Round 2, Party Y wins with 55%, and forms the government.",
+      "hint": "Remember the winning rule in the majority system: more than 50% is needed."
+    },
+    {
+      "id": "civ7-009",
+      "type": "truefalse",
+      "topic": "Direct and Indirect Elections",
+      "difficulty": "easy",
+      "q": "In India, members of the Lok Sabha, the Vidhan Sabha and local bodies like Panchayats are elected through direct elections every five years.",
+      "answer": "true",
+      "explanation": "The Lok Sabha at the central level, the Vidhan Sabha at the state level and local bodies are all filled through direct elections held every five years; only the President, Vice President and Rajya Sabha members are chosen indirectly.",
+      "fact": "Members of the Lok Sabha, the Vidhan Sabha and local bodies are elected through direct elections every five years."
+    },
+    {
+      "id": "civ7-010",
+      "type": "truefalse",
+      "topic": "First-Past-The-Post System",
+      "difficulty": "medium",
+      "q": "In the First-Past-The-Post system, a candidate must receive more than 50% of the total votes polled to win.",
+      "answer": "false",
+      "explanation": "In FPTP, the candidate with the most votes wins, even if the votes are less than 50% of the total votes polled; the 50% requirement belongs to the majority system.",
+      "fact": "The candidate with the most votes wins, even if the votes are less than 50% of total votes polled."
+    },
+    {
+      "id": "civ7-011",
+      "type": "truefalse",
+      "topic": "Free and Fair Elections",
+      "difficulty": "easy",
+      "q": "If fairness is not ensured, public confidence in electoral institutions may gradually weaken.",
+      "answer": "true",
+      "explanation": "The chapter warns that unfair practices such as personal favours, inaccurate counting or accessibility problems reduce the democratic value of elections and slowly weaken people's trust in electoral institutions.",
+      "fact": "If fairness is not ensured, public confidence in electoral institutions may gradually weaken."
+    },
+    {
+      "id": "civ7-012",
+      "type": "truefalse",
+      "topic": "Election Machinery Stakeholders",
+      "difficulty": "easy",
+      "q": "Besides the ECI, political parties, civil society, media and voters all play roles in India's electoral process.",
+      "answer": "true",
+      "explanation": "India's election machinery runs on laws and coordination at national, state and local levels, with stakeholders such as the ECI, political parties, civil society, media and voters each playing their part.",
+      "fact": "Stakeholders like the Election Commission of India (ECI), various political parties, civil society, media, and the voters come to play their roles."
+    },
+    {
+      "id": "civ7-013",
+      "type": "fillblank",
+      "topic": "Psephology",
+      "difficulty": "easy",
+      "q": "The scientific study of elections is called ___.",
+      "answerVariants": ["psephology", "Psephology"],
+      "explanation": "Psephology is the scientific study of elections; the word comes from the Greek psēphos (pebble) because ancient Greeks voted using pebbles.",
+      "fact": "Psephology refers to the scientific study of elections."
+    },
+    {
+      "id": "civ7-014",
+      "type": "fillblank",
+      "topic": "Why Elections Matter",
+      "difficulty": "easy",
+      "q": "Elections are called the ___ of democracy because they give every citizen an equal voice in the formation of a government.",
+      "answerVariants": ["soul", "Soul"],
+      "explanation": "The chapter describes elections as the soul of democracy, since through voting every citizen gets an equal voice in deciding who forms the government.",
+      "fact": "Elections are the soul of democracy as they give every citizen an equal voice in the formation of a government."
+    },
+    {
+      "id": "civ7-015",
+      "type": "fillblank",
+      "topic": "Majority System",
+      "difficulty": "medium",
+      "q": "In the majority system, to win, a candidate must receive more than ___ of the votes.",
+      "answerVariants": ["50%", "50 percent", "fifty percent", "50"],
+      "explanation": "The majority system requires a winning candidate to cross the 50% mark; if no one does, the top two candidates face each other in a second round.",
+      "fact": "To win, a candidate must receive more than 50% of the votes."
+    },
+    {
+      "id": "civ7-016",
+      "type": "match",
+      "topic": "Electoral System Features",
+      "difficulty": "easy",
+      "q": "Match each electoral system with its key feature.",
+      "pairs": [
+        {"l": "First-Past-The-Post (FPTP)", "r": "The candidate with the most votes wins, even below 50%"},
+        {"l": "Majority system", "r": "The top two candidates compete again in a second round"},
+        {"l": "Proportional representation (PR)", "r": "Seats are allotted in proportion to the votes each party receives"},
+        {"l": "Single transferable vote (STV)", "r": "Votes of eliminated candidates are transferred to the next preference"},
+        {"l": "Direct election", "r": "Citizens themselves vote to choose their representatives"}
+      ],
+      "explanation": "Each system converts votes into victory differently: FPTP rewards the highest vote-getter, the majority system demands over 50%, PR shares seats by vote share, STV transfers preferences, and direct elections involve citizens voting themselves.",
+      "fact": "The chapter compares FPTP, the majority system and proportional representation, and explains the single transferable vote."
+    },
+    {
+      "id": "civ7-017",
+      "type": "order",
+      "topic": "Single Transferable Vote",
+      "difficulty": "hard",
+      "q": "Arrange the steps of the single transferable vote (STV) counting process in the correct order.",
+      "orderItems": [
+        "Voters mark their preference on the ballot",
+        "First preference votes are counted for all candidates",
+        "Candidates who reach the quota are declared elected",
+        "The candidate with the lowest votes is eliminated",
+        "The eliminated candidate's votes are transferred to second preferences"
+      ],
+      "explanation": "STV begins with voters marking preferences; first preferences are counted, candidates reaching the quota win, and the lowest candidate's votes move to second preferences until enough candidates are elected.",
+      "fact": "First preference votes are counted; those reaching the quota are elected; the lowest candidate is eliminated and their votes transfer to second preferences.",
+      "hint": "The process begins with the voter and ends with the transfer of an eliminated candidate's votes."
+    },
+    {
+      "id": "civ7-018",
+      "type": "multiselect",
+      "topic": "Direct and Indirect Elections",
+      "difficulty": "easy",
+      "q": "Select all correct: which of the following are elected through INDIRECT elections in India?",
+      "options": [
+        "The President of India",
+        "Members of the Lok Sabha",
+        "The Vice President of India",
+        "Members of the Rajya Sabha"
+      ],
+      "answerIndices": [0, 2, 3],
+      "explanation": "The President, the Vice President and Rajya Sabha members are chosen through indirect elections, while Lok Sabha and Vidhan Sabha members are elected directly by voters.",
+      "fact": "The President, Vice President, and members of the Rajya Sabha are elected through indirect elections."
+    },
+    {
+      "id": "civ7-019",
+      "type": "multiselect",
+      "topic": "Why Elections Matter",
+      "difficulty": "easy",
+      "q": "Select all correct: elections are important for democratic functioning because they ensure —",
+      "options": [
+        "Unlimited power for the winning party",
+        "Equality",
+        "Representation",
+        "Accountability"
+      ],
+      "answerIndices": [1, 2, 3],
+      "explanation": "The chapter's diagram links elections to equality, representation, accountability and legitimacy; elections do not hand the winner unlimited power.",
+      "fact": "The importance of elections in a democracy includes Equality, Representation, Accountability and Legitimacy."
+    },
+    {
+      "id": "civ7-020",
+      "type": "wrongstatement",
+      "topic": "Direct and Indirect Elections",
+      "difficulty": "medium",
+      "q": "Which of these statements about direct and indirect elections is INCORRECT?",
+      "options": [
+        "Members of the Lok Sabha are elected through direct elections.",
+        "Members of the Rajya Sabha are elected through indirect elections.",
+        "The President of India is elected through direct elections.",
+        "Members of local bodies like Panchayats are elected through direct elections every five years."
+      ],
+      "answer": 2,
+      "explanation": "The President is elected through indirect elections, where elected representatives choose the President; the Lok Sabha, Vidhan Sabha and local bodies are filled by direct elections.",
+      "fact": "The President, Vice President, and members of the Rajya Sabha are elected through indirect elections."
+    },
+    {
+      "id": "civ7-021",
+      "type": "wrongstatement",
+      "topic": "Electoral Systems Compared",
+      "difficulty": "hard",
+      "q": "Which of these statements about the three imaginary countries is INCORRECT?",
+      "options": [
+        "In Haritbhumi's FPTP system, the candidate with the most votes wins.",
+        "In Ratnadweep's majority system, a second round is held if no candidate crosses 50%.",
+        "In Swarnalok's PR system, voters vote for a party, not a person.",
+        "In Swarnalok's PR system, the party with the most votes wins all 100 seats."
+      ],
+      "answer": 3,
+      "explanation": "In Swarnalok's proportional representation system the 100 seats are distributed among all parties according to their vote shares (M: 40, N: 35, O: 15, P: 10), so no single winner takes all the seats.",
+      "fact": "Seats distributed: M: 40; N: 35; O: 15; P: 10. Power is shared proportionately.",
+      "hint": "PR is about sharing seats in proportion to votes, not winner-takes-all."
+    },
+    {
+      "id": "civ7-022",
+      "type": "wrongstatement",
+      "topic": "Why Elections Matter",
+      "difficulty": "medium",
+      "q": "Which of these statements about why elections matter is INCORRECT?",
+      "options": [
+        "Elected representatives are accountable to the people.",
+        "A government cannot continue beyond its prescribed term without seeking the people's mandate again.",
+        "We can exercise our choice even if only one political party is contesting the election.",
+        "Periodic elections let citizens participate in choosing those who make decisions on their behalf."
+      ],
+      "answer": 2,
+      "explanation": "The chapter answers 'No' to whether choice is possible when only one party contests, because a real choice requires more than one contender — that is why periodic, competitive elections matter.",
+      "fact": "Can we exercise our choice if only one political party is contesting the election? The answer is No."
+    },
+    {
+      "id": "civ7-023",
+      "type": "assertion",
+      "topic": "First-Past-The-Post System",
+      "difficulty": "medium",
+      "q": "Assertion (A): The framers of India's Constitution chose the First-Past-The-Post system.\nReason (R): They discussed the two most common electoral systems before ultimately choosing the plurality system.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true: the framers compared the two most common electoral systems and picked the plurality (FPTP) system, so the discussion described in R directly explains the choice made in A.",
+      "fact": "The framers of our Constitution discussed the two most common electoral systems and ultimately chose the plurality system, also known as FPTP."
+    },
+    {
+      "id": "civ7-024",
+      "type": "assertion",
+      "topic": "Electoral Systems Usage",
+      "difficulty": "hard",
+      "q": "Assertion (A): Members of the Lok Sabha are elected through the system of proportional representation.\nReason (R): Elections to the Rajya Sabha and to the President and Vice President are conducted using proportional representation.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "A is false because Lok Sabha members are elected through FPTP; R is true because the Rajya Sabha, Presidential and Vice-Presidential elections do use proportional representation.",
+      "fact": "We elect members of the Lok Sabha and the Vidhan Sabha using the FPTP, and the elections to the Rajya Sabha and those of the President and the Vice President are conducted using proportional representation."
+    },
+    {
+      "id": "civ7-025",
+      "type": "assertion",
+      "topic": "Proportional Representation",
+      "difficulty": "medium",
+      "q": "Assertion (A): In a proportional representation system, power is shared proportionately.\nReason (R): Seats are allotted in proportion to the total votes received by each party.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both statements are true, and R is the exact mechanism behind A: because seats go to parties in proportion to their votes, power ends up being shared proportionately, as shown by Swarnalok's results.",
+      "fact": "Seats in the Parliament are allotted in proportion to the total votes received by each party. Power is shared proportionately."
+    }
+  ]
+}

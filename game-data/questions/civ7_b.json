@@ -1,0 +1,365 @@
+{
+  "chapterId": "civ7",
+  "fragment": "b",
+  "questions": [
+    {
+      "id": "civ7-026",
+      "type": "mcq",
+      "topic": "Electoral Systems Usage",
+      "difficulty": "easy",
+      "q": "Which of these elections in India is conducted using proportional representation?",
+      "options": [
+        "Lok Sabha elections",
+        "Vidhan Sabha elections",
+        "Panchayat elections",
+        "Rajya Sabha elections"
+      ],
+      "answer": 3,
+      "explanation": "Lok Sabha and Vidhan Sabha elections use FPTP, while Rajya Sabha elections and the Presidential and Vice-Presidential elections use proportional representation.",
+      "fact": "The elections to the Rajya Sabha and those of the President and the Vice President are conducted using the system of proportional representation."
+    },
+    {
+      "id": "civ7-027",
+      "type": "mcq",
+      "topic": "Bicameral State Legislatures",
+      "difficulty": "easy",
+      "q": "Which of these states has a bicameral legislature?",
+      "options": [
+        "Punjab",
+        "Uttar Pradesh",
+        "Gujarat",
+        "Odisha"
+      ],
+      "answer": 1,
+      "explanation": "Uttar Pradesh is one of the six states, along with Andhra Pradesh, Bihar, Karnataka, Maharashtra and Telangana, whose legislature has two houses, the Vidhan Parishad and the Vidhan Sabha.",
+      "fact": "In six states — Andhra Pradesh, Bihar, Karnataka, Maharashtra, Telangana, and Uttar Pradesh — the legislature has a bicameral structure."
+    },
+    {
+      "id": "civ7-028",
+      "type": "mcq",
+      "topic": "Vidhan Parishad Composition",
+      "difficulty": "medium",
+      "q": "Who nominates some members to the Vidhan Parishad to represent fields such as art, science and literature?",
+      "options": [
+        "The President of India",
+        "The Chief Minister",
+        "The Governor of the State",
+        "The Chief Electoral Officer"
+      ],
+      "answer": 2,
+      "explanation": "The Governor of the State nominates some Vidhan Parishad members to represent fields like art, science, social service, literature and co-operatives; the rest are elected by Vidhan Sabha members, local bodies, graduates and teachers.",
+      "fact": "The Governor of the State nominates some members to represent fields such as art, science, social service, literature, and co-operatives."
+    },
+    {
+      "id": "civ7-029",
+      "type": "mcq",
+      "topic": "Delimitation Commission",
+      "difficulty": "medium",
+      "q": "According to the chapter, what problem arises without delimitation?",
+      "options": [
+        "One MP might represent five lakh people while another represents twenty-five lakh",
+        "Voters would not get identity cards",
+        "Political parties would not receive election symbols",
+        "Elections would have to be held every year"
+      ],
+      "answer": 0,
+      "explanation": "Without delimitation, constituencies can become very unequal in population, so one MP might represent five lakh people and another twenty-five lakh, defeating the objective of equal representation.",
+      "fact": "Without delimitation, one MP might represent five lakh people, while another might represent twenty-five lakh, defeating the objective of equal representation."
+    },
+    {
+      "id": "civ7-030",
+      "type": "mcq",
+      "topic": "RPA 1951 Provisions",
+      "difficulty": "medium",
+      "q": "What does the Representation of the People Act, 1951 mainly deal with?",
+      "options": [
+        "Allocation of seats and delimitation of constituencies",
+        "All other aspects of the conduct of elections and post-election disputes",
+        "Appointing the Election Commissioners of India",
+        "Deciding the number of polling stations in each village"
+      ],
+      "answer": 1,
+      "explanation": "While the RPA 1950 covers seats, delimitation and electoral rolls, the RPA 1951 covers everything else, including nominations, campaigns, voting procedures and the resolution of post-election disputes.",
+      "fact": "The Representation of the People Act, 1951 deals with all the other aspects of the conduct of elections and post-election disputes."
+    },
+    {
+      "id": "civ7-031",
+      "type": "mcq",
+      "topic": "Presidential Elections",
+      "difficulty": "easy",
+      "q": "Which law exists for the elections of the President and the Vice President of India?",
+      "options": [
+        "The Representation of the People Act, 1950",
+        "The Presidential and Vice-Presidential Act, 1952",
+        "The Representation of the People Act, 1951",
+        "The Anti-Defection Law, 1985"
+      ],
+      "answer": 1,
+      "explanation": "Along with the Representation of the People Acts of 1950 and 1951, there exists the Presidential and Vice-Presidential Act, 1952, which governs the elections to these two highest offices.",
+      "fact": "There also exists 'The Presidential and Vice-Presidential Act, 1952'."
+    },
+    {
+      "id": "civ7-032",
+      "type": "mcq",
+      "topic": "Single Transferable Vote",
+      "difficulty": "medium",
+      "q": "In the single transferable vote system, what happens to the votes of the candidate who is eliminated?",
+      "options": [
+        "They are cancelled and removed from the count",
+        "They are transferred to the second preference marked on those ballot papers",
+        "They are added to the winner's total",
+        "They are counted twice in the next round"
+      ],
+      "answer": 1,
+      "explanation": "In STV, the lowest-polling candidate is eliminated and their votes are transferred to the candidates marked as second preference on those ballot papers; the process continues until the required number of candidates are elected.",
+      "fact": "Their votes are transferred to those who are mentioned as second preference on those ballot papers."
+    },
+    {
+      "id": "civ7-033",
+      "type": "mcq",
+      "topic": "State Election Machinery",
+      "difficulty": "medium",
+      "q": "State Government officers such as District Magistrates and Tahsildars are assigned election duties by designating them as:",
+      "options": [
+        "Election Commissioners of India",
+        "Governors and Chief Justices",
+        "District Election Officers, Returning Officers and Electoral Registration Officers",
+        "Cabinet Secretaries"
+      ],
+      "answer": 2,
+      "explanation": "Officers like District Magistrates, Sub-Divisional Magistrates and Tahsildars are given election work as District Election Officers, Returning Officers and Electoral Registration Officers under the ECI's overall supervision.",
+      "fact": "Various State Government officers, such as District Magistrates, Sub-Divisional Magistrates, and Tahsildars, are assigned election duties by designating them as District Election Officers, Returning Officers, Electoral Registration Officers."
+    },
+    {
+      "id": "civ7-034",
+      "type": "truefalse",
+      "topic": "Vidhan Parishad Composition",
+      "difficulty": "hard",
+      "q": "The Vidhan Parishad consists only of members elected by the Vidhan Sabha.",
+      "answer": "false",
+      "explanation": "The Vidhan Parishad draws members from several sources: representatives elected by Vidhan Sabha members and local bodies, graduates and teachers of the State, and some members nominated by the Governor.",
+      "fact": "The Vidhan Parishad consists of representatives elected by the members of the Vidhan Sabha and local bodies, and also by graduates and teachers, plus members nominated by the Governor."
+    },
+    {
+      "id": "civ7-035",
+      "type": "truefalse",
+      "topic": "Bicameral State Legislatures",
+      "difficulty": "easy",
+      "q": "In six states of India, the legislature has a bicameral structure.",
+      "answer": "true",
+      "explanation": "Andhra Pradesh, Bihar, Karnataka, Maharashtra, Telangana and Uttar Pradesh have bicameral legislatures, with the Vidhan Parishad as the Upper House and the Vidhan Sabha as the Lower House.",
+      "fact": "In six states the legislature has a bicameral structure, with the Vidhan Parishad as the Upper House and the Vidhan Sabha as the Lower House."
+    },
+    {
+      "id": "civ7-036",
+      "type": "truefalse",
+      "topic": "Electoral Offences",
+      "difficulty": "easy",
+      "q": "Under the RPA 1951, appealing to people to vote or refrain from voting on the basis of religion or caste is a corrupt practice.",
+      "answer": "true",
+      "explanation": "The RPA 1951 lists electoral offences and corrupt practices, which include appealing for votes on grounds of religion, caste, race, community or language.",
+      "fact": "Appealing people to vote or refrain from voting on the basis of religion, caste, race, community, or language is a listed corrupt practice."
+    },
+    {
+      "id": "civ7-037",
+      "type": "truefalse",
+      "topic": "Election Laws",
+      "difficulty": "easy",
+      "q": "Together, the Representation of the People Acts of 1950 and 1951 ensure the integrity, transparency and accountability of India's electoral process.",
+      "answer": "true",
+      "explanation": "The two Acts complement each other, with the 1950 Act covering seats, delimitation and rolls, and the 1951 Act covering the conduct of elections and disputes; together they keep the process honest and open.",
+      "fact": "Together, these Acts ensure the integrity, transparency, and accountability of India's electoral process."
+    },
+    {
+      "id": "civ7-038",
+      "type": "fillblank",
+      "topic": "Delimitation Commission",
+      "difficulty": "easy",
+      "q": "The process of determining the number of seats and fixing the territorial boundaries in each state for elections is called ___.",
+      "answerVariants": ["delimitation", "Delimitation"],
+      "explanation": "Delimitation fixes how many seats each state gets and where constituency boundaries lie, so that the ratio of seats to population stays as equal as possible.",
+      "fact": "Delimitation is the process of determining the number of seats and fixing the territorial boundaries in each state."
+    },
+    {
+      "id": "civ7-039",
+      "type": "fillblank",
+      "topic": "Election Commission of India",
+      "difficulty": "easy",
+      "q": "The ECI is an autonomous permanent ___ body.",
+      "answerVariants": ["constitutional", "Constitutional"],
+      "explanation": "The Election Commission of India is an autonomous permanent constitutional body, created by the Constitution and independent of the government of the day.",
+      "fact": "The ECI is an autonomous permanent constitutional body."
+    },
+    {
+      "id": "civ7-040",
+      "type": "fillblank",
+      "topic": "Single Transferable Vote",
+      "difficulty": "hard",
+      "q": "In the STV system, the quota is calculated by dividing the total valid votes by the ___.",
+      "answerVariants": ["seats to be filled", "seats", "number of seats to be filled", "Seats to be filled"],
+      "explanation": "The quota, which is the minimum number of votes needed to win, equals the total valid votes divided by the seats to be filled; a candidate who reaches this quota is declared elected.",
+      "fact": "Quota = Total valid votes divided by seats to be filled; it is the minimum votes required to win.",
+      "hint": "The formula has two parts: the votes cast, and how many positions are being filled."
+    },
+    {
+      "id": "civ7-041",
+      "type": "match",
+      "topic": "Election Laws and Bodies",
+      "difficulty": "medium",
+      "q": "Match each law or body with its main function.",
+      "pairs": [
+        {"l": "Representation of the People Act, 1950", "r": "Allocation of seats and delimitation of constituencies"},
+        {"l": "Representation of the People Act, 1951", "r": "Conduct of elections and post-election disputes"},
+        {"l": "Presidential and Vice-Presidential Act, 1952", "r": "Law for the President and Vice President's elections"},
+        {"l": "Delimitation Commission", "r": "Fixes the number of seats and boundaries of constituencies"},
+        {"l": "Election Commission of India", "r": "Superintendence, direction and control of the entire election process"}
+      ],
+      "explanation": "Each law and body has a distinct role: the RPA 1950 handles seats and rolls, the RPA 1951 handles conduct and disputes, the 1952 Act covers the top two offices, while the Delimitation Commission and the ECI carry out boundary-fixing and election management respectively.",
+      "fact": "The RPA 1950 deals with allocation of seats and delimitation; the RPA 1951 with the conduct of elections and disputes; the Constitution vests superintendence, direction and control of elections in the ECI."
+    },
+    {
+      "id": "civ7-042",
+      "type": "order",
+      "topic": "Delimitation Commissions",
+      "difficulty": "easy",
+      "q": "Arrange India's Delimitation Commissions in chronological order.",
+      "orderItems": [
+        "First Delimitation Commission (1952)",
+        "Second Delimitation Commission (1963)",
+        "Third Delimitation Commission (1973)",
+        "Fourth Delimitation Commission (2002)"
+      ],
+      "explanation": "India has had four Delimitation Commissions, set up in 1952, 1963, 1973 and 2002, each redrawing constituency boundaries to match population shifts.",
+      "fact": "India has had four Delimitation Commissions — in 1952, 1963, 1973, and 2002."
+    },
+    {
+      "id": "civ7-043",
+      "type": "order",
+      "topic": "Electoral Process Stages",
+      "difficulty": "medium",
+      "q": "Arrange these stages of the electoral process in the order listed in the chapter.",
+      "orderItems": [
+        "Updating electoral rolls",
+        "Candidate nominations",
+        "Regulating campaigns",
+        "Counting of votes",
+        "Declaration of election results"
+      ],
+      "explanation": "The chapter lists the ECI's work in sequence: rolls are updated first, nominations are filed, campaigns are regulated, and finally votes are counted and results declared.",
+      "fact": "The ECI's functions include updating electoral rolls, candidate nominations, regulating campaigns, counting of votes, and declaration of election results."
+    },
+    {
+      "id": "civ7-044",
+      "type": "multiselect",
+      "topic": "RPA 1950 Provisions",
+      "difficulty": "easy",
+      "q": "Select all correct: the Representation of the People Act, 1950 deals with —",
+      "options": [
+        "Resolution of post-election disputes",
+        "Allocation of seats",
+        "Delimitation of constituencies",
+        "Preparation and revision of electoral rolls"
+      ],
+      "answerIndices": [1, 2, 3],
+      "explanation": "The RPA 1950 handles the allocation of seats, delimitation of constituencies and electoral rolls, including the right of every citizen above 18 to vote without discrimination; post-election disputes fall under the RPA 1951.",
+      "fact": "The Representation of the People Act, 1950 deals mainly with the allocation of seats and delimitation of constituencies, the preparation and revision of electoral rolls, and voting rights for citizens above 18."
+    },
+    {
+      "id": "civ7-045",
+      "type": "multiselect",
+      "topic": "Electoral Offences",
+      "difficulty": "hard",
+      "q": "Select all correct: which of these are electoral offences or corrupt practices under the RPA 1951?",
+      "options": [
+        "A gift, offer or promise by a candidate to influence voting",
+        "Holding organisational elections within a party",
+        "Appealing to vote on the basis of religion or caste",
+        "Taking assistance from government-related personnel for a candidate"
+      ],
+      "answerIndices": [0, 2, 3],
+      "explanation": "The RPA 1951 bans inducements such as gifts or promises, appeals based on religion or caste, and the use of government personnel like gazetted officers, judges, magistrates, armed forces, police and excise officers to help a candidate.",
+      "fact": "Electoral offences include gifts or promises to influence voting, appeals based on religion or caste, and assistance from government-related personnel.",
+      "hint": "Holding internal party elections is something the ECI actually insists upon."
+    },
+    {
+      "id": "civ7-046",
+      "type": "wrongstatement",
+      "topic": "Election Laws",
+      "difficulty": "hard",
+      "q": "Which of these statements about India's election laws is INCORRECT?",
+      "options": [
+        "The RPA 1951 is the law that created the Election Commission of India.",
+        "The RPA 1950 deals with the allocation of seats and delimitation of constituencies.",
+        "The RPA 1950 ensures every citizen above 18 years of age the right to vote without discrimination.",
+        "The RPA 1951 lays down rules for nomination of candidates and election campaigns."
+      ],
+      "answer": 0,
+      "explanation": "The ECI was not created by the RPA 1951; it is an autonomous permanent constitutional body established on 25 January 1950 under Articles 324 to 329 of the Constitution.",
+      "fact": "Articles 324 to 329 of the Constitution provide for the establishment of an ECI and define its powers and duties."
+    },
+    {
+      "id": "civ7-047",
+      "type": "wrongstatement",
+      "topic": "Delimitation Commission",
+      "difficulty": "hard",
+      "q": "Which of these statements about delimitation is INCORRECT?",
+      "options": [
+        "Delimitation determines the number of seats and fixes territorial boundaries in each state.",
+        "Article 82 mandates that constituency boundaries must never be redrawn.",
+        "India has had four Delimitation Commissions, in 1952, 1963, 1973 and 2002.",
+        "Delimitation aims to keep the ratio of seats to population as equal as possible."
+      ],
+      "answer": 1,
+      "explanation": "Article 82 mandates the establishment of a Delimitation Commission; it does not freeze boundaries. In fact, constituency boundaries change over time with shifts in population density.",
+      "fact": "Article 82 of the Constitution of India mandates the establishment of a Delimitation Commission; boundaries of constituencies change over time."
+    },
+    {
+      "id": "civ7-048",
+      "type": "assertion",
+      "topic": "Delimitation Commission",
+      "difficulty": "medium",
+      "q": "Assertion (A): India has had four Delimitation Commissions so far.\nReason (R): Article 82 of the Constitution mandates the establishment of a Delimitation Commission.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both statements are true, since commissions were set up in 1952, 1963, 1973 and 2002, but the constitutional provision in R does not explain how many commissions were actually appointed, so R does not explain A.",
+      "fact": "India has had four Delimitation Commissions, in 1952, 1963, 1973, and 2002. Article 82 mandates the establishment of a Delimitation Commission."
+    },
+    {
+      "id": "civ7-049",
+      "type": "assertion",
+      "topic": "Vidhan Parishad Elections",
+      "difficulty": "hard",
+      "q": "Assertion (A): Elections to the Vidhan Parishad are held under proportional representation by means of a single transferable vote.\nReason (R): The Vidhan Parishad is the Upper House in the six states that have a bicameral legislature.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both statements are true, since Vidhan Parishad elections do use PR through STV and the Parishad is the Upper House in the six bicameral states, but its position as Upper House does not explain why the STV system is used.",
+      "fact": "The elections to the Vidhan Parishad are held under the system of proportional representation by means of a single transferable vote."
+    },
+    {
+      "id": "civ7-050",
+      "type": "assertion",
+      "topic": "Election Laws",
+      "difficulty": "hard",
+      "q": "Assertion (A): The Representation of the People Act, 1951 mainly deals with the allocation of seats and delimitation of constituencies.\nReason (R): The Representation of the People Act, 1950 deals with the allocation of seats and delimitation of constituencies.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "answer": 3,
+      "explanation": "A is false because the RPA 1951 deals with the conduct of elections and post-election disputes; R is true because allocation of seats and delimitation are handled by the RPA 1950.",
+      "fact": "The RPA 1950 deals with allocation of seats and delimitation of constituencies, while the RPA 1951 deals with all other aspects of the conduct of elections."
+    }
+  ]
+}
